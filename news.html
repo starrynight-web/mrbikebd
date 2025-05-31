@@ -2,45 +2,155 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MrBikeBD News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Latest Bike News - Mr. Bike BD</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f3f3f3;
+      color: #333;
     }
+
     header {
       background-color: #d32f2f;
       color: white;
-      padding: 20px 0;
+      padding: 30px 20px;
       text-align: center;
     }
-    .container {
-      width: 90%;
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px 0;
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
     }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
     .news-card {
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
       overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
     }
+
+    .news-card:hover {
+      transform: translateY(-4px);
+    }
+
     .news-card img {
       width: 100%;
       height: auto;
     }
+
     .news-content {
-      padding: 15px;
+      padding: 20px;
     }
+
     .news-title {
-      font-size: 20px;
-      color: #333;
+      font-size: 22px;
+      color: #c62828;
       margin-bottom: 10px;
     }
+
     .news-meta {
-      font-size
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 12px;
+    }
+
+    .news-description {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .back-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto;
+      padding: 12px 25px;
+      background-color: #d32f2f;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #b71c1c;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Latest Bike News</h1>
+    <p>Stay updated with the newest launches, reviews, and price changes</p>
+  </header>
+
+  <div class="container">
+    <!-- Article 1 -->
+    <div class="news-card">
+      <img src="https://via.placeholder.com/1000x400?text=Yamaha+MT-15+2025" alt="Yamaha MT-15">
+      <div class="news-content">
+        <div class="news-title">Yamaha MT-15 2025 Edition Unveiled</div>
+        <div class="news-meta">Posted on May 30, 2025 | By MrBikeBD</div>
+        <div class="news-description">
+          Yamaha has launched the updated MT-15 with a refined engine, dual-channel ABS, and aggressive new graphics. The streetfighter now offers even more bang for the buck in the 150cc segment.
+        </div>
+      </div>
+    </div>
+
+    <!-- Article 2 -->
+    <div class="news-card">
+      <img src="https://via.placeholder.com/1000x400?text=Suzuki+Gixxer+SF" alt="Suzuki Gixxer SF 2025">
+      <div class="news-content">
+        <div class="news-title">Suzuki Gixxer SF 2025: First Look</div>
+        <div class="news-meta">Posted on May 28, 2025 | By Staff Reporter</div>
+        <div class="news-description">
+          The 2025 Suzuki Gixxer SF brings sportier styling, updated digital console, and better aerodynamics. With a powerful 155cc engine, it's geared toward performance lovers.
+        </div>
+      </div>
+    </div>
+
+    <!-- Article 3 -->
+    <div class="news-card">
+      <img src="https://via.placeholder.com/1000x400?text=Honda+CB+Hornet+160R" alt="Honda Hornet">
+      <div class="news-content">
+        <div class="news-title">Honda CB Hornet 160R Returning to Bangladesh Market</div>
+        <div class="news-meta">Posted on May 25, 2025 | By Admin</div>
+        <div class="news-description">
+          Honda is bringing back the Hornet 160R to the Bangladesh market with new design, LED lighting, and a BS6-compliant engine. Expected launch in early June.
+        </div>
+      </div>
+    </div>
+
+    <a class="back-button" href="index.html">← Back to Home</a>
+  </div>
+
+  <footer>
+    &copy; 2025 MrBikeBD. All rights reserved.
+  </footer>
+
+</body>
+</html>
