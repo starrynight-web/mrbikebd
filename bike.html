@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Check On-Road Price</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+    }
+    .price-checker {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<div class="price-checker">
+  <h2>Check On-Road Price</h2>
+
+  <!-- Brand Dropdown -->
+  <select id="brandSelect">
+    <option value="">Select Brand</option>
+    <option value="Yamaha">Yamaha</option>
+    <option value="Honda">Honda</option>
+    <option value="Suzuki">Suzuki</option>
+    <option value="TVS">TVS</option>
+    <option value="Bajaj">Bajaj</option>
+    <option value="Hero">Hero</option>
+    <option value="Runner">Runner</option>
+    <option value="Lifan">Lifan</option>
+    <option value="Keeway">Keeway</option>
+    <option value="Haojue">Haojue</option>
+  </select>
+
+  <!-- City Dropdown -->
+  <select id="citySelect">
+    <option value="">Select City</option>
+    <option value="Dhaka">Dhaka</option>
+    <option value="Chattogram">Chattogram</option>
+    <option value="Khulna">Khulna</option>
+    <option value="Rajshahi">Rajshahi</option>
+    <option value="Sylhet">Sylhet</option>
+    <option value="Barisal">Barisal</option>
+    <option value="Rangpur">Rangpur</option>
+    <option value="Mymensingh">Mymensingh</option>
+    <option value="Cumilla">Cumilla</option>
+    <option value="Narayanganj">Narayanganj</option>
+    <option value="Gazipur">Gazipur</option>
+    <option value="Jessore">Jessore</option>
+    <option value="Bogura">Bogura</option>
+    <option value="Cox's Bazar">Cox's Bazar</option>
+  </select>
+
+  <!-- Dealer Dropdown -->
+  <select id="dealerSelect">
+    <option value="">Select Outlet</option>
+    <option value="official1">Official Dealer 1</option>
+    <option value="official2">Official Dealer 2</option>
+    <option value="official3">Official Dealer 3</option>
+    <option value="official4">Official Dealer 4</option>
+    <option value="unofficial1">Unofficial Dealer 1</option>
+    <option value="unofficial2">Unofficial Dealer 2</option>
+    <option value="unofficial3">Unofficial Dealer 3</option>
+    <option value="unofficial4">Unofficial Dealer 4</option>
+  </select>
+
+  <button onclick="checkPrice()">Check Price</button>
+
+  <div class="result" id="priceResult"></div>
+</div>
+
+<script>
+  const basePrices = {
+    Yamaha: 525000,
+    Honda: 420000,
+    Suzuki: 460000,
+    TVS: 395000,
+    Bajaj: 410000,
+    Hero: 385000,
+    Runner: 345000,
+    Lifan: 365000,
+    Keeway: 370000,
+    Haojue: 360000
+  };
+
+  const dealerModifiers = {
+    official1: 1.00,
+    official2: 1.00,
+    official3: 1.00,
+    official4: 1.00,
+    unofficial1: 0.95,
+    unofficial2: 0.93,
+    unofficial3: 0.92,
+    unofficial4: 0.90
+  };
+
+  function checkPrice() {
+    const brand = document.getElementById("brandSelect").value;
+    const dealer = document.getElementById("dealerSelect").value;
+    const city = document.getElementById("citySelect").value;
+    const result = document.getElementById("priceResult");
+
+    if (!brand || !dealer || !city) {
+      result.textContent = "Please select all fields.";
+      return;
+    }
+
+    const basePrice = basePrices[brand];
+    const modifier = dealerModifiers[dealer];
+    const finalPrice = Math.round(basePrice * modifier);
+
+    result.textContent = `Estimated On-Road Price in ${city}: ৳${finalPrice.toLocaleString()} BDT`;
+  }
+</script>
+
+</body>
+</html>
