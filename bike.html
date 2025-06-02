@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bike Price Checker</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body, html {
       margin: 0;
       padding: 0;
@@ -12,28 +16,28 @@
     }
 
     .brand-filter {
-      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center/cover;
+      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center / cover;
       position: relative;
-      min-height: 100vh;
+      min-height: 110vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 60px 20px;
+      padding: 60px 20px 100px;
     }
 
     .overlay-box {
-      background: rgba(180, 180, 180, 0.6); /* Ash color with transparency */
-      padding: 40px;
+      background: rgba(180, 180, 180, 0.6);
+      padding: 40px 20px;
       border-radius: 12px;
-      max-width: 800px;
       width: 100%;
+      max-width: 800px;
       backdrop-filter: blur(6px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
     .overlay-box h2 {
       text-align: center;
-      font-size: 28px;
+      font-size: 1.8rem;
       color: #000;
       margin-bottom: 30px;
     }
@@ -47,32 +51,67 @@
 
     select {
       flex: 1 1 30%;
-      padding: 10px;
-      font-size: 16px;
-      background-color: rgba(255, 255, 255, 0.4);
-      border: 1px solid #999;
+      min-width: 200px;
+      padding: 14px;
+      font-size: 1rem;
+      background-color: rgba(255, 255, 255, 0.95);
+      border: 1px solid #ccc;
       border-radius: 6px;
       color: #000;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-align: left;
+      height: 48px;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path fill="%23000" d="M0 0l5 6 5-6z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      background-size: 10px 6px;
+    }
+
+    select:focus {
+      background-color: #fff;
+      outline: none;
+      border-color: #555;
     }
 
     button {
-      padding: 12px 24px;
-      font-size: 16px;
+      margin-top: 30px;
+      padding: 14px 28px;
+      font-size: 1rem;
       background-color: #000;
       color: #fff;
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      margin-top: 30px;
+      transition: background-color 0.3s ease;
     }
 
     button:hover {
       background-color: #333;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
+      select {
+        flex: 1 1 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .overlay-box {
+        padding: 30px 15px;
+      }
+
       select {
         flex: 1 1 100%;
+      }
+
+      .overlay-box h2 {
+        font-size: 1.5rem;
+      }
+
+      button {
+        width: 100%;
       }
     }
   </style>
@@ -82,24 +121,29 @@
   <section class="brand-filter">
     <div class="overlay-box">
       <h2>Select Your Bike Info</h2>
-
       <form>
-        <!-- Brand -->
+        <!-- Select Brand -->
         <select name="brand" required>
           <option disabled selected>Select Brand</option>
           <option>Yamaha</option>
           <option>Honda</option>
-          <option>TVS</option>
-          <option>Hero</option>
           <option>Suzuki</option>
-          <option>Runner</option>
+          <option>Hero</option>
+          <option>TVS</option>
           <option>Bajaj</option>
+          <option>CFMoto</option>
+          <option>Royal Enfield</option>
+          <option>Runner Automobiles</option>
+          <option>Walton</option>
+          <option>Lifan</option>
+          <option>Zontas</option>
           <option>Keeway</option>
-          <option>Aprilia</option>
-          <option>GPX</option>
+          <option>KTM</option>
+          <option>Benelli</option>
+          <option>Aprilla</option>
         </select>
 
-        <!-- City -->
+        <!-- Select City -->
         <select name="city" required>
           <option disabled selected>Select City</option>
           <option>Dhaka</option>
@@ -118,17 +162,11 @@
           <option>Dinajpur</option>
         </select>
 
-        <!-- Outlet -->
+        <!-- Select Outlet Preference -->
         <select name="outlet" required>
-          <option disabled selected>Select Outlet</option>
-          <option>Yamaha Official</option>
-          <option>Honda Official</option>
-          <option>TVS Official</option>
-          <option>Hero Official</option>
-          <option>City Motors</option>
-          <option>BD Auto Deals</option>
-          <option>Dhaka Motors</option>
-          <option>Rider's Point</option>
+          <option disabled selected>Select Outlet Preference</option>
+          <option>Official</option>
+          <option>Unofficial</option>
         </select>
       </form>
 
