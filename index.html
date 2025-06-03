@@ -1,10 +1,150 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Bike BD</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  
+  <button class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  
+  <nav id="sidebar" class="sidebar">
+    <button class="close-btn" onclick="toggleMenu()"><i class="fas fa-times"></i></button>
+    
+    <a href="#"><i class="fas fa-home"></i> Home</a>
+
+    <div>
+      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
+        <i class="fas fa-motorcycle"></i> New Bikes <i class="fas fa-chevron-down"></i>
+      </a>
+      <div class="submenu">
+        <a href="#">By Brand</a>
+        <a href="#">By Budget</a>
+      </div>
+    </div>
+
+    <div>
+      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
+        <i class="fas fa-scooter"></i> New Scooters <i class="fas fa-chevron-down"></i>
+      </a>
+      <div class="submenu">
+        <a href="#">Scooter Brands</a>
+        <a href="#">Electric Scooters</a>
+      </div>
+    </div>
+
+    <a href="#"><i class="fas fa-bolt"></i> Electric Bikes</a>
+    <a href="#"><i class="fas fa-balance-scale"></i> Compare Bikes</a>
+    <a href="#"><i class="fas fa-wallet"></i> Bike Loan</a>
+    <a href="#"><i class="fas fa-sync-alt"></i> Used Bikes</a>
+
+    <div>
+      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
+        <i class="fas fa-rupee-sign"></i> Sell Bikes <i class="fas fa-chevron-down"></i>
+      </a>
+      <div class="submenu">
+        <a href="#">Sell Now</a>
+        <a href="#">Dealer Listings</a>
+      </div>
+    </div>
+
+    <a href="#"><i class="fas fa-star"></i> Reviews</a>
+
+    <div>
+      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
+        <i class="fas fa-newspaper"></i> News, Videos & Tips <i class="fas fa-chevron-down"></i>
+      </a>
+      <div class="submenu">
+        <a href="#">Latest News</a>
+        <a href="#">Bike Tips</a>
+      </div>
+    </div>
+
+    <a href="#"><i class="fas fa-calculator"></i> EMI Calculator</a>
+    <a href="#"><i class="fas fa-user"></i> Login</a>
+    <a href="#"><i class="fas fa-language"></i> Language</a>
+  </nav>
+
+  
+  <header style="padding: 60px 15px 20px; background-color: #f9f9f9;">
+    <h1>Welcome to Mr. Bike BD</h1>
+    <p>Your trusted source for motorcycle news, updates & reviews in Bangladesh.</p>
+  </header>
+
+ 
+  <main class="container" style="padding: 20px;">
+    <p>Explore latest models and price updates from Bangladesh's motorbike market.</p>
+    <a href="#" class="news-button">See More</a>
+  </main>
+
+  
+  <footer>
+    <hr>
+    <div class="social-title">Join our social media</div>
+    <div class="responsive-stack">
+      <div class="social-icons">
+        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="images/icons/x.svg" alt="X"></a>
+        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram"></a>
+      </div>
+
+      <div class="nav-links">
+        <a href="#">About Us</a>
+        <a href="#">News</a>
+        <a href="#">Advertise</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="copyright-section">
+      <div>&copy; Mr BikeBD</div>
+      <div>
+        <a href="#">Privacy Policy</a> & <a href="#">User Agreement</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+      <span>A Project Of </span>
+      <a href="https://unleft.godaddysites.com" target="_blank">UNLEFT</a><br>
+      <a href="#">Contact Us</a>
+    </div>
+  </footer>
+
+  
+  <script>
+    function toggleMenu() {
+      document.getElementById('sidebar').classList.toggle('open');
+    }
+    function toggleDropdown(el) {
+      el.classList.toggle('open');
+      const submenu = el.nextElementSibling;
+      if (submenu && submenu.classList.contains('submenu')) {
+        submenu.classList.toggle('open');
+      }
+    }
+  </script>
+
+</body>
+</html>
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mr. Bike BD</title><!-- Add this in your <head> section -->
-
 
   <link rel="stylesheet" href="style.css" />
   <style>
@@ -78,54 +218,35 @@
     <p>All the available bike models at Bangladesh.</p>
     <a href="bike.html" class="news-button">Check Bikes</a>
   </div>
-
- <footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
+<footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
   <div style="max-width: 1200px; margin: auto;">
 
-    <!-- First Divider -->
     <hr style="border: none; border-top: 2px solid #fff; margin: 0 0 15px;">
 
-    <!-- Join Social Heading -->
-    <div style="font-weight: bold; font-size: 20px; text-align: left; margin-bottom: 10px;">
+    <div class="social-title" style="font-weight: bold; font-size: 24px; text-align: left; margin-bottom: 10px;">
       Join our social media
     </div>
 
-    <!-- Social and Navigation Section -->
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
-
-      <!-- Social Media Icons -->
-      <div style="display: flex; flex-wrap: wrap; gap: 15px;">
-        <a href="#" target="_blank" title="Facebook">
-          <img src="images/icons/facebook.svg" alt="Facebook" style="width: 24px; height: auto; filter: invert(1);">
-        </a>
-        <a href="#" target="_blank" title="YouTube">
-          <img src="images/icons/youtube.svg" alt="YouTube" style="width: 24px; height: auto; filter: invert(1);">
-        </a>
-        <a href="#" target="_blank" title="Instagram">
-          <img src="images/icons/instagram.svg" alt="Instagram" style="width: 24px; height: auto; filter: invert(1);">
-        </a>
-        <a href="#" target="_blank" title="X (Twitter)">
-          <img src="images/icons/x.svg" alt="X" style="width: 24px; height: auto; filter: invert(1);">
-        </a>
-        <a href="#" target="_blank" title="Telegram">
-          <img src="images/icons/telegram.svg" alt="Telegram" style="width: 24px; height: auto; filter: invert(1);">
-        </a>
+    <div class="responsive-stack" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
+      <div class="social-icons" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 10px;">
+        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/x.svg" alt="X" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram" style="width: 24px; filter: invert(1);"></a>
       </div>
 
-      <!-- Navigation Links -->
-      <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="nav-links" style="display: flex; flex-direction: row; gap: 10px; margin-top: 5px;">
         <a href="about.html" style="color: #fff; text-decoration: none;">About Us</a>
         <a href="site.html" style="color: #fff; text-decoration: none;">Our Pages</a>
-        <a href="news.html" style="color: #fff; text-decoration: none;">News</a>
+        <a href="news.html" style="color: #fff; text-decoration: none;">News & Affairs</a>
         <a href="advertise.html" style="color: #fff; text-decoration: none;">Advertise</a>
       </div>
     </div>
 
-    <!-- Second Divider -->
     <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
 
-    <!-- Copyright & Policies -->
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;">
+    <div class="copyright-section" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;">
       <div style="font-weight: bold;">&copy;Mr BikeBD</div>
       <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         <a href="privacy.html" style="color: #bbb; text-decoration: none;">Privacy Policy</a>
@@ -134,10 +255,8 @@
       </div>
     </div>
 
-    <!-- Final Divider -->
     <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
 
-    <!-- Project Info -->
     <div style="text-align: center; font-size: 18px;">
       <span style="color: #bbb;">A Project Of </span>
       <a href="https://unleft.godaddysites.com" target="_blank" style="color: #bbb; text-decoration: none;">UNLEFT</a>
@@ -147,6 +266,7 @@
 
   </div>
 </footer>
+
 
 </body>
 </html>
