@@ -24,7 +24,7 @@
       background: rgba(180, 180, 180, 0.6);
       padding: 30px;
       border-radius: 12px;
-      max-width: 800px;
+      max-width: 900px;
       width: 100%;
       backdrop-filter: blur(6px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -53,7 +53,7 @@
       border-radius: 6px;
       color: #000;
       appearance: none;
-      background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='16' height='16' fill='black' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4z'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg fill='black' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-position: right 12px center;
       background-size: 12px;
@@ -76,20 +76,22 @@
 
     #result {
       margin-top: 30px;
-      color: #000;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 
     .outlet {
       background: #fff;
-      margin: 12px 0;
-      padding: 16px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
 
-    .outlet:hover {
-      transform: translateY(-4px);
+    .outlet a {
+      color: blue;
+      text-decoration: underline;
     }
 
     @media (max-width: 600px) {
@@ -158,53 +160,29 @@
   </section>
 
   <script>
-    const outletData = [
-      {
-        brand: "Honda",
-        city: "Dhaka",
-        type: "Official",
-        name: "Honda Showroom Banani",
-        address: "House 21, Road 11, Banani, Dhaka",
-        phone: "017XXXXXXXX",
-        mapLink: "https://maps.google.com/?q=Banani+Honda+Showroom"
-      },
-      {
-        brand: "Yamaha",
-        city: "Chittagong",
-        type: "Official",
-        name: "Yamaha CTG Motors",
-        address: "GEC Circle, Chittagong",
-        phone: "018XXXXXXXX",
-        mapLink: "https://maps.google.com/?q=Yamaha+GEC+Chittagong"
-      },
-      {
-        brand: "Suzuki",
-        city: "Khulna",
-        type: "Unofficial",
-        name: "Suzuki Bikes Khulna",
-        address: "Main Road, Khulna",
-        phone: "019XXXXXXXX",
-        mapLink: "https://maps.google.com/?q=Suzuki+Khulna+Showroom"
-      },
-      {
-        brand: "TVS",
-        city: "Rajshahi",
-        type: "Official",
-        name: "Rajshahi TVS House",
-        address: "Zero Point, Rajshahi",
-        phone: "016XXXXXXXX",
-        mapLink: "https://maps.google.com/?q=Rajshahi+TVS"
-      },
-      {
-        brand: "Bajaj",
-        city: "Sylhet",
-        type: "Unofficial",
-        name: "Sylhet Bajaj Bikes",
-        address: "Zindabazar, Sylhet",
-        phone: "015XXXXXXXX",
-        mapLink: "https://maps.google.com/?q=Bajaj+Sylhet+Showroom"
+    const outletData = [];
+
+    const brands = ["Yamaha", "Honda", "Suzuki", "Hero", "TVS", "Bajaj", "CFMoto", "Royal Enfield", "Runner Automobiles", "Walton", "Lifan", "Zontas", "Keeway", "KTM", "Benelli", "Aprilla"];
+    const cities = ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Barishal", "Sylhet", "Rangpur", "Mymensingh", "Comilla", "Narayanganj", "Gazipur", "Bogra", "Jessore", "Dinajpur"];
+    const types = ["Official", "Unofficial"];
+
+    for (let brand of brands) {
+      for (let city of cities) {
+        for (let type of types) {
+          for (let i = 1; i <= 5; i++) {
+            outletData.push({
+              brand,
+              city,
+              type,
+              name: `${brand} ${type} Showroom ${i}`,
+              address: `${city} Area ${i}`,
+              phone: `01XXXXXXXX${i}`,
+              map: `https://maps.google.com/?q=${encodeURIComponent(`${brand} ${city} Outlet ${i}`)}`
+            });
+          }
+        }
       }
-    ];
+    }
 
     function showOutlets() {
       const brand = document.getElementById("brand").value;
@@ -226,12 +204,12 @@
         return;
       }
 
-      result.innerHTML = "<h3>Available Outlets:</h3>" + matches.map(o =>
+      result.innerHTML = matches.map(o =>
         `<div class="outlet">
           <strong>${o.name}</strong><br/>
-          🏠 ${o.address}<br/>
-          ☎️ ${o.phone}<br/>
-          📍 <a href="${o.mapLink}" target="_blank" style="color: blue; text-decoration: underline;">View on Google Maps</a>
+          Address: ${o.address}<br/>
+          Phone: ${o.phone}<br/>
+          <a href="${o.map}" target="_blank">View on Google Maps</a>
         </div>`
       ).join("");
     }
