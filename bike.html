@@ -2,13 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bike Price Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bike Outlet Selector</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body, html {
       margin: 0;
       padding: 0;
@@ -16,30 +12,29 @@
     }
 
     .brand-filter {
-      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center / cover;
-      position: relative;
-      min-height: 110vh;
+      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center/cover;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 60px 20px 100px;
+      padding: 60px 20px;
     }
 
     .overlay-box {
       background: rgba(180, 180, 180, 0.6);
-      padding: 40px 20px;
+      padding: 30px;
       border-radius: 12px;
-      width: 100%;
       max-width: 800px;
+      width: 100%;
       backdrop-filter: blur(6px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
-    .overlay-box h2 {
+    h2 {
       text-align: center;
-      font-size: 1.8rem;
+      font-size: 28px;
       color: #000;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     form {
@@ -51,79 +46,60 @@
 
     select {
       flex: 1 1 30%;
-      min-width: 200px;
-      padding: 14px;
-      font-size: 1rem;
-      background-color: rgba(255, 255, 255, 0.95);
-      border: 1px solid #ccc;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #fff;
+      border: 1px solid #999;
       border-radius: 6px;
       color: #000;
       appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      text-align: left;
-      height: 48px;
-      background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path fill="%23000" d="M0 0l5 6 5-6z"/></svg>');
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='16' height='16' fill='black' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4z'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
-      background-position: right 14px center;
-      background-size: 10px 6px;
-    }
-
-    select:focus {
-      background-color: #fff;
-      outline: none;
-      border-color: #555;
+      background-position: right 12px center;
+      background-size: 12px;
     }
 
     button {
-      margin-top: 30px;
-      padding: 14px 28px;
-      font-size: 1rem;
+      padding: 12px 24px;
+      font-size: 16px;
       background-color: #000;
       color: #fff;
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      margin-top: 20px;
     }
 
     button:hover {
       background-color: #333;
     }
 
-    @media (max-width: 768px) {
-      select {
-        flex: 1 1 45%;
-      }
+    #result {
+      margin-top: 30px;
+      color: #000;
     }
 
-    @media (max-width: 480px) {
-      .overlay-box {
-        padding: 30px 15px;
-      }
+    .outlet {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
 
+    @media (max-width: 600px) {
       select {
         flex: 1 1 100%;
-      }
-
-      .overlay-box h2 {
-        font-size: 1.5rem;
-      }
-
-      button {
-        width: 100%;
       }
     }
   </style>
 </head>
 <body>
-
   <section class="brand-filter">
     <div class="overlay-box">
       <h2>Select Your Bike Info</h2>
-      <form>
-        <!-- Select Brand -->
-        <select name="brand" required>
+      <form id="bikeForm">
+        <select id="brand" required>
           <option disabled selected>Select Brand</option>
           <option>Yamaha</option>
           <option>Honda</option>
@@ -143,27 +119,14 @@
           <option>Aprilla</option>
         </select>
 
-        <!-- Select City -->
-        <select name="city" required>
+        <select id="city" required>
           <option disabled selected>Select City</option>
           <option>Dhaka</option>
           <option>Chittagong</option>
           <option>Khulna</option>
-          <option>Rajshahi</option>
-          <option>Barisal</option>
-          <option>Sylhet</option>
-          <option>Rangpur</option>
-          <option>Mymensingh</option>
-          <option>Comilla</option>
-          <option>Narayanganj</option>
-          <option>Gazipur</option>
-          <option>Bogra</option>
-          <option>Jessore</option>
-          <option>Dinajpur</option>
         </select>
 
-        <!-- Select Outlet Preference -->
-        <select name="outlet" required>
+        <select id="preference" required>
           <option disabled selected>Select Outlet Preference</option>
           <option>Official</option>
           <option>Unofficial</option>
@@ -171,10 +134,80 @@
       </form>
 
       <div style="text-align: center;">
-        <button type="submit">Continue for more</button>
+        <button onclick="showOutlets()">Continue for more</button>
       </div>
+
+      <div id="result"></div>
     </div>
   </section>
 
+  <script>
+    const outletData = [
+      // Yamaha - Dhaka
+      { brand: "Yamaha", city: "Dhaka", type: "Official", name: "Yamaha Tejgaon", address: "Tejgaon", phone: "01234-000001" },
+      { brand: "Yamaha", city: "Dhaka", type: "Official", name: "Yamaha Gulshan", address: "Gulshan 1", phone: "01234-000002" },
+      { brand: "Yamaha", city: "Dhaka", type: "Official", name: "Yamaha Dhanmondi", address: "Dhanmondi", phone: "01234-000003" },
+      { brand: "Yamaha", city: "Dhaka", type: "Official", name: "Yamaha Mirpur", address: "Mirpur 10", phone: "01234-000004" },
+      { brand: "Yamaha", city: "Dhaka", type: "Official", name: "Yamaha Uttara", address: "Uttara", phone: "01234-000005" },
+      { brand: "Yamaha", city: "Dhaka", type: "Unofficial", name: "Biketown BD", address: "Badda", phone: "01888-111111" },
+      { brand: "Yamaha", city: "Dhaka", type: "Unofficial", name: "Rider's Shop", address: "Farmgate", phone: "01888-111112" },
+      { brand: "Yamaha", city: "Dhaka", type: "Unofficial", name: "Speed Riders", address: "Mohakhali", phone: "01888-111113" },
+      { brand: "Yamaha", city: "Dhaka", type: "Unofficial", name: "Bike Plus", address: "Shyamoli", phone: "01888-111114" },
+      { brand: "Yamaha", city: "Dhaka", type: "Unofficial", name: "Moto House", address: "Banani", phone: "01888-111115" },
+
+      // Honda - Chittagong
+      { brand: "Honda", city: "Chittagong", type: "Official", name: "Honda Agrabad", address: "Agrabad", phone: "01700-200001" },
+      { brand: "Honda", city: "Chittagong", type: "Official", name: "Honda GEC", address: "GEC Circle", phone: "01700-200002" },
+      { brand: "Honda", city: "Chittagong", type: "Official", name: "Honda Muradpur", address: "Muradpur", phone: "01700-200003" },
+      { brand: "Honda", city: "Chittagong", type: "Official", name: "Honda Oxyzen", address: "Oxyzen", phone: "01700-200004" },
+      { brand: "Honda", city: "Chittagong", type: "Official", name: "Honda Patenga", address: "Patenga", phone: "01700-200005" },
+      { brand: "Honda", city: "Chittagong", type: "Unofficial", name: "Speed Wheels", address: "Lalkhan Bazar", phone: "01700-300001" },
+      { brand: "Honda", city: "Chittagong", type: "Unofficial", name: "Moto Gallery", address: "Pahartali", phone: "01700-300002" },
+      { brand: "Honda", city: "Chittagong", type: "Unofficial", name: "RideWorld", address: "Nasirabad", phone: "01700-300003" },
+      { brand: "Honda", city: "Chittagong", type: "Unofficial", name: "Turbo Motors", address: "Bayezid", phone: "01700-300004" },
+      { brand: "Honda", city: "Chittagong", type: "Unofficial", name: "MotorX", address: "Halishahar", phone: "01700-300005" },
+
+      // Suzuki - Khulna
+      { brand: "Suzuki", city: "Khulna", type: "Official", name: "Suzuki Khulna 1", address: "Shibbari", phone: "01600-500001" },
+      { brand: "Suzuki", city: "Khulna", type: "Official", name: "Suzuki Khulna 2", address: "Sonadanga", phone: "01600-500002" },
+      { brand: "Suzuki", city: "Khulna", type: "Official", name: "Suzuki Khulna 3", address: "New Market", phone: "01600-500003" },
+      { brand: "Suzuki", city: "Khulna", type: "Official", name: "Suzuki Khulna 4", address: "Daulatpur", phone: "01600-500004" },
+      { brand: "Suzuki", city: "Khulna", type: "Official", name: "Suzuki Khulna 5", address: "Boyra", phone: "01600-500005" },
+      { brand: "Suzuki", city: "Khulna", type: "Unofficial", name: "Bike Zone", address: "Khalishpur", phone: "01600-600001" },
+      { brand: "Suzuki", city: "Khulna", type: "Unofficial", name: "Auto Hub", address: "Rupsha", phone: "01600-600002" },
+      { brand: "Suzuki", city: "Khulna", type: "Unofficial", name: "Moto Fair", address: "Batiaghata", phone: "01600-600003" },
+      { brand: "Suzuki", city: "Khulna", type: "Unofficial", name: "Speed Riders", address: "Phultala", phone: "01600-600004" },
+      { brand: "Suzuki", city: "Khulna", type: "Unofficial", name: "Bike Town Khulna", address: "Terkhada", phone: "01600-600005" },
+    ];
+
+    function showOutlets() {
+      const brand = document.getElementById("brand").value;
+      const city = document.getElementById("city").value;
+      const preference = document.getElementById("preference").value;
+      const result = document.getElementById("result");
+
+      if (!brand || !city || !preference) {
+        result.innerHTML = "<p>Please select all fields.</p>";
+        return;
+      }
+
+      const matches = outletData.filter(o =>
+        o.brand === brand && o.city === city && o.type === preference
+      );
+
+      if (matches.length === 0) {
+        result.innerHTML = "<p>No outlets found for this selection.</p>";
+        return;
+      }
+
+      result.innerHTML = "<h3>Available Outlets:</h3>" + matches.map(o =>
+        `<div class="outlet">
+          <strong>${o.name}</strong><br/>
+          Address: ${o.address}<br/>
+          Phone: ${o.phone}
+        </div>`
+      ).join("");
+    }
+  </script>
 </body>
 </html>
