@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bike Price Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Outlet Selector</title>
   <style>
     body, html {
       margin: 0;
@@ -17,7 +17,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 40px 15px;
+      padding: 60px 20px;
     }
 
     .overlay-box {
@@ -30,39 +30,42 @@
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
-    .overlay-box h2 {
+    h2 {
       text-align: center;
-      font-size: 26px;
+      font-size: 28px;
       color: #000;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
 
     form {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 20px;
       justify-content: center;
     }
 
-    select, button {
+    select {
       flex: 1 1 30%;
-      padding: 10px;
+      padding: 12px;
       font-size: 16px;
-      border-radius: 6px;
+      background-color: #fff;
       border: 1px solid #999;
-      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 6px;
       color: #000;
       appearance: none;
-    }
-
-    select:focus, button:focus {
-      outline: none;
-      border-color: #333;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='16' height='16' fill='black' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      background-size: 12px;
     }
 
     button {
+      padding: 12px 24px;
+      font-size: 16px;
       background-color: #000;
       color: #fff;
+      border: none;
+      border-radius: 8px;
       cursor: pointer;
       margin-top: 20px;
     }
@@ -71,17 +74,26 @@
       background-color: #333;
     }
 
-    #outlet-details {
+    #result {
       margin-top: 30px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
       color: #000;
-      font-size: 15px;
+    }
+
+    .outlet {
+      background: #fff;
+      margin: 12px 0;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .outlet:hover {
+      transform: translateY(-4px);
     }
 
     @media (max-width: 600px) {
-      select, button {
+      select {
         flex: 1 1 100%;
       }
     }
@@ -91,9 +103,8 @@
   <section class="brand-filter">
     <div class="overlay-box">
       <h2>Select Your Bike Info</h2>
-
       <form id="bikeForm">
-        <select name="brand" id="brandSelect" required>
+        <select id="brand" required>
           <option disabled selected>Select Brand</option>
           <option>Yamaha</option>
           <option>Honda</option>
@@ -113,7 +124,7 @@
           <option>Aprilla</option>
         </select>
 
-        <select name="city" id="citySelect" required>
+        <select id="city" required>
           <option disabled selected>Select City</option>
           <option>Dhaka</option>
           <option>Chittagong</option>
@@ -131,56 +142,99 @@
           <option>Dinajpur</option>
         </select>
 
-        <select name="preference" id="preferenceSelect" required>
+        <select id="preference" required>
           <option disabled selected>Select Outlet Preference</option>
-          <option value="Official">Official</option>
-          <option value="Unofficial">Unofficial</option>
+          <option>Official</option>
+          <option>Unofficial</option>
         </select>
-
-        <button type="submit">Continue for More</button>
       </form>
 
-      <div id="outlet-details"></div>
+      <div style="text-align: center;">
+        <button onclick="showOutlets()">Continue for more</button>
+      </div>
+
+      <div id="result"></div>
     </div>
   </section>
 
   <script>
-    const form = document.getElementById('bikeForm');
-    const details = document.getElementById('outlet-details');
+    const outletData = [
+      {
+        brand: "Honda",
+        city: "Dhaka",
+        type: "Official",
+        name: "Honda Showroom Banani",
+        address: "House 21, Road 11, Banani, Dhaka",
+        phone: "017XXXXXXXX",
+        mapLink: "https://maps.google.com/?q=Banani+Honda+Showroom"
+      },
+      {
+        brand: "Yamaha",
+        city: "Chittagong",
+        type: "Official",
+        name: "Yamaha CTG Motors",
+        address: "GEC Circle, Chittagong",
+        phone: "018XXXXXXXX",
+        mapLink: "https://maps.google.com/?q=Yamaha+GEC+Chittagong"
+      },
+      {
+        brand: "Suzuki",
+        city: "Khulna",
+        type: "Unofficial",
+        name: "Suzuki Bikes Khulna",
+        address: "Main Road, Khulna",
+        phone: "019XXXXXXXX",
+        mapLink: "https://maps.google.com/?q=Suzuki+Khulna+Showroom"
+      },
+      {
+        brand: "TVS",
+        city: "Rajshahi",
+        type: "Official",
+        name: "Rajshahi TVS House",
+        address: "Zero Point, Rajshahi",
+        phone: "016XXXXXXXX",
+        mapLink: "https://maps.google.com/?q=Rajshahi+TVS"
+      },
+      {
+        brand: "Bajaj",
+        city: "Sylhet",
+        type: "Unofficial",
+        name: "Sylhet Bajaj Bikes",
+        address: "Zindabazar, Sylhet",
+        phone: "015XXXXXXXX",
+        mapLink: "https://maps.google.com/?q=Bajaj+Sylhet+Showroom"
+      }
+    ];
 
-    const outlets = {
-      Official: [
-        "Auto Galaxy - Certified Showroom",
-        "SpeedZone Ltd. - Official Dealer",
-        "MotoPro Bangladesh - Authorized Outlet",
-        "Rider's Arena - Factory Approved",
-        "Urban Bikes Ltd. - Official Distribution"
-      ],
-      Unofficial: [
-        "City Wheels - Independent Seller",
-        "RoadStar Motors - Local Dealership",
-        "BikeBazaar BD - Reseller",
-        "Wheely Deals - Third-party Vendor",
-        "MotoMart - Grey Market Seller"
-      ]
-    };
+    function showOutlets() {
+      const brand = document.getElementById("brand").value;
+      const city = document.getElementById("city").value;
+      const preference = document.getElementById("preference").value;
+      const result = document.getElementById("result");
 
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
+      if (!brand || !city || !preference) {
+        result.innerHTML = "<p>Please select all fields.</p>";
+        return;
+      }
 
-      const brand = document.getElementById('brandSelect').value;
-      const city = document.getElementById('citySelect').value;
-      const preference = document.getElementById('preferenceSelect').value;
+      const matches = outletData.filter(o =>
+        o.brand === brand && o.city === city && o.type === preference
+      );
 
-      if (!brand || !city || !preference) return;
+      if (matches.length === 0) {
+        result.innerHTML = "<p>No outlets found for this selection.</p>";
+        return;
+      }
 
-      let html = `<h3>Showing 5 ${preference} Showrooms in ${city} for ${brand}:</h3><ul>`;
-      outlets[preference].forEach(outlet => {
-        html += `<li>${outlet}</li>`;
-      });
-      html += '</ul>';
-      details.innerHTML = html;
-    });
+      result.innerHTML = "<h3>Available Outlets:</h3>" + matches.map(o =>
+        `<div class="outlet">
+          <strong>${o.name}</strong><br/>
+          🏠 ${o.address}<br/>
+          ☎️ ${o.phone}<br/>
+          📍 <a href="${o.mapLink}" target="_blank" style="color: blue; text-decoration: underline;">View on Google Maps</a>
+        </div>`
+      ).join("");
+    }
   </script>
 </body>
 </html>
