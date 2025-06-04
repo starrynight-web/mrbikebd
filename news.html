@@ -4,10 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Latest Bike News - Mr. Bike BD</title>
-  <!-- Add this in your <head> section -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 
   <style>
+    .hamburger {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 1001;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 25px;
+      height: 18px;
+    }
+    .hamburger span {
+      background: #333;
+      height: 3px;
+      width: 100%;
+      transition: all 0.3s;
+    }
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+    /* Sidebar Navigation */
+    .sidebar {
+      position: fixed;
+      left: -250px;
+      top: 0;
+      height: 100%;
+      width: 250px;
+      background: #fff;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      transition: left 0.3s ease;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar.active {
+      left: 0;
+    }
+
+    .sidebar .logo {
+      text-align: center;
+      padding: 40px 0 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .sidebar .logo img {
+      width: 120px;
+      height: auto;
+    }
+
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      border-bottom: 1px solid #eee;
+    }
+    .sidebar a i {
+      margin-right: 10px;
+      min-width: 20px;
+    }
+
+    /* Main Content */
+    .content {
+      padding: 20px;
+      margin-left: 0;
+      transition: margin-left 0.3s;
+    }
+    .sidebar.active ~ .content {
+      margin-left: 250px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .sidebar.active ~ .content {
+        margin-left: 0;
+      }
+    }
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -95,17 +183,33 @@
       background-color: #b71c1c;
     }
 
-    footer {
-      background-color: #222;
-      color: #ccc;
-      text-align: center;
-      padding: 20px;
-      margin-top: 50px;
-    }
+    
   </style>
 </head>
 <body>
+<div class="hamburger" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
+<!-- Sidebar Menu -->
+<nav class="sidebar" id="sidebar">
+  <!-- Logo Section -->
+  <div class="logo">
+    <a href="#"><img src="images/logo.png" alt="Logo" /></a>
+  </div>
+
+  <!-- Navigation Links -->
+  <a href="#"><i class="fas fa-home"></i> Home</a>
+  <a href="#"><i class="fas fa-motorcycle"></i> New Bikes</a>
+  <a href="#"><i class="fas fa-scooter"></i> New Scooters</a>
+  <a href="#"><i class="fas fa-bolt"></i> Electric Bikes</a>
+  <a href="#"><i class="fas fa-code-compare"></i> Compare Bikes</a>
+  <a href="#"><i class="fas fa-university"></i> Bike Loan</a>
+  <a href="#"><i class="fas fa-sync-alt"></i> Used Bikes</a>
+  <a href="#"><i class="fas fa-hand-holding-usd"></i> Sell Bikes</a>
+</nav>
   <header>
     <h1>Latest Bike News</h1>
     <p>Stay updated with the newest launches, reviews, and price changes</p>
@@ -220,6 +324,6 @@
   </div>
 </footer>
 
-
+<script src="main.js"></script>
 </body>
 </html>
