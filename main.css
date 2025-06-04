@@ -1,4 +1,4 @@
-/* HAMBURGER ICON */
+/* HAMBURGER ICON 
 .hamburger {
   position: fixed;
   top: 15px;
@@ -27,7 +27,7 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* SIDEBAR */
+ SIDEBAR 
 .sidebar {
   position: fixed;
   left: -250px;
@@ -67,7 +67,7 @@
   min-width: 20px;
 }
 
-/* RESPONSIVE CONTENT SHIFT (optional) */
+
 .content {
   padding: 20px;
   margin-left: 0;
@@ -81,7 +81,7 @@
     margin-left: 0;
   }
 }
-
+*/  
 footer {
   background-color: #1e1e1e;
   color: #fff;
