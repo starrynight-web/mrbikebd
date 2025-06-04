@@ -1,152 +1,13 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mr. Bike BD</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
-
-  
-  <button class="menu-toggle" onclick="toggleMenu()">
-    <i class="fas fa-bars"></i>
-  </button>
-
-  
-  <nav id="sidebar" class="sidebar">
-    <button class="close-btn" onclick="toggleMenu()"><i class="fas fa-times"></i></button>
-    
-    <a href="#"><i class="fas fa-home"></i> Home</a>
-
-    <div>
-      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
-        <i class="fas fa-motorcycle"></i> New Bikes <i class="fas fa-chevron-down"></i>
-      </a>
-      <div class="submenu">
-        <a href="#">By Brand</a>
-        <a href="#">By Budget</a>
-      </div>
-    </div>
-
-    <div>
-      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
-        <i class="fas fa-scooter"></i> New Scooters <i class="fas fa-chevron-down"></i>
-      </a>
-      <div class="submenu">
-        <a href="#">Scooter Brands</a>
-        <a href="#">Electric Scooters</a>
-      </div>
-    </div>
-
-    <a href="#"><i class="fas fa-bolt"></i> Electric Bikes</a>
-    <a href="#"><i class="fas fa-balance-scale"></i> Compare Bikes</a>
-    <a href="#"><i class="fas fa-wallet"></i> Bike Loan</a>
-    <a href="#"><i class="fas fa-sync-alt"></i> Used Bikes</a>
-
-    <div>
-      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
-        <i class="fas fa-rupee-sign"></i> Sell Bikes <i class="fas fa-chevron-down"></i>
-      </a>
-      <div class="submenu">
-        <a href="#">Sell Now</a>
-        <a href="#">Dealer Listings</a>
-      </div>
-    </div>
-
-    <a href="#"><i class="fas fa-star"></i> Reviews</a>
-
-    <div>
-      <a class="dropdown-toggle" onclick="toggleDropdown(this)">
-        <i class="fas fa-newspaper"></i> News, Videos & Tips <i class="fas fa-chevron-down"></i>
-      </a>
-      <div class="submenu">
-        <a href="#">Latest News</a>
-        <a href="#">Bike Tips</a>
-      </div>
-    </div>
-
-    <a href="#"><i class="fas fa-calculator"></i> EMI Calculator</a>
-    <a href="#"><i class="fas fa-user"></i> Login</a>
-    <a href="#"><i class="fas fa-language"></i> Language</a>
-  </nav>
-
-  
-  <header style="padding: 60px 15px 20px; background-color: #f9f9f9;">
-    <h1>Welcome to Mr. Bike BD</h1>
-    <p>Your trusted source for motorcycle news, updates & reviews in Bangladesh.</p>
-  </header>
-
- 
-  <main class="container" style="padding: 20px;">
-    <p>Explore latest models and price updates from Bangladesh's motorbike market.</p>
-    <a href="#" class="news-button">See More</a>
-  </main>
-
-  
-  <footer>
-    <hr>
-    <div class="social-title">Join our social media</div>
-    <div class="responsive-stack">
-      <div class="social-icons">
-        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook"></a>
-        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube"></a>
-        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram"></a>
-        <a href="#"><img src="images/icons/x.svg" alt="X"></a>
-        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram"></a>
-      </div>
-
-      <div class="nav-links">
-        <a href="#">About Us</a>
-        <a href="#">News</a>
-        <a href="#">Advertise</a>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="copyright-section">
-      <div>&copy; Mr BikeBD</div>
-      <div>
-        <a href="#">Privacy Policy</a> & <a href="#">User Agreement</a>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="footer-bottom">
-      <span>A Project Of </span>
-      <a href="https://unleft.godaddysites.com" target="_blank">UNLEFT</a><br>
-      <a href="#">Contact Us</a>
-    </div>
-  </footer>
-
-  
-  <script>
-    function toggleMenu() {
-      document.getElementById('sidebar').classList.toggle('open');
-    }
-    function toggleDropdown(el) {
-      el.classList.toggle('open');
-      const submenu = el.nextElementSibling;
-      if (submenu && submenu.classList.contains('submenu')) {
-        submenu.classList.toggle('open');
-      }
-    }
-  </script>
-
-</body>
-</html>
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mr. Bike BD</title><!-- Add this in your <head> section -->
+  <title>Mr. Bike BD</title> Add this in your <head> section 
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       margin: 0;
@@ -194,17 +55,31 @@
       background-color: #b71c1c;
     }
 
-    footer {
-      background-color: #222;
-      color: #ccc;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
-    }
+    
   </style>
 </head>
 <body>
+<!-- Hamburger Icon -->
+<div class="hamburger" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
+<!-- Sidebar Menu -->
+<nav class="sidebar" id="sidebar">
+  <div class="logo">
+    <a href="#"><img src="images/logo.png" alt="Logo" /></a>
+  </div>
+  <a href="#"><i class="fas fa-home"></i> Home</a>
+  <a href="#"><i class="fas fa-motorcycle"></i> New Bikes</a>
+  <a href="#"><i class="fas fa-scooter"></i> New Scooters</a>
+  <a href="#"><i class="fas fa-bolt"></i> Electric Bikes</a>
+  <a href="#"><i class="fas fa-code-compare"></i> Compare Bikes</a>
+  <a href="#"><i class="fas fa-university"></i> Bike Loan</a>
+  <a href="#"><i class="fas fa-sync-alt"></i> Used Bikes</a>
+  <a href="#"><i class="fas fa-hand-holding-usd"></i> Sell Bikes</a>
+</nav>
   <header>
     <h1>Welcome to Mr. Bike BD</h1>
     <p>Your trusted source for motorcycle news, updates & reviews in Bangladesh.</p>
@@ -267,7 +142,7 @@
   </div>
 </footer>
 
-
+<script src="main.js"></script>
 </body>
 </html>
 
