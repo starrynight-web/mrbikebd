@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Outlet Selector</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .brand-filter {
+      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+    }
+
+    .overlay-box {
+      background: rgba(180, 180, 180, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 900px;
+      width: 100%;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    select {
+      flex: 1 1 30%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #fff;
+      border: 1px solid #999;
+      border-radius: 6px;
+      color: #000;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg fill='black' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      background-size: 12px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    #result {
+      margin-top: 30px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .outlet {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .outlet a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      select {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="brand-filter">
+    <div class="overlay-box">
+      <h2>Select Your Bike Info</h2>
+      <form id="bikeForm">
+        <select id="brand" required>
+          <option disabled selected>Select Brand</option>
+          <option>Yamaha</option>
+          <option>Honda</option>
+          <option>Suzuki</option>
+          <option>Hero</option>
+          <option>TVS</option>
+          <option>Bajaj</option>
+          <option>CFMoto</option>
+          <option>Royal Enfield</option>
+          <option>Runner Automobiles</option>
+          <option>Walton</option>
+          <option>Lifan</option>
+          <option>Zontas</option>
+          <option>Keeway</option>
+          <option>KTM</option>
+          <option>Benelli</option>
+          <option>Aprilla</option>
+        </select>
+
+        <select id="city" required>
+          <option disabled selected>Select City</option>
+          <option>Dhaka</option>
+          <option>Chittagong</option>
+          <option>Khulna</option>
+          <option>Rajshahi</option>
+          <option>Barishal</option>
+          <option>Sylhet</option>
+          <option>Rangpur</option>
+          <option>Mymensingh</option>
+          <option>Comilla</option>
+          <option>Narayanganj</option>
+          <option>Gazipur</option>
+          <option>Bogra</option>
+          <option>Jessore</option>
+          <option>Dinajpur</option>
+        </select>
+
+        <select id="preference" required>
+          <option disabled selected>Select Outlet Preference</option>
+          <option>Official</option>
+          <option>Unofficial</option>
+        </select>
+      </form>
+
+      <div style="text-align: center;">
+        <button onclick="showOutlets()">Continue for more</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+  </section>
+
+  <script>
+    const outletData = [];
+
+    const brands = ["Yamaha", "Honda", "Suzuki", "Hero", "TVS", "Bajaj", "CFMoto", "Royal Enfield", "Runner Automobiles", "Walton", "Lifan", "Zontas", "Keeway", "KTM", "Benelli", "Aprilla"];
+    const cities = ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Barishal", "Sylhet", "Rangpur", "Mymensingh", "Comilla", "Narayanganj", "Gazipur", "Bogra", "Jessore", "Dinajpur"];
+    const types = ["Official", "Unofficial"];
+
+    for (let brand of brands) {
+      for (let city of cities) {
+        for (let type of types) {
+          for (let i = 1; i <= 6; i++) {
+            outletData.push({
+              brand,
+              city,
+              type,
+              name: `${brand} ${type} Showroom ${i}`,
+              address: `${city} Area ${i}`,
+              phone: `01XXXXXXXX${i}`,
+              map: `https://maps.google.com/?q=${encodeURIComponent(`${brand} ${city} Outlet ${i}`)}`
+            });
+          }
+        }
+      }
+    }
+
+    function showOutlets() {
+      const brand = document.getElementById("brand").value;
+      const city = document.getElementById("city").value;
+      const preference = document.getElementById("preference").value;
+      const result = document.getElementById("result");
+
+      if (!brand || !city || !preference) {
+        result.innerHTML = "<p>Please select all fields.</p>";
+        return;
+      }
+
+      const matches = outletData.filter(o =>
+        o.brand === brand && o.city === city && o.type === preference
+      );
+
+      if (matches.length === 0) {
+        result.innerHTML = "<p>No outlets found for this selection.</p>";
+        return;
+      }
+
+      result.innerHTML = matches.map(o =>
+        `<div class="outlet">
+          <strong>${o.name}</strong><br/>
+          Address: ${o.address}<br/>
+          Phone: ${o.phone}<br/>
+          <a href="${o.map}" target="_blank">View on Google Maps</a>
+        </div>`
+      ).join("");
+    }
+  </script>
+</body>
+</html>
