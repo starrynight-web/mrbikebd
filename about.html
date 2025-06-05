@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>All Bike Models in Bangladesh</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Mr BikeBD</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-     .hamburger {
+    .hamburger {
       position: fixed;
       top: 15px;
       left: 15px;
@@ -71,7 +72,6 @@
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid #eee;
-      
     }
     .sidebar a i {
       margin-right: 10px;
@@ -92,6 +92,88 @@
     @media (max-width: 768px) {
       .sidebar.active ~ .content {
         margin-left: 0;
+      }
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #333;
+    }
+
+    header {
+      background: #1d976c;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #1d976c;
+      margin-top: 1.5rem;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+a {
+      color: #1d976c;
+      text-decoration: none;
+    }
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #1d976c;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #168f5e;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .buttons a {
+        text-align: center;
       }
     }
     .top-navbar {
@@ -137,57 +219,10 @@
         font-size: 16px;
       }
     }
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    .model-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    .model-card {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
-      width: 220px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      text-align: center;
-      background: #fff;
-    }
-    .model-card img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-    .model-card h4 {
-      margin: 10px 0 5px 0;
-      font-size: 16px;
-    }
-    .model-card p {
-      margin: 5px 0;
-      font-size: 14px;
-    }
-    .view-more-btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 6px 12px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .view-more-btn:hover {
-      background-color: #0056b3;
-    }
   </style>
 </head>
 <body>
-  <!-- Fixed Top Navbar -->
+<!-- Fixed Top Navbar -->
 <nav class="top-navbar">
   <div class="navbar-left">
     <span class="site-title">Mr. Bike BD</span>
@@ -224,30 +259,31 @@
   <a href="privacy.html"><i class="fas fa-sync-alt"></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-hand-holding-usd"></i> Terms & Conditions</a>
 </nav>
-  <h1>Available Bike Models in Bangladesh</h1>
+<header>
+  <h1>About Mr BikeBD</h1>
+</header>
 
-  <label for="brandFilter">Filter by Brand:</label>
-  <select id="brandFilter" onchange="filterModels()">
-    <option value="All">All</option>
-    <option value="Yamaha">Yamaha</option>
-    <option value="Honda">Honda</option>
-    <option value="Suzuki">Suzuki</option>
-    <option value="Hero">Hero</option>
-    <option value="TVS">TVS</option>
-    <option value="Bajaj">Bajaj</option>
-    <option value="CFMoto">CFMoto</option>
-    <option value="Royal Enfield">Royal Enfield</option>
-    <option value="Runner">Runner</option>
-    <option value="Walton">Walton</option>
-    <option value="Lifan">Lifan</option>
-    <option value="Zontes">Zontes</option>
-    <option value="Keeway">Keeway</option>
-    <option value="KTM">KTM</option>
-    <option value="Benelli">Benelli</option>
-    <option value="Aprilia">Aprilia</option>
-  </select>
+<div class="container">
+  <p><strong>Mr BikeBD</strong> is your one-stop destination for everything related to motorcycles in Bangladesh. Whether you're buying a new bike, staying updated on trends, or searching for showrooms—our goal is to give you clear, helpful, and trustworthy information.</p>
 
-  <div class="model-container" id="modelList"></div>
+  <h2>What We Do</h2>
+  <p>We provide specifications, prices, images, reviews, and comparisons for all motorcycles available in Bangladesh, including upcoming and trending models.</p>
+  <p>We've also listed official and unofficial showrooms based on Google search results to help you find bikes easily near you.</p>
+
+  <h2>Future Plans</h2>
+  <p>We are planning to launch a platform for users to sell their used bikes, allowing easy posting and searching directly on Mr BikeBD.</p>
+
+  <h2>Where We Get Our Info</h2>
+  <p>Our data is collected from Google, YouTube, brand websites, and ChatGPT, verified and organized for your convenience. We do our best to keep it accurate and up-to-date.</p>
+
+  <h2>Who We Are</h2>
+  <p>Mr BikeBD is a project of <strong><a href="https://unleft.godaddysites.com" target="_blank">UNLEFT</a></strong>, a growing digital initiative aiming to support helpful tools for everyday life in Bangladesh.</p>
+
+  <div class="buttons">
+    <a href="contact.html">Contact Us</a>
+    <a href="advertise.html">Advertisements</a>
+  </div>
+</div>
 <footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
   <div style="max-width: 1200px; margin: auto;">
 
@@ -296,43 +332,6 @@
 
   </div>
 </footer>
-  <script>
-    const models = [
-      { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/r15-v4.jpg', link: 'bike.html?model=r15-v4' },
-      { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'bike.html?model=fzs-v3' },
-      { name: 'CBR 150R', brand: 'Honda', price: '৳480,000', img: 'images/cbr150r.jpg', link: 'bike.html?model=cbr150r' },
-      { name: 'Gixxer SF', brand: 'Suzuki', price: '৳319,950', img: 'images/gixxer-sf.jpg', link: 'bike.html?model=gixxer-sf' },
-      { name: 'Apache RTR 160', brand: 'TVS', price: '৳197,999', img: 'images/apache-160.jpg', link: 'bike.html?model=apache-160' },
-      { name: 'Pulsar N160', brand: 'Bajaj', price: '৳289,900', img: 'images/pulsar-n160.jpg', link: 'bike.html?model=pulsar-n160' },
-      { name: 'Knight Rider V2', brand: 'Runner', price: '৳140,000', img: 'images/knight-rider.jpg', link: 'bike.html?model=knight-rider' },
-      { name: 'KPR 150', brand: 'Lifan', price: '৳210,000', img: 'images/kpr150.jpg', link: 'bike.html?model=kpr150' },
-      { name: 'RC 125', brand: 'KTM', price: '৳635,000', img: 'images/rc125.jpg', link: 'bike.html?model=rc125' }
-    ];
-
-    function renderModels(brand = "All") {
-      const container = document.getElementById("modelList");
-      container.innerHTML = "";
-      const filtered = brand === "All" ? models : models.filter(m => m.brand === brand);
-      filtered.forEach(m => {
-        container.innerHTML += `
-          <div class="model-card">
-            <img src="${m.img}" alt="${m.name}">
-            <h4>${m.name}</h4>
-            <p><strong>Brand:</strong> ${m.brand}</p>
-            <p><strong>Price:</strong> ${m.price}</p>
-            <a href="${m.link}" class="view-more-btn">View More</a>
-          </div>
-        `;
-      });
-    }
-
-    function filterModels() {
-      const selectedBrand = document.getElementById("brandFilter").value;
-      renderModels(selectedBrand);
-    }
-
-    renderModels();
-  </script>
-  <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

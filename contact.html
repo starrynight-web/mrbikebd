@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>All Bike Models in Bangladesh</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Mr BikeBD</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-     .hamburger {
+    .hamburger {
       position: fixed;
       top: 15px;
       left: 15px;
@@ -71,7 +72,6 @@
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid #eee;
-      
     }
     .sidebar a i {
       margin-right: 10px;
@@ -138,56 +138,137 @@
       }
     }
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+      color: #333;
     }
-    .model-container {
+
+    header {
+      background: linear-gradient(135deg, #1d976c, #93f9b9);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    input, textarea {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    button {
+      background-color: #1d976c;
+      color: white;
+      border: none;
+      padding: 14px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #168f5e;
+    }
+
+    .contact-methods {
+      margin-top: 2.5rem;
+    }
+
+    .contact-methods h3 {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .contact-methods p {
+      font-size: 1.05rem;
+    }
+
+    .contact-links {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 0.75rem;
     }
-    .model-card {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
-      width: 220px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+    .contact-links a {
+      flex: 1 1 220px;
       text-align: center;
-      background: #fff;
-    }
-    .model-card img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-    .model-card h4 {
-      margin: 10px 0 5px 0;
-      font-size: 16px;
-    }
-    .model-card p {
-      margin: 5px 0;
-      font-size: 14px;
-    }
-    .view-more-btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 6px 12px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
+      padding: 12px;
       text-decoration: none;
-      font-size: 14px;
+      color: white;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 1rem;
     }
-    .view-more-btn:hover {
-      background-color: #0056b3;
+
+    .email-link { background: #007BFF; }
+    .phone-link { background: #28A745; }
+    .facebook-link { background: #4267B2; }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+
+      .container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      .contact-links a {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Fixed Top Navbar -->
+<!-- Fixed Top Navbar -->
 <nav class="top-navbar">
   <div class="navbar-left">
     <span class="site-title">Mr. Bike BD</span>
@@ -224,30 +305,34 @@
   <a href="privacy.html"><i class="fas fa-sync-alt"></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-hand-holding-usd"></i> Terms & Conditions</a>
 </nav>
-  <h1>Available Bike Models in Bangladesh</h1>
+<header>
+  <h1>Contact Mr BikeBD</h1>
+</header>
 
-  <label for="brandFilter">Filter by Brand:</label>
-  <select id="brandFilter" onchange="filterModels()">
-    <option value="All">All</option>
-    <option value="Yamaha">Yamaha</option>
-    <option value="Honda">Honda</option>
-    <option value="Suzuki">Suzuki</option>
-    <option value="Hero">Hero</option>
-    <option value="TVS">TVS</option>
-    <option value="Bajaj">Bajaj</option>
-    <option value="CFMoto">CFMoto</option>
-    <option value="Royal Enfield">Royal Enfield</option>
-    <option value="Runner">Runner</option>
-    <option value="Walton">Walton</option>
-    <option value="Lifan">Lifan</option>
-    <option value="Zontes">Zontes</option>
-    <option value="Keeway">Keeway</option>
-    <option value="KTM">KTM</option>
-    <option value="Benelli">Benelli</option>
-    <option value="Aprilia">Aprilia</option>
-  </select>
+<div class="container">
+  <h2>We’d love to hear from you!</h2>
+  <p>Have a bike-related question, info to share, found an issue, or want to help improve our website? Drop us a message below:</p>
 
-  <div class="model-container" id="modelList"></div>
+  <form action="https://formsubmit.co/eashanoppo@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+
+    <!-- Hidden form config -->
+    <input type="hidden" name="_subject" value="New Message from Mr BikeBD Contact Form">
+    <input type="hidden" name="_captcha" value="false">
+  </form>
+
+  <div class="contact-methods">
+    <h3>Other Ways to Contact Us</h3>
+    <div class="contact-links">
+      <a href="mailto:contact@mrbikebd.com" class="email-link">Email Us</a>
+      <a href="tel:018xxxxxxxx" class="phone-link">Call Us</a>
+      <a href="https://www.facebook.com/groups/mrbikebd" target="_blank" class="facebook-link">Join Our Facebook Group</a>
+    </div>
+  </div>
+</div>
 <footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
   <div style="max-width: 1200px; margin: auto;">
 
@@ -296,43 +381,6 @@
 
   </div>
 </footer>
-  <script>
-    const models = [
-      { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/r15-v4.jpg', link: 'bike.html?model=r15-v4' },
-      { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'bike.html?model=fzs-v3' },
-      { name: 'CBR 150R', brand: 'Honda', price: '৳480,000', img: 'images/cbr150r.jpg', link: 'bike.html?model=cbr150r' },
-      { name: 'Gixxer SF', brand: 'Suzuki', price: '৳319,950', img: 'images/gixxer-sf.jpg', link: 'bike.html?model=gixxer-sf' },
-      { name: 'Apache RTR 160', brand: 'TVS', price: '৳197,999', img: 'images/apache-160.jpg', link: 'bike.html?model=apache-160' },
-      { name: 'Pulsar N160', brand: 'Bajaj', price: '৳289,900', img: 'images/pulsar-n160.jpg', link: 'bike.html?model=pulsar-n160' },
-      { name: 'Knight Rider V2', brand: 'Runner', price: '৳140,000', img: 'images/knight-rider.jpg', link: 'bike.html?model=knight-rider' },
-      { name: 'KPR 150', brand: 'Lifan', price: '৳210,000', img: 'images/kpr150.jpg', link: 'bike.html?model=kpr150' },
-      { name: 'RC 125', brand: 'KTM', price: '৳635,000', img: 'images/rc125.jpg', link: 'bike.html?model=rc125' }
-    ];
-
-    function renderModels(brand = "All") {
-      const container = document.getElementById("modelList");
-      container.innerHTML = "";
-      const filtered = brand === "All" ? models : models.filter(m => m.brand === brand);
-      filtered.forEach(m => {
-        container.innerHTML += `
-          <div class="model-card">
-            <img src="${m.img}" alt="${m.name}">
-            <h4>${m.name}</h4>
-            <p><strong>Brand:</strong> ${m.brand}</p>
-            <p><strong>Price:</strong> ${m.price}</p>
-            <a href="${m.link}" class="view-more-btn">View More</a>
-          </div>
-        `;
-      });
-    }
-
-    function filterModels() {
-      const selectedBrand = document.getElementById("brandFilter").value;
-      renderModels(selectedBrand);
-    }
-
-    renderModels();
-  </script>
-  <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

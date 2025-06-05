@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>All Bike Models in Bangladesh</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advertise with Mr BikeBD</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-     .hamburger {
+    .hamburger {
       position: fixed;
       top: 15px;
       left: 15px;
@@ -71,7 +72,6 @@
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid #eee;
-      
     }
     .sidebar a i {
       margin-right: 10px;
@@ -138,56 +138,96 @@
       }
     }
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
     }
-    .model-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    .model-card {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
-      width: 220px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+    header {
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
-      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .model-card img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
     }
-    .model-card h4 {
-      margin: 10px 0 5px 0;
-      font-size: 16px;
+
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
-    .model-card p {
-      margin: 5px 0;
-      font-size: 14px;
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: #444;
     }
-    .view-more-btn {
+
+    .container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info {
+      margin: 1.5rem 0;
+    }
+
+    .contact-info p {
+      font-size: 1.05rem;
+      margin: 0.5rem 0;
+    }
+
+    .whatsapp-button {
       display: inline-block;
-      margin-top: 10px;
-      padding: 6px 12px;
-      background-color: #007bff;
-      color: #fff;
+      padding: 12px 20px;
+      background-color: #25D366;
+      color: white;
       border: none;
       border-radius: 6px;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background 0.3s ease;
     }
-    .view-more-btn:hover {
-      background-color: #0056b3;
+
+    .whatsapp-button:hover {
+      background-color: #1ebf5d;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      .container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .whatsapp-button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+        font-size: 1.05rem;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Fixed Top Navbar -->
+<!-- Fixed Top Navbar -->
 <nav class="top-navbar">
   <div class="navbar-left">
     <span class="site-title">Mr. Bike BD</span>
@@ -224,30 +264,24 @@
   <a href="privacy.html"><i class="fas fa-sync-alt"></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-hand-holding-usd"></i> Terms & Conditions</a>
 </nav>
-  <h1>Available Bike Models in Bangladesh</h1>
+<header>
+  <h1>Advertise with Mr BikeBD</h1>
+</header>
 
-  <label for="brandFilter">Filter by Brand:</label>
-  <select id="brandFilter" onchange="filterModels()">
-    <option value="All">All</option>
-    <option value="Yamaha">Yamaha</option>
-    <option value="Honda">Honda</option>
-    <option value="Suzuki">Suzuki</option>
-    <option value="Hero">Hero</option>
-    <option value="TVS">TVS</option>
-    <option value="Bajaj">Bajaj</option>
-    <option value="CFMoto">CFMoto</option>
-    <option value="Royal Enfield">Royal Enfield</option>
-    <option value="Runner">Runner</option>
-    <option value="Walton">Walton</option>
-    <option value="Lifan">Lifan</option>
-    <option value="Zontes">Zontes</option>
-    <option value="Keeway">Keeway</option>
-    <option value="KTM">KTM</option>
-    <option value="Benelli">Benelli</option>
-    <option value="Aprilia">Aprilia</option>
-  </select>
+<div class="container">
+  <h2>Partner with Us</h2>
+  <p>Are you a bike brand, dealer, or service provider looking to promote your bikes and offers to thousands of visitors every month?</p>
+  <p>We offer homepage banner ads, brand highlights, launch coverage, and more.</p>
 
-  <div class="model-container" id="modelList"></div>
+  <div class="contact-info">
+    <p><strong>Phone:</strong> 018xx-xxxxxx</p>
+    <p><strong>Email:</strong> advertise@mrbikebd.com</p>
+  </div>
+
+  <a class="whatsapp-button" href="https://wa.me/8801234567890" target="_blank">
+    Message Us on WhatsApp
+  </a>
+</div>
 <footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
   <div style="max-width: 1200px; margin: auto;">
 
@@ -296,43 +330,6 @@
 
   </div>
 </footer>
-  <script>
-    const models = [
-      { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/r15-v4.jpg', link: 'bike.html?model=r15-v4' },
-      { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'bike.html?model=fzs-v3' },
-      { name: 'CBR 150R', brand: 'Honda', price: '৳480,000', img: 'images/cbr150r.jpg', link: 'bike.html?model=cbr150r' },
-      { name: 'Gixxer SF', brand: 'Suzuki', price: '৳319,950', img: 'images/gixxer-sf.jpg', link: 'bike.html?model=gixxer-sf' },
-      { name: 'Apache RTR 160', brand: 'TVS', price: '৳197,999', img: 'images/apache-160.jpg', link: 'bike.html?model=apache-160' },
-      { name: 'Pulsar N160', brand: 'Bajaj', price: '৳289,900', img: 'images/pulsar-n160.jpg', link: 'bike.html?model=pulsar-n160' },
-      { name: 'Knight Rider V2', brand: 'Runner', price: '৳140,000', img: 'images/knight-rider.jpg', link: 'bike.html?model=knight-rider' },
-      { name: 'KPR 150', brand: 'Lifan', price: '৳210,000', img: 'images/kpr150.jpg', link: 'bike.html?model=kpr150' },
-      { name: 'RC 125', brand: 'KTM', price: '৳635,000', img: 'images/rc125.jpg', link: 'bike.html?model=rc125' }
-    ];
-
-    function renderModels(brand = "All") {
-      const container = document.getElementById("modelList");
-      container.innerHTML = "";
-      const filtered = brand === "All" ? models : models.filter(m => m.brand === brand);
-      filtered.forEach(m => {
-        container.innerHTML += `
-          <div class="model-card">
-            <img src="${m.img}" alt="${m.name}">
-            <h4>${m.name}</h4>
-            <p><strong>Brand:</strong> ${m.brand}</p>
-            <p><strong>Price:</strong> ${m.price}</p>
-            <a href="${m.link}" class="view-more-btn">View More</a>
-          </div>
-        `;
-      });
-    }
-
-    function filterModels() {
-      const selectedBrand = document.getElementById("brandFilter").value;
-      renderModels(selectedBrand);
-    }
-
-    renderModels();
-  </script>
-  <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
