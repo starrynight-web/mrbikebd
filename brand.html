@@ -99,17 +99,45 @@
     .model-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 15px;
     }
     .model-card {
       border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      background: #fff;
+    }
+    .model-card img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
       border-radius: 8px;
-      padding: 10px;
-      width: 200px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 10px;
     }
     .model-card h4 {
-      margin: 0 0 5px 0;
+      margin: 10px 0 5px 0;
+      font-size: 16px;
+    }
+    .model-card p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .view-more-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .view-more-btn:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
@@ -211,52 +239,15 @@
 </footer>
   <script>
     const models = [
-      { name: 'R15 V4', brand: 'Yamaha' }, { name: 'R15M', brand: 'Yamaha' },
-      { name: 'MT-15 V2', brand: 'Yamaha' }, { name: 'FZS V3 ABS', brand: 'Yamaha' },
-      { name: 'FZS V4', brand: 'Yamaha' }, { name: 'FZ Fi V2', brand: 'Yamaha' },
-      { name: 'FZ Fi V3', brand: 'Yamaha' }, { name: 'FZ X 250', brand: 'Yamaha' },
-      { name: 'Fazer 25', brand: 'Yamaha' }, { name: 'XSR 155', brand: 'Yamaha' },
-      { name: 'Fascino', brand: 'Yamaha' }, { name: 'RayZR', brand: 'Yamaha' },
-      { name: 'CB Hornet 160R', brand: 'Honda' }, { name: 'XBlade', brand: 'Honda' },
-      { name: 'CB Shine SP', brand: 'Honda' }, { name: 'Livo', brand: 'Honda' },
-      { name: 'CBR 150R', brand: 'Honda' }, { name: 'Dio', brand: 'Honda' },
-      { name: 'SP 125', brand: 'Honda' },
-      { name: 'Gixxer SF', brand: 'Suzuki' }, { name: 'Gixxer 155', brand: 'Suzuki' },
-      { name: 'Gixxer 250', brand: 'Suzuki' }, { name: 'Access 125', brand: 'Suzuki' },
-      { name: 'Burgman Street', brand: 'Suzuki' },
-      { name: 'Hunk 150R', brand: 'Hero' }, { name: 'Glamour', brand: 'Hero' },
-      { name: 'Splendor Plus', brand: 'Hero' }, { name: 'HF Deluxe', brand: 'Hero' },
-      { name: 'Ignitor', brand: 'Hero' },
-      { name: 'Apache RTR 160', brand: 'TVS' }, { name: 'Apache RTR 160 4V', brand: 'TVS' },
-      { name: 'Raider 125', brand: 'TVS' }, { name: 'Metro Plus', brand: 'TVS' },
-      { name: 'Stryker 125', brand: 'TVS' }, { name: 'XL 100', brand: 'TVS' },
-      { name: 'Pulsar 150', brand: 'Bajaj' }, { name: 'Pulsar N160', brand: 'Bajaj' },
-      { name: 'Discover 125', brand: 'Bajaj' }, { name: 'Platina 110', brand: 'Bajaj' },
-      { name: 'CT 100', brand: 'Bajaj' }, { name: 'Avenger 160 Street', brand: 'Bajaj' },
-      { name: '150NK', brand: 'CFMoto' }, { name: '250NK', brand: 'CFMoto' },
-      { name: '300NK', brand: 'CFMoto' }, { name: '400NK', brand: 'CFMoto' },
-      { name: 'Classic 350', brand: 'Royal Enfield' }, { name: 'Meteor 350', brand: 'Royal Enfield' },
-      { name: 'Himalayan 411', brand: 'Royal Enfield' }, { name: 'Scram 411', brand: 'Royal Enfield' },
-      { name: 'Knight Rider V2', brand: 'Runner' }, { name: 'Turbo 150', brand: 'Runner' },
-      { name: 'Royal Plus', brand: 'Runner' }, { name: 'Cheeta', brand: 'Runner' },
-      { name: 'Bullet 100', brand: 'Runner' },
-      { name: 'Fusion 125', brand: 'Walton' }, { name: 'Cruze 100', brand: 'Walton' },
-      { name: 'Stylex 100', brand: 'Walton' }, { name: 'Xplore 140', brand: 'Walton' },
-      { name: 'Prizm 110', brand: 'Walton' },
-      { name: 'KP150 V2', brand: 'Lifan' }, { name: 'KPR 150', brand: 'Lifan' },
-      { name: 'KPT 150', brand: 'Lifan' }, { name: 'KP Mini', brand: 'Lifan' },
-      { name: 'Victor R 125', brand: 'Lifan' },
-      { name: 'ZT155-G1', brand: 'Zontes' }, { name: 'ZT310-R1', brand: 'Zontes' },
-      { name: 'ZT155-U', brand: 'Zontes' }, { name: 'ZT155-U1', brand: 'Zontes' },
-      { name: 'RKS 150', brand: 'Keeway' }, { name: 'K-Light 202', brand: 'Keeway' },
-      { name: 'Superlight 150', brand: 'Keeway' }, { name: 'Magnet 100', brand: 'Keeway' },
-      { name: 'RC 125', brand: 'KTM' }, { name: 'RC 200', brand: 'KTM' },
-      { name: 'Duke 125', brand: 'KTM' }, { name: 'Duke 200', brand: 'KTM' },
-      { name: 'TNT 150', brand: 'Benelli' }, { name: '180S', brand: 'Benelli' },
-      { name: 'TNT 135', brand: 'Benelli' }, { name: 'TNT 25', brand: 'Benelli' },
-      { name: '302S', brand: 'Benelli' },
-      { name: 'SR 150', brand: 'Aprilia' }, { name: 'SR 125', brand: 'Aprilia' },
-      { name: 'Storm 125', brand: 'Aprilia' }
+      { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/r15-v4.jpg', link: 'bike.html?model=r15-v4' },
+      { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'bike.html?model=fzs-v3' },
+      { name: 'CBR 150R', brand: 'Honda', price: '৳480,000', img: 'images/cbr150r.jpg', link: 'bike.html?model=cbr150r' },
+      { name: 'Gixxer SF', brand: 'Suzuki', price: '৳319,950', img: 'images/gixxer-sf.jpg', link: 'bike.html?model=gixxer-sf' },
+      { name: 'Apache RTR 160', brand: 'TVS', price: '৳197,999', img: 'images/apache-160.jpg', link: 'bike.html?model=apache-160' },
+      { name: 'Pulsar N160', brand: 'Bajaj', price: '৳289,900', img: 'images/pulsar-n160.jpg', link: 'bike.html?model=pulsar-n160' },
+      { name: 'Knight Rider V2', brand: 'Runner', price: '৳140,000', img: 'images/knight-rider.jpg', link: 'bike.html?model=knight-rider' },
+      { name: 'KPR 150', brand: 'Lifan', price: '৳210,000', img: 'images/kpr150.jpg', link: 'bike.html?model=kpr150' },
+      { name: 'RC 125', brand: 'KTM', price: '৳635,000', img: 'images/rc125.jpg', link: 'bike.html?model=rc125' }
     ];
 
     function renderModels(brand = "All") {
@@ -266,8 +257,11 @@
       filtered.forEach(m => {
         container.innerHTML += `
           <div class="model-card">
+            <img src="${m.img}" alt="${m.name}">
             <h4>${m.name}</h4>
             <p><strong>Brand:</strong> ${m.brand}</p>
+            <p><strong>Price:</strong> ${m.price}</p>
+            <a href="${m.link}" class="view-more-btn">View More</a>
           </div>
         `;
       });
@@ -278,7 +272,6 @@
       renderModels(selectedBrand);
     }
 
-    // Initial render
     renderModels();
   </script>
   <script src="main.js"></script>
