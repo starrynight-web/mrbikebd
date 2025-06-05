@@ -1,174 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bike Models in Bangladesh - 2025</title>
-  <meta name="description" content="Browse all bike models available in Bangladesh for 2025. Filter by brand and explore detailed specs.">
-  <meta name="keywords" content="motorcycles, bikes, Bangladesh, Yamaha, Honda, Suzuki, TVS, Bajaj, Hero, brands, models, 2025">
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>All Bike Models in Bangladesh</title>
   <style>
     body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f7f7f7;
+      font-family: Arial, sans-serif;
+      padding: 20px;
     }
-    header {
-      padding: 1rem;
-      background: #222;
-      color: #fff;
-      text-align: center;
-    }
-    .filter-bar {
-      text-align: center;
-      margin: 1rem;
-    }
-    .brand-container {
+    .model-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
+      gap: 10px;
     }
     .model-card {
-      background: #fff;
-      border-radius: 10px;
-      width: 260px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: 200px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s;
     }
-    .model-card:hover {
-      transform: scale(1.02);
-    }
-    .model-card img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-    }
-    .model-card .info {
-      padding: 1rem;
-    }
-    .model-card .info h3 {
-      margin: 0 0 0.5rem;
-      font-size: 1.1rem;
-    }
-    .model-card .info p {
-      margin: 0.2rem 0;
-      font-size: 0.95rem;
-    }
-    .model-card .info a {
-      display: inline-block;
-      margin-top: 0.5rem;
-      padding: 0.4rem 0.8rem;
-      background: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-    #loader {
-      text-align: center;
-      padding: 1rem;
-      font-weight: bold;
-    }
-    @media (max-width: 600px) {
-      .model-card {
-        width: 90%;
-      }
+    .model-card h4 {
+      margin: 0 0 5px 0;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>All Motorcycle Models in Bangladesh (2025)</h1>
-    <p>Select a brand to view available models.</p>
-  </header>
 
-  <div class="filter-bar">
-    <label for="brandFilter">Filter by Brand:</label>
-    <select id="brandFilter" onchange="filterModels()">
-      <option value="all">All Brands</option>
-      <option value="Yamaha">Yamaha</option>
-      <option value="Honda">Honda</option>
-      <option value="Suzuki">Suzuki</option>
-      <option value="Hero">Hero</option>
-      <option value="TVS">TVS</option>
-      <option value="Bajaj">Bajaj</option>
-      <option value="CFMoto">CFMoto</option>
-      <option value="Royal Enfield">Royal Enfield</option>
-      <option value="Runner">Runner</option>
-      <option value="Walton">Walton</option>
-      <option value="Lifan">Lifan</option>
-      <option value="Zontes">Zontes</option>
-      <option value="Keeway">Keeway</option>
-      <option value="KTM">KTM</option>
-      <option value="Benelli">Benelli</option>
-      <option value="Aprilia">Aprilia</option>
-    </select>
-  </div>
+  <h1>Available Bike Models in Bangladesh</h1>
 
-  <div id="loader">Loading models...</div>
-  <main class="brand-container" id="modelList"></main>
+  <label for="brandFilter">Filter by Brand:</label>
+  <select id="brandFilter" onchange="filterModels()">
+    <option value="All">All</option>
+    <option value="Yamaha">Yamaha</option>
+    <option value="Honda">Honda</option>
+    <option value="Suzuki">Suzuki</option>
+    <option value="Hero">Hero</option>
+    <option value="TVS">TVS</option>
+    <option value="Bajaj">Bajaj</option>
+    <option value="CFMoto">CFMoto</option>
+    <option value="Royal Enfield">Royal Enfield</option>
+    <option value="Runner">Runner</option>
+    <option value="Walton">Walton</option>
+    <option value="Lifan">Lifan</option>
+    <option value="Zontes">Zontes</option>
+    <option value="Keeway">Keeway</option>
+    <option value="KTM">KTM</option>
+    <option value="Benelli">Benelli</option>
+    <option value="Aprilia">Aprilia</option>
+  </select>
+
+  <div class="model-container" id="modelList"></div>
 
   <script>
-    const models = [/* all your models here, unchanged */];
+    const models = [
+      { name: 'R15 V4', brand: 'Yamaha' }, { name: 'R15M', brand: 'Yamaha' },
+      { name: 'MT-15 V2', brand: 'Yamaha' }, { name: 'FZS V3 ABS', brand: 'Yamaha' },
+      { name: 'FZS V4', brand: 'Yamaha' }, { name: 'FZ Fi V2', brand: 'Yamaha' },
+      { name: 'FZ Fi V3', brand: 'Yamaha' }, { name: 'FZ X 250', brand: 'Yamaha' },
+      { name: 'Fazer 25', brand: 'Yamaha' }, { name: 'XSR 155', brand: 'Yamaha' },
+      { name: 'Fascino', brand: 'Yamaha' }, { name: 'RayZR', brand: 'Yamaha' },
+      { name: 'CB Hornet 160R', brand: 'Honda' }, { name: 'XBlade', brand: 'Honda' },
+      { name: 'CB Shine SP', brand: 'Honda' }, { name: 'Livo', brand: 'Honda' },
+      { name: 'CBR 150R', brand: 'Honda' }, { name: 'Dio', brand: 'Honda' },
+      { name: 'SP 125', brand: 'Honda' },
+      { name: 'Gixxer SF', brand: 'Suzuki' }, { name: 'Gixxer 155', brand: 'Suzuki' },
+      { name: 'Gixxer 250', brand: 'Suzuki' }, { name: 'Access 125', brand: 'Suzuki' },
+      { name: 'Burgman Street', brand: 'Suzuki' },
+      { name: 'Hunk 150R', brand: 'Hero' }, { name: 'Glamour', brand: 'Hero' },
+      { name: 'Splendor Plus', brand: 'Hero' }, { name: 'HF Deluxe', brand: 'Hero' },
+      { name: 'Ignitor', brand: 'Hero' },
+      { name: 'Apache RTR 160', brand: 'TVS' }, { name: 'Apache RTR 160 4V', brand: 'TVS' },
+      { name: 'Raider 125', brand: 'TVS' }, { name: 'Metro Plus', brand: 'TVS' },
+      { name: 'Stryker 125', brand: 'TVS' }, { name: 'XL 100', brand: 'TVS' },
+      { name: 'Pulsar 150', brand: 'Bajaj' }, { name: 'Pulsar N160', brand: 'Bajaj' },
+      { name: 'Discover 125', brand: 'Bajaj' }, { name: 'Platina 110', brand: 'Bajaj' },
+      { name: 'CT 100', brand: 'Bajaj' }, { name: 'Avenger 160 Street', brand: 'Bajaj' },
+      { name: '150NK', brand: 'CFMoto' }, { name: '250NK', brand: 'CFMoto' },
+      { name: '300NK', brand: 'CFMoto' }, { name: '400NK', brand: 'CFMoto' },
+      { name: 'Classic 350', brand: 'Royal Enfield' }, { name: 'Meteor 350', brand: 'Royal Enfield' },
+      { name: 'Himalayan 411', brand: 'Royal Enfield' }, { name: 'Scram 411', brand: 'Royal Enfield' },
+      { name: 'Knight Rider V2', brand: 'Runner' }, { name: 'Turbo 150', brand: 'Runner' },
+      { name: 'Royal Plus', brand: 'Runner' }, { name: 'Cheeta', brand: 'Runner' },
+      { name: 'Bullet 100', brand: 'Runner' },
+      { name: 'Fusion 125', brand: 'Walton' }, { name: 'Cruze 100', brand: 'Walton' },
+      { name: 'Stylex 100', brand: 'Walton' }, { name: 'Xplore 140', brand: 'Walton' },
+      { name: 'Prizm 110', brand: 'Walton' },
+      { name: 'KP150 V2', brand: 'Lifan' }, { name: 'KPR 150', brand: 'Lifan' },
+      { name: 'KPT 150', brand: 'Lifan' }, { name: 'KP Mini', brand: 'Lifan' },
+      { name: 'Victor R 125', brand: 'Lifan' },
+      { name: 'ZT155-G1', brand: 'Zontes' }, { name: 'ZT310-R1', brand: 'Zontes' },
+      { name: 'ZT155-U', brand: 'Zontes' }, { name: 'ZT155-U1', brand: 'Zontes' },
+      { name: 'RKS 150', brand: 'Keeway' }, { name: 'K-Light 202', brand: 'Keeway' },
+      { name: 'Superlight 150', brand: 'Keeway' }, { name: 'Magnet 100', brand: 'Keeway' },
+      { name: 'RC 125', brand: 'KTM' }, { name: 'RC 200', brand: 'KTM' },
+      { name: 'Duke 125', brand: 'KTM' }, { name: 'Duke 200', brand: 'KTM' },
+      { name: 'TNT 150', brand: 'Benelli' }, { name: '180S', brand: 'Benelli' },
+      { name: 'TNT 135', brand: 'Benelli' }, { name: 'TNT 25', brand: 'Benelli' },
+      { name: '302S', brand: 'Benelli' },
+      { name: 'SR 150', brand: 'Aprilia' }, { name: 'SR 125', brand: 'Aprilia' },
+      { name: 'Storm 125', brand: 'Aprilia' }
+    ];
 
-    let currentBrand = "all";
-    let currentIndex = 0;
-    const chunkSize = 10;
-
-    function slugify(name) {
-      return name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    }
-
-    function renderModelsChunk(filtered) {
+    function renderModels(brand = "All") {
       const container = document.getElementById("modelList");
-      const nextChunk = filtered.slice(currentIndex, currentIndex + chunkSize);
-      nextChunk.forEach(model => {
-        const card = document.createElement("div");
-        card.className = "model-card";
-        card.innerHTML = `
-          <img loading="lazy" src="images/${slugify(model.name)}.jpg" alt="${model.name}" onerror="this.onerror=null;this.src='images/default.jpg';" />
-          <div class="info">
-            <h3>${model.name}</h3>
-            <p>Brand: ${model.brand}</p>
-            <p>Price: Coming Soon</p>
-            <a href="bike.html?model=${encodeURIComponent(model.name)}">View More</a>
+      container.innerHTML = "";
+      const filtered = brand === "All" ? models : models.filter(m => m.brand === brand);
+      filtered.forEach(m => {
+        container.innerHTML += `
+          <div class="model-card">
+            <h4>${m.name}</h4>
+            <p><strong>Brand:</strong> ${m.brand}</p>
           </div>
         `;
-        container.appendChild(card);
       });
-      currentIndex += chunkSize;
     }
 
     function filterModels() {
-      const selected = document.getElementById("brandFilter").value;
-      currentBrand = selected;
-      currentIndex = 0;
-      document.getElementById("modelList").innerHTML = "";
-      document.getElementById("loader").style.display = "block";
-      setTimeout(() => {
-        const filtered = currentBrand === "all" ? models : models.filter(m => m.brand === currentBrand);
-        renderModelsChunk(filtered);
-        document.getElementById("loader").style.display = "none";
-      }, 300);
+      const selectedBrand = document.getElementById("brandFilter").value;
+      renderModels(selectedBrand);
     }
 
-    function loadMoreOnScroll() {
-      const scrollBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 200;
-      if (scrollBottom) {
-        const filtered = currentBrand === "all" ? models : models.filter(m => m.brand === currentBrand);
-        if (currentIndex < filtered.length) {
-          renderModelsChunk(filtered);
-        }
-      }
-    }
-
-    window.onload = () => {
-      filterModels(); // Load all initially
-      window.addEventListener("scroll", loadMoreOnScroll);
-    };
+    // Initial render
+    renderModels();
   </script>
 </body>
 </html>
