@@ -1,241 +1,149 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bike Outlet Selector</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <title>Bike Details</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    .hamburger {
-      position: fixed;
-      top: 15px;
-      left: 15px;
-      z-index: 1001;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 25px;
-      height: 18px;
-    }
-    .hamburger span {
-      background: #333;
-      height: 3px;
-      width: 100%;
-      transition: all 0.3s;
-    }
-    .hamburger.active span:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px);
-    }
-    .hamburger.active span:nth-child(2) {
-      opacity: 0;
-    }
-    .hamburger.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(6px, -6px);
-    }
-
-    /* Sidebar Navigation */
-    .sidebar {
-      position: fixed;
-      left: -250px;
-      top: 0;
-      height: 100%;
-      width: 250px;
-      background: #fff;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-      transition: left 0.3s ease;
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      overflow-y: auto;
-    }
-    .sidebar.active {
-      left: 0;
-    }
-
-    .sidebar .logo {
-      text-align: center;
-      padding: 40px 0 20px;
-      border-bottom: 1px solid #eee;
-    }
-    .sidebar .logo img {
-      width: 120px;
-      height: auto;
-    }
-
-    .sidebar a {
-      display: flex;
-      align-items: center;
-      padding: 15px 20px;
-      font-size: 16px;
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid #eee;
-    }
-    .sidebar a i {
-      margin-right: 10px;
-      min-width: 20px;
-    }
-
-    /* Main Content */
-    .content {
-      padding: 20px;
-      margin-left: 0;
-      transition: margin-left 0.3s;
-    }
-    .sidebar.active ~ .content {
-      margin-left: 250px;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .sidebar.active ~ .content {
-        margin-left: 0;
-      }
-    }
-    .top-navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 60px;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      z-index: 999;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 60px;
-      box-sizing: border-box;
-    }
-
-    .navbar-left .site-title {
-      font-size: 20px;
-      font-weight: bold;
-      color: #c62828;
-    }
-
-    .navbar-right .search-bar {
-      padding: 8px 12px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-      border-radius: 20px;
-      outline: none;
-    }
-
-    @media (max-width: 768px) {
-      .top-navbar {
-        padding: 0 50px;
-      }
-
-      .navbar-right .search-bar {
-        width: 100px;
-      }
-
-      .navbar-left .site-title {
-        font-size: 16px;
-      }
-    }
-    body, html {
+    body {
       margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
     }
 
-    .brand-filter {
-      background: url('images/Dealer/dealer-bg.jpg') no-repeat center center/cover;
-      min-height: 100vh;
+    /* Hero Section */
+    .bike-hero {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding: 60px 20px;
-    }
-
-    .overlay-box {
-      background: rgba(180, 180, 180, 0.6);
-      padding: 30px;
-      border-radius: 12px;
-      max-width: 900px;
-      width: 100%;
-      backdrop-filter: blur(6px);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-
-    h2 {
       text-align: center;
-      font-size: 28px;
-      color: #000;
-      margin-bottom: 20px;
-    }
-
-    form {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    select {
-      flex: 1 1 30%;
-      padding: 12px;
-      font-size: 16px;
-      background-color: #fff;
-      border: 1px solid #999;
-      border-radius: 6px;
-      color: #000;
-      appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg fill='black' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 12px center;
-      background-size: 12px;
-    }
-
-    button {
-      padding: 12px 24px;
-      font-size: 16px;
-      background-color: #000;
+      background: linear-gradient(to right, #292e49, #536976);
       color: #fff;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-top: 20px;
+      padding: 40px 20px;
+    }
+    .bike-hero img {
+      max-width: 90%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 12px;
+      transition: transform 0.5s ease;
+    }
+    .bike-hero img:hover {
+      transform: scale(1.05);
     }
 
-    button:hover {
-      background-color: #333;
+    /* Bike Info Section */
+    .bike-info {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
     }
-
-    #result {
-      margin-top: 30px;
+    .specs {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
-
-    .outlet {
-      background: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    .spec {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
       text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .spec:hover {
+      transform: translateY(-5px);
     }
 
-    .outlet a {
-      color: blue;
-      text-decoration: underline;
+    /* Image Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+      margin-top: 40px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
     }
 
-    @media (max-width: 600px) {
-      select {
-        flex: 1 1 100%;
+    @media (max-width: 768px) {
+      .bike-hero {
+        padding: 30px 10px;
       }
     }
+    .section-header {
+  font-size: 1.8rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #292e49;
+  animation: fadeInUp 0.6s ease-out;
+  position: relative;
+}
+.section-header::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #292e49;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.review-form label {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars i {
+  color: #ff9800;
+  margin-left: 5px;
+}
+
+.submit-review {
+  background: #292e49;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-review:hover {
+  background: #3e4a6b;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
   </style>
 </head>
 <body>
-  <!-- Fixed Top Navbar -->
+<!-- Fixed Top Navbar -->
 <nav class="top-navbar">
   <div class="navbar-left">
     <span class="site-title">Mr. Bike BD</span>
@@ -247,7 +155,8 @@
 
 <!-- Spacer for fixed navbar -->
 <div style="height: 60px;"></div>
-  <div class="hamburger" onclick="toggleSidebar(this)">
+
+<div class="hamburger" onclick="toggleSidebar(this)">
   <span></span>
   <span></span>
   <span></span>
@@ -272,62 +181,121 @@
   <a href="privacy.html"><i class="fas fa-sync-alt"></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-hand-holding-usd"></i> Terms & Conditions</a>
 </nav>
-  <section class="brand-filter">
-    <div class="overlay-box">
-      <h2>Select Your Bike Info</h2>
-      <form id="bikeForm">
-        <select id="brand" required>
-          <option disabled selected>Select Brand</option>
-          <option>Yamaha</option>
-          <option>Honda</option>
-          <option>Suzuki</option>
-          <option>Hero</option>
-          <option>TVS</option>
-          <option>Bajaj</option>
-          <option>CFMoto</option>
-          <option>Royal Enfield</option>
-          <option>Runner Automobiles</option>
-          <option>Walton</option>
-          <option>Lifan</option>
-          <option>Zontas</option>
-          <option>Keeway</option>
-          <option>KTM</option>
-          <option>Benelli</option>
-          <option>Aprilla</option>
-        </select>
 
-        <select id="city" required>
-          <option disabled selected>Select City</option>
-          <option>Dhaka</option>
-          <option>Chittagong</option>
-          <option>Khulna</option>
-          <option>Rajshahi</option>
-          <option>Barishal</option>
-          <option>Sylhet</option>
-          <option>Rangpur</option>
-          <option>Mymensingh</option>
-          <option>Comilla</option>
-          <option>Narayanganj</option>
-          <option>Gazipur</option>
-          <option>Bogra</option>
-          <option>Jessore</option>
-          <option>Dinajpur</option>
-        </select>
+  <!-- Hero Section -->
+  <section class="bike-hero">
+    <h1>Yamaha R15 V4</h1>
+    <img src="images/r15-main.jfif" alt="Yamaha R15 V4">
+    <p>A performance-packed bike with sharp styling and top-tier specs.</p>
+  </section>
 
-        <select id="preference" required>
-          <option disabled selected>Select Outlet Preference</option>
-          <option>Official</option>
-          <option>Unofficial</option>
-        </select>
-      </form>
+  <!-- Bike Details -->
+  <section class="bike-info">
+    <h2>Specifications</h2>
+    <div class="specs">
+      <div class="spec"><strong>Price:</strong><br>৳ 5,90,000</div>
+      <div class="spec"><strong>Engine:</strong><br>155cc, Liquid-Cooled</div>
+      <div class="spec"><strong>Mileage:</strong><br>42 km/l</div>
+      <div class="spec"><strong>Top Speed:</strong><br>136 km/h</div>
+      <div class="spec"><strong>Gear:</strong><br>6-Speed</div>
+      <div class="spec"><strong>ABS:</strong><br>Dual Channel</div>
+    </div>
 
-      <div style="text-align: center;">
-        <button onclick="showOutlets()">Continue for more</button>
-      </div>
-
-      <div id="result"></div>
+    <h2 style="margin-top: 50px;">Photo Gallery</h2>
+    <div class="gallery">
+      <img src="images/r15-side.jpg" alt="Side View">
+      <img src="images/r15-back.jpg" alt="Back View">
+      <img src="images/r15-front.jpg" alt="Front View">
+      <img src="images/r15-dashboard.jpg" alt="Dashboard">
     </div>
   </section>
+<!-- Detailed Info Section -->
+<section class="bike-info">
+  <!-- Performance -->
+  <h2 class="section-header">🔥 Performance</h2>
+  <div class="specs">
+    <div class="spec">Max Power: 18.4 PS @ 10000 rpm</div>
+    <div class="spec">Max Torque: 14.2 Nm @ 7500 rpm</div>
+    <div class="spec">Acceleration (0-60): 3.3 sec</div>
+  </div>
+
+  <!-- Features -->
+  <h2 class="section-header">⚙️ Features</h2>
+  <div class="specs">
+    <div class="spec">LED Headlamp</div>
+    <div class="spec">Bluetooth Connectivity</div>
+    <div class="spec">Digital Cluster</div>
+  </div>
+
+  <!-- Braking System -->
+  <h2 class="section-header">🛑 Braking System</h2>
+  <div class="specs">
+    <div class="spec">Front Brake: Disc 282mm</div>
+    <div class="spec">Rear Brake: Disc 220mm</div>
+    <div class="spec">ABS Type: Dual-Channel</div>
+  </div>
+
+  <!-- Reliability -->
+  <h2 class="section-header">🛠 Reliability</h2>
+  <div class="specs">
+    <div class="spec">Warranty: 2 Years</div>
+    <div class="spec">Build Quality: Excellent</div>
+    <div class="spec">Parts Availability: High</div>
+  </div>
+
+  <!-- Speed -->
+  <h2 class="section-header">🚀 Speed</h2>
+  <div class="specs">
+    <div class="spec">Top Speed: 136 km/h</div>
+    <div class="spec">6-Speed Gearbox</div>
+    <div class="spec">Aerodynamic Body</div>
+  </div>
+
+  <!-- Review Section -->
+  <h2 class="section-header">📝 User Reviews</h2>
+  <div class="review-form">
+    <label>Design: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <label>Performance: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <label>Price: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <label>Braking: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <label>Reliability: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <label>Speed: <span class="stars"><i class="fa fa-star"></i></span></label>
+    <button class="submit-review">Submit Review</button>
+  </div>
+
+  <!-- Pros & Cons -->
+  <h2 class="section-header">👍 Pros & 👎 Cons</h2>
+  <div class="specs">
+    <div class="spec"><strong>Pros</strong><br>
+      ✔ Stylish Sporty Look<br>
+      ✔ Excellent Top Speed<br>
+      ✔ Smooth Gear Shifts
+    </div>
+    <div class="spec"><strong>Cons</strong><br>
+      ✘ Slightly Expensive<br>
+      ✘ Aggressive Riding Posture<br>
+      ✘ Not Comfortable for Pillion<br>
+      ✘ Stiff Suspension on Rough Roads
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <h2 class="section-header">❓ Frequently Asked Questions</h2>
+  <div class="specs">
+    <div class="spec">
+      <strong>Q:</strong> Is the Yamaha R15 V4 good for daily commuting?<br>
+      <strong>A:</strong> Yes, but the aggressive posture may not suit all riders.
+    </div>
+    <div class="spec">
+      <strong>Q:</strong> Does it have dual-channel ABS?<br>
+      <strong>A:</strong> Yes, dual-channel ABS is standard.
+    </div>
+    <div class="spec">
+      <strong>Q:</strong> What is the fuel tank capacity?<br>
+      <strong>A:</strong> 11 liters.
+    </div>
+  </div>
+</section>
 <footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
   <div style="max-width: 1200px; margin: auto;">
 
@@ -376,61 +344,6 @@
 
   </div>
 </footer>
-  <script>
-    const outletData = [];
-
-    const brands = ["Yamaha", "Honda", "Suzuki", "Hero", "TVS", "Bajaj", "CFMoto", "Royal Enfield", "Runner Automobiles", "Walton", "Lifan", "Zontas", "Keeway", "KTM", "Benelli", "Aprilla"];
-    const cities = ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Barishal", "Sylhet", "Rangpur", "Mymensingh", "Comilla", "Narayanganj", "Gazipur", "Bogra", "Jessore", "Dinajpur"];
-    const types = ["Official", "Unofficial"];
-
-    for (let brand of brands) {
-      for (let city of cities) {
-        for (let type of types) {
-          for (let i = 1; i <= 6; i++) {
-            outletData.push({
-              brand,
-              city,
-              type,
-              name: `${brand} ${type} Showroom ${i}`,
-              address: `${city} Area ${i}`,
-              phone: `01XXXXXXXX${i}`,
-              map: `https://maps.google.com/?q=${encodeURIComponent(`${brand} ${city} Outlet ${i}`)}`
-            });
-          }
-        }
-      }
-    }
-
-    function showOutlets() {
-      const brand = document.getElementById("brand").value;
-      const city = document.getElementById("city").value;
-      const preference = document.getElementById("preference").value;
-      const result = document.getElementById("result");
-
-      if (!brand || !city || !preference) {
-        result.innerHTML = "<p>Please select all fields.</p>";
-        return;
-      }
-
-      const matches = outletData.filter(o =>
-        o.brand === brand && o.city === city && o.type === preference
-      );
-
-      if (matches.length === 0) {
-        result.innerHTML = "<p>No outlets found for this selection.</p>";
-        return;
-      }
-
-      result.innerHTML = matches.map(o =>
-        `<div class="outlet">
-          <strong>${o.name}</strong><br/>
-          Address: ${o.address}<br/>
-          Phone: ${o.phone}<br/>
-          <a href="${o.map}" target="_blank">View on Google Maps</a>
-        </div>`
-      ).join("");
-    }
-  </script>
-  <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
