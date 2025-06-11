@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bike Portal Bangladesh - Your Ultimate Bike Destination</title>
+   <link rel="stylesheet" href="main.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 <style>
     :root {
@@ -74,7 +75,7 @@
       50% { transform: translateY(-20px) scale(1.1); }
     }
 
-    /* Navigation */
+/* Navigation */
     nav {
       position: fixed;
       top: 0;
@@ -658,7 +659,7 @@
 </head>
 <body>
   <div class="bg-animation"></div>
-  
+   
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
@@ -672,7 +673,34 @@
       </ul>
     </div>
   </nav>
+ <!-- Spacer for fixed navbar -->
+<div style="height: 60px;"></div>
+<div class="hamburger" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
+<!-- Sidebar Menu -->
+<nav class="sidebar" id="sidebar">
+  <!-- Logo Section -->
+  <div class="logo">
+    <a href="#"><img src="images/logo.png" alt="Logo" /></a>
+  </div>
+
+  <!-- Navigation Links -->
+  <a href="index.html"><i class="fas fa-home"></i> Home</a>
+  <a href="bike.html"><i class="fas fa-motorcycle"></i> New Bikes</a>
+  <a href="brand.html"><i class="fas fa-scooter"></i> All Brands</a>
+  <a href="dealer.html"><i class="fas fa-bolt"></i> Find Showrooms</a>
+  <a href="about.html"><i class="fas fa-code-compare"></i> About US</a>
+  <a href="contact.html"><i class="fas fa-university"></i> Contact US</a>
+  <a href="advertise.html"><i class="fas fa-sync-alt"></i> Advertise</a>
+  <a href="news.html"><i class="fas fa-hand-holding-usd"></i> News & Affairs</a>
+  <a href="privacy.html"><i class="fas fa-sync-alt"></i> Privacy Policy</a>
+  <a href="terms.html"><i class="fas fa-hand-holding-usd"></i> Terms & Conditions</a>
+  <a href="compare.html"><i class="fas fa-hand-holding-usd"></i> Compare Bikes</a>
+</nav>
   <!-- Hero Section -->
   <section class="hero" id="home">
     <div class="hero-content">
@@ -1285,5 +1313,6 @@
     // Initialize counter animation
     animateCounters();
   </script>
+  <script src="main.js"></script>
 </body>
 </html>
