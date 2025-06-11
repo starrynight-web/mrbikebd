@@ -1,460 +1,452 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bike Comparison</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-   <style>
-      /* Enhanced Styles for Attractive and Lively Look */
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
-        margin: 0;
-        padding: 0;
-        background: #fff;
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
-        position: relative;
-        overflow: auto;
-        animation: fadeIn 1s;
-        /* Add horizontal scrollbar for width (table-wrapper already has overflow-x: auto) */
-        .table-wrapper {
-            margin-top: 18px;
-            overflow-x: auto;   /* Enables left-right (horizontal) scrollbar */
-            max-height: 70vh;   /* Enables up-down (vertical) scrollbar if needed */
-            border-radius: 12px;
-            box-shadow: 0 2px 16px rgba(33, 150, 243, 0.08);
-            background: #f7fbff;
-        }
-        /* Custom horizontal scrollbar for table */
-        
-      h1 {
-        text-align: center;
-        color: #1a237e;
-        font-size: 2.5rem;
-        letter-spacing: 1px;
-        margin-bottom: 28px;
-        font-weight: 700;
-        text-shadow: 0 2px 8px #e3e8f7;
-      }
-      .controls {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 18px;
-        margin-bottom: 32px;
-      }
-      .dropdowns {
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .dropdowns select {
-        padding: 12px 18px;
-        font-size: 1rem;
-        border-radius: 8px;
-        border: 1.5px solid #90caf9;
-        background: #f7fbff;
-        color: #1a237e;
-        transition: border 0.2s, box-shadow 0.2s;
-        box-shadow: 0 2px 8px rgba(33, 150, 243, 0.06);
-        outline: none;
-      }
-      .dropdowns select:focus, .dropdowns select:hover {
-        border: 1.5px solid #1976d2;
-        box-shadow: 0 4px 16px rgba(33, 150, 243, 0.13);
-      }
-      .buttons {
-        display: flex;
-        gap: 14px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .buttons button {
-        background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
-        color: #fff;
-        border: none;
-        padding: 12px 22px;
-        border-radius: 8px;
-        font-size: 1rem;
-        font-weight: 600;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(33, 150, 243, 0.10);
-        transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
-        outline: none;
-        letter-spacing: 0.5px;
-      }
-      .buttons button:hover, .buttons button:focus {
-        background: linear-gradient(90deg, #1565c0 60%, #64b5f6 100%);
-        transform: translateY(-2px) scale(1.04);
-        box-shadow: 0 6px 18px rgba(33, 150, 243, 0.18);
-      }
-      .buttons #add-bike-btn {
-        background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
-        color: #1a237e;
-      }
-      .buttons #add-bike-btn:hover {
-        background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
-        color: #0d1333;
-      }
-      .table-wrapper {
-        margin-top: 18px;
-        overflow-x: auto;
-        border-radius: 12px;
-        box-shadow: 0 2px 16px rgba(33, 150, 243, 0.08);
-        background: #f7fbff;
-      }
-      .table-wrapper::-webkit-scrollbar {
-            height: 8px; /* Only horizontal scrollbar */
-            background: #e3e8f7;
-            border-radius: 8px;
-        }
-        .table-wrapper::-webkit-scrollbar-thumb {
-            /* removed table inside scrollbar */ border-radius: 8px;
-        }
-        @keyframes fadeIn {  from { opacity: 0; transform: translateY(30px);}
-        to { opacity: 1; transform: translateY(0);}
-      }
-      #comparison-table {
-        width: 100%;
-        border-collapse: collapse;
-        background: #fff;
-        border-radius: 12px;
-        overflow: hidden;
-        min-width: 700px;
-      }
-      #comparison-table th, #comparison-table td {
-        border: 1px solid #e3e8f7;
-        padding: 16px 12px;
-        text-align: center;
-        font-size: 1rem;
-        transition: background 0.2s, color 0.2s;
-      }
-      #comparison-table th {
-        background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
-        color: #fff;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        font-size: 1.08rem;
-      }
-      #comparison-table tbody tr {
-        transition: background 0.2s;
-      }
-      #comparison-table tbody tr:hover {
-        background: #e3f2fd;
-      }
-      #comparison-table td {
-        background: #fff;
-        color: #222;
-      }
-      #comparison-table td.highlight-diff {
-        background: #fffde7 !important;
-        color: #d84315;
-        font-weight: 600;
-        box-shadow: 0 0 0 2px #ffe082 inset;
-        transition: background 0.2s, color 0.2s;
-      }
-      #comparison-table th.bike3-col,
-      #comparison-table td.bike3-col {
-        transition: opacity 0.3s;
-      }
-      .hidden {
-        display: none !important;
-      }
-      /* Custom scrollbar for table */
-      .table-wrapper::-webkit-scrollbar {
-        height: 8px;
-        background: #e3e8f7;
-        border-radius: 8px;
-      }
-      .table-wrapper::-webkit-scrollbar-thumb {
-        background: #90caf9;
-        border-radius: 8px;
-      }
-      /* Responsive Design */
-      @media (max-width: 900px) {
-        .comparison-container {
-          padding: 12px 2vw 24px 2vw;
-        }
-        #comparison-table th, #comparison-table td {
-          padding: 10px 6px;
-          font-size: 0.95rem;
-        }
-      }
-      @media (max-width: 600px) {
-        h1 {
-          font-size: 1.4rem;
-        }
-        .comparison-container {
-          padding: 6px 0 16px 0;
-        }
-        .dropdowns select {
-          font-size: 0.95rem;
-          padding: 8px 10px;
-        }
-        .buttons button {
-          font-size: 0.95rem;
-          padding: 8px 12px;
-        }
-        #comparison-table {
-          min-width: 480px;
-        }
-      }
-    </style>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s;
+    }
+    .bike-image {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
 
+.bike-image:hover {
+  transform: scale(1.05);
+}
+    h1 
+   {
+      text-align: center;
+      color: #1a237e;
+      font-size: 2.5rem;
+      margin-bottom: 28px;
+    }
+    .comparison-container {
+      padding: 24px 5vw;
+    }
+    .controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+    .dropdowns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+    .dropdowns select {
+      padding: 12px 18px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1.5px solid #90caf9;
+      background: #f7fbff;
+      color: #1a237e;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+    }
+    .buttons button {
+      background: linear-gradient(90deg, #1976d2, #42a5f5);
+      color: #fff;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .buttons #add-bike-btn {
+      background: linear-gradient(90deg, #43e97b, #38f9d7);
+      color: #1a237e;
+    }
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: 12px;
+      background: #f7fbff;
+      box-shadow: 0 2px 16px rgba(33, 150, 243, 0.08);
+    }
+    .table-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+    .table-wrapper::-webkit-scrollbar-thumb {
+      background: #90caf9;
+      border-radius: 8px;
+    }
+    #comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+    #comparison-table th, #comparison-table td {
+      padding: 16px 12px;
+      text-align: center;
+      border: 1px solid #e3e8f7;
+    }
+    #comparison-table th {
+      background: linear-gradient(90deg, #1976d2, #42a5f5);
+      color: white;
+    }
+    #comparison-table .bike3-col {
+      transition: opacity 0.3s;
+    }
+    .hidden {
+      display: none !important;
+    }
+    .highlight-diff {
+      background: #fffde7 !important;
+      color: #d84315;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
 <body>
 
-  <div class="comparison-container">
+<div class="comparison-container">
+  <h1>Compare Bikes</h1>
 
-    <!-- Top Controls -->
-    <!-- Mobile Responsive Notice (optional) -->
-    <div class="mobile-notice" style="display:none;">
-        <p>Scroll horizontally to view the full comparison table.</p>
-    </div> <div class="controls"></div>
-      <div class="dropdowns">
-        <select id="bike1-select"></select>
-        <select id="bike2-select"></select>
-        <select id="bike3-select" class="hidden"></select>
-      </div>
-
-      <div class="buttons">
-        <button id="add-bike-btn">+ Add Bike</button>
-        <button id="hide-similar-btn" class="toggle-btn">Hide Similarities</button>
-        <button id="highlight-diff-btn" class="toggle-btn">Highlight Differences</button>
-      </div>
+  <div class="controls">
+    <div class="dropdowns">
+      <select id="bike1-select"></select>
+      <select id="bike2-select"></select>
+      <select id="bike3-select" class="hidden"></select>
     </div>
 
-    <!-- Comparison Table -->
-    <div class="table-wrapper">
-      <table id="comparison-table">
-        <thead>
-          <tr>
-            <th>Specification</th>
-            <th>Bike 1</th>
-            <th>Bike 2</th>
-            <th class="bike3-col hidden">Bike 3</th>
-          </tr>
-        </thead>
-        <tbody id="comparison-body">
-          <!-- Data rows injected via JavaScript -->
-        </tbody>
-      </table>
+    <div class="buttons">
+      <button id="add-bike-btn">+ Add Bike</button>
+      <button id="highlight-diff-btn">Highlight Differences</button>
     </div>
-
   </div>
 
+  <div class="table-wrapper">
+    <table id="comparison-table">
+      <thead>
+        <tr>
+          <th>Specification</th>
+<th>Image</th>
+          <th>Bike 1</th>
+          <th>Bike 2</th>
+          <th class="bike3-col hidden">Bike 3</th>
+        </tr>
+      </thead>
+      <tbody id="comparison-body"></tbody>
+    </table>
+  </div>
+</div>
+
 <script>
-  // Example bikes data for demonstration (replace with fetch if needed)
-  const bikesData = [
-    {
-      name: "Royal Enfield Classic 350",
-      image: "https://imgd.aeplcdn.com/600x337/bw/models/royalenfield-classic-350--standard--1634805530054.jpg",
-      maxPower: "20.2 bhp @ 6,100 rpm",
-      maxTorque: "27 Nm @ 4,000 rpm",
-      displacement: "349 cc",
-      mileageArai: "35 kmpl",
-      topSpeed: "115 kmph",
-      transmission: "5 Speed Manual",
-      mileageReported: "32 kmpl",
-      clutch: "Wet, Multi-plate",
-      cylinders: "1",
-      valves: "2",
-      cooling: "Air Cooled",
-      brakingSystem: "Single Channel ABS",
-      frontBrake: "Disc",
-      rearBrake: "Drum",
-      frontTyre: "100/90-19",
-      rearTyre: "120/80-18",
-      tyreType: "Tubeless",
-      frontSuspension: "Telescopic",
-      rearSuspension: "Twin tube emulsion shock absorbers",
-      display: "Analogue",
-      headlight: "Halogen",
-      tailLight: "Bulb"
-    },
-    {
-      name: "Honda CB350",
-      image: "https://imgd.aeplcdn.com/600x337/bw/models/honda-cb350-right-front-three-quarter.jpeg",
-      maxPower: "20.7 bhp @ 5,500 rpm",
-      maxTorque: "29.4 Nm @ 3,000 rpm",
-      displacement: "348.36 cc",
-      mileageArai: "40 kmpl",
-      topSpeed: "130 kmph",
-      transmission: "5 Speed Manual",
-      mileageReported: "35 kmpl",
-      clutch: "Wet, Multi-plate",
-      cylinders: "1",
-      valves: "2",
-      cooling: "Air Cooled",
-      brakingSystem: "Dual Channel ABS",
-      frontBrake: "Disc",
-      rearBrake: "Disc",
-      frontTyre: "100/90-19",
-      rearTyre: "130/70-18",
-      tyreType: "Tubeless",
-      frontSuspension: "Telescopic",
-      rearSuspension: "Twin Hydraulic",
-      display: "Digital",
-      headlight: "LED",
-      tailLight: "LED"
-    },
-    {
-      name: "Yamaha FZ-X",
-      image: "https://imgd.aeplcdn.com/600x337/bw/models/yamaha-fz-x-right-front-three-quarter.jpeg",
-      maxPower: "12.4 bhp @ 7,250 rpm",
-      maxTorque: "13.3 Nm @ 5,500 rpm",
-      displacement: "149 cc",
-      mileageArai: "45 kmpl",
-      topSpeed: "115 kmph",
-      transmission: "5 Speed Manual",
-      mileageReported: "40 kmpl",
-      clutch: "Wet, Multi-plate",
-      cylinders: "1",
-      valves: "2",
-      cooling: "Air Cooled",
-      brakingSystem: "Single Channel ABS",
-      frontBrake: "Disc",
-      rearBrake: "Drum",
-      frontTyre: "100/80-17",
-      rearTyre: "140/60-17",
-      tyreType: "Tubeless",
-      frontSuspension: "Telescopic fork",
-      rearSuspension: "7-Step Adjustable Monocross",
-      display: "Digital",
-      headlight: "LED",
-      tailLight: "LED"
-    }
-  ];
-
-  // Initial selected bikes
-  let selectedBikes = [0, 1];
-  let showBike3 = false;
-
-  // Populate dropdowns
-  function populateDropdowns() {
-    for (let i = 1; i <= 3; i++) {
-      const select = document.getElementById(`bike${i}-select`);
-      select.innerHTML = "";
-      bikesData.forEach((bike, idx) => {
-        const option = document.createElement("option");
-        option.value = idx;
-        option.textContent = bike.name;
-        select.appendChild(option);
-      });
-      select.value = selectedBikes[i - 1] !== undefined ? selectedBikes[i - 1] : "";
-      select.onchange = function () {
-        selectedBikes[i - 1] = parseInt(this.value, 10);
-        renderComparisonTable();
-      };
-    }
+    const bikesData = [
+  {
+    name: "Royal Enfield Classic 350",
+    image: "images/classic350.jpg",
+    maxPower: "20.2 bhp @ 6,100 rpm",
+    maxTorque: "27 Nm @ 4,000 rpm",
+    displacement: "349 cc",
+    mileageArai: "35 kmpl",
+    topSpeed: "115 kmph",
+    transmission: "5 Speed Manual",
+    mileageReported: "32 kmpl",
+    clutch: "Wet, Multi-plate",
+    cylinders: "1",
+    valves: "2",
+    cooling: "Air Cooled",
+    brakingSystem: "Single Channel ABS",
+    frontBrake: "Disc",
+    rearBrake: "Drum",
+    frontTyre: "100/90-19",
+    rearTyre: "120/80-18",
+    tyreType: "Tubeless",
+    frontSuspension: "Telescopic",
+    rearSuspension: "Twin tube emulsion shock absorbers",
+    display: "Analogue",
+    headlight: "Halogen",
+    tailLight: "Bulb"
+  },
+  {
+    name: "Honda CB350",
+    image: "images/cb350.jpg",
+    maxPower: "20.7 bhp @ 5,500 rpm",
+    maxTorque: "29.4 Nm @ 3,000 rpm",
+    displacement: "348.36 cc",
+    mileageArai: "40 kmpl",
+    topSpeed: "130 kmph",
+    transmission: "5 Speed Manual",
+    mileageReported: "35 kmpl",
+    clutch: "Wet, Multi-plate",
+    cylinders: "1",
+    valves: "2",
+    cooling: "Air Cooled",
+    brakingSystem: "Dual Channel ABS",
+    frontBrake: "Disc",
+    rearBrake: "Disc",
+    frontTyre: "100/90-19",
+    rearTyre: "130/70-18",
+    tyreType: "Tubeless",
+    frontSuspension: "Telescopic",
+    rearSuspension: "Twin Hydraulic",
+    display: "Digital",
+    headlight: "LED",
+    tailLight: "LED"
+  },
+  {
+    name: "Yamaha FZ-X",
+    image: "images/fzx.jpg",
+    maxPower: "12.4 bhp @ 7,250 rpm",
+    maxTorque: "13.3 Nm @ 5,500 rpm",
+    displacement: "149 cc",
+    mileageArai: "45 kmpl",
+    topSpeed: "115 kmph",
+    transmission: "5 Speed Manual",
+    mileageReported: "40 kmpl",
+    clutch: "Wet, Multi-plate",
+    cylinders: "1",
+    valves: "2",
+    cooling: "Air Cooled",
+    brakingSystem: "Single Channel ABS",
+    frontBrake: "Disc",
+    rearBrake: "Drum",
+    frontTyre: "100/80-17",
+    rearTyre: "140/60-17",
+    tyreType: "Tubeless",
+    frontSuspension: "Telescopic fork",
+    rearSuspension: "7-Step Adjustable Monocross",
+    display: "Digital",
+    headlight: "LED",
+    tailLight: "LED"
+  },
+  {
+    name: "Cf moto 300sr",
+    image: "images/fzx.jpg",
+    maxPower: "29.4 bhp @ 7,250 rpm",
+    maxTorque: "27.3 Nm @ 5,500 rpm",
+    displacement: "300 cc",
+    mileageArai: "25 kmpl",
+    topSpeed: "115 kmph",
+    transmission: "6 Speed Manual",
+    mileageReported: "20 kmpl",
+    clutch: "Wet, Multi-plate",
+    cylinders: "1",
+    valves: "2",
+    cooling: "Air Cooled",
+    brakingSystem: "Single Channel ABS",
+    frontBrake: "Disc",
+    rearBrake: "Drum",
+    frontTyre: "100/80-17",
+    rearTyre: "140/60-17",
+    tyreType: "Tubeless",
+    frontSuspension: "Telescopic fork",
+    rearSuspension: "7-Step Adjustable Monocross",
+    display: "Digital",
+    headlight: "LED",
+    tailLight: "LED"
+  },
+  {
+    name: "Yamaha R15",
+    image: "images/fzx.jpg",
+    maxPower: "18.4 bhp @ 7,250 rpm",
+    maxTorque: "19.3 Nm @ 5,500 rpm",
+    displacement: "155 cc",
+    mileageArai: "45 kmpl",
+    topSpeed: "145 kmph",
+    transmission: "6 Speed Manual",
+    mileageReported: "40 kmpl",
+    clutch: "Wet, Multi-plate",
+    cylinders: "1",
+    valves: "2",
+    cooling: "Air Cooled",
+    brakingSystem: "Single Channel ABS",
+    frontBrake: "Disc",
+    rearBrake: "Drum",
+    frontTyre: "100/80-17",
+    rearTyre: "140/60-17",
+    tyreType: "Tubeless",
+    frontSuspension: "Telescopic fork",
+    rearSuspension: "7-Step Adjustable Monocross",
+    display: "Digital",
+    headlight: "LED",
+    tailLight: "LED"
   }
+  
+  
+];
 
-  // Render comparison table
-  function renderComparisonTable() {
-    const tbody = document.getElementById("comparison-body");
-    tbody.innerHTML = "";
+let selectedBikes = [0, 1];
+let showBike3 = false;
+let highlightEnabled = false;
 
-    const specs = [
-      { label: "Max Power", key: "maxPower" },
-      { label: "Max Torque", key: "maxTorque" },
-      { label: "Displacement (cc)", key: "displacement" },
-      { label: "Mileage - ARAI (kmpl)", key: "mileageArai" },
-      { label: "Top Speed (kmph)", key: "topSpeed" },
-      { label: "Transmission", key: "transmission" },
-      { label: "Mileage - Owner Reported (kmpl)", key: "mileageReported" },
-      { label: "Clutch", key: "clutch" },
-      { label: "Cylinders", key: "cylinders" },
-      { label: "Valves Per Cylinder", key: "valves" },
-      { label: "Cooling System", key: "cooling" },
-      { label: "Braking System", key: "brakingSystem" },
-      { label: "Front Brake Type", key: "frontBrake" },
-      { label: "Rear Brake Type", key: "rearBrake" },
-      { label: "Front Tyre Size", key: "frontTyre" },
-      { label: "Rear Tyre Size", key: "rearTyre" },
-      { label: "Tyre Type", key: "tyreType" },
-      { label: "Front Suspension", key: "frontSuspension" },
-      { label: "Rear Suspension", key: "rearSuspension" },
-      { label: "Digital Display Type", key: "display" },
-      { label: "Headlight Type", key: "headlight" },
-      { label: "Brake/Tail Light", key: "tailLight" }
-    ];
+function populateDropdowns() {
+  for (let i = 1; i <= 3; i++) {
+    const select = document.getElementById(`bike${i}-select`);
+    select.innerHTML = "";
 
-    specs.forEach(spec => {
-      const tr = document.createElement("tr");
-      const tdLabel = document.createElement("td");
-      tdLabel.textContent = spec.label;
-      tr.appendChild(tdLabel);
+    bikesData.forEach((bike, idx) => {
+      const option = document.createElement("option");
+      option.value = idx;
+      option.textContent = bike.name;
 
-      let values = [];
-      for (let i = 0; i < (showBike3 ? 3 : 2); i++) {
-        const bike = bikesData[selectedBikes[i]];
-        const td = document.createElement("td");
-        td.textContent = bike && bike[spec.key] ? bike[spec.key] : "--";
-        values.push(td.textContent);
-        tr.appendChild(td);
+      // Disable option if selected in other dropdowns except current
+      if (
+        selectedBikes.includes(idx) &&
+        selectedBikes[i - 1] !== idx &&
+        (i <= (showBike3 ? 3 : 2)) // Only disable when dropdown visible
+      ) {
+        option.disabled = true;
       }
 
-      // Highlight differences
-      const allSame = values.every(v => v === values[0]);
-      if (!allSame) {
-        for (let i = 1; i < tr.children.length; i++) {
-          tr.children[i].classList.add("highlight-diff");
-        }
-      }
-      tbody.appendChild(tr);
+      select.appendChild(option);
     });
 
-    // Show/hide bike 3 column
-    document.querySelectorAll(".bike3-col").forEach(th => {
-      th.classList.toggle("hidden", !showBike3);
-    });
-    if (showBike3) {
-      document.getElementById("bike3-select").classList.remove("hidden");
+    // Set value only if dropdown is visible (hide bike3-select if !showBike3)
+    if (i === 3 && !showBike3) {
+      select.classList.add("hidden");
     } else {
-      document.getElementById("bike3-select").classList.add("hidden");
+      select.classList.remove("hidden");
+      if (selectedBikes[i - 1] !== undefined) {
+        select.value = selectedBikes[i - 1];
+      }
     }
-  }
 
-  // Add bike button
-  document.getElementById("add-bike-btn").onclick = function () {
-    if (!showBike3) {
-      showBike3 = true;
-      selectedBikes[2] = 2;
+    select.onchange = function () {
+      selectedBikes[i - 1] = parseInt(this.value);
+
+      // If bike 3 is not shown, limit array to 2
+      if (!showBike3) selectedBikes = selectedBikes.slice(0, 2);
+
       populateDropdowns();
       renderComparisonTable();
+    };
+  }
+
+  document.getElementById("add-bike-btn").disabled = showBike3;
+}
+
+function renderComparisonTable() {
+  const tbody = document.getElementById("comparison-body");
+  tbody.innerHTML = "";
+
+  // Remove extra headers beyond first (assuming first column header for labels)
+  const headerRow = document.querySelector("#comparison-table thead tr");
+  while (headerRow.children.length > 1) headerRow.removeChild(headerRow.lastChild);
+
+  // Add columns header for bikes shown
+  for (let i = 0; i < (showBike3 ? 3 : 2); i++) {
+    const bike = bikesData[selectedBikes[i]];
+    const th = document.createElement("th");
+    th.textContent = bike.name;
+    headerRow.appendChild(th);
+  }
+
+  // Step 3: Add image row
+  const imageRow = document.createElement("tr");
+  const imgLabel = document.createElement("td");
+  imgLabel.textContent = "Image";
+  imageRow.appendChild(imgLabel);
+
+  for (let i = 0; i < (showBike3 ? 3 : 2); i++) {
+    const bike = bikesData[selectedBikes[i]];
+    const td = document.createElement("td");
+    td.innerHTML = `<img src="${bike.image}" alt="${bike.name}" style="width:100px;height:auto;border-radius:8px;" />`;
+    imageRow.appendChild(td);
+  }
+  tbody.appendChild(imageRow);
+
+  const specs = [
+    { label: "Max Power", key: "maxPower" },
+    { label: "Max Torque", key: "maxTorque" },
+    { label: "Displacement", key: "displacement" },
+    { label: "Mileage - ARAI", key: "mileageArai" },
+    { label: "Top Speed", key: "topSpeed" },
+    { label: "Transmission", key: "transmission" },
+    { label: "Mileage - Owner Reported", key: "mileageReported" },
+    { label: "Clutch", key: "clutch" },
+    { label: "Cylinders", key: "cylinders" },
+    { label: "Valves", key: "valves" },
+    { label: "Cooling", key: "cooling" },
+    { label: "Braking System", key: "brakingSystem" },
+    { label: "Front Brake", key: "frontBrake" },
+    { label: "Rear Brake", key: "rearBrake" },
+    { label: "Front Tyre", key: "frontTyre" },
+    { label: "Rear Tyre", key: "rearTyre" },
+    { label: "Tyre Type", key: "tyreType" },
+    { label: "Front Suspension", key: "frontSuspension" },
+    { label: "Rear Suspension", key: "rearSuspension" },
+    { label: "Display", key: "display" },
+    { label: "Headlight", key: "headlight" },
+    { label: "Tail Light", key: "tailLight" },
+  ];
+
+  specs.forEach(spec => {
+    const tr = document.createElement("tr");
+    const tdLabel = document.createElement("td");
+    tdLabel.textContent = spec.label;
+    tr.appendChild(tdLabel);
+
+    let values = [];
+    for (let i = 0; i < (showBike3 ? 3 : 2); i++) {
+      const bike = bikesData[selectedBikes[i]];
+      const td = document.createElement("td");
+      const value = bike?.[spec.key] || "--";
+      td.textContent = value;
+      values.push(value);
+      tr.appendChild(td);
     }
-  };
 
-  // Hide similarities button
-  document.getElementById("hide-similar-btn").onclick = function () {
-    const tbody = document.getElementById("comparison-body");
-    Array.from(tbody.children).forEach(tr => {
-      const tds = Array.from(tr.children).slice(1);
-      const values = tds.map(td => td.textContent);
-      const allSame = values.every(v => v === values[0]);
-      tr.style.display = allSame ? "none" : "";
-    });
-  };
-
-  // Highlight differences button
-  document.getElementById("highlight-diff-btn").onclick = function () {
-    const tbody = document.getElementById("comparison-body");
-    Array.from(tbody.children).forEach(tr => {
-      const tds = Array.from(tr.children).slice(1);
-      const values = tds.map(td => td.textContent);
-      const allSame = values.every(v => v === values[0]);
-      tds.forEach(td => {
-        td.classList.toggle("highlight-diff", !allSame);
+    if (highlightEnabled && values.length > 1 && !values.every(v => v === values[0])) {
+      [...tr.children].forEach((td, idx) => {
+        if (idx > 0) td.classList.add("highlight-diff");
       });
-    });
-  };
+    }
 
-  // Initial setup
+    tbody.appendChild(tr);
+  });
+
+  // Show/hide third bike column styling (if you use colgroups or classes)
+  document.querySelectorAll(".bike3-col").forEach(col => {
+    col.classList.toggle("hidden", !showBike3);
+  });
+
+  // Show or hide bike3 select dropdown
+  document.getElementById("bike3-select").classList.toggle("hidden", !showBike3);
+}
+
+document.getElementById("add-bike-btn").onclick = () => {
+  showBike3 = true;
+
+  // Add default bike 3 if not selected yet
+  if (selectedBikes.length < 3) {
+    selectedBikes[2] = 2; // index of Yamaha FZ-X for example
+  }
+
   populateDropdowns();
   renderComparisonTable();
+};
+
+document.getElementById("highlight-diff-btn").onclick = () => {
+  highlightEnabled = true;
+  renderComparisonTable();
+};
+
+populateDropdowns();
+renderComparisonTable();
 </script>
 </body>
 </html>
