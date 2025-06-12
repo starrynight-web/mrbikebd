@@ -5,141 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bike Details</title>
+  <link rel="stylesheet" href="css/bike.css" />
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
-    }
-
-    /* Hero Section */
-    .bike-hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      background: linear-gradient(to right, #292e49, #536976);
-      color: #fff;
-      padding: 40px 20px;
-    }
-    .bike-hero img {
-      max-width: 90%;
-      height: auto;
-      margin: 20px 0;
-      border-radius: 12px;
-      transition: transform 0.5s ease;
-    }
-    .bike-hero img:hover {
-      transform: scale(1.05);
-    }
-
-    /* Bike Info Section */
-    .bike-info {
-      max-width: 1000px;
-      margin: auto;
-      padding: 30px 20px;
-    }
-    .specs {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
-    .spec {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-    .spec:hover {
-      transform: translateY(-5px);
-    }
-
-    /* Image Gallery */
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 15px;
-      margin-top: 40px;
-    }
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-
-    @media (max-width: 768px) {
-      .bike-hero {
-        padding: 30px 10px;
-      }
-    }
-    .section-header {
-  font-size: 1.8rem;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #292e49;
-  animation: fadeInUp 0.6s ease-out;
-  position: relative;
-}
-.section-header::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background: #292e49;
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.review-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  max-width: 600px;
-  margin: auto;
-}
-
-.review-form label {
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-}
-
-.stars i {
-  color: #ff9800;
-  margin-left: 5px;
-}
-
-.submit-review {
-  background: #292e49;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.submit-review:hover {
-  background: #3e4a6b;
-}
-
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+    
   </style>
 </head>
 <body>
@@ -188,7 +58,13 @@
     <img src="images/r15.png" alt="Yamaha R15 V4">
     <p>A performance-packed bike with sharp styling and top-tier specs.</p>
   </section>
-
+ <h2 style="margin-top: 50px;">Photo Gallery</h2>
+    <div class="gallery">
+      <img src="images/r15-side.jpg" alt="Side View">
+      <img src="images/r15-back.jpg" alt="Back View">
+      <img src="images/r15-front.jpg" alt="Front View">
+      <img src="images/r15-dashboard.jpg" alt="Dashboard">
+    </div>
   <!-- Bike Details -->
   <section class="bike-info">
     <h2>Specifications</h2>
@@ -197,17 +73,13 @@
       <div class="spec"><strong>Engine:</strong><br>155cc, Liquid-Cooled</div>
       <div class="spec"><strong>Mileage:</strong><br>42 km/l</div>
       <div class="spec"><strong>Top Speed:</strong><br>136 km/h</div>
-      <div class="spec"><strong>Gear:</strong><br>6-Speed</div>
+      <div class="spec"><strong>Top Speed(Claimed):</strong><br>147 km/h</div>
       <div class="spec"><strong>ABS:</strong><br>Dual Channel</div>
+       <div class="spec"><strong>Gear:</strong><br>6-Speed</div>
+      <div class="spec"><strong>Weight:</strong><br>141 kg</div>
     </div>
 
-    <h2 style="margin-top: 50px;">Photo Gallery</h2>
-    <div class="gallery">
-      <img src="images/r15-side.jpg" alt="Side View">
-      <img src="images/r15-back.jpg" alt="Back View">
-      <img src="images/r15-front.jpg" alt="Front View">
-      <img src="images/r15-dashboard.jpg" alt="Dashboard">
-    </div>
+   
   </section>
 <!-- Detailed Info Section -->
 <section class="bike-info">
@@ -217,8 +89,27 @@
     <div class="spec">Max Power: 18.4 PS @ 10000 rpm</div>
     <div class="spec">Max Torque: 14.2 Nm @ 7500 rpm</div>
     <div class="spec">Acceleration (0-60): 3.3 sec</div>
+     <div class="spec">Top Speed(Claimed): 136 km/h</div>
+    <div class="spec">Top Speed(Reported): 136 km/h</div>
+    <div class="spec">Mileage (Claimed): 40 kmpl</div>
+    <div class="spec">Mileage (Reported): 42 kmpl</div>
+    <div class="spec">Clutch:Assist And Slipper Clutch</div>
+    <div class="spec">Cooling System: Liquid-Cooled/div>
   </div>
-
+ <!-- Braking System -->
+  <h2 class="section-header">🛑 Braking System</h2>
+  <div class="specs">
+    <div class="spec">Front Brake: Disc 282mm</div>
+    <div class="spec">Rear Brake: Disc 220mm</div>
+    <div class="spec">ABS Type: Dual-Channel</div>
+  </div>
+  <!-- Tyre -->
+  <h2 class="section-header">🚀 Speed</h2>
+  <div class="specs">
+    <div class="spec">Top Speed: 136 km/h</div>
+    <div class="spec">6-Speed Gearbox</div>
+    <div class="spec">Aerodynamic Body</div>
+  </div>
   <!-- Features -->
   <h2 class="section-header">⚙️ Features</h2>
   <div class="specs">
@@ -227,29 +118,17 @@
     <div class="spec">Digital Cluster</div>
   </div>
 
-  <!-- Braking System -->
-  <h2 class="section-header">🛑 Braking System</h2>
-  <div class="specs">
-    <div class="spec">Front Brake: Disc 282mm</div>
-    <div class="spec">Rear Brake: Disc 220mm</div>
-    <div class="spec">ABS Type: Dual-Channel</div>
-  </div>
+ 
 
   <!-- Reliability -->
-  <h2 class="section-header">🛠 Reliability</h2>
+  <h2 class="section-header">🛠 Reliability &  Dim</h2>
   <div class="specs">
     <div class="spec">Warranty: 2 Years</div>
     <div class="spec">Build Quality: Excellent</div>
     <div class="spec">Parts Availability: High</div>
   </div>
 
-  <!-- Speed -->
-  <h2 class="section-header">🚀 Speed</h2>
-  <div class="specs">
-    <div class="spec">Top Speed: 136 km/h</div>
-    <div class="spec">6-Speed Gearbox</div>
-    <div class="spec">Aerodynamic Body</div>
-  </div>
+  
 
   <!-- Review Section -->
   <h2 class="section-header">📝 User Reviews</h2>
