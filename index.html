@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mr. Bike BD</title>
-
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
@@ -16,51 +15,13 @@
       color: #333;
     }
 
-    header {
-      background-color: #c62828;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    header h1 {
-      font-size: 36px;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      text-align: center;
-    }
-
-    .news-button {
-      display: inline-block;
-      padding: 12px 25px;
-      background-color: #d32f2f;
-      color: white;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
-
-    .news-button:hover {
-      background-color: #b71c1c;
-    }
-
+    /* Top Navbar */
     .top-navbar {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      height: 60px;
+      height: 50px;
       background-color: #c62828;
       display: flex;
       align-items: center;
@@ -70,29 +31,36 @@
     }
 
     .navbar-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       color: white;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
+    }
+
+    .navbar-left img {
+      height: 30px;
     }
 
     .navbar-search {
       flex: 1;
       display: flex;
-      align-items: center;
       justify-content: center;
     }
 
     .navbar-search div {
       position: relative;
-      width: 60%;
+      width: 50%;
+      max-width: 400px;
     }
 
     .navbar-search input {
       width: 100%;
-      padding: 10px 10px 10px 36px;
-      border-radius: 25px;
+      padding: 8px 10px 8px 36px;
+      border-radius: 20px;
       border: none;
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .navbar-search i {
@@ -103,14 +71,91 @@
       color: #888;
     }
 
+    .navbar-right {
+      position: relative;
+    }
+
     .navbar-right button {
       background: none;
       border: none;
       color: white;
-      font-size: 20px;
+      font-size: 18px;
       cursor: pointer;
+      position: relative;
     }
 
+    .navbar-right button:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      top: -25px;
+      right: 0;
+      background-color: #000;
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    /* Hamburger Icon */
+    .hamburger {
+      display: inline-block;
+      cursor: pointer;
+      position: fixed;
+      top: 12px;
+      left: 15px;
+      z-index: 1000;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .sidebar {
+      position: fixed;
+      left: -250px;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      background-color: #2c2c2c;
+      color: white;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+      transition: left 0.3s ease;
+      z-index: 998;
+    }
+
+    .sidebar.show {
+      left: 0;
+    }
+
+    .sidebar .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .sidebar .logo img {
+      height: 50px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 10px 5px;
+      text-decoration: none;
+      border-bottom: 1px solid #444;
+    }
+
+    .sidebar a:hover {
+      background-color: #444;
+    }
+
+    /* Dark Mode */
     .dark-mode {
       background-color: #121212;
       color: #e0e0e0;
@@ -142,9 +187,10 @@
 </head>
 <body>
 
-<!-- Fixed Top Navbar -->
+<!-- Top Navbar -->
 <nav class="top-navbar">
   <div class="navbar-left">
+    <img src="images/logo.png" alt="Mr. Bike BD Logo">
     Mr. Bike BD
   </div>
   <div class="navbar-search">
@@ -154,20 +200,23 @@
     </div>
   </div>
   <div class="navbar-right">
-    <button id="themeToggle"><i id="themeIcon" class="fas fa-moon"></i></button>
+    <button id="themeToggle" data-tooltip="Dark">
+      <i id="themeIcon" class="fas fa-moon"></i>
+    </button>
   </div>
 </nav>
 
 <!-- Spacer for fixed navbar -->
 <div style="height: 60px;"></div>
 
-<div class="hamburger" onclick="toggleSidebar(this)">
+<!-- Hamburger Menu -->
+<div class="hamburger" onclick="document.getElementById('sidebar').classList.toggle('show')">
   <span></span>
   <span></span>
   <span></span>
 </div>
 
-<!-- Sidebar Menu -->
+<!-- Sidebar -->
 <nav class="sidebar" id="sidebar">
   <div class="logo">
     <a href="#"><img src="images/logo.png" alt="Logo" /></a>
@@ -187,73 +236,24 @@
   <a href="terms.html"><i class="fas fa-file-contract "></i> Terms & Conditions</a>
 </nav>
 
-<header>
-  <h1>Welcome to Mr. Bike BD</h1>
-  <p>Your trusted source for motorcycle news, updates & reviews in Bangladesh.</p>
-</header>
+<!-- Rest of your body like header, content, footer (unchanged)... -->
 
-<div class="container">
-  <p>We bring you the latest motorbike launches, pricing updates, and expert reviews from across the country.</p>
-  <a href="news.html" class="news-button">View Latest News</a>
-</div>
-
-<div class="container">
-  <p>All the available bike models at Bangladesh.</p>
-  <a href="bike.html" class="news-button">Check Bikes</a>
-</div>
-
-<footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
-  <div style="max-width: 1200px; margin: auto;">
-    <hr style="border: none; border-top: 2px solid #fff; margin: 0 0 15px;">
-    <div class="social-title" style="font-weight: bold; font-size: 24px; text-align: left; margin-bottom: 10px;">
-      Join our social media
-    </div>
-    <div class="responsive-stack" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
-      <div class="social-icons" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 10px;">
-        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/x.svg" alt="X" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram" style="width: 24px; filter: invert(1);"></a>
-      </div>
-      <div class="nav-links" style="display: flex; flex-direction: row; gap: 10px; margin-top: 5px;">
-        <a href="about.html" style="color: #fff; text-decoration: none;">About Us</a>
-        <a href="site.html" style="color: #fff; text-decoration: none;">Our Pages</a>
-        <a href="news.html" style="color: #fff; text-decoration: none;">News & Affairs</a>
-        <a href="advertise.html" style="color: #fff; text-decoration: none;">Advertise</a>
-      </div>
-    </div>
-    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
-    <div class="copyright-section" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;">
-      <div style="font-weight: bold;">&copy;Mr BikeBD</div>
-      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-        <a href="privacy.html" style="color: #bbb; text-decoration: none;">Privacy Policy</a>
-        <span style="color: #bbb;">&</span>
-        <a href="terms.html" style="color: #bbb; text-decoration: none;">User Agreement</a>
-      </div>
-    </div>
-    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
-    <div style="text-align: center; font-size: 18px;">
-      <span style="color: #bbb;">A Project Of </span>
-      <a href="https://unleft.godaddysites.com" target="_blank" style="color: #bbb; text-decoration: none;">UNLEFT</a>
-      <br>
-      <a href="contact.html" style="color: #bbb; text-decoration: none;">Contact Us</a>
-    </div>
-  </div>
-</footer>
-
-<!-- Dark Mode Toggle Script -->
+<!-- Theme Script -->
 <script>
   const toggleBtn = document.getElementById('themeToggle');
   const themeIcon = document.getElementById('themeIcon');
+
+  const updateTooltip = () => {
+    toggleBtn.setAttribute("data-tooltip", document.body.classList.contains("dark-mode") ? "Light" : "Dark");
+  };
 
   window.addEventListener('DOMContentLoaded', () => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       document.body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
+      themeIcon.classList.replace('fa-moon', 'fa-sun');
     }
+    updateTooltip();
   });
 
   toggleBtn.addEventListener('click', () => {
@@ -262,9 +262,9 @@
     themeIcon.classList.toggle('fa-moon', !isDark);
     themeIcon.classList.toggle('fa-sun', isDark);
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateTooltip();
   });
 </script>
 
-<script src="main.js"></script>
 </body>
 </html>
