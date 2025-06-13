@@ -1,0 +1,111 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s;
+    }
+    .bike-image {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.bike-image:hover {
+  transform: scale(1.05);
+}
+    h1 
+   {
+      text-align: center;
+      color: #1a237e;
+      font-size: 2.5rem;
+      margin-bottom: 28px;
+    }
+    .comparison-container {
+      padding: 24px 5vw;
+    }
+    .controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+    .dropdowns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+    .dropdowns select {
+      padding: 12px 18px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1.5px solid #90caf9;
+      background: #f7fbff;
+      color: #1a237e;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+    }
+    .buttons button {
+      background: linear-gradient(90deg, #1976d2, #42a5f5);
+      color: #fff;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .buttons #add-bike-btn {
+      background: linear-gradient(90deg, #43e97b, #38f9d7);
+      color: #1a237e;
+    }
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: 12px;
+      background: #f7fbff;
+      box-shadow: 0 2px 16px rgba(33, 150, 243, 0.08);
+    }
+    .table-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+    .table-wrapper::-webkit-scrollbar-thumb {
+      background: #90caf9;
+      border-radius: 8px;
+    }
+    #comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+    #comparison-table th, #comparison-table td {
+      padding: 16px 12px;
+      text-align: center;
+      border: 1px solid #e3e8f7;
+    }
+    #comparison-table th {
+      background: linear-gradient(90deg, #1976d2, #42a5f5);
+      color: white;
+    }
+    #comparison-table .bike3-col {
+      transition: opacity 0.3s;
+    }
+    .hidden {
+      display: none !important;
+    }
+    .highlight-diff {
+      background: #fffde7 !important;
+      color: #d84315;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
