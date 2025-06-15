@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate Expenses - MRBikeBD</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #d62828;
+      margin-bottom: 1rem;
+    }
+    p.description {
+      font-size: 1rem;
+      margin-top: -0.5rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    input, select, button {
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #d62828;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #b71c1c;
+    }
+    .result {
+      font-weight: bold;
+      color: green;
+      margin-top: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bike Expense Calculator</h1>
+    <p class="description">Quickly estimate your bike-related expenses including monthly EMI and your fuel cost per trip based on mileage. Perfect for planning your bike ownership budget!</p><div class="card">
+  <h2>EMI Calculator</h2>
+  <input type="number" id="bikePrice" placeholder="Bike Price (BDT)">
+  <input type="number" id="downPayment" placeholder="Down Payment (BDT)">
+  <input type="number" id="interestRate" placeholder="Interest Rate (%)">
+  <input type="number" id="loanTerm" placeholder="Loan Term (Months)">
+  <button onclick="calculateEMI()">Calculate EMI</button>
+  <p class="result" id="emiResult"></p>
+</div>
+
+<div class="card">
+  <h2>Octane Cost Estimator</h2>
+  <p class="description">Use this tool to estimate how much you'll spend on fuel for a given distance. Enter your daily or trip distance, your bike's mileage, and the current octane price.</p>
+  <input type="number" id="distance" placeholder="Distance (km)">
+  <input type="number" id="mileage" placeholder="Fuel Efficiency (km/l)">
+  <input type="number" id="fuelPrice" placeholder="Fuel Price (BDT/l)">
+  <button onclick="calculateFuelCost()">Estimate Cost</button>
+  <p class="result" id="fuelResult"></p>
+</div>
+
+  </div>  <script>
+    function calculateEMI() {
+      const price = parseFloat(document.getElementById("bikePrice").value);
+      const down = parseFloat(document.getElementById("downPayment").value);
+      const rate = parseFloat(document.getElementById("interestRate").value) / 1200;
+      const term = parseInt(document.getElementById("loanTerm").value);
+      const principal = price - down;
+      const emi = (principal * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
+      const total = emi * term;
+      document.getElementById("emiResult").innerText = `Monthly EMI: BDT ${emi.toFixed(2)}, Total Payable: BDT ${total.toFixed(2)}`;
+    }
+
+    function calculateFuelCost() {
+      const distance = parseFloat(document.getElementById("distance").value);
+      const mileage = parseFloat(document.getElementById("mileage").value);
+      const price = parseFloat(document.getElementById("fuelPrice").value);
+      const cost = (distance / mileage) * price;
+      document.getElementById("fuelResult").innerText = `Estimated Fuel Cost: BDT ${cost.toFixed(2)}`;
+    }
+  </script></body>
+</html>
