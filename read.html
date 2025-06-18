@@ -3,36 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Article - Mr. Bike BD</title>
+  <title>Yamaha FZ-X 2025 Launch - Mr. Bike BD</title>
   <link rel="stylesheet" href="css/main.css" />
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f7f7f7;
+      box-sizing: border-box;
     }
 
-    .article-container {
-      max-width: 800px;
-      margin: auto;
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .article-fullscreen {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
       padding: 20px;
-      background: #fff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      border-radius: 10px;
-      margin-top: 40px;
+      background: #e63946;
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    .article-wrapper {
+      flex: 1;
+      width: 100%;
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
     }
 
     .article-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: bold;
       margin-bottom: 10px;
-      color: #222;
     }
 
     .article-meta {
-      color: #777;
       font-size: 0.9rem;
+      color: #777;
       margin-bottom: 20px;
     }
 
@@ -41,24 +61,23 @@
       max-height: 400px;
       object-fit: cover;
       border-radius: 8px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
 
     .article-content p {
-      font-size: 1.05rem;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
       color: #333;
-      line-height: 1.7;
-      margin-bottom: 1.2em;
     }
 
     .related-section {
-      margin-top: 40px;
+      margin-top: 50px;
       border-top: 1px solid #ddd;
-      padding-top: 20px;
+      padding-top: 25px;
     }
 
     .related-section h3 {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       margin-bottom: 10px;
       color: #444;
     }
@@ -66,8 +85,8 @@
     .related-links a {
       display: block;
       color: #e63946;
-      margin-bottom: 8px;
       text-decoration: none;
+      margin-bottom: 8px;
       font-weight: 500;
     }
 
@@ -76,6 +95,10 @@
     }
 
     @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
       .article-title {
         font-size: 1.5rem;
       }
@@ -83,38 +106,51 @@
       .article-content p {
         font-size: 1rem;
       }
+
+      .article-wrapper {
+        padding: 20px 15px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <div class="article-container">
-    <h1 class="article-title">Yamaha Launches New FZ-X 2025 in Bangladesh</h1>
-    <div class="article-meta">Published on June 17, 2025 · By Mr. Bike BD Team</div>
-    <img src="images/news1.jpg" alt="Yamaha FZ-X 2025" class="article-image" />
-    
-    <div class="article-content">
-      <p>The Yamaha FZ-X 2025 has officially launched in the Bangladeshi market, bringing with it a retro-inspired design blended with modern-day features.</p>
+  <div class="article-fullscreen">
 
-      <p>The bike is powered by a 149cc air-cooled engine, producing 12.4 PS of power and 13.3 Nm of torque. It's mated to a 5-speed gearbox and comes with advanced features such as Bluetooth connectivity, LED headlamp, and a fully digital console.</p>
+    <header>
+      <h1>Mr. Bike BD - News & Reviews</h1>
+    </header>
 
-      <p>Yamaha claims the FZ-X 2025 is designed for urban riders who seek both comfort and style. The seating posture is upright, and the suspension setup is tuned for city potholes and speed breakers.</p>
+    <main class="article-wrapper">
+      <h2 class="article-title">Yamaha Launches New FZ-X 2025 in Bangladesh</h2>
+      <div class="article-meta">Published on June 17, 2025 · By Mr. Bike BD Team</div>
 
-      <p>In terms of pricing, the bike is expected to be priced around BDT 3,00,000. Bookings have already started at Yamaha showrooms across major cities like Dhaka, Chittagong, and Rajshahi.</p>
+      <img src="images/r15.png" alt="Yamaha FZ-X 2025" class="article-image" />
 
-      <p>Mr. Arefin, a Yamaha dealer from Dhaka, said: "This is a game-changer for those who want a mix of classic styling and modern tech. Youth will love it."</p>
+      <div class="article-content">
+        <p>The Yamaha FZ-X 2025 has officially launched in the Bangladeshi market, bringing with it a retro-inspired design blended with modern-day features.</p>
 
-      <p>Stay tuned for our in-depth video review coming next week!</p>
-    </div>
+        <p>The bike is powered by a 149cc air-cooled engine, producing 12.4 PS of power and 13.3 Nm of torque. It's mated to a 5-speed gearbox and comes with advanced features such as Bluetooth connectivity, LED headlamp, and a fully digital console.</p>
 
-    <div class="related-section">
-      <h3>Related Articles</h3>
-      <div class="related-links">
-        <a href="article.html">Hero Xtreme 160R 4V Review – Is it worth it?</a>
-        <a href="article.html">Suzuki Gixxer SF 2025 First Ride Impression</a>
-        <a href="article.html">Government Plans to Cut Registration Fees</a>
+        <p>Yamaha claims the FZ-X 2025 is designed for urban riders who seek both comfort and style. The seating posture is upright, and the suspension setup is tuned for city potholes and speed breakers.</p>
+
+        <p>In terms of pricing, the bike is expected to be priced around BDT 3,00,000. Bookings have already started at Yamaha showrooms across major cities like Dhaka, Chittagong, and Rajshahi.</p>
+
+        <p>Mr. Arefin, a Yamaha dealer from Dhaka, said: "This is a game-changer for those who want a mix of classic styling and modern tech. Youth will love it."</p>
+
+        <p>Stay tuned for our in-depth video review coming next week!</p>
       </div>
-    </div>
+
+      <div class="related-section">
+        <h3>Related Articles</h3>
+        <div class="related-links">
+          <a href="#">Hero Xtreme 160R 4V Review – Is it worth it?</a>
+          <a href="#">Suzuki Gixxer SF 2025 First Ride Impression</a>
+          <a href="#">Government Plans to Cut Registration Fees</a>
+        </div>
+      </div>
+    </main>
+
   </div>
 
 </body>
