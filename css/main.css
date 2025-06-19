@@ -1,4 +1,4 @@
-/*.hamburger {
+       .hamburger {
       position: fixed;
       top: 15px;
       left: 15px;
@@ -9,29 +9,7 @@
       justify-content: space-between;
       width: 25px;
       height: 18px;
-    }*/
-    .hamburger-container {
-  position: sticky;
-  top: 0;
-  background: rgb(255, 255, 255); /* Match sidebar background */
-  z-index: 1001; /* Ensure it stays above logo */
-  padding: 19px;
-  
-}
-
-/* Adjust Hamburger Positioning */
-.hamburger {
-  position: relative; /* No longer fixed */
-  top: auto;
-  left: auto;
-  z-index: 1001;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 25px;
-  height: 18px;
-}
+    }
     .hamburger span {
       background: #333;
       height: 3px;
@@ -73,10 +51,8 @@
       border-bottom: 1px solid #eee;
     }
     .sidebar .logo img {
-      width: 30px;
+      width: 120px;
       height: auto;
-      padding: 5px 0;
-  margin-top: 5px;
     }
 
     .sidebar a {
@@ -109,9 +85,6 @@
         margin-left: 0;
       }
     }
-    
-
-    /* Fixed Navbar with Search */
     .top-navbar {
       position: fixed;
       top: 0;
