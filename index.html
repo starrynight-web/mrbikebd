@@ -169,6 +169,12 @@
       font-size: 20px;
       user-select: none;
       text-shadow: 0 0 3px #800000;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar.active ~ .logo-inline {
+      opacity: 0;
+      pointer-events: none;
     }
 
     .logo-inline img {
