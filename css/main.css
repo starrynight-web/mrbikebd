@@ -1,4 +1,4 @@
-       .hamburger {
+.hamburger {
       position: fixed;
       top: 15px;
       left: 15px;
@@ -51,7 +51,7 @@
       border-bottom: 1px solid #eee;
     }
     .sidebar .logo img {
-      width: 120px;
+      width: 60px;
       height: auto;
     }
 
