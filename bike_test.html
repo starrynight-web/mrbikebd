@@ -1,57 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bike Portal Bangladesh - Your Ultimate Bike Destination</title>
-   <link rel="stylesheet" href="css/main.css" />
-   <link rel="stylesheet" href="css/index.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Bike BD</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/index_main.css">
 </head>
 <body>
-  <div class="bg-animation"></div>
-   
-  <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <div class="logo">🏍️ Mr Bike BD</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#bikes">Bikes</a></li>
-        <li><a href="#brands">Brands</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
- <!-- Spacer for fixed navbar -->
-<div style="height: 60px;"></div>
+
+
 <div class="hamburger" onclick="toggleSidebar(this)">
   <span></span>
   <span></span>
   <span></span>
 </div>
 
-<!-- Sidebar Menu -->
-<nav class="sidebar" id="sidebar">
-  <!-- Logo Section -->
-  <div class="logo">
-    <!-- <a href="#"><img src="images/logo.png" alt="Logo" /></a> -->
-  </div>
 
+<nav class="sidebar" id="sidebar">
   
-
- 
-<nav class="sidebar" id="sidebar">
   <div class="logo">
-    <a href="#"><img src="images/logo.png" alt="Logo" /></a>
+    <!-- <a href="#"><img src="images/icons/youtube.svg" alt="Logo" /></a> -->
   </div>
-  <a href="index.html"><i class="fas fa-home"></i> Home</a>
+<a href="index.html"><i class="fas fa-home"></i> Home</a>
   <a href="bike.html"><i class="fas fa-motorcycle"></i> New Bikes</a>
   <a href="bike.html"><i class="fas fa-clock"></i> Upcoming Bikes</a>
   <a href="compare.html"><i class="fas fa-balance-scale"></i> Compare Bikes</a>
-  <a href="calculate.html"><i class="fas fa-calculator"></i> Expense Calculator</a>
-  <a href="reg.html"><i class="fas fa-file-contract "></i> Terms & Conditions</a>
+  <a href="calculator.html"><i class="fas fa-calculator"></i> Expense Calculator</a>
+  <a href="reg.html"><i class="fas fa-file-contract "></i> Registration Fees</a>
   <a href="brand.html"><i class="fas fa-layer-group"></i> All Brands</a>
   <a href="dealer.html"><i class="fas fa-store"></i> Find Showrooms</a>
   <a href="about.html"><i class="fas fa-users"></i> About US</a>
@@ -60,545 +38,148 @@
   <a href="news.html"><i class="fas fa-newspaper"></i> News & Affairs</a>
   <a href="privacy.html"><i class="fas fa-shield-alt "></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-scroll "></i> Terms & Conditions</a>
-</nav>g
+</nav>
+ 
+  
+  
+<div class="logo-inline">
+  <a href="#" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+    <img src="images/logo/log.png" alt="Logo" />
+    
+  </a>
+</div>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Your Ultimate Bike Destination in Bangladesh</h1>
-      <p>Discover the latest bikes, compare prices, find dealers, and stay updated with the newest trends in the Bangladeshi motorcycle market.</p>
-      <div class="cta-buttons">
-        <a href="#bikes" class="btn btn-primary">
-          <i class="fas fa-motorcycle"></i> Explore Bikes
-        </a>
-        <a href="#brands" class="btn btn-secondary">
-          <i class="fas fa-search"></i> Find Dealers
-        </a>
+
+<nav class="top-navbar">
+  <div class="navbar-right">
+    <div class="search-container">
+      <input type="text" class="search-bar" placeholder="Search bikes, brands...">
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <a href="news.html" title="Latest News" class="navbar-icon bell-badge">
+      <i class="fas fa-bell"></i>
+    </a>
+    <div class="dark-toggle" title="Toggle Dark/Light Mode" onclick="toggleThemeMenu(event)">
+      <i class="fas fa-circle-half-stroke"></i>
+      <div class="toggle-menu" id="themeToggleMenu">
+        <div onclick="setMode('light'); closeThemeMenu()">Light Mode</div>
+        <div onclick="setMode('dark'); closeThemeMenu()">Dark Mode</div>
+        <div onclick="setMode('system'); closeThemeMenu()">System Default</div>
       </div>
     </div>
-  </section>
+  </div>
+</nav>
 
-  <!-- Sport Bikes Section -->
-  <section class="section" id="bikes">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">🏁 Sport Bikes</h2>
-        <p class="section-subtitle">High-performance machines built for speed and adrenaline</p>
+<div style="height: 60px;"></div>
+
+ 
+
+ 
+<header>
+  <h1>Welcome to Mr. Bike BD Yo</h1>
+  <p>Your trusted source for motorcycle news, updates & reviews in Bangladesh.</p>
+</header>
+
+<div class="container">
+  <p>We bring you the latest motorbike launches, pricing updates, and expert reviews from across the country.</p>
+  <a href="news.html" class="news-button">View Latest News</a>
+</div>
+
+<div class="container">
+  <p>All the available bike models at Bangladesh.</p>
+  <p>We bring you the latest motorbike launches, pricing updates, and expert reviews from across the country.</p>
+  <a href="bike.html" class="news-button">Check Bikes</a>
+</div>
+
+<footer>
+  <div style="max-width: 1200px; margin: auto;">
+    <hr style="border: none; border-top: 2px solid #fff; margin: 0 0 15px;">
+    <div class="social-title" style="font-weight: bold; font-size: 24px; text-align: left; margin-bottom: 10px;">Join our social media</div>
+    <div class="responsive-stack" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
+      <div class="social-icons" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 10px;">
+        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/x.svg" alt="X" style="width: 24px; filter: invert(1);"></a>
+        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram" style="width: 24px; filter: invert(1);"></a>
       </div>
-      <div class="bike-scroll">
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--primary-color); font-size: 3rem;"><img src="images/r15.png" alt="Yamaha R15 V4"></div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Suzuki Gixxer SF</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>155cc</span></div>
-              <div class="spec-item"><span>Top Speed:</span><span>135 km/h</span></div>
-              <div class="spec-item"><span>Power:</span><span>14.1 HP</span></div>
-              <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div>
-            </div>
-            <div class="bike-price">৳ 3,50,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--primary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Honda CBR 150R</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>149cc</span></div>
-              <div class="spec-item"><span>Top Speed:</span><span>155 km/h</span></div>
-              <div class="spec-item"><span>Power:</span><span>17.1 HP</span></div>
-              <div class="spec-item"><span>Mileage:</span><span>40 kmpl</span></div>
-            </div>
-            <div class="bike-price">৳ 5,50,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--primary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Suzuki GSX R150</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>147cc</span></div>
-              <div class="spec-item"><span>Top Speed:</span><span>148 km/h</span></div>
-              <div class="spec-item"><span>Power:</span><span>19.2 HP</span></div>
-              <div class="spec-item"><span>Mileage:</span><span>42 kmpl</span></div>
-            </div>
-            <div class="bike-price">৳ 4,25,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--primary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">TVS Apache RR 310</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>312cc</span></div>
-              <div class="spec-item"><span>Top Speed:</span><span>165 km/h</span></div>
-              <div class="spec-item"><span>Power:</span><span>34 HP</span></div>
-              <div class="spec-item"><span>Mileage:</span><span>35 kmpl</span></div>
-            </div>
-            <div class="bike-price">৳ 6,75,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--primary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">KTM RC 125</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>124cc</span></div>
-              <div class="spec-item"><span>Top Speed:</span><span>120 km/h</span></div>
-              <div class="spec-item"><span>Power:</span><span>14.5 HP</span></div>
-              <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div>
-            </div>
-            <div class="bike-price">৳ 4,50,000</div>
-          </div>
-        </div>
+      <div class="nav-links" style="display: flex; flex-direction: row; gap: 10px; margin-top: 5px;">
+        <a href="about.html" style="color: #fff; text-decoration: none;">About Us</a>
+        <a href="site.html" style="color: #fff; text-decoration: none;">Our Pages</a>
+        <a href="news.html" style="color: #fff; text-decoration: none;">News & Affairs</a>
+        <a href="advertise.html" style="color: #fff; text-decoration: none;">Advertise</a>
       </div>
     </div>
-  </section>
-
-  <!-- Trending Bikes Section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">🔥 Trending Bikes</h2>
-        <p class="section-subtitle">Most popular bikes in Bangladesh right now</p>
-      </div>
-      <div class="bike-scroll">
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--secondary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Hero Xtreme 160R</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>163cc</span></div>
-              <div class="spec-item"><span>Power:</span><span>15.2 HP</span></div>
-            </div>
-            <div class="bike-price">৳ 2,85,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--secondary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Bajaj Pulsar N250</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>249cc</span></div>
-              <div class="spec-item"><span>Power:</span><span>24.5 HP</span></div>
-            </div>
-            <div class="bike-price">৳ 4,75,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--secondary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Royal Enfield Hunter 350</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>349cc</span></div>
-              <div class="spec-item"><span>Power:</span><span>20.2 HP</span></div>
-            </div>
-            <div class="bike-price">৳ 6,25,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--secondary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Lifan KPR 165</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>162cc</span></div>
-              <div class="spec-item"><span>Power:</span><span>16.8 HP</span></div>
-            </div>
-            <div class="bike-price">৳ 3,95,000</div>
-          </div>
-        </div>
-        
-        <div class="bike-card fade-in">
-          <div class="bike-image">
-            <div style="color: var(--secondary-color); font-size: 3rem;">🏍️</div>
-          </div>
-          <div class="bike-info">
-            <h3 class="bike-name">Zontes ZT 155 G1</h3>
-            <div class="bike-specs">
-              <div class="spec-item"><span>Engine:</span><span>155cc</span></div>
-              <div class="spec-item"><span>Power:</span><span>17.2 HP</span></div>
-            </div>
-            <div class="bike-price">৳ 4,15,000</div>
-          </div>
-        </div>
+    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
+    <div class="copyright-section" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;">
+      <div style="font-weight: bold;">&copy;Mr BikeBD</div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <a href="privacy.html" style="color: #bbb; text-decoration: none;">Privacy Policy</a>
+        <span style="color: #bbb;">&</span>
+        <a href="terms.html" style="color: #bbb; text-decoration: none;">User Agreement</a>
       </div>
     </div>
-  </section>
-
-  <!-- Stats Section -->
-  <section class="section">
-    <div class="container">
-      <div class="stats-section">
-        <div class="stats-grid">
-          <div class="stat-item fade-in">
-            <div class="stat-number">500+</div>
-            <div class="stat-label">Bike Models</div>
-          </div>
-          <div class="stat-item fade-in">
-            <div class="stat-number">50+</div>
-            <div class="stat-label">Brands Available</div>
-          </div>
-          <div class="stat-item fade-in">
-            <div class="stat-number">1000+</div>
-            <div class="stat-label">Dealers Nationwide</div>
-          </div>
-          <div class="stat-item fade-in">
-            <div class="stat-number">50K+</div>
-            <div class="stat-label">Happy Customers</div>
-          </div>
-        </div>
-      </div>
+    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
+    <div style="text-align: center; font-size: 18px;">
+      <span style="color: #bbb;">A Project Of </span>
+      <a href="https://unleft.godaddysites.com" target="_blank" style="color: #bbb; text-decoration: none;">UNLEFT</a>
+      <br>
+      <a href="contact.html" style="color: #bbb; text-decoration: none;">Contact Us</a>
     </div>
-  </section>
+  </div>
+</footer>
 
-  <!-- Brands Section -->
-  <section class="section" id="brands">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">🏭 Available Brands in Bangladesh</h2>
-        <p class="section-subtitle">Explore bikes from top manufacturers</p>
-      </div>
-      <div class="brand-grid">
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/RE.png" alt="Royal Enfield Logo" style="width: 60px; height: auto;" />
-          </div>
+<script>
+  function setMode(mode) {
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('theme', 'dark');
+    } else if (mode === 'light') {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+    } else if (mode === 'system') {
+      localStorage.removeItem('theme');
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+      }
+    }
+  }
 
-          <div class="brand-name">Royal Enfield</div>
-          <div class="brand-models">12 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/Honda.png" alt="Honda Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Honda</div>
-          <div class="brand-models">25 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/bajaj.png" alt="Bajaj Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Bajaj</div>
-          <div class="brand-models">18 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/tvs.png" alt="TVS Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">TVS</div>
-          <div class="brand-models">15 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/yamaha.png" alt="Yamaha Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Yamaha</div>
-          <div class="brand-models">20 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/hero.png" alt="Hero Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Hero</div>
-          <div class="brand-models">22 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/KTM.png" alt="KTM Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">KTM</div>
-          <div class="brand-models">8 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/suzuki.png" alt="Suzuki Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Suzuki</div>
-          <div class="brand-models">16 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/Benelli.png" alt="Benelli Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Benelli</div>
-          <div class="brand-models">6 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/cfmoto.png" alt="CFMoto Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">CFMoto</div>
-          <div class="brand-models">10 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/lifan.png" alt="Lifan Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Lifan</div>
-          <div class="brand-models">14 Models Available</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo">
-            <img src="images/Brands/runner.png" alt="Runner Logo" style="width: 60px; height: auto;" />
-          </div>
-          <div class="brand-name">Runner</div>
-          <div class="brand-models">12 Models Available</div>
-        </div>
-      </div>
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="#" class="btn btn-primary">View All Brands</a>
-      </div>
-    </div>
-  </section>
+  window.onload = () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setMode(savedTheme);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setMode('dark');
+    }
+  };
 
-  <!-- Bike Segments Section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">🎯 Bike Segments</h2>
-        <p class="section-subtitle">Find bikes by category</p>
-      </div>
-      <div class="brand-grid">
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-rocket"></i></div>
-          <div class="brand-name">Sport Bikes</div>
-          <div class="brand-models">High Performance</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-road"></i></div>
-          <div class="brand-name">Naked Bikes</div>
-          <div class="brand-models">Street Riding</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-city"></i></div>
-          <div class="brand-name">Scooters</div>
-          <div class="brand-models">City Commuting</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-route"></i></div>
-          <div class="brand-name">Cruisers</div>
-          <div class="brand-models">Long Distance</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-briefcase"></i></div>
-          <div class="brand-name">Commuters</div>
-          <div class="brand-models">Daily Use</div>
-        </div>
-        <div class="brand-card fade-in">
-          <div class="brand-logo"><i class="fas fa-mountain"></i></div>
-          <div class="brand-name">Dual Sport</div>
-          <div class="brand-models">Off-Road Ready</div>
-        </div>
-      </div>
-    </div>
-  </section>
+  function toggleSidebar(x) {
+    x.classList.toggle("change");
+    document.getElementById("sidebar").classList.toggle("active");
+  }
 
-  <!-- Compare Section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">⚖️ Compare Bikes</h2>
-        <p class="section-subtitle">Compare specifications, prices, and features side by side</p>
-      </div>
-      <div class="stats-section">
-        <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 2rem; align-items: center;">
-          <div class="bike-card">
-            <div class="bike-image">
-              <div style="color: var(--primary-color); font-size: 2rem;">🏍️</div>
-            </div>
-            <div class="bike-info">
-              <h3 class="bike-name">Select Bike 1</h3>
-              <p style="color: var(--text-gray);">Choose a bike to compare</p>
-            </div>
-          </div>
-          <div style="color: var(--primary-color); font-size: 2rem;">VS</div>
-          <div class="bike-card">
-            <div class="bike-image">
-              <div style="color: var(--secondary-color); font-size: 2rem;">🏍️</div>
-            </div>
-            <div class="bike-info">
-              <h3 class="bike-name">Select Bike 2</h3>
-              <p style="color: var(--text-gray);">Choose a bike to compare</p>
-            </div>
-          </div>
-        </div>
-        <div style="text-align: center; margin-top: 2rem;">
-          <a href="#" class="btn btn-primary">Start Comparison</a>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
+  function toggleThemeMenu(event) {
+    event.stopPropagation(); // prevent event bubbling
+    const menu = document.getElementById('themeToggleMenu');
+    menu.classList.toggle('show');
+  }
 
-  <!-- News Section -->
-  <section class="section" id="news">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">📰 Latest Bike News</h2>
-        <p class="section-subtitle">Stay updated with the latest happenings in the bike world</p>
-      </div>
-      <div class="news-grid">
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, var(--primary-color), var(--secondary-color)); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            📰
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Yamaha launches new R15M in Bangladesh</h4>
-            <p class="news-excerpt">Yamaha has unveiled the updated R15M with dual-channel ABS, better suspension, and enhanced aerodynamics for improved performance on Bangladeshi roads.</p>
-            <div class="news-date">June 8, 2025</div>
-          </div>
-        </div>
-        
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, #4CAF50, #8BC34A); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            🏪
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Royal Enfield to open mega showroom in Dhaka</h4>
-            <p class="news-excerpt">Royal Enfield confirmed a brand-exclusive mega showroom is coming to the capital soon, featuring their complete lineup and service facilities.</p>
-            <div class="news-date">June 5, 2025</div>
-          </div>
-        </div>
-        
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, #FF9800, #FF5722); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            🎨
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Suzuki updates Gixxer with new design</h4>
-            <p class="news-excerpt">The new Gixxer gets modern LED lighting, updated instrument cluster, and bold new styling elements for 2025, maintaining its competitive pricing.</p>
-            <div class="news-date">June 3, 2025</div>
-          </div>
-        </div>
-        
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, #9C27B0, #673AB7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            ⚡
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Electric bikes gaining popularity in Bangladesh</h4>
-            <p class="news-excerpt">With rising fuel costs and environmental awareness, electric motorcycles are becoming increasingly popular among Bangladeshi riders.</p>
-            <div class="news-date">June 1, 2025</div>
-          </div>
-        </div>
-        
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, #607D8B, #455A64); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            🏁
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Bangladesh Superbike Championship 2025 announced</h4>
-            <p class="news-excerpt">The much-awaited motorcycle racing championship returns with new categories and bigger prizes for local and international riders.</p>
-            <div class="news-date">May 28, 2025</div>
-          </div>
-        </div>
-        
-        <div class="news-card fade-in">
-          <div class="news-image" style="background: linear-gradient(45deg, #795548, #5D4037); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
-            💰
-          </div>
-          <div class="news-content">
-            <h4 class="news-title">Government reduces import duty on motorcycles</h4>
-            <p class="news-excerpt">The new policy aims to make motorcycles more affordable and boost the local automotive industry with reduced taxation.</p>
-            <div class="news-date">May 25, 2025</div>
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="#" class="btn btn-secondary">View All News</a>
-      </div>
-    </div>
-  </section>
+ 
+  function closeThemeMenu() {
+    const menu = document.getElementById('themeToggleMenu');
+    menu.classList.remove('show');
+  }
 
-  <!-- Call to Action Section -->
-  <section class="section">
-    <div class="container">
-      <div class="stats-section" style="text-align: center;">
-        <h2 style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(45deg, var(--text-light), var(--primary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Ready to Find Your Perfect Bike?</h2>
-        <p style="font-size: 1.2rem; color: var(--text-gray); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Join thousands of riders who trust BikePortal BD for their motorcycle needs. Compare prices, find dealers, and make informed decisions.</p>
-        <div class="cta-buttons">
-          <a href="#" class="btn btn-primary">
-            <i class="fas fa-search"></i> Find My Bike
-          </a>
-          <a href="#" class="btn btn-secondary">
-            <i class="fas fa-map-marker-alt"></i> Locate Dealers
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+  document.addEventListener('click', () => {
+    closeThemeMenu();
+  });
+</script>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>🏍️ Mr Bike BD</h3>
-          <p>Discover the best motorcycles in Bangladesh with Mr. Bike BD – your trusted source for expert reviews, latest prices, dealer info, and everything you need to choose the perfect ride.</p>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#">All Bikes</a></li>
-            <li><a href="#">New Launches</a></li>
-            <li><a href="#">Compare Bikes</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Advertise</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Support</h3>
-          <ul>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2025 BikePortal BD. All rights reserved. | A project of <a href="http://unleft.goddaysites.com/" target="_blank" style="color: inherit; text-decoration: underline;">UNLEFT</a></p>
-      </div>
-    </div>
-  </footer>
-<script src="js/index.js"></script>
-
-   <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
