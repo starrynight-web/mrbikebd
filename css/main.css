@@ -1,4 +1,5 @@
-.hamburger {
+    /*
+    .hamburger {
       position: fixed;
       top: 30px;
       left: 15px;
@@ -16,6 +17,7 @@
       width: 100%;
       transition: all 0.3s;
     }
+      */
     .hamburger.active span:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
     }
@@ -114,7 +116,7 @@
       border-radius: 20px;
       outline: none;
     }
-
+/*
     @media (max-width: 768px) {
       .top-navbar {
         padding: 0 50px;
@@ -128,6 +130,7 @@
         font-size: 16px;
       }
     }
+*/      
 footer {
   background-color: #1e1e1e;
   color: #fff;
@@ -211,4 +214,49 @@ footer div[style*="text-align: center"] {
 footer div[style*="text-align: center"] a {
   color: #bbb;
   text-decoration: none;
+}
+
+/* Navigation arrows for bike scroll sections */
+.bike-scroll-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.bike-scroll {
+  flex: 1 1 auto;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+}
+.scroll-arrow {
+  background: transparent;
+  color: #b02a53;
+  border: none;
+  width: 44px;
+  height: 44px;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+  box-shadow: none;
+  transition: color 0.2s, background 0.2s;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-arrow:hover {
+  color: #fff;
+  background: #b02a53;
+}
+@media (max-width: 600px) {
+  .scroll-arrow {
+    width: 32px;
+    height: 32px;
+    font-size: 1.3rem;
+  }
+}
+
+.notification i {
+  color: #fff !important;
 }

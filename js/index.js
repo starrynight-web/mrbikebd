@@ -87,3 +87,28 @@
 
     // Initialize counter animation
     animateCounters();
+
+    // Assign unique classes to bike-scrolls for targeting
+    window.addEventListener('DOMContentLoaded', () => {
+      const bikeScrolls = document.querySelectorAll('.bike-scroll');
+      if (bikeScrolls[0]) bikeScrolls[0].classList.add('bike-scroll-bikes');
+      if (bikeScrolls[1]) bikeScrolls[1].classList.add('bike-scroll-trending');
+    });
+
+    // Scroll function for navigation arrows
+    function scrollBikeSection(section, direction) {
+      let scrollContainer;
+      if (section === 'bikes') {
+        scrollContainer = document.querySelector('.bike-scroll-bikes');
+      } else if (section === 'trending') {
+        scrollContainer = document.querySelector('.bike-scroll-trending');
+      }
+      if (scrollContainer) {
+        const scrollAmount = scrollContainer.offsetWidth * 0.8; // scroll by 80% of visible width
+        scrollContainer.scrollBy({
+          left: direction * scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    }
+    
