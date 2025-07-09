@@ -454,6 +454,25 @@
       font-size: 0.9rem;
     }
 
+    /* compare section */
+    /* Desktop: row layout */
+    .compare-flex {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Mobile: column layout */
+    @media (max-width: 768px) {
+      .compare-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+    }
+    
+
     /* Stats Section */
     .stats-section {
       background: var(--card-bg);
