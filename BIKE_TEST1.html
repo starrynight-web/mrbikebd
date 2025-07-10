@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha R15 V4 - MrBikeBD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #F5F5DC;
+            color: #1F2937;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        .header-section {
+            background: linear-gradient(135deg, #FDF6E3 0%, #F5F5DC 100%);
+            padding: 40px 0;
+            margin-bottom: 30px;
+        }
+
+        .bike-header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .bike-info h1 {
+            font-size: 2.5rem;
+            color: #1F2937;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .bike-price {
+            font-size: 1.8rem;
+            color: #F97316;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .bike-description {
+            font-size: 1.1rem;
+            color: #4B5563;
+            line-height: 1.7;
+        }
+
+        .bike-image {
+            text-align: center;
+            font-size: 8rem;
+            padding: 20px;
+            background: #E5E7EB;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Image Gallery */
+        .section {
+            background: #E5E7EB;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #1F2937;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            background: #F5F5DC;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            border-color: #F97316;
+        }
+
+        .gallery-item .emoji {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .gallery-item .label {
+            font-weight: 600;
+            color: #1F2937;
+        }
+
+        /* Specs Table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #F5F5DC;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .specs-table th,
+        .specs-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #D6CCC2;
+        }
+
+        .specs-table th {
+            background: #C2410C;
+            color: white;
+            font-weight: 600;
+        }
+
+        .specs-table tr:hover {
+            background: #FDF6E3;
+        }
+
+        /* Detailed Sections */
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .detail-card {
+            background: #F5F5DC;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #F97316;
+        }
+
+        .detail-card h3 {
+            color: #1F2937;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .detail-list {
+            list-style: none;
+        }
+
+        .detail-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #D6CCC2;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .detail-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Pros and Cons */
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .pros-cons h3 {
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .pros h3 {
+            color: #059669;
+        }
+
+        .cons h3 {
+            color: #DC2626;
+        }
+
+        .pros-cons ul {
+            list-style: none;
+        }
+
+        .pros-cons li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: #F5F5DC;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: #E5E7EB;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #D1D5DB;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            line-height: 1.7;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        /* Star Rating */
+        .rating-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .rating-item {
+            background: #F5F5DC;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .rating-label {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1F2937;
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+
+        .star {
+            font-size: 1.8rem;
+            color: #D6CCC2;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .star.active {
+            color: #F97316;
+        }
+
+        .star:hover {
+            color: #F97316;
+        }
+
+        .rating-value {
+            font-size: 0.9rem;
+            color: #6B7280;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bike-header {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .bike-header .bike-image {
+                order: -1;
+                font-size: 6rem;
+            }
+
+            .bike-info h1 {
+                font-size: 2rem;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .rating-section {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .bike-info h1 {
+                font-size: 1.7rem;
+            }
+
+            .bike-price {
+                font-size: 1.5rem;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .gallery-item .emoji {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header-section">
+        <div class="container">
+            <div class="bike-header">
+                <div class="bike-info">
+                    <h1>Yamaha R15 V4</h1>
+                    <div class="bike-price">৳4,69,000</div>
+                    <div class="bike-description">
+                        The Yamaha R15 V4 is a sporty motorcycle that combines aggressive styling with advanced technology. 
+                        Featuring a liquid-cooled engine, VVA technology, and race-inspired design, this bike delivers 
+                        exceptional performance for both city riding and track days.
+                    </div>
+                </div>
+                <div class="bike-image">🏍️</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">📷 Image Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="emoji">🏍️</div>
+                    <div class="label">Left View</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🏍️</div>
+                    <div class="label">Right View</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🏍️</div>
+                    <div class="label">Front View</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🏍️</div>
+                    <div class="label">Back View</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🎨</div>
+                    <div class="label">Racing Blue</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🎨</div>
+                    <div class="label">Monster Black</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="emoji">🎨</div>
+                    <div class="label">Thunder Grey</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Specifications -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">⚙️ Key Specifications</h2>
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bike</td>
+                        <td>Yamaha R15 V4</td>
+                    </tr>
+                    <tr>
+                        <td>Brand</td>
+                        <td>Yamaha</td>
+                    </tr>
+                    <tr>
+                        <td>CC</td>
+                        <td>155cc</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Cooling</td>
+                        <td>Liquid Cooled</td>
+                    </tr>
+                    <tr>
+                        <td>Mileage (Claimed)</td>
+                        <td>40 km/l</td>
+                    </tr>
+                    <tr>
+                        <td>Mileage (Reported)</td>
+                        <td>35-38 km/l</td>
+                    </tr>
+                    <tr>
+                        <td>Top Speed (Claimed)</td>
+                        <td>136 km/h</td>
+                    </tr>
+                    <tr>
+                        <td>Top Speed (Reported)</td>
+                        <td>130-134 km/h</td>
+                    </tr>
+                    <tr>
+                        <td>Braking</td>
+                        <td>Dual Channel ABS</td>
+                    </tr>
+                    <tr>
+                        <td>Gear</td>
+                        <td>6-Speed Manual</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>142 kg</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Detailed Specifications -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">🔧 Detailed Specifications</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3>🚀 Performance</h3>
+                    <ul class="detail-list">
+                        <li><span>Max Power</span><span>18.4 PS @ 10,000 rpm</span></li>
+                        <li><span>Max Torque</span><span>14.2 Nm @ 7,500 rpm</span></li>
+                        <li><span>Clutch</span><span>Wet Multi-plate</span></li>
+                        <li><span>Cooling</span><span>Liquid Cooled</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>⚡ Speed</h3>
+                    <ul class="detail-list">
+                        <li><span>Top Speed (Claimed)</span><span>136 km/h</span></li>
+                        <li><span>Top Speed (Reported)</span><span>130-134 km/h</span></li>
+                        <li><span>0-60 km/h</span><span>4.8 seconds</span></li>
+                        <li><span>0-100 km/h</span><span>12.8 seconds</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>🛑 Braking System</h3>
+                    <ul class="detail-list">
+                        <li><span>Front Brake</span><span>282mm Disc</span></li>
+                        <li><span>Rear Brake</span><span>220mm Disc</span></li>
+                        <li><span>Front Caliper</span><span>2-Piston</span></li>
+                        <li><span>ABS</span><span>Dual Channel</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>🛞 Tyres</h3>
+                    <ul class="detail-list">
+                        <li><span>Front Tyre</span><span>100/80-17</span></li>
+                        <li><span>Rear Tyre</span><span>140/70-17</span></li>
+                        <li><span>Tyre Type</span><span>Tubeless</span></li>
+                        <li><span>Wheel Type</span><span>Alloy</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>⛽ Mileage</h3>
+                    <ul class="detail-list">
+                        <li><span>Reserve Fuel</span><span>2.4 L</span></li>
+                        <li><span>Fuel Tank</span><span>11 L</span></li>
+                        <li><span>Mileage (Claimed)</span><span>40 km/l</span></li>
+                        <li><span>Mileage (Reported)</span><span>35-38 km/l</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>💡 Lights</h3>
+                    <ul class="detail-list">
+                        <li><span>Headlight</span><span>LED</span></li>
+                        <li><span>Tail Light</span><span>LED</span></li>
+                        <li><span>Projector</span><span>Yes</span></li>
+                        <li><span>DRL</span><span>LED DRL</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>🎛️ Features</h3>
+                    <ul class="detail-list">
+                        <li><span>Quickshifter</span><span>Optional</span></li>
+                        <li><span>Traction Control</span><span>Yes</span></li>
+                        <li><span>Bluetooth</span><span>Via Y-Connect</span></li>
+                        <li><span>Display</span><span>LCD Digital</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>📏 Dimensions</h3>
+                    <ul class="detail-list">
+                        <li><span>Seat Height</span><span>815 mm</span></li>
+                        <li><span>Ground Clearance</span><span>155 mm</span></li>
+                        <li><span>Length</span><span>1,990 mm</span></li>
+                        <li><span>Width</span><span>725 mm</span></li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3>🔧 Reliability</h3>
+                    <ul class="detail-list">
+                        <li><span>Build Quality</span><span>Excellent</span></li>
+                        <li><span>Parts Availability</span><span>Good</span></li>
+                        <li><span>Service Network</span><span>Wide</span></li>
+                        <li><span>Warranty</span><span>2 Years</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pros and Cons -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">⚖️ Pros & Cons</h2>
+            <div class="pros-cons">
+                <div class="pros">
+                    <h3>✅ Pros</h3>
+                    <ul>
+                        <li>✅ Aggressive and sporty design</li>
+                        <li>✅ Liquid-cooled engine with VVA</li>
+                        <li>✅ Dual-channel ABS as standard</li>
+                        <li>✅ LED headlight and DRL</li>
+                        <li>✅ Good build quality and reliability</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h3>❌ Cons</h3>
+                    <ul>
+                        <li>❌ High seat height for short riders</li>
+                        <li>❌ Aggressive riding position</li>
+                        <li>❌ Limited storage space</li>
+                        <li>❌ Higher maintenance cost</li>
+                        <li>❌ Not ideal for long touring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">❓ Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>What is the on-road price of Yamaha R15 V4?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    The on-road price of Yamaha R15 V4 varies by location, but typically ranges from ৳4,85,000 to ৳5,10,000 including registration, insurance, and other charges.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>What is the real-world mileage of R15 V4?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    The real-world mileage of Yamaha R15 V4 ranges between 35-38 km/l depending on riding conditions, maintenance, and riding style. City riding typically gives lower mileage than highway riding.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>Is R15 V4 suitable for beginners?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    While the R15 V4 is manageable for beginners, its sporty ergonomics and performance-oriented nature make it more suitable for riders with some experience. New riders should consider practicing with smaller displacement bikes first.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>What are the service intervals for R15 V4?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    Yamaha recommends service intervals of 6,000 km or 6 months, whichever comes first. Regular maintenance is crucial for optimal performance and longevity of the bike.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Review Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">⭐ Rate This Bike</h2>
+            <div class="rating-section">
+                <div class="rating-item">
+                    <div class="rating-label">Design</div>
+                    <div class="stars" data-category="design">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the design (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Performance</div>
+                    <div class="stars" data-category="performance">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the performance (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Price</div>
+                    <div class="stars" data-category="price">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the price value (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Braking</div>
+                    <div class="stars" data-category="braking">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the braking (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Reliability</div>
+                    <div class="stars" data-category="reliability">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the reliability (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Speed</div>
+                    <div class="stars" data-category="speed">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the speed (0/5)</div>
+                </div>
+
+                <div class="rating-item">
+                    <div class="rating-label">Mileage</div>
+                    <div class="stars" data-category="mileage">
+                        <span class="star" data-rating="1">⭐</span>
+                        <span class="star" data-rating="2">⭐</span>
+                        <span class="star" data-rating="3">⭐</span>
+                        <span class="star" data-rating="4">⭐</span>
+                        <span class="star" data-rating="5">⭐</span>
+                    </div>
+                    <div class="rating-value">Rate the mileage (0/5)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // FAQ Toggle Function
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            const icon = element.querySelector('span:last-child');
+            
+            answer.classList.toggle('active');
+            icon.textContent = answer.classList.contains('active') ? '-' : '+';
+        }
+
+        // Star Rating System
+        document.addEventListener('DOMContentLoaded', function() {
+            const starContainers = document.querySelectorAll('.stars');
+            
+            starContainers.forEach(container => {
+                const stars = container.querySelectorAll('.star');
+                const category = container.getAttribute('data-category');
+                const ratingValue = container.parentElement.querySelector('.rating-value');
+                
+                stars.forEach(star => {
+                    star.addEventListener('click', function() {
+                        const rating = parseInt(this.getAttribute('data-rating'));
+                        
+                        // Reset all stars in this category
+                        stars.forEach(s => s.classList.remove('active'));
+                        
+                        // Activate stars up to the clicked one
+                        for (let i = 0; i < rating; i++) {
+                            stars[i].classList.add('active');
+                        }
+                        
+                        // Update rating value text
+                        ratingValue.textContent = `Rate the ${category} (${rating}/5)`;
+                    });
+                    
+                    // Hover effect
+                    star.addEventListener('mouseenter', function() {
+                        const rating = parseInt(this.getAttribute('data-rating'));
+                        
+                        stars.forEach((s, index) => {
+                            if (index < rating) {
+                                s.style.color = '#F97316';
+                            } else {
+                                s.style.color = '#D6CCC2';
+                            }
+                        });
+                    });
+                });
+                
+                // Reset hover effect when leaving the star container
+                container.addEventListener('mouseleave', function() {
+                    stars.forEach(star => {
+                        if (star.classList.contains('active')) {
+                            star.style.color = '#F97316';
+                        } else {
+                            star.style.color = '#D6CCC2';
+                        }
+                    });
+                });
+            });
+        });
+
+        // Smooth scrolling for internal links (if any)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
