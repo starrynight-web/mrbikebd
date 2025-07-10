@@ -32,10 +32,12 @@
       color: #2f8adf;
       font-size: 2rem;
       margin-top: 1.5rem;
+      /* font-size: 2rem; */
     }
 
     p {
       line-height: 1.7;
+      /* font-size: 2rem; */
       margin-bottom: 1rem;
     }
 a {
