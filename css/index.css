@@ -66,7 +66,7 @@
       50% { transform: translateY(-20px) scale(1.1); }
     }
 
-/* Navigation */
+/* Navigation
     nav {
       position: fixed;
       top: 0;
@@ -91,7 +91,7 @@
     .navbar-spacer {
       height: 60px;
     }    
-
+*/
 /*
     .logo {
       font-size: 1.8rem;
@@ -454,7 +454,7 @@
       font-size: 0.9rem;
     }
 
-    /* compare section */
+  /* compare section */
     /* Desktop: row layout */
     .compare-flex {
       display: flex;
@@ -559,7 +559,7 @@
       font-size: 0.9rem;
     }
 
-    /* Footer */
+    /* Footer
     footer {
       background: var(--lighter-bg);
       padding: 3rem 0 1rem;
@@ -569,12 +569,12 @@
     .footer-logo-row {
       display: flex;
       align-items: center;
-      gap: 12px; /* Adjust spacing as needed */
+      gap: 12px; /* Adjust spacing as needed 
     }
     
     .footer-logo-row img {
-      max-height: 45px;      /* Reduced from 60px */
-      transform: scale(1);   /* No extra scaling */
+      max-height: 45px;      /* Reduced from 60px 
+      transform: scale(1);   /* No extra scaling 
       margin-top: 0;
       padding-left: 0;
     }
@@ -602,10 +602,10 @@
       margin-bottom: 2rem;
     }
 
-    /* Lower the Quick Links and Support columns in the footer */
+    /* Lower the Quick Links and Support columns in the footer 
     .footer-content .footer-section:not(:first-child) {
-      margin-top: 1.3rem; /* Adjust this value as needed */
-      margin-left: 8rem;
+      margin-top: 1.3rem; /* Adjust this value as needed 
+      /* margin-left: 8rem; 
     }
 
     .footer-section h3 {
@@ -664,13 +664,13 @@
 
     .footer-bottom a {
       text-decoration: none;
-      color: inherit; /* Keeps the color consistent */
+      color: inherit; /* Keeps the color consistent 
     }
     .footer-bottom a:hover {
-      color: var(--primary-color); /* Or use any color you prefer */
-      text-decoration: none;       /* Keeps underline off on hover */
+      color: var(--primary-color); /* Or use any color you prefer 
+      text-decoration: none;       /* Keeps underline off on hover 
     }
-
+*/
     /* Responsive Design */
     @media (max-width: 768px) {
 /* 
@@ -720,129 +720,3 @@
     .fade-in:nth-child(3) { animation-delay: 0.3s; }
     .fade-in:nth-child(4) { animation-delay: 0.4s; }
 
-/* --- Begin merged from style.css --- */
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-      background-color: #a82552;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      position: fixed;
-      width: 100%;
-      top: 0;
-      z-index: 1000;
-      height: 60px; /* Or whatever your desired navbar height is */
-      overflow: visible; /* Allow logo to extend a bit outside */
-    }
-
-    .left-section {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .hamburger {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      cursor: pointer;
-    }
-
-    .hamburger span {
-      width: 25px;
-      height: 3px;
-      background-color: #333;
-      border-radius: 2px;
-    }
-
-    .logo img {
-      max-height: 60px;       /* Increase this value */
-      transform: scale(1.2);  /* Optional: visually scale the image */
-      margin-top: 0px;       /* Adjust position if needed */
-      padding-left: 15px;
-    }
-
-
-    .right-section {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .search-bar {
-      padding: 6px 12px;
-      border-radius: 20px;
-      border: 1px solid #ccc;
-      outline: none;
-    }
-
-    .notification {
-      position: relative;
-    }
-
-    .notification i {
-      font-size: 18px;
-      color: #333;
-      cursor: pointer;
-    }
-
-    .notification .dot {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 8px;
-      height: 8px;
-      background-color: red;
-      border-radius: 50%;
-      border: 2px solid white; /* adds separation from bell icon */
-    } 
-
-    /* Sidebar Menu */
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: -250px;
-      width: 250px;
-      height: 100%;
-      background: #fff;
-      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-      transition: left 0.3s ease;
-      z-index: 999;
-      padding-top: 60px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .sidebar.active {
-      left: 0;
-    }
-
-    .sidebar a {
-      padding: 15px 20px;
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid #eee;
-      transition: background 0.2s;
-    }
-
-    .sidebar a:hover {
-      background-color: #f0f0f0;
-    }
-
-    @media (max-width: 600px) {
-      .search-bar {
-        max-width: 100px;
-      }
-    }
-/* --- End merged from style.css --- */

@@ -4,43 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bike Comparison</title>
-  <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/compare.css" />
-  </head>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
 <body>
+  <div class="bg-animation"></div>
+   
+  <!-- Navigation & hamburger -->
+  <nav>
+    <div class="left-section">
+      <div class="hamburger" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo/cropped-image.png" alt="Logo" loading="lazy" />
+        </a>
+      </div>
+    </div>
 
-<!-- Fixed Top Navbar -->
-<nav class="top-navbar">
-  <div class="navbar-left">
-    <span class="site-title">Mr. Bike BD</span>
-  </div>
-  <div class="navbar-right">
-    <input type="text" class="search-bar" placeholder="Search bikes, brands...">
-  </div>
-</nav>
+    <div class="right-section">
+      <input type="text" class="search-bar" placeholder="Search..." />
+      <div class="notification">
+        <a href="news.html" style="display: inline-block;">
+          <i class="fas fa-bell"></i>
+          <span class="dot"></span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-<!-- Spacer for fixed navbar -->
-<div style="height: 60px;"></div>
-
-<div class="hamburger" onclick="toggleSidebar(this)">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+  <!-- Spacer for navbar -->
+  <div class="navbar-spacer"></div>
 
 <!-- Sidebar Menu -->
-<nav class="sidebar" id="sidebar">
-  <!-- Logo Section -->
-  <div class="logo">
-    <a href="#"><img src="images/logo.png" alt="Logo" /></a>
-  </div>
-
-  <!-- Navigation Links -->
+  <div class="sidebar" id="sidebar">
+    <!-- Navigation Links -->
   <a href="index.html"><i class="fas fa-home"></i> Home</a>
   <a href="bike.html"><i class="fas fa-motorcycle"></i> New Bikes</a>
   <a href="bike.html"><i class="fas fa-clock"></i> Upcoming Bikes</a>
   <a href="compare.html"><i class="fas fa-balance-scale"></i> Compare Bikes</a>
-<a href="calculate.html"><i class="fas fa-calculator"></i> Expense Calculator</a>
+  <a href="calculator.html"><i class="fas fa-calculator"></i> Expense Calculator</a>
+  <a href="reg.html"><i class="fas fa-file-contract "></i> Registration Fees</a>
   <a href="brand.html"><i class="fas fa-layer-group"></i> All Brands</a>
   <a href="dealer.html"><i class="fas fa-store"></i> Find Showrooms</a>
   <a href="about.html"><i class="fas fa-users"></i> About US</a>
@@ -48,9 +57,8 @@
   <a href="advertise.html"><i class="fas fa-bullhorn"></i> Advertise</a>
   <a href="news.html"><i class="fas fa-newspaper"></i> News & Affairs</a>
   <a href="privacy.html"><i class="fas fa-shield-alt "></i> Privacy Policy</a>
-  <a href="terms.html"><i class="fas fa-file-contract "></i> Terms & Conditions</a>
- 
-</nav>
+  <a href="terms.html"><i class="fas fa-scroll "></i> Terms & Conditions</a>
+  </div>
 
 
   <div class="comparison-container">
@@ -84,56 +92,58 @@
     </table>
   </div>
 </div>
-<footer style="background-color: #1e1e1e; color: #fff; font-family: sans-serif; padding: 30px 15px;">
-  <div style="max-width: 1200px; margin: auto;">
-
-    <hr style="border: none; border-top: 2px solid #fff; margin: 0 0 15px;">
-
-    <div class="social-title" style="font-weight: bold; font-size: 24px; text-align: left; margin-bottom: 10px;">
-      Join our social media
-    </div>
-
-    <div class="responsive-stack" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
-      <div class="social-icons" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 10px;">
-        <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/x.svg" alt="X" style="width: 24px; filter: invert(1);"></a>
-        <a href="#"><img src="images/icons/telegram.svg" alt="Telegram" style="width: 24px; filter: invert(1);"></a>
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo-row">
+            <img src="images/logo/cropped-image (1).png" alt="Logo" loading="lazy" />
+            <h3>Mr. Bike<sup>bd</sup></h3>
+          </div>
+          <p>Discover the best motorcycles in Bangladesh with Mr. Bike<sup>bd</sup> – your trusted source for expert reviews, latest prices, dealer info, and everything you need to choose the perfect ride.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61577599345312"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/Mr_Bike09"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mrbikebd9/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@mrbike-c5q?si=Zj9piaMGNyelryl4"><i class="fab fa-youtube"></i></a>
+            <a href="http://www.linkedin.com/in/mr-bike-2a1455374"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="brand.html">All Bikes</a></li>
+            <li><a href="brand.html">New Bikes</a></li>
+            <li><a href="compare.html">Compare Bikes</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="advertise.html">Advertise</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="nav-links" style="display: flex; flex-direction: row; gap: 10px; margin-top: 5px;">
-        <a href="about.html" style="color: #fff; text-decoration: none;">About Us</a>
-        <a href="site.html" style="color: #fff; text-decoration: none;">Our Pages</a>
-        <a href="news.html" style="color: #fff; text-decoration: none;">News & Affairs</a>
-        <a href="advertise.html" style="color: #fff; text-decoration: none;">Advertise</a>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Mr. Bike<sup>bd</sup> | All rights reserved.</p>
+        <p>A project of <a href="http://unleft.space/" target="_blank">UNLEFT</a></p>
       </div>
     </div>
-
-    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
-
-    <div class="copyright-section" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;">
-      <div style="font-weight: bold;">&copy;Mr BikeBD</div>
-      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-        <a href="privacy.html" style="color: #bbb; text-decoration: none;">Privacy Policy</a>
-        <span style="color: #bbb;">&</span>
-        <a href="terms.html" style="color: #bbb; text-decoration: none;">User Agreement</a>
-      </div>
-    </div>
-
-    <hr style="border: none; border-top: 2px solid #fff; margin: 25px 0;">
-
-    <div style="text-align: center; font-size: 18px;">
-      <span style="color: #bbb;">A Project Of </span>
-      <a href="https://unleft.godaddysites.com" target="_blank" style="color: #bbb; text-decoration: none;">UNLEFT</a>
-      <br>
-      <a href="contact.html" style="color: #bbb; text-decoration: none;">Contact Us</a>
-    </div>
-
-  </div>
-</footer>
-<script src="main.js"></script>
-
+  </footer>
+<script defer src="js/index.js"></script>
+<script defer src="js/main.js"></script>
+<script defer src="js/style.js"></script>
  <script src="js/compare.js"></script>
 
 </body>
