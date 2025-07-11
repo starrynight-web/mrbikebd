@@ -50,4 +50,5 @@
           <a href="${o.map}" target="_blank">View on Google Maps</a>
         </div>`
       ).join("");
+      document.querySelector('.result-container').style.display = 'block';
     }

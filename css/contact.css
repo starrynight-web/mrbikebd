@@ -1,13 +1,13 @@
 body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: sans-serif;
       margin: 0;
       padding: 0;
-      background: #f0f2f5;
+      background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
       color: #333;
     }
 
     header {
-      background: linear-gradient(135deg, #1d976c, #93f9b9);
+      background: linear-gradient(to right, #2f8adf, #3a719e);
       color: white;
       text-align: center;
       padding: 2rem 1rem;
@@ -16,7 +16,7 @@ body {
 
     header h1 {
       margin: 0;
-      font-size: 2.2rem;
+      font-size: 3rem;
     }
 
     .container {
@@ -30,6 +30,7 @@ body {
 
     h2 {
       margin-bottom: 1rem;
+      color: #2f8adf;
       font-size: 1.6rem;
     }
 
@@ -60,7 +61,7 @@ body {
     }
 
     button {
-      background-color: #1d976c;
+      background-color: #3a719e;
       color: white;
       border: none;
       padding: 14px;
@@ -71,7 +72,7 @@ body {
     }
 
     button:hover {
-      background-color: #168f5e;
+      background-color: #6aadc2;
     }
 
     .contact-methods {
@@ -104,9 +105,9 @@ body {
       font-size: 1rem;
     }
 
-    .email-link { background: #007BFF; }
-    .phone-link { background: #28A745; }
-    .facebook-link { background: #4267B2; }
+    .email-link { background: #3a9e99 }
+    .phone-link { background: #3a719e }
+    .facebook-link { background: #3a3f9e }
 
     @media (max-width: 600px) {
       header h1 {
