@@ -137,6 +137,7 @@
       padding-top: 60px;
       display: flex;
       flex-direction: column;
+      overflow-y: auto;
     }
 
     .sidebar.active {
@@ -154,7 +155,11 @@
     .sidebar a:hover {
       background-color: #9af8ff;
     }
-
+@media (max-width: 768px) {
+      .sidebar.active ~ .content {
+        margin-left: 0;
+      }
+    }
     /* Footer */
     footer {
         background: var(--lighter-bg);
