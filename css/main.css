@@ -17,19 +17,19 @@
 
       background-color: #00eeff;
 
-      background-color: #191722f8;
+      background-color: #4169e1;
 
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       position: fixed;
       width: 100%;
       top: 0;
       z-index: 1000;
-      height: 60px; /* Or whatever your desired navbar height is */
+      height: 50px; /* Or whatever your desired navbar height is */
       overflow: visible; /* Allow logo to extend a bit outside */
     }
  
     .navbar-spacer {
-        height: 60px;
+        height: 50px;
       }        
 
     .left-section {
