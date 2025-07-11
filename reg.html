@@ -4,96 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Motorcycle Registration & License Guide BD</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #222;
-    }
-    .container {
-      max-width: 960px;
-      margin: auto;
-      padding: 20px;
-      background: #fff;
-    }
-    h1, h2, h3 {
-      color: #004080;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #004080;
-      color: white;
-    }
-    .faq-item {
-      background: #e9f1ff;
-      margin: 10px 0;
-      padding: 15px;
-      border-left: 5px solid #004080;
-      transition: background 0.3s;
-    }
-    .faq-item:hover {
-      background: #d0e7ff;
-    }
-  .calculator {
-    background: #f0f8ff;
-    padding: 20px;
-    margin: 30px 0;
-    border-radius: 8px;
-    border: 1px solid #cce;
-  }
-  select, button {
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-  }
-  button {
-    background: #004080;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  button:hover {
-    background: #003070;
-  }
-  .calculator {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-      max-width: 500px;
-      margin: 20px auto;
-    }
-    .calculator label, .calculator select {
-      display: block;
-      margin: 10px 0;
-    }
-    .result {
-      background: #e9ffe9;
-      padding: 10px;
-      border-left: 5px solid #28a745;
-      margin-top: 15px;
-    }
-    @media (max-width: 600px) {
-      table, .calculator {
-        font-size: 14px;
-      }
-    }
-  </style>
-<link rel="stylesheet" href="css/main.css" />
-<link rel="stylesheet" href="css/index.css" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/reg.css"/>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="bg-animation"></div>
@@ -267,32 +180,7 @@
     <h2>Final Words</h2>
     <p>The motorcycle registration and driving license system in Bangladesh is more digital now. With preparation and correct information, you can complete the process easily. Share your experience to help others!</p>
   </div>
-  <script>
-  /*  function calculateFee() {
-      const cc = document.getElementById('cc').value;
-      const duration = document.getElementById('duration').value;
-      let fee = 0;
 
-      if (cc <= 100 && duration == 2) fee = 10664;
-      else if (cc > 100 && duration == 2) fee = 19664;
-      else if (cc <= 100 && duration == 10) fee = 11764;
-      else if (cc > 100 && duration == 10) fee = 20964;
-
-      document.getElementById('feeResult').innerText = `Registration Fee: ${fee} BDT`;
-    }*/
-   function calculateFee() {
-      const cc = parseInt(document.getElementById('cc').value);
-      const duration = parseInt(document.getElementById('duration').value);
-      let fee = 0;
-
-      if (cc <= 100 && duration === 2) fee = 10664;
-      else if (cc <= 100 && duration === 10) fee = 11764;
-      else if (cc > 100 && duration === 2) fee = 19664;
-      else if (cc > 100 && duration === 10) fee = 20964;
-
-      document.getElementById('result').innerHTML = `<strong>Registration Fee:</strong> ${fee} BDT`;
-    }
-  </script>
   <!-- Footer -->
   <footer id="contact">
     <div class="footer-container">
@@ -342,8 +230,7 @@
       </div>
     </div>
   </footer>
-<script defer src="js/index.js"></script>
-<script defer src="js/main.js"></script>
-<script defer src="js/style.js"></script>  
+<script src="js/reg.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
