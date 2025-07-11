@@ -1,4 +1,4 @@
-body, html {
+  body, html {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
@@ -14,38 +14,26 @@ body, html {
     }
 
     .overlay-box {
-      background: rgba(255,255,255,0.7);
+      background: rgba(180, 180, 180, 0.6);
       padding: 30px;
       border-radius: 12px;
       max-width: 900px;
       width: 100%;
-      backdrop-filter: blur(12px);
-      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
-      border: 1px solid rgba(180,180,180,0.25);
-      transition: box-shadow 0.3s, transform 0.3s;
-    }
-    .overlay-box:hover {
-      box-shadow: 0 20px 48px rgba(221,36,118,0.18);
-      transform: scale(1.02);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
     .result-container {
       display: none;
       background: rgba(180, 180, 180, 0.6); /* same as .overlay-box */
       border-radius: 12px;
-      box-shadow: 0 12px 32px rgba(0,0,0,0.18); /* same as .overlay-box */
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* same as .overlay-box */
       max-width: 900px;
       width: 100%;
       margin: 30px auto 0 auto;
       padding: 30px 24px;
       animation: fadeInUp 1s cubic-bezier(.42,0,.58,1);
       backdrop-filter: blur(6px); /* same as .overlay-box */
-      border: 1px solid rgba(180,180,180,0.25);
-      transition: box-shadow 0.3s, transform 0.3s;
-    }
-    .result-container:focus-within {
-      box-shadow: 0 20px 48px rgba(221,36,118,0.18);
-      transform: scale(1.01);
     }
 
     h2 {
@@ -53,13 +41,6 @@ body, html {
       font-size: 28px;
       color: #000;
       margin-bottom: 20px;
-      background: linear-gradient(90deg, #36aad8 0%, #dd2476 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-fill-color: transparent;
-      font-weight: 800;
-      letter-spacing: 1px;
     }
 
     form {
@@ -67,14 +48,6 @@ body, html {
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(221,36,118,0.08);
-      padding: 12px 0;
-      background: rgba(255,255,255,0.3);
-      transition: box-shadow 0.3s;
-    }
-    form:hover {
-      box-shadow: 0 8px 24px rgba(36,221,118,0.12);
     }
 
     select {
@@ -90,12 +63,6 @@ body, html {
       background-repeat: no-repeat;
       background-position: right 12px center;
       background-size: 12px;
-      box-shadow: 0 2px 8px rgba(36,221,118,0.08);
-      transition: border 0.2s, box-shadow 0.2s;
-    }
-    select:focus, select:hover {
-      border-color: #36aad8;
-      box-shadow: 0 4px 16px #36aad833;
     }
 
     button {
@@ -107,97 +74,35 @@ body, html {
       border-radius: 8px;
       cursor: pointer;
       margin-top: 20px;
-      transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
+
     button:hover {
-      background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
-      color: #fff;
-      transform: translateY(-2px) scale(1.04);
-      box-shadow: 0 6px 18px rgba(221,36,118,0.18);
+      background-color: #333;
+    }
+
+    #result {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
     }
 
     .outlet {
-      position: relative;
-      overflow: hidden;
       background: #fff;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
-      transition: box-shadow 0.3s, transform 0.3s;
-    }
-    .outlet:hover {
-      box-shadow: 0 8px 24px rgba(36, 221, 118, 0.18);
-      transform: translateY(-4px) scale(1.03);
-      border: 1px solid #36aad8;
-    }
-    .outlet::after {
-      content: "";
-      position: absolute;
-      left: -60%;
-      top: 0;
-      width: 120%;
-      height: 100%;
-      background: linear-gradient(120deg, rgba(221,36,118,0.08) 0%, rgba(36,221,118,0.08) 100%);
-      pointer-events: none;
-      transition: opacity 0.3s;
-      opacity: 0.7;
-    }
-    .outlet:hover::after {
-      opacity: 1;
     }
 
-    /* Outlet name and address styling */
-    .outlet h3 {
-      color: #36aad8;
-      font-size: 1.2rem;
-      margin-bottom: 8px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      transition: color 0.3s;
-    }
-    .outlet:hover h3 {
-      color: #dd2476;
-    }
-    .outlet p {
-      color: #333;
-      font-size: 1rem;
-      margin-bottom: 6px;
-    }
     .outlet a {
-      color: #dd2476;
-      font-weight: 600;
-      text-decoration: none;
-      transition: color 0.2s, text-shadow 0.2s;
-    }
-    .outlet a:hover {
-      color: #36aad8;
-      text-shadow: 0 2px 8px #36aad833;
+      color: blue;
+      text-decoration: underline;
     }
 
     @media (max-width: 600px) {
       select {
         flex: 1 1 100%;
-      }
-      .outlet {
-        font-size: 0.95rem;
-        padding: 10px;
-      }
-      .overlay-box {
-        padding: 18px;
-      }
-      .result-container {
-        padding: 18px 10px;
-      }
-      .overlay-box, .result-container {
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        backdrop-filter: none;
-        border: 1px solid #eee;
-      }
-      .brand-filter::before {
-        animation: none;
-        background: rgba(0,0,0,0.08);
       }
     }
     /* Cool animated background overlay */
@@ -249,30 +154,3 @@ body, html {
       from { opacity: 0; transform: scale(0.95);}
       to { opacity: 1; transform: scale(1);}
     }
-
-    /* --- PERFORMANCE OPTIMIZATION --- */
-    /* Reduce heavy box-shadows and blur for mobile */
-    @media (max-width: 600px) {
-      .overlay-box, .result-container {
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        backdrop-filter: none;
-        border: 1px solid #eee;
-      }
-      .brand-filter::before {
-        animation: none;
-        background: rgba(0,0,0,0.08);
-      }
-    }
-    /* Use will-change for smoother transitions */
-    .overlay-box, .result-container, .outlet {
-      will-change: transform, box-shadow, opacity;
-    }
-    /* Reduce animation duration for snappier feel */
-    .overlay-box, .result-container {
-      animation-duration: 0.6s;
-    }
-    .outlet {
-      animation-duration: 0.5s;
-    }
-    /* Remove unnecessary transitions on non-interactive elements */
-    /* Only keep transitions on hover/focus elements */
