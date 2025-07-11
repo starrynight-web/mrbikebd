@@ -1,0 +1,2509 @@
+[
+  
+  {
+    "name": "Honda Shine 100",
+    "slug": "honda-shine-100",
+    "cc": 98.98,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60–65 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "CBS (Combi Brake System)",
+    "gear": "4-speed",
+    "weight": "99 kg",
+
+    "max_power": "7.38 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 5000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tube",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
+    "wheel_type": "Spoke",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "9 L",
+
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+
+    "seat_height": "786 mm",
+    "ground_clearance": "168 mm",
+    "overall_length": "1955 mm",
+    "overall_width": "754 mm",
+
+    "build_quality": "Basic and practical",
+    "parts_availability": "Excellent",
+
+    "image_urls": [
+      "https://cdn.example.com/shine100-front.webp",
+      "https://cdn.example.com/shine100-side.webp"
+    ],
+
+    "pros": [
+      "Excellent mileage",
+      "Affordable price",
+      "Lightweight for city use",
+      "Smooth engine",
+      "Trusted Honda reliability"
+    ],
+
+    "cons": [
+      "Low power for highways",
+      "Drum brakes only",
+      "No tubeless tyres",
+      "Basic instrument cluster"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Shine 100 suitable for beginners?",
+        "answer": "Yes, it's very beginner-friendly with light weight and smooth ride."
+      },
+      {
+        "question": "Does it have disc brakes?",
+        "answer": "No, it comes with drum brakes on both wheels."
+      },
+      {
+        "question": "What is its real-world mileage?",
+        "answer": "Users report around 60–65 kmpl."
+      },
+      {
+        "question": "Is it good for daily commuting?",
+        "answer": "Yes, ideal for short to mid-range daily rides."
+      }
+    ]
+  },
+  {
+    "name": "Honda CB Shine SP",
+    "slug": "honda-cb-shine-sp",
+    "cc": 124.73,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "55–60 kmpl",
+    "top_speed_claimed": "93 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "CBS with front disc (optional)",
+    "gear": "5-speed",
+    "weight": "123 kg",
+
+    "max_power": "10.57 PS @ 7500 rpm",
+    "max_torque": "10.3 Nm @ 5500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "240 mm Disc / 130 mm Drum",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Disc/Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "80/100-18",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "10.5 L",
+
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog with Digital Odometer",
+
+    "seat_height": "800 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2007 mm",
+    "overall_width": "762 mm",
+
+    "build_quality": "Premium commuter finish",
+    "parts_availability": "Very good",
+
+    "image_urls": [
+      "https://cdn.example.com/cbshine-sp-front.webp",
+      "https://cdn.example.com/cbshine-sp-side.webp"
+    ],
+
+    "pros": [
+      "Refined and powerful engine",
+      "Disc brake option",
+      "Smooth 5-speed gearbox",
+      "Comfortable seating",
+      "Tubeless tyres"
+    ],
+
+    "cons": [
+      "No LED lights",
+      "No Bluetooth or digital console",
+      "Design is dated",
+      "Price slightly higher than rivals"
+    ],
+
+    "faqs": [
+      {
+        "question": "Does CB Shine SP have a 5-speed gearbox?",
+        "answer": "Yes, it comes with a smooth 5-speed transmission."
+      },
+      {
+        "question": "Is it good for highway use?",
+        "answer": "Yes, performs decently on highways with a comfortable ride."
+      },
+      {
+        "question": "What variants are available?",
+        "answer": "Drum and Disc variants are available."
+      },
+      {
+        "question": "Is the mileage good?",
+        "answer": "Reported mileage is around 55–60 kmpl."
+      }
+    ]
+  },
+  {
+    "name": "Honda Dream 110",
+    "slug": "honda-dream-110",
+    "cc": 109.51,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "58–62 kmpl",
+    "top_speed_claimed": "86 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Drum Brakes with CBS",
+    "gear": "4-speed",
+    "weight": "112 kg",
+
+    "max_power": "8.79 PS @ 7500 rpm",
+    "max_torque": "9.30 Nm @ 5500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "130 mm Drum",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "80/100-18",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "9.1 L",
+
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+
+    "seat_height": "790 mm",
+    "ground_clearance": "162 mm",
+    "overall_length": "2044 mm",
+    "overall_width": "736 mm",
+
+    "build_quality": "Efficient city commuter",
+    "parts_availability": "Very good",
+
+    "image_urls": [
+      "https://cdn.example.com/dream110-front.webp",
+      "https://cdn.example.com/dream110-side.webp"
+    ],
+
+    "pros": [
+      "Great fuel economy",
+      "Low maintenance",
+      "Lightweight for daily use",
+      "Affordable",
+      "Combi Brake System for safety"
+    ],
+
+    "cons": [
+      "No disc brake option",
+      "No digital display",
+      "No modern styling",
+      "Low power output"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Dream 110 good for mileage?",
+        "answer": "Yes, it delivers excellent mileage up to 60+ kmpl."
+      },
+      {
+        "question": "Does it have a disc brake?",
+        "answer": "No, only drum brakes are offered."
+      },
+      {
+        "question": "Is this bike still available?",
+        "answer": "Availability may vary by region, check local dealers."
+      },
+      {
+        "question": "Is it good for long rides?",
+        "answer": "More suitable for short commutes and city rides."
+      }
+    ]
+  },
+  {
+    "name": "Honda Dream Neo",
+    "slug": "honda-dream-neo",
+    "cc": 109.19,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "74 kmpl",
+    "mileage_reported": "60–65 kmpl",
+    "top_speed_claimed": "86 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Drum Brakes with CBS",
+    "gear": "4-speed",
+    "weight": "107 kg",
+
+    "max_power": "8.31 PS @ 7500 rpm",
+    "max_torque": "9.09 Nm @ 5000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "130 mm Drum",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "80/100-18",
+    "wheel_type": "Spoke",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "8 L",
+
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+
+    "seat_height": "805 mm",
+    "ground_clearance": "179 mm",
+    "overall_length": "2009 mm",
+    "overall_width": "737 mm",
+
+    "build_quality": "Basic and functional",
+    "parts_availability": "Good",
+
+    "image_urls": [
+      "https://cdn.example.com/dreamneo-front.webp",
+      "https://cdn.example.com/dreamneo-side.webp"
+    ],
+
+    "pros": [
+      "Excellent fuel efficiency",
+      "Low running cost",
+      "Lightweight build",
+      "Reliable engine",
+      "Affordable maintenance"
+    ],
+
+    "cons": [
+      "No disc brakes",
+      "Tube tyres",
+      "Outdated looks",
+      "Not ideal for highway rides"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda Dream Neo fuel-efficient?",
+        "answer": "Yes, it can return mileage up to 65–70 kmpl."
+      },
+      {
+        "question": "Does it come with alloy wheels?",
+        "answer": "Some variants offer alloy wheels; base version has spoke."
+      },
+      {
+        "question": "Is it still in production?",
+        "answer": "It has been discontinued in some regions; check local dealers."
+      },
+      {
+        "question": "Ideal for beginners?",
+        "answer": "Yes, very lightweight and easy to use."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda Livo 110",
+    "slug": "honda-livo-110",
+    "cc": 109.51,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "60 kmpl",
+    "mileage_reported": "55–60 kmpl",
+    "top_speed_claimed": "86 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "CBS (Combi Brake System)",
+    "gear": "4-speed",
+    "weight": "115 kg",
+
+    "max_power": "8.79 PS @ 7500 rpm",
+    "max_torque": "9.30 Nm @ 5500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "130 mm Drum / Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Disc/Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "80/100-18",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "9 L",
+
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital-Analog Combo",
+
+    "seat_height": "790 mm",
+    "ground_clearance": "163 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "751 mm",
+
+    "build_quality": "Sporty commuter with stylish design",
+    "parts_availability": "Widely available",
+
+    "image_urls": [
+      "https://cdn.example.com/livo110-front.webp",
+      "https://cdn.example.com/livo110-side.webp"
+    ],
+
+    "pros": [
+      "Modern styling",
+      "Refined engine",
+      "Good fuel economy",
+      "Tubeless tyres",
+      "Low maintenance cost"
+    ],
+
+    "cons": [
+      "No LED headlight",
+      "No disc brake in base variant",
+      "No digital-only console",
+      "Limited performance on highways"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda Livo good for daily use?",
+        "answer": "Yes, it is a smooth, efficient and lightweight commuter."
+      },
+      {
+        "question": "Does it have a disc brake?",
+        "answer": "Yes, disc brake is available in the higher variant."
+      },
+      {
+        "question": "How many gears does it have?",
+        "answer": "It comes with a 4-speed gearbox."
+      },
+      {
+        "question": "What is the real-world mileage?",
+        "answer": "Reported mileage is around 55–60 kmpl."
+      }
+    ]
+  },
+  {
+    "name": "Honda SP 125",
+    "slug": "honda-sp-125",
+    "cc": 124,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "55–60 kmpl",
+    "top_speed_claimed": "100 km/h",
+    "top_speed_reported": "94 km/h",
+    "braking": "CBS (Combi Brake System)",
+    "gear": "5-speed",
+    "weight": "116 kg",
+
+    "max_power": "10.8 PS @ 7500 rpm",
+    "max_torque": "10.9 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "240 mm Disc / Drum",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Disc/Drum",
+      "rear": "Drum"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "80/100-18",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "11 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital",
+
+    "seat_height": "790 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "785 mm",
+
+    "build_quality": "Modern and refined commuter",
+    "parts_availability": "Excellent",
+
+    "image_urls": [
+      "https://cdn.example.com/sp125-front.webp",
+      "https://cdn.example.com/sp125-side.webp"
+    ],
+
+    "pros": [
+      "Modern design",
+      "Fully digital meter",
+      "5-speed gearbox",
+      "LED lighting",
+      "Smooth and refined engine"
+    ],
+
+    "cons": [
+      "No disc brake in base variant",
+      "Slightly high price",
+      "No Bluetooth",
+      "Stiff rear suspension"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda SP 125 good for students?",
+        "answer": "Yes, it is stylish, efficient, and smooth for city rides."
+      },
+      {
+        "question": "Does SP 125 have LED headlamp?",
+        "answer": "Yes, the bike features a full LED headlamp."
+      },
+      {
+        "question": "Is it better than CB Shine?",
+        "answer": "Yes, it is a more premium version with extra features."
+      },
+      {
+        "question": "What is the mileage?",
+        "answer": "Users report 55–60 kmpl in real-world conditions."
+      }
+    ]
+  },
+  {
+    "name": "Honda SP 160",
+    "slug": "honda-sp-160",
+    "cc": 162.71,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "55 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Single or Dual Disc with ABS",
+    "gear": "5-speed",
+    "weight": "141 kg",
+
+    "max_power": "13.46 PS @ 7500 rpm",
+    "max_torque": "14.58 Nm @ 5500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc / Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+
+    "seat_height": "796 mm",
+    "ground_clearance": "177 mm",
+    "overall_length": "2039 mm",
+    "overall_width": "754 mm",
+
+    "build_quality": "Robust with premium feel",
+    "parts_availability": "Good",
+
+    "image_urls": [
+      "https://cdn.example.com/sp160-front.webp",
+      "https://cdn.example.com/sp160-side.webp"
+    ],
+
+    "pros": [
+      "Strong mid-range power",
+      "Dual disc with ABS option",
+      "Good suspension setup",
+      "LED lighting",
+      "Sporty appeal"
+    ],
+
+    "cons": [
+      "No Bluetooth",
+      "No USD forks",
+      "No gear position indicator",
+      "Slightly heavy"
+    ],
+
+    "faqs": [
+      {
+        "question": "Does SP 160 have dual disc?",
+        "answer": "Yes, there are two variants: single and dual disc with ABS."
+      },
+      {
+        "question": "Is it better than XBlade?",
+        "answer": "Yes, it has better features and a modern look."
+      },
+      {
+        "question": "Mileage of SP 160?",
+        "answer": "Users report around 45–50 kmpl."
+      },
+      {
+        "question": "Good for beginners?",
+        "answer": "Yes, lightweight and smooth power delivery make it suitable."
+      }
+    ]
+  },
+  {
+    "name": "Honda XBlade 160",
+    "slug": "honda-xblade-160",
+    "cc": 162.71,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–48 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "103 km/h",
+    "braking": "Single Disc or Dual Disc with ABS",
+    "gear": "5-speed",
+    "weight": "143 kg",
+
+    "max_power": "13.67 PS @ 8000 rpm",
+    "max_torque": "14.7 Nm @ 5500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc / Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED Robo-Face",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+
+    "seat_height": "795 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2013 mm",
+    "overall_width": "786 mm",
+
+    "build_quality": "Sharp and muscular",
+    "parts_availability": "Good",
+
+    "image_urls": [
+      "https://cdn.example.com/xblade-front.webp",
+      "https://cdn.example.com/xblade-side.webp"
+    ],
+
+    "pros": [
+      "Futuristic robo-face LED headlamp",
+      "Comfortable ride quality",
+      "Good low-end torque",
+      "Muscular design",
+      "Reliable engine"
+    ],
+
+    "cons": [
+      "No USD forks",
+      "No Bluetooth or smart features",
+      "Slightly heavier",
+      "No gear position indicator"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda XBlade good for daily use?",
+        "answer": "Yes, it balances style and practicality well."
+      },
+      {
+        "question": "Does it have a full LED setup?",
+        "answer": "Yes, both headlamp and tail lamp are LED."
+      },
+      {
+        "question": "Is ABS available?",
+        "answer": "Yes, single-channel ABS comes as standard."
+      },
+      {
+        "question": "Real mileage of XBlade?",
+        "answer": "Users report 45–48 kmpl in regular use."
+      }
+    ]
+  },
+  {
+    "name": "Honda Hornet 160R",
+    "slug": "honda-hornet-160r",
+    "cc": 162.71,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "52 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Single or Dual Disc with CBS",
+    "gear": "5-speed",
+    "weight": "140 kg",
+
+    "max_power": "15.09 PS @ 8500 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc / Drum",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "140/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+
+    "seat_height": "790 mm",
+    "ground_clearance": "164 mm",
+    "overall_length": "2041 mm",
+    "overall_width": "783 mm",
+
+    "build_quality": "Sporty with refined engine",
+    "parts_availability": "Very good",
+
+    "image_urls": [
+      "https://cdn.example.com/hornet160r-front.webp",
+      "https://cdn.example.com/hornet160r-side.webp"
+    ],
+
+    "pros": [
+      "Aggressive design",
+      "Good low and mid-range power",
+      "Comfortable for city and highway",
+      "Refined engine",
+      "LED lighting"
+    ],
+
+    "cons": [
+      "No ABS in base variant",
+      "Basic digital console",
+      "No gear indicator",
+      "Stiff rear suspension"
+    ],
+
+    "faqs": [
+      {
+        "question": "Does Hornet 160R have ABS?",
+        "answer": "CBS in base variant, ABS in special edition."
+      },
+      {
+        "question": "What is the real mileage?",
+        "answer": "Users report 45–50 kmpl."
+      },
+      {
+        "question": "Is Hornet good for highways?",
+        "answer": "Yes, good stability and comfort for long rides."
+      },
+      {
+        "question": "Is it better than XBlade?",
+        "answer": "Hornet offers more power and sportier looks."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda CB150R Streetfire",
+    "slug": "honda-cb150r-streetfire",
+    "cc": 149.16,
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "38–42 kmpl",
+    "top_speed_claimed": "125 km/h",
+    "top_speed_reported": "120 km/h",
+    "braking": "Single Channel ABS",
+    "gear": "6-speed",
+    "weight": "136 kg",
+
+    "max_power": "16.9 PS @ 9000 rpm",
+    "max_torque": "13.8 Nm @ 7000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Liquid Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital LCD",
+
+    "seat_height": "797 mm",
+    "ground_clearance": "164 mm",
+    "overall_length": "2019 mm",
+    "overall_width": "719 mm",
+
+    "build_quality": "Premium for the segment",
+    "parts_availability": "Easily available",
+
+    "image_urls": [
+      "https://cdn.example.com/cb150r-front.webp",
+      "https://cdn.example.com/cb150r-side.webp",
+      "https://cdn.example.com/cb150r-back.webp"
+    ],
+
+    "pros": [
+      "Refined and powerful engine",
+      "Premium design",
+      "LED lighting all around",
+      "Lightweight and nimble handling",
+      "Advanced instrument cluster"
+    ],
+
+    "cons": [
+      "No dual channel ABS",
+      "Slightly stiff ride",
+      "High seat for shorter riders",
+      "Limited touring comfort"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda CB150R Streetfire suitable for city rides?",
+        "answer": "Yes, it's lightweight and easy to handle in traffic."
+      },
+      {
+        "question": "Does it come with ABS?",
+        "answer": "Yes, but only single-channel ABS."
+      },
+      {
+        "question": "What's the mileage in real world?",
+        "answer": "You can expect around 38–42 kmpl."
+      },
+      {
+        "question": "Does it support Bluetooth?",
+        "answer": "No, there is no Bluetooth connectivity."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda CB150X",
+    "slug": "honda-cb150x",
+    "cc": 149.16,
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "38–42 kmpl",
+    "top_speed_claimed": "125 km/h",
+    "top_speed_reported": "120 km/h",
+    "braking": "Single Channel ABS",
+    "gear": "6-speed",
+    "weight": "139 kg",
+
+    "max_power": "16.9 PS @ 9000 rpm",
+    "max_torque": "13.8 Nm @ 7000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Liquid Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital LCD",
+
+    "seat_height": "817 mm",
+    "ground_clearance": "181 mm",
+    "overall_length": "2031 mm",
+    "overall_width": "796 mm",
+
+    "build_quality": "Good for ADV segment",
+    "parts_availability": "Limited in rural areas",
+
+    "image_urls": [
+      "https://cdn.example.com/cb150x-front.webp",
+      "https://cdn.example.com/cb150x-side.webp",
+      "https://cdn.example.com/cb150x-back.webp"
+    ],
+
+    "pros": [
+      "Adventure-ready looks",
+      "High ground clearance",
+      "Smooth engine",
+      "Comfortable riding position",
+      "LED lighting"
+    ],
+
+    "cons": [
+      "Lacks dual-channel ABS",
+      "High seat height",
+      "Limited power for ADV use",
+      "Not suitable for hardcore off-road"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda CB150X an adventure bike?",
+        "answer": "It’s a touring-style ADV, not for hardcore off-road."
+      },
+      {
+        "question": "What's the seat height?",
+        "answer": "817 mm, taller than CB150R."
+      },
+      {
+        "question": "Does it have Bluetooth?",
+        "answer": "No, it does not support Bluetooth."
+      },
+      {
+        "question": "Is it suitable for long rides?",
+        "answer": "Yes, especially for light touring and highway use."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda CBR150R",
+    "slug": "honda-cbr150r",
+    "cc": 149.16,
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "40–45 kmpl",
+    "mileage_reported": "38–42 kmpl",
+    "top_speed_claimed": "135 km/h",
+    "top_speed_reported": "130 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "6-speed",
+    "weight": "139 kg",
+
+    "max_power": "17.1 PS @ 9000 rpm",
+    "max_torque": "14.4 Nm @ 7000 rpm",
+    "clutch": "Assist & Slipper Clutch",
+    "cooling_system": "Liquid Cooled",
+
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "1.3 L",
+    "fuel_tank_capacity": "12 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+
+    "seat_height": "782 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1983 mm",
+    "overall_width": "700 mm",
+
+    "build_quality": "Premium",
+    "parts_availability": "Good",
+
+    "image_urls": [
+      "https://cdn.example.com/cbr150r-front.webp",
+      "https://cdn.example.com/cbr150r-side.webp",
+      "https://cdn.example.com/cbr150r-back.webp"
+    ],
+
+    "pros": [
+      "Sporty full-faired design",
+      "Assist & Slipper Clutch",
+      "Dual channel ABS",
+      "Refined engine",
+      "Comfortable for city & highway"
+    ],
+
+    "cons": [
+      "Expensive for 150cc",
+      "No quickshifter",
+      "Lacks modern connectivity",
+      "Limited service reach in rural"
+    ],
+
+    "faqs": [
+      {
+        "question": "Does Honda CBR150R have ABS?",
+        "answer": "Yes, it has dual-channel ABS."
+      },
+      {
+        "question": "Is the seating posture aggressive?",
+        "answer": "It’s slightly sporty but not too aggressive."
+      },
+      {
+        "question": "What is the real mileage?",
+        "answer": "Around 38–42 kmpl depending on usage."
+      },
+      {
+        "question": "Is it suitable for long rides?",
+        "answer": "Yes, it balances performance and comfort well."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda Dio 110",
+    "slug": "honda-dio-110",
+    "cc": 109.51,
+    "engine_cooling": "Fan Cooled",
+    "mileage_claimed": "55 kmpl",
+    "mileage_reported": "48–52 kmpl",
+    "top_speed_claimed": "83 km/h",
+    "top_speed_reported": "78 km/h",
+    "braking": "Combi Brake System",
+    "gear": "CVT",
+    "weight": "105 kg",
+
+    "max_power": "7.76 PS @ 8000 rpm",
+    "max_torque": "9 Nm @ 4750 rpm",
+    "clutch": "Automatic (Dry Type)",
+    "cooling_system": "Fan Cooled",
+
+    "front_brake": "Drum",
+    "rear_brake": "Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-12",
+    "rear_tyre_size": "90/100-10",
+    "wheel_type": "Steel",
+
+    "reserve_fuel_capacity": "Not Specified",
+    "fuel_tank_capacity": "5.3 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital with Eco indicator",
+
+    "seat_height": "650 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1808 mm",
+    "overall_width": "723 mm",
+
+    "build_quality": "Youthful and reliable",
+    "parts_availability": "Easily available",
+
+    "image_urls": [
+      "https://cdn.example.com/dio-front.webp",
+      "https://cdn.example.com/dio-side.webp",
+      "https://cdn.example.com/dio-back.webp"
+    ],
+
+    "pros": [
+      "Trendy design",
+      "Great mileage",
+      "Lightweight and nimble",
+      "Reliable engine",
+      "Value for money"
+    ],
+
+    "cons": [
+      "No disc brake",
+      "Low power output",
+      "Basic suspension",
+      "Small fuel tank"
+    ],
+
+    "faqs": [
+      {
+        "question": "Is Honda Dio good for girls?",
+        "answer": "Yes, lightweight and stylish for all riders."
+      },
+      {
+        "question": "Does it have disc brakes?",
+        "answer": "No, both brakes are drum type."
+      },
+      {
+        "question": "How much mileage does it give?",
+        "answer": "Approximately 48–52 kmpl."
+      },
+      {
+        "question": "Is it suitable for long rides?",
+        "answer": "It’s best suited for city commuting."
+      }
+    ]
+  },
+
+  {
+    "name": "Honda Grazia 125",
+    "slug": "honda-grazia-125",
+    "cc": 124,
+    "engine_cooling": "Fan Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Combi Brake System with front disc",
+    "gear": "CVT",
+    "weight": "108 kg",
+
+    "max_power": "8.25 PS @ 6000 rpm",
+    "max_torque": "10.3 Nm @ 5000 rpm",
+    "clutch": "Automatic (Dry Type)",
+    "cooling_system": "Fan Cooled",
+
+    "front_brake": "190 mm Disc",
+    "rear_brake": "Drum",
+    "caliper": {
+      "front": "1-piston",
+      "rear": "None"
+    },
+
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-12",
+    "rear_tyre_size": "90/100-10",
+    "wheel_type": "Alloy",
+
+    "reserve_fuel_capacity": "Not Specified",
+    "fuel_tank_capacity": "5.3 L",
+
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+
+    "seat_height": "708 mm",
+    "ground_clearance": "171 mm",
+    "overall_length": "1829 mm",
+    "overall_width": "707 mm",
+
+    "build_quality": "Sporty and elegant",
+    "parts_availability": "Easily available",
+
+    "image_urls": [
+      "https://cdn.example.com/grazia-front.webp",
+      "https://cdn.example.com/grazia-side.webp",
+      "https://cdn.example.com/grazia-back.webp"
+    ],
+
+    "pros": [
+      "Modern styling",
+      "Disc brake at front",
+      "Smooth CVT",
+      "Good ground clearance",
+      "Reliable Honda engine"
+    ],
+
+    "cons": [
+      "No rear disc option",
+      "No Bluetooth or smart features",
+      "Basic suspension setup",
+      "Underseat storage could be better"
+    ],
+
+    "faqs": [
+      {
+        "question": "Does Grazia 125 have disc brakes?",
+        "answer": "Yes, the front has a 190 mm disc."
+      },
+      {
+        "question": "Is it good for long trips?",
+        "answer": "It’s ideal for city use and short rides."
+      },
+      {
+        "question": "Does it have DRLs?",
+        "answer": "Yes, it comes with DRLs."
+      },
+      {
+        "question": "Is it better than Dio?",
+        "answer": "Grazia is more powerful and feature-rich."
+      }
+    ]
+  },
+
+ 
+  {
+    "name": "Bajaj Pulsar N250",
+    "slug": "bajaj-pulsar-n250",
+    "cc": 249.07,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "37 kmpl",
+    "mileage_reported": "35–38 kmpl",
+    "top_speed_claimed": "135 km/h",
+    "top_speed_reported": "130 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "6-speed",
+    "weight": "162 kg",
+    "max_power": "24 PS @ 8750 rpm",
+    "max_torque": "21.5 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyresize": "100/80‑17",
+    "rear_tyresize": "130/70‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Semi‑digital LCD",
+    "seat_height": "806 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2055 mm",
+    "overall_width": "785 mm",
+    "build_quality": "Robust street naked build",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsarn250-front.webp",
+      "https://cdn.example.com/pulsarn250-side.webp"
+    ],
+    "pros": [
+      "Good 250cc performance",
+      "LED lighting + Bluetooth console",
+      "Dual‑channel ABS for safety",
+      "Handling is agile",
+      "Comfortable ergonomics"
+    ],
+    "cons": [
+      "Average fuel efficiency",
+      "No windshield",
+      "Suspension feels stiff",
+      "No slipper clutch"
+    ],
+    "faqs": [
+      {
+        "question": "Does Pulsar N250 support Bluetooth?",
+        "answer": "Yes, the console supports Bluetooth via app."
+      },
+      {
+        "question": "Does it have dual ABS?",
+        "answer": "Yes, the N250 comes standard with dual‑channel ABS."
+      },
+      {
+        "question": "What's its real mileage?",
+        "answer": "Rides around 35–38 kmpl in mixed use."
+      },
+      {
+        "question": "Is it good for touring?",
+        "answer": "Yes, with comfortable seat and tank, but lacks windscreen."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar F250",
+    "slug": "bajaj-pulsar-f250",
+    "cc": 249.07,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "36 kmpl",
+    "mileage_reported": "34–37 kmpl",
+    "top_speed_claimed": "133 km/h",
+    "top_speed_reported": "128 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "6-speed",
+    "weight": "168 kg",
+    "max_power": "24 PS @ 8750 rpm",
+    "max_torque": "21.5 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyresize": "100/80‑17",
+    "rear_tyresize": "130/70‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Semi‑digital LCD",
+    "seat_height": "804 mm",
+    "ground_clearance": "167 mm",
+    "overall_length": "2070 mm",
+    "overall_width": "800 mm",
+    "build_quality": "Sportfaring street build",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsarf250-front.webp",
+      "https://cdn.example.com/pulsarf250-side.webp"
+    ],
+    "pros": [
+      "Full-faired sport styling",
+      "LED lights + Bluetooth display",
+      "Dual ABS enhances safety",
+      "UV protected visor",
+      "Agile 250cc engine"
+    ],
+    "cons": [
+      "Slightly heavier",
+      "No quickshifter",
+      "No traction control",
+      "Rear pillion comfort average"
+    ],
+    "faqs": [
+      {
+        "question": "Differences between N250 and F250?",
+        "answer": "F250 has full fairing, N250 is naked variant."
+      },
+      {
+        "question": "Does F250 have Bluetooth?",
+        "answer": "Yes, comes with app-connected console."
+      },
+      {
+        "question": "Is it touring-friendly?",
+        "answer": "Yes, fairing and visor help at high speeds."
+      },
+      {
+        "question": "What's the mileage?",
+        "answer": "Typically 34–37 kmpl in real use."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar N160",
+    "slug": "bajaj-pulsar-n160",
+    "cc": 160.3,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "42–46 kmpl",
+    "top_speed_claimed": "125 km/h",
+    "top_speed_reported": "120 km/h",
+    "braking": "Single / Dual Channel ABS",
+    "gear": "6-speed",
+    "weight": "155 kg",
+    "max_power": "15.2 PS @ 8500 rpm",
+    "max_torque": "14.6 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyresize": "100/80‑17",
+    "rear_tyresize": "130/70‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Semi‑digital LCD",
+    "seat_height": "794 mm",
+    "ground_clearance": "178 mm",
+    "overall_length": "2040 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Balanced street naked build",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsarn160-front.webp",
+      "https://cdn.example.com/pulsarn160-side.webp"
+    ],
+    "pros": [
+      "Light and agile 160cc power",
+      "LED lights + app console",
+      "Clip-on handlebars",
+      "Dual ABS version available",
+      "17 L tank for touring"
+    ],
+    "cons": [
+      "No slipper clutch",
+      "No quickshifter",
+      "Suspension a bit stiff",
+      "No traction control"
+    ],
+    "faqs": [
+      {
+        "question": "Does N160 have dual ABS?",
+        "answer": "Yes, some variants offer dual-channel ABS."
+      },
+      {
+        "question": "What’s the tank capacity?",
+        "answer": "It has a 15 L fuel tank."
+      },
+      {
+        "question": "Is Bluetooth console included?",
+        "answer": "Yes, smart console connects via app."
+      },
+      {
+        "question": "Real mileage?",
+        "answer": "Typically runs 42–46 kmpl."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar NS160 FI ABS",
+    "slug": "bajaj-pulsar-ns160-fi-abs",
+    "cc": 160.3,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "42–46 kmpl",
+    "top_speed_claimed": "128 km/h",
+    "top_speed_reported": "123 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "6-speed",
+    "weight": "147 kg",
+    "max_power": "17.03 PS @ 9500 rpm",
+    "max_torque": "14.76 Nm @ 6750 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "2-piston",
+      "rear": "1-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyresize": "100/80‑17",
+    "rear_tyresize": "130/70‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Semi‑digital LCD",
+    "seat_height": "794 mm",
+    "ground_clearance": "178 mm",
+    "overall_length": "2040 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Performance-focused streetfighter",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/ns160abs-front.webp",
+      "https://cdn.example.com/ns160abs-side.webp"
+    ],
+    "pros": [
+      "Fuel‑injected smooth engine",
+      "Dual ABS & LED lighting",
+      "Agile handling",
+      "Fi improves performance",
+      "Lightweight and nimble"
+    ],
+    "cons": [
+      "No slipper or quickshifter",
+      "Suspension is firm",
+      "No traction control",
+      "Smart console basic"
+    ],
+    "faqs": [
+      {
+        "question": "Does NS160 FI have ABS?",
+        "answer": "Yes, all variants include dual-channel ABS."
+      },
+      {
+        "question": "Is it fuel‑injected?",
+        "answer": "Yes, it sports a fuel-injected engine."
+      },
+      {
+        "question": "What's real mileage?",
+        "answer": "42–46 kmpl depending on conditions."
+      },
+      {
+        "question": "Is Bluetooth console available?",
+        "answer": "Yes, it supports app connectivity."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar 150 Twin‑Disc ABS",
+    "slug": "bajaj-pulsar-150-twin-disc-abs",
+    "cc": 149.5,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "48–52 kmpl",
+    "top_speed_claimed": "115 km/h",
+    "top_speed_reported": "110 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "5-speed",
+    "weight": "153 kg",
+    "max_power": "14 PS @ 8500 rpm",
+    "max_torque": "13.4 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyresize": "80/100‑17",
+    "rear_tyresize": "110/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "795 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2040 mm",
+    "overall_width": "765 mm",
+    "build_quality": "Classic Pulsar build quality",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsar150td-front.webp",
+      "https://cdn.example.com/pulsar150td-side.webp"
+    ],
+    "pros": [
+      "Dual disc ABS braking",
+      "17 L fuel tank great for touring",
+      "LED lights with DRL",
+      "Trusted Pulsar engine",
+      "Balanced power delivery"
+    ],
+    "cons": [
+      "No quickshifter",
+      "Slightly heavy",
+      "Base console without Bluetooth",
+      "FI absent"
+    ],
+    "faqs": [
+      {
+        "question": "Is Pulsar 150 twin-disc available?",
+        "answer": "Yes, with dual-channel ABS."
+      },
+      {
+        "question": "Tank capacity?",
+        "answer": "It holds 15 L of fuel."
+      },
+      {
+        "question": "Mileage typical?",
+        "answer": "About 48–52 kmpl."
+      },
+      {
+        "question": "Does it have Bluetooth?",
+        "answer": "No, basic console only."
+      }
+    ]
+  },
+
+  {
+    "name": "Bajaj Pulsar 150 Single‑Disc",
+    "slug": "bajaj-pulsar-150-single-disc",
+    "cc": 149.5,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "48–52 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Single Channel ABS (Disc)",
+    "gear": "5-speed",
+    "weight": "148 kg",
+    "max_power": "14 PS @ 8500 rpm",
+    "max_torque": "13.4 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "230 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "110/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "795 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2040 mm",
+    "overall_width": "765 mm",
+    "build_quality": "Classic Pulsar",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsar150sd-front.webp",
+      "https://cdn.example.com/pulsar150sd-side.webp"
+    ],
+    "pros": [
+      "Disc brake at front for better safety",
+      "Trusted Pulsar performance",
+      "LED lighting",
+      "Balanced ride and handling"
+    ],
+    "cons": [
+      "No dual ABS",
+      "Basic console",
+      "No Bluetooth",
+      "No slipper clutch"
+    ],
+    "faqs": [
+      {
+        "question": "Does Pulsar 150 SD have disc brake?",
+        "answer": "Yes, it has a 260 mm front disc."
+      },
+      {
+        "question": "Is it ABS?",
+        "answer": "It has single-channel ABS on disc variant."
+      },
+      {
+        "question": "What's its mileage?",
+        "answer": "Around 48–52 kmpl in real-world conditions."
+      },
+      {
+        "question": "Does it have LED lights?",
+        "answer": "Yes, it features LED headlight and DRL."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar NS125",
+    "slug": "bajaj-pulsar-ns125",
+    "cc": 124.6,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "105 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Single Channel ABS",
+    "gear": "5-speed",
+    "weight": "139 kg",
+    "max_power": "11.8 PS @ 8000 rpm",
+    "max_torque": "11.3 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "110/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "795 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "760 mm",
+    "build_quality": "Lightweight streetfighter",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/ns125-front.webp",
+      "https://cdn.example.com/ns125-side.webp"
+    ],
+    "pros": [
+      "Light and nimble 125cc naked bike",
+      "LED lighting and DRL",
+      "Disc brakes front and rear",
+      "Comfortable riding posture"
+    ],
+    "cons": [
+      "No dual ABS",
+      "Underpowered for highways",
+      "Basic console",
+      "No Bluetooth"
+    ],
+    "faqs": [
+      {
+        "question": "Is NS125 good for beginners?",
+        "answer": "Yes, it’s lightweight and easy to handle."
+      },
+      {
+        "question": "Does it have disc brakes both ends?",
+        "answer": "Yes, it has front and rear disc."
+      },
+      {
+        "question": "What’s the mileage?",
+        "answer": "Real-world mileage is around 45–50 kmpl."
+      },
+      {
+        "question": "Is it LED fully?",
+        "answer": "Yes, headlamp and DRL are LED."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar N125",
+    "slug": "bajaj-pulsar-n125",
+    "cc": 124.6,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "105 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Single Channel ABS",
+    "gear": "5-speed",
+    "weight": "129 kg",
+    "max_power": "11.8 PS @ 8000 rpm",
+    "max_torque": "11.3 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "230 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "110/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "795 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "760 mm",
+    "build_quality": "Entry-level Pulsar",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/n125-front.webp",
+      "https://cdn.example.com/n125-side.webp"
+    ],
+    "pros": [
+      "Very lightweight",
+      "LED lighting and DRL",
+      "Disc front brake",
+      "Fun urban ride"
+    ],
+    "cons": [
+      "Rear drum brake only",
+      "Struggles on highways",
+      "Basic console"
+    ],
+    "faqs": [
+      {
+        "question": "What’s the difference between NS125 and N125?",
+        "answer": "NS has dual disc brakes, N125 has disc front only."
+      },
+      {
+        "question": "Is it beginner friendly?",
+        "answer": "Yes, very easy to learn and ride."
+      },
+      {
+        "question": "Mileage numbers?",
+        "answer": "About 45–50 kmpl."
+      },
+      {
+        "question": "LED lighting?",
+        "answer": "Yes, full LED setup."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Pulsar 150 SD ABS",
+    "slug": "bajaj-pulsar-150-sd-abs",
+    "cc": 149.5,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "48–52 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Single Channel ABS",
+    "gear": "5-speed",
+    "weight": "150 kg",
+    "max_power": "14 PS @ 8500 rpm",
+    "max_torque": "13.4 Nm @ 6500 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "230 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "110/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "795 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2040 mm",
+    "overall_width": "765 mm",
+    "build_quality": "Safe commuter",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/pulsar150sdabs-front.webp",
+      "https://cdn.example.com/pulsar150sdabs-side.webp"
+    ],
+    "pros": [
+      "Front disc with ABS for safety",
+      "LED lights and DRL",
+      "Trusted Pulsar engine"
+    ],
+    "cons": [
+      "No rear disc",
+      "Basic instrumentation",
+      "No Bluetooth"
+    ],
+    "faqs": [
+      {
+        "question": "Does it come with ABS?",
+        "answer": "Yes, single‑channel ABS on front disc."
+      },
+      {
+        "question": "How much does it weigh?",
+        "answer": "Around 150 kg kerb weight."
+      },
+      {
+        "question": "Mileage numbers?",
+        "answer": "About 48–52 kmpl in real world."
+      },
+      {
+        "question": "Is lighting LED?",
+        "answer": "Yes, headlamp and DRL are LED."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Avenger Street 160 ABS",
+    "slug": "bajaj-avenger-street-160-abs",
+    "cc": 159.5,
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–50 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Dual Channel ABS",
+    "gear": "5-speed",
+    "weight": "153 kg",
+    "max_power": "15 PS @ 8000 rpm",
+    "max_torque": "13.7 Nm @ 6000 rpm",
+    "clutch": "Wet, Multiplate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "240 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑18",
+    "rear_tyre_size": "120/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1.5 L",
+    "fuel_tank_capacity": "13 L",
+    "headlight_type": "LED with DRL",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi‑digital LCD",
+    "seat_height": "705 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2075 mm",
+    "overall_width": "820 mm",
+    "build_quality": "Cruiser‑style comfortable build",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/avenger160-front.webp",
+      "https://cdn.example.com/avenger160-side.webp"
+    ],
+    "pros": [
+      "Cruiser ergonomics with low seat",
+      "Dual disc ABS setup",
+      "LED lighting and comfortable ride"
+    ],
+    "cons": [
+      "Not designed for sporty riding",
+      "Heavy for city weaving",
+      "No Bluetooth or navigation"
+    ],
+    "faqs": [
+      {
+        "question": "Is Avenger Street 160 good for cruising?",
+        "answer": "Yes, with its low seat and laid-back posture."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, comes with dual-channel ABS."
+      },
+      {
+        "question": "What’s the mileage?",
+        "answer": "Approximately 45–50 kmpl."
+      },
+      {
+        "question": "Is lighting LED?",
+        "answer": "Yes, front and DRL are LED."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Discover 125 Disc",
+    "slug": "bajaj-discover-125-disc",
+    "cc": 124.4,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60–65 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed",
+    "weight": "109 kg",
+    "max_power": "11 PS @ 8000 rpm",
+    "max_torque": "10.6 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "100/90‑17",
+    "wheel_type": "Alloy",
+    "reserve_fuel_capacity": "1 L",
+    "fuel_tank_capacity": "11 L",
+    "headlight_type": "LED Pilot Lamp",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog with digital odometer",
+    "seat_height": "775 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Reliable commuter build",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/discover125-front.webp",
+      "https://cdn.example.com/discover125-side.webp"
+    ],
+    "pros": [
+      "Affordably priced with a disc brake",
+      "Good fuel efficiency",
+      "Lightweight and easy to ride",
+      "Alloy wheels"
+    ],
+    "cons": [
+      "Basic halogen lighting",
+      "No advanced tech",
+      "No LED or digital console"
+    ],
+    "faqs": [
+      {
+        "question": "Does Discover 125 have front disc?",
+        "answer": "Yes, it comes with 240 mm front disc brake."
+      },
+      {
+        "question": "Fuel efficiency?",
+        "answer": "Around 60–65 kmpl."
+      },
+      {
+        "question": "Are alloy wheels standard?",
+        "answer": "Yes."
+      },
+      {
+        "question": "Any digital mileage meter?",
+        "answer": "Yes, has a basic digital odometer."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Discover 110 Disc",
+    "slug": "bajaj-discover-110-disc",
+    "cc": 115.45,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "70 kmpl",
+    "mileage_reported": "65–70 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "4-speed",
+    "weight": "104 kg",
+    "max_power": "8.2 PS @ 8000 rpm",
+    "max_torque": "8.65 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "200 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "100/90‑17",
+    "wheel_type": "Spoke",
+    "reserve_fuel_capacity": "1 L",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "775 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "1980 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Simple, rugged commuter",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/discover110-front.webp",
+      "https://cdn.example.com/discover110-side.webp"
+    ],
+    "pros": [
+      "Disc brake for improved safety",
+      "Efficient commuter engine",
+      "Very affordable",
+      "Lightweight"
+    ],
+    "cons": [
+      "Tube tyres",
+      "No digital console",
+      "Basic features"
+    ],
+    "faqs": [
+      {
+        "question": "Is Discover 110 disc variant available?",
+        "answer": "Yes, with 200 mm front disc."
+      },
+      {
+        "question": "Fuel economy?",
+        "answer": "About 65–70 kmpl."
+      },
+      {
+        "question": "Tube or tubeless?",
+        "answer": "It comes with tube tyres."
+      },
+      {
+        "question": "Digital display?",
+        "answer": "No, it has analog only."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Platina 110 H (Gear)",
+    "slug": "bajaj-platina-110-gear",
+    "cc": 112.8,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "75 kmpl",
+    "mileage_reported": "70–75 kmpl",
+    "top_speed_claimed": "85 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Drum Brakes",
+    "gear": "4-speed",
+    "weight": "103 kg",
+    "max_power": "8.6 PS @ 8000 rpm",
+    "max_torque": "9.7 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "90/90‑17",
+    "wheel_type": "Spoke",
+    "reserve_fuel_capacity": "1 L",
+    "fuel_tank_capacity": "11 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "790 mm",
+    "ground_clearance": "177 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Ultra-efficient commuter",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/platina110-front.webp",
+      "https://cdn.example.com/platina110-side.webp"
+    ],
+    "pros": [
+      "High fuel efficiency",
+      "Smooth gearbox",
+      "Reliable parts",
+      "Lightweight"
+    ],
+    "cons": [
+      "Tube tyres restrict mobility",
+      "No disc brake",
+      "Basic lighting"
+    ],
+    "faqs": [
+      {
+        "question": "Is Platina 110 gear variant fuel efficient?",
+        "answer": "Yes, it delivers around 70–75 kmpl."
+      },
+      {
+        "question": "Does it use tube tyres?",
+        "answer": "Yes."
+      },
+      {
+        "question": "Any disc brakes?",
+        "answer": "No, only drum brakes."
+      },
+      {
+        "question": "Budget-friendly?",
+        "answer": "Yes, it's very affordable."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Platina 100 ES",
+    "slug": "bajaj-platina-100-es",
+    "cc": 102.7,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "75 kmpl",
+    "mileage_reported": "70–75 kmpl",
+    "top_speed_claimed": "80 km/h",
+    "top_speed_reported": "75 km/h",
+    "braking": "Drum Brakes",
+    "gear": "4-speed",
+    "weight": "103 kg",
+    "max_power": "8.2 PS @ 8000 rpm",
+    "max_torque": "8.5 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100‑18",
+    "rear_tyre_size": "90/90‑18",
+    "wheel_type": "Spoke",
+    "reserve_fuel_capacity": "1 L",
+    "fuel_tank_capacity": "11 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "790 mm",
+    "ground_clearance": "177 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Entry commuter with kick-start ES",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/platina100es-front.webp",
+      "https://cdn.example.com/platina100es-side.webp"
+    ],
+    "pros": [
+      "Electric start with ES",
+      "Fuel efficient",
+      "Lightweight and affordable"
+    ],
+    "cons": [
+      "Tube tyres",
+      "No digital console",
+      "No disc brake"
+    ],
+    "faqs": [
+      {
+        "question": "What is ES in Platina 100?",
+        "answer": "ES stands for electric start."
+      },
+      {
+        "question": "Fuel efficiency?",
+        "answer": "Around 70–75 kmpl."
+      },
+      {
+        "question": "Any disc brakes?",
+        "answer": "No, only drum brakes."
+      },
+      {
+        "question": "Suitable for low budgets?",
+        "answer": "Yes, it's one of the cheapest."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj CT100 ES",
+    "slug": "bajaj-ct100-es",
+    "cc": 102.7,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "85 kmpl",
+    "mileage_reported": "80–85 kmpl",
+    "top_speed_claimed": "80 km/h",
+    "top_speed_reported": "75 km/h",
+    "braking": "Drum Brakes",
+    "gear": "4-speed",
+    "weight": "103 kg",
+    "max_power": "8.2 PS @ 8000 rpm",
+    "max_torque": "7.9 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100‑18",
+    "rear_tyre_size": "90/90‑18",
+    "wheel_type": "Spoke",
+    "reserve_fuel_capacity": "1 L",
+    "fuel_tank_capacity": "11 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "790 mm",
+    "ground_clearance": "177 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Toughest commuter bike",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      "https://cdn.example.com/ct100es-front.webp",
+      "https://cdn.example.com/ct100es-side.webp"
+    ],
+    "pros": [
+      "Best mileage in class",
+      "Simple and durable",
+      "Electric start",
+      "Very affordable"
+    ],
+    "cons": [
+      "Tube tyres",
+      "No disc brakes",
+      "Basic instruments"
+    ],
+    "faqs": [
+      {
+        "question": "Is CT100 ES fuel efficient?",
+        "answer": "Yes, around 80–85 kmpl."
+      },
+      {
+        "question": "What is ES?",
+        "answer": "Electric start."
+      },
+      {
+        "question": "Suitable for long distances?",
+        "answer": "Good for city / local use."
+      },
+      {
+        "question": "Any fancy features?",
+        "answer": "No, very basic."
+      }
+    ]
+  },
+  {
+    "name": "Bajaj Freedom 125 (CNG + Petrol)",
+    "slug": "bajaj-freedom-125",
+    "cc": 124.4,
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "90 kmpl (CNG), 65 kmpl (Petrol)",
+    "mileage_reported": "85–90 kmpl (CNG), 60–65 kmpl (Petrol)",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Drum Brakes",
+    "gear": "4-speed",
+    "weight": "110 kg",
+    "max_power": "8.2 PS @ 8000 rpm",
+    "max_torque": "10.6 Nm @ 6000 rpm",
+    "clutch": "Wet Multiplate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Drum",
+      "rear": "Drum"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "80/100‑17",
+    "rear_tyre_size": "90/90‑17",
+    "wheel_type": "Spoke",
+    "reserve_fuel_capacity": "Not Specified",
+    "fuel_tank_capacity": "10.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "775 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "1980 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Eco-friendly dual-fuel design",
+    "parts_availability": "Limited (CNG Kits)",
+    "image_urls": [
+      "https://cdn.example.com/freedom125-front.webp",
+      "https://cdn.example.com/freedom125-side.webp"
+    ],
+    "pros": [
+      "CNG & petrol dual-fuel option",
+      "Very cheap run cost using CNG",
+      "Light and easy to ride"
+    ],
+    "cons": [
+      "Limited CNG kit availability",
+      "No disc brakes",
+      "Tube tyres",
+      "Basic instruments"
+    ],
+    "faqs": [
+      {
+        "question": "Can it run on CNG and petrol?",
+        "answer": "Yes, it has dual-fuel switching capability."
+      },
+      {
+        "question": "Mileage on CNG?",
+        "answer": "Around 85–90 kmpl in CNG mode."
+      },
+      {
+        "question": "Availability of CNG kit?",
+        "answer": "Limited, check local dealers."
+      },
+      {
+        "question": "Is it cheap to run?",
+        "answer": "Yes, CNG costs much less per km."
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+

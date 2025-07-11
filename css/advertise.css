@@ -2,12 +2,12 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
+      background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
       color: #333;
     }
 
     header {
-      background: linear-gradient(135deg, #ff512f, #dd2476);
+      background: linear-gradient(to right, #2f8adf, #3a719e);
       color: white;
       padding: 2rem 1rem;
       text-align: center;
@@ -53,7 +53,7 @@
     .whatsapp-button {
       display: inline-block;
       padding: 12px 20px;
-      background-color: #25D366;
+      background-color: #3a9e67;
       color: white;
       border: none;
       border-radius: 6px;

@@ -1,13 +1,13 @@
  body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: sans-serif;
       margin: 0;
       padding: 0;
-      background: #f7f9fb;
+      background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
       color: #333;
     }
 
     header {
-      background: #1d976c;
+      background: linear-gradient(to right, #2f8adf, #3a719e);
       color: white;
       padding: 2rem 1rem;
       text-align: center;
@@ -15,7 +15,7 @@
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     .container {
@@ -28,7 +28,7 @@
     }
 
     h2 {
-      color: #1d976c;
+      color: #2f8adf;
       margin-top: 1.5rem;
     }
 
@@ -37,8 +37,13 @@
       margin-bottom: 1rem;
     }
 
+    ul {
+      margin-left: 0.5em;
+      padding-left: 1em;
+    }
+
     a {
-      color: #1d976c;
+      color: #3a9e99;
       text-decoration: none;
     }
 
