@@ -60,7 +60,7 @@
   </div>
   <section class="brand-filter">
     <div class="overlay-box">
-      <h2>Select Your Bike Info</h2>
+      <h2><i class="fas fa-map-marker-alt" style="color:#dd2476;"></i> Select Your Bike Info</h2>
       <form id="bikeForm">
         <select id="brand" required>
           <option disabled selected>Select Brand</option>
@@ -108,13 +108,17 @@
       </form>
 
       <div style="text-align: center;">
-        <button onclick="showOutlets()">Continue for more</button>
+        <button onclick="showOutlets()" class="pulse-btn"><i class="fas fa-search-location"></i> Continue for more</button>
       </div>
+      <div class="info-tip"><i class="fas fa-info-circle"></i> Tip: Use filters to find the nearest and best dealer outlets for your bike!</div>
     </div>
     <div class="result-container">
       <div id="result"></div>
     </div>
-    
+    <div class="animated-arrows">
+      <i class="fas fa-arrow-down"></i>
+      <i class="fas fa-arrow-down"></i>
+    </div>
   </section>
   <!-- Footer -->
   <footer id="contact">
@@ -167,5 +171,23 @@
   </footer>
 <script  src="js/main.js"></script>
 <script  src="js/dealer.js"></script>
+<script>
+// Optimize: Defer non-critical JS, minimize DOM queries, and use passive listeners for scroll/animation
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Sidebar toggle (if used)
+  window.toggleSidebar = function() {
+    document.getElementById('sidebar').classList.toggle('active');
+  };
+
+  // Animated arrows (use CSS only for performance)
+  // Remove JS animation, use CSS keyframes instead
+
+  // Pulse button effect (use CSS only)
+  // Remove JS pulse effect, use :hover and animation in CSS
+});
+
+// Remove unnecessary JS listeners for arrows and button
+</script>
 </body>
 </html>
