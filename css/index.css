@@ -365,17 +365,18 @@
     }
 
     .bike-specs {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
       margin: 1rem 0;
     }
+
 
     .spec-item {
       display: flex;
       justify-content: space-between;
+      font-size: 0.95rem;
       color: var(--text-gray);
-      font-size: 0.9rem;
     }
 
     .bike-price {
