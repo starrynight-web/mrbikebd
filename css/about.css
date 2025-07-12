@@ -3,6 +3,7 @@
       font-family: sans-serif;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
       background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
       color: #333;
     }
@@ -38,7 +39,7 @@
     p {
       line-height: 1.7;
       /* font-size: 2rem; */
-      margin-bottom: 1rem;
+      /* margin-bottom: 1rem; */
     }
 a {
       color: #3a719e;
