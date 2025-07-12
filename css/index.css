@@ -276,7 +276,7 @@
       overflow-x: auto;
       gap: 2rem;
       padding: 1rem 0;
-      /* scroll-snap-type: x mandatory; */
+      scroll-snap-type: x mandatory;
       /* scrollbar-width: thin; */
       /* scrollbar-color: var(--primary-color) var(--border-color); */
     }
