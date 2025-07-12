@@ -4,19 +4,20 @@
       margin: 0;
       padding: 0;
       animation: fadeIn 1s;
+      line-height: 1.6;
     }
     .bike-image {
-  width: 120px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 8px;
-  transition: transform 0.3s ease;
-}
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 8px;
+      transition: transform 0.3s ease;
+    }
 
-.bike-image:hover {
-  transform: scale(1.05);
-}
+    .bike-image:hover {
+      transform: scale(1.05);
+    }
     h1 
    {
       text-align: center;

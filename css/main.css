@@ -288,6 +288,12 @@
         color: var(--primary-color); /* Or use any color you prefer */
         text-decoration: none;       /* Keeps underline off on hover */
       }    
+      .bd-small{
+        font-size: 0.5em; /* Makes BD visually smaller */
+        vertical-align: super; /* Slight lift, optional */
+        font-weight: bold; /* Keeps the BD bold if needed */
+        letter-spacing: 0.5px;
+      }
 
     @media (max-width: 600px) {
       .search-bar {

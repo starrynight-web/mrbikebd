@@ -1,7 +1,12 @@
   body, html {
       margin: 0;
       padding: 0;
+<<<<<<< HEAD
       font-family: sans-serif;
+=======
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+>>>>>>> 0050b0611e9dd3bd89038b234c465e95a8e0a228
     }
 
     .brand-filter {
