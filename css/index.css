@@ -557,156 +557,28 @@
     .news-date {
       color: var(--primary-color);
       font-size: 0.9rem;
-    }
 
-    /* Footer
-    footer {
-      background: var(--lighter-bg);
-      padding: 3rem 0 1rem;
-      border-top: 1px solid var(--border-color);
-    }
-
-    .footer-logo-row {
-      display: flex;
-      align-items: center;
-      gap: 12px; /* Adjust spacing as needed 
-    }
-    
-    .footer-logo-row img {
-      max-height: 45px;      /* Reduced from 60px 
-      transform: scale(1);   /* No extra scaling 
-      margin-top: 0;
-      padding-left: 0;
-    }
-    
-    .footer-logo-row h3 {
-      margin: 0;
-      color: var(--primary-color);
-      font-size: 1.5rem;
-      padding-top: 15px;
-      margin-left: -9px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem;
-    }
-
-    .footer-content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    /* Lower the Quick Links and Support columns in the footer 
-    .footer-content .footer-section:not(:first-child) {
-      margin-top: 1.3rem; /* Adjust this value as needed 
-      /* margin-left: 8rem; 
-    }
-
-    .footer-section h3 {
-      color: var(--primary-color);
-      margin-bottom: 1rem;
-    }
-
-    .footer-section ul {
-      list-style: none;
-    }
-
-    .footer-section a {
-      color: var(--text-gray);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .footer-section a:hover {
-      color: var(--primary-color);
-    }
-
-    .footer-section p {
-      color: var(--text-gray);
-    }
-
-    .social-links {
-      display: flex;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .social-links a {
-      width: 40px;
-      height: 40px;
-      background: var(--card-bg);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: var(--transition);
-      border: 1px solid var(--border-color);
-    }
-
-    .social-links a:hover {
-      background: var(--primary-color);
-      transform: translateY(-3px);
-      color: white;
-    }
-
-    .footer-bottom {
-      text-align: center;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border-color);
-      color: var(--text-gray);
-    }
-
-    .footer-bottom a {
-      text-decoration: none;
-      color: inherit; /* Keeps the color consistent 
-    }
-    .footer-bottom a:hover {
-      color: var(--primary-color); /* Or use any color you prefer 
-      text-decoration: none;       /* Keeps underline off on hover 
-    }
-*/
-    /* Responsive Design */
-    @media (max-width: 768px) {
-/* 
-      .nav-container {
-        padding: 0 1rem;
-      }
-     
-      .nav-links {
-        display: none;
-      }
-*/      
-      .hero-content {
-        padding: 0 1rem;
-      }
-      
-      .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      .container {
-        padding: 0 1rem;
-      }
-      
-      .bike-card {
-        min-width: 280px;
-      }
-      
-      .section-title {
-        font-size: 2rem;
-      }
-      
-      .stats-section {
-        padding: 2rem;
-      }
-    }
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 0 1rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+  .bike-card {
+    min-width: 280px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .stats-section {
+    padding: 2rem;
+  }
+}
 
     /* Scroll animations */
     .fade-in {
