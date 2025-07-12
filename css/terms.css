@@ -35,10 +35,10 @@
 
     p {
       line-height: 1.7;
-      margin-bottom: 1rem;
+      /* margin-bottom: 1rem; */
     }
 
-    ul {
+    ul.terms {
       margin-left: 0.5em;
       padding-left: 1em;
     }
