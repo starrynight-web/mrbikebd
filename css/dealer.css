@@ -22,7 +22,7 @@ body {
 /* Header styles */
 header {
     width: 100vw;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(90deg, #0b4668 0%, #16426b 100%);
     padding: 40px 0 30px 0;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
@@ -107,7 +107,7 @@ header h1 {
 .search-btn {
     width: 100%;
     padding: 15px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4a5caa 0%, #411e64 100%);
     color: white;
     border: none;
     border-radius: 8px;
