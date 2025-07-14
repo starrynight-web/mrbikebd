@@ -9,7 +9,7 @@ body {
 
     header {
       /* background: linear-gradient(to right, #2f8adf, #3a719e); */
-      color: #2f8adf;
+      color: #333;
       text-align: left;
       padding: 1rem 1rem;
       max-width: 800px;
@@ -110,9 +110,9 @@ body {
       font-size: 1rem;
     }
 
-    .email-link { background: #3a9e99 }
-    .phone-link { background: #3a719e }
-    .facebook-link { background: #3a3f9e }
+    .email-link { background: #42a6eb }
+    .phone-link { background: #25c862 }
+    .facebook-link { background: #0866ff }
 
     @media (max-width: 600px) {
       header h1 {
