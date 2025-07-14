@@ -255,7 +255,7 @@
   Phone: 01914‑498981  
   [Map](https://goo.gl/maps/GYxJuYnSWB12)
 
-## 5. QJ Motor
+## 19. QJ Motor
 
 ### 📍 Dhaka
 - **Speedoz Ltd – Mohakhali**  
