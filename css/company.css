@@ -1,0 +1,96 @@
+:root {
+      --primary-color: #2f8adf;
+      --secondary-color: #3a719e;
+      --light-bg: #ffffff;
+      --lighter-bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text-dark: #333333;
+      --text-gray: #666666;
+      --accent-glow: #9ee9e5;
+      --border-radius: 15px;
+      --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --border-color: #e0e0e0;
+    }
+
+    * {
+      margin: 0 ;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      
+      font-family: sans-serif;
+      background: linear-gradient(135deg, var(--lighter-bg) 0%, var(--light-bg) 100%);
+      color: var(--text-dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+
+.brand-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .brand-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 2rem;
+      text-align: center;
+      transition: var(--transition);
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .brand-card::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: radial-gradient(circle, rgba(233, 30, 99, 0.05) 0%, transparent 70%);
+      transition: all 0.3s ease;
+      transform: translate(-50%, -50%);
+    }
+
+    .brand-card:hover::before {
+      width: 200px;
+      height: 200px;
+    }
+
+    .brand-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #9ee9e5;
+    }
+
+    .brand-logo {
+      width: 80px;
+      height: 80px;
+      background: var(--lighter-bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 2rem;
+      color: var(--primary-color);
+      border: 2px solid var(--border-color);
+    }
+
+    .brand-name {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--text-dark);
+    }
+
+    .brand-models {
+      color: var(--text-gray);
+      font-size: 0.9rem;
+    }

@@ -2,17 +2,27 @@ body {
       font-family: sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
+      /* background: linear-grazdient(135deg, #f9f9f9, #a1d8fe); */
       color: #333;
       line-height: 1.6;
     }
 
     header {
+<<<<<<< HEAD
       background: linear-gradient(to right, #134370, #3a719e);
       color: white;
       text-align: center;
       padding: 2rem 1rem;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+=======
+      /* background: linear-gradient(to right, #2f8adf, #3a719e); */
+      color: #333;
+      text-align: left;
+      padding: 1rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+>>>>>>> 5fb85c9e182c62556419f0fc9355c72b4aa8d1f2
     }
 
     header h1 {
@@ -22,7 +32,9 @@ body {
 
     .container {
       max-width: 800px;
-      margin: 2rem auto;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
       background: white;
       padding: 2rem;
       border-radius: 12px;
@@ -106,9 +118,9 @@ body {
       font-size: 1rem;
     }
 
-    .email-link { background: #3a9e99 }
-    .phone-link { background: #3a719e }
-    .facebook-link { background: #3a3f9e }
+    .email-link { background: #42a6eb }
+    .phone-link { background: #25c862 }
+    .facebook-link { background: #0866ff }
 
     @media (max-width: 600px) {
       header h1 {
@@ -116,7 +128,9 @@ body {
       }
 
       .container {
-        margin: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
         padding: 1.5rem;
       }
 
