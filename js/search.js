@@ -159,40 +159,6 @@ const bikeDatabase = {
       type: "brands",
       icon: "🏭"
     }
-  ],
-  dealers: [
-    {
-      id: 1,
-      name: "Dhaka Motors",
-      location: "Dhaka",
-      brands: ["Honda", "Yamaha"],
-      type: "dealers",
-      icon: "🏪"
-    },
-    {
-      id: 2,
-      name: "Chittagong Bike Center",
-      location: "Chittagong",
-      brands: ["Royal Enfield", "KTM"],
-      type: "dealers",
-      icon: "🏪"
-    },
-    {
-      id: 3,
-      name: "Sylhet Auto Gallery",
-      location: "Sylhet",
-      brands: ["Bajaj", "TVS"],
-      type: "dealers",
-      icon: "🏪"
-    },
-    {
-      id: 4,
-      name: "Khulna Motorcycle Hub",
-      location: "Khulna",
-      brands: ["Hero", "Suzuki"],
-      type: "dealers",
-      icon: "🏪"
-    }
   ]
 };
 
@@ -293,22 +259,14 @@ class DynamicSearch {
       ));
     }
 
-    if (category === 'all' || category === 'dealers') {
-      results.push(...bikeDatabase.dealers.filter(dealer => 
-        dealer.name.toLowerCase().includes(searchTerm) ||
-        dealer.location.toLowerCase().includes(searchTerm) ||
-        dealer.brands.some(brand => brand.toLowerCase().includes(searchTerm))
-      ));
-    }
-
+    // Do not include dealers
     return results.slice(0, 8); // Limit to 8 results
   }
 
   showPopularItems() {
     this.filteredResults = [
       ...bikeDatabase.bikes.slice(0, 3),
-      ...bikeDatabase.brands.slice(0, 2),
-      ...bikeDatabase.dealers.slice(0, 1)
+      ...bikeDatabase.brands.slice(0, 2)
     ];
     this.renderSuggestions();
   }
@@ -320,38 +278,14 @@ class DynamicSearch {
     }
 
     this.suggestionsList.innerHTML = this.filteredResults.map((item, index) => {
-      if (item.type === 'bikes') {
-        return `
-          <div class="suggestion-item" data-index="${index}" data-type="bike" data-id="${item.id}">
-            <div class="suggestion-icon">${item.icon}</div>
-            <div class="suggestion-content">
-              <div class="suggestion-title">${item.name}</div>
-              <div class="suggestion-subtitle">${item.brand} • ${item.engine}</div>
-            </div>
-            <div class="suggestion-price">${item.price}</div>
+      // Only show name for bikes and brands
+      return `
+        <div class="suggestion-item" data-index="${index}" data-type="${item.type}" data-id="${item.id}">
+          <div class="suggestion-content">
+            <div class="suggestion-title">${item.name}</div>
           </div>
-        `;
-      } else if (item.type === 'brands') {
-        return `
-          <div class="suggestion-item" data-index="${index}" data-type="brand" data-id="${item.id}">
-            <div class="suggestion-icon">${item.icon}</div>
-            <div class="suggestion-content">
-              <div class="suggestion-title">${item.name}</div>
-              <div class="suggestion-subtitle">${item.models} Models Available</div>
-            </div>
-          </div>
-        `;
-      } else if (item.type === 'dealers') {
-        return `
-          <div class="suggestion-item" data-index="${index}" data-type="dealer" data-id="${item.id}">
-            <div class="suggestion-icon">${item.icon}</div>
-            <div class="suggestion-content">
-              <div class="suggestion-title">${item.name}</div>
-              <div class="suggestion-subtitle">${item.location} • ${item.brands.join(', ')}</div>
-            </div>
-          </div>
-        `;
-      }
+        </div>
+      `;
     }).join('');
 
     // Add click listeners to suggestion items
@@ -427,10 +361,6 @@ class DynamicSearch {
       case 'brands':
         // Navigate to brand page
         window.location.href = `brand.html?brand=${itemData.name.toLowerCase().replace(/\s+/g, '-')}`;
-        break;
-      case 'dealers':
-        // Navigate to dealer page
-        window.location.href = `dealer.html?dealer=${itemData.id}`;
         break;
     }
   }
