@@ -27,7 +27,22 @@
     </div>
 
     <div class="right-section">
-      <input type="text" class="search-bar" placeholder="Search..." />
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="search-bar" placeholder="Search bikes, brands..." id="searchInput" />
+        </div>
+        <div class="search-suggestions" id="searchSuggestions">
+          <div class="search-categories">
+            <span class="category-tag active" data-category="all">All</span>
+            <span class="category-tag" data-category="bikes">Bikes</span>
+            <span class="category-tag" data-category="brands">Brands</span>
+          </div>
+          <div id="suggestionsList">
+            <!-- Suggestions will be populated here -->
+          </div>
+        </div>
+      </div>
       <div class="notification">
         <a href="news.html" style="display: inline-block;">
           <i class="fas fa-bell"></i>
@@ -82,7 +97,7 @@
         <p class="section-subtitle">High-performance machines built for speed and adrenaline</p>
       </div>
       <div class="bike-scroll-wrapper">
-        <button class="scroll-arrow left" onclick="scrollBikeSection('bikes', -1)"><span>&#x25C0;</span></button>
+        <button class="scroll-arrow left" onclick="scrollBikeSection('bikes', -1)"><i class="fa-solid fa-circle-chevron-left"></i></button>
         <div class="bike-scroll">
           <div class="bike-card fade-in">
             <div class="bike-image">
@@ -91,12 +106,13 @@
             <div class="bike-info">
               <h3 class="bike-name">Suzuki Gixxer SF</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>155cc</span></div>
-                <div class="spec-item"><span>Top Speed:</span><span>135 km/h</span></div>
-                <div class="spec-item"><span>Power:</span><span>14.1 HP</span></div>
-                <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>155cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Top Speed:</span><span>135 km/h</span></div> -->
+                <!-- <div class="spec-item"><span>Power:</span><span>14.1 HP</span></div> -->
+                <!-- <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div> -->
               </div>
               <div class="bike-price">৳ 3,50,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -107,12 +123,13 @@
             <div class="bike-info">
               <h3 class="bike-name">Honda CBR 150R</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>149cc</span></div>
-                <div class="spec-item"><span>Top Speed:</span><span>155 km/h</span></div>
-                <div class="spec-item"><span>Power:</span><span>17.1 HP</span></div>
-                <div class="spec-item"><span>Mileage:</span><span>40 kmpl</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>149cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Top Speed:</span><span>155 km/h</span></div> -->
+                <!-- <div class="spec-item"><span>Power:</span><span>17.1 HP</span></div> -->
+                <!-- <div class="spec-item"><span>Mileage:</span><span>40 kmpl</span></div> -->
               </div>
               <div class="bike-price">৳ 5,50,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -123,12 +140,13 @@
             <div class="bike-info">
               <h3 class="bike-name">Suzuki GSX R150</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>147cc</span></div>
-                <div class="spec-item"><span>Top Speed:</span><span>148 km/h</span></div>
-                <div class="spec-item"><span>Power:</span><span>19.2 HP</span></div>
-                <div class="spec-item"><span>Mileage:</span><span>42 kmpl</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>147cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Top Speed:</span><span>148 km/h</span></div> -->
+                <!-- <div class="spec-item"><span>Power:</span><span>19.2 HP</span></div> -->
+                <!-- <div class="spec-item"><span>Mileage:</span><span>42 kmpl</span></div> -->
               </div>
               <div class="bike-price">৳ 4,25,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -139,12 +157,13 @@
             <div class="bike-info">
               <h3 class="bike-name">TVS Apache RR 310</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>312cc</span></div>
-                <div class="spec-item"><span>Top Speed:</span><span>165 km/h</span></div>
-                <div class="spec-item"><span>Power:</span><span>34 HP</span></div>
-                <div class="spec-item"><span>Mileage:</span><span>35 kmpl</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>312cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Top Speed:</span><span>165 km/h</span></div> -->
+                <!-- <div class="spec-item"><span>Power:</span><span>34 HP</span></div> -->
+                <!-- <div class="spec-item"><span>Mileage:</span><span>35 kmpl</span></div> -->
               </div>
               <div class="bike-price">৳ 6,75,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -153,18 +172,19 @@
               <div style="color: var(--primary-color); font-size: 3rem;">🏍️</div>
             </div>
             <div class="bike-info">
-              <h3 class="bike-name">KTM RC 125</h3>
+              <h3 class="bike-name">KTM RC 125 2022</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>124cc</span></div>
-                <div class="spec-item"><span>Top Speed:</span><span>120 km/h</span></div>
-                <div class="spec-item"><span>Power:</span><span>14.5 HP</span></div>
-                <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>124cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Top Speed:</span><span>120 km/h</span></div> -->
+                <!-- <div class="spec-item"><span>Power:</span><span>14.5 HP</span></div> -->
+                <!-- <div class="spec-item"><span>Mileage:</span><span>45 kmpl</span></div> -->
               </div>
               <div class="bike-price">৳ 4,50,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
         </div>
-        <button class="scroll-arrow right" onclick="scrollBikeSection('bikes', 1)"><span>&#x25B6;</span></button>
+        <button class="scroll-arrow right" onclick="scrollBikeSection('bikes', 1)"><i class="fa-solid fa-circle-chevron-right"></i></button>
       </div>
     </div>
   </section>
@@ -177,7 +197,7 @@
         <p class="section-subtitle">Most popular bikes in Bangladesh right now</p>
       </div>
       <div class="bike-scroll-wrapper">
-        <button class="scroll-arrow left" onclick="scrollBikeSection('trending', -1)"><span>&#x25C0;</span></button>
+        <button class="scroll-arrow left" onclick="scrollBikeSection('trending', -1)"><i class="fa-solid fa-circle-chevron-left"></i></button>
         <div class="bike-scroll">
           <div class="bike-card fade-in">
             <div class="bike-image">
@@ -186,10 +206,11 @@
             <div class="bike-info">
               <h3 class="bike-name">Hero Xtreme 160R</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>163cc</span></div>
-                <div class="spec-item"><span>Power:</span><span>15.2 HP</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>163cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Power:</span><span>15.2 HP</span></div> -->
               </div>
               <div class="bike-price">৳ 2,85,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -200,10 +221,11 @@
             <div class="bike-info">
               <h3 class="bike-name">Bajaj Pulsar N250</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>249cc</span></div>
-                <div class="spec-item"><span>Power:</span><span>24.5 HP</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>249cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Power:</span><span>24.5 HP</span></div> -->
               </div>
               <div class="bike-price">৳ 4,75,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -214,10 +236,11 @@
             <div class="bike-info">
               <h3 class="bike-name">Royal Enfield Hunter 350</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>349cc</span></div>
-                <div class="spec-item"><span>Power:</span><span>20.2 HP</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>349cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Power:</span><span>20.2 HP</span></div> -->
               </div>
               <div class="bike-price">৳ 6,25,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -228,10 +251,11 @@
             <div class="bike-info">
               <h3 class="bike-name">Lifan KPR 165</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>162cc</span></div>
-                <div class="spec-item"><span>Power:</span><span>16.8 HP</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>162cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Power:</span><span>16.8 HP</span></div> -->
               </div>
               <div class="bike-price">৳ 3,95,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
           
@@ -242,14 +266,15 @@
             <div class="bike-info">
               <h3 class="bike-name">Zontes ZT 155 G1</h3>
               <div class="bike-specs">
-                <div class="spec-item"><span>Engine:</span><span>155cc</span></div>
-                <div class="spec-item"><span>Power:</span><span>17.2 HP</span></div>
+                <div class="spec-item"><span>Engine:</span><span><strong>155cc</strong></span></div>
+                <!-- <div class="spec-item"><span>Power:</span><span>17.2 HP</span></div> -->
               </div>
               <div class="bike-price">৳ 4,15,000</div>
+              <a href="#" class="btn btn-more-details">More Details</a>
             </div>
           </div>
         </div>
-        <button class="scroll-arrow right" onclick="scrollBikeSection('trending', 1)"><span>&#x25B6;</span></button>
+        <button class="scroll-arrow right" onclick="scrollBikeSection('trending', 1)"><i class="fa-solid fa-circle-chevron-right"></i></button>
       </div>
     </div>
   </section>
@@ -607,5 +632,6 @@
   </footer>
 <script  src="js/index.js"></script>
 <script  src="js/main.js"></script>
+<script  src="js/search.js"></script>
 </body>
 </html>

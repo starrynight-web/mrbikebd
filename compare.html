@@ -27,7 +27,22 @@
     </div>
 
     <div class="right-section">
-      <input type="text" class="search-bar" placeholder="Search..." />
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="search-bar" placeholder="Search bikes, brands..." id="searchInput" />
+        </div>
+        <div class="search-suggestions" id="searchSuggestions">
+          <div class="search-categories">
+            <span class="category-tag active" data-category="all">All</span>
+            <span class="category-tag" data-category="bikes">Bikes</span>
+            <span class="category-tag" data-category="brands">Brands</span>
+          </div>
+          <div id="suggestionsList">
+            <!-- Suggestions will be populated here -->
+          </div>
+        </div>
+      </div>
       <div class="notification">
         <a href="news.html" style="display: inline-block;">
           <i class="fas fa-bell"></i>
@@ -141,6 +156,7 @@
     </div>
   </footer>
  <script defer src="js/main.js"></script>
+ <script src="js/search.js"></script>
  <script src="js/compare.js"></script>
 
 </body>
