@@ -45,12 +45,12 @@
     });
 
     // Add click handlers for interactive elements
-    document.querySelectorAll('.brand-card').forEach(card => {
-      card.addEventListener('click', function() {
-        const brandName = this.querySelector('.brand-name').textContent;
-        alert(`Redirecting to ${brandName} bikes...`);
-      });
-    });
+    // document.querySelectorAll('.brand-card').forEach(card => {
+    //   card.addEventListener('click', function() {
+    //     const brandName = this.querySelector('.brand-name').textContent;
+    //     alert(`Redirecting to ${brandName} bikes...`);
+    //   });
+    // });
 
     // Counter animation for stats
     function animateCounters() {
