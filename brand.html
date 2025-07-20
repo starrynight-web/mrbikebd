@@ -74,32 +74,39 @@
   <a href="privacy.html"><i class="fas fa-shield-alt "></i> Privacy Policy</a>
   <a href="terms.html"><i class="fas fa-scroll "></i> Terms & Conditions</a>
   </div>
-<div class="content-all"></div>
-  <h1>Available Bike Models in Bangladesh</h1>
 
-  <label for="brandFilter">Filter by Brand:</label>
-  <select id="brandFilter" onchange="filterModels()">
-    <option value="All">All</option>
-    <option value="Yamaha">Yamaha</option>
-    <option value="Honda">Honda</option>
-    <option value="Suzuki">Suzuki</option>
-    <option value="Hero">Hero</option>
-    <option value="TVS">TVS</option>
-    <option value="Bajaj">Bajaj</option>
-    <option value="CFMoto">CFMoto</option>
-    <option value="Royal Enfield">Royal Enfield</option>
-    <option value="Runner">Runner</option>
-    <option value="Walton">Walton</option>
-    <option value="Lifan">Lifan</option>
-    <option value="Zontes">Zontes</option>
-    <option value="Keeway">Keeway</option>
-    <option value="KTM">KTM</option>
-    <option value="Benelli">Benelli</option>
-    <option value="Aprilia">Aprilia</option>
-  </select>
+  <!-- Main Content Container -->
+  <div class="main-content-container">
+    <div class="content-card">
+      <h1>Available Bike Models in Bangladesh</h1>
+      
+      <div class="filter-section">
+        <label for="brandFilter">Filter by Brand:</label>
+        <select id="brandFilter" onchange="filterModels()">
+          <option value="All">All</option>
+          <option value="Yamaha">Yamaha</option>
+          <option value="Honda">Honda</option>
+          <option value="Suzuki">Suzuki</option>
+          <option value="Hero">Hero</option>
+          <option value="TVS">TVS</option>
+          <option value="Bajaj">Bajaj</option>
+          <option value="CFMoto">CFMoto</option>
+          <option value="Royal Enfield">Royal Enfield</option>
+          <option value="Runner">Runner</option>
+          <option value="Walton">Walton</option>
+          <option value="Lifan">Lifan</option>
+          <option value="Zontes">Zontes</option>
+          <option value="Keeway">Keeway</option>
+          <option value="KTM">KTM</option>
+          <option value="Benelli">Benelli</option>
+          <option value="Aprilia">Aprilia</option>
+        </select>
+      </div>
 
-  <div class="model-container" id="modelList"></div>
-</div>
+      <div class="model-container" id="modelList"></div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer id="contact">
     <div class="footer-container">

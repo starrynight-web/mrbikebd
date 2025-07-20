@@ -1,18 +1,20 @@
  body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: linear-gradient(135deg, #f9f9f9, #a1d8fe);
-      color: #333;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background: linear-grazdient(135deg, #f9f9f9, #a1d8fe); */
+        color: #333;
+        line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(to right, #143c61, #3a719e);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      /* background: linear-gradient(to right, #2f8adf, #3a719e); */
+      color: #333;
+      text-align: left;
+      padding: 1rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     }
 
     header h1 {
@@ -22,10 +24,12 @@
     }
 
     .container {
-      max-width: 700px;
-      margin: 2rem auto;
+      max-width: 800px;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
       padding: 2rem;
-      background: #ffffff;
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
