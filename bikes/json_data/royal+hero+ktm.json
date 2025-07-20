@@ -1,0 +1,2404 @@
+[
+  {
+    "name": "Royal Enfield Hunter 350",
+    "slug": "royal-enfield-hunter-350",
+    "brand": "Royal Enfield",
+    "category": "Street Bike",
+    "cc": 349,
+    "price": "Tk. 325,000",
+    "description": "The Royal Enfield Hunter 350 brings a fresh, urban attitude to the iconic 350cc lineup. With its lightweight chassis, nimble handling, and modern-retro styling, it's designed for agile city riding. The air-cooled single-cylinder engine delivers smooth torque perfect for stop-and-go traffic, while the minimalist design and multiple color options appeal to younger riders seeking a stylish commuter with Royal Enfield's signature character.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "20.2 bhp @ 6100 rpm",
+    "max_torque": "27 Nm @ 4000 rpm",
+    "transmission": "5-speed constant mesh",
+    "braking_system": "Front 300mm disc, Rear 270mm disc (with dual-channel ABS)",
+    "suspension": "Front 41mm telescopic fork, Rear gas-charged shock absorbers",
+    "tire_size": "Front 100/80-17, Rear 140/70-17",
+    "dimensions": "2055mm x 795mm x 1055mm (LxWxH)",
+    "seat_height": "790 mm",
+    "ground_clearance": "150 mm",
+    "fuel_capacity": "13 liters",
+    "weight": "181 kg",
+    "features": [
+      "LED headlight with DRL",
+      "Digital-analog instrument cluster",
+      "Dual-channel ABS",
+      "Lightweight tubular steel frame",
+      "Signature Royal Enfield thump"
+    ],
+    "pros": [
+      "Lightest RE 350 model for easy handling",
+      "Modern urban styling",
+      "Comfortable upright riding position",
+      "Excellent low-end torque",
+      "Affordable pricing"
+    ],
+    "cons": [
+      "Basic suspension setup",
+      "Vibrations at higher RPM",
+      "Small fuel tank",
+      "Limited wind protection",
+      "Basic instrument cluster"
+    ],
+    "faqs": [
+      {
+        "question": "Is the Hunter 350 suitable for beginners?",
+        "answer": "Yes, its lightweight and manageable power make it ideal for new riders."
+      },
+      {
+        "question": "What's the real-world mileage?",
+        "answer": "Expect 30-35 kmpl in city riding conditions."
+      },
+      {
+        "question": "Does it have USB charging?",
+        "answer": "Yes, it comes with a USB charging port."
+      },
+      {
+        "question": "How does it compare to Classic 350?",
+        "answer": "The Hunter is lighter, more agile and urban-focused while the Classic has more traditional styling and touring capability."
+      }
+    ]
+  },
+  {
+    "name": "Royal Enfield Bullet 350",
+    "slug": "royal-enfield-bullet-350",
+    "brand": "Royal Enfield",
+    "category": "Cruiser",
+    "cc": 349,
+    "price": "Tk. 340,000",
+    "description": "The Royal Enfield Bullet 350 is the motorcycle that started it all, maintaining its iconic status since 1932. The 2025 model retains the classic upright posture, teardrop fuel tank, and signature thump while incorporating modern reliability upgrades. With its air-cooled single-cylinder engine and relaxed ergonomics, it's perfect for riders who appreciate old-school motorcycling charm with contemporary engineering. The Bullet remains a cultural icon that delivers a timeless riding experience.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "20.2 bhp @ 6100 rpm",
+    "max_torque": "27 Nm @ 4000 rpm",
+    "transmission": "5-speed constant mesh",
+    "braking_system": "Front 300mm disc, Rear 270mm disc (with dual-channel ABS)",
+    "suspension": "Front telescopic forks, Rear twin shock absorbers",
+    "tire_size": "Front 90/90-19, Rear 110/80-18",
+    "dimensions": "2140mm x 800mm x 1090mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "13.5 liters",
+    "weight": "195 kg",
+    "features": [
+      "Classic upright riding posture",
+      "Traditional analog instrumentation",
+      "Dual-channel ABS",
+      "Signature exhaust note",
+      "Heritage color options"
+    ],
+    "pros": [
+      "Iconic timeless design",
+      "Reliable air-cooled engine",
+      "Comfortable for long rides",
+      "Strong aftermarket support",
+      "Cultural heritage value"
+    ],
+    "cons": [
+      "Heavier than modern counterparts",
+      "Vibrations at highway speeds",
+      "Basic suspension",
+      "Limited features",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {
+        "question": "Is the Bullet 350 good for long rides?",
+        "answer": "Yes, its comfortable ergonomics make it suitable for touring, though the small fuel tank limits range."
+      },
+      {
+        "question": "What's different in the 2025 model?",
+        "answer": "Updated with dual-channel ABS, improved gearbox, and better corrosion protection while maintaining classic looks."
+      },
+      {
+        "question": "How often does it need servicing?",
+        "answer": "First service at 500km, then every 5000km or 6 months."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the 800mm seat height and upright position accommodate taller riders well."
+      }
+    ]
+  },
+  {
+    "name": "Royal Enfield Classic 350",
+    "slug": "royal-enfield-classic-350",
+    "brand": "Royal Enfield",
+    "category": "Cruiser",
+    "cc": 349,
+    "price": "Tk. 360,000",
+    "description": "The Royal Enfield Classic 350 blends vintage styling with modern engineering in a package that's become synonymous with retro motorcycling. Featuring the same air-cooled 350cc engine as other RE models but with distinctive British-era styling cues like the casquette headlight and rich paint options. The 2025 model offers improved refinement while maintaining the characteristic thump and relaxed riding dynamics that have made it Royal Enfield's most popular model worldwide.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "20.2 bhp @ 6100 rpm",
+    "max_torque": "27 Nm @ 4000 rpm",
+    "transmission": "5-speed constant mesh",
+    "braking_system": "Front 300mm disc, Rear 270mm disc (with dual-channel ABS)",
+    "suspension": "Front 41mm telescopic fork, Rear twin shock absorbers",
+    "tire_size": "Front 100/90-19, Rear 120/80-18",
+    "dimensions": "2160mm x 785mm x 1110mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "13 liters",
+    "weight": "195 kg",
+    "features": [
+      "Signature casquette headlight",
+      "Classic analog instrumentation",
+      "Dual-channel ABS",
+      "Rich paint options with hand-painted pinstripes",
+      "Retro-style switchgear"
+    ],
+    "pros": [
+      "Timeless retro styling",
+      "Comfortable touring ergonomics",
+      "Excellent aftermarket customization",
+      "Smooth low-end torque",
+      "Strong brand heritage"
+    ],
+    "cons": [
+      "Heavy weight",
+      "Vibrations at high RPM",
+      "Basic suspension",
+      "Small fuel tank",
+      "Limited features"
+    ],
+    "faqs": [
+      {
+        "question": "What colors are available for 2025?",
+        "answer": "Options include Halcyon Black, Dark Stealth, Signals Marsh Grey, and Chrome variants."
+      },
+      {
+        "question": "How does it compare to Meteor 350?",
+        "answer": "The Classic has more traditional styling while the Meteor offers more modern features and better comfort."
+      },
+      {
+        "question": "Is it suitable for daily commuting?",
+        "answer": "Yes, though its weight makes it less agile in heavy traffic than lighter bikes."
+      },
+      {
+        "question": "What's the top speed?",
+        "answer": "About 110-115 km/h comfortably, with some vibration at higher speeds."
+      }
+    ]
+  },
+  {
+    "name": "Royal Enfield Meteor 350",
+    "slug": "royal-enfield-meteor-350",
+    "brand": "Royal Enfield",
+    "category": "Cruiser",
+    "cc": 349,
+    "price": "Tk. 375,000",
+    "description": "The Royal Enfield Meteor 350 represents the modern evolution of the 350cc lineup, combining classic cruiser styling with contemporary features. Its air-cooled engine is tuned for relaxed cruising, while features like the Tripper navigation pod, LED lighting, and adjustable suspension offer modern convenience. The comfortable riding position, spacious seat, and improved vibration control make it ideal for both city commuting and highway touring. With its distinctive styling and improved refinement, the Meteor bridges Royal Enfield's heritage with modern expectations.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "20.2 bhp @ 6100 rpm",
+    "max_torque": "27 Nm @ 4000 rpm",
+    "transmission": "5-speed constant mesh",
+    "braking_system": "Front 300mm disc, Rear 270mm disc (with dual-channel ABS)",
+    "suspension": "Front telescopic forks, Rear adjustable twin shock absorbers",
+    "tire_size": "Front 100/90-19, Rear 140/70-17",
+    "dimensions": "2160mm x 850mm x 1110mm (LxWxH)",
+    "seat_height": "765 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "15 liters",
+    "weight": "191 kg",
+    "features": [
+      "Tripper navigation system",
+      "Full LED lighting",
+      "Digital-analog instrument cluster",
+      "Adjustable rear suspension",
+      "USB charging port"
+    ],
+    "pros": [
+      "Most refined RE 350 engine",
+      "Excellent touring comfort",
+      "Modern features",
+      "Good fuel range",
+      "Smooth power delivery"
+    ],
+    "cons": [
+      "Heavy weight",
+      "Limited ground clearance",
+      "Premium pricing",
+      "Basic front suspension",
+      "Not as agile as lighter bikes"
+    ],
+    "faqs": [
+      {
+        "question": "What's special about the Tripper navigation?",
+        "answer": "It's a Bluetooth-connected pod that provides turn-by-turn navigation via your smartphone."
+      },
+      {
+        "question": "Is the Meteor good for two-up riding?",
+        "answer": "Yes, its comfortable seat and relaxed ergonomics work well for passenger comfort."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "First service at 500km, then every 5000km or 6 months."
+      },
+      {
+        "question": "How does it compare to Classic 350?",
+        "answer": "The Meteor offers more modern features, better refinement, and touring comfort compared to the more traditional Classic."
+      }
+    ]
+  },
+
+  {
+    "name": "Hero Glamour",
+    "slug": "hero-glamour",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 125,000",
+    "description": "The Hero Glamour is a stylish and fuel-efficient 125cc commuter motorcycle designed for daily urban riding. With its refined engine, comfortable ergonomics, and attractive styling, it offers a perfect balance of performance and economy. The Glamour features a sleek design with modern graphics, comfortable seating, and reliable performance that makes it ideal for Bangladeshi roads and traffic conditions.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "10.72 PS @ 7500 rpm",
+    "max_torque": "10.6 Nm @ 6000 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2045mm x 735mm x 1090mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "10 liters",
+    "weight": "122 kg",
+    "features": [
+      "Sporty graphics and styling",
+      "Comfortable long seat",
+      "Maintenance-free battery",
+      "Aerodynamic body design",
+      "Hero's patented i3S technology (idle start-stop system)"
+    ],
+    "pros": [
+      "Excellent fuel efficiency",
+      "Lightweight and easy to handle",
+      "Affordable maintenance",
+      "Comfortable for city riding",
+      "Reliable Hero engine"
+    ],
+    "cons": [
+      "Basic instrument cluster",
+      "Drum brakes lack stopping power",
+      "No ABS",
+      "Limited features",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Hero Glamour?",
+        "answer": "The Hero Glamour delivers around 50-55 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have electric start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Available in multiple colors including Sports Red, Heavy Grey, and Black with various graphic options."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 805mm seat height accommodates most riders comfortably, though very tall riders may find it slightly compact."
+      }
+    ]
+  },
+  {
+    "name": "Hero Glamour BS4",
+    "slug": "hero-glamour-bs4",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 136,500",
+    "description": "The Hero Glamour BS4 is the updated version of the popular Glamour, now compliant with stricter BS4 emission norms. It features the same reliable 125cc engine but with improved fuel injection for better performance and lower emissions. The BS4 version maintains all the style and comfort of the original Glamour while offering cleaner operation and slightly better fuel efficiency, making it an environmentally friendlier choice for daily commuting.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, BS4 compliant",
+    "max_power": "10.72 PS @ 7500 rpm",
+    "max_torque": "10.6 Nm @ 6000 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2045mm x 735mm x 1090mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "10 liters",
+    "weight": "123 kg",
+    "features": [
+      "BS4 compliant fuel injection system",
+      "Sporty graphics and styling",
+      "Comfortable long seat",
+      "Maintenance-free battery",
+      "Improved emission control"
+    ],
+    "pros": [
+      "Better emission control",
+      "Slightly improved fuel efficiency",
+      "Smoother throttle response",
+      "Reliable Hero build quality",
+      "Good resale value"
+    ],
+    "cons": [
+      "Minimal performance difference from BS3",
+      "Same basic features",
+      "Drum brakes on both wheels",
+      "No ABS",
+      "Small price increase over BS3"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between BS3 and BS4 versions?",
+        "answer": "The BS4 version has improved fuel injection for cleaner emissions but similar performance."
+      },
+      {
+        "question": "Is maintenance more expensive for BS4?",
+        "answer": "Slightly, due to more complex fuel system, but still very affordable."
+      },
+      {
+        "question": "Does it have better mileage than BS3?",
+        "answer": "Marginally better, about 2-3 kmpl improvement under similar conditions."
+      },
+      {
+        "question": "Are spare parts easily available?",
+        "answer": "Yes, Hero has excellent spare parts availability across Bangladesh."
+      }
+    ]
+  },
+  {
+    "name": "Hero Glamour BS4 i3S",
+    "slug": "hero-glamour-bs4-i3s",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 141,000",
+    "description": "The Hero Glamour BS4 i3S combines the BS4 emission compliance with Hero's innovative i3S (idle start-stop) technology for maximum fuel efficiency. This system automatically switches off the engine when idling at traffic signals and restarts instantly when needed, significantly reducing fuel consumption in city riding conditions. Along with the fuel injection benefits of BS4, the i3S version offers the most economical operation in the Glamour lineup while maintaining all its style and comfort features.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, BS4 compliant with i3S",
+    "max_power": "10.72 PS @ 7500 rpm",
+    "max_torque": "10.6 Nm @ 6000 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2045mm x 735mm x 1090mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "10 liters",
+    "weight": "124 kg",
+    "features": [
+      "i3S idle start-stop system",
+      "BS4 compliant fuel injection",
+      "Enhanced fuel efficiency",
+      "Sporty graphics package",
+      "Maintenance-free battery"
+    ],
+    "pros": [
+      "Best-in-class fuel efficiency",
+      "Reduced emissions",
+      "Automatic start-stop convenience",
+      "Lower running costs",
+      "Reliable Hero engineering"
+    ],
+    "cons": [
+      "Slight premium over standard BS4",
+      "Small learning curve for i3S operation",
+      "Basic braking system",
+      "No ABS",
+      "Limited features"
+    ],
+    "faqs": [
+      {
+        "question": "How much fuel does i3S save?",
+        "answer": "Can save up to 5-8% fuel in heavy traffic conditions with frequent stops."
+      },
+      {
+        "question": "Can I turn off the i3S system?",
+        "answer": "Yes, there's a switch to disable it when not needed."
+      },
+      {
+        "question": "Does i3S affect battery life?",
+        "answer": "No, it uses a maintenance-free battery designed for frequent starts."
+      },
+      {
+        "question": "What's the real-world mileage?",
+        "answer": "Expect 55-60 kmpl in city riding when using i3S effectively."
+      }
+    ]
+  },
+  {
+    "name": "Hero HF Deluxe - All Black BS4",
+    "slug": "hero-hf-deluxe-all-black-bs4",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 106,500",
+    "description": "The Hero HF Deluxe All Black BS4 is an ultra-affordable 100cc commuter bike with a sleek all-black theme and BS4 emission compliance. Designed for maximum fuel efficiency and low maintenance, it's perfect for budget-conscious riders who need reliable daily transportation. The All Black edition adds stylish blacked-out elements to the practical HF Deluxe platform, offering a more premium look at an entry-level price point. With its lightweight design and proven Hero reliability, it's an excellent choice for city commuting.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, BS4 compliant",
+    "max_power": "8.02 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.2 liters",
+    "weight": "112 kg",
+    "features": [
+      "All-black theme with special graphics",
+      "BS4 compliant engine",
+      "Maintenance-free battery",
+      "Comfortable long seat",
+      "Hero's reliable 100cc engine"
+    ],
+    "pros": [
+      "Excellent fuel efficiency",
+      "Very affordable pricing",
+      "Low maintenance costs",
+      "Lightweight and easy to handle",
+      "Stylish all-black look"
+    ],
+    "cons": [
+      "Basic 100cc performance",
+      "No electric start option",
+      "Drum brakes",
+      "Limited features",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of HF Deluxe?",
+        "answer": "The BS4 version delivers around 60-65 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "This variant comes with kick start only (see HF Deluxe Self for self-start version)."
+      },
+      {
+        "question": "What's special about All Black edition?",
+        "answer": "It features blacked-out components including engine, exhaust, wheels and special graphics for a premium look."
+      },
+      {
+        "question": "Is it suitable for hilly areas?",
+        "answer": "The 100cc engine may struggle with steep hills, especially with a pillion."
+      }
+    ]
+  },
+  {
+    "name": "Hero HF Deluxe Self",
+    "slug": "hero-hf-deluxe-self",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 104,500",
+    "description": "The Hero HF Deluxe Self is the self-start version of Hero's most affordable commuter motorcycle, offering convenient electric start at an entry-level price point. Powered by a reliable 100cc engine, it delivers exceptional fuel efficiency perfect for daily commuting. While maintaining all the simplicity and economy of the standard HF Deluxe, the Self variant adds the convenience of push-button starting, making it ideal for stop-and-go city traffic. Its lightweight design and comfortable ergonomics make it accessible to all types of riders.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "8.02 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.2 liters",
+    "weight": "114 kg",
+    "features": [
+      "Electric start with kick start backup",
+      "Maintenance-free battery",
+      "Comfortable long seat",
+      "Simple analog instrument cluster",
+      "Hero's proven 100cc engine"
+    ],
+    "pros": [
+      "Most affordable self-start bike",
+      "Excellent fuel efficiency",
+      "Lightweight and easy to ride",
+      "Low maintenance costs",
+      "Reliable Hero engineering"
+    ],
+    "cons": [
+      "Basic 100cc performance",
+      "No BS4 compliance in this variant",
+      "Drum brakes",
+      "Very basic features",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between HF Deluxe and HF Deluxe Self?",
+        "answer": "The Self variant adds electric start while the standard version is kick start only."
+      },
+      {
+        "question": "Does it have better mileage than 125cc bikes?",
+        "answer": "Yes, the 100cc engine typically gets 5-10 kmpl better mileage than 125cc counterparts."
+      },
+      {
+        "question": "Is it suitable for highway riding?",
+        "answer": "It can maintain 60-70 km/h but isn't ideal for extended highway use."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "First service at 500km, then every 2500km or 3 months."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk",
+    "slug": "hero-hunk",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 158,490",
+    "description": "The Hero Hunk is a muscular street bike with aggressive styling and a reliable 150cc engine. Designed for young riders who want sporty looks with everyday practicality, it features a bold fuel tank design, split grab rails, and an athletic stance. The air-cooled engine delivers smooth power perfect for city commuting while offering enough performance for occasional highway rides. With its comfortable ergonomics and Hero's renowned reliability, the Hunk strikes a great balance between style and functionality.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "13.6 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 5000 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 765mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "143 kg",
+    "features": [
+      "Aggressive street bike styling",
+      "Semi-digital instrument cluster",
+      "Aerodynamic body design",
+      "Comfortable split seat",
+      "Hero's reliable 150cc engine"
+    ],
+    "pros": [
+      "Muscular street bike looks",
+      "Good low and mid-range torque",
+      "Comfortable riding position",
+      "Hero's proven reliability",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic instrument cluster",
+      "No ABS",
+      "Vibrations at high RPM",
+      "Limited features",
+      "Heavier than some competitors"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Hero Hunk?",
+        "answer": "Expect around 45-50 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 805mm seat height accommodates most riders up to 6 feet comfortably."
+      },
+      {
+        "question": "How does it compare to CB Hornet?",
+        "answer": "The Hunk offers similar performance with more muscular styling at a more affordable price point."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk 150R",
+    "slug": "hero-hunk-150r",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 173,500",
+    "description": "The Hero Hunk 150R is the sportier evolution of the Hunk lineup, featuring a more aggressive design and improved performance. With its sharp bodywork, LED DRLs, and muscular fuel tank design, it stands out in the 150cc segment. The refined 150cc engine delivers better power delivery while maintaining excellent fuel efficiency. Additional features like the digital instrument cluster and improved suspension make it a compelling choice for riders wanting sporty aesthetics with everyday usability.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "14.2 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "145 kg",
+    "features": [
+      "LED DRLs",
+      "Digital instrument cluster",
+      "Sporty split seat",
+      "Muscular fuel tank design",
+      "Engine kill switch"
+    ],
+    "pros": [
+      "More powerful than standard Hunk",
+      "Sportier styling",
+      "Better instrument cluster",
+      "Improved suspension",
+      "Good value for money"
+    ],
+    "cons": [
+      "Still no ABS",
+      "Vibrations at high speeds",
+      "Basic rear brake",
+      "Limited color options",
+      "Heavier than some rivals"
+    ],
+    "faqs": [
+      {
+        "question": "What's new in the 150R compared to standard Hunk?",
+        "answer": "The 150R gets LED DRLs, digital console, more power, and sportier styling."
+      },
+      {
+        "question": "Does it have better mileage than standard Hunk?",
+        "answer": "Slightly lower at 42-47 kmpl due to increased power output."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Available in Sports Red, Heavy Grey, and Black color options."
+      },
+      {
+        "question": "Is the seat comfortable for long rides?",
+        "answer": "The split seat design offers decent comfort for medium-distance rides."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk 150R ABS",
+    "slug": "hero-hunk-150r-abs",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 184,500",
+    "description": "The Hero Hunk 150R ABS adds crucial safety features to the sporty 150R package, making it one of the most secure options in Hero's lineup. The single-channel ABS on the front wheel prevents wheel lock during hard braking, significantly improving safety in emergency situations. Retaining all the sporty features of the 150R including the LED DRLs and digital console, the ABS variant offers peace of mind for riders who frequently encounter wet roads or unpredictable traffic conditions.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "14.2 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc (ABS), Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "146 kg",
+    "features": [
+      "Single-channel ABS",
+      "LED DRLs",
+      "Digital instrument cluster",
+      "Sporty graphics",
+      "Engine kill switch"
+    ],
+    "pros": [
+      "Added safety of ABS",
+      "Sporty street bike looks",
+      "Good power-to-weight ratio",
+      "Digital instrument cluster",
+      "Hero's reliable engineering"
+    ],
+    "cons": [
+      "Only front ABS",
+      "Premium pricing",
+      "Basic rear brake",
+      "Vibrations at high RPM",
+      "Limited color choices"
+    ],
+    "faqs": [
+      {
+        "question": "Is the ABS switchable?",
+        "answer": "No, the ABS is always active on the front wheel."
+      },
+      {
+        "question": "What's the price difference between ABS and non-ABS?",
+        "answer": "The ABS version costs about Tk. 11,000 more than the standard 150R."
+      },
+      {
+        "question": "Does ABS affect mileage?",
+        "answer": "No, the ABS system doesn't impact fuel efficiency."
+      },
+      {
+        "question": "Is it worth paying extra for ABS?",
+        "answer": "Yes, the added safety is worth the premium, especially in Bangladesh's traffic conditions."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk DD",
+    "slug": "hero-hunk-dd",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 187,500",
+    "description": "The Hero Hunk DD (Dual Disc) takes the Hunk formula to a premium level with dual disc brakes and enhanced styling elements. The addition of a rear disc brake significantly improves braking performance over the standard models. With its bold graphics, blacked-out components, and sporty alloy wheels, the DD variant stands out as the most premium offering in the Hunk lineup. It retains the comfortable ergonomics and reliable 150cc engine while offering better control and stopping power.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "14.2 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 220mm disc",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "147 kg",
+    "features": [
+      "Dual disc brakes",
+      "Sporty alloy wheels",
+      "Premium graphics package",
+      "Blacked-out components",
+      "Digital instrument cluster"
+    ],
+    "pros": [
+      "Superior braking performance",
+      "Premium styling elements",
+      "Good power delivery",
+      "Comfortable ergonomics",
+      "Hero's reliable build quality"
+    ],
+    "cons": [
+      "Still no ABS",
+      "Premium pricing",
+      "Heavier than base models",
+      "Vibrations at high speeds",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "What does DD stand for?",
+        "answer": "DD stands for Dual Disc, indicating it has disc brakes on both wheels."
+      },
+      {
+        "question": "How does braking compare to ABS version?",
+        "answer": "The DD has better braking than non-ABS models but lacks the anti-lock safety feature."
+      },
+      {
+        "question": "Does it have alloy wheels?",
+        "answer": "Yes, the DD variant comes with sporty alloy wheels."
+      },
+      {
+        "question": "Is it worth the premium over 150R?",
+        "answer": "If braking performance is priority, yes. Otherwise the 150R ABS may be better value."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk Matt DD",
+    "slug": "hero-hunk-matt-dd",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 183,000",
+    "description": "The Hero Hunk Matt DD combines the dual disc brake setup of the DD variant with a stylish matte finish for a more premium, stealthy look. The matte paint scheme gives it a distinctive appearance that stands out from regular glossy finishes. Along with the superior braking performance of dual discs, it features blacked-out components and sporty graphics that appeal to riders wanting a more aggressive street presence. The comfortable ergonomics and reliable 150cc engine make it practical for daily use.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "14.2 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 220mm disc",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "147 kg",
+    "features": [
+      "Matte finish paint",
+      "Dual disc brakes",
+      "Blacked-out components",
+      "Sporty graphics",
+      "Digital instrument cluster"
+    ],
+    "pros": [
+      "Unique matte finish styling",
+      "Excellent braking performance",
+      "Distinctive street presence",
+      "Comfortable riding position",
+      "Reliable Hero engineering"
+    ],
+    "cons": [
+      "Matte paint requires special care",
+      "No ABS",
+      "Premium pricing",
+      "Limited color options",
+      "Same engine as other Hunk variants"
+    ],
+    "faqs": [
+      {
+        "question": "How to maintain matte finish?",
+        "answer": "Requires special matte finish cleaners; avoid regular wax or polish."
+      },
+      {
+        "question": "Does it have alloy wheels?",
+        "answer": "Yes, it comes with blacked-out alloy wheels."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically available in Matte Black and Matte Green color schemes."
+      },
+      {
+        "question": "Is the matte version more expensive?",
+        "answer": "Slightly less than regular DD due to different features mix."
+      }
+    ]
+  },
+  {
+    "name": "Hero Hunk Matt SD",
+    "slug": "hero-hunk-matt-sd",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 149.2,
+    "price": "Tk. 176,000",
+    "description": "The Hero Hunk Matt SD (Single Disc) offers the same stylish matte finish aesthetics as the Matt DD but with a more affordable single disc brake setup. Perfect for riders who want the premium matte look without needing dual disc brakes. It features the same muscular Hunk styling with matte paint, blacked-out components, and sporty graphics. The reliable 150cc engine delivers good performance for both city commuting and occasional highway rides, all wrapped in a distinctive matte package.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "14.2 PS @ 8000 rpm",
+    "max_torque": "12.8 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 110/90-18",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12.4 liters",
+    "weight": "145 kg",
+    "features": [
+      "Matte finish paint",
+      "Front disc brake",
+      "Blacked-out components",
+      "Sporty graphics",
+      "Digital instrument cluster"
+    ],
+    "pros": [
+      "Affordable matte finish option",
+      "Good braking performance",
+      "Distinctive street presence",
+      "Comfortable ergonomics",
+      "Value for money"
+    ],
+    "cons": [
+      "No rear disc brake",
+      "No ABS",
+      "Matte paint requires special care",
+      "Same engine as other variants",
+      "Limited color choices"
+    ],
+    "faqs": [
+      {
+        "question": "What does SD stand for?",
+        "answer": "SD stands for Single Disc, meaning it has front disc but rear drum brake."
+      },
+      {
+        "question": "How does it compare to Matt DD?",
+        "answer": "The Matt SD has similar styling but with single disc brake and lower price."
+      },
+      {
+        "question": "Is the matte finish durable?",
+        "answer": "Yes, but requires proper care using matte-specific cleaning products."
+      },
+      {
+        "question": "Does it have alloy wheels?",
+        "answer": "Yes, it comes with sporty alloy wheels in black finish."
+      }
+    ]
+  },
+  {
+    "name": "Hero Ignitor",
+    "slug": "hero-ignitor",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 128,500",
+    "description": "The Hero Ignitor is a stylish 125cc commuter motorcycle that blends sporty design with everyday practicality. Designed for young riders who want performance and efficiency, it features an aerodynamic body, digital instrument cluster, and Hero's reliable 125cc engine. With its comfortable ergonomics and lightweight chassis, the Ignitor offers an engaging ride experience perfect for city commuting while delivering excellent fuel economy.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "11.4 PS @ 8000 rpm",
+    "max_torque": "11 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-17, Rear 100/90-17",
+    "dimensions": "2045mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "790 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "126 kg",
+    "features": [
+      "Sporty aerodynamic design",
+      "Digital instrument cluster",
+      "Maintenance-free battery",
+      "Comfortable split seat",
+      "Hero's i3S technology (optional)"
+    ],
+    "pros": [
+      "Sporty 125cc commuter",
+      "Good power-to-weight ratio",
+      "Comfortable riding position",
+      "Excellent fuel efficiency",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic rear brake",
+      "No ABS",
+      "Limited features",
+      "Small fuel tank",
+      "Vibrations at high RPM"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Hero Ignitor?",
+        "answer": "Expect around 50-55 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 790mm seat height accommodates most riders comfortably."
+      },
+      {
+        "question": "How does it compare to Glamour?",
+        "answer": "The Ignitor has sportier styling and slightly better performance than the more commuter-focused Glamour."
+      }
+    ]
+  },
+  {
+    "name": "Hero Ignitor - FV XTEC Refresh",
+    "slug": "hero-ignitor-fv-xtec-refresh",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 156,000",
+    "description": "The Hero Ignitor FV XTEC Refresh is the premium variant of the Ignitor lineup, featuring advanced XTEC technology for improved performance and efficiency. With its refreshed styling, full LED lighting, and enhanced engine tuning, it offers a more premium riding experience. The XTEC technology includes optimized fuel injection and ignition timing for better power delivery and fuel economy. The sporty design with new graphics and color options makes it stand out in the 125cc segment.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with XTEC",
+    "max_power": "12.4 PS @ 8000 rpm",
+    "max_torque": "11.4 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-17, Rear 100/90-17",
+    "dimensions": "2045mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "790 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "128 kg",
+    "features": [
+      "XTEC engine technology",
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "Sporty graphics package",
+      "Premium seat upholstery"
+    ],
+    "pros": [
+      "Improved performance with XTEC",
+      "Modern LED lighting",
+      "Sportier aesthetics",
+      "Better fuel efficiency",
+      "Comfortable ergonomics"
+    ],
+    "cons": [
+      "Premium pricing",
+      "No ABS",
+      "Basic rear brake",
+      "Small fuel tank",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "What is XTEC technology?",
+        "answer": "XTEC optimizes fuel injection and ignition timing for better performance and efficiency."
+      },
+      {
+        "question": "Does it have better mileage than standard Ignitor?",
+        "answer": "Yes, about 2-3 kmpl improvement due to XTEC optimization."
+      },
+      {
+        "question": "What's the difference between FV XTEC and standard?",
+        "answer": "The FV XTEC gets LED lighting, XTEC engine, and premium styling elements."
+      },
+      {
+        "question": "Is it worth the price premium?",
+        "answer": "Yes, if you want better performance and premium features in a 125cc package."
+      }
+    ]
+  },
+  {
+    "name": "Hero Ignitor Techno",
+    "slug": "hero-ignitor-techno",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 124.7,
+    "price": "Tk. 140,000",
+    "description": "The Hero Ignitor Techno is a feature-rich variant of the Ignitor that adds modern technology to the sporty 125cc platform. It comes with a fully digital instrument console, LED lighting elements, and premium styling touches. The Techno variant maintains the Ignitor's agile handling and comfortable ergonomics while offering more contemporary features that appeal to tech-savvy riders. With its balance of performance, efficiency, and modern amenities, it's an excellent choice for urban commuting.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "11.4 PS @ 8000 rpm",
+    "max_torque": "11 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-17, Rear 100/90-17",
+    "dimensions": "2045mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "790 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "127 kg",
+    "features": [
+      "Fully digital instrument cluster",
+      "LED lighting elements",
+      "Techno graphics package",
+      "Premium seat design",
+      "Hero's reliable 125cc engine"
+    ],
+    "pros": [
+      "Modern digital instruments",
+      "LED lighting elements",
+      "Good power-to-weight ratio",
+      "Comfortable riding position",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "No ABS",
+      "Basic rear brake",
+      "Small fuel tank",
+      "Limited color options",
+      "Same engine as standard Ignitor"
+    ],
+    "faqs": [
+      {
+        "question": "What's special about the Techno variant?",
+        "answer": "It adds digital instruments, LED lights, and premium styling over the standard Ignitor."
+      },
+      {
+        "question": "Does it have better performance?",
+        "answer": "Same engine performance but with more modern features."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically available in Sports Red, Black, and Blue color schemes."
+      },
+      {
+        "question": "Is it worth upgrading from standard Ignitor?",
+        "answer": "Yes, if you value digital instruments and LED lighting."
+      }
+    ]
+  },
+  {
+    "name": "Hero Karizma XMR 210",
+    "slug": "hero-karizma-xmr-210",
+    "brand": "Hero",
+    "category": "Sports Bike",
+    "cc": 210,
+    "price": "Tk. 499,990",
+    "description": "The Hero Karizma XMR 210 marks the return of the iconic Karizma name with modern performance and styling. This full-faired sports bike features a liquid-cooled 210cc engine delivering strong performance for both city riding and highway cruising. With its aggressive fairing design, digital instrument cluster, and premium components, the XMR 210 offers a true sports bike experience. The comfortable yet sporty ergonomics make it suitable for both daily commuting and weekend rides.",
+    "engine_type": "Single cylinder, 4-stroke, liquid-cooled",
+    "max_power": "25.5 PS @ 9250 rpm",
+    "max_torque": "20.4 Nm @ 7250 rpm",
+    "transmission": "6-speed manual",
+    "braking_system": "Front 300mm disc, Rear 230mm disc (with dual-channel ABS)",
+    "suspension": "Front inverted fork, Rear monoshock",
+    "tire_size": "Front 100/80-17, Rear 140/60-17",
+    "dimensions": "2075mm x 785mm x 1165mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "12.5 liters",
+    "weight": "160 kg",
+    "features": [
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "Dual-channel ABS",
+      "Aerodynamic fairing",
+      "Split seat design"
+    ],
+    "pros": [
+      "Powerful 210cc liquid-cooled engine",
+      "Premium suspension components",
+      "Dual-channel ABS for safety",
+      "Aggressive sports bike styling",
+      "Comfortable ergonomics"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Small fuel tank",
+      "Limited service network",
+      "Heavier than some rivals",
+      "Vibrations at high RPM"
+    ],
+    "faqs": [
+      {
+        "question": "Is this a true successor to the old Karizma?",
+        "answer": "Yes, with modern engineering while maintaining the Karizma's sporty character."
+      },
+      {
+        "question": "What's the top speed?",
+        "answer": "About 130-135 km/h under ideal conditions."
+      },
+      {
+        "question": "Is it suitable for beginners?",
+        "answer": "The manageable power makes it accessible, but the weight may be challenging for complete beginners."
+      },
+      {
+        "question": "How does it compare to KTM RC 200?",
+        "answer": "The XMR 210 offers more relaxed ergonomics but less outright performance than the track-focused RC 200."
+      }
+    ]
+  },
+  {
+    "name": "Hero Maestro Edge",
+    "slug": "hero-maestro-edge",
+    "brand": "Hero",
+    "category": "Scooter",
+    "cc": 110.9,
+    "price": "Tk. 157,500",
+    "description": "The Hero Maestro Edge is a stylish and practical 110cc scooter designed for urban commuting. With its masculine styling, comfortable seating, and practical features, it offers a great balance of form and function. The fuel-efficient 110cc engine delivers smooth performance perfect for city traffic, while the large under-seat storage and comfortable ride make it practical for daily use. The Edge variant adds sportier styling elements and premium touches over the standard Maestro.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "8.1 PS @ 7000 rpm",
+    "max_torque": "8.7 Nm @ 5500 rpm",
+    "transmission": "Automatic CVT",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear single shock absorber",
+    "tire_size": "Front 90/90-12, Rear 90/100-12",
+    "dimensions": "1825mm x 715mm x 1165mm (LxWxH)",
+    "seat_height": "780 mm",
+    "ground_clearance": "155 mm",
+    "fuel_capacity": "5.5 liters",
+    "weight": "112 kg",
+    "features": [
+      "Sporty edge design",
+      "External fuel filler",
+      "Mobile charging port",
+      "Comfortable long seat",
+      "Hero's i3S technology"
+    ],
+    "pros": [
+      "Excellent fuel efficiency",
+      "Comfortable ride quality",
+      "Practical storage space",
+      "Easy to ride in traffic",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic instrument cluster",
+      "Drum brakes",
+      "No ABS",
+      "Small fuel tank",
+      "Limited power for highways"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Maestro Edge?",
+        "answer": "Expect around 45-50 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have under-seat storage?",
+        "answer": "Yes, it offers 18 liters of under-seat storage."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 780mm seat height accommodates most riders comfortably."
+      },
+      {
+        "question": "How does it compare to Pleasure+?",
+        "answer": "The Maestro Edge has more masculine styling and slightly better features than the feminine-focused Pleasure+."
+      }
+    ]
+  },
+  {
+    "name": "Hero Maestro EDGE XTEC",
+    "slug": "hero-maestro-edge-xtec",
+    "brand": "Hero",
+    "category": "Scooter",
+    "cc": 110.9,
+    "price": "Tk. 175,000",
+    "description": "The Hero Maestro EDGE XTEC is the premium variant of the Maestro lineup, featuring advanced XTEC technology for improved performance and efficiency. With its full LED lighting, digital instrument cluster, and sporty design, it stands out in the 110cc scooter segment. The XTEC technology optimizes fuel injection for better throttle response and fuel economy. Additional features like the external fuel filler and mobile charging port add practicality to this stylish urban commuter.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with XTEC",
+    "max_power": "8.4 PS @ 7000 rpm",
+    "max_torque": "8.9 Nm @ 5500 rpm",
+    "transmission": "Automatic CVT",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear single shock absorber",
+    "tire_size": "Front 90/90-12, Rear 90/100-12",
+    "dimensions": "1825mm x 715mm x 1165mm (LxWxH)",
+    "seat_height": "780 mm",
+    "ground_clearance": "155 mm",
+    "fuel_capacity": "5.5 liters",
+    "weight": "114 kg",
+    "features": [
+      "XTEC engine technology",
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "External fuel filler",
+      "Mobile charging port"
+    ],
+    "pros": [
+      "Improved performance with XTEC",
+      "Modern LED lighting",
+      "Digital instruments",
+      "Better fuel efficiency",
+      "Comfortable ride quality"
+    ],
+    "cons": [
+      "Premium pricing",
+      "No ABS",
+      "Drum brakes",
+      "Small fuel tank",
+      "Same engine capacity as standard"
+    ],
+    "faqs": [
+      {
+        "question": "What's the benefit of XTEC in a scooter?",
+        "answer": "Better throttle response and about 5% improvement in fuel efficiency."
+      },
+      {
+        "question": "Does it have more storage than standard?",
+        "answer": "Same 18 liters under-seat storage as other Maestro variants."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically offered in Sporty Red, Black, and Blue color schemes."
+      },
+      {
+        "question": "Is it worth the premium over standard Edge?",
+        "answer": "Yes, if you value the LED lighting, digital instruments, and improved performance."
+      }
+    ]
+  },
+  {
+    "name": "Hero Passion X Pro Disc",
+    "slug": "hero-passion-x-pro-disc",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 109.15,
+    "price": "Tk. 114,750",
+    "description": "The Hero Passion X Pro Disc is a premium 110cc commuter bike featuring a front disc brake for improved stopping power. With its X-shaped LED headlight, digital-analog instrument cluster, and muscular fuel tank design, it offers style and substance. The refined 110cc engine delivers excellent fuel efficiency while providing adequate power for city commuting. The disc brake variant adds an important safety element for Bangladesh's busy roads.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "9.1 PS @ 7500 rpm",
+    "max_torque": "9.89 Nm @ 5500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "115 kg",
+    "features": [
+      "X-shaped LED headlight",
+      "Digital-analog instrument cluster",
+      "Aerodynamic body design",
+      "Comfortable long seat",
+      "Front disc brake"
+    ],
+    "pros": [
+      "Better braking with front disc",
+      "Modern LED lighting",
+      "Excellent fuel efficiency",
+      "Lightweight and easy to handle",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic rear brake",
+      "No ABS",
+      "Limited power",
+      "Small fuel tank",
+      "Vibrations at high RPM"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Passion X Pro Disc?",
+        "answer": "Expect around 60-65 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "Is the disc brake effective?",
+        "answer": "Yes, provides significantly better stopping power than drum brakes."
+      },
+      {
+        "question": "How does it compare to Splendor?",
+        "answer": "The Passion X Pro has more modern styling and features than the more basic Splendor."
+      }
+    ]
+  },
+  {
+    "name": "Hero Passion X Pro Drum",
+    "slug": "hero-passion-x-pro-drum",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 109.15,
+    "price": "Tk. 107,250",
+    "description": "The Hero Passion X Pro Drum is the more affordable variant of the Passion X Pro lineup, featuring drum brakes on both wheels. It retains the same stylish design with X-shaped LED headlight and muscular fuel tank but with cost-saving drum brakes. The reliable 110cc engine delivers class-leading fuel efficiency perfect for daily commuting. With its comfortable ergonomics and lightweight design, it's an excellent choice for budget-conscious riders who want modern styling.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "9.1 PS @ 7500 rpm",
+    "max_torque": "9.89 Nm @ 5500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "114 kg",
+    "features": [
+      "X-shaped LED headlight",
+      "Digital-analog instrument cluster",
+      "Aerodynamic body design",
+      "Comfortable long seat",
+      "Hero's reliable 110cc engine"
+    ],
+    "pros": [
+      "More affordable than disc version",
+      "Same modern styling as disc variant",
+      "Excellent fuel efficiency",
+      "Lightweight and easy to ride",
+      "Low maintenance costs"
+    ],
+    "cons": [
+      "Drum brakes lack stopping power",
+      "No ABS",
+      "Limited power",
+      "Small fuel tank",
+      "Basic rear suspension"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between Disc and Drum versions?",
+        "answer": "Only the braking system differs - Disc has front disc brake while Drum has drums on both wheels."
+      },
+      {
+        "question": "Is the mileage same as disc version?",
+        "answer": "Yes, both variants have identical engines and deliver similar fuel efficiency."
+      },
+      {
+        "question": "Can I upgrade to disc brakes later?",
+        "answer": "Possible but not recommended as it requires changing several components."
+      },
+      {
+        "question": "Is it worth saving money for drum version?",
+        "answer": "Only if you primarily ride in light traffic conditions at moderate speeds."
+      }
+    ]
+  },
+  {
+    "name": "Hero Passion X Pro X tec",
+    "slug": "hero-passion-x-pro-x-tec",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 109.15,
+    "price": "Tk. 141,000",
+    "description": "The Hero Passion X Pro X tec is the premium variant of the Passion lineup, featuring Hero's advanced XTEC technology for improved performance and efficiency. With its full LED lighting, digital instrument cluster, and sporty graphics, it offers a more premium riding experience. The XTEC technology optimizes fuel injection for better throttle response and fuel economy. Additional features like the external fuel filler and mobile charging port add practicality to this stylish commuter bike.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with XTEC",
+    "max_power": "9.4 PS @ 7500 rpm",
+    "max_torque": "10 Nm @ 5500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 240mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "116 kg",
+    "features": [
+      "XTEC engine technology",
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "Sporty graphics package",
+      "Front disc brake"
+    ],
+    "pros": [
+      "Improved performance with XTEC",
+      "Modern LED lighting",
+      "Digital instruments",
+      "Better braking with front disc",
+      "Excellent fuel efficiency"
+    ],
+    "cons": [
+      "Premium pricing",
+      "No ABS",
+      "Basic rear brake",
+      "Small fuel tank",
+      "Same engine capacity as standard"
+    ],
+    "faqs": [
+      {
+        "question": "What is XTEC technology?",
+        "answer": "XTEC optimizes fuel injection and ignition timing for better performance and efficiency."
+      },
+      {
+        "question": "Does it have better mileage than standard?",
+        "answer": "Yes, about 2-3 kmpl improvement due to XTEC optimization."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically available in Sports Red, Black, and Blue color schemes."
+      },
+      {
+        "question": "Is it worth the premium over standard X Pro?",
+        "answer": "Yes, if you value the LED lighting, digital instruments, and improved performance."
+      }
+    ]
+  },
+  {
+    "name": "Hero Passion Xpro i3S",
+    "slug": "hero-passion-xpro-i3s",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 109.15,
+    "price": "Tk. 128,500",
+    "description": "The Hero Passion Xpro i3S features Hero's innovative idle start-stop system that automatically switches off the engine when idling and restarts when needed. This technology significantly improves fuel efficiency in city riding conditions with frequent stops. The bike retains all the style and features of the Passion Xpro lineup while offering even better economy. With its comfortable ergonomics and reliable 110cc engine, it's perfect for cost-conscious commuters.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with i3S",
+    "max_power": "9.1 PS @ 7500 rpm",
+    "max_torque": "9.89 Nm @ 5500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "115 kg",
+    "features": [
+      "i3S idle start-stop system",
+      "X-shaped LED headlight",
+      "Digital-analog instrument cluster",
+      "Comfortable long seat",
+      "Hero's reliable 110cc engine"
+    ],
+    "pros": [
+      "Best-in-class fuel efficiency",
+      "Automatic start-stop convenience",
+      "Lower running costs",
+      "Lightweight and easy to ride",
+      "Reliable Hero engineering"
+    ],
+    "cons": [
+      "Drum brakes on both wheels",
+      "No ABS",
+      "Small learning curve for i3S",
+      "Limited power",
+      "Same design as standard Xpro"
+    ],
+    "faqs": [
+      {
+        "question": "How much fuel does i3S save?",
+        "answer": "Can save up to 5-8% fuel in heavy traffic conditions with frequent stops."
+      },
+      {
+        "question": "Can I turn off the i3S system?",
+        "answer": "Yes, there's a switch to disable it when not needed."
+      },
+      {
+        "question": "Does i3S affect battery life?",
+        "answer": "No, it uses a maintenance-free battery designed for frequent starts."
+      },
+      {
+        "question": "What's the real-world mileage?",
+        "answer": "Expect 65-70 kmpl in city riding when using i3S effectively."
+      }
+    ]
+  },
+  {
+    "name": "Hero Pleasure",
+    "slug": "hero-pleasure",
+    "brand": "Hero",
+    "category": "Scooter",
+    "cc": 102,
+    "price": "Tk. 152,000",
+    "description": "The Hero Pleasure is a stylish and lightweight 102cc scooter designed specifically for women riders. With its easy-to-handle design, comfortable ergonomics, and vibrant color options, it's perfect for urban commuting. The fuel-efficient engine delivers smooth performance perfect for city traffic, while the lightweight chassis makes it easy to maneuver. Features like the external fuel filler and mobile charging port add practicality to this fashionable scooter.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "7.9 PS @ 7500 rpm",
+    "max_torque": "8.1 Nm @ 5000 rpm",
+    "transmission": "Automatic CVT",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear single shock absorber",
+    "tire_size": "Front 90/90-12, Rear 90/100-12",
+    "dimensions": "1805mm x 695mm x 1150mm (LxWxH)",
+    "seat_height": "765 mm",
+    "ground_clearance": "150 mm",
+    "fuel_capacity": "5 liters",
+    "weight": "105 kg",
+    "features": [
+      "Lightweight and easy to handle",
+      "Feminine styling with vibrant colors",
+      "External fuel filler",
+      "Mobile charging port",
+      "Comfortable long seat"
+    ],
+    "pros": [
+      "Excellent maneuverability",
+      "Comfortable for female riders",
+      "Good fuel efficiency",
+      "Easy to ride in traffic",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic instrument cluster",
+      "Drum brakes",
+      "No ABS",
+      "Very small fuel tank",
+      "Limited power"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Pleasure?",
+        "answer": "Expect around 45-50 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have under-seat storage?",
+        "answer": "Yes, it offers 18 liters of under-seat storage."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 765mm seat height is designed for average-height women."
+      },
+      {
+        "question": "Can men ride this scooter?",
+        "answer": "Yes, though the styling and ergonomics are designed for women riders."
+      }
+    ]
+  },
+  {
+    "name": "Hero Splendor iSmart Plus",
+    "slug": "hero-splendor-ismart-plus",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 109.15,
+    "price": "Tk. 120,000",
+    "description": "The Hero Splendor iSmart Plus is the latest evolution of the iconic Splendor, the best-selling motorcycle in the world. With its refined 110cc engine and iSmart technology, it offers unmatched fuel efficiency and reliability. The simple, timeless design is complemented by modern touches like the analog-digital instrument cluster. Known for its bulletproof reliability and low running costs, the Splendor remains the first choice for commuters who prioritize economy and durability.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with iSmart",
+    "max_power": "8.91 PS @ 7500 rpm",
+    "max_torque": "9.89 Nm @ 5500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 80/100-18, Rear 80/100-18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "112 kg",
+    "features": [
+      "iSmart fuel efficiency technology",
+      "Analog-digital instrument cluster",
+      "Maintenance-free battery",
+      "Comfortable long seat",
+      "Hero's most reliable engine"
+    ],
+    "pros": [
+      "Legendary reliability",
+      "Best-in-class fuel efficiency",
+      "Lowest maintenance costs",
+      "Lightweight and easy to handle",
+      "Excellent resale value"
+    ],
+    "cons": [
+      "Very basic features",
+      "Drum brakes",
+      "No ABS",
+      "Limited power",
+      "Dated styling"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Splendor iSmart Plus?",
+        "answer": "Expect around 65-70 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "What's special about iSmart technology?",
+        "answer": "Optimizes fuel delivery for maximum efficiency without sacrificing performance."
+      },
+      {
+        "question": "Why is Splendor so popular?",
+        "answer": "Due to its unbeatable combination of reliability, efficiency and low ownership costs."
+      }
+    ]
+  },
+  {
+    "name": "Hero Splendor+ 25 Years Special Edition",
+    "slug": "hero-splendor-plus-25-years-special-edition",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 110,500",
+    "description": "The Hero Splendor+ 25 Years Special Edition celebrates the quarter-century legacy of India's most beloved motorcycle. This limited edition model features exclusive 25th anniversary badging, special graphics, and premium chrome accents while retaining the Splendor's legendary reliability. The fuel-efficient 97.2cc engine delivers class-leading mileage, making it perfect for cost-conscious commuters. With its comfortable ergonomics and timeless design, this special edition offers both nostalgia and practical transportation.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "8.02 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "112 kg",
+    "features": [
+      "25th anniversary badging",
+      "Special edition graphics",
+      "Premium chrome accents",
+      "Analog instrument cluster",
+      "Comfortable long seat"
+    ],
+    "pros": [
+      "Limited edition styling",
+      "Legendary Splendor reliability",
+      "Excellent fuel efficiency",
+      "Low maintenance costs",
+      "Strong resale value"
+    ],
+    "cons": [
+      "Very basic features",
+      "Drum brakes",
+      "No ABS",
+      "Limited power",
+      "No major mechanical upgrades"
+    ],
+    "faqs": [
+      {
+        "question": "What's special about this edition?",
+        "answer": "It features exclusive 25th anniversary badging, graphics and chrome accents."
+      },
+      {
+        "question": "Is the engine different from regular Splendor+?",
+        "answer": "No, same reliable 97.2cc engine but with special cosmetic enhancements."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically available in special edition Black/Red and Silver/Blue schemes."
+      },
+      {
+        "question": "Is it worth the premium over standard Splendor+?",
+        "answer": "Yes, for collectors and fans wanting the commemorative edition."
+      }
+    ]
+  },
+  {
+    "name": "Hero Splendor+ IBS i3S",
+    "slug": "hero-splendor-plus-ibs-i3s",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 116,000",
+    "description": "The Hero Splendor+ IBS i3S combines Hero's innovative Integrated Braking System (IBS) with the fuel-saving i3S start-stop technology. This advanced variant offers both safety and efficiency in one package. The IBS provides balanced braking by linking the front and rear brakes, while the i3S system automatically switches off the engine at idle to save fuel. Retaining all the Splendor's legendary reliability, this tech-enhanced version is perfect for safety-conscious commuters who want maximum economy.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with i3S",
+    "max_power": "8.02 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum (with IBS)",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "113 kg",
+    "features": [
+      "Integrated Braking System (IBS)",
+      "i3S idle start-stop system",
+      "Analog instrument cluster",
+      "Comfortable long seat",
+      "Hero's reliable 100cc engine"
+    ],
+    "pros": [
+      "Improved braking safety with IBS",
+      "Excellent fuel efficiency with i3S",
+      "Legendary Splendor reliability",
+      "Low maintenance costs",
+      "Good resale value"
+    ],
+    "cons": [
+      "Still drum brakes",
+      "No ABS",
+      "Limited power",
+      "Basic instrument cluster",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {
+        "question": "How does IBS work?",
+        "answer": "It links front and rear brakes for more balanced stopping power."
+      },
+      {
+        "question": "How much fuel does i3S save?",
+        "answer": "Can save 5-8% in city traffic with frequent stops."
+      },
+      {
+        "question": "Can I disable i3S?",
+        "answer": "Yes, there's a switch to turn it off when not needed."
+      },
+      {
+        "question": "Is IBS as good as ABS?",
+        "answer": "No, but it's an improvement over standard drum brakes."
+      }
+    ]
+  },
+  {
+    "name": "Hero Splendor+ Self",
+    "slug": "hero-splendor-plus-self",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 115,000",
+    "description": "The Hero Splendor+ Self adds convenient electric start to the iconic Splendor platform, making it even more user-friendly for daily commuting. The reliable 97.2cc engine continues to deliver legendary fuel efficiency and durability. With its comfortable ergonomics, simple maintenance, and timeless design, the Splendor+ Self remains the first choice for riders who value practicality and low ownership costs above all else. The electric start makes it particularly suitable for stop-and-go city traffic.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "8.02 PS @ 7500 rpm",
+    "max_torque": "8.05 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "112 kg",
+    "features": [
+      "Electric start with kick start backup",
+      "Analog instrument cluster",
+      "Maintenance-free battery",
+      "Comfortable long seat",
+      "Hero's most reliable engine"
+    ],
+    "pros": [
+      "Convenient electric start",
+      "Legendary reliability",
+      "Best-in-class fuel efficiency",
+      "Lowest maintenance costs",
+      "Excellent resale value"
+    ],
+    "cons": [
+      "Very basic features",
+      "Drum brakes",
+      "No ABS",
+      "Limited power",
+      "Dated styling"
+    ],
+    "faqs": [
+      {
+        "question": "What's the mileage of Splendor+ Self?",
+        "answer": "Expect around 65-70 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have better features than standard?",
+        "answer": "Only difference is the addition of electric start."
+      },
+      {
+        "question": "Is the battery reliable?",
+        "answer": "Yes, it uses a maintenance-free battery designed for frequent starts."
+      },
+      {
+        "question": "Why choose Splendor over more modern bikes?",
+        "answer": "For unmatched reliability, efficiency and low ownership costs."
+      }
+    ]
+  },
+  {
+    "name": "Hero Splendor+ XTEC",
+    "slug": "hero-splendor-plus-xtec",
+    "brand": "Hero",
+    "category": "Commuter",
+    "cc": 97.2,
+    "price": "Tk. 127,000",
+    "description": "The Hero Splendor+ XTEC brings modern technology to the iconic Splendor platform with Hero's advanced XTEC fuel efficiency system. This premium variant features optimized fuel injection and ignition timing for better performance and economy. While maintaining the Splendor's legendary reliability, the XTEC version adds contemporary touches like a semi-digital instrument cluster and refreshed styling. The comfortable ergonomics and lightweight design make it perfect for daily commuting with slightly more modern appeal.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled with XTEC",
+    "max_power": "8.24 PS @ 7500 rpm",
+    "max_torque": "8.15 Nm @ 4500 rpm",
+    "transmission": "4-speed manual",
+    "braking_system": "Front 130mm drum, Rear 110mm drum",
+    "suspension": "Front telescopic fork, Rear adjustable hydraulic shock absorbers",
+    "tire_size": "Front 2.75 x 18, Rear 3.00 x 18",
+    "dimensions": "2015mm x 735mm x 1095mm (LxWxH)",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "fuel_capacity": "9.8 liters",
+    "weight": "113 kg",
+    "features": [
+      "XTEC fuel efficiency technology",
+      "Semi-digital instrument cluster",
+      "Premium graphics package",
+      "Comfortable long seat",
+      "Hero's reliable 100cc engine"
+    ],
+    "pros": [
+      "Improved fuel efficiency",
+      "Slightly better performance",
+      "Modern semi-digital console",
+      "Legendary Splendor reliability",
+      "Low maintenance costs"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Still drum brakes",
+      "No ABS",
+      "Limited power",
+      "Minor styling updates"
+    ],
+    "faqs": [
+      {
+        "question": "What is XTEC technology?",
+        "answer": "Optimizes fuel injection and ignition timing for better efficiency."
+      },
+      {
+        "question": "Does it have better mileage than standard?",
+        "answer": "Yes, about 2-3 kmpl improvement under similar conditions."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically available in Black, Red and Blue with premium graphics."
+      },
+      {
+        "question": "Is it worth the premium over standard Splendor+?",
+        "answer": "Yes, for the improved efficiency and slightly modernized features."
+      }
+    ]
+  },
+  {
+    "name": "Hero Thriller 160R 4V",
+    "slug": "hero-thriller-160r-4v",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 163.2,
+    "price": "Tk. 254,990",
+    "description": "The Hero Thriller 160R 4V is a premium street bike featuring a high-performance 4-valve engine for exhilarating performance. With its aggressive naked bike styling, full LED lighting, and digital instrument cluster, it offers modern aesthetics to match its impressive power. The refined 160cc engine delivers strong acceleration while maintaining good fuel efficiency. Features like dual-channel ABS, inverted front forks, and radial tires make it one of Hero's most advanced offerings, perfect for riders wanting performance and style.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, 4-valve",
+    "max_power": "16.4 PS @ 8500 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 220mm disc (with dual-channel ABS)",
+    "suspension": "Front inverted fork, Rear monoshock",
+    "tire_size": "Front 100/80-17, Rear 140/60-17",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "810 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "148 kg",
+    "features": [
+      "4-valve engine technology",
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "Dual-channel ABS",
+      "Inverted front forks"
+    ],
+    "pros": [
+      "Powerful 4-valve engine",
+      "Premium suspension components",
+      "Excellent braking with ABS",
+      "Aggressive street bike styling",
+      "Good power-to-weight ratio"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Firm seat for long rides",
+      "Vibrations at high RPM",
+      "Small fuel tank",
+      "Limited service network"
+    ],
+    "faqs": [
+      {
+        "question": "What does 4V mean?",
+        "answer": "4-valve technology for better airflow and performance."
+      },
+      {
+        "question": "Is this Hero's most powerful bike?",
+        "answer": "One of the most powerful in Hero's conventional lineup (excluding Xpulse)."
+      },
+      {
+        "question": "What's the top speed?",
+        "answer": "About 120-125 km/h under ideal conditions."
+      },
+      {
+        "question": "Is it suitable for highway riding?",
+        "answer": "Yes, the power and stability make it good for highways."
+      }
+    ]
+  },
+  {
+    "name": "Hero Thriller 160R Fi ABS DD",
+    "slug": "hero-thriller-160r-fi-abs-dd",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 163,
+    "price": "Tk. 202,000",
+    "description": "The Hero Thriller 160R Fi ABS DD (Dual Disc) is the premium variant of the Thriller lineup, featuring fuel injection, dual-channel ABS, and dual disc brakes for maximum performance and safety. The 163cc air-cooled engine delivers strong acceleration while the dual disc setup provides confident stopping power. With its aggressive streetfighter styling, full LED lighting, and digital instrument cluster, it offers a compelling package for riders wanting sporty performance with everyday practicality.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, fuel-injected",
+    "max_power": "16.4 PS @ 8500 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 220mm disc (with dual-channel ABS)",
+    "suspension": "Front telescopic fork, Rear monoshock",
+    "tire_size": "Front 100/80-17, Rear 140/60-17",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "810 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "150 kg",
+    "features": [
+      "Fuel injection system",
+      "Dual-channel ABS",
+      "Dual disc brakes",
+      "Full LED lighting",
+      "Digital instrument cluster"
+    ],
+    "pros": [
+      "Excellent braking performance",
+      "Smooth fuel-injected power delivery",
+      "Premium safety features",
+      "Aggressive street bike styling",
+      "Good power-to-weight ratio"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Firm seat for long rides",
+      "Vibrations at high RPM",
+      "Small fuel tank",
+      "Heavier than some competitors"
+    ],
+    "faqs": [
+      {
+        "question": "What does DD stand for?",
+        "answer": "DD indicates Dual Disc brakes (front and rear discs)."
+      },
+      {
+        "question": "How does fuel injection benefit this bike?",
+        "answer": "Provides better throttle response, fuel efficiency and cold starting."
+      },
+      {
+        "question": "Is the ABS switchable?",
+        "answer": "No, the dual-channel ABS is always active for safety."
+      },
+      {
+        "question": "What's the real-world mileage?",
+        "answer": "Expect around 40-45 kmpl under normal riding conditions."
+      }
+    ]
+  },
+  {
+    "name": "Hero Thriller 160R Fi ABS SD",
+    "slug": "hero-thriller-160r-fi-abs-sd",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 163,
+    "price": "Tk. 192,000",
+    "description": "The Hero Thriller 160R Fi ABS SD (Single Disc) offers the same fuel-injected performance and safety features as the DD variant but with a more affordable single disc brake setup. The 163cc fuel-injected engine delivers peppy performance while the single-channel ABS on the front wheel provides crucial safety. With its muscular streetfighter design, LED lighting, and digital console, it's perfect for riders who want modern features and sporty looks at a slightly more accessible price point.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, fuel-injected",
+    "max_power": "16.4 PS @ 8500 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc (ABS), Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear monoshock",
+    "tire_size": "Front 100/80-17, Rear 140/60-17",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "810 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "148 kg",
+    "features": [
+      "Fuel injection system",
+      "Single-channel ABS",
+      "Front disc brake",
+      "LED headlight and DRLs",
+      "Digital instrument cluster"
+    ],
+    "pros": [
+      "More affordable than DD variant",
+      "Fuel-injected performance",
+      "Front ABS for safety",
+      "Sporty street bike looks",
+      "Good value for money"
+    ],
+    "cons": [
+      "Drum rear brake",
+      "No rear ABS",
+      "Same vibrations as DD version",
+      "Small fuel tank",
+      "Basic rear suspension"
+    ],
+    "faqs": [
+      {
+        "question": "What does SD stand for?",
+        "answer": "SD indicates Single Disc brake (front disc with rear drum)."
+      },
+      {
+        "question": "Is the performance same as DD version?",
+        "answer": "Yes, same engine performance but with different braking system."
+      },
+      {
+        "question": "What's the price difference with DD?",
+        "answer": "About Tk. 10,000 less than the dual disc version."
+      },
+      {
+        "question": "Is it worth saving money for SD version?",
+        "answer": "Yes, if you can live with drum rear brake and single-channel ABS."
+      }
+    ]
+  },
+  {
+    "name": "Hero Xoom 110",
+    "slug": "hero-xoom-110",
+    "brand": "Hero",
+    "category": "Scooter",
+    "cc": 110.9,
+    "price": "Tk. 175,000 (estimated)",
+    "description": "The Hero Xoom 110 is a stylish and practical 110cc scooter designed for urban mobility. With its modern European-inspired design, comfortable ergonomics, and practical features, it offers a premium riding experience. The fuel-efficient 110cc engine delivers smooth performance perfect for city traffic, while features like the external fuel filler and mobile charging port add everyday convenience. The Xoom's lightweight chassis and easy handling make it ideal for navigating crowded city streets.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "8.1 PS @ 7500 rpm",
+    "max_torque": "8.7 Nm @ 5500 rpm",
+    "transmission": "Automatic CVT",
+    "braking_system": "Front 130mm drum, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear single shock absorber",
+    "tire_size": "Front 90/90-12, Rear 90/100-12",
+    "dimensions": "1860mm x 715mm x 1160mm (LxWxH)",
+    "seat_height": "780 mm",
+    "ground_clearance": "155 mm",
+    "fuel_capacity": "5 liters",
+    "weight": "110 kg",
+    "features": [
+      "European-inspired design",
+      "Digital instrument cluster",
+      "External fuel filler",
+      "Mobile charging port",
+      "Hero's i3S technology"
+    ],
+    "pros": [
+      "Stylish modern design",
+      "Excellent maneuverability",
+      "Good fuel efficiency",
+      "Comfortable riding position",
+      "Practical features"
+    ],
+    "cons": [
+      "Drum brakes",
+      "No ABS",
+      "Small fuel tank",
+      "Limited power",
+      "New model with unproven reliability"
+    ],
+    "faqs": [
+      {
+        "question": "What is the expected mileage?",
+        "answer": "Around 45-50 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have under-seat storage?",
+        "answer": "Yes, it offers 18 liters of under-seat storage."
+      },
+      {
+        "question": "How does it compare to Maestro Edge?",
+        "answer": "The Xoom has more modern styling and features but similar mechanicals."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 780mm seat height accommodates most riders comfortably."
+      }
+    ]
+  },
+  {
+    "name": "Hero Xtreme 125R",
+    "slug": "hero-xtreme-125r",
+    "brand": "Street Bike",
+    "category": "Street Bike",
+    "cc": 124.7,
+    "price": "Tk. 171,000",
+    "description": "The Hero Xtreme 125R is a sporty 125cc street bike that brings aggressive styling and performance to the commuter segment. With its sharp bodywork, LED lighting, and muscular fuel tank design, it stands out from conventional 125cc bikes. The refined 125cc engine delivers peppy performance while maintaining good fuel efficiency. Features like the digital instrument cluster and comfortable yet sporty ergonomics make it perfect for young riders wanting style and substance.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled",
+    "max_power": "11.4 PS @ 8000 rpm",
+    "max_torque": "11 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc, Rear 130mm drum",
+    "suspension": "Front telescopic fork, Rear monoshock",
+    "tire_size": "Front 80/100-17, Rear 100/90-17",
+    "dimensions": "2045mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "805 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "10 liters",
+    "weight": "132 kg",
+    "features": [
+      "LED headlight and DRLs",
+      "Digital instrument cluster",
+      "Sporty split seat",
+      "Muscular fuel tank design",
+      "Engine kill switch"
+    ],
+    "pros": [
+      "Sportier than typical 125cc bikes",
+      "Good power-to-weight ratio",
+      "Comfortable yet aggressive ergonomics",
+      "LED lighting",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "No ABS",
+      "Basic rear brake",
+      "Small fuel tank",
+      "Vibrations at high RPM",
+      "Limited features"
+    ],
+    "faqs": [
+      {
+        "question": "What is the mileage of Xtreme 125R?",
+        "answer": "Expect around 50-55 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have self-start?",
+        "answer": "Yes, it comes with both electric start and kick start options."
+      },
+      {
+        "question": "Is it suitable for beginners?",
+        "answer": "Yes, the manageable power and light weight make it beginner-friendly."
+      },
+      {
+        "question": "How does it compare to Glamour?",
+        "answer": "The Xtreme 125R has more sporty styling and slightly better performance."
+      }
+    ]
+  },
+  {
+    "name": "Hero Xtreme 160R 4V",
+    "slug": "hero-xtreme-160r-4v",
+    "brand": "Hero",
+    "category": "Street Bike",
+    "cc": 163.2,
+    "price": "Tk. 240,000",
+    "description": "The Hero Xtreme 160R 4V is a premium street bike featuring a high-performance 4-valve engine for exhilarating performance. With its aggressive naked bike styling, full LED lighting, and digital instrument cluster, it competes with bikes from higher segments. The refined 160cc 4-valve engine delivers strong acceleration while maintaining good fuel efficiency. Features like single-channel ABS, inverted front forks, and radial tires make it one of Hero's most advanced offerings for performance-oriented riders.",
+    "engine_type": "Single cylinder, 4-stroke, air-cooled, 4-valve",
+    "max_power": "16.4 PS @ 8500 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "transmission": "5-speed manual",
+    "braking_system": "Front 276mm disc (ABS), Rear 220mm disc",
+    "suspension": "Front inverted fork, Rear monoshock",
+    "tire_size": "Front 100/80-17, Rear 140/60-17",
+    "dimensions": "2085mm x 785mm x 1095mm (LxWxH)",
+    "seat_height": "810 mm",
+    "ground_clearance": "170 mm",
+    "fuel_capacity": "12 liters",
+    "weight": "148 kg",
+    "features": [
+      "4-valve engine technology",
+      "Full LED lighting",
+      "Digital instrument cluster",
+      "Single-channel ABS",
+      "Inverted front forks"
+    ],
+    "pros": [
+      "Powerful 4-valve engine",
+      "Premium suspension components",
+      "Good braking performance",
+      "Aggressive street bike styling",
+      "Best-in-class features for segment"
+    ],
+    "cons": [
+      "No dual-channel ABS",
+      "Firm seat for long rides",
+      "Vibrations at high RPM",
+      "Small fuel tank",
+      "Premium pricing"
+    ],
+    "faqs": [
+      {
+        "question": "What's special about 4-valve engine?",
+        "answer": "Provides better airflow for increased power and efficiency."
+      },
+      {
+        "question": "How does it compare to Thriller 160R?",
+        "answer": "Similar engine but with more premium components and styling."
+      },
+      {
+        "question": "What's the top speed?",
+        "answer": "About 120-125 km/h under ideal conditions."
+      },
+      {
+        "question": "Is it suitable for highway riding?",
+        "answer": "Yes, the power and stability make it good for highways."
+      }
+    ]
+  },
+
+  {
+    "name": "KTM 125 Duke",
+    "slug": "ktm-125-duke",
+    "brand": "KTM",
+    "category": "Naked Bike",
+    "cc": 125,
+    "price": "Tk. 448,000",
+    "description": "The KTM 125 Duke is an entry-level naked streetfighter that brings KTM's aggressive 'Ready to Race' philosophy to beginner riders. With its sharp angular design, premium suspension components, and lightweight chassis, it offers a genuine KTM experience in a manageable 125cc package. The liquid-cooled single-cylinder engine delivers peppy performance while the WP suspension and ByBre brakes provide handling beyond its class. Perfect for new riders wanting premium Austrian engineering with beginner-friendly power.",
+    "engine_type": "Single cylinder, 4-stroke, liquid-cooled",
+    "max_power": "14.5 PS @ 9250 rpm",
+    "max_torque": "12 Nm @ 8000 rpm",
+    "transmission": "6-speed manual",
+    "braking_system": "Front 300mm disc, Rear 230mm disc (with ABS)",
+    "suspension": "Front WP upside-down forks, Rear WP monoshock",
+    "tire_size": "Front 110/70-17, Rear 150/60-17",
+    "dimensions": "2005mm x 835mm x 1075mm (LxWxH)",
+    "seat_height": "830 mm",
+    "ground_clearance": "185 mm",
+    "fuel_capacity": "13.4 liters",
+    "weight": "137 kg",
+    "features": [
+      "Full LED lighting",
+      "TFT color display",
+      "Steel trellis frame",
+      "Superlight wheels",
+      "Adjustable levers"
+    ],
+    "pros": [
+      "Premium WP suspension",
+      "Excellent power-to-weight ratio",
+      "High-quality ByBre brakes",
+      "Aggressive streetfighter styling",
+      "Advanced TFT display"
+    ],
+    "cons": [
+      "Tall seat height for shorter riders",
+      "Firm ride quality",
+      "Premium pricing for 125cc",
+      "Small fuel tank",
+      "Limited service network"
+    ],
+    "faqs": [
+      {
+        "question": "Is this suitable for beginners?",
+        "answer": "Yes, the manageable power makes it ideal for new riders wanting premium quality."
+      },
+      {
+        "question": "What's the real-world mileage?",
+        "answer": "Expect around 35-40 kmpl under normal riding conditions."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with single-channel ABS as standard."
+      },
+      {
+        "question": "How does it compare to Duke 200?",
+        "answer": "The 125 Duke has similar build quality but with less power, ideal for learners."
+      }
+    ]
+  },
+  {
+    "name": "KTM 125 Duke Special",
+    "slug": "ktm-125-duke-special",
+    "brand": "KTM",
+    "category": "Naked Bike",
+    "cc": 125,
+    "price": "Tk. 605,000",
+    "description": "The KTM 125 Duke Special Edition is a premium variant of the standard 125 Duke, featuring exclusive graphics, orange-anodized wheels, and upgraded components. This limited edition model retains all the performance credentials of the standard Duke but with added visual appeal and exclusivity. The liquid-cooled 125cc engine delivers spirited performance while the premium WP suspension and ByBre brakes ensure exceptional handling. With its striking color scheme and special badging, it's perfect for riders wanting standout style with KTM's renowned engineering.",
+    "engine_type": "Single cylinder, 4-stroke, liquid-cooled",
+    "max_power": "14.5 PS @ 9250 rpm",
+    "max_torque": "12 Nm @ 8000 rpm",
+    "transmission": "6-speed manual",
+    "braking_system": "Front 300mm disc, Rear 230mm disc (with ABS)",
+    "suspension": "Front WP upside-down forks, Rear WP monoshock",
+    "tire_size": "Front 110/70-17, Rear 150/60-17",
+    "dimensions": "2005mm x 835mm x 1075mm (LxWxH)",
+    "seat_height": "830 mm",
+    "ground_clearance": "185 mm",
+    "fuel_capacity": "13.4 liters",
+    "weight": "137 kg",
+    "features": [
+      "Special edition graphics",
+      "Orange-anodized wheels",
+      "Full LED lighting",
+      "TFT color display",
+      "Adjustable levers"
+    ],
+    "pros": [
+      "Exclusive special edition styling",
+      "Premium suspension components",
+      "Excellent braking performance",
+      "Standout visual appeal",
+      "Same performance as standard Duke"
+    ],
+    "cons": [
+      "Significant price premium",
+      "Limited availability",
+      "Tall seat height",
+      "Firm ride quality",
+      "Same mechanicals as standard"
+    ],
+    "faqs": [
+      {
+        "question": "What's special about this edition?",
+        "answer": "Gets exclusive graphics, orange wheels, and special badging for visual distinction."
+      },
+      {
+        "question": "Is the performance upgraded?",
+        "answer": "No, same engine and mechanicals as standard 125 Duke."
+      },
+      {
+        "question": "Is it worth the extra cost?",
+        "answer": "Only if you value the exclusive styling and limited edition status."
+      },
+      {
+        "question": "How many units are available?",
+        "answer": "Typically produced in limited numbers, exact quantities vary by market."
+      }
+    ]
+  },
+  {
+    "name": "KTM RC 125",
+    "slug": "ktm-rc-125",
+    "brand": "KTM",
+    "category": "Sports Bike",
+    "cc": 124.7,
+    "price": "Tk. 566,000",
+    "description": "The KTM RC 125 is a fully-faired supersport that brings track-inspired performance to the 125cc segment. With its aggressive fairing design, clip-on handlebars, and rear-set footpegs, it offers a genuine sportbike riding position. The liquid-cooled 125cc engine delivers strong performance while the premium WP suspension and ByBre brakes provide exceptional handling. Perfect for new riders wanting a true sports bike experience with manageable power and KTM's renowned build quality.",
+    "engine_type": "Single cylinder, 4-stroke, liquid-cooled",
+    "max_power": "14.5 PS @ 9250 rpm",
+    "max_torque": "12 Nm @ 8000 rpm",
+    "transmission": "6-speed manual",
+    "braking_system": "Front 300mm disc, Rear 230mm disc (with ABS)",
+    "suspension": "Front WP upside-down forks, Rear WP monoshock",
+    "tire_size": "Front 110/70-17, Rear 150/60-17",
+    "dimensions": "2015mm x 765mm x 1080mm (LxWxH)",
+    "seat_height": "820 mm",
+    "ground_clearance": "185 mm",
+    "fuel_capacity": "13.7 liters",
+    "weight": "147 kg",
+    "features": [
+      "Full fairing with wind tunnel testing",
+      "TFT color display",
+      "Steel trellis frame",
+      "Split seats",
+      "Adjustable levers"
+    ],
+    "pros": [
+      "True supersport ergonomics",
+      "Premium WP suspension",
+      "Excellent power-to-weight ratio",
+      "Aggressive RC series styling",
+      "Advanced TFT display"
+    ],
+    "cons": [
+      "Aggressive riding position not ideal for commuting",
+      "Premium pricing for 125cc",
+      "Small fuel tank",
+      "Limited service network",
+      "Heavier than Duke 125"
+    ],
+    "faqs": [
+      {
+        "question": "Is this suitable for daily use?",
+        "answer": "The sporty ergonomics make it less comfortable for daily commuting than the Duke."
+      },
+      {
+        "question": "What's the top speed?",
+        "answer": "About 120 km/h under ideal conditions."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with single-channel ABS as standard."
+      },
+      {
+        "question": "How does it compare to RC 200?",
+        "answer": "The RC 125 has similar build quality but with less power, ideal for learners."
+      }
+    ]
+  }
+]
