@@ -35,6 +35,13 @@ body {
 }
 
 /* Filter Section */
+.filter-row {
+    display: flex;
+    gap: 15rem; /* space between filters */
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
 .filter-section {
     margin-bottom: 2rem;
     text-align: center;
@@ -157,6 +164,10 @@ body {
 @media (max-width: 768px) {
     .main-content-container {
         padding: 1rem;
+    }
+    .filter-row {
+        flex-direction: column;
+        gap: 0;
     }
     
     .content-card {

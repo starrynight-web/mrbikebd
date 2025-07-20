@@ -79,30 +79,43 @@
   <div class="main-content-container">
     <div class="content-card">
       <h1>Available Bike Models in Bangladesh</h1>
-      
-      <div class="filter-section">
-        <label for="brandFilter">Filter by Brand:</label>
-        <select id="brandFilter" onchange="filterModels()">
-          <option value="All">All</option>
-          <option value="Yamaha">Yamaha</option>
-          <option value="Honda">Honda</option>
-          <option value="Suzuki">Suzuki</option>
-          <option value="Hero">Hero</option>
-          <option value="TVS">TVS</option>
-          <option value="Bajaj">Bajaj</option>
-          <option value="CFMoto">CFMoto</option>
-          <option value="Royal Enfield">Royal Enfield</option>
-          <option value="Hyosung">Hyosung</option>
-          <option value="QJ Motors">QJ Motors</option>
-          <option value="Lifan">Lifan</option>
-          <option value="Runner">Runner</option>
-          <option value="GPX Demon">GPX Demon</option>
-          <option value="KTM">KTM</option>
-          <option value="Speeder">Speeder</option>
-          <option value="Taro">Taro</option>
-        </select>
-      </div>
+      <div class="filter-row">
+        <div class="filter-section">
+          <label for="brandFilter">Filter by Brand:</label>
+          <select id="brandFilter" onchange="filterModels()">
+            <option value="All">All</option>
+            <option value="Yamaha">Yamaha</option>
+            <option value="Honda">Honda</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Hero">Hero</option>
+            <option value="TVS">TVS</option>
+            <option value="Bajaj">Bajaj</option>
+            <option value="CFMoto">CFMoto</option>
+            <option value="Royal Enfield">Royal Enfield</option>
+            <option value="Hyosung">Hyosung</option>
+            <option value="QJ Motors">QJ Motors</option>
+            <option value="Lifan">Lifan</option>
+            <option value="Runner">Runner</option>
+            <option value="GPX Demon">GPX Demon</option>
+            <option value="KTM">KTM</option>
+            <option value="Speeder">Speeder</option>
+            <option value="Taro">Taro</option>
+          </select>
+        </div>
 
+        <div class="filter-section">
+          <label for="categoryFilter">Filter by Category:</label>
+          <select id="categoryFilter" onchange="filterModels()">
+            <option value="All">All</option>
+            <option value="Sports Bike">Sports Bike</option>
+            <option value="Commuter">Commuter</option>
+            <option value="Scooter">Scooter</option>
+            <option value="Cruiser">Cruiser</option>
+            <option value="Off Road">Off Road</option>
+            <!-- Add more categories as needed -->
+          </select>
+        </div>
+      </div>
       <div class="model-container" id="modelList"></div>
     </div>
   </div>

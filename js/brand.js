@@ -10,10 +10,14 @@
     { name: 'RC 125', brand: 'KTM', price: '৳635,000', img: 'images/rc125.jpg', link: 'bike.html?model=rc125', category: 'Sports Bike' }
   ];
 
-  function renderModels(brand = "All") {
+  function renderModels(brand = "All", category = "All") {
     const container = document.getElementById("modelList");
     container.innerHTML = "";
-    const filtered = brand === "All" ? models : models.filter(m => m.brand === brand);
+    const filtered = models.filter(m => {
+      const brandMatch = (brand === "All" || m.brand === brand);
+      const categoryMatch = (category === "All" || m.category === category);
+      return brandMatch && categoryMatch;
+    });
     filtered.forEach(m => {
       container.innerHTML += `
         <div class="model-card">
@@ -32,7 +36,8 @@
 
   function filterModels() {
     const selectedBrand = document.getElementById("brandFilter").value;
-    renderModels(selectedBrand);
+    const selectedCategory = document.getElementById("categoryFilter").value;
+    renderModels(selectedBrand, selectedCategory);
   }
 
   renderModels();
