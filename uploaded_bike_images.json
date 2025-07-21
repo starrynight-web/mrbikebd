@@ -1,0 +1,23 @@
+{
+    "yahama": {
+        "aerox": {
+            "yahama-aerox-back-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935860/bikes/yahama/aerox/yahama-aerox-back-side-view.webp",
+            "yahama-aerox-front-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935861/bikes/yahama/aerox/yahama-aerox-front-side-view.webp",
+            "yahama-aerox-right-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935862/bikes/yahama/aerox/yahama-aerox-right-side-view.webp",
+            "yahama-aerox-showroom-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935864/bikes/yahama/aerox/yahama-aerox-showroom-view.webp"
+        },
+        "fz-v3": {
+            "yahama-fz-left-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935865/bikes/yahama/fz-v3/yahama-fz-left-side-view.webp",
+            "yahama-fz-showroom-mate-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935868/bikes/yahama/fz-v3/yahama-fz-showroom-mate-view.webp",
+            "yahama-fz-showroom-view-blue": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935869/bikes/yahama/fz-v3/yahama-fz-showroom-view-blue.webp",
+            "yahama-fz-showroom-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935871/bikes/yahama/fz-v3/yahama-fz-showroom-view.webp"
+        },
+        "r15": {
+            "yahama-r15-back-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935872/bikes/yahama/r15/yahama-r15-back-side-view.webp",
+            "yahama-r15-front-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935874/bikes/yahama/r15/yahama-r15-front-side-view.webp",
+            "yahama-r15-left-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935875/bikes/yahama/r15/yahama-r15-left-side-view.webp",
+            "yahama-r15-right-side-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935877/bikes/yahama/r15/yahama-r15-right-side-view.webp",
+            "yahama-r15-showroom-view": "https://res.cloudinary.com/duna87jkw/image/upload/v1752935879/bikes/yahama/r15/yahama-r15-showroom-view.webp"
+        }
+    }
+}
