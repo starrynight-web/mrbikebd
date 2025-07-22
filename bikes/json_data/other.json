@@ -1,0 +1,1598 @@
+[
+  {
+    "name": "Aprilia Cafe 150",
+    "slug": "aprilia-cafe-150",
+    "brand": "Aprilia",
+    "category": "Cafe Racer",
+    "cc": 149,
+    "price": "Tk. 170,000",
+    "short_description": "Aprilia Cafe 150 - A 149cc retro-styled cafe racer with modern engineering, offering classic aesthetics with contemporary performance for urban riding.",
+    "Zero_Sixty": "8.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "40-43 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "135 kg",
+    "max_power": "15.5 PS @ 8500 rpm",
+    "max_torque": "12.5 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "280 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "780 mm",
+    "build_quality": "Retro-modern fusion",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-cafe150-front.webp",
+        "alt": "Aprilia Cafe 150 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-cafe150-side.webp",
+        "alt": "Aprilia Cafe 150 Side View"
+      }
+    ],
+    "pros": [
+      "Authentic cafe racer styling",
+      "Comfortable ergonomics for a cafe racer",
+      "Good fuel efficiency",
+      "LED lighting package",
+      "Lightweight and nimble"
+    ],
+    "cons": [
+      "Limited pillion comfort",
+      "Basic instrumentation",
+      "No ABS option",
+      "Vibrations at high RPM",
+      "Small mirrors"
+    ],
+    "faqs": [
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 800mm seat height accommodates most riders, though the forward-set footpegs may challenge very tall riders."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, it comes with front disc and rear drum brakes without ABS."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 4,000 km or 4 months."
+      },
+      {
+        "question": "Is it good for highway riding?",
+        "answer": "Can handle short highway stints but is more suited for urban riding due to its cafe racer ergonomics."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia FX 150",
+    "slug": "aprilia-fx-150",
+    "brand": "Aprilia",
+    "category": "Naked",
+    "cc": 149.2,
+    "price": "Tk. 135,000",
+    "short_description": "Aprilia FX 150 - A 149.2cc naked street motorcycle with aggressive styling, lightweight chassis, and peppy performance for urban commuting.",
+    "Zero_Sixty": "8.2 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45-48 kmpl",
+    "top_speed_claimed": "105 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "128 kg",
+    "max_power": "14.5 PS @ 8000 rpm",
+    "max_torque": "12.3 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "120/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "790 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Sporty urban commuter",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-fx150-front.webp",
+        "alt": "Aprilia FX 150 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-fx150-side.webp",
+        "alt": "Aprilia FX 150 Side View"
+      }
+    ],
+    "pros": [
+      "Lightweight and agile",
+      "Good fuel efficiency",
+      "Sporty naked styling",
+      "Comfortable upright ergonomics",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic halogen headlight",
+      "No ABS option",
+      "Vibrations at high speed",
+      "Small pillion seat",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "Is it suitable for beginners?",
+        "answer": "Yes, its lightweight and manageable power make it an excellent beginner bike."
+      },
+      {
+        "question": "Does it have electric start?",
+        "answer": "Yes, it comes with both electric and kick start options."
+      },
+      {
+        "question": "What's the difference from Cafe 150?",
+        "answer": "The FX 150 has more upright ergonomics, simpler styling, and is more affordable than the cafe racer version."
+      },
+      {
+        "question": "Is it good for highway riding?",
+        "answer": "Can cruise at 80-90 kmph but is more comfortable for city commuting."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia GPR 150",
+    "slug": "aprilia-gpr-150",
+    "brand": "Aprilia",
+    "category": "Sport",
+    "cc": 149,
+    "price": "Tk. 300,000",
+    "short_description": "Aprilia GPR 150 - A 149cc full-faired sportbike with track-inspired design, aggressive ergonomics, and race-bred performance for enthusiasts.",
+    "Zero_Sixty": "7.0 sec",
+    "Zero_Hundred": "16.5 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "35 kmpl",
+    "mileage_reported": "30-33 kmpl",
+    "top_speed_claimed": "130 km/h",
+    "top_speed_reported": "125 km/h",
+    "braking": "Front Disc, Rear Disc (ABS)",
+    "gear": "6-speed manual",
+    "weight": "140 kg",
+    "max_power": "18.5 PS @ 10000 rpm",
+    "max_torque": "14 Nm @ 7500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "218 mm Disc",
+    "caliper": {
+      "front": "Four-piston radial",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "820 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "1950 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Premium sportbike",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-gpr150-front.webp",
+        "alt": "Aprilia GPR 150 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-gpr150-side.webp",
+        "alt": "Aprilia GPR 150 Side View"
+      }
+    ],
+    "pros": [
+      "True sportbike ergonomics",
+      "Premium radial brake caliper",
+      "Full LED lighting",
+      "Lightweight chassis",
+      "Track-focused suspension"
+    ],
+    "cons": [
+      "Very aggressive riding position",
+      "High seat height may challenge shorter riders",
+      "Firm suspension for city roads",
+      "Expensive for 150cc segment",
+      "Limited pillion comfort"
+    ],
+    "faqs": [
+      {
+        "question": "Is it suitable for beginners?",
+        "answer": "The aggressive ergonomics and high seat height make it challenging for complete beginners."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with dual-channel ABS as standard."
+      },
+      {
+        "question": "Is it good for track days?",
+        "answer": "Yes, its chassis and suspension are track-oriented, making it excellent for circuit riding."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 4,000 km or 4 months, more frequent if used on track."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia SR 125",
+    "slug": "aprilia-sr-125",
+    "brand": "Aprilia",
+    "category": "Sport Scooter",
+    "cc": 125,
+    "price": "Tk. 181,000",
+    "short_description": "Aprilia SR 125 - A 125cc sporty scooter with aggressive Italian styling, peppy performance, and premium features for urban commuting.",
+    "Zero_Sixty": "9.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "40-43 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "122 kg",
+    "max_power": "10.5 PS @ 7500 rpm",
+    "max_torque": "10 Nm @ 6000 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "140 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/70-14",
+    "rear_tyre_size": "140/60-14",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "7 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "790 mm",
+    "ground_clearance": "155 mm",
+    "overall_length": "1890 mm",
+    "overall_width": "730 mm",
+    "build_quality": "Premium sport scooter",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-sr125-front.webp",
+        "alt": "Aprilia SR 125 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-sr125-side.webp",
+        "alt": "Aprilia SR 125 Side View"
+      }
+    ],
+    "pros": [
+      "Sporty Italian styling",
+      "Good acceleration for 125cc",
+      "Full LED lighting",
+      "Comfortable ergonomics",
+      "Premium build quality"
+    ],
+    "cons": [
+      "Small fuel tank",
+      "Firm ride quality",
+      "No ABS option",
+      "Expensive for 125cc",
+      "Limited storage space"
+    ],
+    "faqs": [
+      {
+        "question": "Does it have under-seat storage?",
+        "answer": "Yes, it offers 16L under-seat storage - enough for a half-face helmet."
+      },
+      {
+        "question": "Is it suitable for highway riding?",
+        "answer": "Can handle short highway stints but is more comfortable for city riding."
+      },
+      {
+        "question": "What's the difference from SR 150?",
+        "answer": "The SR 125 has less power, smaller wheels, and fewer premium features than the 150cc version."
+      },
+      {
+        "question": "Does it have a charging port?",
+        "answer": "No, the base SR 125 variant doesn't include a charging port."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia SR 150 Race",
+    "slug": "aprilia-sr-150-race",
+    "brand": "Aprilia",
+    "category": "Sport Scooter",
+    "cc": 154.8,
+    "price": "Tk. 194,000",
+    "short_description": "Aprilia SR 150 Race - A 154.8cc performance-oriented scooter with race-inspired styling, sporty ergonomics, and spirited acceleration for urban riding.",
+    "Zero_Sixty": "7.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "35-38 kmpl",
+    "top_speed_claimed": "105 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "125 kg",
+    "max_power": "12.5 PS @ 7750 rpm",
+    "max_torque": "12 Nm @ 6500 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "140 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/70-14",
+    "rear_tyre_size": "140/60-14",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "7 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "790 mm",
+    "ground_clearance": "155 mm",
+    "overall_length": "1890 mm",
+    "overall_width": "730 mm",
+    "build_quality": "Sporty premium finish",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-sr150race-front.webp",
+        "alt": "Aprilia SR 150 Race Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-sr150race-side.webp",
+        "alt": "Aprilia SR 150 Race Side View"
+      }
+    ],
+    "pros": [
+      "Peppy 150cc engine",
+      "Aggressive race styling",
+      "Full LED lighting",
+      "Good cornering stability",
+      "Premium build quality"
+    ],
+    "cons": [
+      "Small fuel tank",
+      "Firm ride quality",
+      "No ABS option",
+      "Expensive for 150cc",
+      "Limited storage space"
+    ],
+    "faqs": [
+      {
+        "question": "What's different from standard SR 150?",
+        "answer": "The Race version has sportier graphics, slightly more power, and performance-oriented tuning."
+      },
+      {
+        "question": "Does it have under-seat storage?",
+        "answer": "Yes, it offers 16L under-seat storage - enough for a half-face helmet."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "The 790mm seat height accommodates most riders comfortably."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 4,000 km or 4 months."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia SR 150 RACE CARBON ABS",
+    "slug": "aprilia-sr-150-race-carbon-abs",
+    "brand": "Aprilia",
+    "category": "Sport Scooter",
+    "cc": 154.8,
+    "price": "Tk. 250,000",
+    "short_description": "Aprilia SR 150 RACE CARBON ABS - A premium 154.8cc sport scooter with carbon fiber accents, ABS braking, and track-inspired performance for enthusiasts.",
+    "Zero_Sixty": "7.2 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "38 kmpl",
+    "mileage_reported": "33-36 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "105 km/h",
+    "braking": "Front Disc, Rear Drum (ABS)",
+    "gear": "CVT Automatic",
+    "weight": "128 kg",
+    "max_power": "13.5 PS @ 8000 rpm",
+    "max_torque": "12.5 Nm @ 6750 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "140 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/70-14",
+    "rear_tyre_size": "140/60-14",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "7 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "790 mm",
+    "ground_clearance": "155 mm",
+    "overall_length": "1890 mm",
+    "overall_width": "730 mm",
+    "build_quality": "Premium with carbon fiber accents",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-sr150carbon-front.webp",
+        "alt": "Aprilia SR 150 Carbon ABS Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-sr150carbon-side.webp",
+        "alt": "Aprilia SR 150 Carbon ABS Side View"
+      }
+    ],
+    "pros": [
+      "Premium carbon fiber elements",
+      "Single-channel ABS for safety",
+      "Peppy 150cc engine",
+      "Full LED lighting",
+      "Sporty handling"
+    ],
+    "cons": [
+      "Very expensive for 150cc",
+      "Small fuel tank",
+      "Firm ride quality",
+      "Limited storage space",
+      "Carbon parts may need special care"
+    ],
+    "faqs": [
+      {
+        "question": "What carbon fiber parts are included?",
+        "answer": "It features carbon fiber front apron, side panels, and mirror caps for premium aesthetics."
+      },
+      {
+        "question": "Does it have dual-channel ABS?",
+        "answer": "No, it comes with single-channel ABS only on the front wheel."
+      },
+      {
+        "question": "Is it worth the premium over standard SR 150?",
+        "answer": "Only for enthusiasts wanting the carbon looks and ABS - performance is similar to Race version."
+      },
+      {
+        "question": "What's the warranty period?",
+        "answer": "Standard warranty is 2 years or 30,000 km, whichever comes first."
+      }
+    ]
+  },
+  {
+    "name": "Aprilia Terra 150",
+    "slug": "aprilia-terra-150",
+    "brand": "Aprilia",
+    "category": "Adventure",
+    "cc": 149,
+    "price": "Tk. 250,000",
+    "short_description": "Aprilia Terra 150 - A 149cc adventure-style motorcycle with long-travel suspension, upright ergonomics, and versatile performance for light off-road exploration.",
+    "Zero_Sixty": "8.8 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "42 kmpl",
+    "mileage_reported": "37-40 kmpl",
+    "top_speed_claimed": "115 km/h",
+    "top_speed_reported": "110 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "138 kg",
+    "max_power": "15.5 PS @ 8500 rpm",
+    "max_torque": "13 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "280 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/90-19",
+    "rear_tyre_size": "130/80-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "830 mm",
+    "ground_clearance": "200 mm",
+    "overall_length": "2150 mm",
+    "overall_width": "810 mm",
+    "build_quality": "Rugged adventure styling",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/aprilia-terra150-front.webp",
+        "alt": "Aprilia Terra 150 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/aprilia-terra150-side.webp",
+        "alt": "Aprilia Terra 150 Side View"
+      }
+    ],
+    "pros": [
+      "Excellent ground clearance",
+      "Comfortable upright riding position",
+      "Good off-road capability",
+      "Large 14L fuel tank",
+      "LED lighting"
+    ],
+    "cons": [
+      "Tall seat height may challenge shorter riders",
+      "No ABS option",
+      "Limited power for highway",
+      "Basic instrumentation",
+      "Vibrations at high speed"
+    ],
+    "faqs": [
+      {
+        "question": "Is it suitable for off-road?",
+        "answer": "Yes, with its long-travel suspension, high ground clearance, and spoke wheels, it's capable of light off-roading."
+      },
+      {
+        "question": "Does it have luggage mounts?",
+        "answer": "Yes, it comes with rear rack mounts for adding panniers or top case."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the 830mm seat height and upright ergonomics accommodate tall riders well."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 4,000 km or 4 months, more frequent if used off-road."
+      }
+    ]
+  },
+
+  {
+    "name": "Hyosung GV250DRA",
+    "slug": "hyosung-gv250dra",
+    "brand": "Hyosung",
+    "category": "Cruiser",
+    "cc": 249,
+    "price": "Tk. 445,000",
+    "short_description": "The Hyosung GV250DRA is a stylish 250cc cruiser designed for comfortable rides with V-twin engine, classic cruiser looks, and modern features for urban and highway cruising.",
+    "Zero_Sixty": "6.5 sec",
+    "Zero_Hundred": "17.5 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "35 kmpl",
+    "mileage_reported": "30–33 kmpl",
+    "top_speed_claimed": "130 km/h",
+    "top_speed_reported": "120 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "5-speed manual",
+    "weight": "172 kg",
+    "max_power": "25.0 PS @ 10,000 rpm",
+    "max_torque": "21.7 Nm @ 7000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "275 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-Piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "110/90-16",
+    "rear_tyre_size": "150/80-15",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "710 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "2270 mm",
+    "overall_width": "800 mm",
+    "build_quality": "Premium Cruiser",
+    "parts_availability": "Moderate in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/gv250dra-front.webp", "alt": "Hyosung GV250DRA Front View"},
+      {"url": "https://cdn.example.com/gv250dra-side.webp", "alt": "Hyosung GV250DRA Side View"},
+      {"url": "https://cdn.example.com/gv250dra-rear.webp", "alt": "Hyosung GV250DRA Rear View"},
+      {"url": "https://cdn.example.com/gv250dra-back.webp", "alt": "Hyosung GV250DRA Back View"}
+    ],
+    "pros": [
+      "V-Twin engine with cruiser feel",
+      "Comfortable low seat height",
+      "Good highway stability",
+      "Stylish cruiser design",
+      "Reasonable pricing in cruiser segment"
+    ],
+    "cons": [
+      "Heavy for beginners",
+      "No ABS option",
+      "Outdated halogen headlamp",
+      "Parts availability not widespread",
+      "Moderate fuel efficiency"
+    ],
+    "faqs": [
+      {"question": "Does it have ABS?", "answer": "No, it comes with front and rear disc brakes without ABS."},
+      {"question": "Is it suitable for long rides?", "answer": "Yes, the cruiser stance and V-twin engine make it good for touring."},
+      {"question": "Is it beginner friendly?", "answer": "It may feel heavy for new riders but manageable for cruiser lovers."},
+      {"question": "What is the fuel efficiency?", "answer": "Users report around 30–33 kmpl under mixed riding conditions."}
+    ]
+  },
+  {
+    "name": "Hyosung GV300R",
+    "slug": "hyosung-gv300r",
+    "brand": "Hyosung",
+    "category": "Cruiser",
+    "cc": 300,
+    "price": "Tk. 535,000",
+    "short_description": "The Hyosung GV300R is a premium 300cc cruiser with a powerful V-twin engine, modern cruiser styling, and comfortable ergonomics designed for both city and highway rides.",
+    "Zero_Sixty": "6.2 sec",
+    "Zero_Hundred": "16.5 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "32 kmpl",
+    "mileage_reported": "28–30 kmpl",
+    "top_speed_claimed": "140 km/h",
+    "top_speed_reported": "130 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
+    "weight": "172 kg",
+    "max_power": "30.0 PS @ 8500 rpm",
+    "max_torque": "25.6 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "275 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-Piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/80-16",
+    "rear_tyre_size": "150/80-15",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Full Digital LCD",
+    "seat_height": "710 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "2270 mm",
+    "overall_width": "850 mm",
+    "build_quality": "Premium Mid-Cruiser",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/gv300r-front.webp", "alt": "Hyosung GV300R Front View"},
+      {"url": "https://cdn.example.com/gv300r-side.webp", "alt": "Hyosung GV300R Side View"},
+      {"url": "https://cdn.example.com/gv300r-rear.webp", "alt": "Hyosung GV300R Rear View"},
+      {"url": "https://cdn.example.com/gv300r-back.webp", "alt": "Hyosung GV300R Back View"}
+    ],
+    "pros": [
+      "Liquid cooled V-Twin engine",
+      "Modern LED headlamp with DRLs",
+      "6-speed gearbox for better cruising",
+      "Comfortable low seat height",
+      "High-speed stability and control"
+    ],
+    "cons": [
+      "Heavy and bulky for city rides",
+      "Limited availability of service centers",
+      "Higher price in 300cc segment",
+      "Not beginner-friendly due to weight",
+      "Average mileage compared to 300cc naked bikes"
+    ],
+    "faqs": [
+      {"question": "Does it have ABS?", "answer": "No, front and rear disc brakes are provided without ABS."},
+      {"question": "Is it suitable for highway cruising?", "answer": "Yes, it is designed for long rides and highway stability."},
+      {"question": "Does it have liquid cooling?", "answer": "Yes, the GV300R comes with liquid cooling system."},
+      {"question": "Is the LED headlight bright enough?", "answer": "Yes, users report it provides good visibility at night."}
+    ]
+  },
+  {
+    "name": "Hyosung GV300S",
+    "slug": "hyosung-gv300s",
+    "brand": "Hyosung",
+    "category": "Cruiser",
+    "cc": 296,
+    "price": "Tk. 485,000",
+    "short_description": "The Hyosung GV300S is a stylish 300cc bobber-inspired cruiser with a low seat height, V-twin engine, and modern features aimed at riders seeking comfort with classic looks.",
+    "Zero_Sixty": "6.4 sec",
+    "Zero_Hundred": "17.0 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "33 kmpl",
+    "mileage_reported": "28–31 kmpl",
+    "top_speed_claimed": "135 km/h",
+    "top_speed_reported": "125 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
+    "weight": "172 kg",
+    "max_power": "29.7 PS @ 8500 rpm",
+    "max_torque": "25.6 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "275 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-Piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/80-16",
+    "rear_tyre_size": "150/80-15",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12.5 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "710 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "2112 mm",
+    "overall_width": "877 mm",
+    "build_quality": "Bobber Style Cruiser",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/gv300s-front.webp", "alt": "Hyosung GV300S Front View"},
+      {"url": "https://cdn.example.com/gv300s-side.webp", "alt": "Hyosung GV300S Side View"},
+      {"url": "https://cdn.example.com/gv300s-rear.webp", "alt": "Hyosung GV300S Rear View"},
+      {"url": "https://cdn.example.com/gv300s-back.webp", "alt": "Hyosung GV300S Back View"}
+    ],
+    "pros": [
+      "Classic bobber styling",
+      "Liquid cooled V-Twin engine",
+      "Low seat height for comfort",
+      "LED headlamp with projector",
+      "Smooth 6-speed gearbox"
+    ],
+    "cons": [
+      "Heavy weight limits agility",
+      "Parts may be harder to find",
+      "Average mileage for 300cc",
+      "No ABS included",
+      "Limited service center network"
+    ],
+    "faqs": [
+      {"question": "Does the GV300S have ABS?", "answer": "No, it comes with disc brakes but without ABS."},
+      {"question": "Is it suitable for short riders?", "answer": "Yes, the low seat height makes it suitable for short riders."},
+      {"question": "Does it have liquid cooling?", "answer": "Yes, liquid cooling ensures better heat management."},
+      {"question": "Is it good for daily city commuting?", "answer": "It may feel heavy for daily city rides but excellent for cruising."}
+    ]
+  },
+
+  {
+    "name": "Speeder Big Monster 165 Fi",
+    "slug": "speeder-big-monster-165-fi",
+    "brand": "Speeder",
+    "category": "Naked",
+    "cc": 163.7,
+    "price": "Tk. 229,000",
+    "short_description": "The Speeder Big Monster 165 Fi is a streetfighter-style 165cc naked bike with aggressive design, fuel injection system, and a balanced performance for urban rides.",
+    "Zero_Sixty": "5.8 sec",
+    "Zero_Hundred": "16.0 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "38–42 kmpl",
+    "top_speed_claimed": "125 km/h",
+    "top_speed_reported": "115 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
+    "weight": "150 kg",
+    "max_power": "17.5 PS @ 8000 rpm",
+    "max_torque": "15.5 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "276 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-Piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "16 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital LCD",
+    "seat_height": "780 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2030 mm",
+    "overall_width": "780 mm",
+    "build_quality": "Aggressive Streetfighter",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/bigmonster-front.webp", "alt": "Speeder Big Monster 165 Fi Front View"},
+      {"url": "https://cdn.example.com/bigmonster-side.webp", "alt": "Speeder Big Monster 165 Fi Side View"},
+      {"url": "https://cdn.example.com/bigmonster-rear.webp", "alt": "Speeder Big Monster 165 Fi Rear View"},
+      {"url": "https://cdn.example.com/bigmonster-back.webp", "alt": "Speeder Big Monster 165 Fi Back View"}
+    ],
+    "pros": [
+      "Fuel Injection for better efficiency",
+      "Sporty aggressive design",
+      "Good torque for city rides",
+      "LED lighting with DRLs",
+      "Competitive price for 165cc segment"
+    ],
+    "cons": [
+      "Heavy weight for its class",
+      "Limited service support",
+      "No ABS offered",
+      "Brand recognition is low",
+      "Average top speed for segment"
+    ],
+    "faqs": [
+      {"question": "Does it have ABS?", "answer": "No, it comes with dual disc brakes but no ABS."},
+      {"question": "Is it fuel injected?", "answer": "Yes, this model features a fuel injection system."},
+      {"question": "How is the mileage?", "answer": "Users report around 38–42 kmpl in city riding."},
+      {"question": "Is it good for long rides?", "answer": "Yes, but weight and parts availability should be considered."}
+    ]
+  },
+  {
+    "name": "Speeder Colt 150",
+    "slug": "speeder-colt-150",
+    "brand": "Speeder",
+    "category": "Naked",
+    "cc": 149.4,
+    "price": "Tk. 166,500",
+    "short_description": "The Speeder Colt 150 is an entry-level 150cc commuter bike with naked styling, reliable engine, and designed for daily city use with economical pricing.",
+    "Zero_Sixty": "6.5 sec",
+    "Zero_Hundred": "18.0 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–48 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "130 kg",
+    "max_power": "12.5 PS @ 8500 rpm",
+    "max_torque": "11.0 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "13 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Halogen",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "780 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Budget Naked Commuter",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/colt150-front.webp", "alt": "Speeder Colt 150 Front View"},
+      {"url": "https://cdn.example.com/colt150-side.webp", "alt": "Speeder Colt 150 Side View"},
+      {"url": "https://cdn.example.com/colt150-rear.webp", "alt": "Speeder Colt 150 Rear View"},
+      {"url": "https://cdn.example.com/colt150-back.webp", "alt": "Speeder Colt 150 Back View"}
+    ],
+    "pros": [
+      "Affordable price",
+      "Reliable daily commuter",
+      "Decent mileage",
+      "Naked bike look",
+      "Lightweight and easy to handle"
+    ],
+    "cons": [
+      "No ABS or advanced features",
+      "Basic halogen headlamp",
+      "Not suitable for highway rides",
+      "Limited availability of parts",
+      "Low brand presence"
+    ],
+    "faqs": [
+      {"question": "Is it fuel injected?", "answer": "No, it comes with a carburetor system."},
+      {"question": "Does it have disc brakes on both wheels?", "answer": "No, only front disc is provided."},
+      {"question": "Is it good for beginners?", "answer": "Yes, light weight and easy handling make it suitable."},
+      {"question": "What is the fuel economy?", "answer": "Users report 45–48 kmpl under normal conditions."}
+    ]
+  },
+  {
+    "name": "Speeder Countryman 165",
+    "slug": "speeder-countryman-165",
+    "brand": "Speeder",
+    "category": "Cafe Racer",
+    "cc": 163.7,
+    "price": "Tk. 254,000",
+    "short_description": "The Speeder Countryman 165 is a cafe racer style bike with retro-modern design, 165cc engine, and unique looks aimed at enthusiasts wanting style with performance.",
+    "Zero_Sixty": "5.9 sec",
+    "Zero_Hundred": "16.2 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "40–43 kmpl",
+    "top_speed_claimed": "120 km/h",
+    "top_speed_reported": "110 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "5-speed manual",
+    "weight": "140 kg",
+    "max_power": "15.3 PS @ 8000 rpm",
+    "max_torque": "14.5 Nm @ 6500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "2-Piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "15 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "780 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2050 mm",
+    "overall_width": "760 mm",
+    "build_quality": "Retro Cafe Racer",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/countryman-front.webp", "alt": "Speeder Countryman 165 Front View"},
+      {"url": "https://cdn.example.com/countryman-side.webp", "alt": "Speeder Countryman 165 Side View"},
+      {"url": "https://cdn.example.com/countryman-rear.webp", "alt": "Speeder Countryman 165 Rear View"},
+      {"url": "https://cdn.example.com/countryman-back.webp", "alt": "Speeder Countryman 165 Back View"}
+    ],
+    "pros": [
+      "Unique cafe racer look",
+      "Dual disc brakes",
+      "Comfortable riding posture",
+      "Fuel efficient 165cc engine",
+      "Good build quality"
+    ],
+    "cons": [
+      "No ABS",
+      "Limited service options",
+      "Basic halogen lighting",
+      "Not ideal for high-speed touring",
+      "Spare parts availability is low"
+    ],
+    "faqs": [
+      {"question": "Is this a real cafe racer?", "answer": "It's a factory-built cafe racer styled motorcycle."},
+      {"question": "Does it have ABS?", "answer": "No, dual disc brakes are offered without ABS."},
+      {"question": "Is it suitable for long rides?", "answer": "Comfortable for city rides, but may lack power on highways."},
+      {"question": "Is the design unique?", "answer": "Yes, it stands out with its cafe racer design."}
+    ]
+  },
+  {
+    "name": "Speeder Force 110",
+    "slug": "speeder-force-110",
+    "brand": "Speeder",
+    "category": "Commuter",
+    "cc": 109.5,
+    "price": "Tk. 114,500",
+    "short_description": "The Speeder Force 110 is an economical 110cc commuter designed for daily city rides, offering good mileage, simple design, and budget-friendly performance.",
+    "Zero_Sixty": "7.0 sec",
+    "Zero_Hundred": "20.0 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "60 kmpl",
+    "mileage_reported": "55–58 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "115 kg",
+    "max_power": "8.0 PS @ 7500 rpm",
+    "max_torque": "8.5 Nm @ 5500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Halogen",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "770 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1980 mm",
+    "overall_width": "740 mm",
+    "build_quality": "Basic City Commuter",
+    "parts_availability": "Moderate in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/force110-front.webp", "alt": "Speeder Force 110 Front View"},
+      {"url": "https://cdn.example.com/force110-side.webp", "alt": "Speeder Force 110 Side View"},
+      {"url": "https://cdn.example.com/force110-rear.webp", "alt": "Speeder Force 110 Rear View"},
+      {"url": "https://cdn.example.com/force110-back.webp", "alt": "Speeder Force 110 Back View"}
+    ],
+    "pros": [
+      "Affordable pricing",
+      "Good mileage",
+      "Lightweight and easy handling",
+      "Reliable engine for daily use",
+      "Tubeless tyres for safety"
+    ],
+    "cons": [
+      "Basic design and features",
+      "No ABS or advanced safety",
+      "Low top speed",
+      "Basic halogen lights",
+      "Limited brand network"
+    ],
+    "faqs": [
+      {"question": "Is it suitable for beginners?", "answer": "Yes, its light weight and simple handling make it ideal for beginners."},
+      {"question": "Does it have disc brakes?", "answer": "Yes, it comes with a front disc brake."},
+      {"question": "How is the mileage?", "answer": "Users report around 55–58 kmpl in daily rides."},
+      {"question": "Is it good for long rides?", "answer": "Primarily built for short city commutes, not ideal for long highway rides."}
+    ]
+  },
+  {
+    "name": "Speeder Mugen 150",
+    "slug": "speeder-mugen-150",
+    "brand": "Speeder",
+    "category": "Naked",
+    "cc": 149.6,
+    "price": "Tk. 149,500",
+    "short_description": "The Speeder Mugen 150 is a budget-friendly 150cc naked commuter with simple styling, efficient performance, and designed for everyday city commuting.",
+    "Zero_Sixty": "6.2 sec",
+    "Zero_Hundred": "18.5 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–48 kmpl",
+    "top_speed_claimed": "110 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "135 kg",
+    "max_power": "12.0 PS @ 8000 rpm",
+    "max_torque": "11.5 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "260 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "13 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Halogen",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "780 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Budget Commuter",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/mugen150-front.webp", "alt": "Speeder Mugen 150 Front View"},
+      {"url": "https://cdn.example.com/mugen150-side.webp", "alt": "Speeder Mugen 150 Side View"},
+      {"url": "https://cdn.example.com/mugen150-rear.webp", "alt": "Speeder Mugen 150 Rear View"},
+      {"url": "https://cdn.example.com/mugen150-back.webp", "alt": "Speeder Mugen 150 Back View"}
+    ],
+    "pros": [
+      "Affordable 150cc bike",
+      "Reliable commuter performance",
+      "Decent fuel efficiency",
+      "Easy to ride in city traffic",
+      "Simple and minimal maintenance"
+    ],
+    "cons": [
+      "No ABS or advanced safety",
+      "Basic design and lighting",
+      "Not powerful for highway rides",
+      "Parts availability is limited",
+      "No premium features included"
+    ],
+    "faqs": [
+      {"question": "Is it fuel injected?", "answer": "No, it comes with a carburetor."},
+      {"question": "Does it have ABS?", "answer": "No, only a front disc brake is available."},
+      {"question": "What is the reported mileage?", "answer": "Users report around 45–48 kmpl."},
+      {"question": "Is it good for beginners?", "answer": "Yes, it's suitable for entry-level riders and daily use."}
+    ]
+  },
+  {
+    "name": "Speeder NSX 165R",
+    "slug": "speeder-nsx-165r",
+    "brand": "Speeder",
+    "category": "Sports",
+    "cc": 165,
+    "price": "Tk. 309,900",
+    "short_description": "The Speeder NSX 165R is a full-faired sports bike with aggressive design, 165cc engine, and sharp performance targeted at young enthusiasts and city riders.",
+    "Zero_Sixty": "5.5 sec",
+    "Zero_Hundred": "15.5 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "35–38 kmpl",
+    "top_speed_claimed": "140 km/h",
+    "top_speed_reported": "130 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
+    "weight": "150 kg",
+    "max_power": "18.0 PS @ 9000 rpm",
+    "max_torque": "14.6 Nm @ 7000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "Dual-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2050 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Full-Faired Sports Bike",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/nsx165r-front.webp", "alt": "Speeder NSX 165R Front View"},
+      {"url": "https://cdn.example.com/nsx165r-side.webp", "alt": "Speeder NSX 165R Side View"},
+      {"url": "https://cdn.example.com/nsx165r-rear.webp", "alt": "Speeder NSX 165R Rear View"},
+      {"url": "https://cdn.example.com/nsx165r-back.webp", "alt": "Speeder NSX 165R Back View"}
+    ],
+    "pros": [
+      "Sharp and aggressive design",
+      "Liquid-cooled engine with good power",
+      "Sporty riding posture",
+      "LED projector with DRLs",
+      "Good performance in 165cc segment"
+    ],
+    "cons": [
+      "No ABS offered",
+      "Weight may be high for beginners",
+      "Limited brand network",
+      "Parts availability concerns",
+      "Fuel efficiency lower than commuters"
+    ],
+    "faqs": [
+      {"question": "Does it have ABS?", "answer": "No, only dual disc brakes without ABS."},
+      {"question": "Is it fuel injected?", "answer": "No, this version comes with a carburetor."},
+      {"question": "Is it suitable for highway rides?", "answer": "Yes, performance makes it suitable for long rides."},
+      {"question": "What is the top speed?", "answer": "Users report up to 130 km/h in real conditions."}
+    ]
+  },
+  {
+    "name": "Speeder NSX 165R FI V3",
+    "slug": "speeder-nsx-165r-fi-v3",
+    "brand": "Speeder",
+    "category": "Sports",
+    "cc": 164.4,
+    "price": "Tk. 370,000",
+    "short_description": "The Speeder NSX 165R FI V3 is an advanced version of the NSX series featuring Fuel Injection, refined engine performance, and an aggressive sports design for young riders.",
+    "Zero_Sixty": "5.3 sec",
+    "Zero_Hundred": "15.0 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "42 kmpl",
+    "mileage_reported": "36–40 kmpl",
+    "top_speed_claimed": "145 km/h",
+    "top_speed_reported": "135 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
+    "weight": "152 kg",
+    "max_power": "19.0 PS @ 9000 rpm",
+    "max_torque": "15.0 Nm @ 7000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "230 mm Disc",
+    "caliper": {
+      "front": "Dual-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "100/80-17",
+    "rear_tyre_size": "130/70-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Fully Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2050 mm",
+    "overall_width": "720 mm",
+    "build_quality": "Full-Faired Sports FI Bike",
+    "parts_availability": "Limited in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/nsx165rfi-front.webp", "alt": "Speeder NSX 165R FI V3 Front View"},
+      {"url": "https://cdn.example.com/nsx165rfi-side.webp", "alt": "Speeder NSX 165R FI V3 Side View"},
+      {"url": "https://cdn.example.com/nsx165rfi-rear.webp", "alt": "Speeder NSX 165R FI V3 Rear View"},
+      {"url": "https://cdn.example.com/nsx165rfi-back.webp", "alt": "Speeder NSX 165R FI V3 Back View"}
+    ],
+    "pros": [
+      "Fuel Injection for better efficiency",
+      "Improved engine refinement",
+      "Sharp sports bike design",
+      "LED headlamp with DRLs",
+      "Powerful engine output"
+    ],
+    "cons": [
+      "No ABS included",
+      "Weighty for city traffic",
+      "Higher price than carburetor model",
+      "Limited parts availability",
+      "Not ideal for beginners"
+    ],
+    "faqs": [
+      {"question": "Is it fuel injected?", "answer": "Yes, this V3 version comes with a fuel injection system."},
+      {"question": "Does it have ABS?", "answer": "No, dual disc brakes are provided but no ABS."},
+      {"question": "What is the real top speed?", "answer": "Users report around 135 km/h in real riding."},
+      {"question": "Is it suitable for daily city commute?", "answer": "It is better suited for highways and spirited rides."}
+    ]
+  },
+  {
+    "name": "Speeder Vigo 110",
+    "slug": "speeder-vigo-110",
+    "brand": "Speeder",
+    "category": "Scooter",
+    "cc": 109.5,
+    "price": "Tk. 104,500",
+    "short_description": "The Speeder Vigo 110 is an entry-level scooter designed for city commuting with a compact design, good fuel efficiency, and easy handling for daily riders.",
+    "Zero_Sixty": "8.0 sec",
+    "Zero_Hundred": "22.0 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "55 kmpl",
+    "mileage_reported": "50–53 kmpl",
+    "top_speed_claimed": "85 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "100 kg",
+    "max_power": "7.0 PS @ 7500 rpm",
+    "max_torque": "8.0 Nm @ 5500 rpm",
+    "clutch": "Dry Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "3.50-10",
+    "rear_tyre_size": "3.50-10",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Halogen",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "760 mm",
+    "ground_clearance": "140 mm",
+    "overall_length": "1750 mm",
+    "overall_width": "680 mm",
+    "build_quality": "City Commuter Scooter",
+    "parts_availability": "Moderate in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/vigo110-front.webp", "alt": "Speeder Vigo 110 Front View"},
+      {"url": "https://cdn.example.com/vigo110-side.webp", "alt": "Speeder Vigo 110 Side View"},
+      {"url": "https://cdn.example.com/vigo110-rear.webp", "alt": "Speeder Vigo 110 Rear View"},
+      {"url": "https://cdn.example.com/vigo110-back.webp", "alt": "Speeder Vigo 110 Back View"}
+    ],
+    "pros": [
+      "Affordable scooter",
+      "Good mileage for city use",
+      "Lightweight and nimble",
+      "Tubeless tyres",
+      "Low maintenance cost"
+    ],
+    "cons": [
+      "Basic features",
+      "No ABS or advanced safety",
+      "Low top speed",
+      "Limited parts availability",
+      "Halogen lights only"
+    ],
+    "faqs": [
+      {"question": "Is it suitable for daily commuting?", "answer": "Yes, perfect for short city commutes."},
+      {"question": "Does it have ABS?", "answer": "No, it has front disc and rear drum brakes."},
+      {"question": "What is the fuel efficiency?", "answer": "Users report 50–53 kmpl."},
+      {"question": "Is it good for highway rides?", "answer": "Not recommended for highways due to lower top speed."}
+    ]
+  },
+  {
+    "name": "Speeder Volex 125",
+    "slug": "speeder-volex-125",
+    "brand": "Speeder",
+    "category": "Scooter",
+    "cc": 125,
+    "price": "Tk. 124,500",
+    "short_description": "The Speeder Volex 125 is a 125cc scooter designed for urban commuters seeking a balance of style, mileage, and practical performance for daily use.",
+    "Zero_Sixty": "7.5 sec",
+    "Zero_Hundred": "21.0 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "50 kmpl",
+    "mileage_reported": "45–48 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "105 kg",
+    "max_power": "8.5 PS @ 7500 rpm",
+    "max_torque": "9.0 Nm @ 5500 rpm",
+    "clutch": "Dry Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "3.50-10",
+    "rear_tyre_size": "3.50-10",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "5.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Halogen",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "765 mm",
+    "ground_clearance": "145 mm",
+    "overall_length": "1780 mm",
+    "overall_width": "690 mm",
+    "build_quality": "Urban Commuter Scooter",
+    "parts_availability": "Moderate in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/volex125-front.webp", "alt": "Speeder Volex 125 Front View"},
+      {"url": "https://cdn.example.com/volex125-side.webp", "alt": "Speeder Volex 125 Side View"},
+      {"url": "https://cdn.example.com/volex125-rear.webp", "alt": "Speeder Volex 125 Rear View"},
+      {"url": "https://cdn.example.com/volex125-back.webp", "alt": "Speeder Volex 125 Back View"}
+    ],
+    "pros": [
+      "Stylish scooter design",
+      "Good fuel economy",
+      "Comfortable for city rides",
+      "Lightweight and easy to handle",
+      "Competitive pricing"
+    ],
+    "cons": [
+      "No ABS or CBS",
+      "Basic halogen lights",
+      "Limited brand network",
+      "Low top speed for highways",
+      "Small fuel tank"
+    ],
+    "faqs": [
+      {"question": "Is it good for long rides?", "answer": "Best suited for short city commutes."},
+      {"question": "Does it have ABS?", "answer": "No, it only has front disc brakes."},
+      {"question": "How is the mileage?", "answer": "Users report 45–48 kmpl on average."},
+      {"question": "Is it suitable for beginners?", "answer": "Yes, it's beginner-friendly and easy to ride."}
+    ]
+  },
+  {
+    "name": "Speeder Volex Pro 125",
+    "slug": "speeder-volex-pro-125",
+    "brand": "Speeder",
+    "category": "Scooter",
+    "cc": 124.3,
+    "price": "Tk. 134,500",
+    "short_description": "The Speeder Volex Pro 125 is a premium 125cc scooter with modern features, improved styling, and reliable performance for daily urban commuters.",
+    "Zero_Sixty": "7.2 sec",
+    "Zero_Hundred": "20.5 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "52 kmpl",
+    "mileage_reported": "47–50 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "88 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "108 kg",
+    "max_power": "9.0 PS @ 7500 rpm",
+    "max_torque": "9.5 Nm @ 5500 rpm",
+    "clutch": "Dry Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-12",
+    "rear_tyre_size": "90/90-12",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "6 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "770 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "1800 mm",
+    "overall_width": "700 mm",
+    "build_quality": "Premium Urban Scooter",
+    "parts_availability": "Moderate in Bangladesh",
+    "image_urls": [
+      {"url": "https://cdn.example.com/volexpro-front.webp", "alt": "Speeder Volex Pro 125 Front View"},
+      {"url": "https://cdn.example.com/volexpro-side.webp", "alt": "Speeder Volex Pro 125 Side View"},
+      {"url": "https://cdn.example.com/volexpro-rear.webp", "alt": "Speeder Volex Pro 125 Rear View"},
+      {"url": "https://cdn.example.com/volexpro-back.webp", "alt": "Speeder Volex Pro 125 Back View"}
+    ],
+    "pros": [
+      "LED lighting with DRLs",
+      "Modern scooter design",
+      "Good mileage for daily use",
+      "Comfortable seating position",
+      "Easy maneuverability in traffic"
+    ],
+    "cons": [
+      "No ABS or CBS",
+      "Higher price for segment",
+      "Small wheel size",
+      "Limited service network",
+      "Not suitable for highways"
+    ],
+    "faqs": [
+      {"question": "Does it have LED lights?", "answer": "Yes, it features LED headlamp and DRLs."},
+      {"question": "Is it fuel efficient?", "answer": "Users report 47–50 kmpl on average."},
+      {"question": "Does it have disc brakes on both wheels?", "answer": "No, only the front brake is a disc."},
+      {"question": "Is it beginner-friendly?", "answer": "Yes, very easy to ride and handle for beginners."}
+    ]
+  }
+]
+
+
