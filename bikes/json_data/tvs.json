@@ -1,503 +1,597 @@
- [
-   {
-    "name": "TVS XL 100",
-    "slug": "tvs-xl-100",
-    "cc": 99,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "70 kmpl",
-    "mileage_reported": "65–70 kmpl",
-    "top_speed_claimed": "50 km/h",
-    "top_speed_reported": "45 km/h",
-    "braking": "Drum 110 mm",
-    "gear": "Semi-automatic (no clutch)",
-    "weight": "88 kg",
-    "max_power": "3.2 PS @ 5500 rpm",
-    "max_torque": "4.7 Nm @ 3000 rpm",
-    "clutch": "Dry centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Drum",
-    "rear_brake": "Drum",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tube",
-    "front_tyre_size": "3.00-17",
-    "rear_tyre_size": "3.00-17",
-    "wheel_type": "Spoke",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "3.8 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Incandescent",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analogue",
-    "seat_height": "675 mm",
-    "ground_clearance": "145 mm",
-    "overall_length": "1820 mm",
-    "overall_width": "670 mm",
-    "build_quality": "Basic and rugged",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-xl100-front.webp",
-      "https://cdn.example.com/tvs-xl100-side.webp",
-      "https://cdn.example.com/tvs-xl100-back.webp"
-    ],
-    "pros": [
-      "Ultra‑affordable and rugged",
-      "Exceptional fuel economy",
-      "No‑frills simplicity",
-      "High load‑carrying capability",
-      "Easy maintenance"
-    ],
-    "cons": [
-      "Very basic suspension",
-      "Low top speed",
-      "No modern features",
-      "Limited comfort"
-    ],
-    "faqs": [
-      {
-        "question": "Is the TVS XL capable of carrying heavy loads?",
-        "answer": "Yes, it's known for its ability to carry up to 60 kg easily."
-      },
-      {
-        "question": "Is it street‑legal without license in India?",
-        "answer": "Yes, it typically falls under low‑power unlicensed vehicles in many Indian states."
-      },
-      {
-        "question": "What’s the mileage?",
-        "answer": "Real‑world mileage is excellent – around 65–70 kmpl."
-      },
-      {
-        "question": "Does it have electric start?",
-        "answer": "No, it only has kick‑start."
-      }
-    ]
-  },
+[
   {
-    "name": "TVS XL 100 i‑Touch",
-    "slug": "tvs-xl-100-i-touch",
-    "cc": 99,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "70 kmpl",
-    "mileage_reported": "65–70 kmpl",
-    "top_speed_claimed": "50 km/h",
-    "top_speed_reported": "45 km/h",
-    "braking": "Drum 110 mm",
-    "gear": "Semi-automatic (no clutch)",
-    "weight": "89 kg",
-    "max_power": "3.2 PS @ 5500 rpm",
-    "max_torque": "4.7 Nm @ 3000 rpm",
-    "clutch": "Dry centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Drum",
-    "rear_brake": "Drum",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tube",
-    "front_tyre_size": "3.00-17",
-    "rear_tyre_size": "3.00-17",
-    "wheel_type": "Spoke",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "3.8 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Incandescent",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital speedometer + analogue tachometer",
-    "seat_height": "675 mm",
-    "ground_clearance": "145 mm",
-    "overall_length": "1820 mm",
-    "overall_width": "670 mm",
-    "build_quality": "Basic, slightly upgraded",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-xl100-itouch-front.webp",
-      "https://cdn.example.com/tvs-xl100-itouch-side.webp",
-      "https://cdn.example.com/tvs-xl100-itouch-back.webp"
-    ],
-    "pros": [
-      "Includes digital speedometer",
-      "Affordable and rugged",
-      "Excellent mileage",
-      "No‑frills ease of use",
-      "High payload capacity"
-    ],
-    "cons": [
-      "Still no electric start",
-      "Very basic features",
-      "Low comfort",
-      "Tube tyres only"
-    ],
-    "faqs": [
-      {
-        "question": "What is the difference from standard XL 100?",
-        "answer": "It adds a digital speedometer for better rides."
-      },
-      {
-        "question": "Does it have electric start?",
-        "answer": "No, it uses only kick‑start."
-      },
-      {
-        "question": "How durable is it?",
-        "answer": "Very durable—built for rough rural use."
-      },
-      {
-        "question": "Can it be used for commercial purposes?",
-        "answer": "Yes, many use it for delivery and courier services."
-      }
-    ]
-  },
-  {
-    "name": "TVS Wego 110",
-    "slug": "tvs-wego-110",
-    "cc": 110,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
+    "name": "TVS Apache RTR 160 4V Fi",
+    "slug": "tvs-apache-rtr-160-4v-fi",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 274,900",
+    "short_description": "TVS Apache RTR 160 4V Fi - A fuel-injected 159.7cc sporty street motorcycle with aggressive styling and race-inspired features. Offers precise throttle response and efficient performance.",
+    "Zero_Sixty": "4.2 sec",
+    "Zero_Hundred": "11.5 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "40-42 kmpl",
+    "top_speed_claimed": "120 km/h",
+    "top_speed_reported": "115 km/h",
     "braking": "Front Disc, Rear Drum",
-    "gear": "V-Belt Automatic",
-    "weight": "111 kg",
-    "max_power": "8.3 PS @ 7250 rpm",
-    "max_torque": "9.4 Nm @ 5500 rpm",
-    "clutch": "Dry, centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Disc 190 mm",
-    "rear_brake": "Drum 130 mm",
+    "gear": "5-speed manual",
+    "weight": "139 kg",
+    "max_power": "17.63 PS @ 8500 rpm",
+    "max_torque": "14.73 Nm @ 6750 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "130 mm Drum",
     "caliper": {
       "front": "Single-piston",
-      "rear": "None"
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Sporty with aerodynamic design",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-rtr-fi-front.webp",
+        "alt": "TVS Apache RTR 160 4V Fi Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-rtr-fi-side.webp",
+        "alt": "TVS Apache RTR 160 4V Fi Side View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-rtr-fi-back.webp",
+        "alt": "TVS Apache RTR 160 4V Fi Back View"
+      }
+    ],
+    "pros": [
+      "Fuel-injected engine for precise throttle response",
+      "Aggressive and sporty design language",
+      "LED lighting with projector headlamp",
+      "Good ground clearance for various road conditions",
+      "Sporty exhaust note enhances riding experience"
+    ],
+    "cons": [
+      "Base variant comes with rear drum brake",
+      "Noticeable vibrations at higher RPM ranges",
+      "Relatively small fuel tank limits touring capability",
+      "Firm seat may cause discomfort on long rides",
+      "No dual-channel ABS in this variant"
+    ],
+    "faqs": [
+      {
+        "question": "Does this model come with ABS?",
+        "answer": "The base Fi variant comes without ABS, but single-channel ABS is available as an option."
+      },
+      {
+        "question": "What's the acceleration performance like?",
+        "answer": "It can accelerate from 0-60 kmph in 4.2 seconds and 0-100 kmph in 11.5 seconds."
+      },
+      {
+        "question": "Is this suitable for daily city commuting?",
+        "answer": "Yes, its lightweight design and good low-end torque make it very suitable for city riding."
+      },
+      {
+        "question": "How does the fuel injection system benefit the rider?",
+        "answer": "Fuel injection ensures better throttle response, improved fuel efficiency, and smoother performance across RPM ranges compared to carbureted engines."
+      }
+    ]
+  },
+  {
+    "name": "TVS Apache RTR 160 4V SMARTXCONNECT DD",
+    "slug": "tvs-apache-rtr-160-4v-smartxconnect-dd",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 214,999",
+    "short_description": "TVS Apache RTR 160 4V SMARTXCONNECT DD - Features a digital dash with smartphone connectivity, offering a tech-enhanced riding experience with the same 159.7cc performance.",
+    "Zero_Sixty": "4.3 sec",
+    "Zero_Hundred": "11.7 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "44 kmpl",
+    "mileage_reported": "39-41 kmpl",
+    "top_speed_claimed": "118 km/h",
+    "top_speed_reported": "113 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "140 kg",
+    "max_power": "17.63 PS @ 8500 rpm",
+    "max_torque": "14.73 Nm @ 6750 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Digital LCD with SmartXonnect",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Sporty with tech features",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-smartx-dd-front.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-smartx-dd-side.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Side View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-smartx-dd-back.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Back View"
+      }
+    ],
+    "pros": [
+      "SmartXonnect digital dash with smartphone connectivity",
+      "Same peppy 159.7cc engine as other variants",
+      "LED lighting with projector headlamp",
+      "Good value for money with tech features",
+      "Comfortable ergonomics for daily riding"
+    ],
+    "cons": [
+      "Rear drum brake limits braking performance",
+      "Bluetooth connectivity can be finicky at times",
+      "Slightly heavier than base variant",
+      "No ABS in this version",
+      "Small fuel tank compared to competitors"
+    ],
+    "faqs": [
+      {
+        "question": "What does the SmartXonnect system offer?",
+        "answer": "It provides smartphone connectivity for call/SMS alerts, navigation assist, and ride analytics."
+      },
+      {
+        "question": "Is there any performance difference from the Fi variant?",
+        "answer": "The engine is identical, but the added tech features make it slightly heavier, affecting acceleration marginally."
+      },
+      {
+        "question": "Does this variant have ABS?",
+        "answer": "No, the SMARTXCONNECT DD variant comes without ABS."
+      },
+      {
+        "question": "Can I use navigation on the digital display?",
+        "answer": "Yes, the SmartXonnect system supports turn-by-turn navigation when paired with your smartphone via Bluetooth."
+      }
+    ]
+  },
+  {
+    "name": "TVS Apache RTR 160 4V SMARTXCONNECT SD",
+    "slug": "tvs-apache-rtr-160-4v-smartxconnect-sd",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 219,900",
+    "short_description": "TVS Apache RTR 160 4V SMARTXCONNECT SD - Combines the 159.7cc engine with a semi-digital console and SmartXonnect features, offering a balance of tech and performance.",
+    "Zero_Sixty": "4.3 sec",
+    "Zero_Hundred": "11.7 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "44 kmpl",
+    "mileage_reported": "39-41 kmpl",
+    "top_speed_claimed": "118 km/h",
+    "top_speed_reported": "113 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "140 kg",
+    "max_power": "17.63 PS @ 8500 rpm",
+    "max_torque": "14.73 Nm @ 6750 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "Semi-Digital with SmartXonnect",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Sporty with tech integration",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-smartx-sd-front.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-smartx-sd-side.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Side View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-smartx-sd-back.webp",
+        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Back View"
+      }
+    ],
+    "pros": [
+      "More affordable SmartXonnect option",
+      "Retains the same 159.7cc engine performance",
+      "LED lighting package",
+      "Good balance between price and features",
+      "Comfortable riding position"
+    ],
+    "cons": [
+      "Semi-digital console instead of full digital",
+      "No ABS in this variant",
+      "Basic switchgear quality",
+      "Vibrations at high RPMs",
+      "Small pillion seat"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between DD and SD variants?",
+        "answer": "The SD has a semi-digital console while DD has a full digital display, otherwise they share the same features."
+      },
+      {
+        "question": "Does this variant support navigation?",
+        "answer": "Yes, through the SmartXonnect app, but it's more limited than the DD variant."
+      },
+      {
+        "question": "Is the riding position aggressive?",
+        "answer": "It's moderately sporty but comfortable for daily use with slightly rear-set footpegs."
+      },
+      {
+        "question": "Does the SD variant get the same LED lighting?",
+        "answer": "Yes, both SD and DD variants come with full LED lighting including the projector headlamp and DRLs."
+      }
+    ]
+  },
+  {
+    "name": "TVS Apache RTR 160 Race Edition ABS",
+    "slug": "tvs-apache-rtr-160-race-edition-abs",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 194,999",
+    "short_description": "TVS Apache RTR 160 Race Edition ABS - A track-inspired variant with dual-tone colors, ABS, and the same 159.7cc engine tuned for spirited riding.",
+    "Zero_Sixty": "4.1 sec",
+    "Zero_Hundred": "11.3 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "43 kmpl",
+    "mileage_reported": "38-40 kmpl",
+    "top_speed_claimed": "122 km/h",
+    "top_speed_reported": "117 km/h",
+    "braking": "Front Disc, Rear Drum (Single-channel ABS)",
+    "gear": "5-speed manual",
+    "weight": "142 kg",
+    "max_power": "17.63 PS @ 8500 rpm",
+    "max_torque": "14.73 Nm @ 6750 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Race-inspired with premium graphics",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-race-abs-front.webp",
+        "alt": "TVS Apache RTR 160 Race Edition ABS Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-race-abs-side.webp",
+        "alt": "TVS Apache RTR 160 Race Edition ABS Side View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-race-abs-back.webp",
+        "alt": "TVS Apache RTR 160 Race Edition ABS Back View"
+      }
+    ],
+    "pros": [
+      "Race-inspired graphics and styling",
+      "Single-channel ABS for safety",
+      "Slightly better acceleration than standard variants",
+      "LED lighting with DRLs",
+      "Good cornering stability"
+    ],
+    "cons": [
+      "ABS only on front wheel",
+      "Graphics may fade over time",
+      "Firmer suspension setup",
+      "No Bluetooth connectivity",
+      "Small mirrors for visibility"
+    ],
+    "faqs": [
+      {
+        "question": "Is this the fastest Apache RTR 160 variant?",
+        "answer": "Yes, the Race Edition is slightly quicker due to optimized tuning, doing 0-60 kmph in 4.1 seconds."
+      },
+      {
+        "question": "Does it have dual-channel ABS?",
+        "answer": "No, it comes with single-channel ABS (front wheel only)."
+      },
+      {
+        "question": "Are the race graphics durable?",
+        "answer": "The decals are quality but may require extra care during washing to prevent peeling over time."
+      },
+      {
+        "question": "Is the suspension setup different from standard variants?",
+        "answer": "It uses the same suspension components but is tuned slightly stiffer for better cornering stability."
+      }
+    ]
+  },
+  {
+    "name": "TVS Apache RTR 160 Race Edition SD",
+    "slug": "tvs-apache-rtr-160-race-edition-sd",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 189,999",
+    "short_description": "TVS Apache RTR 160 Race Edition SD - The affordable race-styled variant with semi-digital console, sharing the 159.7cc engine but without ABS.",
+    "Zero_Sixty": "4.2 sec",
+    "Zero_Hundred": "11.5 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "44 kmpl",
+    "mileage_reported": "39-41 kmpl",
+    "top_speed_claimed": "120 km/h",
+    "top_speed_reported": "115 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "141 kg",
+    "max_power": "17.63 PS @ 8500 rpm",
+    "max_torque": "14.73 Nm @ 6750 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi-Digital",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Race styling with cost-saving measures",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-race-sd-front.webp",
+        "alt": "TVS Apache RTR 160 Race Edition SD Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-race-sd-side.webp",
+        "alt": "TVS Apache RTR 160 Race Edition SD Side View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-race-sd-back.webp",
+        "alt": "TVS Apache RTR 160 Race Edition SD Back View"
+      }
+    ],
+    "pros": [
+      "Most affordable Race Edition variant",
+      "Retains the sporty 159.7cc engine",
+      "LED headlight with DRLs",
+      "Aggressive styling with race graphics",
+      "Lighter than ABS version"
+    ],
+    "cons": [
+      "No ABS even as an option",
+      "Semi-digital console feels basic",
+      "Vibrations at high speeds",
+      "Thinner seat padding",
+      "No Bluetooth features"
+    ],
+    "faqs": [
+      {
+        "question": "How does this differ from the Race Edition ABS?",
+        "answer": "It lacks ABS and has a semi-digital console instead of full digital, but shares the same engine and styling."
+      },
+      {
+        "question": "Is the suspension setup different?",
+        "answer": "No, it uses the same suspension as other variants but may feel stiffer due to lighter weight."
+      },
+      {
+        "question": "Does it have a gear position indicator?",
+        "answer": "Yes, the semi-digital console includes a gear indicator."
+      },
+      {
+        "question": "Are the race graphics the same as the ABS version?",
+        "answer": "Yes, it features identical race-inspired graphics and color schemes as the ABS variant."
+      }
+    ]
+  },
+  {
+    "name": "TVS Apache RTR 4V ABS",
+    "slug": "tvs-apache-rtr-4v-abs",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 159.7,
+    "price": "Tk. 247,900",
+    "short_description": "TVS Apache RTR 4V ABS - A 159.7cc street motorcycle with dual-channel ABS, refined 4-valve engine, and sporty ergonomics for spirited riding.",
+    "Zero_Sixty": "4.0 sec",
+    "Zero_Hundred": "11.2 sec",
+    "engine_cooling": "Oil Cooled",
+    "mileage_claimed": "43 kmpl",
+    "mileage_reported": "38-40 kmpl",
+    "top_speed_claimed": "125 km/h",
+    "top_speed_reported": "120 km/h",
+    "braking": "Front Disc, Rear Disc (Dual-channel ABS)",
+    "gear": "5-speed manual",
+    "weight": "143 kg",
+    "max_power": "18.1 PS @ 8500 rpm",
+    "max_torque": "15.0 Nm @ 7000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Oil Cooled",
+    "front_brake": "270 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "110/80-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "1995 mm",
+    "overall_width": "770 mm",
+    "build_quality": "Sporty with premium fit-finish",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/apache-rtr4v-abs-front.webp",
+        "alt": "TVS Apache RTR 4V ABS Front View"
+      },
+      {
+        "url": "https://cdn.example.com/apache-rtr4v-abs-side.webp",
+        "alt": "TVS Apache RTR 4V ABS Side View"
+      }
+    ],
+    "pros": [
+      "Dual-channel ABS for superior safety",
+      "Refined 4-valve engine with linear power delivery",
+      "Sporty yet comfortable ergonomics",
+      "Premium LED lighting package",
+      "Excellent braking performance"
+    ],
+    "cons": [
+      "Slightly heavier than non-ABS variants",
+      "Vibrations noticeable at high RPMs",
+      "Small fuel tank for touring",
+      "Pillion seat could be more comfortable",
+      "No Bluetooth connectivity"
+    ],
+    "faqs": [
+      {
+        "question": "How does the 4V engine differ from standard RTR 160?",
+        "answer": "The 4-valve engine breathes better at high RPMs, offering improved top-end performance compared to 2-valve versions."
+      },
+      {
+        "question": "Is the ABS system switchable?",
+        "answer": "No, the dual-channel ABS is always active for safety."
+      },
+      {
+        "question": "What's the real-world fuel efficiency?",
+        "answer": "Expect 38-40 kmpl under normal riding conditions with mixed city-highway usage."
+      },
+      {
+        "question": "Does it have a slipper clutch?",
+        "answer": "No, it comes with a standard wet multi-plate clutch."
+      }
+    ]
+  },
+  {
+    "name": "TVS Jupiter",
+    "slug": "tvs-jupiter",
+    "brand": "TVS",
+    "category": "Scooter",
+    "cc": 109.7,
+    "price": "Tk. 137,900",
+    "short_description": "TVS Jupiter - A 109.7cc practical commuter scooter with best-in-class comfort features, excellent mileage, and reliable performance for daily commuting.",
+    "Zero_Sixty": "9.8 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "55 kmpl",
+    "mileage_reported": "50-53 kmpl",
+    "top_speed_claimed": "85 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Front Disc/Rear Drum (CBS)",
+    "gear": "CVT Automatic",
+    "weight": "109 kg",
+    "max_power": "7.4 PS @ 7000 rpm",
+    "max_torque": "8.4 Nm @ 5500 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "190 mm Disc (Optional)",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston (Disc variant)",
+      "rear": "N/A (Drum)"
     },
     "tyre_type": "Tubeless",
     "front_tyre_size": "90/90-12",
     "rear_tyre_size": "90/90-12",
     "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "5 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital + analogue combo",
-    "seat_height": "780 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1765 mm",
-    "overall_width": "700 mm",
-    "build_quality": "Comfy",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-wego-front.webp",
-      "https://cdn.example.com/tvs-wego-side.webp",
-      "https://cdn.example.com/tvs-wego-back.webp"
-    ],
-    "pros": [
-      "Good mileage",
-      "Smooth ride with telescopic fork",
-      "Disc brake adds safety",
-      "Attractive design",
-      "Comprehensive features"
-    ],
-    "cons": [
-      "Performance modest compared to rivals",
-      "No Bluetooth",
-      "Soft rear suspension",
-      "Under-dump trunk space"
-    ],
-    "faqs": [
-      {
-        "question": "Is Wego 110 good for city rides?",
-        "answer": "Yes, it’s nimble, comfortable, and practical for daily use."
-      },
-      {
-        "question": "Does it have a disc brake?",
-        "answer": "Yes, front disc and rear drum."
-      },
-      {
-        "question": "How’s the mileage?",
-        "answer": "Typically 55–60 kmpl in city riding."
-      },
-      {
-        "question": "Does it have traction control?",
-        "answer": "No, it doesn’t feature traction control."
-      }
-    ]
-  },
-  {
-    "name": "TVS Scooty Zest",
-    "slug": "tvs-scooty-zest",
-    "cc": 110,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "60 kmpl",
-    "mileage_reported": "50–55 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
-    "braking": "Front Drum, Rear Drum",
-    "gear": "V-Belt Automatic",
-    "weight": "103 kg",
-    "max_power": "7.8 PS @ 7250 rpm",
-    "max_torque": "8.7 Nm @ 5500 rpm",
-    "clutch": "Dry, centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Drum 130 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/100-10",
-    "rear_tyre_size": "90/100-10",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "0.8 L",
-    "fuel_tank_capacity": "5 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Incandescent",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analogue with digital trip",
-    "seat_height": "760 mm",
-    "ground_clearance": "120 mm",
-    "overall_length": "1790 mm",
-    "overall_width": "660 mm",
-    "build_quality": "Light and easy",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/scooty-zest-front.webp",
-      "https://cdn.example.com/scooty-zest-side.webp",
-      "https://cdn.example.com/scooty-zest-back.webp"
-    ],
-    "pros": [
-      "Lightweight and easy to ride",
-      "Comfortable seat and floorboard",
-      "Low running cost",
-      "Agile at low speeds",
-      "Comes with Combi Brake System"
-    ],
-    "cons": [
-      "No disc brake option",
-      "Basic lighting",
-      "No digital console",
-      "Not suited for aggressive rides"
-    ],
-    "faqs": [
-      {
-        "question": "Is Scooty Zest good for college goers?",
-        "answer": "Yes, it’s light, practical, and easy to ride in traffic."
-      },
-      {
-        "question": "Does it have disc brakes?",
-        "answer": "No, it uses drum brakes front and rear."
-      },
-      {
-        "question": "Is the mileage good?",
-        "answer": "Yes, you can expect 50–55 kmpl in city."
-      },
-      {
-        "question": "Is it easy to maintain?",
-        "answer": "Yes, service costs are low and parts are readily available."
-      }
-    ]
-  },
-  {
-    "name": "TVS Metro",
-    "slug": "tvs-metro",
-    "cc": 99,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "60 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
-    "braking": "Front Drum, Rear Drum",
-    "gear": "V-Belt Automatic",
-    "weight": "104 kg",
-    "max_power": "7.8 PS @ 7000 rpm",
-    "max_torque": "8.7 Nm @ 5500 rpm",
-    "clutch": "Dry, centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Drum 130 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/100-10",
-    "rear_tyre_size": "90/100-10",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "0.8 L",
-    "fuel_tank_capacity": "4.8 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Incandescent",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analogue",
-    "seat_height": "770 mm",
-    "ground_clearance": "145 mm",
-    "overall_length": "1770 mm",
-    "overall_width": "650 mm",
-    "build_quality": "Practical",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-metro-front.webp",
-      "https://cdn.example.com/tvs-metro-side.webp",
-      "https://cdn.example.com/tvs-metro-back.webp"
-    ],
-    "pros": [
-      "Economical for daily commuting",
-      "Lightweight and nimble",
-      "Affordable price",
-      "Good parts availability",
-      "Tall stance is easy to handle"
-    ],
-    "cons": [
-      "No disc brake",
-      "Basic features",
-      "No electric start in basic version",
-      "Not suitable for highways"
-    ],
-    "faqs": [
-      {
-        "question": "Is TVS Metro good for city commuting?",
-        "answer": "Yes, it’s built for urban riding with easy handling and efficiency."
-      },
-      {
-        "question": "Does it have electric start?",
-        "answer": "Only on select models; base variants use kick start."
-      },
-      {
-        "question": "What is the mileage?",
-        "answer": "Roughly 55–60 kmpl in city conditions."
-      },
-      {
-        "question": "Is it easy to service?",
-        "answer": "Yes, spare parts are inexpensive and widely available."
-      }
-    ]
-  },
-  {
-    "name": "TVS Metro Plus",
-    "slug": "tvs-metro-plus",
-    "cc": 99,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "60 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
-    "braking": "Front Drum, Rear Drum",
-    "gear": "V-Belt Automatic",
-    "weight": "104 kg",
-    "max_power": "7.8 PS @ 7000 rpm",
-    "max_torque": "8.7 Nm @ 5500 rpm",
-    "clutch": "Dry, centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Drum 130 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/100-10",
-    "rear_tyre_size": "90/100-10",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "0.8 L",
-    "fuel_tank_capacity": "4.8 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Incandescent",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analogue",
-    "seat_height": "770 mm",
-    "ground_clearance": "145 mm",
-    "overall_length": "1770 mm",
-    "overall_width": "650 mm",
-    "build_quality": "Practical",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-metro-plus-front.webp",
-      "https://cdn.example.com/tvs-metro-plus-side.webp",
-      "https://cdn.example.com/tvs-metro-plus-back.webp"
-    ],
-    "pros": [
-      "Same as Metro with upgraded styling",
-      "Better comfort seat",
-      "Tubeless tyres standard",
-      "Value for money",
-      "Easy handling"
-    ],
-    "cons": [
-      "Basic features continue",
-      "No disc brake",
-      "No digital display",
-      "Kick start only"
-    ],
-    "faqs": [
-      {
-        "question": "What’s different from Metro regular?",
-        "answer": "Metro Plus adds tubeless tyres and a more comfortable seat."
-      },
-      {
-        "question": "Does it have tubeless tyres?",
-        "answer": "Yes, Metro Plus comes standard with tubeless tyres."
-      },
-      {
-        "question": "Is it better than base Metro?",
-        "answer": "Yes, in ride comfort and tyre setup."
-      },
-      {
-        "question": "How’s the mileage?",
-        "answer": "Similar to Metro—around 55–60 kmpl."
-      }
-    ]
-  },
-  {
-    "name": "TVS Radeon 110",
-    "slug": "tvs-radeon-110",
-    "cc": 109,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "60–65 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "4‑speed",
-    "weight": "105 kg",
-    "max_power": "7.9 PS @ 7250 rpm",
-    "max_torque": "8.8 Nm @ 5500 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Disc 190 mm",
-    "rear_brake": "Drum 110 mm",
-    "caliper": { "front": "Single-piston", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "80/100‑18",
-    "wheel_type": "Spoke",
-    "reserve_fuel_capacity": "0.8 L",
-    "fuel_tank_capacity": "10 L",
+    "fuel_tank_capacity": "5 L",
     "headlight_type": "Halogen",
     "tail_light_type": "LED",
     "projector_headlamp": false,
@@ -505,1433 +599,864 @@
     "quickshifter": false,
     "traction_control": false,
     "bluetooth_connectivity": false,
-    "display": "Analogue",
-    "seat_height": "800 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1985 mm",
-    "overall_width": "720 mm",
-    "build_quality": "Robust commuter build",
-    "parts_availability": "Very good",
+    "display": "Analog-Digital Combo",
+    "seat_height": "765 mm",
+    "ground_clearance": "155 mm",
+    "overall_length": "1795 mm",
+    "overall_width": "685 mm",
+    "build_quality": "Practical with good fit-finish",
+    "parts_availability": "Excellent",
     "image_urls": [
-      "https://cdn.example.com/tvs-radeon-front.webp",
-      "https://cdn.example.com/tvs-radeon-side.webp",
-      "https://cdn.example.com/tvs-radeon-back.webp"
-    ],
-    "pros": [
-      "Smooth ride quality",
-      "Strong mileage",
-      "Affordable pricing",
-      "Tubeless tyres enhance safety",
-      "Reliable performance"
-    ],
-    "cons": [
-      "No alloy wheels",
-      "Manual choke only",
-      "Basic features",
-      "No electric start in base model"
-    ],
-    "faqs": [
       {
-        "question": "Is Radeon good for city commute?",
-        "answer": "Yes, it’s smooth, fuel efficient, and easy to handle."
+        "url": "https://cdn.example.com/tvs-jupiter-front.webp",
+        "alt": "TVS Jupiter Front View"
       },
       {
-        "question": "Does it have alloy wheels?",
-        "answer": "No, it comes with spoke wheels."
-      },
-      {
-        "question": "Does Radeon support electric start?",
-        "answer": "Yes, available in Deluxe variants."
-      },
-      {
-        "question": "What’s the fuel economy?",
-        "answer": "Users report around 60–65 kmpl."
+        "url": "https://cdn.example.com/tvs-jupiter-side.webp",
+        "alt": "TVS Jupiter Side View"
       }
-    ]
-  },
-  {
-    "name": "TVS Stryker 125",
-    "slug": "tvs-stryker-125",
-    "cc": 124,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "95 km/h",
-    "top_speed_reported": "90 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "5‑speed",
-    "weight": "121 kg",
-    "max_power": "11 PS @ 7250 rpm",
-    "max_torque": "10.8 Nm @ 6250 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Disc 240 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": { "front": "Single-piston", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "90/100‑18",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "10 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital + analogue combo",
-    "seat_height": "785 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2010 mm",
-    "overall_width": "725 mm",
-    "build_quality": "Sporty commuter build",
-    "parts_availability": "Very good",
-    "image_urls": [
-      "https://cdn.example.com/tvs-stryker-front.webp",
-      "https://cdn.example.com/tvs-stryker-side.webp",
-      "https://cdn.example.com/tvs-stryker-back.webp"
     ],
     "pros": [
-      "Aggressive styling",
-      "DRLs and alloy wheels standard",
-      "Good handling",
-      "Decent mileage",
-      "Comfortable ride height"
+      "Excellent suspension for bumpy roads",
+      "Comfortable long seat with good cushioning",
+      "Best-in-class under-seat storage (21L)",
+      "Fuel-efficient engine with low maintenance",
+      "Lightweight and easy to maneuver"
     ],
     "cons": [
-      "No disc brake at the rear",
-      "No Bluetooth",
-      "Tachometer could be more informative",
-      "Basic suspension"
+      "Basic halogen headlight",
+      "Limited power for highway riding",
+      "Small fuel tank capacity",
+      "Drum brake variant lacks stopping power",
+      "No charging port in base variant"
     ],
     "faqs": [
       {
-        "question": "Does Stryker 125 have DRLs?",
-        "answer": "Yes, it comes with LED DRLs."
+        "question": "What's the storage capacity?",
+        "answer": "It offers 21 liters of under-seat storage - enough for a full-face helmet and small items."
       },
       {
-        "question": "Does it have alloy wheels?",
-        "answer": "Yes, alloy wheels are standard."
+        "question": "Is there a disc brake option?",
+        "answer": "Yes, a front disc brake variant is available with CBS (Combi Brake System)."
       },
       {
-        "question": "What’s its mileage?",
-        "answer": "Roughly 55–60 kmpl in real-world conditions."
+        "question": "How comfortable is it for tall riders?",
+        "answer": "The flat floorboard and upright ergonomics make it comfortable for riders up to 6 feet tall."
       },
       {
-        "question": "Is Stryker good for hilly roads?",
-        "answer": "Yes, it handles inclines well thanks to 5‑speed gearbox."
-      }
-    ]
-  },
-  {
-    "name": "TVS Rockz 125",
-    "slug": "tvs-rockz-125",
-    "cc": 125,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "92 km/h",
-    "top_speed_reported": "88 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "4‑speed",
-    "weight": "117 kg",
-    "max_power": "9.6 PS @ 7250 rpm",
-    "max_torque": "10.5 Nm @ 5500 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Disc 240 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": { "front": "Single-piston", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "90/100‑18",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "9 L",
-    "headlight_type": "Halo LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital + analogue combo",
-    "seat_height": "780 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "2015 mm",
-    "overall_width": "720 mm",
-    "build_quality": "Stylish and rugged",
-    "parts_availability": "Very good",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rockz-front.webp",
-      "https://cdn.example.com/tvs-rockz-side.webp",
-      "https://cdn.example.com/tvs-rockz-back.webp"
-    ],
-    "pros": [
-      "Halo-headlamp gives a distinctive look",
-      "Good mileage",
-      "Lightweight and agile",
-      "DRLs and alloy wheels standard",
-      "Smooth engine"
-    ],
-    "cons": [
-      "Basic instrument console",
-      "No Bluetooth",
-      "Limited under-seat storage",
-      "Basic suspension"
-    ],
-    "faqs": [
-      {
-        "question": "Does Rockz have halo headlamp?",
-        "answer": "Yes, it features a distinctive halo LED headlamp."
-      },
-      {
-        "question": "Is storage space available?",
-        "answer": "It has a small under-seat storage compartment."
-      },
-      {
-        "question": "How is ride comfort?",
-        "answer": "Comfortable for city riding, though suspension is basic."
-      },
-      {
-        "question": "Is it fuel-efficient?",
-        "answer": "Yes, expect around 55–60 kmpl in daily use."
-      }
-    ]
-  },
-  {
-    "name": "TVS Raider 125",
-    "slug": "tvs-raider-125",
-    "cc": 125,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "60–65 kmpl",
-    "top_speed_claimed": "95 km/h",
-    "top_speed_reported": "90 km/h",
-    "braking": "Front Drum, Rear Drum",
-    "gear": "4‑speed",
-    "weight": "123 kg",
-    "max_power": "9.38 PS @ 7250 rpm",
-    "max_torque": "10.5 Nm @ 5500 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Drum 190 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": { "front": "None", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "100/90‑18",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "9 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital + analogue combo",
-    "seat_height": "795 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1990 mm",
-    "overall_width": "730 mm",
-    "build_quality": "Sturdy with dual-sport look",
-    "parts_availability": "Very good",
-    "image_urls": [
-      "https://cdn.example.com/tvs-raider-front.webp",
-      "https://cdn.example.com/tvs-raider-side.webp",
-      "https://cdn.example.com/tvs-raider-back.webp"
-    ],
-    "pros": [
-      "Oil-cooled engine offers better performance",
-      "Dual-sport styling",
-      "Good mileage",
-      "Tubeless tyres standard",
-      "Lightweight chassis"
-    ],
-    "cons": [
-      "No disc brakes",
-      "Basic suspension",
-      "No Bluetooth",
-      "Under-seat storage limited"
-    ],
-    "faqs": [
-      {
-        "question": "Is Raider oil-cooled?",
-        "answer": "Yes, it features an oil-cooled engine for better heat management."
-      },
-      {
-        "question": "Does it have tubeless tyres?",
-        "answer": "Yes, tubeless tyres are standard."
-      },
-      {
-        "question": "How’s highway ride comfort?",
-        "answer": "Comfortable, but suspension is basic."
-      },
-      {
-        "question": "Does it have disc brakes?",
-        "answer": "No, it uses drum brakes front and rear."
+        "question": "Does it have a side stand indicator?",
+        "answer": "Yes, it comes with a side stand indicator and engine cut-off feature."
       }
     ]
   },
   {
     "name": "TVS Max 125",
     "slug": "tvs-max-125",
-    "cc": 125,
+    "brand": "TVS",
+    "category": "Commuter",
+    "cc": 124.53,
+    "price": "Tk. 144,900",
+    "short_description": "TVS Max 125 - A 124.53cc commuter motorcycle offering excellent fuel efficiency, low maintenance costs, and reliable performance for daily commuting.",
+    "Zero_Sixty": "7.5 sec",
+    "Zero_Hundred": "18.2 sec",
     "engine_cooling": "Air Cooled",
-    "mileage_claimed": "60 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "90 km/h",
-    "top_speed_reported": "85 km/h",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60-62 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
     "braking": "Front Drum, Rear Drum",
-    "gear": "4‑speed",
-    "weight": "117 kg",
-    "max_power": "9.6 PS @ 7250 rpm",
-    "max_torque": "10.5 Nm @ 5500 rpm",
-    "clutch": "Wet, multi-plate",
+    "gear": "4-speed manual",
+    "weight": "115 kg",
+    "max_power": "10.5 PS @ 7500 rpm",
+    "max_torque": "10.5 Nm @ 5000 rpm",
+    "clutch": "Wet multi-plate",
     "cooling_system": "Air Cooled",
-    "front_brake": "Drum 190 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": { "front": "None", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "90/100‑18",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "9 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "N/A (Drum)",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
     "projector_headlamp": false,
     "drls": false,
     "quickshifter": false,
     "traction_control": false,
     "bluetooth_connectivity": false,
-    "display": "Digital + analogue combo",
-    "seat_height": "795 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1995 mm",
-    "overall_width": "730 mm",
-    "build_quality": "Commuter tough",
-    "parts_availability": "Very good",
+    "display": "Analog",
+    "seat_height": "790 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "750 mm",
+    "build_quality": "Utilitarian with focus on durability",
+    "parts_availability": "Excellent",
     "image_urls": [
-      "https://cdn.example.com/tvs-max125-front.webp",
-      "https://cdn.example.com/tvs-max125-side.webp",
-      "https://cdn.example.com/tvs-max125-back.webp"
+      {
+        "url": "https://cdn.example.com/tvs-max125-front.webp",
+        "alt": "TVS Max 125 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-max125-side.webp",
+        "alt": "TVS Max 125 Side View"
+      }
     ],
     "pros": [
-      "Comfortable ride quality",
-      "Good mileage",
-      "User-friendly for everyday use",
-      "Affordable",
-      "Tubeless tyres standard"
+      "Exceptional fuel efficiency",
+      "Low maintenance costs",
+      "Lightweight and easy to handle",
+      "Comfortable upright riding position",
+      "Affordable spare parts"
     ],
     "cons": [
-      "No disc brakes",
-      "Simple features",
-      "Basic suspension",
-      "Under-seat storage small"
+      "Basic drum brakes lack stopping power",
+      "Outdated 4-speed gearbox",
+      "No modern features",
+      "Vibrations at higher speeds",
+      "Tubed tyres"
     ],
     "faqs": [
       {
-        "question": "Is Max 125 good for daily commuting?",
-        "answer": "Yes, with its comfortable ride and fuel efficiency."
+        "question": "What's the service interval?",
+        "answer": "Recommended service interval is every 3,000 km or 3 months, whichever comes first."
       },
       {
-        "question": "Does it have tubeless tyres?",
-        "answer": "Yes, stock tubeless tyres are included."
+        "question": "Does it have electric start?",
+        "answer": "Yes, it comes with both kick and electric start options."
       },
       {
-        "question": "Can it handle rough roads?",
-        "answer": "Fairly well, though suspension is basic."
+        "question": "Is it suitable for highway riding?",
+        "answer": "While capable, it's best suited for city commuting due to its 90 kmph comfortable cruising speed."
       },
       {
-        "question": "Is it affordable?",
-        "answer": "Yes, it offers good value for money."
+        "question": "What's the warranty period?",
+        "answer": "Standard warranty is 2 years or 30,000 km, whichever comes first."
+      }
+    ]
+  },
+  {
+    "name": "TVS Max 125 ST",
+    "slug": "tvs-max-125-st",
+    "brand": "TVS",
+    "category": "Commuter",
+    "cc": 124.53,
+    "price": "Tk. 127,990",
+    "short_description": "TVS Max 125 ST - A more affordable variant of the Max 125 with similar 124.53cc engine but with cost-saving measures for budget-conscious buyers.",
+    "Zero_Sixty": "7.8 sec",
+    "Zero_Hundred": "18.5 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "66 kmpl",
+    "mileage_reported": "61-63 kmpl",
+    "top_speed_claimed": "93 km/h",
+    "top_speed_reported": "88 km/h",
+    "braking": "Front Drum, Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "113 kg",
+    "max_power": "10.2 PS @ 7500 rpm",
+    "max_torque": "10.2 Nm @ 5000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "N/A (Drum)",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "790 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "750 mm",
+    "build_quality": "Basic but durable",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/tvs-max125st-front.webp",
+        "alt": "TVS Max 125 ST Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-max125st-side.webp",
+        "alt": "TVS Max 125 ST Side View"
+      }
+    ],
+    "pros": [
+      "Most affordable 125cc commuter",
+      "Even better mileage than standard Max 125",
+      "Lightest in its category",
+      "Proven reliable engine",
+      "Lowest maintenance costs"
+    ],
+    "cons": [
+      "No electric start (kick start only)",
+      "Very basic instrumentation",
+      "Smaller 3.5L fuel tank",
+      "No modern features",
+      "Weak headlight illumination"
+    ],
+    "faqs": [
+      {
+        "question": "What's different from regular Max 125?",
+        "answer": "The ST variant has kick start only, smaller fuel tank, and simpler switchgear to reduce costs."
+      },
+      {
+        "question": "Is the engine same as Max 125?",
+        "answer": "Yes, but tuned slightly differently for better mileage at the cost of some power."
+      },
+      {
+        "question": "Does it have a trip meter?",
+        "answer": "No, it comes with a basic analog speedometer without trip meter."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Available in basic colors - Black, Red, and Blue with minimal graphics."
+      }
+    ]
+  },
+  {
+    "name": "TVS Metro ELS",
+    "slug": "tvs-metro-els",
+    "brand": "TVS",
+    "category": "Scooter",
+    "cc": 99.7,
+    "price": "Tk. 114,900",
+    "short_description": "TVS Metro ELS - An economical 99.7cc scooter designed for urban commuting with easy-to-use features, excellent mileage, and low running costs.",
+    "Zero_Sixty": "11.2 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "60 kmpl",
+    "mileage_reported": "55-58 kmpl",
+    "top_speed_claimed": "80 km/h",
+    "top_speed_reported": "75 km/h",
+    "braking": "Front Drum, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "102 kg",
+    "max_power": "6.7 PS @ 7000 rpm",
+    "max_torque": "7.5 Nm @ 5000 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "N/A (Drum)",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "3.50-10",
+    "rear_tyre_size": "3.50-10",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "4.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "760 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "1790 mm",
+    "overall_width": "680 mm",
+    "build_quality": "Basic but reliable",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/tvs-metro-front.webp",
+        "alt": "TVS Metro ELS Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-metro-side.webp",
+        "alt": "TVS Metro ELS Side View"
+      }
+    ],
+    "pros": [
+      "Most affordable TVS scooter",
+      "Excellent fuel efficiency",
+      "Very lightweight and maneuverable",
+      "Low maintenance costs",
+      "Comfortable for short commutes"
+    ],
+    "cons": [
+      "Basic drum brakes",
+      "Small wheels affect stability",
+      "Limited under-seat storage",
+      "Weak headlight at night",
+      "No modern features"
+    ],
+    "faqs": [
+      {
+        "question": "What does ELS stand for?",
+        "answer": "ELS stands for 'Easy Lift System' - a feature that makes it easier to lift the scooter onto its center stand."
+      },
+      {
+        "question": "Is it suitable for heavy riders?",
+        "answer": "Best suited for riders up to 70kg; performance drops noticeably with heavier loads."
+      },
+      {
+        "question": "Does it have a charging port?",
+        "answer": "No, the base ELS variant doesn't include a charging port."
+      },
+      {
+        "question": "What's the warranty coverage?",
+        "answer": "Comes with 2 years or 30,000 km warranty, whichever comes first."
+      }
+    ]
+  },
+
+  {
+    "name": "TVS Metro KLS",
+    "slug": "tvs-metro-kls",
+    "brand": "TVS",
+    "category": "Scooter",
+    "cc": 99.7,
+    "price": "Tk. 93,000",
+    "short_description": "TVS Metro KLS - An ultra-affordable 99.7cc commuter scooter with kick-start only, designed for budget-conscious buyers seeking reliable urban transportation.",
+    "Zero_Sixty": "12.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "62 kmpl",
+    "mileage_reported": "57-60 kmpl",
+    "top_speed_claimed": "75 km/h",
+    "top_speed_reported": "70 km/h",
+    "braking": "Front Drum, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "98 kg",
+    "max_power": "6.5 PS @ 7000 rpm",
+    "max_torque": "7.2 Nm @ 5000 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "N/A (Drum)",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "3.50-10",
+    "rear_tyre_size": "3.50-10",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "4 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "750 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "1780 mm",
+    "overall_width": "675 mm",
+    "build_quality": "Basic but functional",
+    "parts_availability": "Excellent",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/tvs-metro-kls-front.webp",
+        "alt": "TVS Metro KLS Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-metro-kls-side.webp",
+        "alt": "TVS Metro KLS Side View"
+      }
+    ],
+    "pros": [
+      "Most affordable TVS two-wheeler",
+      "Excellent fuel efficiency",
+      "Lightest scooter in TVS lineup",
+      "Low maintenance costs",
+      "Easy to maneuver in traffic"
+    ],
+    "cons": [
+      "Kick-start only (no electric start)",
+      "Very basic features",
+      "Small 4L fuel tank",
+      "Weak braking performance",
+      "Uncomfortable for long rides"
+    ],
+    "faqs": [
+      {
+        "question": "What does KLS stand for?",
+        "answer": "KLS stands for 'Kick Start' version, indicating it doesn't have electric start functionality."
+      },
+      {
+        "question": "Is it suitable for hilly areas?",
+        "answer": "The small engine struggles on steep inclines; better suited for flat urban areas."
+      },
+      {
+        "question": "Does it have any storage space?",
+        "alt": "TVS Metro Plus 110 RE Drum Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-metro-plus-drum-side.webp",
+        "alt": "TVS Metro Plus 110 RE Drum Side View"
       }
     ]
   },
   {
     "name": "TVS Ntorq 125",
     "slug": "tvs-ntorq-125",
-    "cc": 125,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "50 kmpl",
-    "mileage_reported": "45–50 kmpl",
-    "top_speed_claimed": "100 km/h",
-    "top_speed_reported": "95 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "V‑Belt Automatic",
-    "weight": "116 kg",
-    "max_power": "9.25 PS @ 7000 rpm",
+    "brand": "TVS",
+    "category": "Sporty Scooter",
+    "cc": 124.8,
+    "price": "Tk. 204,900",
+    "short_description": "TVS Ntorq 125 - A sporty 124.8cc performance scooter with race-inspired design, liquid-cooled engine, and premium features for young enthusiasts.",
+    "Zero_Sixty": "7.8 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "45 kmpl",
+    "mileage_reported": "40-42 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc, Rear Drum (CBS)",
+    "gear": "CVT Automatic",
+    "weight": "118 kg",
+    "max_power": "9.25 PS @ 7500 rpm",
     "max_torque": "10.5 Nm @ 5500 rpm",
-    "clutch": "Dry, centrifugal",
-    "cooling_system": "Air Cooled",
-    "front_brake": "Disc 230 mm",
-    "rear_brake": "Drum 130 mm",
-    "caliper": { "front": "Single-piston", "rear": "None" },
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "220 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
     "tyre_type": "Tubeless",
-    "front_tyre_size": "110/70‑12",
-    "rear_tyre_size": "120/70‑12",
+    "front_tyre_size": "120/70-12",
+    "rear_tyre_size": "130/70-12",
     "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "0.9 L",
-    "fuel_tank_capacity": "5 L",
+    "fuel_tank_capacity": "5.8 L",
     "headlight_type": "LED",
     "tail_light_type": "LED",
-    "projector_headlamp": false,
+    "projector_headlamp": true,
     "drls": true,
     "quickshifter": false,
     "traction_control": false,
     "bluetooth_connectivity": true,
-    "display": "Fully digital with Bluetooth",
-    "seat_height": "785 mm",
-    "ground_clearance": "150 mm",
-    "overall_length": "1765 mm",
+    "display": "Full Digital with TVS SmartXonnect",
+    "seat_height": "770 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1875 mm",
     "overall_width": "710 mm",
-    "build_quality": "Sporty and tech-packed",
-    "parts_availability": "Excellent",
+    "build_quality": "Sporty with premium finishes",
+    "parts_availability": "Widely available",
     "image_urls": [
-      "https://cdn.example.com/tvs-ntorq125-front.webp",
-      "https://cdn.example.com/tvs-ntorq125-side.webp",
-      "https://cdn.example.com/tvs-ntorq125-back.webp"
+      {
+        "url": "https://cdn.example.com/tvs-ntorq-front.webp",
+        "alt": "TVS Ntorq 125 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-ntorq-side.webp",
+        "alt": "TVS Ntorq 125 Side View"
+      }
     ],
     "pros": [
-      "Bluetooth-enabled fully digital console",
-      "Fastest 125cc scooter in India",
-      "Sporty performance and ride quality",
-      "LED headlamp and DRLs",
-      "Good under-seat storage"
+      "Peppy liquid-cooled engine",
+      "Sporty handling and styling",
+      "Full digital instrument cluster",
+      "LED lighting with DRLs",
+      "Good storage space (22L)"
     ],
     "cons": [
-      "Mileage isn’t segment‑leading",
-      "No disc brake at rear",
-      "Tire size limits highway stability",
-      "Premium pricing"
+      "Firm ride quality",
+      "Small fuel tank",
+      "Pillion seat could be better",
+      "Expensive for 125cc segment",
+      "Vibrations at high speeds"
     ],
     "faqs": [
       {
-        "question": "Does Ntorq have Bluetooth connectivity?",
-        "answer": "Yes, it offers smartphone connectivity via Bluetooth."
+        "question": "Does it have ABS?",
+        "answer": "The Race Edition variant comes with ABS, but standard version has CBS (Combi Braking System)."
       },
       {
-        "question": "Is Ntorq the fastest 125cc scooter?",
-        "answer": "Yes, it’s often cited as the fastest in its class."
+        "question": "What's special about SmartXonnect?",
+        "answer": "It offers Bluetooth connectivity for calls, SMS alerts, navigation assist, and ride analytics."
       },
       {
-        "question": "What is the fuel economy?",
-        "answer": "Roughly 45–50 kmpl in normal riding."
+        "question": "Is it good for highway riding?",
+        "answer": "Can cruise at 80-85 kmph comfortably, but limited by small wheels for extended highway use."
       },
       {
-        "question": "Does it have disc brakes front and rear?",
-        "answer": "No, only front disc; rear is drum."
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 3,000 km or 3 months due to performance-oriented engine."
       }
     ]
   },
-{
-    "name": "TVS Phoenix",
-    "slug": "tvs-phoenix",
-    "cc": 109,
+  {
+    "name": "TVS Radeon",
+    "slug": "tvs-radeon",
+    "brand": "TVS",
+    "category": "Commuter",
+    "cc": 109.7,
+    "price": "Tk. 107,999",
+    "short_description": "TVS Radeon - A 109.7cc commuter motorcycle with retro-classic styling, comfortable ergonomics, and fuel-efficient performance for daily commuting.",
+    "Zero_Sixty": "9.2 sec",
+    "Zero_Hundred": "N/A",
     "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "60–65 kmpl",
+    "mileage_claimed": "70 kmpl",
+    "mileage_reported": "65-68 kmpl",
     "top_speed_claimed": "85 km/h",
     "top_speed_reported": "80 km/h",
     "braking": "Front Drum, Rear Drum",
-    "gear": "4‑speed",
-    "weight": "109 kg",
-    "max_power": "8 PS @ 7500 rpm",
-    "max_torque": "8.7 Nm @ 5500 rpm",
-    "clutch": "Wet, multi‑plate",
+    "gear": "4-speed manual",
+    "weight": "112 kg",
+    "max_power": "8.08 PS @ 7000 rpm",
+    "max_torque": "8.7 Nm @ 5000 rpm",
+    "clutch": "Wet multi-plate",
     "cooling_system": "Air Cooled",
-    "front_brake": "Drum 130 mm",
-    "rear_brake": "Drum 110 mm",
-    "caliper": { "front": "None", "rear": "None" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100‑18",
-    "rear_tyre_size": "80/100‑18",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "N/A (Drum)",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tube",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
     "wheel_type": "Spoke",
-    "reserve_fuel_capacity": "0.8 L",
     "fuel_tank_capacity": "10 L",
     "headlight_type": "Halogen",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analogue",
-    "seat_height": "800 mm",
-    "ground_clearance": "160 mm",
-    "overall_length": "1970 mm",
-    "overall_width": "700 mm",
-    "build_quality": "Basic commuter build",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-phoenix-front.webp",
-      "https://cdn.example.com/tvs-phoenix-side.webp",
-      "https://cdn.example.com/tvs-phoenix-back.webp"
-    ],
-    "pros": [
-      "Simple and easy to maintain",
-      "Good mileage and practicality",
-      "Tubeless tyres standard",
-      "Lightweight and easy to ride",
-      "Comfortable commuter ergonomics"
-    ],
-    "cons": [
-      "No disc brake",
-      "Basic features only",
-      "No digital display",
-      "Low top speed"
-    ],
-    "faqs": [
-      {
-        "question": "Is Phoenix good for city commuting?",
-        "answer": "Yes—light and practical for daily city use."
-      },
-      {
-        "question": "Does it have a disc brake?",
-        "answer": "No, it uses drum brakes both front and rear."
-      },
-      {
-        "question": "Is mileage good?",
-        "answer": "Yes, riders report 60–65 kmpl in urban use."
-      },
-      {
-        "question": "Does it have electrics start?",
-        "answer": "Yes, electric start is standard."
-      }
-    ]
-  },
-  {
-    "name": "TVS Apache RTR 160 (2V)",
-    "slug": "tvs-apache-rtr-160-2v",
-    "cc": 159.7,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "50 kmpl",
-    "mileage_reported": "45–48 kmpl",
-    "top_speed_claimed": "115 km/h",
-    "top_speed_reported": "110 km/h",
-    "braking": "Front Disc, Rear Disc",
-    "gear": "5‑speed",
-    "weight": "146 kg",
-    "max_power": "15.2 PS @ 8500 rpm",
-    "max_torque": "13.1 Nm @ 8000 rpm",
-    "clutch": "Wet, multi‑plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Disc 270 mm",
-    "rear_brake": "Disc 200 mm",
-    "caliper": { "front": "Dual‑piston", "rear": "Single‑piston" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90‑17",
-    "rear_tyre_size": "130/70‑17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog tach + digital speedo",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2025 mm",
-    "overall_width": "775 mm",
-    "build_quality": "Sporty standard build",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rtr160-2v-front.webp",
-      "https://cdn.example.com/tvs-rtr160-2v-side.webp",
-      "https://cdn.example.com/tvs-rtr160-2v-back.webp"
-    ],
-    "pros": [
-      "Fun sporty engine",
-      "Disc brakes both ends",
-      "Great handling",
-      "Aggressive styling",
-      "Oil cooling improves performance"
-    ],
-    "cons": [
-      "No ABS",
-      "Basic lighting",
-      "No Bluetooth",
-      "Average under-seat storage"
-    ],
-    "faqs": [
-      {
-        "question": "Does RTR 160 2V have ABS?",
-        "answer": "No, it relies on disc brakes without ABS."
-      },
-      {
-        "question": "Is it good for highway rides?",
-        "answer": "Yes, it's stable and fun for highway speeds."
-      },
-      {
-        "question": "How's maintenance?",
-        "answer": "Routine maintenance is affordable and easy."
-      },
-      {
-        "question": "Does it have oil cooling?",
-        "answer": "Yes, it's oil-cooled for better thermal management."
-      }
-    ]
-  },
-  {
-    "name": "TVS Apache RTR 160 4V FI",
-    "slug": "tvs-apache-rtr-160-4v-fi",
-    "cc": 159.7,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "48 kmpl",
-    "mileage_reported": "43–46 kmpl",
-    "top_speed_claimed": "125 km/h",
-    "top_speed_reported": "120 km/h",
-    "braking": "Front Disc, Rear Disc",
-    "gear": "5-speed",
-    "weight": "147 kg",
-    "max_power": "17.63 PS @ 9750 rpm",
-    "max_torque": "14.12 Nm @ 8000 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Disc 270 mm",
-    "rear_brake": "Disc 240 mm",
-    "caliper": { "front": "Dual-piston", "rear": "Single-piston" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90‑17",
-    "rear_tyre_size": "130/70‑17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "LED projector",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog tach + digital speedo & shift light",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2025 mm",
-    "overall_width": "775 mm",
-    "build_quality": "Premium with fuel injection",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rtr160-4v-fi-front.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-fi-side.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-fi-back.webp"
-    ],
-    "pros": [
-      "Fuel injection improves smoothness",
-      "LED projector headlamp",
-      "Better fuel efficiency",
-      "Disc brakes front & rear",
-      "Sharp handling"
-    ],
-    "cons": [
-      "No ABS",
-      "Basic Bluetooth-less console",
-      "Slightly higher price",
-      "Tachometer could be more modern"
-    ],
-    "faqs": [
-      {
-        "question": "Does the 4V FI have a projector headlamp?",
-        "answer": "Yes, it comes with a projector LED headlamp and DRLs."
-      },
-      {
-        "question": "Is the fuel injection worth it?",
-        "answer": "Yes, it improves throttle response and efficiency."
-      },
-      {
-        "question": "Does it still come with rear disc?",
-        "answer": "Yes, both ends have disc brakes."
-      },
-      {
-        "question": "How's the ride comfort?",
-        "answer": "Comfortable enough for daily use and occasional long rides."
-      }
-    ]
-  },
-  {
-    "name": "TVS Apache RTR 160 4V SmartXConnect ABS",
-    "slug": "tvs-apache-rtr-160-4v-smartxconnect-abs",
-    "cc": 159.7,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "48 kmpl",
-    "mileage_reported": "44–47 kmpl",
-    "top_speed_claimed": "125 km/h",
-    "top_speed_reported": "120 km/h",
-    "braking": "Front Single-channel ABS, Rear Disc",
-    "gear": "5-speed",
-    "weight": "148 kg",
-    "max_power": "17.63 PS @ 9750 rpm",
-    "max_torque": "14.12 Nm @ 8000 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Disc 270 mm (with ABS)",
-    "rear_brake": "Disc 240 mm",
-    "caliper": { "front": "Dual-piston", "rear": "Single-piston" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90‑17",
-    "rear_tyre_size": "130/70‑17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "LED projector",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": true,
-    "display": "Digital + analog with SmartXConnect",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2025 mm",
-    "overall_width": "775 mm",
-    "build_quality": "Feature-packed premium trim",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rtr160-4v-smartxconnect-front.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-smartxconnect-side.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-smartxconnect-back.webp"
-    ],
-    "pros": [
-      "Single-channel ABS adds safety",
-      "SmartXConnect Bluetooth app integration",
-      "LED projector headlamp",
-      "Stylish alloy wheels",
-      "Excellent build quality"
-    ],
-    "cons": [
-      "Marginal price increase",
-      "No rear disc ABS",
-      "Complex electronics may need careful maintenance",
-      "Display learning curve"
-    ],
-    "faqs": [
-      {
-        "question": "Does SmartXConnect support navigation?",
-        "answer": "Yes, with turn-by-turn navigation when paired with smartphone."
-      },
-      {
-        "question": "Does it have ABS?",
-        "answer": "Yes, front single-channel ABS and rear disc brake."
-      },
-      {
-        "question": "Is bluetooth needed?",
-        "answer": "Optional, but adds features like call alerts & navigation."
-      },
-      {
-        "question": "Is it worth upgrading from 4V FI?",
-        "answer": "Yes, for riders wanting tech features and ABS."
-      }
-    ]
-  },
-  {
-    "name": "TVS Apache RTR 160 4V Double Disc",
-    "slug": "tvs-apache-rtr-160-4v-double-disc",
-    "cc": 159.7,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "48 kmpl",
-    "mileage_reported": "43–46 kmpl",
-    "top_speed_claimed": "125 km/h",
-    "top_speed_reported": "120 km/h",
-    "braking": "Front + Rear Disc (No ABS)",
-    "gear": "5-speed",
-    "weight": "149 kg",
-    "max_power": "17.63 PS @ 9750 rpm",
-    "max_torque": "14.12 Nm @ 8000 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Disc 270 mm",
-    "rear_brake": "Disc 240 mm",
-    "caliper": { "front": "Dual-piston", "rear": "Single-piston" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90‑17",
-    "rear_tyre_size": "130/70‑17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "LED projector",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog tach + digital speedo",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2025 mm",
-    "overall_width": "775 mm",
-    "build_quality": "Performance-focused trim",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rtr160-4v-double-disc-front.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-double-disc-side.webp",
-      "https://cdn.example.com/tvs-rtr160-4v-double-disc-back.webp"
-    ],
-    "pros": [
-      "Disc brakes on both wheels",
-      "Fuel injection & projector headlamp",
-      "Sporty performance",
-      "STP-ready styling",
-      "Great braking confidence"
-    ],
-    "cons": [
-      "No ABS",
-      "Higher price",
-      "Heavier weight",
-      "Basic instrument setup"
-    ],
-    "faqs": [
-      {
-        "question": "Does the double-disc variant have ABS?",
-        "answer": "No, it has disc brakes both ends but no ABS."
-      },
-      {
-        "question": "Who is this variant for?",
-        "answer": "Riders wanting full disc braking for track or spirited riding."
-      },
-      {
-        "question": "Does it include SmartXConnect?",
-        "answer": "No, it’s not SmartXConnect equipped."
-      },
-      {
-        "question": "Is it heavier than the single-disc version?",
-        "answer": "Yes, marginally heavier due to extra front disc setup."
-      }
-    ]
-  },
-  {
-    "name": "TVS Apache RTR 160 Race Edition",
-    "slug": "tvs-apache-rtr-160-4v-race-edition",
-    "cc": 159.7,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "45 kmpl",
-    "mileage_reported": "40–44 kmpl",
-    "top_speed_claimed": "130 km/h",
-    "top_speed_reported": "125 km/h",
-    "braking": "Front Single-channel ABS, Rear Disc",
-    "gear": "5-speed",
-    "weight": "149 kg",
-    "max_power": "17.63 PS @ 9750 rpm",
-    "max_torque": "14.12 Nm @ 8000 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "Disc 270 mm (with ABS)",
-    "rear_brake": "Disc 240 mm",
-    "caliper": { "front": "Dual-piston", "rear": "Single-piston" },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90‑17",
-    "rear_tyre_size": "130/70‑17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "1 L",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "LED projector",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": true,
-    "display": "Digital + analog with Race-specific graphics",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2025 mm",
-    "overall_width": "775 mm",
-    "build_quality": "Race-inspired trim",
-    "parts_availability": "Excellent",
-    "image_urls": [
-      "https://cdn.example.com/tvs-rtr160-race-edition-front.webp",
-      "https://cdn.example.com/tvs-rtr160-race-edition-side.webp",
-      "https://cdn.example.com/tvs-rtr160-race-edition-back.webp"
-    ],
-    "pros": [
-      "Special livery & graphics",
-      "Front ABS + rear disc",
-      "Race-tuned suspension",
-      "LED projector headlamp",
-      "Excellent true performance"
-    ],
-    "cons": [
-      "Mileage slightly lower",
-      "Premium pricing",
-      "Harder suspension may feel stiff",
-      "No quickshifter"
-    ],
-    "faqs": [
-      {
-        "question": "What's special about Race Edition?",
-        "answer": "Race-themed graphics, front ABS, and stiffer setup."
-      },
-      {
-        "question": "Does it support Bluetooth?",
-        "answer": "Yes, has SmartXConnect Bluetooth integration."
-      },
-      {
-        "question": "How is the ride compared to standard 4V?",
-        "answer": "Sharper handling but slightly firmer suspension."
-      },
-      {
-        "question": "Is it track-ready?",
-        "answer": "Yes, suited for occasional track use with race ergonomics."
-      }
-    ]
-  },
-
-  {
-    "name": "TVS Apache RTR 310",
-    "slug": "tvs-apache-rtr-310",
-    "cc": 312.2,
-    "engine_cooling": "Liquid Cooled",
-    "mileage_claimed": "30 kmpl",
-    "mileage_reported": "28–30 kmpl",
-    "top_speed_claimed": "160 km/h",
-    "top_speed_reported": "155 km/h",
-    "braking": "Dual Channel ABS",
-    "gear": "6-speed",
-    "weight": "169 kg",
-
-    "max_power": "35.6 PS @ 9700 rpm",
-    "max_torque": "28.7 Nm @ 6650 rpm",
-    "clutch": "Slipper Clutch with Assist",
-    "cooling_system": "Liquid Cooled",
-
-    "front_brake": "300 mm Disc",
-    "rear_brake": "240 mm Disc",
-    "caliper": {
-      "front": "4-piston radial",
-      "rear": "1-piston floating"
-    },
-
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "110/70-R17",
-    "rear_tyre_size": "150/60-R17",
-    "wheel_type": "Alloy",
-
-    "reserve_fuel_capacity": "Not Specified",
-    "fuel_tank_capacity": "11 L",
-
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-
-    "quickshifter": true,
-    "traction_control": true,
-    "bluetooth_connectivity": true,
-    "display": "5-inch TFT Display",
-
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2001 mm",
-    "overall_width": "834 mm",
-
-    "build_quality": "Premium",
-    "parts_availability": "Moderate (subject to availability)",
-
-    "image_urls": [
-      "https://cdn.example.com/rtr310-front.webp",
-      "https://cdn.example.com/rtr310-side.webp",
-      "https://cdn.example.com/rtr310-back.webp"
-    ],
-
-    "pros": [
-      "Aggressive and futuristic design",
-      "Loaded with tech (TFT, Quickshifter, Modes)",
-      "Great highway stability",
-      "Sharp handling",
-      "Strong performance for 300cc"
-    ],
-
-    "cons": [
-      "Premium price",
-      "Availability may be limited",
-      "Fuel efficiency isn’t high",
-      "Vibrations at high rpm"
-    ],
-
-    "faqs": [
-      {
-        "question": "Does the Apache RTR 310 come with riding modes?",
-        "answer": "Yes, it includes multiple riding modes including Urban, Rain, and Sport."
-      },
-      {
-        "question": "Is Bluetooth available?",
-        "answer": "Yes, it supports Bluetooth via SmartXonnect."
-      },
-      {
-        "question": "What is the real-world mileage?",
-        "answer": "Around 28–30 kmpl depending on riding style."
-      },
-      {
-        "question": "Is it comfortable for daily use?",
-        "answer": "Yes, but the aggressive posture may not suit all riders in traffic."
-      }
-    ]
-  },
-
-  {
-    "name": "TVS Apache RTR 200",
-    "slug": "tvs-apache-rtr-200",
-    "cc": 197.75,
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "41 kmpl",
-    "mileage_reported": "36–40 kmpl",
-    "top_speed_claimed": "127 km/h",
-    "top_speed_reported": "120 km/h",
-    "braking": "Dual Channel ABS",
-    "gear": "5-speed",
-    "weight": "152 kg",
-
-    "max_power": "20.82 PS @ 9000 rpm",
-    "max_torque": "17.25 Nm @ 7250 rpm",
-    "clutch": "Slipper Clutch with Assist",
-    "cooling_system": "Oil Cooled",
-
-    "front_brake": "270 mm Disc",
-    "rear_brake": "240 mm Disc",
-    "caliper": {
-      "front": "2-piston",
-      "rear": "1-piston"
-    },
-
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90-17",
-    "rear_tyre_size": "130/70-R17",
-    "wheel_type": "Alloy",
-
-    "reserve_fuel_capacity": "2.5 L (approx)",
-    "fuel_tank_capacity": "12 L",
-
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": true,
-
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": true,
-    "display": "Digital LCD with SmartXonnect",
-
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2050 mm",
-    "overall_width": "790 mm",
-
-    "build_quality": "Solid and sporty",
-    "parts_availability": "Very good",
-
-    "image_urls": [
-      "https://cdn.example.com/rtr200-front.webp",
-      "https://cdn.example.com/rtr200-side.webp",
-      "https://cdn.example.com/rtr200-back.webp"
-    ],
-
-    "pros": [
-      "SmartXonnect Bluetooth features",
-      "Slipper clutch improves safety",
-      "Comfortable seating for daily rides",
-      "Fuel-efficient for 200cc",
-      "Reliable build and service network"
-    ],
-
-    "cons": [
-      "No 6th gear",
-      "Basic headlight projection",
-      "Limited touring ability",
-      "Outdated compared to rivals"
-    ],
-
-    "faqs": [
-      {
-        "question": "Does Apache RTR 200 have SmartXonnect?",
-        "answer": "Yes, it supports Bluetooth connectivity with navigation and call alerts."
-      },
-      {
-        "question": "Is it suitable for long rides?",
-        "answer": "Yes, but wind protection is limited."
-      },
-      {
-        "question": "Does it have slipper clutch?",
-        "answer": "Yes, slipper and assist clutch is included."
-      },
-      {
-        "question": "What’s the actual mileage?",
-        "answer": "Users report around 36–40 kmpl."
-      }
-    ]
-  },
-  {
-    "name": "TVS Max ST 125",
-    "slug": "tvs-max-st-125",
-    "cc": 124.53,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "65 kmpl",
-    "mileage_reported": "60–65 kmpl",
-    "top_speed_claimed": "95 km/h",
-    "top_speed_reported": "90 km/h",
-    "braking": "Drum Brakes (CBS)",
-    "gear": "4-speed",
-    "weight": "118 kg",
-
-    "max_power": "11 PS @ 8000 rpm",
-    "max_torque": "10.8 Nm @ 5500 rpm",
-    "clutch": "Wet Multiplate",
-    "cooling_system": "Air Cooled",
-
-    "front_brake": "130 mm Drum",
-    "rear_brake": "110 mm Drum",
-    "caliper": {
-      "front": "N/A",
-      "rear": "N/A"
-    },
-
-    "tyre_type": "Tube Type",
-    "front_tyre_size": "2.75-17",
-    "rear_tyre_size": "3.00-17",
-    "wheel_type": "Spoke",
-
-    "reserve_fuel_capacity": "2 L (approx)",
-    "fuel_tank_capacity": "14.5 L",
-
-    "headlight_type": "Halogen",
     "tail_light_type": "Bulb",
     "projector_headlamp": false,
     "drls": false,
-
     "quickshifter": false,
     "traction_control": false,
     "bluetooth_connectivity": false,
-    "display": "Analog Cluster",
-
-    "seat_height": "780 mm",
+    "display": "Analog-Digital Combo",
+    "seat_height": "790 mm",
     "ground_clearance": "180 mm",
-    "overall_length": "2000 mm",
-    "overall_width": "740 mm",
-
-    "build_quality": "Rugged Utility",
-    "parts_availability": "Good in rural areas",
-
+    "overall_length": "2045 mm",
+    "overall_width": "780 mm",
+    "build_quality": "Retro styling with modern reliability",
+    "parts_availability": "Excellent",
     "image_urls": [
-      "https://cdn.example.com/max125-front.webp",
-      "https://cdn.example.com/max125-side.webp",
-      "https://cdn.example.com/max125-back.webp"
-    ],
-
-    "pros": [
-      "Rugged design for rural roads",
-      "Large fuel tank",
-      "Good mileage",
-      "Affordable maintenance",
-      "Comfortable seat"
-    ],
-
-    "cons": [
-      "Outdated looks",
-      "Basic features",
-      "No disc brake",
-      "No modern console"
-    ],
-
-    "faqs": [
       {
-        "question": "Is the TVS Max ST 125 good for load carrying?",
-        "answer": "Yes, it's designed for utility with a strong rear rack."
+        "url": "https://cdn.example.com/tvs-radeon-front.webp",
+        "alt": "TVS Radeon Front View"
       },
       {
-        "question": "Does it come with disc brakes?",
-        "answer": "No, only drum brakes are available."
-      },
-      {
-        "question": "Is it suitable for daily commute?",
-        "answer": "Yes, especially in semi-urban or rural settings."
-      },
-      {
-        "question": "What is its fuel tank capacity?",
-        "answer": "It comes with a large 14.5L tank."
+        "url": "https://cdn.example.com/tvs-radeon-side.webp",
+        "alt": "TVS Radeon Side View"
       }
-    ]
-  },
-
-  {
-    "name": "TVS Jive 110",
-    "slug": "tvs-jive-110",
-    "cc": 109.7,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "62 kmpl",
-    "mileage_reported": "55–60 kmpl",
-    "top_speed_claimed": "85 km/h",
-    "top_speed_reported": "80 km/h",
-    "braking": "Drum Brakes",
-    "gear": "4-speed (Clutchless)",
-    "weight": "110 kg",
-
-    "max_power": "8.4 PS @ 7500 rpm",
-    "max_torque": "8.3 Nm @ 5500 rpm",
-    "clutch": "Automatic Centrifugal",
-    "cooling_system": "Air Cooled",
-
-    "front_brake": "130 mm Drum",
-    "rear_brake": "110 mm Drum",
-    "caliper": {
-      "front": "N/A",
-      "rear": "N/A"
-    },
-
-    "tyre_type": "Tube Type",
-    "front_tyre_size": "2.75-17",
-    "rear_tyre_size": "3.00-17",
-    "wheel_type": "Spoke",
-
-    "reserve_fuel_capacity": "2 L",
-    "fuel_tank_capacity": "12 L",
-
-    "headlight_type": "Halogen",
-    "tail_light_type": "Bulb",
-    "projector_headlamp": false,
-    "drls": false,
-
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog Console",
-
-    "seat_height": "760 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1975 mm",
-    "overall_width": "740 mm",
-
-    "build_quality": "Basic Commuter",
-    "parts_availability": "Limited (Discontinued)",
-
-    "image_urls": [
-      "https://cdn.example.com/jive110-front.webp",
-      "https://cdn.example.com/jive110-side.webp",
-      "https://cdn.example.com/jive110-back.webp"
     ],
-
     "pros": [
-      "Clutchless gear shifting",
-      "Beginner-friendly",
-      "Good mileage",
-      "Low maintenance",
-      "Lightweight and nimble"
+      "Excellent fuel efficiency",
+      "Comfortable upright riding position",
+      "Classic retro styling",
+      "Low maintenance costs",
+      "Good pillion comfort"
     ],
-
     "cons": [
-      "Discontinued model",
-      "Limited availability",
+      "Basic drum brakes",
+      "Outdated 4-speed gearbox",
+      "Limited power for highways",
       "No modern features",
-      "Weak braking"
+      "Heavy for its engine capacity"
     ],
-
     "faqs": [
       {
-        "question": "Is TVS Jive suitable for new riders?",
-        "answer": "Yes, it’s clutchless and very easy to ride."
+        "question": "What's unique about Radeon's design?",
+        "answer": "It features retro-classic styling with round headlamp, chrome accents, and vintage-inspired body lines."
       },
       {
-        "question": "Does the Jive have disc brakes?",
-        "answer": "No, it only had drum brakes."
+        "question": "Does it have electric start?",
+        "answer": "Yes, it comes with both kick and electric start options."
       },
       {
-        "question": "What’s the mileage of the Jive?",
-        "answer": "Reported mileage is around 55–60 kmpl."
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the upright ergonomics and 790mm seat height accommodate tall riders comfortably."
       },
       {
-        "question": "Is it still available?",
-        "answer": "No, it's discontinued but used units may be available."
+        "question": "What's the warranty period?",
+        "answer": "Standard warranty is 3 years or 40,000 km, whichever comes first."
       }
     ]
   },
-
   {
-    "name": "TVS Victor",
-    "slug": "tvs-victor",
-    "cc": 109.7,
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "72 kmpl",
-    "mileage_reported": "60–65 kmpl",
-    "top_speed_claimed": "94 km/h",
-    "top_speed_reported": "90 km/h",
-    "braking": "Drum / Optional Front Disc",
-    "gear": "4-speed",
-    "weight": "113 kg",
-
-    "max_power": "9.5 PS @ 7500 rpm",
-    "max_torque": "9.4 Nm @ 6000 rpm",
-    "clutch": "Wet, multi-plate",
-    "cooling_system": "Air Cooled",
-
-    "front_brake": "130 mm Drum / 240 mm Disc",
-    "rear_brake": "110 mm Drum",
-    "caliper": {
-      "front": "Single-piston (Disc variant)",
-      "rear": "N/A"
-    },
-
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "2.75-17",
-    "rear_tyre_size": "3.00-17",
-    "wheel_type": "Alloy",
-    "reserve_fuel_capacity": "2 L (approx)",
-    "fuel_tank_capacity": "8 L",
-
-    "headlight_type": "Halogen with AHO",
-    "tail_light_type": "Bulb",
-    "projector_headlamp": false,
-    "drls": false,
-
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog with Digital ODO",
-
-    "seat_height": "800 mm",
-    "ground_clearance": "175 mm",
-    "overall_length": "1980 mm",
-    "overall_width": "750 mm",
-
-    "build_quality": "Well-built commuter",
-    "parts_availability": "Good in India/Bangladesh",
-
-    "image_urls": [
-      "https://cdn.example.com/victor-front.webp",
-      "https://cdn.example.com/victor-side.webp",
-      "https://cdn.example.com/victor-back.webp"
-    ],
-
-    "pros": [
-      "Great mileage",
-      "Refined engine",
-      "Comfortable suspension",
-      "Disc variant available",
-      "Reliable and low maintenance"
-    ],
-
-    "cons": [
-      "Basic looks",
-      "No LED lights",
-      "Small tank",
-      "Discontinued now"
-    ],
-
-    "faqs": [
-      {
-        "question": "Is TVS Victor good for daily use?",
-        "answer": "Yes, it’s very efficient and comfortable for city use."
-      },
-      {
-        "question": "Does it come with disc brakes?",
-        "answer": "Yes, some variants offer front disc brakes."
-      },
-      {
-        "question": "What’s the fuel economy?",
-        "answer": "Users report 60–65 kmpl."
-      },
-      {
-        "question": "Is Victor available now?",
-        "answer": "It has been discontinued but parts are still available."
-      }
-    ]
-  },
-
-  {
-    "name": "TVS Phoenix",
-    "slug": "tvs-phoenix",
-    "cc": 124.5,
+    "name": "TVS Raider",
+    "slug": "tvs-raider",
+    "brand": "TVS",
+    "category": "Street",
+    "cc": 124.8,
+    "price": "Tk. 169,900",
+    "short_description": "TVS Raider - A 124.8cc sporty commuter motorcycle with aggressive styling, segment-first features, and peppy performance for young riders.",
+    "Zero_Sixty": "7.2 sec",
+    "Zero_Hundred": "18.5 sec",
     "engine_cooling": "Air Cooled",
     "mileage_claimed": "67 kmpl",
-    "mileage_reported": "60–65 kmpl",
-    "top_speed_claimed": "96 km/h",
-    "top_speed_reported": "92 km/h",
-    "braking": "Drum / Optional Front Disc",
-    "gear": "4-speed",
-    "weight": "114 kg",
-
-    "max_power": "10.8 PS @ 8000 rpm",
-    "max_torque": "10.8 Nm @ 5500 rpm",
-    "clutch": "Wet, multi-plate",
+    "mileage_reported": "62-65 kmpl",
+    "top_speed_claimed": "99 km/h",
+    "top_speed_reported": "95 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "123 kg",
+    "max_power": "11.2 PS @ 7500 rpm",
+    "max_torque": "11.2 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
     "cooling_system": "Air Cooled",
-
-    "front_brake": "130 mm Drum / 240 mm Disc",
+    "front_brake": "240 mm Disc",
     "rear_brake": "110 mm Drum",
     "caliper": {
-      "front": "Single-piston (Disc variant)",
-      "rear": "N/A"
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
     },
-
     "tyre_type": "Tubeless",
-    "front_tyre_size": "2.75-17",
-    "rear_tyre_size": "3.00-17",
+    "front_tyre_size": "90/90-17",
+    "rear_tyre_size": "120/80-17",
     "wheel_type": "Alloy",
-
-    "reserve_fuel_capacity": "2 L (approx)",
-    "fuel_tank_capacity": "12 L",
-
-    "headlight_type": "Halogen",
-    "tail_light_type": "Bulb",
-    "projector_headlamp": false,
-    "drls": false,
-
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
     "quickshifter": false,
     "traction_control": false,
     "bluetooth_connectivity": false,
-    "display": "Analog Speedometer with Digital Display",
-
-    "seat_height": "790 mm",
-    "ground_clearance": "165 mm",
-    "overall_length": "1985 mm",
-    "overall_width": "740 mm",
-
-    "build_quality": "Refined and comfortable",
-    "parts_availability": "Average (Discontinued)",
-
+    "display": "Digital LCD",
+    "seat_height": "780 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "2015 mm",
+    "overall_width": "810 mm",
+    "build_quality": "Sporty with premium touches",
+    "parts_availability": "Widely available",
     "image_urls": [
-      "https://cdn.example.com/phoenix-front.webp",
-      "https://cdn.example.com/phoenix-side.webp",
-      "https://cdn.example.com/phoenix-back.webp"
+      {
+        "url": "https://cdn.example.com/tvs-raider-front.webp",
+        "alt": "TVS Raider Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-raider-side.webp",
+        "alt": "TVS Raider Side View"
+      }
     ],
-
     "pros": [
-      "Refined engine",
-      "Good fuel economy",
-      "Comfortable ride",
-      "Stylish for its time",
-      "Value for money"
+      "Sporty design with LED lighting",
+      "Peppy 125cc engine performance",
+      "Comfortable ergonomics",
+      "Good fuel efficiency",
+      "5-speed gearbox"
     ],
-
     "cons": [
-      "Now discontinued",
-      "Spare parts may be rare",
-      "No modern features",
-      "Not suitable for long rides"
+      "No ABS option",
+      "Small pillion seat",
+      "Vibrations at high RPM",
+      "Limited color options",
+      "Basic instrument cluster"
     ],
-
     "faqs": [
       {
-        "question": "Is TVS Phoenix still available?",
-        "answer": "No, it's discontinued but second-hand options may be available."
+        "question": "Does Raider have any special features?",
+        "answer": "Yes, it offers a Glide Through Technology (GTT) for easier low-speed maneuvering in traffic."
       },
       {
-        "question": "What is its mileage?",
-        "answer": "Reported to give around 60–65 kmpl."
+        "question": "Is it suitable for highway riding?",
+        "answer": "It can handle short highway stints comfortably at 80-85 kmph, but isn't designed for long highway tours."
       },
       {
-        "question": "Was it available with disc brake?",
-        "answer": "Yes, select variants had front disc."
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 3,000 km or 3 months, whichever comes first."
       },
       {
-        "question": "Is it good for city use?",
-        "answer": "Yes, comfortable and easy to handle in traffic."
+        "question": "Does it have a gear position indicator?",
+        "answer": "Yes, the digital console includes a gear position indicator."
+      }
+    ]
+  },
+  {
+    "name": "TVS Rockz",
+    "slug": "tvs-rockz",
+    "brand": "TVS",
+    "category": "Scooter",
+    "cc": 125,
+    "price": "Tk. 153,900",
+    "short_description": "TVS Rockz - A rugged 125cc scooter with muscular styling, long travel suspension, and all-terrain capabilities for adventurous urban commuting.",
+    "Zero_Sixty": "9.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "55 kmpl",
+    "mileage_reported": "50-53 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "CVT Automatic",
+    "weight": "116 kg",
+    "max_power": "8.3 PS @ 7000 rpm",
+    "max_torque": "8.7 Nm @ 5500 rpm",
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Air Cooled",
+    "front_brake": "190 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/70-12",
+    "rear_tyre_size": "130/70-12",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "5.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "775 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "1865 mm",
+    "overall_width": "715 mm",
+    "build_quality": "Rugged with off-road styling",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/tvs-rockz-front.webp",
+        "alt": "TVS Rockz Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-rockz-side.webp",
+        "alt": "TVS Rockz Side View"
+      }
+    ],
+    "pros": [
+      "Rugged styling with crash guards",
+      "Long travel suspension for bad roads",
+      "Comfortable upright riding position",
+      "Good ground clearance",
+      "Practical storage options"
+    ],
+    "cons": [
+      "Heavier than regular scooters",
+      "Basic instrumentation",
+      "Small fuel tank",
+      "Vibrations at high speed",
+      "Limited color choices"
+    ],
+    "faqs": [
+      {
+        "question": "Is Rockz suitable for off-road?",
+        "answer": "While it has rugged styling, it's primarily designed for rough urban roads rather than true off-roading."
+      },
+      {
+        "question": "What's the storage capacity?",
+        "answer": "It offers 18L under-seat storage plus optional front storage box."
+      },
+      {
+        "question": "Does it have a charging port?",
+        "answer": "Yes, it comes with a 12V charging socket."
+      },
+      {
+        "question": "Is the suspension adjustable?",
+        "answer": "No, it comes with fixed long-travel suspension setup."
+      }
+    ]
+  },
+  {
+    "name": "TVS Stryker",
+    "slug": "tvs-stryker",
+    "brand": "TVS",
+    "category": "Commuter",
+    "cc": 125,
+    "price": "Tk. 144,999",
+    "short_description": "TVS Stryker - A 125cc commuter motorcycle with bold streetfighter styling, comfortable ergonomics, and reliable performance for daily commuting.",
+    "Zero_Sixty": "8.5 sec",
+    "Zero_Hundred": "20.2 sec",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60-63 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc, Rear Drum",
+    "gear": "5-speed manual",
+    "weight": "120 kg",
+    "max_power": "10.5 PS @ 7500 rpm",
+    "max_torque": "10.5 Nm @ 5500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "130 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "N/A (Drum)"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "80/100-18",
+    "rear_tyre_size": "100/90-18",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog-Digital Combo",
+    "seat_height": "800 mm",
+    "ground_clearance": "180 mm",
+    "overall_length": "2045 mm",
+    "overall_width": "785 mm",
+    "build_quality": "Robust streetfighter design",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/tvs-stryker-front.webp",
+        "alt": "TVS Stryker Front View"
+      },
+      {
+        "url": "https://cdn.example.com/tvs-stryker-side.webp",
+        "alt": "TVS Stryker Side View"
+      }
+    ],
+    "pros": [
+      "Aggressive streetfighter styling",
+      "Comfortable upright riding position",
+      "Good fuel efficiency",
+      "5-speed gearbox",
+      "Large 12L fuel tank"
+    ],
+    "cons": [
+      "Basic instrumentation",
+      "No ABS option",
+      "Vibrations at high RPM",
+      "Heavy for 125cc segment",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "What's unique about Stryker's design?",
+        "answer": "It features sharp streetfighter styling with angular bodywork, twin-pod headlight, and muscular fuel tank."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the 800mm seat height and upright ergonomics accommodate tall riders well."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 3,000 km or 3 months, whichever comes first."
+      },
+      {
+        "question": "Does it have a gear position indicator?",
+        "answer": "Yes, the semi-digital console includes a gear position indicator."
       }
     ]
   },

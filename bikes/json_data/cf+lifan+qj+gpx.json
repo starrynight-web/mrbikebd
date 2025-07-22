@@ -3,59 +3,89 @@
     "name": "CFMoto 150SC",
     "slug": "cfmoto-150sc",
     "brand": "CFMoto",
-    "category": "Sports Scooter",
-    "cc": 150,
-    "price": "Tk. 280,000",
-    "description": "The CFMoto 150SC is a premium maxi-scooter that combines sporty styling with practical urban mobility. Designed for riders who want performance and comfort, it features a liquid-cooled 150cc engine that delivers smooth power delivery. The aerodynamic bodywork, full LED lighting, and Bluetooth-enabled digital dashboard give it a modern edge. With its comfortable ergonomics and 10-liter fuel tank, it's perfect for daily commuting while offering weekend fun with its peppy acceleration.",
-    "engine_type": "Single-cylinder, 4-stroke, liquid-cooled",
-    "max_power": "14.5 PS @ 8500 rpm",
+    "category": "Sport Scooter",
+    "cc": 149.3,
+    "price": "Tk. 275,000",
+    "short_description": "CFMoto 150SC - A sporty 149.3cc maxi-scooter with aggressive styling, comfortable ergonomics, and peppy performance for urban commuting.",
+    "Zero_Sixty": "7.8 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "35-38 kmpl",
+    "top_speed_claimed": "105 km/h",
+    "top_speed_reported": "100 km/h",
+    "braking": "Front Disc, Rear Disc (ABS)",
+    "gear": "CVT Automatic",
+    "weight": "148 kg",
+    "max_power": "14.3 PS @ 8500 rpm",
     "max_torque": "12.5 Nm @ 6500 rpm",
-    "transmission": "Automatic CVT",
-    "braking_system": "Front 240mm disc, Rear 220mm disc (CBS)",
-    "suspension": "Front telescopic fork, Rear dual shocks",
-    "tire_size": "Front 120/70-14, Rear 140/60-14",
-    "dimensions": "1980mm x 740mm x 1140mm (LxWxH)",
-    "seat_height": "760 mm",
-    "ground_clearance": "150 mm",
-    "fuel_capacity": "10 liters",
-    "weight": "140 kg",
-    "features": [
-      "Full LED lighting",
-      "Digital instrument cluster",
-      "Bluetooth connectivity",
-      "USB charging port",
-      "Keyless ignition"
+    "clutch": "Automatic Centrifugal",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "120/70-14",
+    "rear_tyre_size": "140/60-14",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "8 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": true,
+    "display": "TFT Color",
+    "seat_height": "780 mm",
+    "ground_clearance": "140 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "790 mm",
+    "build_quality": "Sporty with premium finishes",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-150sc-front.webp",
+        "alt": "CFMoto 150SC Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-150sc-side.webp",
+        "alt": "CFMoto 150SC Side View"
+      }
     ],
     "pros": [
-      "Sporty maxi-scooter design",
-      "Water-cooled engine for better performance",
-      "Advanced features like Bluetooth connectivity",
-      "Comfortable riding position",
-      "Good suspension setup"
+      "Sporty maxi-scooter styling",
+      "Liquid-cooled engine for consistent performance",
+      "Full LED lighting with DRLs",
+      "Comfortable ergonomics",
+      "TFT instrument cluster"
     ],
     "cons": [
-      "Small fuel tank capacity",
-      "No ABS (only CBS)",
-      "Premium pricing for segment",
-      "Limited storage space",
-      "Heavier than regular 150cc scooters"
+      "Small fuel tank",
+      "Limited ground clearance",
+      "Heavier than 150cc rivals",
+      "Expensive for displacement",
+      "Vibrations at high speed"
     ],
     "faqs": [
       {
-        "question": "What is the real-world mileage of CFMoto 150SC?",
-        "answer": "Expect 35-38 kmpl under normal riding conditions in city traffic."
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with single-channel ABS on the front wheel."
       },
       {
-        "question": "Does it have storage space under the seat?",
-        "answer": "Yes, but limited to about 20 liters - enough for a half-face helmet."
+        "question": "What's the storage capacity?",
+        "answer": "It offers 25L under-seat storage - enough for a full-face helmet."
       },
       {
-        "question": "Is the Bluetooth connectivity useful?",
-        "answer": "Yes, it allows call alerts, message notifications and music control through the digital cluster."
+        "question": "Is it suitable for highway riding?",
+        "answer": "Can cruise comfortably at 80-90 kmph but limited by small wheels for extended highway use."
       },
       {
-        "question": "What's the service interval?",
-        "answer": "First service at 500km, then every 3000km or 4 months."
+        "question": "Does it have a charging port?",
+        "answer": "Yes, it comes with a USB charging port."
       }
     ]
   },
@@ -63,59 +93,89 @@
     "name": "CFMoto 250NK",
     "slug": "cfmoto-250nk",
     "brand": "CFMoto",
-    "category": "Naked Bike",
-    "cc": 250,
-    "price": "Tk. 380,000",
-    "description": "The CFMoto 250NK is a streetfighter that brings aggressive styling and performance to the 250cc segment. Its liquid-cooled engine produces 26.5 PS of power, making it one of the most powerful in its class. The inverted front forks, ABS-equipped front brake, and lightweight chassis offer confident handling. With full LED lighting and a digital display, it combines modern technology with raw street presence. The comfortable yet sporty ergonomics make it suitable for both city commuting and weekend rides.",
-    "engine_type": "Single-cylinder, 4-stroke, liquid-cooled",
+    "category": "Naked",
+    "cc": 249,
+    "price": "Tk. 375,000",
+    "short_description": "CFMoto 250NK - A 249cc naked streetfighter with aggressive styling, lightweight chassis, and sporty performance for urban riding.",
+    "Zero_Sixty": "5.5 sec",
+    "Zero_Hundred": "12.8 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "35 kmpl",
+    "mileage_reported": "30-33 kmpl",
+    "top_speed_claimed": "135 km/h",
+    "top_speed_reported": "130 km/h",
+    "braking": "Front Disc, Rear Disc (ABS)",
+    "gear": "6-speed manual",
+    "weight": "151 kg",
     "max_power": "26.5 PS @ 9000 rpm",
     "max_torque": "22 Nm @ 7500 rpm",
-    "transmission": "6-speed manual",
-    "braking_system": "Front 300mm disc, Rear 220mm disc (ABS)",
-    "suspension": "Front inverted fork, Rear monoshock",
-    "tire_size": "Front 110/70-17, Rear 150/60-17",
-    "dimensions": "1990mm x 780mm x 1070mm (LxWxH)",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "292 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "110/70-17",
+    "rear_tyre_size": "150/60-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "10.5 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
     "seat_height": "795 mm",
     "ground_clearance": "150 mm",
-    "fuel_capacity": "12.5 liters",
-    "weight": "158 kg",
-    "features": [
-      "Full LED lighting",
-      "Digital LCD display",
-      "ABS (Front wheel)",
-      "Sporty exhaust note",
-      "Lightweight chassis"
+    "overall_length": "1990 mm",
+    "overall_width": "780 mm",
+    "build_quality": "Sporty with premium touches",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-250nk-front.webp",
+        "alt": "CFMoto 250NK Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-250nk-side.webp",
+        "alt": "CFMoto 250NK Side View"
+      }
     ],
     "pros": [
+      "Lightweight and agile handling",
+      "Powerful 250cc liquid-cooled engine",
       "Aggressive naked bike styling",
-      "Liquid-cooled engine for consistent performance",
-      "Good power-to-weight ratio",
-      "Premium suspension setup",
+      "Full LED lighting",
       "Comfortable ergonomics"
     ],
     "cons": [
-      "No rear ABS",
-      "Small fuel tank",
+      "Firm seat for long rides",
       "Vibrations at high RPM",
-      "Limited service network",
-      "Premium pricing"
+      "Small mirrors",
+      "No gear position indicator",
+      "Limited color options"
     ],
     "faqs": [
       {
-        "question": "How does it compare to KTM 250 Duke?",
-        "answer": "The 250NK offers similar performance at a lower price point but with fewer premium components."
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with single-channel ABS as standard."
       },
       {
-        "question": "Is the ABS switchable?",
-        "answer": "No, the ABS is fixed and cannot be turned off."
+        "question": "Is it suitable for beginners?",
+        "answer": "Yes, its manageable power and lightweight make it a good beginner bike."
       },
       {
-        "question": "What's the top speed?",
-        "answer": "About 125 km/h under ideal conditions."
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 5,000 km or 6 months."
       },
       {
-        "question": "Is it suitable for tall riders?",
-        "answer": "Yes, the 795mm seat height accommodates most riders up to 6 feet comfortably."
+        "question": "Does it have a slipper clutch?",
+        "answer": "No, it comes with a standard wet multi-plate clutch."
       }
     ]
   },
@@ -123,59 +183,89 @@
     "name": "CFMoto 250SR",
     "slug": "cfmoto-250sr",
     "brand": "CFMoto",
-    "category": "Sports Bike",
-    "cc": 250,
-    "price": "Tk. 420,000",
-    "description": "The CFMoto 250SR is a fully-faired sportbike that brings track-inspired performance to the streets. Its liquid-cooled 250cc engine delivers 27.5 PS of power through a smooth 6-speed gearbox. The aerodynamic fairing, aggressive riding position, and premium suspension components make it a true sportbike experience. Features like LED lighting, TFT display, and ABS-equipped front brake add modern appeal. Whether you're carving corners or commuting, the 250SR offers thrilling performance with everyday usability.",
-    "engine_type": "Single-cylinder, 4-stroke, liquid-cooled",
-    "max_power": "27.5 PS @ 9500 rpm",
+    "category": "Sport",
+    "cc": 249,
+    "price": "Tk. 399,000",
+    "short_description": "CFMoto 250SR - A full-faired 249cc sports bike with aggressive styling, track-inspired ergonomics, and spirited performance.",
+    "Zero_Sixty": "5.2 sec",
+    "Zero_Hundred": "12.5 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "33 kmpl",
+    "mileage_reported": "28-31 kmpl",
+    "top_speed_claimed": "140 km/h",
+    "top_speed_reported": "135 km/h",
+    "braking": "Front Disc, Rear Disc (ABS)",
+    "gear": "6-speed manual",
+    "weight": "155 kg",
+    "max_power": "27.5 PS @ 9000 rpm",
     "max_torque": "22.5 Nm @ 7500 rpm",
-    "transmission": "6-speed manual",
-    "braking_system": "Front 300mm disc, Rear 220mm disc (ABS)",
-    "suspension": "Front inverted fork, Rear monoshock",
-    "tire_size": "Front 110/70-17, Rear 150/60-17",
-    "dimensions": "2010mm x 750mm x 1080mm (LxWxH)",
-    "seat_height": "800 mm",
-    "ground_clearance": "140 mm",
-    "fuel_capacity": "12 liters",
-    "weight": "165 kg",
-    "features": [
-      "Full LED lighting with DRLs",
-      "Digital TFT display",
-      "ABS (Front wheel)",
-      "Sporty exhaust",
-      "Aerodynamic fairing"
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "292 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "110/70-17",
+    "rear_tyre_size": "150/60-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "TFT Color",
+    "seat_height": "780 mm",
+    "ground_clearance": "150 mm",
+    "overall_length": "2010 mm",
+    "overall_width": "800 mm",
+    "build_quality": "Sporty with premium fairings",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-250sr-front.webp",
+        "alt": "CFMoto 250SR Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-250sr-side.webp",
+        "alt": "CFMoto 250SR Side View"
+      }
     ],
     "pros": [
-      "Track-inspired full fairing design",
-      "Liquid-cooled engine with good power",
-      "Premium suspension components",
-      "Aggressive but manageable power delivery",
-      "Good braking performance"
+      "Full-faired sportbike styling",
+      "Peppy 250cc liquid-cooled engine",
+      "Comfortable for a sportbike",
+      "Full LED lighting with DRLs",
+      "TFT instrument cluster"
     ],
     "cons": [
-      "Uncomfortable for long rides",
-      "No rear ABS",
-      "Small fuel tank",
-      "Premium pricing",
-      "Limited service network"
+      "Aggressive riding position for long rides",
+      "Vibrations at high RPM",
+      "Small mirrors",
+      "Heavier than some rivals",
+      "Limited color options"
     ],
     "faqs": [
       {
-        "question": "Is this suitable for beginners?",
-        "answer": "Yes, though the aggressive riding position may take some getting used to."
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with single-channel ABS as standard."
       },
       {
-        "question": "What's the fuel range?",
-        "answer": "About 300-350km per tank depending on riding style."
+        "question": "Is it suitable for track use?",
+        "answer": "While capable, it's primarily designed for street use with some track potential."
+      },
+      {
+        "question": "What's the difference from 250NK?",
+        "answer": "The 250SR has full fairings, more aggressive ergonomics, and slightly more power than the naked 250NK."
       },
       {
         "question": "Does it have a slipper clutch?",
         "answer": "No, it comes with a standard wet multi-plate clutch."
-      },
-      {
-        "question": "How does it compare to Yamaha R15?",
-        "answer": "The 250SR has more power and features but is slightly heavier."
       }
     ]
   },
@@ -184,58 +274,88 @@
     "slug": "cfmoto-250cl-c",
     "brand": "CFMoto",
     "category": "Cruiser",
-    "cc": 250,
-    "price": "Tk. 400,000",
-    "description": "The CFMoto 250CL-C brings classic cruiser styling to the 250cc segment with its teardrop fuel tank, low-slung profile, and relaxed ergonomics. Powered by a liquid-cooled 250cc engine, it offers smooth power delivery perfect for laid-back cruising. The low 700mm seat height makes it accessible to all riders, while the 15-liter fuel tank ensures good range. Chrome accents, LED lighting, and spoke wheels complete the classic cruiser look. Whether you're commuting or weekend cruising, the 250CL-C offers comfortable, stylish transportation.",
-    "engine_type": "Single-cylinder, 4-stroke, liquid-cooled",
-    "max_power": "24.5 PS @ 8000 rpm",
-    "max_torque": "21.5 Nm @ 6500 rpm",
-    "transmission": "6-speed manual",
-    "braking_system": "Front 300mm disc, Rear 240mm disc",
-    "suspension": "Front telescopic fork, Rear dual shocks",
-    "tire_size": "Front 130/90-16, Rear 150/80-16",
-    "dimensions": "2250mm x 820mm x 1090mm (LxWxH)",
-    "seat_height": "700 mm",
-    "ground_clearance": "160 mm",
-    "fuel_capacity": "15 liters",
+    "cc": 249,
+    "price": "Tk. 365,000",
+    "short_description": "CFMoto 250CL-C - A 249cc cruiser motorcycle with classic styling, relaxed ergonomics, and torquey performance for comfortable cruising.",
+    "Zero_Sixty": "7.5 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "38 kmpl",
+    "mileage_reported": "33-36 kmpl",
+    "top_speed_claimed": "120 km/h",
+    "top_speed_reported": "115 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "6-speed manual",
     "weight": "170 kg",
-    "features": [
-      "Classic cruiser styling",
-      "LED lighting",
-      "Analog-digital instrument cluster",
-      "Chrome accents",
-      "Comfortable saddle seat"
+    "max_power": "24.5 PS @ 8000 rpm",
+    "max_torque": "22.5 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "300 mm Disc",
+    "rear_brake": "240 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "130/90-16",
+    "rear_tyre_size": "150/80-16",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "14 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "690 mm",
+    "ground_clearance": "140 mm",
+    "overall_length": "2220 mm",
+    "overall_width": "860 mm",
+    "build_quality": "Classic cruiser styling",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-250clc-front.webp",
+        "alt": "CFMoto 250CL-C Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-250clc-side.webp",
+        "alt": "CFMoto 250CL-C Side View"
+      }
     ],
     "pros": [
-      "Low seat height for easy handling",
-      "Classic cruiser aesthetics",
-      "Comfortable riding position",
-      "Large 15L fuel tank",
-      "Smooth power delivery"
+      "Low 690mm seat height",
+      "Comfortable cruiser ergonomics",
+      "Torquey engine for city riding",
+      "Classic cruiser styling",
+      "Large 14L fuel tank"
     ],
     "cons": [
-      "No ABS",
-      "Heavy for its engine size",
+      "Heavy for a 250cc",
       "Limited ground clearance",
-      "Basic suspension setup",
-      "Premium pricing"
+      "Basic instrumentation",
+      "No ABS in base variant",
+      "Small mirrors"
     ],
     "faqs": [
       {
-        "question": "Is this suitable for highway cruising?",
-        "answer": "Yes, though it's more comfortable at moderate speeds of 80-90 km/h."
+        "question": "Does it have ABS?",
+        "answer": "The base variant comes without ABS, but ABS versions may be available in some markets."
       },
       {
-        "question": "Can it accommodate a pillion comfortably?",
-        "answer": "Yes, the wide saddle seat provides decent comfort for two."
+        "question": "Is it suitable for tall riders?",
+        "answer": "The low seat height is better suited for average height riders, though the forward controls help."
       },
       {
-        "question": "What's the maintenance cost?",
-        "answer": "Approximately Tk. 2,000-2,500 per routine service."
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 5,000 km or 6 months."
       },
       {
-        "question": "Does it have customization potential?",
-        "answer": "Yes, the classic cruiser design lends itself well to customization."
+        "question": "Does it have a heel-toe shifter?",
+        "answer": "Yes, it comes with a classic cruiser-style heel-toe shifter."
       }
     ]
   },
@@ -243,55 +363,85 @@
     "name": "CFMoto 300SR",
     "slug": "cfmoto-300sr",
     "brand": "CFMoto",
-    "category": "Sports Bike",
-    "cc": 300,
-    "price": "Tk. 480,000",
-    "description": "The CFMoto 300SR is a high-performance supersport that brings 300cc power to the sportbike segment. Its liquid-cooled engine produces 31.5 PS, delivered through a precise 6-speed gearbox. The full fairing design isn't just for looks - it provides real aerodynamic benefits at speed. Premium components include inverted front forks, monoshock rear suspension, and dual-channel ABS. The aggressive riding position, lightweight chassis, and sticky tires make it equally capable on twisty roads or track days. With features like LED lighting and TFT display, it's a modern sportbike with serious performance credentials.",
-    "engine_type": "Single-cylinder, 4-stroke, liquid-cooled",
-    "max_power": "31.5 PS @ 9750 rpm",
-    "max_torque": "25.5 Nm @ 7250 rpm",
-    "transmission": "6-speed manual",
-    "braking_system": "Front 300mm disc, Rear 220mm disc (ABS)",
-    "suspension": "Front inverted fork, Rear monoshock",
-    "tire_size": "Front 110/70-17, Rear 150/60-17",
-    "dimensions": "2020mm x 750mm x 1080mm (LxWxH)",
-    "seat_height": "810 mm",
-    "ground_clearance": "140 mm",
-    "fuel_capacity": "12 liters",
-    "weight": "168 kg",
-    "features": [
-      "Full LED lighting with DRLs",
-      "Digital TFT display",
-      "Dual-channel ABS",
-      "Sporty exhaust",
-      "Aerodynamic fairing"
+    "category": "Sport",
+    "cc": 292,
+    "price": "Tk. 450,000",
+    "short_description": "CFMoto 300SR - A 292cc full-faired sportbike with aggressive styling, track-inspired ergonomics, and spirited performance for enthusiasts.",
+    "Zero_Sixty": "4.8 sec",
+    "Zero_Hundred": "11.5 sec",
+    "engine_cooling": "Liquid Cooled",
+    "mileage_claimed": "30 kmpl",
+    "mileage_reported": "26-28 kmpl",
+    "top_speed_claimed": "155 km/h",
+    "top_speed_reported": "150 km/h",
+    "braking": "Front Disc, Rear Disc (ABS)",
+    "gear": "6-speed manual",
+    "weight": "165 kg",
+    "max_power": "30.5 PS @ 9000 rpm",
+    "max_torque": "25.5 Nm @ 7500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Liquid Cooled",
+    "front_brake": "292 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "110/70-17",
+    "rear_tyre_size": "150/60-17",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": true,
+    "drls": true,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "TFT Color",
+    "seat_height": "790 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "810 mm",
+    "build_quality": "Premium sportbike finish",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-300sr-front.webp",
+        "alt": "CFMoto 300SR Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-300sr-side.webp",
+        "alt": "CFMoto 300SR Side View"
+      }
     ],
     "pros": [
-      "Powerful 300cc liquid-cooled engine",
-      "Premium suspension components",
-      "Dual-channel ABS for safety",
-      "Aggressive supersport styling",
-      "Good power-to-weight ratio"
+      "Powerful 292cc liquid-cooled engine",
+      "Full-faired aggressive styling",
+      "Premium TFT display",
+      "Full LED lighting with DRLs",
+      "Good high-speed stability"
     ],
     "cons": [
-      "Very aggressive riding position",
-      "Small fuel tank",
-      "High maintenance costs",
-      "Premium pricing",
-      "Limited service network"
+      "Aggressive riding position",
+      "Vibrations at high RPM",
+      "Expensive for displacement",
+      "Heavier than some rivals",
+      "Limited color options"
     ],
     "faqs": [
       {
-        "question": "Is this suitable for track days?",
-        "answer": "Yes, the 300SR is track-capable with its sporty geometry and suspension."
+        "question": "Does it have ABS?",
+        "answer": "Yes, it comes with dual-channel ABS as standard."
       },
       {
-        "question": "How does it compare to Ninja 300?",
-        "answer": "Similar performance but with more modern features at a lower price point."
+        "question": "Is it suitable for beginners?",
+        "answer": "While manageable, the aggressive ergonomics and power may be challenging for complete beginners."
       },
       {
-        "question": "What's the service interval?",
-        "answer": "Every 4000km or 6 months, whichever comes first."
+        "question": "What's the difference from 250SR?",
+        "answer": "The 300SR has a larger 292cc engine, more power, and premium features like TFT display."
       },
       {
         "question": "Does it have a slipper clutch?",
@@ -304,61 +454,92 @@
     "slug": "cfmoto-230-dual",
     "brand": "CFMoto",
     "category": "Dual-Sport",
-    "cc": 230,
-    "price": "Tk. 350,000",
-    "description": "The CFMoto 230 Dual is a versatile dual-sport motorcycle equally at home on city streets or dirt trails. Its 230cc air-cooled engine provides reliable power with excellent fuel efficiency. The long-travel suspension, high ground clearance, and spoke wheels with knobby tires make it capable off-road, while the comfortable upright riding position works well for daily commuting. Features like LED headlight, digital display, and 14-liter fuel tank add practicality. Whether you're navigating urban traffic or exploring backroads, the 230 Dual offers accessible adventure.",
-    "engine_type": "Single-cylinder, 4-stroke, air-cooled",
-    "max_power": "19.5 PS @ 8000 rpm",
-    "max_torque": "17.5 Nm @ 6500 rpm",
-    "transmission": "5-speed manual",
-    "braking_system": "Front 276mm disc, Rear 130mm drum",
-    "suspension": "Front telescopic fork, Rear monoshock",
-    "tire_size": "Front 90/90-21, Rear 120/80-18",
-    "dimensions": "2150mm x 830mm x 1230mm (LxWxH)",
-    "seat_height": "820 mm",
-    "ground_clearance": "210 mm",
-    "fuel_capacity": "14 liters",
-    "weight": "148 kg",
-    "features": [
-      "LED headlight",
-      "Digital instrument cluster",
-      "Long-travel suspension",
-      "Knobby tires",
-      "High-mounted exhaust"
+    "cc": 229,
+    "price": "Tk. 320,000",
+    "short_description": "CFMoto 230 Dual - A 229cc dual-sport motorcycle with rugged styling, long-travel suspension, and versatile performance for both on-road and light off-road use.",
+    "Zero_Sixty": "8.2 sec",
+    "Zero_Hundred": "N/A",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "40 kmpl",
+    "mileage_reported": "35-38 kmpl",
+    "top_speed_claimed": "115 km/h",
+    "top_speed_reported": "110 km/h",
+    "braking": "Front Disc, Rear Disc",
+    "gear": "5-speed manual",
+    "weight": "145 kg",
+    "max_power": "19.5 PS @ 7500 rpm",
+    "max_torque": "18 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "220 mm Disc",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "Single-piston"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "90/90-21",
+    "rear_tyre_size": "120/80-18",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "LED",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Digital LCD",
+    "seat_height": "850 mm",
+    "ground_clearance": "250 mm",
+    "overall_length": "2150 mm",
+    "overall_width": "850 mm",
+    "build_quality": "Rugged dual-sport",
+    "parts_availability": "Good",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/cfmoto-230dual-front.webp",
+        "alt": "CFMoto 230 Dual Front View"
+      },
+      {
+        "url": "https://cdn.example.com/cfmoto-230dual-side.webp",
+        "alt": "CFMoto 230 Dual Side View"
+      }
     ],
     "pros": [
-      "Excellent off-road capability",
-      "High ground clearance",
-      "Lightweight for off-road use",
+      "Excellent ground clearance",
       "Comfortable upright riding position",
-      "Good fuel efficiency"
+      "Good off-road capability",
+      "Lightweight for a dual-sport",
+      "Large fuel tank for adventure"
     ],
     "cons": [
-      "No ABS",
-      "Tall seat height",
-      "Limited power for highway",
-      "Basic instrument cluster",
-      "Vibrations at high speed"
+      "Tall seat height may challenge shorter riders",
+      "Basic instrumentation",
+      "No ABS option",
+      "Vibrations at high speed",
+      "Limited power for highway"
     ],
     "faqs": [
       {
-        "question": "Is this suitable for complete beginners?",
-        "answer": "Yes, the manageable power and upright position make it beginner-friendly."
+        "question": "Is it suitable for off-road?",
+        "answer": "Yes, with its long-travel suspension, high ground clearance, and knobby tires, it's capable of light to moderate off-roading."
       },
       {
-        "question": "What's the real-world fuel consumption?",
-        "answer": "Expect about 35-40 kmpl under normal riding conditions."
+        "question": "Does it have ABS?",
+        "answer": "No, it comes without ABS for better off-road control."
       },
       {
-        "question": "Can it handle highway speeds?",
-        "answer": "It can maintain 80-90 km/h comfortably but isn't ideal for extended highway use."
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 3,000 km or 3 months, especially after off-road use."
       },
       {
-        "question": "What's the weight capacity?",
-        "answer": "Rated for 150kg (rider + pillion + luggage)."
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the 850mm seat height and upright ergonomics accommodate tall riders well."
       }
     ]
   },
+
   {
     "name": "Lifan 150T-13",
     "slug": "lifan-150t-13",
