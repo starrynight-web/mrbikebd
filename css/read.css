@@ -18,14 +18,18 @@
     }
 
     header {
-      padding: 20px;
-      background: #e63946;
-      color: white;
-      text-align: center;
+      /* background: linear-gradient(to right, #2f8adf, #3a719e); */
+      color: #333;
+      text-align: left;
+      padding: 1rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+      /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     }
 
     header h1 {
-      font-size: 1.8rem;
+      margin: 0;
+      font-size: 3rem;
     }
 
     .container {
@@ -102,7 +106,7 @@
 
     .related-links a {
       display: block;
-      color: #e63946;
+      color: #2f8adf;
       text-decoration: none;
       margin-bottom: 8px;
       font-weight: 500;

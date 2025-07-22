@@ -6,12 +6,13 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
-    color: #333;
     background: #fff;
-    min-height: 100vh;
-}
+    color: #333;
+  }
 
 .container {
     max-width: 1200px;
@@ -21,35 +22,27 @@ body {
 
 /* Header styles */
 header {
-    width: 100vw;
-    background: linear-gradient(90deg, #0b4668 0%, #16426b 100%);
-    padding: 40px 0 30px 0;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.08);
+    color: #333;
+    text-align: left;
+    padding: 1rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header h1 {
+    margin: 0;
     font-size: 2rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-    font-weight: 700;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 900px;
-}
+  }
 
 @media (max-width: 900px) {
     header h1 {
-        font-size: 1.5rem;
-        max-width: 95vw;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 600px) {
     header h1 {
-        font-size: 1.1rem;
-        max-width: 98vw;
+        font-size: 1.5rem;
     }
 }
 
@@ -107,7 +100,7 @@ header h1 {
 .search-btn {
     width: 100%;
     padding: 15px 30px;
-    background: linear-gradient(135deg, #4a5caa 0%, #411e64 100%);
+    background-color: #0053a0;
     color: white;
     border: none;
     border-radius: 8px;
@@ -120,8 +113,7 @@ header h1 {
 }
 
 .search-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    background-color: #6aadc2;
 }
 
 .search-btn:active {
