@@ -1903,9 +1903,2078 @@
       {"question": "Service cost?", "answer": "~Tk. 8,000-10,000 per service."},
       {"question": "Weight capacity?", "answer": "170kg (rider only; not designed for pillion)."}
     ]
-  }
+  },
+  {
+  "name": "LML Freedom",
+  "slug": "lml-freedom",
+  "brand": "LML",
+  "category": "Commuter",
+  "cc": 110,
+  "price": "Tk. 90,000",
+  "short_description": "LML Freedom is a budget-friendly 110cc commuter motorcycle offering decent performance and fuel economy for daily rides.",
+  "Zero_Sixty": "8.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-65 kmpl",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "119 kg",
+  "max_power": "8.5 PS @ 7500 rpm",
+  "max_torque": "8 Nm @ 5500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "3.00-18",
+  "wheel_type": "Spoke",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "780 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "2020 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Durable budget commuter",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/lml-freedom-front.webp",
+      "alt": "LML Freedom Front View"
+    },
+    {
+      "url": "https://cdn.example.com/lml-freedom-side.webp",
+      "alt": "LML Freedom Side View"
+    }
+  ],
+  "pros": [
+    "Affordable price tag",
+    "Excellent fuel efficiency",
+    "Reliable commuter engine",
+    "Low maintenance cost",
+    "Comfortable upright riding posture"
+  ],
+  "cons": [
+    "Outdated design",
+    "Lacks modern features",
+    "No disc brake option",
+    "No digital meter",
+    "Basic suspension setup"
+  ],
+  "faqs": [
+    {
+      "question": "Is the LML Freedom good for daily office rides?",
+      "answer": "Yes, it’s fuel-efficient and designed for daily commuting."
+    },
+    {
+      "question": "Does it come with alloy wheels?",
+      "answer": "No, it features traditional spoke wheels."
+    },
+    {
+      "question": "Is it still in production?",
+      "answer": "LML has limited availability; check with local dealers for stock."
+    },
+    {
+      "question": "What is the mileage in city traffic?",
+      "answer": "Around 60 kmpl depending on traffic and riding habits."
+    }
+  ]
+ },
+ {
+  "name": "Runner AD80S Alloy",
+  "slug": "runner-ad80s-alloy",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 85,
+  "price": "Tk. 84,000",
+  "short_description": "Runner AD80S Alloy is an 85cc commuter motorcycle designed for reliable and cost-effective daily travel within the city.",
+  "Zero_Sixty": "10.2 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-68 kmpl",
+  "top_speed_claimed": "80 km/h",
+  "top_speed_reported": "75-80 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "87 kg",
+  "max_power": "5.6 PS @ 8000 rpm",
+  "max_torque": "5.5 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.50-17",
+  "rear_tyre_size": "2.75-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "9.5 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "780 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1910 mm",
+  "overall_width": "710 mm",
+  "build_quality": "Value-oriented and light-weight",
+  "parts_availability": "Excellent",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-ad80s-front.webp",
+      "alt": "Runner AD80S Alloy Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-ad80s-side.webp",
+      "alt": "Runner AD80S Alloy Side View"
+    }
+  ],
+  "pros": [
+    "Great mileage",
+    "Lightweight and maneuverable",
+    "Affordable for beginners",
+    "Low maintenance",
+    "Alloy wheels offer better looks"
+  ],
+  "cons": [
+    "Low engine power",
+    "No disc brakes",
+    "Basic instrumentation",
+    "Not suitable for highways",
+    "Limited comfort for pillion"
+  ],
+  "faqs": [
+    {
+      "question": "What’s the top speed?",
+      "answer": "Runner claims up to 80 km/h under optimal conditions."
+    },
+    {
+      "question": "Is it good for rural roads?",
+      "answer": "Yes, it performs decently on village and city roads alike."
+    },
+    {
+      "question": "Does it come with self-start?",
+      "answer": "Yes, it includes both self and kick-start options."
+    },
+    {
+      "question": "How long does the engine last?",
+      "answer": "With regular maintenance, the engine is durable for over 50,000 km."
+    }
+  ]
+ },
+ {
+  "name": "Runner Bike RT",
+  "slug": "runner-bike-rt",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 86,
+  "price": "Tk. 59,000",
+  "short_description": "Runner Bike RT is one of the most affordable two-wheelers in Bangladesh, ideal for short-distance commuting with high fuel economy.",
+  "Zero_Sixty": "11.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "70 kmpl",
+  "mileage_reported": "65-75 kmpl",
+  "top_speed_claimed": "75 km/h",
+  "top_speed_reported": "70-75 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "86 kg",
+  "max_power": "4.8 PS @ 7500 rpm",
+  "max_torque": "5 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.25-17",
+  "rear_tyre_size": "2.50-17",
+  "wheel_type": "Spoke",
+  "fuel_tank_capacity": "9 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "770 mm",
+  "ground_clearance": "145 mm",
+  "overall_length": "1900 mm",
+  "overall_width": "700 mm",
+  "build_quality": "Basic commuter motorcycle",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-bike-rt-front.webp",
+      "alt": "Runner Bike RT Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-bike-rt-side.webp",
+      "alt": "Runner Bike RT Side View"
+    }
+  ],
+  "pros": [
+    "Extremely budget-friendly",
+    "High mileage",
+    "Easy to ride and maintain",
+    "Lightweight design",
+    "Good availability of parts"
+  ],
+  "cons": [
+    "Low performance",
+    "No alloy wheels",
+    "Very basic features",
+    "Not comfortable for long rides",
+    "No electric start"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Bike RT suitable for students?",
+      "answer": "Yes, it’s affordable, fuel-efficient, and ideal for students."
+    },
+    {
+      "question": "Does it have a self-start?",
+      "answer": "No, it only has a kick-start mechanism."
+    },
+    {
+      "question": "What’s the fuel capacity?",
+      "answer": "It can hold up to 9 liters of petrol."
+    },
+    {
+      "question": "Can it carry two adults?",
+      "answer": "Yes, but it’s more comfortable for solo rides."
+    }
+  ]
+ },
+ {
+  "name": "Runner Bolt 165R",
+  "slug": "runner-bolt-165r",
+  "brand": "Runner",
+  "category": "Naked Sports",
+  "cc": 164.74,
+  "price": "Tk. 179,000",
+  "short_description": "Runner Bolt 165R is a muscular 165cc naked sports bike with aggressive design, disc brakes, and good city performance at an affordable price.",
+  "Zero_Sixty": "5.5 sec",
+  "Zero_Hundred": "12.8 sec",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-45 kmpl",
+  "top_speed_claimed": "125 km/h",
+  "top_speed_reported": "120 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "5-speed manual",
+  "weight": "143 kg",
+  "max_power": "13.2 PS @ 7500 rpm",
+  "max_torque": "14 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "276 mm Disc",
+  "rear_brake": "220 mm Disc",
+  "caliper": {
+    "front": "Dual-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-17",
+  "rear_tyre_size": "130/80-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13 L",
+  "headlight_type": "Halogen with DRL",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Fully Digital LCD",
+  "seat_height": "800 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2000 mm",
+  "overall_width": "730 mm",
+  "build_quality": "Aggressive and sporty",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-bolt165r-front.webp",
+      "alt": "Runner Bolt 165R Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-bolt165r-side.webp",
+      "alt": "Runner Bolt 165R Side View"
+    }
+  ],
+  "pros": [
+    "Aggressive styling",
+    "Dual disc brakes",
+    "Good fuel economy for segment",
+    "Sporty riding posture",
+    "Digital meter console"
+  ],
+  "cons": [
+    "Lacks ABS",
+    "Vibrations at higher speed",
+    "No LED headlight",
+    "Slightly heavy in traffic",
+    "Limited brand prestige in sports segment"
+  ],
+  "faqs": [
+    {
+      "question": "Does Runner Bolt 165R have ABS?",
+      "answer": "No, it doesn’t have ABS in this variant."
+    },
+    {
+      "question": "Is it suitable for long tours?",
+      "answer": "It can handle short tours but better suited for city rides."
+    },
+    {
+      "question": "Is the seat height beginner friendly?",
+      "answer": "At 800 mm, it's manageable for most average-height riders."
+    },
+    {
+      "question": "What's the mileage in daily use?",
+      "answer": "Users report 40–45 kmpl in city conditions."
+    }
+  ]
+ },
+ {
+  "name": "Runner Bolt 165R Dual Tone",
+  "slug": "runner-bolt-165r-dual-tone",
+  "brand": "Runner",
+  "category": "Naked Sports",
+  "cc": 164.74,
+  "price": "Tk. 179,000",
+  "short_description": "The Dual Tone edition of Runner Bolt 165R features sporty graphics and styling upgrades while retaining the same performance and specs.",
+  "Zero_Sixty": "5.5 sec",
+  "Zero_Hundred": "12.8 sec",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-45 kmpl",
+  "top_speed_claimed": "125 km/h",
+  "top_speed_reported": "120 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "5-speed manual",
+  "weight": "143 kg",
+  "max_power": "13.2 PS @ 7500 rpm",
+  "max_torque": "14 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "276 mm Disc",
+  "rear_brake": "220 mm Disc",
+  "caliper": {
+    "front": "Dual-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-17",
+  "rear_tyre_size": "130/80-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13 L",
+  "headlight_type": "Halogen with DRL",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Fully Digital LCD",
+  "seat_height": "800 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2000 mm",
+  "overall_width": "730 mm",
+  "build_quality": "Sporty with visual upgrades",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-bolt165r-dual-front.webp",
+      "alt": "Runner Bolt 165R Dual Tone Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-bolt165r-dual-side.webp",
+      "alt": "Runner Bolt 165R Dual Tone Side View"
+    }
+  ],
+  "pros": [
+    "Sporty dual-tone design",
+    "Same performance as regular Bolt 165R",
+    "Dual disc brakes",
+    "Digital instrument panel",
+    "Affordable in its segment"
+  ],
+  "cons": [
+    "No ABS option",
+    "No mechanical upgrades over standard version",
+    "No LED headlight",
+    "Slightly aggressive seat height",
+    "Limited color options"
+  ],
+  "faqs": [
+    {
+      "question": "What’s the difference from regular Bolt 165R?",
+      "answer": "Primarily cosmetic upgrades – dual-tone paint and decals."
+    },
+    {
+      "question": "Is the engine same as standard model?",
+      "answer": "Yes, it shares the same engine and power output."
+    },
+    {
+      "question": "Does it have ABS?",
+      "answer": "No ABS is available in this version."
+    },
+    {
+      "question": "Are color options available?",
+      "answer": "Yes, dual-tone colors vary by showroom availability."
+    }
+  ]
+ },
+ {
+  "name": "Runner Bullet",
+  "slug": "runner-bullet",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 100.54,
+  "price": "Tk. 102,000",
+  "short_description": "Runner Bullet is a stylish 100cc commuter bike with attractive design, alloy wheels, and great fuel efficiency ideal for daily users.",
+  "Zero_Sixty": "9.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "60 kmpl",
+  "mileage_reported": "55-60 kmpl",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85-90 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "103 kg",
+  "max_power": "6.5 PS @ 8000 rpm",
+  "max_torque": "7 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-17",
+  "rear_tyre_size": "3.00-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "785 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "1950 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Attractive budget commuter",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-bullet-front.webp",
+      "alt": "Runner Bullet Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-bullet-side.webp",
+      "alt": "Runner Bullet Side View"
+    }
+  ],
+  "pros": [
+    "Stylish commuter design",
+    "Alloy wheels included",
+    "Reliable for daily use",
+    "Affordable price",
+    "Easy maintenance"
+  ],
+  "cons": [
+    "No front disc brake",
+    "Halogen lighting only",
+    "Analog meter only",
+    "Average top speed",
+    "No advanced features"
+  ],
+  "faqs": [
+    {
+      "question": "Is it good for office commute?",
+      "answer": "Yes, it's fuel-efficient and perfect for short city rides."
+    },
+    {
+      "question": "Does it have self-start?",
+      "answer": "Yes, it has both self and kick-start."
+    },
+    {
+      "question": "What colors are available?",
+      "answer": "Usually red, black, and blue. Check local availability."
+    },
+    {
+      "question": "Does it come with alloy wheels?",
+      "answer": "Yes, the Runner Bullet comes with factory alloy wheels."
+    }
+  ]
+ },
+ {
+  "name": "Runner Bullet 100 v2",
+  "slug": "runner-bullet-100-v2",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 100,
+  "price": "Tk. 103,000",
+  "short_description": "Runner Bullet 100 v2 is an upgraded commuter motorcycle offering efficient fuel economy, stylish looks, and essential features for city riders.",
+  "Zero_Sixty": "9.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "60 kmpl",
+  "mileage_reported": "55-60 kmpl",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85-90 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "103 kg",
+  "max_power": "6.5 PS @ 8000 rpm",
+  "max_torque": "7 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-17",
+  "rear_tyre_size": "3.00-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "785 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "1950 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Improved build for budget commuting",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-bullet-100-v2-front.webp",
+      "alt": "Runner Bullet 100 v2 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-bullet-100-v2-side.webp",
+      "alt": "Runner Bullet 100 v2 Side View"
+    }
+  ],
+  "pros": [
+    "Stylish commuter appearance",
+    "Improved fit and finish",
+    "Good mileage for city use",
+    "Affordable pricing",
+    "Reliable engine performance"
+  ],
+  "cons": [
+    "Still no disc brake option",
+    "Basic analog instrument cluster",
+    "Limited advanced features",
+    "Halogen lights only",
+    "No tubeless tyres"
+  ],
+  "faqs": [
+    {
+      "question": "Is the Bullet 100 v2 good for beginners?",
+      "answer": "Yes, it’s light, easy to handle, and very fuel-efficient."
+    },
+    {
+      "question": "Does it come with electric start?",
+      "answer": "Yes, it has both electric and kick-start features."
+    },
+    {
+      "question": "Are alloy wheels standard?",
+      "answer": "Yes, the v2 model includes alloy wheels as standard."
+    },
+    {
+      "question": "What is the real-world mileage?",
+      "answer": "Riders report 55–60 kmpl under normal city riding."
+    }
+  ]
+ },
+ {
+  "name": "Runner Cheeta",
+  "slug": "runner-cheeta",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 97.67,
+  "price": "Tk. 87,000",
+  "short_description": "Runner Cheeta is a compact and efficient commuter bike designed for economical city riding with reliable performance and easy handling.",
+  "Zero_Sixty": "10.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-65 kmpl",
+  "top_speed_claimed": "85 km/h",
+  "top_speed_reported": "80-85 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "95 kg",
+  "max_power": "6 PS @ 7500 rpm",
+  "max_torque": "7 Nm @ 5000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.50-17",
+  "rear_tyre_size": "2.75-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "8 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "780 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1900 mm",
+  "overall_width": "700 mm",
+  "build_quality": "Good for budget urban commuting",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-cheeta-front.webp",
+      "alt": "Runner Cheeta Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-cheeta-side.webp",
+      "alt": "Runner Cheeta Side View"
+    }
+  ],
+  "pros": [
+    "Lightweight and easy to handle",
+    "Excellent fuel efficiency",
+    "Affordable price",
+    "Good build quality for the price",
+    "Smooth engine performance"
+  ],
+  "cons": [
+    "No disc brake option",
+    "Basic instrument cluster",
+    "Halogen lighting only",
+    "No advanced features",
+    "Tubed tyres instead of tubeless"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Cheeta suitable for daily city commuting?",
+      "answer": "Yes, it is designed to be economical and reliable for daily urban rides."
+    },
+    {
+      "question": "Does it have electric start?",
+      "answer": "Yes, electric start is available along with kick start."
+    },
+    {
+      "question": "Are alloy wheels standard?",
+      "answer": "Yes, alloy wheels come standard with the Runner Cheeta."
+    },
+    {
+      "question": "What is the fuel tank capacity?",
+      "answer": "The fuel tank capacity is 8 liters."
+    }
+  ]
+ },
+ {
+  "name": "Runner Deluxe",
+  "slug": "runner-deluxe",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 85,
+  "price": "Tk. 85,000",
+  "short_description": "Runner Deluxe is an entry-level commuter motorcycle offering simplicity, good mileage, and an affordable price for budget-conscious riders.",
+  "Zero_Sixty": "11.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "70 kmpl",
+  "mileage_reported": "65-70 kmpl",
+  "top_speed_claimed": "80 km/h",
+  "top_speed_reported": "75-80 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "90 kg",
+  "max_power": "5.5 PS @ 7000 rpm",
+  "max_torque": "6.5 Nm @ 4500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.50-17",
+  "rear_tyre_size": "2.75-17",
+  "wheel_type": "Spoke",
+  "fuel_tank_capacity": "7 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "780 mm",
+  "ground_clearance": "145 mm",
+  "overall_length": "1880 mm",
+  "overall_width": "700 mm",
+  "build_quality": "Basic yet reliable for daily use",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-deluxe-front.webp",
+      "alt": "Runner Deluxe Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-deluxe-side.webp",
+      "alt": "Runner Deluxe Side View"
+    }
+  ],
+  "pros": [
+    "Very affordable price",
+    "Excellent fuel economy",
+    "Light and easy to ride",
+    "Low maintenance costs",
+    "Simple and reliable engine"
+  ],
+  "cons": [
+    "No alloy wheels, uses spoke wheels",
+    "No electric start in some variants",
+    "Basic instrument cluster",
+    "No advanced safety features",
+    "Tubed tyres only"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Deluxe suitable for new riders?",
+      "answer": "Yes, it is lightweight and easy to manage, ideal for beginners."
+    },
+    {
+      "question": "Does it have an electric start?",
+      "answer": "Some variants have electric start; others rely on kick start."
+    },
+    {
+      "question": "What kind of wheels does it have?",
+      "answer": "The Deluxe uses spoke wheels instead of alloy."
+    },
+    {
+      "question": "What is the fuel tank capacity?",
+      "answer": "It has a 7-liter fuel tank."
+    }
+  ]
+ },
+ {
+  "name": "Runner Deluxe V2",
+  "slug": "runner-deluxe-v2",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 85,
+  "price": "Tk. 81,500",
+  "short_description": "Runner Deluxe V2 is a refined update of the original Deluxe, offering better styling, reliable performance, and excellent mileage for budget-conscious commuters.",
+  "Zero_Sixty": "11.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "70 kmpl",
+  "mileage_reported": "65-70 kmpl",
+  "top_speed_claimed": "80 km/h",
+  "top_speed_reported": "75-80 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "91 kg",
+  "max_power": "5.5 PS @ 7000 rpm",
+  "max_torque": "6.5 Nm @ 4500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.50-17",
+  "rear_tyre_size": "2.75-17",
+  "wheel_type": "Spoke",
+  "fuel_tank_capacity": "7.5 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "785 mm",
+  "ground_clearance": "145 mm",
+  "overall_length": "1885 mm",
+  "overall_width": "700 mm",
+  "build_quality": "Improved build over previous generation for daily use",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-deluxe-v2-front.webp",
+      "alt": "Runner Deluxe V2 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-deluxe-v2-side.webp",
+      "alt": "Runner Deluxe V2 Side View"
+    }
+  ],
+  "pros": [
+    "Refined looks over previous version",
+    "Excellent mileage",
+    "Affordable commuter option",
+    "Low maintenance cost",
+    "Lightweight and easy handling"
+  ],
+  "cons": [
+    "No alloy wheels",
+    "No disc brake",
+    "Analog meter only",
+    "No electric start in base variant",
+    "Tubed tyres"
+  ],
+  "faqs": [
+    {
+      "question": "How is Deluxe V2 different from Deluxe? ",
+      "answer": "V2 has updated looks and improved build quality."
+    },
+    {
+      "question": "Is electric start available?",
+      "answer": "Electric start is available in higher variants."
+    },
+    {
+      "question": "What is the mileage in the city?",
+      "answer": "Reported mileage is around 65–70 kmpl."
+    },
+    {
+      "question": "Does it come with alloy wheels?",
+      "answer": "No, it comes with spoke wheels."
+    }
+  ]
+ },
+ {
+  "name": "Runner F100 6A",
+  "slug": "runner-f100-6a",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 95.74,
+  "price": "Tk. 87,000",
+  "short_description": "Runner F100 6A is a smart commuter motorcycle that balances affordability, urban performance, and fuel efficiency, ideal for everyday Bangladeshi roads.",
+  "Zero_Sixty": "10.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-65 kmpl",
+  "top_speed_claimed": "85 km/h",
+  "top_speed_reported": "80-85 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "98 kg",
+  "max_power": "6.3 PS @ 7500 rpm",
+  "max_torque": "7 Nm @ 5000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-17",
+  "rear_tyre_size": "3.00-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "790 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "1950 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Balanced commuter with decent durability",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-f100-6a-front.webp",
+      "alt": "Runner F100 6A Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-f100-6a-side.webp",
+      "alt": "Runner F100 6A Side View"
+    }
+  ],
+  "pros": [
+    "Smooth engine performance",
+    "Good mileage and fuel economy",
+    "Stylish design with alloy wheels",
+    "Low maintenance costs",
+    "Comfortable riding position"
+  ],
+  "cons": [
+    "No disc brake even in front",
+    "No digital meter",
+    "Basic halogen lights",
+    "No advanced features",
+    "Tube tyres instead of tubeless"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner F100 6A good for long rides?",
+      "answer": "It's ideal for city and short highway commutes but not for high-speed touring."
+    },
+    {
+      "question": "Does it come with alloy wheels?",
+      "answer": "Yes, alloy wheels are standard."
+    },
+    {
+      "question": "What kind of braking system is used?",
+      "answer": "Both front and rear use drum brakes."
+    },
+    {
+      "question": "How is the fuel economy?",
+      "answer": "Riders report 60–65 kmpl in real-world use."
+    }
+  ]
+ },
+ {
+  "name": "Runner Kite+",
+  "slug": "runner-kite-plus",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 110,
+  "price": "Tk. 85,000",
+  "short_description": "Runner Kite+ is a smart and economical 110cc commuter motorcycle built for daily use, offering great fuel economy and sleek design for city riders.",
+  "Zero_Sixty": "9.8 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-65 kmpl",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85-90 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "97 kg",
+  "max_power": "7.5 PS @ 7500 rpm",
+  "max_torque": "8 Nm @ 5500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-17",
+  "rear_tyre_size": "3.00-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "9 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "785 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "1950 mm",
+  "overall_width": "715 mm",
+  "build_quality": "Well-built for affordable city commuting",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-kite-plus-front.webp",
+      "alt": "Runner Kite+ Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-kite-plus-side.webp",
+      "alt": "Runner Kite+ Side View"
+    }
+  ],
+  "pros": [
+    "Stylish and slim commuter design",
+    "Decent power in 110cc segment",
+    "Fuel efficient",
+    "Alloy wheels standard",
+    "Affordable price"
+  ],
+  "cons": [
+    "No front disc brake",
+    "Analog display only",
+    "No LED lights",
+    "Lacks advanced safety tech",
+    "Tubed tyres"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Kite+ good for students and beginners?",
+      "answer": "Yes, it's lightweight, fuel-efficient, and budget-friendly."
+    },
+    {
+      "question": "Does it have an electric start?",
+      "answer": "Yes, electric start is available."
+    },
+    {
+      "question": "Is the engine powerful enough for two riders?",
+      "answer": "Yes, for daily city rides, it handles pillion riding well."
+    },
+    {
+      "question": "What is the mileage in real-world usage?",
+      "answer": "Reported mileage ranges from 60–65 kmpl."
+    }
+  ]
+ },
+ {
+  "name": "Runner Knight Rider v2",
+  "slug": "runner-knight-rider-v2",
+  "brand": "Runner",
+  "category": "Standard",
+  "cc": 150,
+  "price": "Tk. 146,000",
+  "short_description": "Runner Knight Rider v2 is a sporty 150cc bike combining style and performance, designed for urban riders seeking both aesthetics and value.",
+  "Zero_Sixty": "7.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-45 kmpl",
+  "top_speed_claimed": "120 km/h",
+  "top_speed_reported": "110-115 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "5-speed manual",
+  "weight": "135 kg",
+  "max_power": "11.2 PS @ 8500 rpm",
+  "max_torque": "12.2 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "100/90-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "14 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "790 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2050 mm",
+  "overall_width": "760 mm",
+  "build_quality": "Sporty design with enhanced urban performance",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-knight-rider-v2-front.webp",
+      "alt": "Runner Knight Rider v2 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-knight-rider-v2-side.webp",
+      "alt": "Runner Knight Rider v2 Side View"
+    }
+  ],
+  "pros": [
+    "Sporty and stylish looks",
+    "Front disc brake",
+    "Large fuel tank capacity",
+    "Good power in 150cc segment",
+    "Comfortable for daily and weekend rides"
+  ],
+  "cons": [
+    "Rear drum brake only",
+    "No ABS or safety tech",
+    "Still uses halogen headlamp",
+    "Tubed tyres instead of tubeless",
+    "Could improve refinement at high rpm"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Knight Rider v2 good for long rides?",
+      "answer": "Yes, it has enough power and fuel tank capacity for highway rides."
+    },
+    {
+      "question": "Does it come with a digital display?",
+      "answer": "It has an analog-digital combo display."
+    },
+    {
+      "question": "What is the real-world mileage?",
+      "answer": "Users report 40–45 kmpl in mixed usage."
+    },
+    {
+      "question": "Is there a rear disc version?",
+      "answer": "Currently, it comes only with rear drum brake."
+    }
+  ]
+ },
+ {
+  "name": "Runner KnightRider",
+  "slug": "runner-knightrider",
+  "brand": "Runner",
+  "category": "Standard",
+  "cc": 150,
+  "price": "Tk. 135,000",
+  "short_description": "Runner KnightRider is a stylish and budget-friendly 150cc motorcycle offering urban performance, attractive design, and reliability for daily commuting.",
+  "Zero_Sixty": "8.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "50 kmpl",
+  "mileage_reported": "45-50 kmpl",
+  "top_speed_claimed": "115 km/h",
+  "top_speed_reported": "105-110 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "5-speed manual",
+  "weight": "132 kg",
+  "max_power": "11 PS @ 8500 rpm",
+  "max_torque": "11.5 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "100/90-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "14 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "790 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2045 mm",
+  "overall_width": "760 mm",
+  "build_quality": "Good sporty commuter in budget segment",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-knightrider-front.webp",
+      "alt": "Runner KnightRider Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-knightrider-side.webp",
+      "alt": "Runner KnightRider Side View"
+    }
+  ],
+  "pros": [
+    "Sporty design for a budget bike",
+    "Fuel-efficient for 150cc",
+    "Front disc brake",
+    "Comfortable riding posture",
+    "Dual-tone styling"
+  ],
+  "cons": [
+    "Rear brake is drum type",
+    "Halogen headlamp instead of LED",
+    "Tubed tyres",
+    "Lacks modern tech features",
+    "Refinement could be improved"
+  ],
+  "faqs": [
+    {
+      "question": "Is KnightRider suitable for long rides?",
+      "answer": "Yes, it is comfortable for short highway rides and daily commuting."
+    },
+    {
+      "question": "Does it have digital display?",
+      "answer": "It features a semi-digital (analog-digital) console."
+    },
+    {
+      "question": "Are alloy wheels standard?",
+      "answer": "Yes, alloy wheels are standard on the KnightRider."
+    },
+    {
+      "question": "What is the real-world mileage?",
+      "answer": "Users report mileage of 45–50 kmpl depending on usage."
+    }
+  ]
+ },
+ {
+  "name": "Runner Royal+ V2",
+  "slug": "runner-royal-plus-v2",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 109.10,
+  "price": "Tk. 108,000",
+  "short_description": "Runner Royal+ V2 is an upgraded 110cc commuter motorcycle with refined styling, comfortable ride, and enhanced reliability for everyday urban mobility.",
+  "Zero_Sixty": "9.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "65 kmpl",
+  "mileage_reported": "60-65 kmpl",
+  "top_speed_claimed": "95 km/h",
+  "top_speed_reported": "90-95 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "114 kg",
+  "max_power": "8.5 PS @ 7500 rpm",
+  "max_torque": "8.5 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-17",
+  "rear_tyre_size": "3.00-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "785 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2000 mm",
+  "overall_width": "765 mm",
+  "build_quality": "Well-built city commuter with modern styling",
+  "parts_availability": "Excellent",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-royal-plus-v2-front.webp",
+      "alt": "Runner Royal+ V2 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-royal-plus-v2-side.webp",
+      "alt": "Runner Royal+ V2 Side View"
+    }
+  ],
+  "pros": [
+    "Disc brake at front",
+    "Modern commuter styling",
+    "Great fuel economy",
+    "Reliable engine",
+    "Comfortable for city use"
+  ],
+  "cons": [
+    "No LED lighting",
+    "Rear brake is drum type",
+    "No digital-only display",
+    "No tubeless tyres",
+    "Lacks premium features"
+  ],
+  "faqs": [
+    {
+      "question": "Is the Royal+ V2 better than the previous version?",
+      "answer": "Yes, the V2 has improved design and better ride comfort."
+    },
+    {
+      "question": "Does it have a disc brake?",
+      "answer": "Yes, the front wheel features a disc brake."
+    },
+    {
+      "question": "Is it good for office commuting?",
+      "answer": "Absolutely, it's built for daily use with high mileage and comfort."
+    },
+    {
+      "question": "What is the fuel tank size?",
+      "answer": "It has a 10-liter fuel tank capacity."
+    }
+  ]
+ },
+ {
+  "name": "Runner Skooty 110",
+  "slug": "runner-skooty-110",
+  "brand": "Runner",
+  "category": "Scooter",
+  "cc": 104,
+  "price": "Tk. 123,000",
+  "short_description": "Runner Skooty 110 is a lightweight, fuel-efficient scooter designed for effortless urban commuting and daily errands.",
+  "Zero_Sixty": "10.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "50 kmpl",
+  "mileage_reported": "45-50 kmpl",
+  "top_speed_claimed": "80 km/h",
+  "top_speed_reported": "75-80 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "CVT Automatic",
+  "weight": "100 kg",
+  "max_power": "5.2 PS @ 7500 rpm",
+  "max_torque": "7.4 Nm @ 6000 rpm",
+  "clutch": "Dry Centrifugal",
+  "cooling_system": "Air Cooled",
+  "front_brake": "110 mm Drum",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "3.50-10",
+  "rear_tyre_size": "3.50-10",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "4.5 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "760 mm",
+  "ground_clearance": "135 mm",
+  "overall_length": "1785 mm",
+  "overall_width": "670 mm",
+  "build_quality": "Light and nimble with practical design for city use",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-skooty-110-front.webp",
+      "alt": "Runner Skooty 110 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-skooty-110-side.webp",
+      "alt": "Runner Skooty 110 Side View"
+    }
+  ],
+  "pros": [
+    "User-friendly automatic transmission",
+    "Compact and lightweight for city use",
+    "Under-seat storage is convenient",
+    "Electric start included",
+    "Affordable pricing for a scooter"
+  ],
+  "cons": [
+    "No disc brakes",
+    "No LED lights or modern display",
+    "Small fuel tank",
+    "No tubeless tyres",
+    "Limited suspension travel"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Skooty 110 suitable for female riders?",
+      "answer": "Yes, its light weight and automatic transmission make it ideal for all genders."
+    },
+    {
+      "question": "Does it have under-seat storage?",
+      "answer": "Yes, it comes with a decent amount of storage space under the seat."
+    },
+    {
+      "question": "What is the mileage in real-world usage?",
+      "answer": "Users report around 45–50 kmpl in typical city conditions."
+    },
+    {
+      "question": "Can it carry two people comfortably?",
+      "answer": "Yes, it’s suitable for two adult passengers on short city rides."
+    }
+  ]
+ },
+ {
+  "name": "Runner Royal+",
+  "slug": "runner-royal-plus",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 109.1,
+  "price": "Tk. 105,000",
+  "short_description": "Runner Royal+ is a stylish and budget-friendly commuter motorcycle offering a reliable 110cc engine and solid mileage for daily urban travel.",
+  "Zero_Sixty": "9.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "60 kmpl",
+  "mileage_reported": "55-60 kmpl",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85-90 km/h",
+  "braking": "Front Drum, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "114 kg",
+  "max_power": "6.0 kW @ 7500 rpm",
+  "max_torque": "7.8 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Drum",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "N/A (Drum)",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "3.00-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog",
+  "seat_height": "780 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "2000 mm",
+  "overall_width": "740 mm",
+  "build_quality": "Well-built for everyday commuting with practical ergonomics",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-royal-plus-front.webp",
+      "alt": "Runner Royal+ Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-royal-plus-side.webp",
+      "alt": "Runner Royal+ Side View"
+    }
+  ],
+  "pros": [
+    "Reliable engine for daily use",
+    "Good mileage for city rides",
+    "Affordable commuter bike",
+    "Stylish graphics and alloy wheels",
+    "Electric start included"
+  ],
+  "cons": [
+    "No disc brake option",
+    "Halogen headlamp only",
+    "Analog console feels outdated",
+    "No tubeless tyres",
+    "Basic feature set"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Royal+ suitable for office commuting?",
+      "answer": "Yes, it’s designed for daily urban rides with good mileage and comfort."
+    },
+    {
+      "question": "Does it have an electric start?",
+      "answer": "Yes, it features both electric and kick start."
+    },
+    {
+      "question": "What kind of brakes does it have?",
+      "answer": "It comes with drum brakes on both front and rear."
+    },
+    {
+      "question": "What is the fuel tank capacity?",
+      "answer": "The fuel tank holds up to 10 liters."
+    }
+  ]
+ },
+ {
+  "name": "Runner Turbo 125",
+  "slug": "runner-turbo-125",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 124.84,
+  "price": "Tk. 129,000",
+  "short_description": "Runner Turbo 125 is a stylish and efficient commuter bike with a 125cc engine offering good power and mileage for daily rides.",
+  "Zero_Sixty": "8.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "50 kmpl",
+  "mileage_reported": "45-50 kmpl",
+  "top_speed_claimed": "100 km/h",
+  "top_speed_reported": "95-100 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "120 kg",
+  "max_power": "8.4 PS @ 7500 rpm",
+  "max_torque": "8.5 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "3.00-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "785 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2020 mm",
+  "overall_width": "765 mm",
+  "build_quality": "Robust and reliable build suitable for city and highway use",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-turbo-125-front.webp",
+      "alt": "Runner Turbo 125 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-turbo-125-side.webp",
+      "alt": "Runner Turbo 125 Side View"
+    }
+  ],
+  "pros": [
+    "Powerful 125cc engine for its class",
+    "Front disc brake for better safety",
+    "Good mileage for city rides",
+    "Comfortable seating and ergonomics",
+    "Attractive design and alloy wheels"
+  ],
+  "cons": [
+    "Rear drum brake instead of disc",
+    "Halogen lighting only",
+    "No advanced electronic features",
+    "No tubeless tyres",
+    "Basic instrument cluster"
+  ],
+  "faqs": [
+    {
+      "question": "Is Runner Turbo 125 suitable for highway rides?",
+      "answer": "Yes, its 125cc engine and comfortable seating make it suitable for short highway trips."
+    },
+    {
+      "question": "Does it have a front disc brake?",
+      "answer": "Yes, it comes with a 240mm front disc brake for improved stopping power."
+    },
+    {
+      "question": "What mileage can I expect in city traffic?",
+      "answer": "Users typically get around 45-50 kmpl in urban conditions."
+    },
+    {
+      "question": "Does it support electric start?",
+      "answer": "Yes, it features both electric and kick start options."
+    }
+  ]
+ },
+ {
+  "name": "Runner Turbo 125 Matte",
+  "slug": "runner-turbo-125-matte",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 124.84,
+  "price": "Tk. 129,000",
+  "short_description": "Runner Turbo 125 Matte is the stylish matte-finish variant of the Turbo 125, delivering the same reliable performance with a modern look.",
+  "Zero_Sixty": "8.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "50 kmpl",
+  "mileage_reported": "45-50 kmpl",
+  "top_speed_claimed": "100 km/h",
+  "top_speed_reported": "95-100 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "120 kg",
+  "max_power": "8.4 PS @ 7500 rpm",
+  "max_torque": "8.5 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "3.00-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "785 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2020 mm",
+  "overall_width": "765 mm",
+  "build_quality": "Durable build with matte paint finish for a modern look",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-turbo-125-matte-front.webp",
+      "alt": "Runner Turbo 125 Matte Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-turbo-125-matte-side.webp",
+      "alt": "Runner Turbo 125 Matte Side View"
+    }
+  ],
+  "pros": [
+    "Modern matte finish paint",
+    "Powerful 125cc engine",
+    "Front disc brake for safety",
+    "Comfortable riding position",
+    "Good fuel efficiency"
+  ],
+  "cons": [
+    "Rear drum brake instead of disc",
+    "Basic halogen lights",
+    "No advanced features like ABS or Bluetooth",
+    "No tubeless tyres",
+    "Analog-digital instrument cluster only"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between Turbo 125 and Turbo 125 Matte?",
+      "answer": "The Matte version features a modern matte paint finish but shares the same specs and features as the standard Turbo 125."
+    },
+    {
+      "question": "Is the fuel efficiency different for the Matte version?",
+      "answer": "No, both versions have similar mileage figures."
+    },
+    {
+      "question": "Does the Turbo 125 Matte have a disc brake?",
+      "answer": "Yes, it has a front disc brake and rear drum brake."
+    },
+    {
+      "question": "Is electric start available?",
+      "answer": "Yes, it has both electric and kick start options."
+    }
+  ]
+ },
+ {
+  "name": "Runner Turbo v2",
+  "slug": "runner-turbo-v2",
+  "brand": "Runner",
+  "category": "Commuter",
+  "cc": 124.84,
+  "price": "Tk. 129,000",
+  "short_description": "Runner Turbo v2 is the updated version of the Turbo 125, featuring refined design and reliable performance for everyday commuting.",
+  "Zero_Sixty": "8.4 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "52 kmpl",
+  "mileage_reported": "47-52 kmpl",
+  "top_speed_claimed": "100 km/h",
+  "top_speed_reported": "95-100 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "4-speed manual",
+  "weight": "118 kg",
+  "max_power": "8.6 PS @ 7500 rpm",
+  "max_torque": "8.6 Nm @ 6000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "130 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "2.75-18",
+  "rear_tyre_size": "3.00-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "10 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "785 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2025 mm",
+  "overall_width": "765 mm",
+  "build_quality": "Improved build quality with refined design and updated features",
+  "parts_availability": "Very good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/runner-turbo-v2-front.webp",
+      "alt": "Runner Turbo v2 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/runner-turbo-v2-side.webp",
+      "alt": "Runner Turbo v2 Side View"
+    }
+  ],
+  "pros": [
+    "Refined and updated styling",
+    "Powerful 125cc engine",
+    "Front disc brake for better stopping power",
+    "Improved fuel efficiency",
+    "Comfortable ergonomics for city rides"
+  ],
+  "cons": [
+    "Rear drum brake instead of disc",
+    "Basic halogen lighting",
+    "No tubeless tyres",
+    "No advanced electronics",
+    "Standard analog-digital display"
+  ],
+  "faqs": [
+    {
+      "question": "What are the improvements in Turbo v2 over the original Turbo 125?",
+      "answer": "Turbo v2 offers updated styling, improved engine tuning, and slightly better mileage."
+    },
+    {
+      "question": "Does Turbo v2 have disc brakes?",
+      "answer": "Yes, it has a front disc brake and rear drum brake."
+    },
+    {
+      "question": "Is electric start available on Turbo v2?",
+      "answer": "Yes, it supports both electric and kick start."
+    },
+    {
+      "question": "What is the fuel tank capacity of Turbo v2?",
+      "answer": "It has a 10-liter fuel tank capacity."
+    }
+  ]
+ },
+ {
+  "name": "UM Runner Renegade Commando",
+  "slug": "um-runner-renegade-commando",
+  "brand": "UM",
+  "category": "Cruiser",
+  "cc": 149,
+  "price": "Tk. 246,000",
+  "short_description": "UM Runner Renegade Commando is a stylish 149cc cruiser motorcycle designed for comfortable city and highway riding with classic cruiser aesthetics.",
+  "Zero_Sixty": "7.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-45 kmpl",
+  "top_speed_claimed": "110 km/h",
+  "top_speed_reported": "105-110 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "5-speed manual",
+  "weight": "140 kg",
+  "max_power": "12.5 PS @ 8500 rpm",
+  "max_torque": "11.5 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Disc",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-19",
+  "rear_tyre_size": "120/80-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "740 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2100 mm",
+  "overall_width": "820 mm",
+  "build_quality": "Solid cruiser build with comfortable ergonomics and premium finish",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/um-runner-renegade-commando-front.webp",
+      "alt": "UM Runner Renegade Commando Front View"
+    },
+    {
+      "url": "https://cdn.example.com/um-runner-renegade-commando-side.webp",
+      "alt": "UM Runner Renegade Commando Side View"
+    }
+  ],
+  "pros": [
+    "Classic cruiser design",
+    "Tubeless tyres front and rear",
+    "Disc brakes on both wheels",
+    "Comfortable riding posture",
+    "Decent fuel efficiency for cruiser segment"
+  ],
+  "cons": [
+    "Higher weight compared to commuter bikes",
+    "Limited advanced electronics",
+    "No quickshifter or traction control",
+    "Digital display only, no analog cluster",
+    "Parts availability moderate"
+  ],
+  "faqs": [
+    {
+      "question": "Is UM Runner Renegade Commando good for long rides?",
+      "answer": "Yes, its cruiser design and comfortable seating make it suitable for moderate long rides."
+    },
+    {
+      "question": "Does it have tubeless tyres?",
+      "answer": "Yes, both front and rear tyres are tubeless."
+    },
+    {
+      "question": "What braking system does it have?",
+      "answer": "It comes with disc brakes on both front and rear wheels."
+    },
+    {
+      "question": "Is the fuel tank capacity enough for city and highway rides?",
+      "answer": "Yes, with 12 liters capacity, it offers good range for daily commuting and weekend trips."
+    }
+  ]
+ },
+ {
+  "name": "UM Runner Renegade Sport",
+  "slug": "um-runner-renegade-sport",
+  "brand": "UM",
+  "category": "Sport",
+  "cc": 149,
+  "price": "Tk. 255,000",
+  "short_description": "UM Runner Renegade Sport is a sporty 149cc motorcycle delivering agile performance and aggressive styling for riders seeking excitement and style.",
+  "Zero_Sixty": "7.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "44 kmpl",
+  "mileage_reported": "40-44 kmpl",
+  "top_speed_claimed": "115 km/h",
+  "top_speed_reported": "110-115 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "5-speed manual",
+  "weight": "138 kg",
+  "max_power": "13 PS @ 8500 rpm",
+  "max_torque": "11.7 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Disc",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-19",
+  "rear_tyre_size": "120/80-18",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "740 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2100 mm",
+  "overall_width": "820 mm",
+  "build_quality": "Sporty build with aggressive styling and good ergonomics",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/um-runner-renegade-sport-front.webp",
+      "alt": "UM Runner Renegade Sport Front View"
+    },
+    {
+      "url": "https://cdn.example.com/um-runner-renegade-sport-side.webp",
+      "alt": "UM Runner Renegade Sport Side View"
+    }
+  ],
+  "pros": [
+    "Sporty design and styling",
+    "Disc brakes on both wheels",
+    "Tubeless tyres front and rear",
+    "Good power and acceleration",
+    "Comfortable riding posture"
+  ],
+  "cons": [
+    "No advanced electronic aids",
+    "Relatively heavy for a sport bike",
+    "No quickshifter or traction control",
+    "Basic digital instrument cluster",
+    "Moderate parts availability"
+  ],
+  "faqs": [
+    {
+      "question": "Is UM Runner Renegade Sport suitable for daily city rides?",
+      "answer": "Yes, it offers good performance and comfortable ergonomics for urban commuting."
+    },
+    {
+      "question": "Does it come with tubeless tyres?",
+      "answer": "Yes, both front and rear tyres are tubeless."
+    },
+    {
+      "question": "What braking system does it use?",
+      "answer": "It has disc brakes on both front and rear wheels."
+    },
+    {
+      "question": "Is the fuel tank capacity sufficient for longer rides?",
+      "answer": "Yes, the 12-liter tank provides a good range for city and highway use."
+    }
+  ]
+ },
+ {
+  "name": "UM Runner Xtreet R 150",
+  "slug": "um-runner-xtreet-r-150",
+  "brand": "UM",
+  "category": "Commuter",
+  "cc": 149,
+  "price": "Tk. 130,000",
+  "short_description": "UM Runner Xtreet R 150 is a budget-friendly 149cc commuter motorcycle offering reliable performance and practical features for daily riding.",
+  "Zero_Sixty": "8.8 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "48 kmpl",
+  "mileage_reported": "45-48 kmpl",
+  "top_speed_claimed": "105 km/h",
+  "top_speed_reported": "100-105 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "5-speed manual",
+  "weight": "130 kg",
+  "max_power": "11.5 PS @ 8500 rpm",
+  "max_torque": "11 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tube",
+  "front_tyre_size": "90/90-17",
+  "rear_tyre_size": "110/90-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital",
+  "seat_height": "780 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2050 mm",
+  "overall_width": "740 mm",
+  "build_quality": "Solid build for everyday commuting with decent ergonomics",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/um-runner-xtreet-r-150-front.webp",
+      "alt": "UM Runner Xtreet R 150 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/um-runner-xtreet-r-150-side.webp",
+      "alt": "UM Runner Xtreet R 150 Side View"
+    }
+  ],
+  "pros": [
+    "Affordable price for 150cc segment",
+    "Front disc brake for improved safety",
+    "Good fuel efficiency",
+    "Comfortable riding posture",
+    "Attractive design and alloy wheels"
+  ],
+  "cons": [
+    "Rear drum brake instead of disc",
+    "Basic halogen lighting",
+    "No tubeless tyres",
+    "No advanced electronics",
+    "Standard analog-digital display"
+  ],
+  "faqs": [
+    {
+      "question": "Is UM Runner Xtreet R 150 good for daily commuting?",
+      "answer": "Yes, it offers reliable performance and comfort for daily city rides."
+    },
+    {
+      "question": "Does it have tubeless tyres?",
+      "answer": "No, it uses tube-type tyres on both wheels."
+    },
+    {
+      "question": "What kind of brakes does it have?",
+      "answer": "It has a front disc brake and rear drum brake."
+    },
+    {
+      "question": "Is electric start available?",
+      "answer": "Yes, it has both electric and kick start options."
+    }
+  ]
+ }
 ]
-
 
 
 
