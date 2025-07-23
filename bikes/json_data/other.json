@@ -1592,7 +1592,1320 @@
       {"question": "Does it have disc brakes on both wheels?", "answer": "No, only the front brake is a disc."},
       {"question": "Is it beginner-friendly?", "answer": "Yes, very easy to ride and handle for beginners."}
     ]
-  }
+  },
+  {
+  "name": "Taro F16 CT Max",
+  "slug": "taro-f16-ct-max",
+  "brand": "Taro",
+  "category": "Scooter",
+  "cc": 124.9,
+  "price": "Tk. 170,000",
+  "short_description": "The Taro F16 CT Max is a sporty 125cc scooter designed for urban mobility, offering striking design, reliable performance, and premium features.",
+  "Zero_Sixty": "8.8 sec",
+  "Zero_Hundred": "22.5 sec",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-43 kmpl",
+  "top_speed_claimed": "95 km/h",
+  "top_speed_reported": "85 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "CVT Automatic",
+  "weight": "126 kg",
+  "max_power": "9.3 PS @ 8000 rpm",
+  "max_torque": "9.5 Nm @ 6500 rpm",
+  "clutch": "Automatic Centrifugal",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Drum",
+  "caliper": {
+    "front": "Single Piston",
+    "rear": "None"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "120/70-14",
+  "rear_tyre_size": "130/70-13",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "6.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "770 mm",
+  "ground_clearance": "145 mm",
+  "overall_length": "1950 mm",
+  "overall_width": "740 mm",
+  "build_quality": "Sporty urban scooter with premium finish",
+  "parts_availability": "Moderate in major cities",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-f16-front.webp", "alt": "Taro F16 CT Max Front View" },
+    { "url": "https://cdn.example.com/taro-f16-side.webp", "alt": "Taro F16 CT Max Side View" },
+    { "url": "https://cdn.example.com/taro-f16-rear.webp", "alt": "Taro F16 CT Max Rear View" },
+    { "url": "https://cdn.example.com/taro-f16-back.webp", "alt": "Taro F16 CT Max Back View" }
+  ],
+  "pros": [
+    "Attractive sporty design",
+    "Comfortable riding posture",
+    "LED lighting setup",
+    "Projector headlamp for night visibility",
+    "Good fuel tank capacity"
+  ],
+  "cons": [
+    "Limited after-sales service",
+    "Heavier than typical scooters",
+    "Spares can be hard to source",
+    "No ABS",
+    "Moderate fuel efficiency"
+  ],
+  "faqs": [
+    { "question": "Is it suitable for long rides?", "answer": "Yes, but comfort depends on road conditions." },
+    { "question": "Does it have ABS?", "answer": "No, only disc and drum brakes." },
+    { "question": "What's the service cost?", "answer": "Around Tk. 800-1100 per service." },
+    { "question": "Does it have under-seat storage?", "answer": "Yes, enough for a half-face helmet." }
+  ]
+},
+{
+  "name": "Taro GP 1",
+  "slug": "taro-gp-1",
+  "brand": "Taro",
+  "category": "Sport Bike",
+  "cc": 149.9,
+  "price": "Tk. 296,000",
+  "short_description": "The Taro GP 1 is a premium 150cc full-faired sports bike offering aggressive styling, dual-channel ABS, and excellent handling for sport enthusiasts.",
+  "Zero_Sixty": "5.9 sec",
+  "Zero_Hundred": "15.2 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "40 kmpl",
+  "mileage_reported": "35-38 kmpl",
+  "top_speed_claimed": "135 km/h",
+  "top_speed_reported": "125 km/h",
+  "braking": "Dual Disc with ABS",
+  "gear": "6-Speed Manual",
+  "weight": "150 kg",
+  "max_power": "16 PS @ 8500 rpm",
+  "max_torque": "14.5 Nm @ 7000 rpm",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "240 mm Disc",
+  "caliper": {
+    "front": "Dual Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "150/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "800 mm",
+  "ground_clearance": "170 mm",
+  "overall_length": "2050 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Sporty and premium build with racing DNA",
+  "parts_availability": "Moderate to limited",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-gp1-front.webp", "alt": "Taro GP 1 Front View" },
+    { "url": "https://cdn.example.com/taro-gp1-side.webp", "alt": "Taro GP 1 Side View" },
+    { "url": "https://cdn.example.com/taro-gp1-rear.webp", "alt": "Taro GP 1 Rear View" },
+    { "url": "https://cdn.example.com/taro-gp1-back.webp", "alt": "Taro GP 1 Back View" }
+  ],
+  "pros": [
+    "Stunning sports bike design",
+    "Dual-channel ABS for safety",
+    "Powerful performance engine",
+    "Premium digital instrument cluster",
+    "Good top-end speed"
+  ],
+  "cons": [
+    "Slightly heavy for 150cc class",
+    "Fuel efficiency could be better",
+    "Parts may be harder to find",
+    "No Bluetooth or modern tech",
+    "Not ideal for shorter riders"
+  ],
+  "faqs": [
+    { "question": "Does it have ABS?", "answer": "Yes, dual-channel ABS." },
+    { "question": "Is it suitable for daily use?", "answer": "Yes, but ideal for sport riding rather than commuting." },
+    { "question": "What is the fuel tank range?", "answer": "Approx. 450-500 km on full tank." },
+    { "question": "Can it be used for long tours?", "answer": "Yes, but ensure proper posture and breaks." }
+  ]
+},
+{
+  "name": "Taro GP 1 Special Edition",
+  "slug": "taro-gp-1-special-edition",
+  "brand": "Taro",
+  "category": "Sport Bike",
+  "cc": 149.9,
+  "price": "Tk. 316,000",
+  "short_description": "The Taro GP 1 Special Edition features enhanced styling, upgraded suspension, and limited edition graphics for enthusiasts seeking exclusivity.",
+  "Zero_Sixty": "5.7 sec",
+  "Zero_Hundred": "14.8 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "39 kmpl",
+  "mileage_reported": "34-37 kmpl",
+  "top_speed_claimed": "138 km/h",
+  "top_speed_reported": "127 km/h",
+  "braking": "Dual Disc with ABS",
+  "gear": "6-Speed Manual",
+  "weight": "152 kg",
+  "max_power": "17 PS @ 8500 rpm",
+  "max_torque": "14.8 Nm @ 7000 rpm",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "240 mm Disc",
+  "caliper": {
+    "front": "Dual Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "150/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "800 mm",
+  "ground_clearance": "170 mm",
+  "overall_length": "2050 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Sporty and premium with special edition graphics and upgraded suspension",
+  "parts_availability": "Moderate to limited",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-gp1-special-front.webp", "alt": "Taro GP 1 Special Edition Front View" },
+    { "url": "https://cdn.example.com/taro-gp1-special-side.webp", "alt": "Taro GP 1 Special Edition Side View" },
+    { "url": "https://cdn.example.com/taro-gp1-special-rear.webp", "alt": "Taro GP 1 Special Edition Rear View" },
+    { "url": "https://cdn.example.com/taro-gp1-special-back.webp", "alt": "Taro GP 1 Special Edition Back View" }
+  ],
+  "pros": [
+    "Exclusive limited edition styling",
+    "Upgraded suspension for better ride comfort",
+    "Powerful engine with good top speed",
+    "Dual-channel ABS for safety",
+    "Digital instrument cluster with special edition graphics"
+  ],
+  "cons": [
+    "Slightly heavier than base model",
+    "Parts availability can be limited",
+    "No Bluetooth or modern connectivity",
+    "Fuel efficiency slightly lower than base model",
+    "Not ideal for shorter riders"
+  ],
+  "faqs": [
+    { "question": "What makes the Special Edition different?", "answer": "Upgraded suspension, exclusive graphics, and slightly improved performance." },
+    { "question": "Does it have ABS?", "answer": "Yes, dual-channel ABS is standard." },
+    { "question": "Is it suitable for long rides?", "answer": "Yes, with proper breaks and riding posture." },
+    { "question": "Can I customize the graphics?", "answer": "Limited customization is possible through Taro authorized dealers." }
+  ]
+},
+{
+  "name": "Taro GP 1 V3",
+  "slug": "taro-gp-1-v3",
+  "brand": "Taro",
+  "category": "Sport Bike",
+  "cc": 155.2,
+  "price": "Tk. 375,000",
+  "short_description": "The Taro GP 1 V3 offers a more powerful 155cc engine with updated electronics and refined styling, designed for riders seeking enhanced performance and modern features.",
+  "Zero_Sixty": "5.4 sec",
+  "Zero_Hundred": "14.1 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "38 kmpl",
+  "mileage_reported": "33-36 kmpl",
+  "top_speed_claimed": "140 km/h",
+  "top_speed_reported": "130 km/h",
+  "braking": "Dual Disc with ABS",
+  "gear": "6-Speed Manual",
+  "weight": "155 kg",
+  "max_power": "18 PS @ 8500 rpm",
+  "max_torque": "15 Nm @ 7000 rpm",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "240 mm Disc",
+  "caliper": {
+    "front": "Dual Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "150/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "800 mm",
+  "ground_clearance": "170 mm",
+  "overall_length": "2050 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Refined sporty build with updated electronics and styling",
+  "parts_availability": "Moderate to limited",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-gp1-v3-front.webp", "alt": "Taro GP 1 V3 Front View" },
+    { "url": "https://cdn.example.com/taro-gp1-v3-side.webp", "alt": "Taro GP 1 V3 Side View" },
+    { "url": "https://cdn.example.com/taro-gp1-v3-rear.webp", "alt": "Taro GP 1 V3 Rear View" },
+    { "url": "https://cdn.example.com/taro-gp1-v3-back.webp", "alt": "Taro GP 1 V3 Back View" }
+  ],
+  "pros": [
+    "More powerful 155cc engine",
+    "Updated electronics for better performance",
+    "Dual-channel ABS for enhanced safety",
+    "Modern digital display",
+    "Improved top speed and acceleration"
+  ],
+  "cons": [
+    "Parts availability can be limited",
+    "No Bluetooth or traction control",
+    "Heavier than previous versions",
+    "Fuel efficiency is average",
+    "Might be less comfortable for shorter riders"
+  ],
+  "faqs": [
+    { "question": "What are the upgrades in V3?", "answer": "More powerful engine, updated electronics, and refined styling." },
+    { "question": "Does it have ABS?", "answer": "Yes, dual-channel ABS is standard." },
+    { "question": "Is quickshifter available?", "answer": "No, this model does not have quickshifter." },
+    { "question": "Is it suitable for city riding?", "answer": "Yes, it offers a good balance of performance and handling for urban use." }
+  ]
+},
+{
+  "name": "Taro GP 2",
+  "slug": "taro-gp-2",
+  "brand": "Taro",
+  "category": "Sport Bike",
+  "cc": 149.8,
+  "price": "Tk. 280,000",
+  "short_description": "The Taro GP 2 is a sporty and stylish 150cc faired bike offering great looks, dual disc brakes, and dependable performance for daily and spirited rides.",
+  "Zero_Sixty": "6.0 sec",
+  "Zero_Hundred": "15.5 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "42 kmpl",
+  "mileage_reported": "36-39 kmpl",
+  "top_speed_claimed": "132 km/h",
+  "top_speed_reported": "122 km/h",
+  "braking": "Dual Disc with ABS",
+  "gear": "6-Speed Manual",
+  "weight": "148 kg",
+  "max_power": "15.5 PS @ 8500 rpm",
+  "max_torque": "14 Nm @ 7000 rpm",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "240 mm Disc",
+  "caliper": {
+    "front": "Dual Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "100/80-17",
+  "rear_tyre_size": "140/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "790 mm",
+  "ground_clearance": "165 mm",
+  "overall_length": "2040 mm",
+  "overall_width": "715 mm",
+  "build_quality": "Aggressive design with reliable street performance",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-gp2-front.webp", "alt": "Taro GP 2 Front View" },
+    { "url": "https://cdn.example.com/taro-gp2-side.webp", "alt": "Taro GP 2 Side View" },
+    { "url": "https://cdn.example.com/taro-gp2-rear.webp", "alt": "Taro GP 2 Rear View" },
+    { "url": "https://cdn.example.com/taro-gp2-back.webp", "alt": "Taro GP 2 Back View" }
+  ],
+  "pros": [
+    "Attractive faired styling",
+    "Good value for price",
+    "Smooth performance for daily rides",
+    "ABS-equipped braking system",
+    "Efficient fuel economy"
+  ],
+  "cons": [
+    "Not as powerful as premium models",
+    "Lacks advanced features",
+    "Rear suspension could be better",
+    "No Bluetooth or traction control",
+    "Spare parts availability is moderate"
+  ],
+  "faqs": [
+    { "question": "Is the Taro GP 2 beginner-friendly?", "answer": "Yes, it's suitable for new riders and city use." },
+    { "question": "Does it have ABS?", "answer": "Yes, it has dual disc with ABS." },
+    { "question": "Is it comfortable for long rides?", "answer": "Yes, but comfort may depend on rider height and posture." },
+    { "question": "What is the mileage?", "answer": "Claimed 42 kmpl; real-world around 36–39 kmpl." }
+  ]
+},
+{
+  "name": "Taro GP One Naked Sport",
+  "slug": "taro-gp-one-naked-sport",
+  "brand": "Taro",
+  "category": "Naked Bike",
+  "cc": 149.9,
+  "price": "Tk. 295,000",
+  "short_description": "The Taro GP One Naked Sport is a muscular 150cc naked streetfighter that combines raw styling with solid performance and sporty ergonomics.",
+  "Zero_Sixty": "5.8 sec",
+  "Zero_Hundred": "14.9 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "40 kmpl",
+  "mileage_reported": "34-37 kmpl",
+  "top_speed_claimed": "135 km/h",
+  "top_speed_reported": "125 km/h",
+  "braking": "Dual Disc with ABS",
+  "gear": "6-Speed Manual",
+  "weight": "149 kg",
+  "max_power": "16 PS @ 8500 rpm",
+  "max_torque": "14.5 Nm @ 7000 rpm",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "240 mm Disc",
+  "caliper": {
+    "front": "Dual Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "150/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "800 mm",
+  "ground_clearance": "175 mm",
+  "overall_length": "2030 mm",
+  "overall_width": "730 mm",
+  "build_quality": "Naked streetfighter styling with a muscular frame",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-gp-one-naked-front.webp", "alt": "Taro GP One Naked Sport Front View" },
+    { "url": "https://cdn.example.com/taro-gp-one-naked-side.webp", "alt": "Taro GP One Naked Sport Side View" },
+    { "url": "https://cdn.example.com/taro-gp-one-naked-rear.webp", "alt": "Taro GP One Naked Sport Rear View" },
+    { "url": "https://cdn.example.com/taro-gp-one-naked-back.webp", "alt": "Taro GP One Naked Sport Back View" }
+  ],
+  "pros": [
+    "Aggressive naked bike styling",
+    "Decent performance and torque",
+    "Dual-channel ABS adds safety",
+    "Better city handling",
+    "Strong road presence"
+  ],
+  "cons": [
+    "Not ideal for touring",
+    "No wind protection",
+    "No smart features like Bluetooth",
+    "Fuel economy could be better",
+    "Slightly heavy for category"
+  ],
+  "faqs": [
+    { "question": "Is this a faired bike?", "answer": "No, it’s a naked streetfighter." },
+    { "question": "Can it be used for commuting?", "answer": "Yes, it’s well-suited for city use." },
+    { "question": "Does it include ABS?", "answer": "Yes, dual-channel ABS is included." },
+    { "question": "Is it beginner-friendly?", "answer": "Yes, but it's more suited for intermediate riders." }
+  ]
+},
+{
+  "name": "Taro Imola",
+  "slug": "taro-imola",
+  "brand": "Taro",
+  "category": "Standard Commuter",
+  "cc": 150,
+  "price": "Tk. 200,000",
+  "short_description": "The Taro Imola is an entry-level street bike with clean commuter-focused styling, comfortable ergonomics, and decent features for city riders.",
+  "Zero_Sixty": "6.5 sec",
+  "Zero_Hundred": "16.5 sec",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-43 kmpl",
+  "top_speed_claimed": "120 km/h",
+  "top_speed_reported": "110 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "5-Speed Manual",
+  "weight": "135 kg",
+  "max_power": "N/A",
+  "max_torque": "N/A",
+  "clutch": "Wet Multi-Plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "240 mm Disc",
+  "rear_brake": "Drum",
+  "caliper": {
+    "front": "Single Piston",
+    "rear": "Mechanical Drum"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-17",
+  "rear_tyre_size": "120/80-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Analog-Digital Combo",
+  "seat_height": "780 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "2000 mm",
+  "overall_width": "700 mm",
+  "build_quality": "Simple and commuter-focused with decent build",
+  "parts_availability": "Easily available",
+  "image_urls": [
+    { "url": "https://cdn.example.com/taro-imola-front.webp", "alt": "Taro Imola Front View" },
+    { "url": "https://cdn.example.com/taro-imola-side.webp", "alt": "Taro Imola Side View" },
+    { "url": "https://cdn.example.com/taro-imola-rear.webp", "alt": "Taro Imola Rear View" },
+    { "url": "https://cdn.example.com/taro-imola-back.webp", "alt": "Taro Imola Back View" }
+  ],
+  "pros": [
+    "Affordable and practical",
+    "Easy to handle for all riders",
+    "Good mileage",
+    "Simple and clean design",
+    "Ideal for city use"
+  ],
+  "cons": [
+    "Low power output",
+    "Basic features",
+    "No ABS or smart features",
+    "Drum rear brake",
+    "Not suited for performance riders"
+  ],
+  "faqs": [
+    { "question": "Is this a high-performance bike?", "answer": "No, it is built for city commuting and practicality." },
+    { "question": "Does it have ABS?", "answer": "No, only front disc with standard braking." },
+    { "question": "What's the mileage?", "answer": "Claimed 45 kmpl; reported 40–43 kmpl." },
+    { "question": "Is the cc known?", "answer": "Currently not officially stated." }
+  ]
+},
+
+{
+  "name": "Revoo C03",
+  "slug": "revoo-c03",
+  "brand": "Revoo",
+  "category": "Electric Scooter",
+  "cc": "Electric",
+  "price": "Tk. 199,900",
+  "short_description": "The Revoo C03 is a stylish and premium electric scooter designed for urban commuting, offering a long range, digital display, and fast charging capability.",
+  "Zero_Sixty": "7.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "100 km per charge",
+  "mileage_reported": "90-95 km per charge",
+  "top_speed_claimed": "75 km/h",
+  "top_speed_reported": "70 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "Automatic",
+  "weight": "115 kg",
+  "max_power": "2000W",
+  "max_torque": "N/A",
+  "clutch": "No clutch (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Disc",
+  "caliper": {
+    "front": "Single Piston",
+    "rear": "Single Piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-12",
+  "rear_tyre_size": "100/80-12",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "N/A",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": true,
+  "display": "Fully Digital",
+  "seat_height": "770 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1820 mm",
+  "overall_width": "710 mm",
+  "build_quality": "Premium finish with urban e-mobility focus",
+  "parts_availability": "Limited",
+  "image_urls": [
+    { "url": "https://cdn.example.com/revoo-c03-front.webp", "alt": "Revoo C03 Front View" },
+    { "url": "https://cdn.example.com/revoo-c03-side.webp", "alt": "Revoo C03 Side View" },
+    { "url": "https://cdn.example.com/revoo-c03-rear.webp", "alt": "Revoo C03 Rear View" },
+    { "url": "https://cdn.example.com/revoo-c03-back.webp", "alt": "Revoo C03 Back View" }
+  ],
+  "pros": [
+    "Modern styling with LED lights",
+    "Decent top speed for an EV",
+    "Good range per charge",
+    "Fully digital instrument cluster",
+    "Supports Bluetooth and smart features"
+  ],
+  "cons": [
+    "Limited service centers",
+    "Not ideal for highways",
+    "Spare parts availability may vary",
+    "Long-term battery reliability unknown",
+    "Slightly pricey for the segment"
+  ],
+  "faqs": [
+    { "question": "What is the range of Revoo C03?", "answer": "Up to 100 km on a full charge." },
+    { "question": "Does it support fast charging?", "answer": "Yes, it supports fast charging." },
+    { "question": "Is it suitable for long tours?", "answer": "Not ideal; it’s designed for city commuting." },
+    { "question": "Can it carry two people?", "answer": "Yes, comfortably supports two adults." }
+  ]
+},
+{
+  "name": "Revoo C00",
+  "slug": "revoo-c00",
+  "brand": "Revoo",
+  "category": "Electric Scooter",
+  "cc": "Electric",
+  "price": "Tk. 139,900",
+  "short_description": "The Revoo C00 is a budget-friendly electric scooter with an efficient motor and compact design, perfect for short commutes and eco-conscious riders.",
+  "Zero_Sixty": "8.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "80 km per charge",
+  "mileage_reported": "70-75 km per charge",
+  "top_speed_claimed": "65 km/h",
+  "top_speed_reported": "60 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "Automatic",
+  "weight": "105 kg",
+  "max_power": "1500W",
+  "max_torque": "N/A",
+  "clutch": "No clutch (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Drum",
+  "caliper": {
+    "front": "Single Piston",
+    "rear": "Mechanical Drum"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-10",
+  "rear_tyre_size": "90/90-10",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "N/A",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital",
+  "seat_height": "760 mm",
+  "ground_clearance": "145 mm",
+  "overall_length": "1750 mm",
+  "overall_width": "680 mm",
+  "build_quality": "Lightweight and commuter-friendly",
+  "parts_availability": "Limited",
+  "image_urls": [
+    { "url": "https://cdn.example.com/revoo-c00-front.webp", "alt": "Revoo C00 Front View" },
+    { "url": "https://cdn.example.com/revoo-c00-side.webp", "alt": "Revoo C00 Side View" },
+    { "url": "https://cdn.example.com/revoo-c00-rear.webp", "alt": "Revoo C00 Rear View" },
+    { "url": "https://cdn.example.com/revoo-c00-back.webp", "alt": "Revoo C00 Back View" }
+  ],
+  "pros": [
+    "Affordable price point",
+    "Ideal for short daily rides",
+    "Easy to maneuver",
+    "Low maintenance",
+    "Good for new EV users"
+  ],
+  "cons": [
+    "Lower top speed",
+    "No smart features",
+    "Drum brake on rear",
+    "Range less than premium models",
+    "Small tyre size"
+  ],
+  "faqs": [
+    { "question": "Is this good for city rides?", "answer": "Yes, it’s great for short-distance city use." },
+    { "question": "Does it come with Bluetooth?", "answer": "No, this model does not support Bluetooth." },
+    { "question": "Can I charge it at home?", "answer": "Yes, it charges easily from standard sockets." },
+    { "question": "What is the warranty?", "answer": "Check with dealer for latest warranty terms." }
+  ]
+},
+{
+  "name": "Revoo A12",
+  "slug": "revoo-a12",
+  "brand": "Revoo",
+  "category": "Electric Scooter",
+  "cc": "Electric",
+  "price": "Tk. 99,900",
+  "short_description": "The Revoo A12 is an entry-level electric scooter focused on affordability and basic performance, suitable for students and short-range riders.",
+  "Zero_Sixty": "9.0 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "70 km per charge",
+  "mileage_reported": "60-65 km per charge",
+  "top_speed_claimed": "55 km/h",
+  "top_speed_reported": "50 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "Automatic",
+  "weight": "95 kg",
+  "max_power": "1000W",
+  "max_torque": "N/A",
+  "clutch": "No clutch (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Drum",
+  "caliper": {
+    "front": "Single Piston",
+    "rear": "Mechanical Drum"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-10",
+  "rear_tyre_size": "90/90-10",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "N/A",
+  "headlight_type": "Halogen",
+  "tail_light_type": "Bulb",
+  "projector_headlamp": false,
+  "drls": false,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Basic Digital",
+  "seat_height": "750 mm",
+  "ground_clearance": "140 mm",
+  "overall_length": "1720 mm",
+  "overall_width": "660 mm",
+  "build_quality": "Entry-level commuter e-scooter",
+  "parts_availability": "Available",
+  "image_urls": [
+    { "url": "https://cdn.example.com/revoo-a12-front.webp", "alt": "Revoo A12 Front View" },
+    { "url": "https://cdn.example.com/revoo-a12-side.webp", "alt": "Revoo A12 Side View" },
+    { "url": "https://cdn.example.com/revoo-a12-rear.webp", "alt": "Revoo A12 Rear View" },
+    { "url": "https://cdn.example.com/revoo-a12-back.webp", "alt": "Revoo A12 Back View" }
+  ],
+  "pros": [
+    "Lowest priced Revoo model",
+    "Ideal for students and short trips",
+    "Lightweight and easy to park",
+    "Cost-efficient",
+    "Low running cost"
+  ],
+  "cons": [
+    "Very basic features",
+    "Low speed and acceleration",
+    "No LED headlamp",
+    "Limited range",
+    "Drum brakes at rear"
+  ],
+  "faqs": [
+    { "question": "Is this scooter suitable for long rides?", "answer": "No, it’s designed for short trips and basic commuting." },
+    { "question": "What is the charging time?", "answer": "Typically 5-6 hours from standard outlet." },
+    { "question": "Does it have a digital display?", "answer": "Yes, but it’s basic." },
+    { "question": "How much weight can it carry?", "answer": "Up to 150 kg load capacity." }
+  ]
+},
+{
+    "model_name": "Revoo A01",
+    "slug": "revoo-a01",
+    "cc": "Not Specified",
+    "price": "Tk. 99,900",
+    "short_description": "The Revoo A01 is a budget-friendly electric bike offering essential features for everyday commuting in urban areas with zero fuel cost.",
+    "description": "Revoo A01 is designed for riders who want reliable, economical transportation with a minimal carbon footprint. The bike offers a sleek, compact body, LED headlamps, a basic digital console, and comfortable ergonomics. With good battery efficiency and user-friendly handling, the A01 is ideal for students and city dwellers.",
+    "engine_type": "Electric Motor",
+    "max_power": "Not Specified",
+    "max_torque": "Not Specified",
+    "bore": "Not Applicable",
+    "stroke": "Not Applicable",
+    "cylinder": "Not Applicable",
+    "cooling": "Air Cooled",
+    "fuel_system": "Electric",
+    "compression_ratio": "Not Applicable",
+    "ignition": "Electric Start",
+    "clutch": "Automatic",
+    "transmission": "Automatic",
+    "top_speed": "60 km/h (approx)",
+    "mileage": "60-70 km/charge",
+    "zero_sixty": "Not Tested",
+    "zero_hundred": "Not Tested",
+    "chassis": "Underbone Frame",
+    "front_suspension": "Telescopic",
+    "rear_suspension": "Dual Shock Absorber",
+    "front_brake": "Disc",
+    "rear_brake": "Drum",
+    "abs": "No",
+    "wheel_type": "Alloy",
+    "front_tyre": "80/90-14",
+    "rear_tyre": "90/90-14",
+    "battery": "Lithium-ion",
+    "battery_capacity": "Not Specified",
+    "charging_time": "5-6 hours",
+    "headlight": "LED",
+    "tail_light": "LED",
+    "turn_signal": "LED",
+    "speedometer": "Digital",
+    "odometer": "Digital",
+    "trip_meter": "Digital",
+    "seat_height": "750 mm (approx)",
+    "ground_clearance": "160 mm (approx)",
+    "weight": "90 kg (approx)",
+    "fuel_capacity": "Not Applicable",
+    "image_urls": [
+      {
+        "url": "https://example.com/images/revoo-a01-front.webp",
+        "alt": "Revoo A01 Front View"
+      },
+      {
+        "url": "https://example.com/images/revoo-a01-side.webp",
+        "alt": "Revoo A01 Side Profile"
+      },
+      {
+        "url": "https://example.com/images/revoo-a01-back.webp",
+        "alt": "Revoo A01 Rear View"
+      },
+      {
+        "url": "https://example.com/images/revoo-a01-dashboard.webp",
+        "alt": "Revoo A01 Digital Display"
+      },
+      {
+        "url": "https://example.com/images/revoo-a01-full.webp",
+        "alt": "Revoo A01 Full Body Look"
+      }
+    ],
+    "pros": [
+      "Affordable electric option",
+      "Lightweight and easy to maneuver",
+      "LED lights and digital display",
+      "Low charging cost",
+      "Beginner-friendly"
+    ],
+    "cons": [
+      "Limited top speed",
+      "Low power output",
+      "Not suitable for highways",
+      "Battery capacity not specified"
+    ],
+    "faqs": [
+      {
+        "question": "What is the top speed of Revoo A01?",
+        "answer": "The top speed is approximately 60 km/h."
+      },
+      {
+        "question": "How long does it take to fully charge?",
+        "answer": "It takes about 5–6 hours for a full charge."
+      },
+      {
+        "question": "Is it suitable for long-distance travel?",
+        "answer": "It's best suited for short city commutes."
+      },
+      {
+        "question": "Does it have disc brakes?",
+        "answer": "It has a front disc and rear drum brake."
+      }
+    ]
+ },
+ {
+    "model_name": "Revoo A10",
+    "slug": "revoo-a10",
+    "cc": "Not Specified",
+    "price": "Tk. 79,900",
+    "short_description": "Revoo A10 is one of the most affordable electric bikes in Bangladesh, built for basic urban commuting with minimal running costs.",
+    "description": "The Revoo A10 is a no-frills electric scooter with core features for low-cost city transportation. It features a minimal design, easy controls, LED lighting, and moderate battery range. It's ideal for first-time users, students, or budget-conscious riders who want a reliable and eco-friendly daily ride.",
+    "engine_type": "Electric Motor",
+    "max_power": "Not Specified",
+    "max_torque": "Not Specified",
+    "bore": "Not Applicable",
+    "stroke": "Not Applicable",
+    "cylinder": "Not Applicable",
+    "cooling": "Air Cooled",
+    "fuel_system": "Electric",
+    "compression_ratio": "Not Applicable",
+    "ignition": "Electric Start",
+    "clutch": "Automatic",
+    "transmission": "Automatic",
+    "top_speed": "50 km/h (approx)",
+    "mileage": "50-60 km/charge",
+    "zero_sixty": "Not Tested",
+    "zero_hundred": "Not Tested",
+    "chassis": "Steel Frame",
+    "front_suspension": "Telescopic",
+    "rear_suspension": "Spring Loaded",
+    "front_brake": "Drum",
+    "rear_brake": "Drum",
+    "abs": "No",
+    "wheel_type": "Steel/Alloy",
+    "front_tyre": "70/90-14",
+    "rear_tyre": "80/90-14",
+    "battery": "Lead Acid",
+    "battery_capacity": "Not Specified",
+    "charging_time": "6-8 hours",
+    "headlight": "LED",
+    "tail_light": "LED",
+    "turn_signal": "Bulb Type",
+    "speedometer": "Analog",
+    "odometer": "Analog",
+    "trip_meter": "No",
+    "seat_height": "740 mm (approx)",
+    "ground_clearance": "150 mm (approx)",
+    "weight": "85 kg (approx)",
+    "fuel_capacity": "Not Applicable",
+    "image_urls": [
+      {
+        "url": "https://example.com/images/revoo-a10-front.webp",
+        "alt": "Revoo A10 Front Look"
+      },
+      {
+        "url": "https://example.com/images/revoo-a10-left.webp",
+        "alt": "Revoo A10 Left Side"
+      },
+      {
+        "url": "https://example.com/images/revoo-a10-back.webp",
+        "alt": "Revoo A10 Rear Angle"
+      },
+      {
+        "url": "https://example.com/images/revoo-a10-seat.webp",
+        "alt": "Revoo A10 Seat and Handlebar"
+      },
+      {
+        "url": "https://example.com/images/revoo-a10-showroom.webp",
+        "alt": "Revoo A10 on Display"
+      }
+    ],
+    "pros": [
+      "Extremely affordable",
+      "Simple and easy controls",
+      "Ideal for short-range commuting",
+      "LED lighting included",
+      "Eco-friendly"
+    ],
+    "cons": [
+      "Basic suspension system",
+      "No disc brakes",
+      "Very limited speed",
+      "Lead-acid battery takes longer to charge"
+    ],
+    "faqs": [
+      {
+        "question": "Is Revoo A10 a good option for beginners?",
+        "answer": "Yes, it’s light and easy to ride, ideal for first-time users."
+      },
+      {
+        "question": "What is the estimated range?",
+        "answer": "Approximately 50–60 km per charge."
+      },
+      {
+        "question": "Does it come with a digital meter?",
+        "answer": "No, it uses analog meters."
+      },
+      {
+        "question": "How much time does it take to charge?",
+        "answer": "6 to 8 hours with standard charger."
+      }
+    ]
+ }, 
+ {
+    "model_name": "Revoo C32",
+    "slug": "revoo-c32",
+    "cc": "Not Specified",
+    "price": "Tk. 139,900",
+    "short_description": "The Revoo C32 is a sleek electric motorcycle offering urban styling and efficient commuting with an eco-friendly footprint.",
+    "description": "Revoo C32 combines functionality with style, offering a futuristic design and a smooth riding experience. Designed for city mobility, it features an LED lighting system, digital display, and a capable electric motor. It provides excellent battery range and is suitable for regular urban use without fuel expenses.",
+    "engine_type": "Electric Motor",
+    "max_power": "Not Specified",
+    "max_torque": "Not Specified",
+    "bore": "Not Applicable",
+    "stroke": "Not Applicable",
+    "cylinder": "Not Applicable",
+    "cooling": "Air Cooled",
+    "fuel_system": "Electric",
+    "compression_ratio": "Not Applicable",
+    "ignition": "Electric Start",
+    "clutch": "Automatic",
+    "transmission": "Automatic",
+    "top_speed": "65 km/h (approx)",
+    "mileage": "70 km/charge",
+    "zero_sixty": "Not Tested",
+    "zero_hundred": "Not Tested",
+    "chassis": "Tubular Frame",
+    "front_suspension": "Telescopic",
+    "rear_suspension": "Twin Shock",
+    "front_brake": "Disc",
+    "rear_brake": "Drum",
+    "abs": "No",
+    "wheel_type": "Alloy",
+    "front_tyre": "80/90-14",
+    "rear_tyre": "90/90-14",
+    "battery": "Lithium-ion",
+    "battery_capacity": "Not Specified",
+    "charging_time": "5-6 hours",
+    "headlight": "LED",
+    "tail_light": "LED",
+    "turn_signal": "LED",
+    "speedometer": "Digital",
+    "odometer": "Digital",
+    "trip_meter": "Digital",
+    "seat_height": "760 mm (approx)",
+    "ground_clearance": "165 mm (approx)",
+    "weight": "95 kg (approx)",
+    "fuel_capacity": "Not Applicable",
+    "image_urls": [
+     {
+        "url": "https://example.com/images/revoo-c32-front.webp",
+        "alt": "Revoo C32 Front View"
+      },
+      {
+        "url": "https://example.com/images/revoo-c32-side.webp",
+        "alt": "Revoo C32 Side Look"
+      },
+      {
+        "url": "https://example.com/images/revoo-c32-back.webp",
+        "alt": "Revoo C32 Rear Profile"
+      },
+      {
+        "url": "https://example.com/images/revoo-c32-console.webp",
+        "alt": "Revoo C32 Digital Console"
+      },
+      {
+        "url": "https://example.com/images/revoo-c32-showroom.webp",
+        "alt": "Revoo C32 Showroom View"
+      }
+    ],
+    "pros": [
+      "Modern and stylish design",
+      "Efficient lithium-ion battery",
+      "Good city range",
+      "Front disc brake",
+      "Digital instrument cluster"
+    ],
+    "cons": [
+      "Rear drum brake only",
+      "Limited top speed",
+      "No fast-charging support",
+      "Spare parts availability may vary"
+    ],
+    "faqs": [
+      {
+        "question": "What is the battery range of the C32?",
+        "answer": "Around 70 km per full charge."
+      },
+      {
+        "question": "Is it suitable for hilly terrain?",
+        "answer": "It's best used in flat city roads."
+      },
+      {
+        "question": "Does it support fast charging?",
+        "answer": "No, it uses standard charging only."
+      },
+      {
+        "question": "What type of brakes are used?",
+        "answer": "Disc at front and drum at rear."
+      }
+  ]
+},
+{
+  "name": "Revoo E52",
+  "slug": "revoo-e52",
+  "brand": "Revoo",
+  "category": "Electric Motorcycle",
+  "cc": "Not Specified",
+  "price": "Tk. 225,900",
+  "short_description": "The Revoo E52 is a powerful electric motorcycle offering smooth acceleration, modern design, and eco-friendly urban commuting.",
+  "Zero_Sixty": "4.8 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "Up to 80 km per charge",
+  "mileage_reported": "75-85 km per charge",
+  "top_speed_claimed": "90 km/h",
+  "top_speed_reported": "85-90 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "Single-speed",
+  "weight": "110 kg",
+  "max_power": "6 kW",
+  "max_torque": "45 Nm",
+  "clutch": "None (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "180 mm Disc",
+  "rear_brake": "160 mm Disc",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-14",
+  "rear_tyre_size": "90/90-14",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "Battery: 2.5 kWh",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": true,
+  "bluetooth_connectivity": true,
+  "display": "Digital LCD with smartphone connectivity",
+  "seat_height": "780 mm",
+  "ground_clearance": "160 mm",
+  "overall_length": "1900 mm",
+  "overall_width": "730 mm",
+  "build_quality": "Robust electric motorcycle build",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/revoo-e52-front.webp",
+      "alt": "Revoo E52 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/revoo-e52-side.webp",
+      "alt": "Revoo E52 Side View"
+    }
+  ],
+  "pros": [
+    "Powerful electric motor",
+    "Good mileage per charge",
+    "Modern digital display",
+    "LED lighting with projector headlamp",
+    "Smooth acceleration"
+  ],
+  "cons": [
+    "Limited top speed compared to petrol bikes",
+    "Battery charging takes several hours",
+    "Higher price point for segment",
+    "No manual gears",
+    "Weight slightly higher than petrol counterparts"
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take to fully charge?",
+      "answer": "Charging time is approximately 4-5 hours on a standard home socket."
+    },
+    {
+      "question": "Is there smartphone connectivity?",
+      "answer": "Yes, it supports Bluetooth connectivity with a dedicated app."
+    },
+    {
+      "question": "What is the warranty period?",
+      "answer": "The battery and motor have a 2-year warranty."
+    },
+    {
+      "question": "Can it be used for highway rides?",
+      "answer": "It is suitable for city and suburban rides but limited for long highway travel."
+    }
+  ]
+},
+{
+  "name": "Revoo A12-S",
+  "slug": "revoo-a12-s",
+  "brand": "Revoo",
+  "category": "Electric Scooter",
+  "cc": "Not Specified",
+  "price": "Tk. 105,900",
+  "short_description": "Revoo A12-S is a compact and affordable electric scooter ideal for short city commutes with eco-friendly performance.",
+  "Zero_Sixty": "7.2 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "Up to 60 km per charge",
+  "mileage_reported": "55-65 km per charge",
+  "top_speed_claimed": "60 km/h",
+  "top_speed_reported": "55-60 km/h",
+  "braking": "Front Disc, Rear Drum",
+  "gear": "Automatic",
+  "weight": "85 kg",
+  "max_power": "2.5 kW",
+  "max_torque": "25 Nm",
+  "clutch": "None (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "130 mm Disc",
+  "rear_brake": "110 mm Drum",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "N/A (Drum)"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-12",
+  "rear_tyre_size": "90/90-12",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "Battery: 1.5 kWh",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Digital LCD",
+  "seat_height": "750 mm",
+  "ground_clearance": "140 mm",
+  "overall_length": "1750 mm",
+  "overall_width": "690 mm",
+  "build_quality": "Lightweight and compact",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/revoo-a12s-front.webp",
+      "alt": "Revoo A12-S Front View"
+    },
+    {
+      "url": "https://cdn.example.com/revoo-a12s-side.webp",
+      "alt": "Revoo A12-S Side View"
+    }
+  ],
+  "pros": [
+    "Affordable electric scooter",
+    "Lightweight and easy to handle",
+    "Good mileage for city use",
+    "LED lights for better visibility",
+    "Smooth automatic transmission"
+  ],
+  "cons": [
+    "Lower top speed",
+    "Limited features compared to higher models",
+    "No Bluetooth connectivity",
+    "Small battery capacity",
+    "No rear disc brake"
+  ],
+  "faqs": [
+    {
+      "question": "How far can it go on a single charge?",
+      "answer": "It can travel up to 60 km depending on riding conditions."
+    },
+    {
+      "question": "Does it have under-seat storage?",
+      "answer": "Yes, it has limited under-seat storage suitable for small items."
+    },
+    {
+      "question": "Is it suitable for hilly areas?",
+      "answer": "It performs best on flat urban roads; hills may reduce range."
+    },
+    {
+      "question": "Does it support fast charging?",
+      "answer": "No, it uses standard charging which takes about 4 hours."
+    }
+  ]
+},
+{
+  "name": "Revoo C32-Y",
+  "slug": "revoo-c32-y",
+  "brand": "Revoo",
+  "category": "Electric Motorcycle",
+  "cc": "Not Specified",
+  "price": "Tk. 129,900",
+  "short_description": "The Revoo C32-Y is a stylish and efficient electric motorcycle perfect for eco-conscious urban riders.",
+  "Zero_Sixty": "6.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Electric Motor",
+  "mileage_claimed": "Up to 70 km per charge",
+  "mileage_reported": "65-72 km per charge",
+  "top_speed_claimed": "80 km/h",
+  "top_speed_reported": "75-80 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "Single-speed",
+  "weight": "95 kg",
+  "max_power": "3.5 kW",
+  "max_torque": "30 Nm",
+  "clutch": "None (Electric)",
+  "cooling_system": "Air Cooled",
+  "front_brake": "160 mm Disc",
+  "rear_brake": "140 mm Disc",
+  "caliper": {
+    "front": "Single-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "90/90-14",
+  "rear_tyre_size": "90/90-14",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "Battery: 2 kWh",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": true,
+  "bluetooth_connectivity": true,
+  "display": "Digital LCD with smartphone app",
+  "seat_height": "770 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1850 mm",
+  "overall_width": "720 mm",
+  "build_quality": "Compact and reliable electric motorcycle",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/revoo-c32y-front.webp",
+      "alt": "Revoo C32-Y Front View"
+    },
+    {
+      "url": "https://cdn.example.com/revoo-c32y-side.webp",
+      "alt": "Revoo C32-Y Side View"
+    }
+  ],
+  "pros": [
+    "Smooth and quiet electric motor",
+    "Good mileage for city rides",
+    "Modern digital display",
+    "Bluetooth connectivity",
+    "Lightweight and easy to handle"
+  ],
+  "cons": [
+    "Moderate top speed",
+    "Battery charging takes time",
+    "Limited dealer network",
+    "No quickshifter",
+    "Small storage capacity"
+  ],
+  "faqs": [
+    {
+      "question": "Can I track the bike via smartphone?",
+      "answer": "Yes, it supports smartphone app for tracking and diagnostics."
+    },
+    {
+      "question": "Is it suitable for long rides?",
+      "answer": "Best suited for short city commutes due to battery range."
+    },
+    {
+      "question": "What is the warranty period?",
+      "answer": "Battery and motor warranty is 2 years."
+    },
+    {
+      "question": "Does it have LED lights?",
+      "answer": "Yes, both headlight and tail light are LED."
+    }
+  ]
+ }
 ]
+
+
+
+
+
 
 
