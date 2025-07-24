@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultsSection = document.getElementById('results-section');
     const resultsContainer = document.getElementById('results-container');
     
+    const mapFrame = document.getElementById('mapFrame');
     // Add event listener to search button
     searchBtn.addEventListener('click', handleSearch);
     
@@ -133,6 +134,12 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
+       
+        const searchQuery = `${brand} bike dealer in ${city} Bangladesh`;
+        const encodedQuery = encodeURIComponent(searchQuery);
+        const mapUrl = `https://www.google.com/maps?q=${encodedQuery}&output=embed`;
+        mapFrame.src = mapUrl;
+
         // Show loading state
         showLoading();
         
