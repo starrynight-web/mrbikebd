@@ -40,4 +40,46 @@
     renderModels(selectedBrand, selectedCategory);
   }
 
-  renderModels();
+  function setFiltersFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const brand = params.get('brand');
+    const category = params.get('category');
+    const brandFilter = document.getElementById("brandFilter");
+    const categoryFilter = document.getElementById("categoryFilter");
+  
+    // Set brand filter if present
+    if (brand) {
+      for (let i = 0; i < brandFilter.options.length; i++) {
+        if (brandFilter.options[i].value.toLowerCase() === brand.toLowerCase()) {
+          brandFilter.selectedIndex = i;
+          break;
+        }
+      }
+    }
+  
+    // Set category filter if present
+    if (category) {
+      for (let i = 0; i < categoryFilter.options.length; i++) {
+        if (categoryFilter.options[i].value.toLowerCase() === category.toLowerCase()) {
+          categoryFilter.selectedIndex = i;
+          break;
+        }
+      }
+    }
+  
+    // Render models with the selected filters
+    renderModels(
+      brandFilter.value,
+      categoryFilter.value
+    );
+  }
+  
+  // When the page loads, set the filters if present in the URL
+  window.addEventListener('DOMContentLoaded', setFiltersFromURL);
+  
+  // Also update filterModels to always use the dropdowns
+  function filterModels() {
+    const selectedBrand = document.getElementById("brandFilter").value;
+    const selectedCategory = document.getElementById("categoryFilter").value;
+    renderModels(selectedBrand, selectedCategory);
+  }
