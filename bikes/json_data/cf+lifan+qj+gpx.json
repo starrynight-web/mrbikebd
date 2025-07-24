@@ -539,6 +539,96 @@
       }
     ]
   },
+  {
+  "name": "KPV 150 RACE",
+  "slug": "kpv-150-race",
+  "brand": "Lifan",
+  "category": "Scooter",
+  "cc": 149.8,
+  "price": "Tk. 350,000",
+  "short_description": "KPV 150 RACE is a premium adventure-style scooter offering rugged looks, advanced features, and the versatility to handle both urban and off-road riding.",
+  "Zero_Sixty": "9.5 sec",
+  "Zero_Hundred": "N/A",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "45 kmpl",
+  "mileage_reported": "40-45 kmpl",
+  "top_speed_claimed": "100 km/h",
+  "top_speed_reported": "95-100 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "CVT Automatic",
+  "weight": "145 kg",
+  "max_power": "12.5 PS @ 8500 rpm",
+  "max_torque": "11.8 Nm @ 5500 rpm",
+  "clutch": "Automatic (Dry Centrifugal)",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "Disc",
+  "rear_brake": "Disc",
+  "caliper": {
+    "front": "Dual-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "100/80-14",
+  "rear_tyre_size": "120/70-14",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "11 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": true,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Full Digital",
+  "seat_height": "765 mm",
+  "ground_clearance": "180 mm",
+  "overall_length": "1920 mm",
+  "overall_width": "760 mm",
+  "build_quality": "Rugged, adventure-ready scooter with high ground clearance and sporty build",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/kpv-150-race-front.webp",
+      "alt": "KPV 150 RACE Front View"
+    },
+    {
+      "url": "https://cdn.example.com/kpv-150-race-side.webp",
+      "alt": "KPV 150 RACE Side View"
+    }
+  ],
+  "pros": [
+    "Adventure styling and dual-purpose capability",
+    "Front and rear disc brakes",
+    "Large digital display",
+    "LED lights with DRLs",
+    "Great ground clearance"
+  ],
+  "cons": [
+    "Heavier than typical scooters",
+    "No ABS",
+    "Higher price point",
+    "Parts availability can vary",
+    "Not ideal for very short riders"
+  ],
+  "faqs": [
+    {
+      "question": "Is KPV 150 RACE good for off-road use?",
+      "answer": "Yes, it features high ground clearance and dual-purpose tires for light off-road rides."
+    },
+    {
+      "question": "Does it have LED lights?",
+      "answer": "Yes, both headlight and tail light are LED with DRLs included."
+    },
+    {
+      "question": "Is this scooter fuel efficient?",
+      "answer": "Yes, it delivers around 40–45 kmpl in real-world riding."
+    },
+    {
+      "question": "What is the fuel tank capacity?",
+      "answer": "It comes with an 11-liter fuel tank, larger than most scooters."
+    }
+  ]
+  },
 
   {
     "name": "Lifan 150T-13",
