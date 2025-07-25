@@ -2,19 +2,16 @@
         font-family: sans-serif;
         margin: 0;
         padding: 0;
-        /* background: linear-grazdient(135deg, #f9f9f9, #a1d8fe); */
         color: #333;
         line-height: 1.6;
     }
 
     header {
-      /* background: linear-gradient(to right, #2f8adf, #3a719e); */
       color: #333;
       text-align: left;
       padding: 1rem 1rem;
       max-width: 800px;
       margin: 0 auto;
-      /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     }
 
     header h1 {
@@ -58,7 +55,7 @@
     .whatsapp-button {
       display: inline-block;
       padding: 12px 20px;
-      background-color: #3a9e67;
+      background-color: #1b9254;
       color: white;
       border: none;
       border-radius: 6px;
