@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outlet Finder</title>
-    <link rel="stylesheet" href="css/dealer.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premium Bike Dealer Locator</title>
+  <link rel="stylesheet" href="css/dealer.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    
+  </style>
 </head>
 <body>
-  <!-- Navigation & hamburger -->
+ <!-- Navigation & hamburger -->
   <nav>
     <div class="left-section">
       <div class="hamburger" onclick="toggleSidebar()">
@@ -71,69 +75,65 @@
   <a href="terms.html"><i class="fas fa-scroll "></i> Terms & Conditions</a>
   </div>
 
-    <header>
-        <h1>Find your nearest outlet to buy your favorite bike</h1>
-    </header>
-    <div class="container">
-        <main>
-            <!-- Search Section -->
-            <section class="dealer-search-section">
-                <div class="dealer-search-container">
-                    <div class="dropdown-group">
-                        <div class="dropdown-wrapper">
-                            <label for="brand-select">Select brand:</label>
-                            <select id="brand-select" class="dropdown">
-                                <option value="">Choose a brand</option>
-                                <option value="royal-enfield">Royal Enfield</option>
-                                <option value="honda">Honda</option>
-                                <option value="bajaj">Bajaj</option>
-                                <option value="tvs">TVS</option>
-                                <option value="yamaha">Yamaha</option>
-                                <option value="hero">Hero</option>
-                                <option value="ktm">KTM</option>
-                                <option value="suzuki">Suzuki</option>
-                                <option value="benelli">Benelli</option>
-                                <option value="cfmoto">CFMoto</option>
-                                <option value="lifan">Lifan</option>
-                                <option value="runner">Runner</option>
-                            </select>
-                        </div>
-                        <div class="dropdown-wrapper">
-                            <label for="city-select">Select city:</label>
-                            <select id="city-select" class="dropdown">
-                                <option value="">Choose a city</option>
-                                <option value="dhaka">Dhaka</option>
-                                <option value="chattogram">Chattogram</option>
-                                <option value="rajshahi">Rajshahi</option>
-                                <option value="khulna">Khulna</option>
-                                <option value="barishal">Barishal</option>
-                                <option value="sylhet">Sylhet</option>
-                                <option value="rangpur">Rangpur</option>
-                                <option value="mymensingh">Mymensingh</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="search-btn" class="search-btn">Search your outlet</button>
-                </div>
-            </section>
-            <!-- Results Section -->
-          
-            <section class="results-section" id="results-section">
-                <div class="results-container" id="results-container">
-                   <iframe
-                     id="mapFrame"
-                     src=""
-                     width="100%"
-                     height="450"
-                     style="border:0; border-radius: 8px;"
-                     allowfullscreen=""
-                     loading="lazy"
-                     referrerpolicy="no-referrer-when-downgrade">
-                   </iframe>
-                </div>
-            </section>
-        </main>
+  <header>
+    <div class="header-content">
+      <h1>Premium Bike Dealer Locator</h1>
+      <p class="subtitle">Find authorized dealers for the world's top motorcycle brands in your area</p>
     </div>
+  </header>
+
+  <div class="container">
+    <div class="search-panel">
+      <div class="search-title">
+        <i class="fas fa-search-location"></i>
+        <span>Find Your Nearest Dealer</span>
+      </div>
+      <div class="select-group">
+        <div class="select-container">
+          <select id="brandSelect">
+            <option value="">Select Brand</option>
+            <option value="Yamaha">Yamaha</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Honda">Honda</option>
+            <option value="Kawasaki">Kawasaki</option>
+            <option value="TVS">TVS</option>
+            <option value="Hero">Hero</option>
+            <option value="Cfmoto">Cfmoto</option>
+          </select>
+        </div>
+        
+        <div class="select-container">
+          <select id="citySelect">
+            <option value="">Select City</option>
+            <option value="Savar">Savar</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Dinajpur">Dinajpur</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Barisal">Barisal</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <div class="loader" id="loader">
+        <div class="loader-content">
+          <div class="spinner"></div>
+          <p>Loading dealer locations...</p>
+        </div>
+      </div>
+      
+      <div class="map-placeholder" id="mapPlaceholder">
+        <i class="fas fa-map-marked-alt"></i>
+        <p>Please select a brand and city to view authorized dealers in your area</p>
+      </div>
+      
+      <iframe id="mapFrame" loading="lazy" allowfullscreen style="display: none;"></iframe>
+    </div>
+  </div>
   <!-- Footer -->
   <footer id="contact">
     <div class="footer-container">
@@ -183,9 +183,8 @@
       </div>
     </div>
   </footer>
-    <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 <script src="js/search.js"></script>
-    
-    <script src="js/dealer.js"></script>
+ <script src="js/dealer.js"> </script>
 </body>
 </html>
