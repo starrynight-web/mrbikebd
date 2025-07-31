@@ -47,19 +47,27 @@
     "build_quality": "Sporty with aerodynamic design",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-rtr-fi-front.webp",
-        "alt": "TVS Apache RTR 160 4V Fi Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-rtr-fi-side.webp",
-        "alt": "TVS Apache RTR 160 4V Fi Side View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-rtr-fi-back.webp",
-        "alt": "TVS Apache RTR 160 4V Fi Back View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ] ,
     "pros": [
       "Fuel-injected engine for precise throttle response",
       "Aggressive and sporty design language",
@@ -141,19 +149,27 @@
     "build_quality": "Sporty with tech features",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-smartx-dd-front.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-smartx-dd-side.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Side View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-smartx-dd-back.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT DD Back View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ] ,
     "pros": [
       "SmartXonnect digital dash with smartphone connectivity",
       "Same peppy 159.7cc engine as other variants",
@@ -234,23 +250,31 @@
     "overall_width": "770 mm",
     "build_quality": "Sporty with tech integration",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-smartx-sd-front.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-smartx-sd-side.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Side View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-smartx-sd-back.webp",
-        "alt": "TVS Apache RTR 160 SMARTXCONNECT SD Back View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ],
     "pros": [
       "More affordable SmartXonnect option",
-      "Retains the same 159.7cc engine performance",
+       "Retains the same 159.7cc engine performance",
       "LED lighting package",
       "Good balance between price and features",
       "Comfortable riding position"
@@ -329,19 +353,27 @@
     "build_quality": "Race-inspired with premium graphics",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-race-abs-front.webp",
-        "alt": "TVS Apache RTR 160 Race Edition ABS Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-race-abs-side.webp",
-        "alt": "TVS Apache RTR 160 Race Edition ABS Side View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-race-abs-back.webp",
-        "alt": "TVS Apache RTR 160 Race Edition ABS Back View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ] ,
     "pros": [
       "Race-inspired graphics and styling",
       "Single-channel ABS for safety",
@@ -423,19 +455,27 @@
     "build_quality": "Race styling with cost-saving measures",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-race-sd-front.webp",
-        "alt": "TVS Apache RTR 160 Race Edition SD Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-race-sd-side.webp",
-        "alt": "TVS Apache RTR 160 Race Edition SD Side View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-race-sd-back.webp",
-        "alt": "TVS Apache RTR 160 Race Edition SD Back View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ] ,
     "pros": [
       "Most affordable Race Edition variant",
       "Retains the sporty 159.7cc engine",
@@ -516,16 +556,28 @@
     "overall_width": "770 mm",
     "build_quality": "Sporty with premium fit-finish",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/apache-rtr4v-abs-front.webp",
-        "alt": "TVS Apache RTR 4V ABS Front View"
-      },
-      {
-        "url": "https://cdn.example.com/apache-rtr4v-abs-side.webp",
-        "alt": "TVS Apache RTR 4V ABS Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926354/bikes/TVS/tvs-apache/tvs-apache%20-rtr-showroom-view.webp",
+          "alt": "tvs-apache Tvs Apache  Rtr Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926355/bikes/TVS/tvs-apache/tvs-apache-rtr-back-view.webp",
+          "alt": "tvs-apache Rtr Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926356/bikes/TVS/tvs-apache/tvs-apache-rtr-front-view.webp",
+          "alt": "tvs-apache Rtr Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926357/bikes/TVS/tvs-apache/tvs-apache-rtr-left-view.webp",
+          "alt": "tvs-apache Rtr Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926358/bikes/TVS/tvs-apache/tvs-apache-rtr-right-view.webp",
+          "alt": "tvs-apache Rtr Right View"
+        }
+      ],
     "pros": [
       "Dual-channel ABS for superior safety",
       "Refined 4-valve engine with linear power delivery",
@@ -606,16 +658,28 @@
     "overall_width": "685 mm",
     "build_quality": "Practical with good fit-finish",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-jupiter-front.webp",
-        "alt": "TVS Jupiter Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-jupiter-side.webp",
-        "alt": "TVS Jupiter Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926359/bikes/TVS/tvs-jupiter/tvs-jupiter-back-view.webp",
+          "alt": "tvs-jupiter Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926360/bikes/TVS/tvs-jupiter/tvs-jupiter-front-view.webp",
+          "alt": "tvs-jupiter Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926360/bikes/TVS/tvs-jupiter/tvs-jupiter-left-view.webp",
+          "alt": "tvs-jupiter Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926362/bikes/TVS/tvs-jupiter/tvs-jupiter-right-view.webp",
+          "alt": "tvs-jupiter Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926363/bikes/TVS/tvs-jupiter/tvs-jupiter-showroom-view.webp",
+          "alt": "tvs-jupiter Showroom View"
+        }
+      ],
     "pros": [
       "Excellent suspension for bumpy roads",
       "Comfortable long seat with good cushioning",
@@ -696,16 +760,7 @@
     "overall_width": "750 mm",
     "build_quality": "Utilitarian with focus on durability",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-max125-front.webp",
-        "alt": "TVS Max 125 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-max125-side.webp",
-        "alt": "TVS Max 125 Side View"
-      }
-    ],
+    ,
     "pros": [
       "Exceptional fuel efficiency",
       "Low maintenance costs",
@@ -1057,16 +1112,28 @@
     "overall_width": "710 mm",
     "build_quality": "Sporty with premium finishes",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-ntorq-front.webp",
-        "alt": "TVS Ntorq 125 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-ntorq-side.webp",
-        "alt": "TVS Ntorq 125 Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926363/bikes/TVS/tvs-ntorq/tvs-ntorq-125-back-view.webp",
+          "alt": "tvs-ntorq 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926364/bikes/TVS/tvs-ntorq/tvs-ntorq-125-front-view.webp",
+          "alt": "tvs-ntorq 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926365/bikes/TVS/tvs-ntorq/tvs-ntorq-125-left-view.webp",
+          "alt": "tvs-ntorq 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926366/bikes/TVS/tvs-ntorq/tvs-ntorq-125-right-view.webp",
+          "alt": "tvs-ntorq 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926366/bikes/TVS/tvs-ntorq/tvs-ntorq-125-showroom-view.webp",
+          "alt": "tvs-ntorq 125 Showroom View"
+        }
+      ] ,
     "pros": [
       "Peppy liquid-cooled engine",
       "Sporty handling and styling",
@@ -1148,15 +1215,27 @@
     "build_quality": "Retro styling with modern reliability",
     "parts_availability": "Excellent",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-radeon-front.webp",
-        "alt": "TVS Radeon Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-radeon-side.webp",
-        "alt": "TVS Radeon Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926367/bikes/TVS/tvs-radeon/tvs-radeon-back-view.webp",
+          "alt": "tvs-radeon Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926368/bikes/TVS/tvs-radeon/tvs-radeon-front-view.webp",
+          "alt": "tvs-radeon Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926369/bikes/TVS/tvs-radeon/tvs-radeon-left-view.webp",
+          "alt": "tvs-radeon Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926370/bikes/TVS/tvs-radeon/tvs-radeon-right-view.webp",
+          "alt": "tvs-radeon Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926370/bikes/TVS/tvs-radeon/tvs-radeon-showroom-view.webp",
+          "alt": "tvs-radeon Showroom View"
+        }
+      ] ,
     "pros": [
       "Excellent fuel efficiency",
       "Comfortable upright riding position",
@@ -1237,16 +1316,28 @@
     "overall_width": "810 mm",
     "build_quality": "Sporty with premium touches",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-raider-front.webp",
-        "alt": "TVS Raider Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-raider-side.webp",
-        "alt": "TVS Raider Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926371/bikes/TVS/tvs-raider/tvs-raider-back-view.webp",
+          "alt": "tvs-raider Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926372/bikes/TVS/tvs-raider/tvs-raider-front-view.webp",
+          "alt": "tvs-raider Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926373/bikes/TVS/tvs-raider/tvs-raider-left-view.webp",
+          "alt": "tvs-raider Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926374/bikes/TVS/tvs-raider/tvs-raider-right-view.webp",
+          "alt": "tvs-raider Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926375/bikes/TVS/tvs-raider/tvs-raider-showroom-view.webp",
+          "alt": "tvs-raider Showroom View"
+        }
+      ],
     "pros": [
       "Sporty design with LED lighting",
       "Peppy 125cc engine performance",
@@ -1507,12 +1598,28 @@
     "overall_width": "710 mm",
     "build_quality": "Practical urban scooter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/tvs-wego-front.webp", "alt": "TVS Wego 110 Front View"},
-      {"url": "https://cdn.example.com/tvs-wego-side.webp", "alt": "TVS Wego 110 Side View"},
-      {"url": "https://cdn.example.com/tvs-wego-rear.webp", "alt": "TVS Wego 110 Rear View"},
-      {"url": "https://cdn.example.com/tvs-wego-back.webp", "alt": "TVS Wego 110 Back View"}
-    ],
+    , "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926376/bikes/TVS/tvs-wego/tvs-wego-back-view.webp",
+          "alt": "tvs-wego Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926377/bikes/TVS/tvs-wego/tvs-wego-front-view.webp",
+          "alt": "tvs-wego Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926378/bikes/TVS/tvs-wego/tvs-wego-left-view.webp",
+          "alt": "tvs-wego Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926379/bikes/TVS/tvs-wego/tvs-wego-right-view.webp",
+          "alt": "tvs-wego Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926380/bikes/TVS/tvs-wego/tvs-wego-showroom-view.webp",
+          "alt": "tvs-wego Showroom View"
+        }
+      ]
     "pros": [
       "Lightweight and easy to handle",
       "Comfortable seat for city rides",

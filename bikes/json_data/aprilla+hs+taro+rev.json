@@ -752,11 +752,27 @@
     "build_quality": "Premium Mid-Cruiser",
     "parts_availability": "Limited in Bangladesh",
     "image_urls": [
-      {"url": "https://cdn.example.com/gv300r-front.webp", "alt": "Hyosung GV300R Front View"},
-      {"url": "https://cdn.example.com/gv300r-side.webp", "alt": "Hyosung GV300R Side View"},
-      {"url": "https://cdn.example.com/gv300r-rear.webp", "alt": "Hyosung GV300R Rear View"},
-      {"url": "https://cdn.example.com/gv300r-back.webp", "alt": "Hyosung GV300R Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926312/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-back-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926313/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-front-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926314/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-left-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926315/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-right-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-showroom-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Showroom View"
+        }
+      ],
     "pros": [
       "Liquid cooled V-Twin engine",
       "Modern LED headlamp with DRLs",
@@ -826,11 +842,27 @@
     "build_quality": "Bobber Style Cruiser",
     "parts_availability": "Limited in Bangladesh",
     "image_urls": [
-      {"url": "https://cdn.example.com/gv300s-front.webp", "alt": "Hyosung GV300S Front View"},
-      {"url": "https://cdn.example.com/gv300s-side.webp", "alt": "Hyosung GV300S Side View"},
-      {"url": "https://cdn.example.com/gv300s-rear.webp", "alt": "Hyosung GV300S Rear View"},
-      {"url": "https://cdn.example.com/gv300s-back.webp", "alt": "Hyosung GV300S Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926312/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-back-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926313/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-front-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926314/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-left-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926315/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-right-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-showroom-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Showroom View"
+        }
+      ],
     "pros": [
       "Classic bobber styling",
       "Liquid cooled V-Twin engine",

@@ -121,11 +121,27 @@
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-shine-front.webp", "alt": "Honda CB Shine SP Front View"},
-      {"url": "https://cdn.example.com/honda-shine-side.webp", "alt": "Honda CB Shine SP Side View"},
-      {"url": "https://cdn.example.com/honda-shine-rear.webp", "alt": "Honda CB Shine SP Rear View"},
-      {"url": "https://cdn.example.com/honda-shine-back.webp", "alt": "Honda CB Shine SP Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926285/bikes/honda/honda-cb-shine/honda-cb-shine-back-view.webp",
+          "alt": "honda-cb-shine Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926286/bikes/honda/honda-cb-shine/honda-cb-shine-front-view.webp",
+          "alt": "honda-cb-shine Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926287/bikes/honda/honda-cb-shine/honda-cb-shine-left-view.webp",
+          "alt": "honda-cb-shine Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926288/bikes/honda/honda-cb-shine/honda-cb-shine-right-view.webp",
+          "alt": "honda-cb-shine Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926289/bikes/honda/honda-cb-shine/honda-cb-shine-showroom-view.webp",
+          "alt": "honda-cb-shine Showroom View"
+        }
+      ],
     "pros": [
       "Honda reliability",
       "Excellent mileage",
@@ -194,13 +210,29 @@
     "overall_width": "685 mm",
     "build_quality": "Premium sportbike",
     "parts_availability": "Good in major cities",
+    ,
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-cbr150-front.webp", "alt": "Honda CBR150R Front View"},
-      {"url": "https://cdn.example.com/honda-cbr150-side.webp", "alt": "Honda CBR150R Side View"},
-      {"url": "https://cdn.example.com/honda-cbr150-rear.webp", "alt": "Honda CBR150R Rear View"},
-      {"url": "https://cdn.example.com/honda-cbr150-back.webp", "alt": "Honda CBR150R Back View"}
-    ],
-    "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926263/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-back-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926264/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-front-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926265/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-left-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-right-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-showroom-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Showroom View"
+        }
+      ]"pros": [
       "Sporty fully-faired design",
       "Liquid-cooled engine",
       "Dual-channel ABS",
@@ -269,11 +301,28 @@
     "build_quality": "Premium sportbike",
     "parts_availability": "Limited edition",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-cbr150-motogp-front.webp", "alt": "Honda CBR150R MotoGP Front View"},
-      {"url": "https://cdn.example.com/honda-cbr150-motogp-side.webp", "alt": "Honda CBR150R MotoGP Side View"},
-      {"url": "https://cdn.example.com/honda-cbr150-motogp-rear.webp", "alt": "Honda CBR150R MotoGP Rear View"},
-      {"url": "https://cdn.example.com/honda-cbr150-motogp-back.webp", "alt": "Honda CBR150R MotoGP Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926263/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-back-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926264/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-front-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926265/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-left-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-right-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-showroom-view.webp",
+          "alt": "honda cbr 150 r Honda Cbr 150R Showroom View"
+        }
+      ],
+    
     "pros": [
       "Exclusive MotoGP livery",
       "Premium paint quality",
@@ -342,12 +391,28 @@
     "overall_width": "710 mm",
     "build_quality": "Sporty scooter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-dio-front.webp", "alt": "Honda Dio Front View"},
-      {"url": "https://cdn.example.com/honda-dio-side.webp", "alt": "Honda Dio Side View"},
-      {"url": "https://cdn.example.com/honda-dio-rear.webp", "alt": "Honda Dio Rear View"},
-      {"url": "https://cdn.example.com/honda-dio-back.webp", "alt": "Honda Dio Back View"}
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926267/bikes/honda/honda%20dio/honda-dio-back-view.webp",
+          "alt": "honda dio Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926268/bikes/honda/honda%20dio/honda-dio-front-view.webp",
+          "alt": "honda dio Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926269/bikes/honda/honda%20dio/honda-dio-left-view.webp",
+          "alt": "honda dio Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926270/bikes/honda/honda%20dio/honda-dio-right-view..webp",
+          "alt": "honda dio Right View."
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926272/bikes/honda/honda%20dio/honda-dio-showroom-view.webp",
+          "alt": "honda dio Showroom View"
+        }
+      ],
     "pros": [
       "Sporty and youthful design",
       "Lightweight and nimble",
@@ -490,12 +555,28 @@
     "overall_width": "800 mm",
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-hornet2-front.webp", "alt": "Honda Hornet 2.0 Front View"},
-      {"url": "https://cdn.example.com/honda-hornet2-side.webp", "alt": "Honda Hornet 2.0 Side View"},
-      {"url": "https://cdn.example.com/honda-hornet2-rear.webp", "alt": "Honda Hornet 2.0 Rear View"},
-      {"url": "https://cdn.example.com/honda-hornet2-back.webp", "alt": "Honda Hornet 2.0 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926290/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-back-view.webp",
+          "alt": "honda-hornet-2.0 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926291/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-front-view.webp",
+          "alt": "honda-hornet-2.0 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926292/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-left-view.webp",
+          "alt": "honda-hornet-2.0 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926293/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-right-view.webp",
+          "alt": "honda-hornet-2.0 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926294/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-showroom-view.webp",
+          "alt": "honda-hornet-2.0 Showroom View"
+        }
+      ],
     "pros": [
       "Muscular streetfighter design",
       "Peppy 184cc engine",
@@ -565,11 +646,27 @@
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-livo-disc-front.webp", "alt": "Honda Livo Disc CBS Front View"},
-      {"url": "https://cdn.example.com/honda-livo-disc-side.webp", "alt": "Honda Livo Disc CBS Side View"},
-      {"url": "https://cdn.example.com/honda-livo-disc-rear.webp", "alt": "Honda Livo Disc CBS Rear View"},
-      {"url": "https://cdn.example.com/honda-livo-disc-back.webp", "alt": "Honda Livo Disc CBS Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926295/bikes/honda/honda-livo/honda-livo-back-view.webp",
+          "alt": "honda-livo Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926296/bikes/honda/honda-livo/honda-livo-front-view.webp",
+          "alt": "honda-livo Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926296/bikes/honda/honda-livo/honda-livo-left-view.webp",
+          "alt": "honda-livo Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926297/bikes/honda/honda-livo/honda-livo-right-view.webp",
+          "alt": "honda-livo Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926298/bikes/honda/honda-livo/honda-livo-showroom-view.webp",
+          "alt": "honda-livo Showroom View"
+        }
+      ],
     "pros": [
       "Refined 110cc engine",
       "Front disc brake with CBS",
@@ -638,12 +735,28 @@
     "overall_width": "750 mm",
     "build_quality": "Basic commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-livo-drum-front.webp", "alt": "Honda Livo Drum CBS Front View"},
-      {"url": "https://cdn.example.com/honda-livo-drum-side.webp", "alt": "Honda Livo Drum CBS Side View"},
-      {"url": "https://cdn.example.com/honda-livo-drum-rear.webp", "alt": "Honda Livo Drum CBS Rear View"},
-      {"url": "https://cdn.example.com/honda-livo-drum-back.webp", "alt": "Honda Livo Drum CBS Back View"}
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926295/bikes/honda/honda-livo/honda-livo-back-view.webp",
+          "alt": "honda-livo Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926296/bikes/honda/honda-livo/honda-livo-front-view.webp",
+          "alt": "honda-livo Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926296/bikes/honda/honda-livo/honda-livo-left-view.webp",
+          "alt": "honda-livo Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926297/bikes/honda/honda-livo/honda-livo-right-view.webp",
+          "alt": "honda-livo Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926298/bikes/honda/honda-livo/honda-livo-showroom-view.webp",
+          "alt": "honda-livo Showroom View"
+        }
+      ],
     "pros": [
       "Most affordable Livo variant",
       "Excellent mileage",
@@ -712,12 +825,28 @@
     "overall_width": "750 mm",
     "build_quality": "Basic commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-shine100-front.webp", "alt": "Honda Shine 100 Front View"},
-      {"url": "https://cdn.example.com/honda-shine100-side.webp", "alt": "Honda Shine 100 Side View"},
-      {"url": "https://cdn.example.com/honda-shine100-rear.webp", "alt": "Honda Shine 100 Rear View"},
-      {"url": "https://cdn.example.com/honda-shine100-back.webp", "alt": "Honda Shine 100 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926277/bikes/honda/honda%20shine%20100/honda-shine-100-back-view.webp",
+          "alt": "honda shine 100 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926277/bikes/honda/honda%20shine%20100/honda-shine-100-front-view.webp",
+          "alt": "honda shine 100 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926278/bikes/honda/honda%20shine%20100/honda-shine-100-left-view.webp",
+          "alt": "honda shine 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926279/bikes/honda/honda%20shine%20100/honda-shine-100-right-view.webp",
+          "alt": "honda shine 100 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926281/bikes/honda/honda%20shine%20100/honda-shine-100-showroom-view.webp",
+          "alt": "honda shine 100 Showroom View"
+        }
+      ],
     "pros": [
       "Excellent mileage",
       "Most affordable Honda bike",
@@ -786,12 +915,28 @@
     "overall_width": "785 mm",
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-sp125-front.webp", "alt": "Honda SP 125 Front View"},
-      {"url": "https://cdn.example.com/honda-sp125-side.webp", "alt": "Honda SP 125 Side View"},
-      {"url": "https://cdn.example.com/honda-sp125-rear.webp", "alt": "Honda SP 125 Rear View"},
-      {"url": "https://cdn.example.com/honda-sp125-back.webp", "alt": "Honda SP 125 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926299/bikes/honda/honda-sp/honda-sp-125-back-view.webp",
+          "alt": "honda-sp 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926300/bikes/honda/honda-sp/honda-sp-125-front-view.webp",
+          "alt": "honda-sp 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926301/bikes/honda/honda-sp/honda-sp-125-left-view.webp",
+          "alt": "honda-sp 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926302/bikes/honda/honda-sp/honda-sp-125-right-view.webp",
+          "alt": "honda-sp 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926302/bikes/honda/honda-sp/honda-sp-125-showroom-view.webp",
+          "alt": "honda-sp 125 Showroom View"
+        }
+      ],
     "pros": [
       "Sporty commuter design",
       "LED lighting",
@@ -861,11 +1006,27 @@
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-sp160-front.webp", "alt": "Honda SP 160 Front View"},
-      {"url": "https://cdn.example.com/honda-sp160-side.webp", "alt": "Honda SP 160 Side View"},
-      {"url": "https://cdn.example.com/honda-sp160-rear.webp", "alt": "Honda SP 160 Rear View"},
-      {"url": "https://cdn.example.com/honda-sp160-back.webp", "alt": "Honda SP 160 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926303/bikes/honda/honda-sp-160/honda-cb-160-front-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926305/bikes/honda/honda-sp-160/honda-cb-160-left-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926306/bikes/honda/honda-sp-160/honda-cb-160-right-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926307/bikes/honda/honda-sp-160/honda-cb-160-showroom-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926308/bikes/honda/honda-sp-160/honda-sp-160-back-view.webp",
+          "alt": "honda-sp-160 Back View"
+        }
+      ],
     "pros": [
       "Aggressive streetfighter design",
       "Peppy 160cc engine",
@@ -935,11 +1096,27 @@
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-sp160-abs-front.webp", "alt": "Honda SP 160 ABS Front View"},
-      {"url": "https://cdn.example.com/honda-sp160-abs-side.webp", "alt": "Honda SP 160 ABS Side View"},
-      {"url": "https://cdn.example.com/honda-sp160-abs-rear.webp", "alt": "Honda SP 160 ABS Rear View"},
-      {"url": "https://cdn.example.com/honda-sp160-abs-back.webp", "alt": "Honda SP 160 ABS Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926303/bikes/honda/honda-sp-160/honda-cb-160-front-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926305/bikes/honda/honda-sp-160/honda-cb-160-left-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926306/bikes/honda/honda-sp-160/honda-cb-160-right-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926307/bikes/honda/honda-sp-160/honda-cb-160-showroom-view.webp",
+          "alt": "honda-sp-160 Honda Cb 160 Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926308/bikes/honda/honda-sp-160/honda-sp-160-back-view.webp",
+          "alt": "honda-sp-160 Back View"
+        }
+      ],
     "pros": [
       "Single-channel ABS safety",
       "Aggressive streetfighter design",
@@ -1009,11 +1186,27 @@
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-xblade-front.webp", "alt": "Honda X-Blade Front View"},
-      {"url": "https://cdn.example.com/honda-xblade-side.webp", "alt": "Honda X-Blade Side View"},
-      {"url": "https://cdn.example.com/honda-xblade-rear.webp", "alt": "Honda X-Blade Rear View"},
-      {"url": "https://cdn.example.com/honda-xblade-back.webp", "alt": "Honda X-Blade Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926281/bikes/honda/honda%20x%20blade/honda-x-blade-back-view.webp",
+          "alt": "honda x blade Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926282/bikes/honda/honda%20x%20blade/honda-x-blade-front-view.webp",
+          "alt": "honda x blade Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926283/bikes/honda/honda%20x%20blade/honda-x-blade-left-view.webp",
+          "alt": "honda x blade Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926283/bikes/honda/honda%20x%20blade/honda-x-blade-right-view.webp",
+          "alt": "honda x blade Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926284/bikes/honda/honda%20x%20blade/honda-x-blade-showroom-view.webp",
+          "alt": "honda x blade Showroom View"
+        }
+      ],
     "pros": [
       "Futuristic aggressive design",
       "LED lighting all around",
@@ -1082,12 +1275,29 @@
     "overall_width": "788 mm",
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-xblade-abs-front.webp", "alt": "Honda X-Blade ABS Front View"},
-      {"url": "https://cdn.example.com/honda-xblade-abs-side.webp", "alt": "Honda X-Blade ABS Side View"},
-      {"url": "https://cdn.example.com/honda-xblade-abs-rear.webp", "alt": "Honda X-Blade ABS Rear View"},
-      {"url": "https://cdn.example.com/honda-xblade-abs-back.webp", "alt": "Honda X-Blade ABS Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926281/bikes/honda/honda%20x%20blade/honda-x-blade-back-view.webp",
+          "alt": "honda x blade Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926282/bikes/honda/honda%20x%20blade/honda-x-blade-front-view.webp",
+          "alt": "honda x blade Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926283/bikes/honda/honda%20x%20blade/honda-x-blade-left-view.webp",
+          "alt": "honda x blade Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926283/bikes/honda/honda%20x%20blade/honda-x-blade-right-view.webp",
+          "alt": "honda x blade Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926284/bikes/honda/honda%20x%20blade/honda-x-blade-showroom-view.webp",
+          "alt": "honda x blade Showroom View"
+        }
+      ] ,
+    
     "pros": [
       "Single-channel ABS safety",
       "Futuristic aggressive design",
@@ -1158,11 +1368,27 @@
     "build_quality": "Premium cruiser",
     "parts_availability": "Good nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-avenger160-front.webp", "alt": "Bajaj Avenger 160 ABS Front View"},
-      {"url": "https://cdn.example.com/bajaj-avenger160-side.webp", "alt": "Bajaj Avenger 160 ABS Side View"},
-      {"url": "https://cdn.example.com/bajaj-avenger160-rear.webp", "alt": "Bajaj Avenger 160 ABS Rear View"},
-      {"url": "https://cdn.example.com/bajaj-avenger160-back.webp", "alt": "Bajaj Avenger 160 ABS Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926162/bikes/BAJAJ/Bajaj%20Avenger%20160%20ABS/bajaj-avenger-160-abs-back-view.webp",
+          "alt": "Bajaj Avenger 160 ABS Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926163/bikes/BAJAJ/Bajaj%20Avenger%20160%20ABS/bajaj-avenger-160-abs-front-view.webp",
+          "alt": "Bajaj Avenger 160 ABS Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926164/bikes/BAJAJ/Bajaj%20Avenger%20160%20ABS/bajaj-avenger-160-abs-left-view.webp",
+          "alt": "Bajaj Avenger 160 ABS Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926166/bikes/BAJAJ/Bajaj%20Avenger%20160%20ABS/bajaj-avenger-160-abs-right-view.webp",
+          "alt": "Bajaj Avenger 160 ABS Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926167/bikes/BAJAJ/Bajaj%20Avenger%20160%20ABS/bajaj-avenger-160-abs-showroom-view.webp",
+          "alt": "Bajaj Avenger 160 ABS Showroom View"
+        }
+      ],
     "pros": [
       "Comfortable cruiser ergonomics",
       "Single-channel ABS safety",
@@ -1232,11 +1458,27 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-ct100-front.webp", "alt": "Bajaj CT100 ES Front View"},
-      {"url": "https://cdn.example.com/bajaj-ct100-side.webp", "alt": "Bajaj CT100 ES Side View"},
-      {"url": "https://cdn.example.com/bajaj-ct100-rear.webp", "alt": "Bajaj CT100 ES Rear View"},
-      {"url": "https://cdn.example.com/bajaj-ct100-back.webp", "alt": "Bajaj CT100 ES Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926168/bikes/BAJAJ/Bajaj%20CT100%20ES/bajaj-ct-100-es-back-view.webp",
+          "alt": "Bajaj CT100 ES Bajaj Ct 100 Es Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926168/bikes/BAJAJ/Bajaj%20CT100%20ES/bajaj-ct-100-es-front-view.webp",
+          "alt": "Bajaj CT100 ES Bajaj Ct 100 Es Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926170/bikes/BAJAJ/Bajaj%20CT100%20ES/bajaj-ct-100-es-left%20view.webp",
+          "alt": "Bajaj CT100 ES Bajaj Ct 100 Es Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926171/bikes/BAJAJ/Bajaj%20CT100%20ES/bajaj-ct-100-es-right-view.webp",
+          "alt": "Bajaj CT100 ES Bajaj Ct 100 Es Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926172/bikes/BAJAJ/Bajaj%20CT100%20ES/bajaj-ct-100-es-showroom-view.webp",
+          "alt": "Bajaj CT100 ES Bajaj Ct 100 Es Showroom View"
+        }
+      ],
     "pros": [
       "Most affordable Bajaj bike",
       "Excellent mileage",
@@ -1305,12 +1547,28 @@
     "overall_width": "750 mm",
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-discover110-front.webp", "alt": "Bajaj Discover 110 Disc Front View"},
-      {"url": "https://cdn.example.com/bajaj-discover110-side.webp", "alt": "Bajaj Discover 110 Disc Side View"},
-      {"url": "https://cdn.example.com/bajaj-discover110-rear.webp", "alt": "Bajaj Discover 110 Disc Rear View"},
-      {"url": "https://cdn.example.com/bajaj-discover110-back.webp", "alt": "Bajaj Discover 110 Disc Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926173/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-back%20view.webp",
+          "alt": "Bajaj Discover 110 Disc Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926173/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-front-view.webp",
+          "alt": "Bajaj Discover 110 Disc Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926175/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-left-view.webp",
+          "alt": "Bajaj Discover 110 Disc Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926176/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-right-view.webp",
+          "alt": "Bajaj Discover 110 Disc Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926177/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-showroom-view.webp",
+          "alt": "Bajaj Discover 110 Disc Showroom View"
+        }
+      ],
     "pros": [
       "Front disc brake safety",
       "Alloy wheels with tubeless tires",
@@ -1379,12 +1637,28 @@
     "overall_width": "750 mm",
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-discover125-front.webp", "alt": "Bajaj Discover 125 Disc Front View"},
-      {"url": "https://cdn.example.com/bajaj-discover125-side.webp", "alt": "Bajaj Discover 125 Disc Side View"},
-      {"url": "https://cdn.example.com/bajaj-discover125-rear.webp", "alt": "Bajaj Discover 125 Disc Rear View"},
-      {"url": "https://cdn.example.com/bajaj-discover125-back.webp", "alt": "Bajaj Discover 125 Disc Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926173/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-back%20view.webp",
+          "alt": "Bajaj Discover 110 Disc Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926173/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-front-view.webp",
+          "alt": "Bajaj Discover 110 Disc Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926175/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-left-view.webp",
+          "alt": "Bajaj Discover 110 Disc Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926176/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-right-view.webp",
+          "alt": "Bajaj Discover 110 Disc Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926177/bikes/BAJAJ/Bajaj%20Discover%20110%20Disc/bajaj-discover-110-disc-showroom-view.webp",
+          "alt": "Bajaj Discover 110 Disc Showroom View"
+        }
+      ] ,
     "pros": [
       "More powerful 125cc engine",
       "Front disc brake safety",
@@ -1454,11 +1728,27 @@
     "build_quality": "Comfortable commuter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-platina100-front.webp", "alt": "Bajaj Platina 100 ES Front View"},
-      {"url": "https://cdn.example.com/bajaj-platina100-side.webp", "alt": "Bajaj Platina 100 ES Side View"},
-      {"url": "https://cdn.example.com/bajaj-platina100-rear.webp", "alt": "Bajaj Platina 100 ES Rear View"},
-      {"url": "https://cdn.example.com/bajaj-platina100-back.webp", "alt": "Bajaj Platina 100 ES Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926178/bikes/BAJAJ/Bajaj%20Platina%20100%20ES/bajaj-platina-100-es-back-view.webp",
+          "alt": "Bajaj Platina 100 ES Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926179/bikes/BAJAJ/Bajaj%20Platina%20100%20ES/bajaj-platina-100-es-front-view.webp",
+          "alt": "Bajaj Platina 100 ES Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926180/bikes/BAJAJ/Bajaj%20Platina%20100%20ES/bajaj-platina-100-es-left-view.webp",
+          "alt": "Bajaj Platina 100 ES Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926181/bikes/BAJAJ/Bajaj%20Platina%20100%20ES/bajaj-platina-100-es-right-view.webp",
+          "alt": "Bajaj Platina 100 ES Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926182/bikes/BAJAJ/Bajaj%20Platina%20100%20ES/bajaj-platina-100-es-showroom-view.webp",
+          "alt": "Bajaj Platina 100 ES Showroom View"
+        }
+      ],
     "pros": [
       "Comfortable suspension",
       "Electric start convenience",
@@ -1528,11 +1818,27 @@
     "build_quality": "Comfortable commuter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-platina110-disc-front.webp", "alt": "Bajaj Platina 110 Disc Front View"},
-      {"url": "https://cdn.example.com/bajaj-platina110-disc-side.webp", "alt": "Bajaj Platina 110 Disc Side View"},
-      {"url": "https://cdn.example.com/bajaj-platina110-disc-rear.webp", "alt": "Bajaj Platina 110 Disc Rear View"},
-      {"url": "https://cdn.example.com/bajaj-platina110-disc-back.webp", "alt": "Bajaj Platina 110 Disc Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926183/bikes/BAJAJ/Bajaj%20Platina%20110%20H%20Gear%20Disc%20Brake/bajaj-platina-110-h-gear-disc-brake-back-view.webp",
+          "alt": "Bajaj Platina 110 H Gear Disc Brake Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926184/bikes/BAJAJ/Bajaj%20Platina%20110%20H%20Gear%20Disc%20Brake/bajaj-platina-110-h-gear-disc-brake-front-view.webp",
+          "alt": "Bajaj Platina 110 H Gear Disc Brake Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926185/bikes/BAJAJ/Bajaj%20Platina%20110%20H%20Gear%20Disc%20Brake/bajaj-platina-110-h-gear-disc-brake-left-view.webp",
+          "alt": "Bajaj Platina 110 H Gear Disc Brake Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926186/bikes/BAJAJ/Bajaj%20Platina%20110%20H%20Gear%20Disc%20Brake/bajaj-platina-110-h-gear-disc-brake-right-view.webp",
+          "alt": "Bajaj Platina 110 H Gear Disc Brake Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926187/bikes/BAJAJ/Bajaj%20Platina%20110%20H%20Gear%20Disc%20Brake/bajaj-platina-110-h-gear-disc-brake-showroom-view.webp",
+          "alt": "Bajaj Platina 110 H Gear Disc Brake Showroom View"
+        }
+      ] ,
     "pros": [
       "Comfortable suspension",
       "Front disc brake safety",
@@ -1602,11 +1908,27 @@
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-front.webp", "alt": "Bajaj Pulsar 150 SD Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-side.webp", "alt": "Bajaj Pulsar 150 SD Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-rear.webp", "alt": "Bajaj Pulsar 150 SD Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-back.webp", "alt": "Bajaj Pulsar 150 SD Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926188/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-back-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926189/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-front-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926190/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-left-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926191/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-right-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Showroom View"
+        }
+      ] ,
     "pros": [
       "Iconic Pulsar design",
       "Peppy 150cc engine",
@@ -1675,12 +1997,28 @@
     "overall_width": "765 mm",
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-abs-front.webp", "alt": "Bajaj Pulsar 150 SD ABS Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-abs-side.webp", "alt": "Bajaj Pulsar 150 SD ABS Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-abs-rear.webp", "alt": "Bajaj Pulsar 150 SD ABS Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150sd-abs-back.webp", "alt": "Bajaj Pulsar 150 SD ABS Back View"}
-    ],
+     "image_urls": [
+       {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926188/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-back-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926189/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-front-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926190/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-left-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926191/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-right-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Showroom View"
+        }
+      ]
     "pros": [
       "Single-channel ABS safety",
       "Iconic Pulsar design",
@@ -1750,11 +2088,27 @@
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twin-front.webp", "alt": "Bajaj Pulsar 150 Twin Disc Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twin-side.webp", "alt": "Bajaj Pulsar 150 Twin Disc Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twin-rear.webp", "alt": "Bajaj Pulsar 150 Twin Disc Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twin-back.webp", "alt": "Bajaj Pulsar 150 Twin Disc Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926188/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-back-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926189/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-front-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926190/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-left-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926191/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-right-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Showroom View"
+        }
+      ],
     "pros": [
       "Dual disc brake setup",
       "Iconic Pulsar design",
@@ -1823,12 +2177,28 @@
     "overall_width": "765 mm",
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twinabs-front.webp", "alt": "Bajaj Pulsar 150 Twin ABS Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twinabs-side.webp", "alt": "Bajaj Pulsar 150 Twin ABS Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twinabs-rear.webp", "alt": "Bajaj Pulsar 150 Twin ABS Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar150-twinabs-back.webp", "alt": "Bajaj Pulsar 150 Twin ABS Back View"}
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926188/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-back-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926189/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-front-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926190/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-left-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926191/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-right-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
+          "alt": "Bajaj Pulsar 150 SD Showroom View"
+        }
+      ],
     "pros": [
       "Dual disc brakes with ABS",
       "Maximum braking safety",
@@ -1897,12 +2267,28 @@
     "overall_width": "765 mm",
     "build_quality": "Premium sports bike",
     "parts_availability": "Good in major cities",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-f250-front.webp", "alt": "Bajaj Pulsar F250 Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-f250-side.webp", "alt": "Bajaj Pulsar F250 Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-f250-rear.webp", "alt": "Bajaj Pulsar F250 Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-f250-back.webp", "alt": "Bajaj Pulsar F250 Back View"}
-    ],
+  "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926193/bikes/BAJAJ/Bajaj%20Pulsar%20F250/bajaj-pulsar-f250-back-view.webp",
+          "alt": "Bajaj Pulsar F250 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926194/bikes/BAJAJ/Bajaj%20Pulsar%20F250/bajaj-pulsar-f250-front-view.webp",
+          "alt": "Bajaj Pulsar F250 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926195/bikes/BAJAJ/Bajaj%20Pulsar%20F250/bajaj-pulsar-f250-left-view.webp",
+          "alt": "Bajaj Pulsar F250 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926196/bikes/BAJAJ/Bajaj%20Pulsar%20F250/bajaj-pulsar-f250-right-view.webp",
+          "alt": "Bajaj Pulsar F250 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926197/bikes/BAJAJ/Bajaj%20Pulsar%20F250/bajaj-pulsar-f250-showroom-view.webp",
+          "alt": "Bajaj Pulsar F250 Showroom View"
+        }
+      ] ,
     "pros": [
       "Fully-faired sporty design",
       "Liquid-cooled engine",
@@ -1971,12 +2357,28 @@
     "overall_width": "765 mm",
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-n160-front.webp", "alt": "Bajaj Pulsar N160 Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n160-side.webp", "alt": "Bajaj Pulsar N160 Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n160-rear.webp", "alt": "Bajaj Pulsar N160 Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n160-back.webp", "alt": "Bajaj Pulsar N160 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926198/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajaj-pulsar-n160-right-view.webp",
+          "alt": "Bajaj Pulsar N160 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926199/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-back-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926200/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-front-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926201/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-left-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926202/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-showroom-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Showroom View"
+        }
+      ] ,
     "pros": [
       "Aggressive streetfighter design",
       "Single-channel ABS",
@@ -2045,12 +2447,28 @@
     "overall_width": "765 mm",
     "build_quality": "Premium streetfighter",
     "parts_availability": "Good in major cities",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-n250-front.webp", "alt": "Bajaj Pulsar N250 Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n250-side.webp", "alt": "Bajaj Pulsar N250 Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n250-rear.webp", "alt": "Bajaj Pulsar N250 Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-n250-back.webp", "alt": "Bajaj Pulsar N250 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926198/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajaj-pulsar-n160-right-view.webp",
+          "alt": "Bajaj Pulsar N160 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926199/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-back-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926200/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-front-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926201/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-left-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926202/bikes/BAJAJ/Bajaj%20Pulsar%20N160/bajar-pulsar-n160-showroom-view.webp",
+          "alt": "Bajaj Pulsar N160 Bajar Pulsar N160 Showroom View"
+        }
+      ] ,
     "pros": [
       "Powerful 250cc engine",
       "Dual-channel ABS",
@@ -2120,12 +2538,27 @@
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns125-front.webp", "alt": "Bajaj Pulsar NS125 Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns125-side.webp", "alt": "Bajaj Pulsar NS125 Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns125-rear.webp", "alt": "Bajaj Pulsar NS125 Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns125-back.webp", "alt": "Bajaj Pulsar NS125 Back View"}
-    ],
-    "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926202/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-back-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926203/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-front-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926204/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-left-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926206/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-right-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Showroom View"
+        }
+      ] "pros": [
       "Sporty NS design",
       "Good performance for 125cc",
       "LED tail light",
@@ -2194,12 +2627,27 @@
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-fi-front.webp", "alt": "Bajaj Pulsar NS160 Fi ABS Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-fi-side.webp", "alt": "Bajaj Pulsar NS160 Fi ABS Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-fi-rear.webp", "alt": "Bajaj Pulsar NS160 Fi ABS Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-fi-back.webp", "alt": "Bajaj Pulsar NS160 Fi ABS Back View"}
-    ],
-    "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926202/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-back-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926203/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-front-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926204/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-left-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926206/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-right-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Showroom View"
+        }
+      ] "pros": [
       "Fuel-injected engine",
       "Single-channel ABS",
       "Sporty NS design",
@@ -2267,12 +2715,28 @@
     "overall_width": "804 mm",
     "build_quality": "Sporty street bike",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-td-front.webp", "alt": "Bajaj Pulsar NS160 TD ABS Front View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-td-side.webp", "alt": "Bajaj Pulsar NS160 TD ABS Side View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-td-rear.webp", "alt": "Bajaj Pulsar NS160 TD ABS Rear View"},
-      {"url": "https://cdn.example.com/bajaj-pulsar-ns160-td-back.webp", "alt": "Bajaj Pulsar NS160 TD ABS Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926202/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-back-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926203/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-front-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926204/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-left-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926206/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-right-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
+          "alt": "Bajaj Pulsar NS 125 Showroom View"
+        }
+      ] ,
     "pros": [
       "Twin-disc brake setup",
       "Single-channel ABS",
