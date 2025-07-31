@@ -504,12 +504,12 @@
     "overall_width": "730 mm",
     "build_quality": "Premium with carbon fiber accents",
     "parts_availability": "Good",
-   ,"image_urls": [
+   "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986234/bikes/Aprilia/Aprilia%20SR%20150%20Race%20ABS/aprilia-sr-150-race-abs-showroom-view.webp",
           "alt": "Aprilia SR 150 Race ABS Showroom View"
         }
-      ]
+      ],
     "pros": [
       "Premium carbon fiber elements",
       "Single-channel ABS for safety",
@@ -1120,7 +1120,8 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
           "alt": "gp Taro Gp1 Left View White"
         }
-      ] "pros": [
+      ],
+  "pros": [
     "Exclusive limited edition styling",
     "Upgraded suspension for better ride comfort",
     "Powerful engine with good top speed",
@@ -1727,7 +1728,6 @@
     "price": "Tk. 99,900",
     "short_description": "The Revoo A01 is a budget-friendly electric bike offering essential features for everyday commuting in urban areas with zero fuel cost.",
     "description": "Revoo A01 is designed for riders who want reliable, economical transportation with a minimal carbon footprint. The bike offers a sleek, compact body, LED headlamps, a basic digital console, and comfortable ergonomics. With good battery efficiency and user-friendly handling, the A01 is ideal for students and city dwellers.",
-    "engine_type": "Electric Motor",
     "max_power": "Not Specified",
     "max_torque": "Not Specified",
     "bore": "Not Applicable",
@@ -1765,8 +1765,7 @@
     "ground_clearance": "160 mm (approx)",
     "weight": "90 kg (approx)",
     "fuel_capacity": "Not Applicable",
-    "Revoo A01": {
-      "image_urls": [
+    "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986325/bikes/Revoo/Revoo%20A01/revoo-a01-showroom-view.webp",
           "alt": "Revoo A01 Showroom View"
@@ -1803,7 +1802,7 @@
         "answer": "It has a front disc and rear drum brake."
       }
     ]
- },
+  },
  {
     "model_name": "Revoo A10",
     "slug": "revoo-a10",
@@ -2218,7 +2217,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986334/bikes/Revoo/Revoo%20C32Y/revoo-c32y-showroom-view.webp",
           "alt": "Revoo C32Y Showroom View"
         }
-      ]
+      ],
   "pros": [
     "Smooth and quiet electric motor",
     "Good mileage for city rides",
