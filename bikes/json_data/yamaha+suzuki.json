@@ -121,7 +121,7 @@
     "build_quality": "Good with sporty design",
     "parts_availability": "Widely available",
     "image_urls": [
-      {"url": "https://cdn.example.com/fazer-front.webp", "alt": "Yamaha Fazer Fi V2 Front View"},
+     {"url": "ht tps://cdn.example.com/fazer-front.webp", "alt": "Yamaha Fazer Fi V2 Front View"},
       {"url": "https://cdn.example.com/fazer-side.webp", "alt": "Yamaha Fazer Fi V2 Side View"},
       {"url": "https://cdn.example.com/fazer-back.webp", "alt": "Yamaha Fazer Fi V2 Back View"},
       { "url": "https://cdn.example.com/fazer-rear.webp", "alt": "Yamaha Fazer Fi V2 Rear View"}
