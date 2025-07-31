@@ -2191,8 +2191,598 @@
       "answer": "Yes, both headlight and tail light are LED."
     }
   ]
- }
+ },
+
+  {
+    "name": "Akij Durbar",
+    "slug": "akij-durbar",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 110,
+    "price": "Tk. 1,20,000",
+    "short_description": "Akij Durbar is a no-frills 110cc commuter bike designed for rural and urban use, offering basic transportation with reliability and low running costs.",
+    "Zero_Sixty": "10.5 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60–63 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Drum / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "108 kg",
+    "max_power": "8.2 PS @ 7500 rpm",
+    "max_torque": "8.3 Nm @ 5500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+    "tyre_type": "Tubed",
+    "front_tyre_size": "2.75-18",
+    "rear_tyre_size": "3.00-18",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "10 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "780 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2000 mm",
+    "overall_width": "750 mm",
+    "build_quality": "Basic but rugged",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-durbar-front.webp",
+        "alt": "Akij Durbar Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-durbar-side.webp",
+        "alt": "Akij Durbar Side View"
+      }
+    ],
+    "pros": [
+      "Low maintenance cost",
+      "Good fuel efficiency",
+      "Lightweight for easy handling",
+      "Affordable price"
+    ],
+    "cons": [
+      "No disc brakes",
+      "Outdated design",
+      "No self-start option",
+      "Basic features"
+    ],
+    "faqs": [
+      {
+        "question": "Does Akij Durbar have self-start?",
+        "answer": "No, it comes with kick start only."
+      },
+      {
+        "question": "Is it suitable for highways?",
+        "answer": "Best for city/rural roads due to limited top speed."
+      },
+      {
+        "question": "What is the fuel tank capacity?",
+        "answer": "10 liters with a 1.5L reserve."
+      }
+    ]
+  },
+  {
+    "name": "Akij Bondhu",
+    "slug": "akij-bondhu",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 100,
+    "price": "Tk. 1,05,000",
+    "short_description": "Akij Bondhu is an ultra-affordable 100cc motorcycle aimed at budget riders, prioritizing simplicity and low running costs for daily commutes.",
+    "Zero_Sixty": "12.0 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "70 kmpl",
+    "mileage_reported": "65–68 kmpl",
+    "top_speed_claimed": "80 km/h",
+    "top_speed_reported": "75 km/h",
+    "braking": "Front Drum / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "102 kg",
+    "max_power": "7.5 PS @ 7000 rpm",
+    "max_torque": "7.8 Nm @ 5000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "120 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+    "tyre_type": "Tubed",
+    "front_tyre_size": "2.50-17",
+    "rear_tyre_size": "2.75-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "8 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "770 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1950 mm",
+    "overall_width": "740 mm",
+    "build_quality": "Economy-grade",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-bondhu-front.webp",
+        "alt": "Akij Bondhu Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-bondhu-side.webp",
+        "alt": "Akij Bondhu Side View"
+      }
+    ],
+    "pros": [
+      "Extremely affordable",
+      "Low fuel consumption",
+      "Easy to maintain",
+      "Lightweight design"
+    ],
+    "cons": [
+      "Very basic features",
+      "No self-start",
+      "Small fuel tank",
+      "Low power output"
+    ],
+    "faqs": [
+      {
+        "question": "Does Bondhu have tubeless tyres?",
+        "answer": "No, it uses tubed tyres."
+      },
+      {
+        "question": "Is it good for hilly areas?",
+        "answer": "Limited power for steep inclines; best for flat terrain."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically red, blue, and black."
+      }
+    ]
+  },
+  {
+    "name": "Akij Durjoy",
+    "slug": "akij-durjoy",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 125,
+    "price": "Tk. 1,35,000",
+    "short_description": "Akij Durjoy is a 125cc commuter motorcycle with slightly upgraded power and features compared to Durbar/Bondhu, targeting rural and semi-urban riders.",
+    "Zero_Sixty": "9.8 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "60 kmpl",
+    "mileage_reported": "55–58 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc (Optional) / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "115 kg",
+    "max_power": "9.5 PS @ 8000 rpm",
+    "max_torque": "9.2 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc (Optional) / 130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston (if disc)",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless (Optional)",
+    "front_tyre_size": "2.75-18",
+    "rear_tyre_size": "3.00-18",
+    "wheel_type": "Alloy (Optional) / Spoke",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi-Digital",
+    "seat_height": "785 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2020 mm",
+    "overall_width": "760 mm",
+    "build_quality": "Improved over Durbar",
+    "parts_availability": "Good in rural areas",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-durjoy-front.webp",
+        "alt": "Akij Durjoy Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-durjoy-side.webp",
+        "alt": "Akij Durjoy Side View"
+      }
+    ],
+    "pros": [
+      "Better power than Durbar/Bondhu",
+      "Optional front disc brake",
+      "Larger fuel tank",
+      "Comfortable for long rides"
+    ],
+    "cons": [
+      "No ABS",
+      "Tubeless tyres only in top variant",
+      "Heavier than Bondhu",
+      "Limited dealership support"
+    ],
+    "faqs": [
+      {
+        "question": "Does Durjoy come with self-start?",
+        "answer": "Yes, it includes self-start as standard."
+      },
+      {
+        "question": "Is the display digital?",
+        "answer": "Semi-digital (speedometer is digital, odometer analog)."
+      },
+      {
+        "question": "Does it have alloy wheels?",
+        "answer": "Optional; base variant has spoke wheels."
+      }
+    ]
+  },
+  {
+    "name": "Akij Duranto",
+    "slug": "akij-duranto",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 110,
+    "price": "Tk. 1,25,000",
+    "short_description": "Akij Duranto is a reliable 110cc commuter motorcycle offering a balance of fuel efficiency and performance for daily commuting needs.",
+    "Zero_Sixty": "9.5 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60-63 kmpl",
+    "top_speed_claimed": "90 km/h",
+    "top_speed_reported": "85 km/h",
+    "braking": "Front Drum / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "112 kg",
+    "max_power": "8.5 PS @ 7500 rpm",
+    "max_torque": "8.7 Nm @ 5500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+    "tyre_type": "Tubed",
+    "front_tyre_size": "2.75-18",
+    "rear_tyre_size": "3.00-18",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "10.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "785 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "2010 mm",
+    "overall_width": "755 mm",
+    "build_quality": "Standard commuter build",
+    "parts_availability": "Good in urban areas",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-duranto-front.webp",
+        "alt": "Akij Duranto Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-duranto-side.webp",
+        "alt": "Akij Duranto Side View"
+      }
+    ],
+    "pros": [
+      "Good fuel efficiency",
+      "Reliable engine performance",
+      "Comfortable riding posture",
+      "Affordable maintenance"
+    ],
+    "cons": [
+      "Basic features",
+      "No disc brake option",
+      "Outdated styling",
+      "Limited power for highways"
+    ],
+    "faqs": [
+      {
+        "question": "Does Akij Duranto have self-start?",
+        "answer": "No, it comes with kick start only."
+      },
+      {
+        "question": "What is the fuel tank capacity?",
+        "answer": "10.5 liters with a 1.8L reserve."
+      },
+      {
+        "question": "Is it suitable for long rides?",
+        "answer": "Best suited for city commuting due to limited power."
+      }
+    ]
+  },
+  {
+    "name": "Akij Duranto V6",
+    "slug": "akij-duranto-v6",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 125,
+    "price": "Tk. 1,45,000",
+    "short_description": "Akij Duranto V6 is an upgraded version with a 125cc engine, offering better performance and slightly more premium features than the standard Duranto.",
+    "Zero_Sixty": "8.2 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "60 kmpl",
+    "mileage_reported": "55-58 kmpl",
+    "top_speed_claimed": "95 km/h",
+    "top_speed_reported": "90 km/h",
+    "braking": "Front Disc / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "118 kg",
+    "max_power": "10.2 PS @ 8000 rpm",
+    "max_torque": "10.5 Nm @ 6000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "240 mm Disc",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "Single-piston",
+      "rear": "None"
+    },
+    "tyre_type": "Tubeless",
+    "front_tyre_size": "2.75-18",
+    "rear_tyre_size": "3.00-18",
+    "wheel_type": "Alloy",
+    "fuel_tank_capacity": "12 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "LED",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Semi-Digital",
+    "seat_height": "790 mm",
+    "ground_clearance": "170 mm",
+    "overall_length": "2030 mm",
+    "overall_width": "765 mm",
+    "build_quality": "Improved over standard Duranto",
+    "parts_availability": "Good in urban areas",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-duranto-v6-front.webp",
+        "alt": "Akij Duranto V6 Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-duranto-v6-side.webp",
+        "alt": "Akij Duranto V6 Side View"
+      }
+    ],
+    "pros": [
+      "Better power than standard Duranto",
+      "Front disc brake for improved safety",
+      "Tubeless tyres with alloy wheels",
+      "Larger fuel tank capacity"
+    ],
+    "cons": [
+      "No ABS",
+      "Basic instrument cluster",
+      "Higher price than standard Duranto",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "Does Duranto V6 have self-start?",
+        "answer": "Yes, it comes with self-start as standard."
+      },
+      {
+        "question": "What is the main difference from standard Duranto?",
+        "answer": "Larger 125cc engine, front disc brake, and alloy wheels."
+      },
+      {
+        "question": "Is it suitable for highway riding?",
+        "answer": "Better than standard Duranto but still limited for long highway use."
+      }
+    ]
+  },
+  {
+    "name": "Akij Ponkhiraj",
+    "slug": "akij-ponkhiraj",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 100,
+    "price": "Tk. 1,10,000",
+    "short_description": "Akij Ponkhiraj is an ultra-affordable 100cc commuter bike designed for budget-conscious riders, offering exceptional fuel efficiency and basic transportation needs.",
+    "Zero_Sixty": "12.5 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "70 kmpl",
+    "mileage_reported": "65-68 kmpl",
+    "top_speed_claimed": "80 km/h",
+    "top_speed_reported": "75 km/h",
+    "braking": "Front Drum / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "105 kg",
+    "max_power": "7.8 PS @ 7500 rpm",
+    "max_torque": "7.5 Nm @ 5000 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "120 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+    "tyre_type": "Tubed",
+    "front_tyre_size": "2.50-17",
+    "rear_tyre_size": "2.75-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "8.5 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "775 mm",
+    "ground_clearance": "160 mm",
+    "overall_length": "1970 mm",
+    "overall_width": "735 mm",
+    "build_quality": "Economy-grade",
+    "parts_availability": "Widely available",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-ponkhiraj-front.webp",
+        "alt": "Akij Ponkhiraj Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-ponkhiraj-side.webp",
+        "alt": "Akij Ponkhiraj Side View"
+      }
+    ],
+    "pros": [
+      "Extremely fuel efficient",
+      "Lightweight and easy to handle",
+      "Very affordable price",
+      "Low maintenance costs"
+    ],
+    "cons": [
+      "Very basic features",
+      "No self-start option",
+      "Small engine size",
+      "Uncomfortable for long rides"
+    ],
+    "faqs": [
+      {
+        "question": "Does Ponkhiraj have electric start?",
+        "answer": "No, it only has kick start."
+      },
+      {
+        "question": "What is the actual mileage?",
+        "answer": "Users report 65-68 kmpl in city conditions."
+      },
+      {
+        "question": "Is it good for hilly areas?",
+        "answer": "Not ideal due to limited power; best for flat terrain."
+      }
+    ]
+  },
+  {
+    "name": "Akij Romeo",
+    "slug": "akij-romeo",
+    "brand": "Akij",
+    "category": "Commuter",
+    "cc": 110,
+    "price": "Tk. 1,18,000",
+    "short_description": "Akij Romeo is a stylish 110cc commuter motorcycle with slightly premium looks compared to other Akij bikes, offering decent performance for city commuting.",
+    "Zero_Sixty": "10.0 sec",
+    "Zero_Hundred": "Not Specified",
+    "engine_cooling": "Air Cooled",
+    "mileage_claimed": "65 kmpl",
+    "mileage_reported": "60-63 kmpl",
+    "top_speed_claimed": "85 km/h",
+    "top_speed_reported": "80 km/h",
+    "braking": "Front Drum / Rear Drum",
+    "gear": "4-speed manual",
+    "weight": "110 kg",
+    "max_power": "8.0 PS @ 7500 rpm",
+    "max_torque": "8.2 Nm @ 5500 rpm",
+    "clutch": "Wet multi-plate",
+    "cooling_system": "Air Cooled",
+    "front_brake": "130 mm Drum",
+    "rear_brake": "110 mm Drum",
+    "caliper": {
+      "front": "None",
+      "rear": "None"
+    },
+    "tyre_type": "Tubed",
+    "front_tyre_size": "2.75-17",
+    "rear_tyre_size": "3.00-17",
+    "wheel_type": "Spoke",
+    "fuel_tank_capacity": "9 L",
+    "headlight_type": "Halogen",
+    "tail_light_type": "Bulb",
+    "projector_headlamp": false,
+    "drls": false,
+    "quickshifter": false,
+    "traction_control": false,
+    "bluetooth_connectivity": false,
+    "display": "Analog",
+    "seat_height": "780 mm",
+    "ground_clearance": "165 mm",
+    "overall_length": "1990 mm",
+    "overall_width": "745 mm",
+    "build_quality": "Standard commuter with stylish elements",
+    "parts_availability": "Good in urban areas",
+    "image_urls": [
+      {
+        "url": "https://cdn.example.com/akij-romeo-front.webp",
+        "alt": "Akij Romeo Front View"
+      },
+      {
+        "url": "https://cdn.example.com/akij-romeo-side.webp",
+        "alt": "Akij Romeo Side View"
+      }
+    ],
+    "pros": [
+      "Better styling than other Akij bikes",
+      "Decent fuel efficiency",
+      "Affordable price point",
+      "Reliable performance"
+    ],
+    "cons": [
+      "No modern features",
+      "Drum brakes only",
+      "Basic suspension",
+      "Limited color options"
+    ],
+    "faqs": [
+      {
+        "question": "Does Romeo have self-start?",
+        "answer": "No, it comes with kick start only."
+      },
+      {
+        "question": "What colors are available?",
+        "answer": "Typically red, black and blue variants."
+      },
+      {
+        "question": "Is it good for highway use?",
+        "answer": "Not recommended due to limited power and top speed."
+      }
+    ]
+  }
 ]
+
 
 
 
