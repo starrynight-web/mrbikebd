@@ -46,16 +46,16 @@
     "overall_width": "780 mm",
     "build_quality": "Retro-modern fusion",
     "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-cafe150-front.webp",
-        "alt": "Aprilia Cafe 150 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-cafe150-side.webp",
-        "alt": "Aprilia Cafe 150 Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986221/bikes/Aprilia/Aprilia%20Cafe%20150/aprilia-cafe-150-left-view.webp",
+          "alt": "Aprilia Cafe 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986222/bikes/Aprilia/Aprilia%20Cafe%20150/aprilia-cafe-150-right-view.webp",
+          "alt": "Aprilia Cafe 150 Right View"
+        }
+      ] ,
     "pros": [
       "Authentic cafe racer styling",
       "Comfortable ergonomics for a cafe racer",
@@ -137,15 +137,23 @@
     "build_quality": "Sporty urban commuter",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-fx150-front.webp",
-        "alt": "Aprilia FX 150 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-fx150-side.webp",
-        "alt": "Aprilia FX 150 Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986223/bikes/Aprilia/Aprilia%20FX%20150/aprilia-fx-150%20left-view-red.webp",
+          "alt": "Aprilia FX 150 Aprilia Fx 150 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986224/bikes/Aprilia/Aprilia%20FX%20150/aprilia-fx-150-left-view-blue.webp",
+          "alt": "Aprilia FX 150 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986225/bikes/Aprilia/Aprilia%20FX%20150/aprilia-fx-150-right-view-blue.webp",
+          "alt": "Aprilia FX 150 Right View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986227/bikes/Aprilia/Aprilia%20FX%20150/aprilia-fx-150-right-view-red.webp",
+          "alt": "Aprilia FX 150 Right View Red"
+        }
+      ] ,
     "pros": [
       "Lightweight and agile",
       "Good fuel efficiency",
@@ -226,16 +234,12 @@
     "overall_width": "770 mm",
     "build_quality": "Premium sportbike",
     "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-gpr150-front.webp",
-        "alt": "Aprilia GPR 150 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-gpr150-side.webp",
-        "alt": "Aprilia GPR 150 Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986228/bikes/Aprilia/Aprilia%20GPR%20150/aprilia-gpr-150-showroom-view.webp",
+          "alt": "Aprilia GPR 150 Showroom View"
+        }
+      ] ,
     "pros": [
       "True sportbike ergonomics",
       "Premium radial brake caliper",
@@ -316,16 +320,12 @@
     "overall_width": "730 mm",
     "build_quality": "Premium sport scooter",
     "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-sr125-front.webp",
-        "alt": "Aprilia SR 125 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-sr125-side.webp",
-        "alt": "Aprilia SR 125 Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986229/bikes/Aprilia/Aprilia%20SR%20125/aprilia-sr-125-showroom-view.webp",
+          "alt": "Aprilia SR 125 Showroom View"
+        }
+      ],
     "pros": [
       "Sporty Italian styling",
       "Good acceleration for 125cc",
@@ -407,15 +407,23 @@
     "build_quality": "Sporty premium finish",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-sr150race-front.webp",
-        "alt": "Aprilia SR 150 Race Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-sr150race-side.webp",
-        "alt": "Aprilia SR 150 Race Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986230/bikes/Aprilia/Aprilia%20SR%20150%20Race/aprilia-sr-150-race-left-view.webp",
+          "alt": "Aprilia SR 150 Race Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986232/bikes/Aprilia/Aprilia%20SR%20150%20Race/aprilia-sr-150-race-right-view.webp",
+          "alt": "Aprilia SR 150 Race Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986233/bikes/Aprilia/Aprilia%20SR%20150%20Race/aprilia-sr-150-race-showroom-view-red.webp",
+          "alt": "Aprilia SR 150 Race Showroom View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986233/bikes/Aprilia/Aprilia%20SR%20150%20Race/aprilia-sr-150-race-showroom-view-white.webp",
+          "alt": "Aprilia SR 150 Race Showroom View White"
+        }
+      ],
     "pros": [
       "Peppy 150cc engine",
       "Aggressive race styling",
@@ -496,16 +504,12 @@
     "overall_width": "730 mm",
     "build_quality": "Premium with carbon fiber accents",
     "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-sr150carbon-front.webp",
-        "alt": "Aprilia SR 150 Carbon ABS Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-sr150carbon-side.webp",
-        "alt": "Aprilia SR 150 Carbon ABS Side View"
-      }
-    ],
+   ,"image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986234/bikes/Aprilia/Aprilia%20SR%20150%20Race%20ABS/aprilia-sr-150-race-abs-showroom-view.webp",
+          "alt": "Aprilia SR 150 Race ABS Showroom View"
+        }
+      ]
     "pros": [
       "Premium carbon fiber elements",
       "Single-channel ABS for safety",
@@ -586,16 +590,12 @@
     "overall_width": "810 mm",
     "build_quality": "Rugged adventure styling",
     "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/aprilia-terra150-front.webp",
-        "alt": "Aprilia Terra 150 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/aprilia-terra150-side.webp",
-        "alt": "Aprilia Terra 150 Side View"
-      }
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986236/bikes/Aprilia/Aprilia%20Terra%20150/aprilia-terra-150-showroom-view.webp",
+          "alt": "Aprilia Terra 150 Showroom View"
+        }
+      ] ,
     "pros": [
       "Excellent ground clearance",
       "Comfortable upright riding position",
@@ -931,12 +931,24 @@
   "overall_width": "740 mm",
   "build_quality": "Sporty urban scooter with premium finish",
   "parts_availability": "Moderate in major cities",
-  "image_urls": [
-    { "url": "https://cdn.example.com/taro-f16-front.webp", "alt": "Taro F16 CT Max Front View" },
-    { "url": "https://cdn.example.com/taro-f16-side.webp", "alt": "Taro F16 CT Max Side View" },
-    { "url": "https://cdn.example.com/taro-f16-rear.webp", "alt": "Taro F16 CT Max Rear View" },
-    { "url": "https://cdn.example.com/taro-f16-back.webp", "alt": "Taro F16 CT Max Back View" }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ] ,
   "pros": [
     "Attractive sporty design",
     "Comfortable riding posture",
@@ -1005,12 +1017,24 @@
   "overall_width": "720 mm",
   "build_quality": "Sporty and premium build with racing DNA",
   "parts_availability": "Moderate to limited",
-  "image_urls": [
-    { "url": "https://cdn.example.com/taro-gp1-front.webp", "alt": "Taro GP 1 Front View" },
-    { "url": "https://cdn.example.com/taro-gp1-side.webp", "alt": "Taro GP 1 Side View" },
-    { "url": "https://cdn.example.com/taro-gp1-rear.webp", "alt": "Taro GP 1 Rear View" },
-    { "url": "https://cdn.example.com/taro-gp1-back.webp", "alt": "Taro GP 1 Back View" }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ] ,
   "pros": [
     "Stunning sports bike design",
     "Dual-channel ABS for safety",
@@ -1080,12 +1104,23 @@
   "build_quality": "Sporty and premium with special edition graphics and upgraded suspension",
   "parts_availability": "Moderate to limited",
   "image_urls": [
-    { "url": "https://cdn.example.com/taro-gp1-special-front.webp", "alt": "Taro GP 1 Special Edition Front View" },
-    { "url": "https://cdn.example.com/taro-gp1-special-side.webp", "alt": "Taro GP 1 Special Edition Side View" },
-    { "url": "https://cdn.example.com/taro-gp1-special-rear.webp", "alt": "Taro GP 1 Special Edition Rear View" },
-    { "url": "https://cdn.example.com/taro-gp1-special-back.webp", "alt": "Taro GP 1 Special Edition Back View" }
-  ],
-  "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ] "pros": [
     "Exclusive limited edition styling",
     "Upgraded suspension for better ride comfort",
     "Powerful engine with good top speed",
@@ -1154,11 +1189,23 @@
   "build_quality": "Refined sporty build with updated electronics and styling",
   "parts_availability": "Moderate to limited",
   "image_urls": [
-    { "url": "https://cdn.example.com/taro-gp1-v3-front.webp", "alt": "Taro GP 1 V3 Front View" },
-    { "url": "https://cdn.example.com/taro-gp1-v3-side.webp", "alt": "Taro GP 1 V3 Side View" },
-    { "url": "https://cdn.example.com/taro-gp1-v3-rear.webp", "alt": "Taro GP 1 V3 Rear View" },
-    { "url": "https://cdn.example.com/taro-gp1-v3-back.webp", "alt": "Taro GP 1 V3 Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ],
   "pros": [
     "More powerful 155cc engine",
     "Updated electronics for better performance",
@@ -1226,13 +1273,25 @@
   "overall_length": "2040 mm",
   "overall_width": "715 mm",
   "build_quality": "Aggressive design with reliable street performance",
-  "parts_availability": "Moderate",
+  "parts_availability": "Moderate",  
   "image_urls": [
-    { "url": "https://cdn.example.com/taro-gp2-front.webp", "alt": "Taro GP 2 Front View" },
-    { "url": "https://cdn.example.com/taro-gp2-side.webp", "alt": "Taro GP 2 Side View" },
-    { "url": "https://cdn.example.com/taro-gp2-rear.webp", "alt": "Taro GP 2 Rear View" },
-    { "url": "https://cdn.example.com/taro-gp2-back.webp", "alt": "Taro GP 2 Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ]  ,
   "pros": [
     "Attractive faired styling",
     "Good value for price",
@@ -1302,11 +1361,23 @@
   "build_quality": "Naked streetfighter styling with a muscular frame",
   "parts_availability": "Moderate",
   "image_urls": [
-    { "url": "https://cdn.example.com/taro-gp-one-naked-front.webp", "alt": "Taro GP One Naked Sport Front View" },
-    { "url": "https://cdn.example.com/taro-gp-one-naked-side.webp", "alt": "Taro GP One Naked Sport Side View" },
-    { "url": "https://cdn.example.com/taro-gp-one-naked-rear.webp", "alt": "Taro GP One Naked Sport Rear View" },
-    { "url": "https://cdn.example.com/taro-gp-one-naked-back.webp", "alt": "Taro GP One Naked Sport Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ] ,
   "pros": [
     "Aggressive naked bike styling",
     "Decent performance and torque",
@@ -1376,11 +1447,23 @@
   "build_quality": "Simple and commuter-focused with decent build",
   "parts_availability": "Easily available",
   "image_urls": [
-    { "url": "https://cdn.example.com/taro-imola-front.webp", "alt": "Taro Imola Front View" },
-    { "url": "https://cdn.example.com/taro-imola-side.webp", "alt": "Taro Imola Side View" },
-    { "url": "https://cdn.example.com/taro-imola-rear.webp", "alt": "Taro Imola Rear View" },
-    { "url": "https://cdn.example.com/taro-imola-back.webp", "alt": "Taro Imola Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986359/bikes/taro/gp/taro-gp1-left-view-black.webp",
+          "alt": "gp Taro Gp1 Left View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986360/bikes/taro/gp/taro-gp1-left-view-blue.webp",
+          "alt": "gp Taro Gp1 Left View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986361/bikes/taro/gp/taro-gp1-left-view-red.webp",
+          "alt": "gp Taro Gp1 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986362/bikes/taro/gp/taro-gp1-left-view-white.webp",
+          "alt": "gp Taro Gp1 Left View White"
+        }
+      ],
   "pros": [
     "Affordable and practical",
     "Easy to handle for all riders",
@@ -1450,12 +1533,16 @@
   "overall_width": "710 mm",
   "build_quality": "Premium finish with urban e-mobility focus",
   "parts_availability": "Limited",
-  "image_urls": [
-    { "url": "https://cdn.example.com/revoo-c03-front.webp", "alt": "Revoo C03 Front View" },
-    { "url": "https://cdn.example.com/revoo-c03-side.webp", "alt": "Revoo C03 Side View" },
-    { "url": "https://cdn.example.com/revoo-c03-rear.webp", "alt": "Revoo C03 Rear View" },
-    { "url": "https://cdn.example.com/revoo-c03-back.webp", "alt": "Revoo C03 Back View" }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986329/bikes/Revoo/Revoo%20C03/revoo-c03-showroom-view-grey.webp",
+          "alt": "Revoo C03 Showroom View Grey"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986330/bikes/Revoo/Revoo%20C03/revoo-c03-showroom-view-white.webp",
+          "alt": "Revoo C03 Showroom View White"
+        }
+      ] ,
   "pros": [
     "Modern styling with LED lights",
     "Decent top speed for an EV",
@@ -1525,11 +1612,15 @@
   "build_quality": "Lightweight and commuter-friendly",
   "parts_availability": "Limited",
   "image_urls": [
-    { "url": "https://cdn.example.com/revoo-c00-front.webp", "alt": "Revoo C00 Front View" },
-    { "url": "https://cdn.example.com/revoo-c00-side.webp", "alt": "Revoo C00 Side View" },
-    { "url": "https://cdn.example.com/revoo-c00-rear.webp", "alt": "Revoo C00 Rear View" },
-    { "url": "https://cdn.example.com/revoo-c00-back.webp", "alt": "Revoo C00 Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986329/bikes/Revoo/Revoo%20C03/revoo-c03-showroom-view-grey.webp",
+          "alt": "Revoo C03 Showroom View Grey"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986330/bikes/Revoo/Revoo%20C03/revoo-c03-showroom-view-white.webp",
+          "alt": "Revoo C03 Showroom View White"
+        }
+      ],
   "pros": [
     "Affordable price point",
     "Ideal for short daily rides",
@@ -1599,11 +1690,15 @@
   "build_quality": "Entry-level commuter e-scooter",
   "parts_availability": "Available",
   "image_urls": [
-    { "url": "https://cdn.example.com/revoo-a12-front.webp", "alt": "Revoo A12 Front View" },
-    { "url": "https://cdn.example.com/revoo-a12-side.webp", "alt": "Revoo A12 Side View" },
-    { "url": "https://cdn.example.com/revoo-a12-rear.webp", "alt": "Revoo A12 Rear View" },
-    { "url": "https://cdn.example.com/revoo-a12-back.webp", "alt": "Revoo A12 Back View" }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986327/bikes/Revoo/Revoo%20A12/revoo-a12-showroom-view-black.webp",
+          "alt": "Revoo A12 Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986328/bikes/Revoo/Revoo%20A12/revoo-a12-showroom-view-red.webp",
+          "alt": "Revoo A12 Showroom View Red"
+        }
+      ],
   "pros": [
     "Lowest priced Revoo model",
     "Ideal for students and short trips",
@@ -1670,28 +1765,13 @@
     "ground_clearance": "160 mm (approx)",
     "weight": "90 kg (approx)",
     "fuel_capacity": "Not Applicable",
-    "image_urls": [
-      {
-        "url": "https://example.com/images/revoo-a01-front.webp",
-        "alt": "Revoo A01 Front View"
-      },
-      {
-        "url": "https://example.com/images/revoo-a01-side.webp",
-        "alt": "Revoo A01 Side Profile"
-      },
-      {
-        "url": "https://example.com/images/revoo-a01-back.webp",
-        "alt": "Revoo A01 Rear View"
-      },
-      {
-        "url": "https://example.com/images/revoo-a01-dashboard.webp",
-        "alt": "Revoo A01 Digital Display"
-      },
-      {
-        "url": "https://example.com/images/revoo-a01-full.webp",
-        "alt": "Revoo A01 Full Body Look"
-      }
-    ],
+    "Revoo A01": {
+      "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986325/bikes/Revoo/Revoo%20A01/revoo-a01-showroom-view.webp",
+          "alt": "Revoo A01 Showroom View"
+        }
+      ],
     "pros": [
       "Affordable electric option",
       "Lightweight and easy to maneuver",
@@ -1770,27 +1850,11 @@
     "weight": "85 kg (approx)",
     "fuel_capacity": "Not Applicable",
     "image_urls": [
-      {
-        "url": "https://example.com/images/revoo-a10-front.webp",
-        "alt": "Revoo A10 Front Look"
-      },
-      {
-        "url": "https://example.com/images/revoo-a10-left.webp",
-        "alt": "Revoo A10 Left Side"
-      },
-      {
-        "url": "https://example.com/images/revoo-a10-back.webp",
-        "alt": "Revoo A10 Rear Angle"
-      },
-      {
-        "url": "https://example.com/images/revoo-a10-seat.webp",
-        "alt": "Revoo A10 Seat and Handlebar"
-      },
-      {
-        "url": "https://example.com/images/revoo-a10-showroom.webp",
-        "alt": "Revoo A10 on Display"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986326/bikes/Revoo/Revoo%20A10/revoo-a10-showroom-view.webp",
+          "alt": "Revoo A10 Showroom View"
+        }
+      ],
     "pros": [
       "Extremely affordable",
       "Simple and easy controls",
@@ -1869,27 +1933,15 @@
     "weight": "95 kg (approx)",
     "fuel_capacity": "Not Applicable",
     "image_urls": [
-     {
-        "url": "https://example.com/images/revoo-c32-front.webp",
-        "alt": "Revoo C32 Front View"
-      },
-      {
-        "url": "https://example.com/images/revoo-c32-side.webp",
-        "alt": "Revoo C32 Side Look"
-      },
-      {
-        "url": "https://example.com/images/revoo-c32-back.webp",
-        "alt": "Revoo C32 Rear Profile"
-      },
-      {
-        "url": "https://example.com/images/revoo-c32-console.webp",
-        "alt": "Revoo C32 Digital Console"
-      },
-      {
-        "url": "https://example.com/images/revoo-c32-showroom.webp",
-        "alt": "Revoo C32 Showroom View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986331/bikes/Revoo/Revoo%20C32/revoo-c32-showroom-view-green.webp",
+          "alt": "Revoo C32 Showroom View Green"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986332/bikes/Revoo/Revoo%20C32/revoo-c32-showroom-view.webp",
+          "alt": "Revoo C32 Showroom View"
+        }
+      ] ,
     "pros": [
       "Modern and stylish design",
       "Efficient lithium-ion battery",
@@ -1970,15 +2022,19 @@
   "build_quality": "Robust electric motorcycle build",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/revoo-e52-front.webp",
-      "alt": "Revoo E52 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/revoo-e52-side.webp",
-      "alt": "Revoo E52 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986335/bikes/Revoo/Revoo%20E52/revoo-e52-left-view.webp",
+          "alt": "Revoo E52 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986336/bikes/Revoo/Revoo%20E52/revoo-e52-right-view.webp",
+          "alt": "Revoo E52 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986337/bikes/Revoo/Revoo%20E52/revoo-e52-showroom-view.webp",
+          "alt": "Revoo E52 Showroom View"
+        }
+      ],
   "pros": [
     "Powerful electric motor",
     "Good mileage per charge",
@@ -2060,15 +2116,15 @@
   "build_quality": "Lightweight and compact",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/revoo-a12s-front.webp",
-      "alt": "Revoo A12-S Front View"
-    },
-    {
-      "url": "https://cdn.example.com/revoo-a12s-side.webp",
-      "alt": "Revoo A12-S Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986327/bikes/Revoo/Revoo%20A12/revoo-a12-showroom-view-black.webp",
+          "alt": "Revoo A12 Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986328/bikes/Revoo/Revoo%20A12/revoo-a12-showroom-view-red.webp",
+          "alt": "Revoo A12 Showroom View Red"
+        }
+      ] ,
   "pros": [
     "Affordable electric scooter",
     "Lightweight and easy to handle",
@@ -2150,15 +2206,19 @@
   "build_quality": "Compact and reliable electric motorcycle",
   "parts_availability": "Moderate",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/revoo-c32y-front.webp",
-      "alt": "Revoo C32-Y Front View"
-    },
-    {
-      "url": "https://cdn.example.com/revoo-c32y-side.webp",
-      "alt": "Revoo C32-Y Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986333/bikes/Revoo/Revoo%20C32Y/revoo-c32y-left-view.webp",
+          "alt": "Revoo C32Y Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986333/bikes/Revoo/Revoo%20C32Y/revoo-c32y-right-view.webp",
+          "alt": "Revoo C32Y Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986334/bikes/Revoo/Revoo%20C32Y/revoo-c32y-showroom-view.webp",
+          "alt": "Revoo C32Y Showroom View"
+        }
+      ]
   "pros": [
     "Smooth and quiet electric motor",
     "Good mileage for city rides",

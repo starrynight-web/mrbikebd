@@ -47,15 +47,27 @@
     "build_quality": "Sporty with premium finishes",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-150sc-front.webp",
-        "alt": "CFMoto 150SC Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-150sc-side.webp",
-        "alt": "CFMoto 150SC Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986253/bikes/cfmoto/cfmoto%20150%20sc/cfmoto-150sc-right-view-black.webp",
+          "alt": "cfmoto 150 sc Cfmoto 150Sc Right View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986253/bikes/cfmoto/cfmoto%20150%20sc/cfmoto-150sc-right-view-grey.webp",
+          "alt": "cfmoto 150 sc Cfmoto 150Sc Right View Grey"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986255/bikes/cfmoto/cfmoto%20150%20sc/cfmoto-150sc-right-view-silver.webp",
+          "alt": "cfmoto 150 sc Cfmoto 150Sc Right View Silver"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986256/bikes/cfmoto/cfmoto%20150%20sc/cfmoto-150sc-right-view-white.webp",
+          "alt": "cfmoto 150 sc Cfmoto 150Sc Right View White"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986257/bikes/cfmoto/cfmoto%20150%20sc/cfmoto-150sc-showroom-view.webp",
+          "alt": "cfmoto 150 sc Cfmoto 150Sc Showroom View"
+        }
+      ],
     "pros": [
       "Sporty maxi-scooter styling",
       "Liquid-cooled engine for consistent performance",
@@ -137,15 +149,27 @@
     "build_quality": "Sporty with premium touches",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-250nk-front.webp",
-        "alt": "CFMoto 250NK Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-250nk-side.webp",
-        "alt": "CFMoto 250NK Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986241/bikes/cfmoto/250-nk/cfmoto-250nk-right-view-black.webp",
+          "alt": "250-nk Cfmoto 250Nk Right View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986242/bikes/cfmoto/250-nk/cfmoto-250nk-right-view-blue.webp",
+          "alt": "250-nk Cfmoto 250Nk Right View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986243/bikes/cfmoto/250-nk/cfmoto-250nk-showroom-view-black.webp",
+          "alt": "250-nk Cfmoto 250Nk Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986244/bikes/cfmoto/250-nk/cfmoto-250nk-showroom-view-blue.webp",
+          "alt": "250-nk Cfmoto 250Nk Showroom View Blue"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986245/bikes/cfmoto/250-nk/cfmoto-250nk-showroom-view.webp",
+          "alt": "250-nk Cfmoto 250Nk Showroom View"
+        }
+      ]
     "pros": [
       "Lightweight and agile handling",
       "Powerful 250cc liquid-cooled engine",
@@ -227,15 +251,19 @@
     "build_quality": "Sporty with premium fairings",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-250sr-front.webp",
-        "alt": "CFMoto 250SR Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-250sr-side.webp",
-        "alt": "CFMoto 250SR Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986246/bikes/cfmoto/250-sr/cfmoto-250sr-right-view-black.webp",
+          "alt": "250-sr Cfmoto 250Sr Right View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986247/bikes/cfmoto/250-sr/cfmoto-250sr-right-view-white.webp",
+          "alt": "250-sr Cfmoto 250Sr Right View White"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986248/bikes/cfmoto/250-sr/cfmoto-250sr-showroom-view-black.webp",
+          "alt": "250-sr Cfmoto 250Sr Showroom View Black"
+        }
+      ],
     "pros": [
       "Full-faired sportbike styling",
       "Peppy 250cc liquid-cooled engine",
@@ -317,15 +345,23 @@
     "build_quality": "Classic cruiser styling",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-250clc-front.webp",
-        "alt": "CFMoto 250CL-C Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-250clc-side.webp",
-        "alt": "CFMoto 250CL-C Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986237/bikes/cfmoto/250-cl/cfmoto-250cl-right-view-black.webp",
+          "alt": "250-cl Cfmoto 250Cl Right View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986238/bikes/cfmoto/250-cl/cfmoto-250cl-right-view-white.webp",
+          "alt": "250-cl Cfmoto 250Cl Right View White"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986239/bikes/cfmoto/250-cl/cfmoto-250cl-right-view.webp",
+          "alt": "250-cl Cfmoto 250Cl Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986240/bikes/cfmoto/250-cl/cfmoto-250cl-showroom-view.webp",
+          "alt": "250-cl Cfmoto 250Cl Showroom View"
+        }
+      ],
     "pros": [
       "Low 690mm seat height",
       "Comfortable cruiser ergonomics",
@@ -407,15 +443,19 @@
     "build_quality": "Premium sportbike finish",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-300sr-front.webp",
-        "alt": "CFMoto 300SR Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-300sr-side.webp",
-        "alt": "CFMoto 300SR Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986249/bikes/cfmoto/300sr/cfmoto-300sr-right-view-black.webp",
+          "alt": "300sr Cfmoto Right View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986251/bikes/cfmoto/300sr/cfmoto-300sr-right-view-white.webp",
+          "alt": "300sr Cfmoto Right View White"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986252/bikes/cfmoto/300sr/cfmoto-300sr-showroom-view-black.webp",
+          "alt": "300sr Cfmoto Showroom View Black"
+        }
+      ],
     "pros": [
       "Powerful 292cc liquid-cooled engine",
       "Full-faired aggressive styling",
@@ -587,15 +627,27 @@
   "build_quality": "Rugged, adventure-ready scooter with high ground clearance and sporty build",
   "parts_availability": "Moderate",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/kpv-150-race-front.webp",
-      "alt": "KPV 150 RACE Front View"
-    },
-    {
-      "url": "https://cdn.example.com/kpv-150-race-side.webp",
-      "alt": "KPV 150 RACE Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986293/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-back-view.webp",
+          "alt": "Lifan KPV 150 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986294/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-front-view.webp",
+          "alt": "Lifan KPV 150 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986295/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-left-view.webp",
+          "alt": "Lifan KPV 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986296/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-right-view.webp",
+          "alt": "Lifan KPV 150 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986297/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-showroom-view.webp",
+          "alt": "Lifan KPV 150 Showroom View"
+        }
+      ],
   "pros": [
     "Adventure styling and dual-purpose capability",
     "Front and rear disc brakes",
@@ -826,11 +878,27 @@
     "build_quality": "Premium cruiser",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-k19-front.webp", "alt": "Lifan K19 Front View"},
-      {"url": "https://cdn.example.com/lifan-k19-side.webp", "alt": "Lifan K19 Side View"},
-      {"url": "https://cdn.example.com/lifan-k19-rear.webp", "alt": "Lifan K19 Rear View"},
-      {"url": "https://cdn.example.com/lifan-k19-back.webp", "alt": "Lifan K19 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986272/bikes/Lifan/Lifan%20K19%20165/lifan-k19-165-back-view.webp",
+          "alt": "Lifan K19 165 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986273/bikes/Lifan/Lifan%20K19%20165/lifan-k19-165-front-view.webp",
+          "alt": "Lifan K19 165 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986274/bikes/Lifan/Lifan%20K19%20165/lifan-k19-165-left-view.webp",
+          "alt": "Lifan K19 165 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986275/bikes/Lifan/Lifan%20K19%20165/lifan-k19-165-right-view.webp",
+          "alt": "Lifan K19 165 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986276/bikes/Lifan/Lifan%20K19%20165/lifan-k19-165-showroom-view.webp",
+          "alt": "Lifan K19 165 Showroom View"
+        }
+      ],
     "pros": [
       "Bobber-inspired design",
       "Low seat height (700mm)",
@@ -900,11 +968,15 @@
     "build_quality": "Performance streetfighter",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpkpro-front.webp", "alt": "Lifan KP K PRO 4V Front View"},
-      {"url": "https://cdn.example.com/lifan-kpkpro-side.webp", "alt": "Lifan KP K PRO 4V Side View"},
-      {"url": "https://cdn.example.com/lifan-kpkpro-rear.webp", "alt": "Lifan KP K PRO 4V Rear View"},
-      {"url": "https://cdn.example.com/lifan-kpkpro-back.webp", "alt": "Lifan KP K PRO 4V Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986279/bikes/Lifan/Lifan%20KP-165%204V/lifan-kp-165-4v-left-view.webp",
+          "alt": "Lifan KP-165 4V Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986280/bikes/Lifan/Lifan%20KP-165%204V/lifan-kp-165-4v-right-view.webp",
+          "alt": "Lifan KP-165 4V Right View"
+        }
+      ],
     "pros": [
       "4-valve high-revving engine",
       "6-speed gearbox",
@@ -973,11 +1045,28 @@
     "overall_width": "750 mm",
     "build_quality": "Entry-level sports bike",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr150-front.webp", "alt": "Lifan KPR 150 Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr150-side.webp", "alt": "Lifan KPR 150 Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr150-rear.webp", "alt": "Lifan KPR 150 Rear View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986281/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-back-view.webp",
+          "alt": "Lifan KPR 165 Fi Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986282/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-front-view.webp",
+          "alt": "Lifan KPR 165 Fi Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986283/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-left-view.webp",
+          "alt": "Lifan KPR 165 Fi Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986284/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-right-view.webp",
+          "alt": "Lifan KPR 165 Fi Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986285/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-showroom-view.webp",
+          "alt": "Lifan KPR 165 Fi Showroom View"
+        }
+      ] ,
     "pros": [
       "Sporty naked bike design",
       "Comfortable riding position",
@@ -1046,11 +1135,28 @@
     "overall_width": "780 mm",
     "build_quality": "Premium sports bike",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr165efi-front.webp", "alt": "Lifan KPR 165 EFI Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr165efi-side.webp", "alt": "Lifan KPR 165 EFI Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr165efi-rear.webp", "alt": "Lifan KPR 165 EFI Rear View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986281/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-back-view.webp",
+          "alt": "Lifan KPR 165 Fi Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986282/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-front-view.webp",
+          "alt": "Lifan KPR 165 Fi Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986283/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-left-view.webp",
+          "alt": "Lifan KPR 165 Fi Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986284/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-right-view.webp",
+          "alt": "Lifan KPR 165 Fi Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986285/bikes/Lifan/Lifan%20KPR%20165%20Fi/lifan-kpr-165-fi-showroom-view.webp",
+          "alt": "Lifan KPR 165 Fi Showroom View"
+        }
+      ] ,
     "pros": [
       "Fuel-injected engine",
       "6-speed gearbox",
@@ -1120,10 +1226,27 @@
     "build_quality": "Sporty build with budget components",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr165r-front.webp", "alt": "Lifan KPR 165R Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr165r-side.webp", "alt": "Lifan KPR 165R Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr165r-rear.webp", "alt": "Lifan KPR 165R Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
+        }
+      ],
     "pros": [
       "Aggressive sports bike styling",
       "Dual disc brakes",
@@ -1193,10 +1316,27 @@
     "build_quality": "Sporty build with safety features",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr165r-cbs-front.webp", "alt": "Lifan KPR 165R CBS Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr165r-cbs-side.webp", "alt": "Lifan KPR 165R CBS Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr165r-cbs-rear.webp", "alt": "Lifan KPR 165R CBS Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
+        }
+      ],
     "pros": [
       "CBS braking system",
       "Sporty design with premium touches",
@@ -1266,10 +1406,27 @@
     "build_quality": "Premium sports bike",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr200-front.webp", "alt": "Lifan KPR 200 4V Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr200-side.webp", "alt": "Lifan KPR 200 4V Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr200-rear.webp", "alt": "Lifan KPR 200 4V Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
+        }
+      ],
     "pros": [
       "4-valve high-performance engine",
       "Oil cooling system",
@@ -1339,10 +1496,27 @@
     "build_quality": "Entry-level sports bike with safety features",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpr150cbs-front.webp", "alt": "Lifan KPR150 CBS Front View"},
-      {"url": "https://cdn.example.com/lifan-kpr150cbs-side.webp", "alt": "Lifan KPR150 CBS Side View"},
-      {"url": "https://cdn.example.com/lifan-kpr150cbs-rear.webp", "alt": "Lifan KPR150 CBS Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
+          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
+        }
+      ],
     "pros": [
       "CBS for safer braking",
       "Sporty design",
@@ -1411,11 +1585,16 @@
     "overall_width": "800 mm",
     "build_quality": "Adventure-style build",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpt150-front.webp", "alt": "Lifan KPT 150 Front View"},
-      {"url": "https://cdn.example.com/lifan-kpt150-side.webp", "alt": "Lifan KPT 150 Side View"},
-      {"url": "https://cdn.example.com/lifan-kpt150-rear.webp", "alt": "Lifan KPT 150 Rear View"}
-    ],
+    ,"image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986291/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-left-view.webp",
+          "alt": "Lifan KPT 150 Fi ABS Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986292/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-right-view.webp",
+          "alt": "Lifan KPT 150 Fi ABS Right View"
+        }
+      ]
     "pros": [
       "Adventure touring ergonomics",
       "Long-travel suspension",
@@ -1485,10 +1664,15 @@
     "build_quality": "Premium adventure tourer",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpt150-4v-front.webp", "alt": "Lifan KPT 150 4V Front View"},
-      {"url": "https://cdn.example.com/lifan-kpt150-4v-side.webp", "alt": "Lifan KPT 150 4V Side View"},
-      {"url": "https://cdn.example.com/lifan-kpt150-4v-rear.webp", "alt": "Lifan KPT 150 4V Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986291/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-left-view.webp",
+          "alt": "Lifan KPT 150 Fi ABS Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986292/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-right-view.webp",
+          "alt": "Lifan KPT 150 Fi ABS Right View"
+        }
+      ]
     "pros": [
       "4-valve engine for better performance",
       "6-speed gearbox",
@@ -1558,10 +1742,27 @@
     "build_quality": "Premium adventure scooter",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpv150-front.webp", "alt": "Lifan KPV 150 Front View"},
-      {"url": "https://cdn.example.com/lifan-kpv150-side.webp", "alt": "Lifan KPV 150 Side View"},
-      {"url": "https://cdn.example.com/lifan-kpv150-rear.webp", "alt": "Lifan KPV 150 Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986293/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-back-view.webp",
+          "alt": "Lifan KPV 150 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986294/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-front-view.webp",
+          "alt": "Lifan KPV 150 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986295/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-left-view.webp",
+          "alt": "Lifan KPV 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986296/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-right-view.webp",
+          "alt": "Lifan KPV 150 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986297/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-showroom-view.webp",
+          "alt": "Lifan KPV 150 Showroom View"
+        }
+      ],
     "pros": [
       "Unique adventure scooter design",
       "Water-cooled engine",
@@ -1631,10 +1832,27 @@
     "build_quality": "Premium adventure scooter with ABS",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpv150abs-front.webp", "alt": "Lifan KPV 150 ABS Front View"},
-      {"url": "https://cdn.example.com/lifan-kpv150abs-side.webp", "alt": "Lifan KPV 150 ABS Side View"},
-      {"url": "https://cdn.example.com/lifan-kpv150abs-rear.webp", "alt": "Lifan KPV 150 ABS Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986293/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-back-view.webp",
+          "alt": "Lifan KPV 150 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986294/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-front-view.webp",
+          "alt": "Lifan KPV 150 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986295/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-left-view.webp",
+          "alt": "Lifan KPV 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986296/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-right-view.webp",
+          "alt": "Lifan KPV 150 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986297/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-showroom-view.webp",
+          "alt": "Lifan KPV 150 Showroom View"
+        }
+      ],
     "pros": [
       "Single-channel ABS",
       "Water-cooled engine",
@@ -1703,11 +1921,28 @@
     "overall_width": "760 mm",
     "build_quality": "Premium special edition adventure scooter",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-kpv150queen-front.webp", "alt": "Lifan KPV 150 Queen Front View"},
-      {"url": "https://cdn.example.com/lifan-kpv150queen-side.webp", "alt": "Lifan KPV 150 Queen Side View"},
-      {"url": "https://cdn.example.com/lifan-kpv150queen-rear.webp", "alt": "Lifan KPV 150 Queen Rear View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986293/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-back-view.webp",
+          "alt": "Lifan KPV 150 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986294/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-front-view.webp",
+          "alt": "Lifan KPV 150 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986295/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-left-view.webp",
+          "alt": "Lifan KPV 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986296/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-right-view.webp",
+          "alt": "Lifan KPV 150 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986297/bikes/Lifan/Lifan%20KPV%20150/lifan-kpv-150-showroom-view.webp",
+          "alt": "Lifan KPV 150 Showroom View"
+        }
+      ],
     "pros": [
       "Dual-channel ABS",
       "Special edition styling",
@@ -1850,10 +2085,23 @@
     "build_quality": "Adventure-styled commuter",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/lifan-xpect150-front.webp", "alt": "Lifan Xpect 150 Front View"},
-      {"url": "https://cdn.example.com/lifan-xpect150-side.webp", "alt": "Lifan Xpect 150 Side View"},
-      {"url": "https://cdn.example.com/lifan-xpect150-rear.webp", "alt": "Lifan Xpect 150 Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986312/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-left-view-orange.webp",
+          "alt": "Lifan Xpect 150 Left View Orange"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986313/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-left-view-red.webp",
+          "alt": "Lifan Xpect 150 Left View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986317/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-right-view-orange.webp",
+          "alt": "Lifan Xpect 150 Right View Orange"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986318/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-right-view-red.webp",
+          "alt": "Lifan Xpect 150 Right View Red"
+        }
+      ],
     "pros": [
       "Adventure styling",
       "Comfortable upright position",
@@ -1923,12 +2171,24 @@
     "overall_width": "800 mm",
     "build_quality": "Premium scrambler",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/qjmotor-xrider160-front.webp", "alt": "QJ Motor X Rider SRV 160 Front View"},
-      {"url": "https://cdn.example.com/qjmotor-xrider160-side.webp", "alt": "QJ Motor X Rider SRV 160 Side View"},
-      {"url": "https://cdn.example.com/qjmotor-xrider160-rear.webp", "alt": "QJ Motor X Rider SRV 160 Rear View"},
-      {"url": "https://cdn.example.com/qjmotor-xrider160-back.webp", "alt": "QJ Motor X Rider SRV 160 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986322/bikes/qj-motors/srv-160/qj-motors-xrider-srv-160-back-view.webp",
+          "alt": "srv-160 Qj Motors Xrider Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986323/bikes/qj-motors/srv-160/qj-motors-xrider-srv-160-front-view.webp",
+          "alt": "srv-160 Qj Motors Xrider Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986324/bikes/qj-motors/srv-160/qj-motors-xrider-srv-160-right-view.webp",
+          "alt": "srv-160 Qj Motors Xrider Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986324/bikes/qj-motors/srv-160/qj-motors-xrider-srv-160-showroom-view.webp",
+          "alt": "srv-160 Qj Motors Xrider Showroom View"
+        }
+      ],
     "pros": [
       "Unique scrambler styling",
       "Comfortable upright riding position",
