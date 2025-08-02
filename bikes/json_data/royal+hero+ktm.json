@@ -47,16 +47,27 @@
   "build_quality": "Solid and refined",
   "parts_availability": "Very Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/royal-enfield-hunter350-front.webp",
-      "alt": "Royal Enfield Hunter 350 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/royal-enfield-hunter350-side.webp",
-      "alt": "Royal Enfield Hunter 350 Side View"
-    }
-  ],
-  "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986349/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-back-view.webp",
+          "alt": "hunter Royal Enfield 350 Royal Blue Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986350/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-front-view.webp",
+          "alt": "hunter Royal Enfield 350 Royal Blue Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986350/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-left-view.webp",
+          "alt": "hunter Royal Enfield 350 Royal Blue Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986351/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-right-view.webp",
+          "alt": "hunter Royal Enfield 350 Royal Blue Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986352/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-showroom-view.webp",
+          "alt": "hunter Royal Enfield 350 Royal Blue Showroom View"
+        }
+      ] "pros": [
     "Attractive neo-retro design",
     "Smooth and torquey engine",
     "Comfortable upright riding posture",
@@ -137,15 +148,27 @@
   "build_quality": "Vintage premium",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/royal-enfield-bullet350-front.webp",
-      "alt": "Royal Enfield Bullet 350 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/royal-enfield-bullet350-side.webp",
-      "alt": "Royal Enfield Bullet 350 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986338/bikes/royal-enfield/bullet/royal-enfield-bullet-350-back-view.webp",
+          "alt": "bullet Royal Enfield 350 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986339/bikes/royal-enfield/bullet/royal-enfield-bullet-350-right-view.webp",
+          "alt": "bullet Royal Enfield 350 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986340/bikes/royal-enfield/bullet/royal-enfield-bullet-350-royal-blue-front-view.webp",
+          "alt": "bullet Royal Enfield 350 Royal Blue Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986341/bikes/royal-enfield/bullet/royal-enfield-bullet-350-royal-blue-left-view.webp",
+          "alt": "bullet Royal Enfield 350 Royal Blue Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986342/bikes/royal-enfield/bullet/royal-enfield-bullet-350-royal-showroom-view.webp",
+          "alt": "bullet Royal Enfield 350 Royal Showroom View"
+        }
+      ],
   "pros": [
     "Classic Royal Enfield heritage design",
     "Strong low-end torque",
@@ -227,15 +250,27 @@
   "build_quality": "Premium and durable",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/royal-enfield-classic350-front.webp",
-      "alt": "Royal Enfield Classic 350 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/royal-enfield-classic350-side.webp",
-      "alt": "Royal Enfield Classic 350 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986343/bikes/royal-enfield/classic/royal-enfield-classic-350--back-view.webp",
+          "alt": "classic Royal Enfield 350  Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986344/bikes/royal-enfield/classic/royal-enfield-classic-350--front-view.webp",
+          "alt": "classic Royal Enfield 350  Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986345/bikes/royal-enfield/classic/royal-enfield-classic-350--left-view.webp",
+          "alt": "classic Royal Enfield 350  Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986346/bikes/royal-enfield/classic/royal-enfield-classic-350--right-view.webp",
+          "alt": "classic Royal Enfield 350  Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986347/bikes/royal-enfield/classic/royal-enfield-classic-350--showroom-view.webp",
+          "alt": "classic Royal Enfield 350  Showroom View"
+        }
+      ] ,
   "pros": [
     "Timeless classic design",
     "Refined engine with low vibrations",
@@ -317,15 +352,27 @@
   "build_quality": "Modern premium cruiser",
   "parts_availability": "Very Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/royal-enfield-meteor350-front.webp",
-      "alt": "Royal Enfield Meteor 350 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/royal-enfield-meteor350-side.webp",
-      "alt": "Royal Enfield Meteor 350 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986353/bikes/royal-enfield/meteor/royal-enfield-meteor-350-supernova-blue-back-view.webp",
+          "alt": "meteor Royal Enfield 350 Supernova Blue Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986354/bikes/royal-enfield/meteor/royal-enfield-meteor-350-supernova-blue-front-view.webp",
+          "alt": "meteor Royal Enfield 350 Supernova Blue Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986356/bikes/royal-enfield/meteor/royal-enfield-meteor-350-supernova-blue-leftt-view.webp",
+          "alt": "meteor Royal Enfield 350 Supernova Blue Leftt View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986357/bikes/royal-enfield/meteor/royal-enfield-meteor-350-supernova-blue-right-view.webp",
+          "alt": "meteor Royal Enfield 350 Supernova Blue Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986358/bikes/royal-enfield/meteor/royal-enfield-meteor-350-supernova-blue-showroom-view.webp",
+          "alt": "meteor Royal Enfield 350 Supernova Blue Showroom View"
+        }
+      ] ,
   "pros": [
     "Smooth and refined engine",
     "Tripper navigation system",
@@ -409,15 +456,27 @@
   "build_quality": "Reliable and practical",
   "parts_availability": "Very Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-glamour-front.webp",
-      "alt": "Hero Glamour Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-glamour-side.webp",
-      "alt": "Hero Glamour Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-back-view.webp",
+          "alt": "hero-glamour Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-front-view.webp",
+          "alt": "hero-glamour Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926209/bikes/HERO/hero-glamour/hero-glamour-left-view.webp",
+          "alt": "hero-glamour Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926210/bikes/HERO/hero-glamour/hero-glamour-right-view.webp",
+          "alt": "hero-glamour Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926211/bikes/HERO/hero-glamour/hero-glamour-showroom-view.webp",
+          "alt": "hero-glamour Showroom View"
+        }
+      ],
   "pros": [
     "Great mileage for daily riding",
     "Low maintenance costs",
@@ -498,15 +557,27 @@
   "build_quality": "Basic and practical",
   "parts_availability": "Very Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-glamour-bs4-front.webp",
-      "alt": "Hero Glamour BS4 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-glamour-bs4-side.webp",
-      "alt": "Hero Glamour BS4 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926211/bikes/HERO/hero-glamour/hero-glamour-showroom-view.webp",
+          "alt": "hero-glamour Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-back-view.webp",
+          "alt": "hero-glamour Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-front-view.webp",
+          "alt": "hero-glamour Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926209/bikes/HERO/hero-glamour/hero-glamour-left-view.webp",
+          "alt": "hero-glamour Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926210/bikes/HERO/hero-glamour/hero-glamour-right-view.webp",
+          "alt": "hero-glamour Right View"
+        }
+      ],
   "pros": [
     "Excellent mileage",
     "Simple and reliable engine",
@@ -588,15 +659,27 @@
   "build_quality": "Reliable commuter build",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-glamour-bs4-i3s-front.webp",
-      "alt": "Hero Glamour BS4 i3S Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-glamour-bs4-i3s-side.webp",
-      "alt": "Hero Glamour BS4 i3S Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-back-view.webp",
+          "alt": "hero-glamour Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926208/bikes/HERO/hero-glamour/hero-glamour-front-view.webp",
+          "alt": "hero-glamour Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926209/bikes/HERO/hero-glamour/hero-glamour-left-view.webp",
+          "alt": "hero-glamour Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926210/bikes/HERO/hero-glamour/hero-glamour-right-view.webp",
+          "alt": "hero-glamour Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926211/bikes/HERO/hero-glamour/hero-glamour-showroom-view.webp",
+          "alt": "hero-glamour Showroom View"
+        }
+      ],
   "pros": [
     "Good mileage with i3S tech",
     "Attractive styling for a commuter",
@@ -678,15 +761,27 @@
   "build_quality": "Sturdy and reliable for daily commuting",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hf-deluxe-bs4-black-front.webp",
-      "alt": "Hero HF Deluxe All Black BS4 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hf-deluxe-bs4-black-side.webp",
-      "alt": "Hero HF Deluxe All Black BS4 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926212/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-back-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926213/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-front-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926214/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-left-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926215/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-right-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926216/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-showroom-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Showroom View"
+        }
+      ],
   "pros": [
     "Excellent mileage",
     "Lightweight and easy to handle",
@@ -768,15 +863,27 @@
   "build_quality": "Basic but reliable commuter design",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hf-deluxe-self-black.webp",
-      "alt": "Hero HF Deluxe Self Start Black Front"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hf-deluxe-self-side.webp",
-      "alt": "Hero HF Deluxe Self Start Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926212/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-back-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926213/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-front-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926214/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-left-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926215/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-right-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926216/bikes/HERO/HERO-HF-DELUX/hero-hf-deluxe-showroom-view.webp",
+          "alt": "HERO-HF-DELUX Hero Hf Deluxe Showroom View"
+        }
+      ]
   "pros": [
     "Very fuel efficient",
     "Self-start convenience",
@@ -857,15 +964,27 @@
   "build_quality": "Sporty and muscular street build",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-red-front.webp",
-      "alt": "Hero Hunk Red Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-side-profile.webp",
-      "alt": "Hero Hunk Side Profile"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ],
   "pros": [
     "Strong mid-range power",
     "Sporty and muscular looks",
@@ -946,15 +1065,27 @@
   "build_quality": "Sport-inspired commuter with muscular design",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-front.webp",
-      "alt": "Hero Hunk 150R Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-side.webp",
-      "alt": "Hero Hunk 150R Side Profile"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }, 
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        }
+      ],
   "pros": [
     "Dual disc brakes",
     "Improved styling and performance",
@@ -1035,15 +1166,27 @@
   "build_quality": "Modern commuter with enhanced safety features",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-abs-front.webp",
-      "alt": "Hero Hunk 150R ABS Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-abs-side.webp",
-      "alt": "Hero Hunk 150R ABS Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ],
   "pros": [
     "Single-channel ABS for enhanced safety",
     "Aggressive styling with digital console",
@@ -1124,15 +1267,27 @@
   "build_quality": "Solid urban commuter with balanced power",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-dd-front.webp",
-      "alt": "Hero Hunk DD Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-dd-side.webp",
-      "alt": "Hero Hunk DD Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ],
   "pros": [
     "Dual disc brakes offer better stopping power",
     "Comfortable upright riding posture",
@@ -1213,15 +1368,27 @@
   "build_quality": "Good urban build with matte style",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-matt-dd-front.webp",
-      "alt": "Hero Hunk Matt DD Front Look"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-matt-dd-side.webp",
-      "alt": "Hero Hunk Matt DD Side Profile"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ],
   "pros": [
     "Attractive matte paint scheme",
     "Dual disc setup enhances safety",
@@ -1302,15 +1469,27 @@
   "build_quality": "Sturdy with aggressive styling",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-matt-sd-front.webp",
-      "alt": "Hero Hunk Matt SD Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-matt-sd-side.webp",
-      "alt": "Hero Hunk Matt SD Side Look"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ] ,
   "pros": [
     "Aggressive styling with matte finish",
     "Good mileage for a 150cc bike",
@@ -1391,15 +1570,27 @@
   "build_quality": "Good build with sporty looks",
   "parts_availability": "Widely available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-ignitor-front.webp",
-      "alt": "Hero Ignitor Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-ignitor-side.webp",
-      "alt": "Hero Ignitor Side Look"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/her-ignitor-right-view.webp",
+          "alt": "HERO-IGNITOR Her Ignitor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/hero-ignitor-back-view.webp",
+          "alt": "HERO-IGNITOR Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926224/bikes/HERO/HERO-IGNITOR/hero-ignitor-front-view.webp",
+          "alt": "HERO-IGNITOR Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926225/bikes/HERO/HERO-IGNITOR/hero-ignitor-left-view.webp",
+          "alt": "HERO-IGNITOR Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926226/bikes/HERO/HERO-IGNITOR/hero-ignitor-showroom-view.webp",
+          "alt": "HERO-IGNITOR Showroom View"
+        }
+      ],
   "pros": [
     "Fuel efficient engine",
     "Comfortable riding posture",
@@ -1479,16 +1670,28 @@
   "overall_width": "760 mm",
   "build_quality": "Refined build with modern styling updates",
   "parts_availability": "Widely available",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-ignitor-fv-xtec-refresh-front.webp",
-      "alt": "Hero Ignitor FV XTEC Refresh Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-ignitor-fv-xtec-refresh-side.webp",
-      "alt": "Hero Ignitor FV XTEC Refresh Side Look"
-    }
-  ],
+  "image_urls": [ 
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926225/bikes/HERO/HERO-IGNITOR/hero-ignitor-left-view.webp",
+          "alt": "HERO-IGNITOR Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/her-ignitor-right-view.webp",
+          "alt": "HERO-IGNITOR Her Ignitor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/hero-ignitor-back-view.webp",
+          "alt": "HERO-IGNITOR Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926224/bikes/HERO/HERO-IGNITOR/hero-ignitor-front-view.webp",
+          "alt": "HERO-IGNITOR Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926226/bikes/HERO/HERO-IGNITOR/hero-ignitor-showroom-view.webp",
+          "alt": "HERO-IGNITOR Showroom View"
+        }
+      ]
   "pros": [
     "Modern digital XTEC display",
     "Improved mileage",
@@ -1569,16 +1772,27 @@
   "build_quality": "Strong build with techno-themed styling",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-ignitor-techno-front.webp",
-      "alt": "Hero Ignitor Techno Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-ignitor-techno-side.webp",
-      "alt": "Hero Ignitor Techno Side Look"
-    }
-  ],
-  "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/her-ignitor-right-view.webp",
+          "alt": "HERO-IGNITOR Her Ignitor Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926223/bikes/HERO/HERO-IGNITOR/hero-ignitor-back-view.webp",
+          "alt": "HERO-IGNITOR Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926224/bikes/HERO/HERO-IGNITOR/hero-ignitor-front-view.webp",
+          "alt": "HERO-IGNITOR Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926225/bikes/HERO/HERO-IGNITOR/hero-ignitor-left-view.webp",
+          "alt": "HERO-IGNITOR Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926226/bikes/HERO/HERO-IGNITOR/hero-ignitor-showroom-view.webp",
+          "alt": "HERO-IGNITOR Showroom View"
+        }
+      ] "pros": [
     "Good fuel efficiency",
     "Attractive techno styling",
     "Comfortable ride quality",
@@ -1658,15 +1872,27 @@
   "build_quality": "Robust sports build with aerodynamic design",
   "parts_availability": "Available but limited in some areas",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-karizma-xmr-210-front.webp",
-      "alt": "Hero Karizma XMR 210 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-karizma-xmr-210-side.webp",
-      "alt": "Hero Karizma XMR 210 Side Look"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926226/bikes/HERO/HERO-KARIZMA-XMR/hero-karizma-xmr-210-back-view.webp",
+          "alt": "HERO-KARIZMA-XMR 210 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926227/bikes/HERO/HERO-KARIZMA-XMR/hero-karizma-xmr-210-front-view.webp",
+          "alt": "HERO-KARIZMA-XMR 210 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926228/bikes/HERO/HERO-KARIZMA-XMR/hero-karizma-xmr-210-left-view.webp",
+          "alt": "HERO-KARIZMA-XMR 210 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926230/bikes/HERO/HERO-KARIZMA-XMR/hero-karizma-xmr-210-right-view.webp",
+          "alt": "HERO-KARIZMA-XMR 210 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926231/bikes/HERO/HERO-KARIZMA-XMR/hero-karizma-xmr-210-showroom-view.webp",
+          "alt": "HERO-KARIZMA-XMR 210 Showroom View"
+        }
+      ],
   "pros": [
     "Powerful 210cc liquid cooled engine",
     "Aggressive sport styling",
@@ -1748,15 +1974,27 @@
   "build_quality": "Compact build with modern styling",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-front.webp",
-      "alt": "Hero Maestro Edge Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-side.webp",
-      "alt": "Hero Maestro Edge Side Look"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926231/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-back-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926232/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-front-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926233/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-left-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926234/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-showroom-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-MAESTRO-EDGE/herp-maestro-edge-right-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Herp Maestro Edge Right View"
+        }
+      ],
   "pros": [
     "Smooth automatic transmission",
     "Comfortable ride for city traffic",
@@ -1837,15 +2075,27 @@
   "build_quality": "Refined build with modern digital features",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-xtec-front.webp",
-      "alt": "Hero Maestro EDGE XTEC Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-xtec-side.webp",
-      "alt": "Hero Maestro EDGE XTEC Side Look"
-    }
-  ],
+         {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926234/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-showroom-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926231/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-back-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926232/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-front-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926233/bikes/HERO/HERO-MAESTRO-EDGE/hero-maestro-edge-left-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-MAESTRO-EDGE/herp-maestro-edge-right-view.webp",
+          "alt": "HERO-MAESTRO-EDGE Herp Maestro Edge Right View"
+        }
+      ],
   "pros": [
     "Digital XTEC display with connectivity",
     "LED headlight and tail light",
@@ -1878,95 +2128,6 @@
     }
   ]
  },
-{
-  "name": "Hero Maestro EDGE XTEC",
-  "slug": "hero-maestro-edge-xtec",
-  "brand": "Hero",
-  "category": "Scooter",
-  "cc": 110.9,
-  "price": "Tk. 1,75,000",
-  "short_description": "Hero Maestro EDGE XTEC is an advanced 110cc scooter featuring XTEC digital technology, improved styling, and smart connectivity for modern riders.",
-  "Zero_Sixty": "7.3 sec",
-  "Zero_Hundred": "24.5 sec",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "58 kmpl",
-  "mileage_reported": "50-54 kmpl",
-  "top_speed_claimed": "88 km/h",
-  "top_speed_reported": "78-82 km/h",
-  "braking": "Front Drum / Rear Drum",
-  "gear": "CVT Automatic",
-  "weight": "110 kg",
-  "max_power": "8.9 PS @ 7500 rpm",
-  "max_torque": "9.2 Nm @ 5500 rpm",
-  "clutch": "Automatic Centrifugal",
-  "cooling_system": "Air Cooled",
-  "front_brake": "130 mm Drum",
-  "rear_brake": "130 mm Drum",
-  "caliper": {
-    "front": "Drum",
-    "rear": "Drum"
-  },
-  "tyre_type": "Tubeless",
-  "front_tyre_size": "90/90-12",
-  "rear_tyre_size": "90/90-12",
-  "wheel_type": "Alloy",
-  "fuel_tank_capacity": "5.3 L",
-  "headlight_type": "LED",
-  "tail_light_type": "LED",
-  "projector_headlamp": false,
-  "drls": false,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": true,
-  "display": "Fully Digital LCD with XTEC",
-  "seat_height": "765 mm",
-  "ground_clearance": "165 mm",
-  "overall_length": "1775 mm",
-  "overall_width": "700 mm",
-  "build_quality": "Refined build with modern digital features",
-  "parts_availability": "Easily Available",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-xtec-front.webp",
-      "alt": "Hero Maestro EDGE XTEC Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-maestro-edge-xtec-side.webp",
-      "alt": "Hero Maestro EDGE XTEC Side Look"
-    }
-  ],
-  "pros": [
-    "Digital XTEC display with connectivity",
-    "LED headlight and tail light",
-    "Improved mileage",
-    "Tubeless tyres",
-    "Modern scooter styling"
-  ],
-  "cons": [
-    "Drum brakes front and rear",
-    "No ABS",
-    "Higher price than standard variant",
-    "Limited advanced safety features"
-  ],
-  "faqs": [
-    {
-      "question": "What is XTEC in the Maestro EDGE XTEC?",
-      "answer": "XTEC is Hero's digital technology platform that offers enhanced connectivity and ride analytics."
-    },
-    {
-      "question": "Does the Maestro EDGE XTEC have Bluetooth connectivity?",
-      "answer": "Yes, it supports Bluetooth smartphone pairing."
-    },
-    {
-      "question": "Are the headlights LED?",
-      "answer": "Yes, both headlight and tail light are LED."
-    },
-    {
-      "question": "Is the transmission automatic?",
-      "answer": "Yes, it uses a CVT automatic transmission."
-    }
-  ]
-},
 {
   "name": "Hero Passion X Pro Disc",
   "slug": "hero-passion-x-pro-disc",
@@ -2015,15 +2176,27 @@
   "build_quality": "Durable commuter with stylish finish",
   "parts_availability": "Easily Available",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-passion-xpro-disc-front.webp",
-      "alt": "Hero Passion X Pro Disc Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-passion-xpro-disc-side.webp",
-      "alt": "Hero Passion X Pro Disc Side Look"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-back-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926236/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-front-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926237/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-left-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926238/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-right-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926239/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-showroom-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Showroom View"
+        }
+      ],
   "pros": [
     "Front disc brake for improved safety",
     "Stylish and practical design",
@@ -2103,16 +2276,28 @@
   "overall_width": "744 mm",
   "build_quality": "Simple build focused on economy and durability",
   "parts_availability": "Easily Available",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-passion-xpro-drum-front.webp",
-      "alt": "Hero Passion X Pro Drum Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-passion-xpro-drum-side.webp",
-      "alt": "Hero Passion X Pro Drum Side Look"
-    }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-back-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926236/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-front-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926237/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-left-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926238/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-right-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926239/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-showroom-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Showroom View"
+        }
+      ],
   "pros": [
     "Economical pricing",
     "i3S fuel-saving engine",
@@ -2193,15 +2378,27 @@
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-passion-xpro-xtec-front.webp",
-        "alt": "Hero Passion X Pro X tec Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-passion-xpro-xtec-side.webp",
-        "alt": "Hero Passion X Pro X tec Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-back-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926236/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-front-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926237/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-left-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926238/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-right-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926239/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-showroom-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Showroom View"
+        }
+      ],
     "pros": [
       "XTEC connected features",
       "LED lighting package",
@@ -2278,15 +2475,27 @@
     "build_quality": "Standard commuter",
     "parts_availability": "Excellent",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-passion-xpro-i3s-front.webp",
-        "alt": "Hero Passion Xpro i3S Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-passion-xpro-i3s-side.webp",
-        "alt": "Hero Passion Xpro i3S Side View"
-      }
-    ],
+       {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926238/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-right-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926235/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-back-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926236/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-front-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926237/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-left-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926239/bikes/HERO/HERO-PASSION-XPRO/hero-passion-xpro-drum-showroom-view.webp",
+          "alt": "HERO-PASSION-XPRO Drum Showroom View"
+        }
+      ], 
     "pros": [
       "Excellent fuel efficiency",
       "i3S start-stop system saves fuel",
@@ -2363,15 +2572,27 @@
     "build_quality": "Lightweight scooter",
     "parts_availability": "Excellent",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-pleasure-front.webp",
-        "alt": "Hero Pleasure Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-pleasure-side.webp",
-        "alt": "Hero Pleasure Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926240/bikes/HERO/HERO-PLEASURE/hero-pleasure-back-view.webp",
+          "alt": "HERO-PLEASURE Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926241/bikes/HERO/HERO-PLEASURE/hero-pleasure-front-view.webp",
+          "alt": "HERO-PLEASURE Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926242/bikes/HERO/HERO-PLEASURE/hero-pleasure-left-view.webp",
+          "alt": "HERO-PLEASURE Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926242/bikes/HERO/HERO-PLEASURE/hero-pleasure-right-view.webp",
+          "alt": "HERO-PLEASURE Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926243/bikes/HERO/HERO-PLEASURE/hero-pleasure-showroom-view.webp",
+          "alt": "HERO-PLEASURE Showroom View"
+        }
+      ],
     "pros": [
       "Lightweight and easy to handle",
       "Feminine styling options",
@@ -2447,16 +2668,28 @@
     "overall_width": "750 mm",
     "build_quality": "Basic but reliable",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-splendor-ismart-plus-front.webp",
-        "alt": "Hero Splendor iSmart Plus Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-splendor-ismart-plus-side.webp",
-        "alt": "Hero Splendor iSmart Plus Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926244/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-back-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926245/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-front-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926246/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-left-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926247/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-right-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926248/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-showroom-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Showroom View"
+        }
+      ],
     "pros": [
       "Legendary reliability",
       "Excellent fuel efficiency",
@@ -2532,16 +2765,28 @@
     "overall_width": "735 mm",
     "build_quality": "Basic but reliable",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-splendor-25years-front.webp",
-        "alt": "Hero Splendor+ 25 Years Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-splendor-25years-side.webp",
-        "alt": "Hero Splendor+ 25 Years Side View"
-      }
-    ],
+     "image_urls": [
+        {  
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926247/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-right-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926244/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-back-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926245/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-front-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926246/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-left-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926248/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-showroom-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Showroom View"
+        }
+      ],
     "pros": [
       "Exclusive anniversary edition",
       "Legendary reliability",
@@ -2617,16 +2862,28 @@
     "overall_width": "735 mm",
     "build_quality": "Basic but reliable",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-splendor-ibs-i3s-front.webp",
-        "alt": "Hero Splendor+ IBS i3S Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-splendor-ibs-i3s-side.webp",
-        "alt": "Hero Splendor+ IBS i3S Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926244/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-back-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926245/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-front-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926246/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-left-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926247/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-right-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926248/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-showroom-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Showroom View"
+        }
+      ],
     "pros": [
       "Industry-leading mileage",
       "i3S start-stop technology",
@@ -2702,16 +2959,28 @@
     "overall_width": "735 mm",
     "build_quality": "Basic but reliable",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-splendor-self-front.webp",
-        "alt": "Hero Splendor+ Self Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-splendor-self-side.webp",
-        "alt": "Hero Splendor+ Self Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926244/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-back-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926245/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-front-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926246/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-left-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926247/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-right-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926248/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-showroom-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Showroom View"
+        }
+      ],
     "pros": [
       "Self-start convenience",
       "Legendary Splendor reliability",
@@ -2787,16 +3056,28 @@
     "overall_width": "735 mm",
     "build_quality": "Premium commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
+     "image_urls": [
       {
-        "url": "https://cdn.example.com/hero-splendor-xtec-front.webp",
-        "alt": "Hero Splendor+ XTEC Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-splendor-xtec-side.webp",
-        "alt": "Hero Splendor+ XTEC Side View"
-      }
-    ],
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926248/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-showroom-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Showroom View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926244/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-back-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926245/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-front-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926246/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-left-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926247/bikes/HERO/HERO-SPLENDER-PLUS-SPORTS/hero-splendor-plus-sports-right-view.webp",
+          "alt": "HERO-SPLENDER-PLUS-SPORTS Hero Splendor Plus Sports Right View"
+        }
+      ],
     "pros": [
       "XTEC connected features",
       "LED lighting package",
@@ -3189,15 +3470,27 @@
     "build_quality": "Practical commuter",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-xoom-110-front.webp",
-        "alt": "Hero Xoom 110 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-xoom-110-side.webp",
-        "alt": "Hero Xoom 110 Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926249/bikes/HERO/HERO-XOOM-110/hero-xoom-110-back-view.webp",
+          "alt": "HERO-XOOM-110 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926250/bikes/HERO/HERO-XOOM-110/hero-xoom-110-front-view.webp",
+          "alt": "HERO-XOOM-110 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926250/bikes/HERO/HERO-XOOM-110/hero-xoom-110-left-view.webp",
+          "alt": "HERO-XOOM-110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926252/bikes/HERO/HERO-XOOM-110/hero-xoom-110-right-view.webp",
+          "alt": "HERO-XOOM-110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926252/bikes/HERO/HERO-XOOM-110/hero-xoom-110-showroom-view.webp",
+          "alt": "HERO-XOOM-110 Showroom View"
+        }
+      ],
     "pros": [
       "Easy to ride in traffic",
       "Good fuel efficiency",
@@ -3273,16 +3566,28 @@
     "overall_width": "800 mm",
     "build_quality": "Sporty commuter",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-xtreme-125r-front.webp",
-        "alt": "Hero Xtreme 125R Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-xtreme-125r-side.webp",
-        "alt": "Hero Xtreme 125R Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926253/bikes/HERO/HERO-XTREME/hero-xtreme-125R-back-view.webp",
+          "alt": "HERO-XTREME 125R Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926254/bikes/HERO/HERO-XTREME/hero-xtreme-125R-front-view.webp",
+          "alt": "HERO-XTREME 125R Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926255/bikes/HERO/HERO-XTREME/hero-xtreme-125R-left-view.webp",
+          "alt": "HERO-XTREME 125R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926256/bikes/HERO/HERO-XTREME/hero-xtreme-125R-right-view.webp",
+          "alt": "HERO-XTREME 125R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926258/bikes/HERO/HERO-XTREME/hero-xtreme-125R-showroom-view.webp",
+          "alt": "HERO-XTREME 125R Showroom View"
+        }
+      ],
     "pros": [
       "Sporty aggressive looks",
       "Good mileage for performance",
@@ -3358,16 +3663,28 @@
     "overall_width": "810 mm",
     "build_quality": "Premium street bike",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/hero-xtreme-160r-4v-front.webp",
-        "alt": "Hero Xtreme 160R 4V Front View"
-      },
-      {
-        "url": "https://cdn.example.com/hero-xtreme-160r-4v-side.webp",
-        "alt": "Hero Xtreme 160R 4V Side View"
-      }
-    ],
+     "image_urls": [ 
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926256/bikes/HERO/HERO-XTREME/hero-xtreme-125R-right-view.webp",
+          "alt": "HERO-XTREME 125R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926253/bikes/HERO/HERO-XTREME/hero-xtreme-125R-back-view.webp",
+          "alt": "HERO-XTREME 125R Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926254/bikes/HERO/HERO-XTREME/hero-xtreme-125R-front-view.webp",
+          "alt": "HERO-XTREME 125R Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926255/bikes/HERO/HERO-XTREME/hero-xtreme-125R-left-view.webp",
+          "alt": "HERO-XTREME 125R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926258/bikes/HERO/HERO-XTREME/hero-xtreme-125R-showroom-view.webp",
+          "alt": "HERO-XTREME 125R Showroom View"
+        }
+      ],
     "pros": [
       "Powerful 4-valve engine",
       "Premium LED lighting",
@@ -3444,15 +3761,27 @@
   "build_quality": "Urban aggressive",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-xtec-front.webp",
-      "alt": "Hero Hunk 150R Xtec Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-hunk-150r-xtec-side.webp",
-      "alt": "Hero Hunk 150R Xtec Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926217/bikes/HERO/HERO-HUNK/hero-hunk-back-view.webp",
+          "alt": "HERO-HUNK Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926218/bikes/HERO/HERO-HUNK/hero-hunk-front-view.webp",
+          "alt": "HERO-HUNK Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926219/bikes/HERO/HERO-HUNK/hero-hunk-left-view.webp",
+          "alt": "HERO-HUNK Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926220/bikes/HERO/HERO-HUNK/hero-hunk-right-view.webp",
+          "alt": "HERO-HUNK Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926221/bikes/HERO/HERO-HUNK/hero-hunk-showroom-view.webp",
+          "alt": "HERO-HUNK Showroom View"
+        }
+      ] ,
   "pros": [
     "Stylish and aggressive design",
     "Dual disc brakes for better safety",
@@ -3535,15 +3864,23 @@
     "build_quality": "Premium",
     "parts_availability": "Good in major cities",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/ktm-125-duke-front.webp",
-        "alt": "KTM 125 Duke Front View"
-      },
-      {
-        "url": "https://cdn.example.com/ktm-125-duke-side.webp",
-        "alt": "KTM 125 Duke Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986259/bikes/ktm/duke-125/ktm-duke-125-back-view.webp",
+          "alt": "duke-125 Ktm Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986260/bikes/ktm/duke-125/ktm-duke-125-left-view.webp",
+          "alt": "duke-125 Ktm Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986261/bikes/ktm/duke-125/ktm-duke-125-right-view.webp",
+          "alt": "duke-125 Ktm Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986263/bikes/ktm/duke-125/ktm-duke-125-showroom-view.webp",
+          "alt": "duke-125 Ktm Showroom View"
+        }
+      ],
     "pros": [
       "Premium build quality",
       "Excellent handling",
@@ -3621,15 +3958,19 @@
     "build_quality": "Premium sportbike",
     "parts_availability": "Good in major cities",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/ktm-rc-125-front.webp",
-        "alt": "KTM RC 125 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/ktm-rc-125-side.webp",
-        "alt": "KTM RC 125 Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986269/bikes/ktm/rc-125/ktm-rc-125-left-view.webp",
+          "alt": "rc-125 Ktm Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986270/bikes/ktm/rc-125/ktm-rc-125-right-view.webp",
+          "alt": "rc-125 Ktm Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986271/bikes/ktm/rc-125/ktm-rc-125-showroom-view.webp",
+          "alt": "rc-125 Ktm Showroom View"
+        }
+      ] ,
     "pros": [
       "Full-faired sportbike looks",
       "Premium suspension setup",
@@ -3705,16 +4046,28 @@
   "overall_width": "831 mm",
   "build_quality": "Aggressive and premium",
   "parts_availability": "Moderate",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/ktm-250-duke-front.webp",
-      "alt": "KTM 250 Duke Front View"
-    },
-    {
-      "url": "https://cdn.example.com/ktm-250-duke-side.webp",
-      "alt": "KTM 250 Duke Side View"
-    }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986264/bikes/ktm/duke-250/duke-250-right-side-view-dark.webp",
+          "alt": "duke-250 Right Side View Dark"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986265/bikes/ktm/duke-250/ktm-duke-250-right-side-view-black.webp",
+          "alt": "duke-250 Ktm Right Side View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986266/bikes/ktm/duke-250/ktm-duke-250-right-view-white.webp",
+          "alt": "duke-250 Ktm Right View White"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986267/bikes/ktm/duke-250/ktm-duke-250-right-view.webp",
+          "alt": "duke-250 Ktm Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986268/bikes/ktm/duke-250/ktm-duke-250-showroom-view.webp",
+          "alt": "duke-250 Ktm Showroom View"
+        }
+      ] ,
   "pros": [
     "Powerful engine with quick acceleration",
     "Premium suspension and chassis",

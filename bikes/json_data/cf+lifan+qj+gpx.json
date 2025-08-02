@@ -1867,15 +1867,23 @@
   "build_quality": "Premium Chinese engineering",
   "parts_availability": "Moderate",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/qj-srk-180-front.webp",
-      "alt": "QJ Motor SRK 180 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/qj-srk-180-side.webp",
-      "alt": "QJ Motor SRK 180 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986318/bikes/qj-motors/srk-180/qj-motors-monster-srk-180-back-view.webp",
+          "alt": "srk-180 Qj Motors Monster Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986319/bikes/qj-motors/srk-180/qj-motors-monster-srk-180-front-view.webp",
+          "alt": "srk-180 Qj Motors Monster Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986320/bikes/qj-motors/srk-180/qj-motors-monster-srk-180-right-view.webp",
+          "alt": "srk-180 Qj Motors Monster Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986321/bikes/qj-motors/srk-180/qj-motors-monster-srk-180-showroom-view.webp",
+          "alt": "srk-180 Qj Motors Monster Showroom View"
+        }
+      ],
   "pros": [
     "Bold and muscular design",
     "Smooth liquid-cooled engine",
@@ -1959,12 +1967,24 @@
     "build_quality": "Premium streetfighter",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/gpx-demon-gr165r-front.webp", "alt": "GPX Demon GR165R Front View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165r-side.webp", "alt": "GPX Demon GR165R Side View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165r-rear.webp", "alt": "GPX Demon GR165R Rear View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165r-back.webp", "alt": "GPX Demon GR165R Back View"}
-    ],
-    "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139166/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-black.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139168/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red-right.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red Right"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139170/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139171/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-yellow.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Yellow"
+        }
+      ] ,
+      "pros": [
       "Liquid-cooled engine",
       "Premium suspension setup",
       "Radial brake caliper",
@@ -2032,12 +2052,24 @@
     "overall_width": "800 mm",
     "build_quality": "Track-focused streetfighter",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-front.webp", "alt": "GPX Demon GR165RR Front View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-side.webp", "alt": "GPX Demon GR165RR Side View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-rear.webp", "alt": "GPX Demon GR165RR Rear View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-back.webp", "alt": "GPX Demon GR165RR Back View"}
-    ],
+  "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139170/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139166/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-black.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139168/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red-right.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red Right"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139171/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-yellow.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Yellow"
+        }
+   ],
     "pros": [
       "Racing edition livery",
       "Premium suspension components",
@@ -2107,11 +2139,23 @@
     "build_quality": "Premium performance streetfighter",
     "parts_availability": "Limited service network",
     "image_urls": [
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-abs-front.webp", "alt": "GPX Demon GR165RR ABS Front View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-abs-side.webp", "alt": "GPX Demon GR165RR ABS Side View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-abs-rear.webp", "alt": "GPX Demon GR165RR ABS Rear View"},
-      {"url": "https://cdn.example.com/gpx-demon-gr165rr-abs-back.webp", "alt": "GPX Demon GR165RR ABS Back View"}
-    ],
+         {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139171/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-yellow.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Yellow"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139166/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-black.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139168/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red-right.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red Right"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139170/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red"
+        }
+      ],
     "pros": [
       "4-valve high-revving engine",
       "Dual-channel ABS",
@@ -2180,12 +2224,24 @@
     "overall_width": "780 mm",
     "build_quality": "Basic commuter",
     "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gpx-raptor165-front.webp", "alt": "GPX Raptor 165 Front View"},
-      {"url": "https://cdn.example.com/gpx-raptor165-side.webp", "alt": "GPX Raptor 165 Side View"},
-      {"url": "https://cdn.example.com/gpx-raptor165-rear.webp", "alt": "GPX Raptor 165 Rear View"},
-      {"url": "https://cdn.example.com/gpx-raptor165-back.webp", "alt": "GPX Raptor 165 Back View"}
-    ],
+   "image_urls": [
+    {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139168/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red-right.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red Right"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139166/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-black.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Black"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139170/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-red.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Red"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139171/bikes/gpx%20demon/gpx-demon-da-corsa-165/gpx-demon-showroom-view-yellow.webp",
+          "alt": "gpx-demon-da-corsa-165 Gpx Demon Showroom View Yellow"
+        }
+      ],
     "pros": [
       "Affordable pricing",
       "Decent performance",

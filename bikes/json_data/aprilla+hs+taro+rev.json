@@ -678,11 +678,19 @@
     "build_quality": "Premium Cruiser",
     "parts_availability": "Moderate in Bangladesh",
     "image_urls": [
-      {"url": "https://cdn.example.com/gv250dra-front.webp", "alt": "Hyosung GV250DRA Front View"},
-      {"url": "https://cdn.example.com/gv250dra-side.webp", "alt": "Hyosung GV250DRA Side View"},
-      {"url": "https://cdn.example.com/gv250dra-rear.webp", "alt": "Hyosung GV250DRA Rear View"},
-      {"url": "https://cdn.example.com/gv250dra-back.webp", "alt": "Hyosung GV250DRA Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926310/bikes/Hyosung/hyosung-GV250DRA/hyosung-GV250DRA-leftt-view.webp",
+          "alt": "hyosung-GV250DRA Hyosung Gv250Dra Leftt View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926311/bikes/Hyosung/hyosung-GV250DRA/hyosung-GV250DRA-right-view.webp",
+          "alt": "hyosung-GV250DRA Hyosung Gv250Dra Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926312/bikes/Hyosung/hyosung-GV250DRA/hyosung-GV250DRa-showroom-view.webp",
+          "alt": "hyosung-GV250DRA Hyosung Gv250Dra Showroom View"
+        }
+      ],
     "pros": [
       "V-Twin engine with cruiser feel",
       "Comfortable low seat height",
@@ -1958,15 +1966,15 @@
     "build_quality": "Basic but rugged",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-durbar-front.webp",
-        "alt": "Akij Durbar Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-durbar-side.webp",
-        "alt": "Akij Durbar Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986215/bikes/Akij/Akij%20Durbar/akij-durbar-left-view.webp",
+          "alt": "Akij Durbar Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986216/bikes/Akij/Akij%20Durbar/akij-durbar-right-view.webp",
+          "alt": "Akij Durbar Right View"
+        }
+      ],
     "pros": [
       "Low maintenance cost",
       "Good fuel efficiency",
@@ -2042,15 +2050,11 @@
     "build_quality": "Economy-grade",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-bondhu-front.webp",
-        "alt": "Akij Bondhu Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-bondhu-side.webp",
-        "alt": "Akij Bondhu Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986214/bikes/Akij/Akij%20Bondhu/akij-bondhu-showroom-view.webp",
+          "alt": "Akij Bondhu Showroom View"
+        }
+      ],
     "pros": [
       "Extremely affordable",
       "Low fuel consumption",
@@ -2126,15 +2130,11 @@
     "build_quality": "Improved over Durbar",
     "parts_availability": "Good in rural areas",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-durjoy-front.webp",
-        "alt": "Akij Durjoy Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-durjoy-side.webp",
-        "alt": "Akij Durjoy Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986218/bikes/Akij/Akij%20Durjoy/akij-durjoy-showroom-view.webp",
+          "alt": "Akij Durjoy Showroom View"
+        }
+      ],
     "pros": [
       "Better power than Durbar/Bondhu",
       "Optional front disc brake",
@@ -2210,15 +2210,11 @@
     "build_quality": "Standard commuter build",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-duranto-front.webp",
-        "alt": "Akij Duranto Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-duranto-side.webp",
-        "alt": "Akij Duranto Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986218/bikes/Akij/Akij%20Duronto/akij-duronto-showroom-view.webp",
+          "alt": "Akij Duronto Showroom View"
+        }
+      ],
     "pros": [
       "Good fuel efficiency",
       "Reliable engine performance",
@@ -2294,15 +2290,11 @@
     "build_quality": "Improved over standard Duranto",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-duranto-v6-front.webp",
-        "alt": "Akij Duranto V6 Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-duranto-v6-side.webp",
-        "alt": "Akij Duranto V6 Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986218/bikes/Akij/Akij%20Duronto/akij-duronto-showroom-view.webp",
+          "alt": "Akij Duronto Showroom View"
+        }
+      ],
     "pros": [
       "Better power than standard Duranto",
       "Front disc brake for improved safety",
@@ -2378,15 +2370,11 @@
     "build_quality": "Economy-grade",
     "parts_availability": "Widely available",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-ponkhiraj-front.webp",
-        "alt": "Akij Ponkhiraj Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-ponkhiraj-side.webp",
-        "alt": "Akij Ponkhiraj Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986219/bikes/Akij/Akij%20Ponkhiraj/akij-ponkhirag-showroom-view.webp",
+          "alt": "Akij Ponkhiraj Akij Ponkhirag Showroom View"
+        }
+      ],
     "pros": [
       "Extremely fuel efficient",
       "Lightweight and easy to handle",
@@ -2462,15 +2450,11 @@
     "build_quality": "Standard commuter with stylish elements",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/akij-romeo-front.webp",
-        "alt": "Akij Romeo Front View"
-      },
-      {
-        "url": "https://cdn.example.com/akij-romeo-side.webp",
-        "alt": "Akij Romeo Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986220/bikes/Akij/Akij%20Romeo/akij-romeo-showroom-view.webp",
+          "alt": "Akij Romeo Showroom View"
+        }
+      ],
     "pros": [
       "Better styling than other Akij bikes",
       "Decent fuel efficiency",

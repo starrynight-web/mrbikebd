@@ -47,11 +47,27 @@
     "build_quality": "Premium streetfighter",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/honda-hornet-front.webp", "alt": "Honda Hornet 160R Front View"},
-      {"url": "https://cdn.example.com/honda-hornet-side.webp", "alt": "Honda Hornet 160R Side View"},
-      {"url": "https://cdn.example.com/honda-hornet-rear.webp", "alt": "Honda Hornet 160R Rear View"},
-      {"url": "https://cdn.example.com/honda-hornet-back.webp", "alt": "Honda Hornet 160R Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926290/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-back-view.webp",
+          "alt": "honda-hornet-2.0 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926291/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-front-view.webp",
+          "alt": "honda-hornet-2.0 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926292/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-left-view.webp",
+          "alt": "honda-hornet-2.0 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926293/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-right-view.webp",
+          "alt": "honda-hornet-2.0 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926294/bikes/honda/honda-hornet-2.0/honda-hornet-2.0-showroom-view.webp",
+          "alt": "honda-hornet-2.0 Showroom View"
+        }
+      ],
     "pros": [
       "Muscular streetfighter styling",
       "Refined 160cc engine",
@@ -210,7 +226,6 @@
     "overall_width": "685 mm",
     "build_quality": "Premium sportbike",
     "parts_availability": "Good in major cities",
-    ,
     "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926263/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-back-view.webp",
@@ -481,12 +496,20 @@
     "overall_width": "750 mm",
     "build_quality": "Basic commuter",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/honda-dream-red-front.webp", "alt": "Honda Dream 110 Red Front View"},
-      {"url": "https://cdn.example.com/honda-dream-red-side.webp", "alt": "Honda Dream 110 Red Side View"},
-      {"url": "https://cdn.example.com/honda-dream-red-rear.webp", "alt": "Honda Dream 110 Red Rear View"},
-      {"url": "https://cdn.example.com/honda-dream-red-back.webp", "alt": "Honda Dream 110 Red Back View"}
-    ],
+  "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139189/bikes/Honda/Honda%20dream%20110/honda-dream-110-left-view.webp",
+          "alt": "Honda dream 110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139190/bikes/Honda/Honda%20dream%20110/honda-dream-110-right-view.webp",
+          "alt": "Honda dream 110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139192/bikes/Honda/Honda%20dream%20110/honda-dream-110-showroom-view.webp",
+          "alt": "Honda dream 110 Showroom View"
+        }
+      ] ,
     "pros": [
       "Excellent mileage",
       "Low maintenance costs",
@@ -1319,8 +1342,99 @@
       {"question": "Weight capacity?", "answer": "150kg (rider + pillion)."}
     ]
   },
-
-  {
+ {
+  "name": "Honda CB150R Exmotion",
+  "slug": "honda-cb150r-exmotion",
+  "brand": "Honda",
+  "category": "Naked",
+  "cc": 149,
+  "price": "Tk. 525,000",
+  "short_description": "The Honda CB150R Exmotion is a stylish, high-performance naked sports bike featuring modern design, reliable performance, and advanced technology, perfect for urban riding and young enthusiasts in Bangladesh.",
+  "description": "The Honda CB150R Exmotion is a premium naked street bike combining sportiness with modern design. It comes equipped with a 149cc liquid-cooled DOHC engine, offering smooth power delivery and an aggressive riding stance. Inspired by the Neo Sports Café concept, the Exmotion features LED lighting, an inverted front fork, and a fully digital instrument panel. Built on a lightweight frame, it provides excellent handling, making it ideal for both daily rides and spirited performance. It’s one of the most feature-rich 150cc bikes available in Bangladesh with an impressive blend of style, safety, and efficiency.",
+  "specifications": {
+    "engine_type": "Single Cylinder, 4-Stroke, DOHC, Liquid-Cooled",
+    "displacement": "149 cc",
+    "max_power": "16.8 BHP @ 9000 rpm",
+    "max_torque": "13.8 Nm @ 7000 rpm",
+    "bore_stroke": "57.3 mm x 57.8 mm",
+    "compression_ratio": "11.3:1",
+    "fuel_system": "PGM-FI (Fuel Injection)",
+    "cooling_system": "Liquid Cooled",
+    "starting_method": "Electric Start",
+    "transmission": "6-Speed Manual",
+    "gear": "6",
+    "clutch": "Multiplate Wet Clutch",
+    "top_speed": "135 km/h",
+    "mileage": "40 km/l (approx)",
+    "front_suspension": "41 mm USD Telescopic Fork",
+    "rear_suspension": "Mono Shock",
+    "front_brake": "296 mm Disc with ABS",
+    "rear_brake": "220 mm Disc with ABS",
+    "front_tyre": "110/70-17 M/C",
+    "rear_tyre": "150/60-17 M/C",
+    "wheel_type": "Alloy",
+    "battery": "Maintenance Free, 12V",
+    "headlight": "LED",
+    "tail_light": "LED",
+    "dimension": "1973 mm x 822 mm x 1053 mm",
+    "seat_height": "795 mm",
+    "ground_clearance": "139 mm",
+    "fuel_tank_capacity": "8.5 Liters",
+    "kerb_weight": "123 kg"
+  },
+  "zero_sixty": "5.7 sec",
+  "zero_hundred": "14.0 sec",
+ "image_urls": [
+    {
+      "url": "https://i.ibb.co/Jp3wbxG/honda-cb150r-exmotion-front.jpg",
+      "alt": "Honda CB150R Exmotion Front View"
+    },
+    {
+      "url": "https://i.ibb.co/2MhKsmx/honda-cb150r-exmotion-side.jpg",
+      "alt": "Honda CB150R Exmotion Side Profile"
+    },
+    {
+      "url": "https://i.ibb.co/ZxWbFLz/honda-cb150r-exmotion-back.jpg",
+      "alt": "Honda CB150R Exmotion Rear View"
+    },
+    {
+      "url": "https://i.ibb.co/x8QKJgb/honda-cb150r-exmotion-display.jpg",
+      "alt": "Honda CB150R Exmotion Instrument Cluster"
+    }
+  ], 
+  "pros": [
+    "Premium Neo Café design",
+    "Excellent handling and agility",
+    "Dual-channel ABS for safety",
+    "High build quality",
+    "USD front suspension"
+  ],
+  "cons": [
+    "Relatively small fuel tank",
+    "High price for 150cc category",
+    "No slipper clutch",
+    "Pillion seat is not very comfortable"
+  ],
+  "faqs": [
+    {
+      "question": "Is Honda CB150R Exmotion good for daily commuting?",
+      "answer": "Yes, its lightweight frame and smooth performance make it ideal for daily city commuting."
+    },
+    {
+      "question": "Does it have dual-channel ABS?",
+      "answer": "Yes, the CB150R Exmotion comes equipped with dual-channel ABS."
+    },
+    {
+      "question": "What is the mileage of Honda CB150R Exmotion?",
+      "answer": "It offers approximately 40 km/l under standard riding conditions."
+    },
+    {
+      "question": "Is it suitable for long rides?",
+      "answer": "While it performs well, the small fuel tank and firm seat may make long-distance touring less comfortable."
+    }
+  ],
+  } 
+ {
     "name": "Bajaj Avenger 160 ABS",
     "slug": "bajaj-avenger-160-abs",
     "brand": "Bajaj",

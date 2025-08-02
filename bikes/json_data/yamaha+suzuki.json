@@ -499,12 +499,12 @@
     "overall_width": "780 mm",
     "build_quality": "Good with sporty design",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {"url": "https://cdn.example.com/fzsv2-front.webp", "alt": "Yamaha FZS V2 Front View"},
-      {"url": "https://cdn.example.com/fzsv2-side.webp", "alt": "Yamaha FZS V2 Side View"},
-      {"url": "https://cdn.example.com/fzsv2-back.webp", "alt": "Yamaha FZS V2 Back View"},
-      {"url": "https://cdn.example.com/fzsv2-rear.webp", "alt": "Yamaha FZS V2 Rear View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139265/bikes/Yamaha/Yamaha%20FZS%20v2/yamaha-fzs-v2-showroom-view.webp",
+          "alt": "Yamaha FZS v2 Showroom View"
+        }
+      ],
     "pros": [
       "Most affordable FZS variant",
       "Decent acceleration (0-60kmph in 4.9s)",
@@ -1023,12 +1023,28 @@
     "overall_width": "800 mm",
     "build_quality": "Premium with USD forks",
     "parts_availability": "Good in urban areas",
-    "image_urls": [
-      {"url": "https://cdn.example.com/mt15v2-front.webp", "alt": "Yamaha MT-15 V2 Front View"},
-      {"url": "https://cdn.example.com/mt15v2-side.webp", "alt": "Yamaha MT-15 V2 Side View"},
-      {"url": "https://cdn.example.com/mt15v2-back.webp", "alt": "Yamaha MT-15 V2 Back View"},
-      {"url": "https://cdn.example.com/mt15v2-rear.webp", "alt": "Yamaha MT-15 V2 Rear View"}
-    ],
+          "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139266/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-back-view.webp",
+          "alt": "Yamaha Mt v2 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-front-view.webp",
+          "alt": "Yamaha Mt v2 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-left-side-view.webp",
+          "alt": "Yamaha Mt v2 Left Side View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139268/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-right-view.webp",
+          "alt": "Yamaha Mt v2 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139269/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-showroom-view.webp",
+          "alt": "Yamaha Mt v2 Showroom View"
+        }
+      ],
     "pros": [
       "Improved acceleration (0-60kmph in 3.1s)",
       "Dual-channel ABS for safety",
@@ -1098,11 +1114,27 @@
     "build_quality": "Track-focused with fairing",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15dark-front.webp", "alt": "Yamaha R15 Dark Knight Front View"},
-      {"url": "https://cdn.example.com/r15dark-side.webp", "alt": "Yamaha R15 Dark Knight Side View"},
-      {"url": "https://cdn.example.com/r15dark-back.webp", "alt": "Yamaha R15 Dark Knight Back View"},
-      {"url": "https://cdn.example.com/r15dark-rear.webp", "alt": "Yamaha R15 Dark Knight Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139270/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-back-view.webp",
+          "alt": "Yamaha R15 V3 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139271/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-front-view.webp",
+          "alt": "Yamaha R15 V3 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-left-view.webp",
+          "alt": "Yamaha R15 V3 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-right-view.webp",
+          "alt": "Yamaha R15 V3 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139273/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-showroom-view.webp",
+          "alt": "Yamaha R15 V3 Showroom View"
+        }
+      ],
     "pros": [
       "Excellent acceleration (0-60kmph in 3.0s)",
       "Sporty fully-faired design",
@@ -1172,11 +1204,27 @@
     "build_quality": "Race-inspired with fairing",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15blue-front.webp", "alt": "Yamaha R15 Racing Blue Front View"},
-      {"url": "https://cdn.example.com/r15blue-side.webp", "alt": "Yamaha R15 Racing Blue Side View"},
-      {"url": "https://cdn.example.com/r15blue-back.webp", "alt": "Yamaha R15 Racing Blue Back View"},
-      {"url": "https://cdn.example.com/r15blue-rear.webp", "alt": "Yamaha R15 Racing Blue Rear View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139270/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-back-view.webp",
+          "alt": "Yamaha R15 V3 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139271/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-front-view.webp",
+          "alt": "Yamaha R15 V3 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-left-view.webp",
+          "alt": "Yamaha R15 V3 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-right-view.webp",
+          "alt": "Yamaha R15 V3 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139273/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-showroom-view.webp",
+          "alt": "Yamaha R15 V3 Showroom View"
+        }
+      ],
     "pros": [
       "Quick acceleration (0-60kmph in 3.0s)",
       "Iconic Yamaha racing colors",
@@ -1246,11 +1294,27 @@
     "build_quality": "Premium supersport",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15v4-front.webp", "alt": "Yamaha R15 V4 Front View"},
-      {"url": "https://cdn.example.com/r15v4-side.webp", "alt": "Yamaha R15 V4 Side View"},
-      {"url": "https://cdn.example.com/r15v4-rear.webp", "alt": "Yamaha R15 V4 Rear View"},
-      {"url": "https://cdn.example.com/r15v4-back.webp", "alt": "Yamaha R15 V4 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+          "alt": "Yamaha R15 V4 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+          "alt": "Yamaha R15 V4 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+          "alt": "Yamaha R15 V4 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+          "alt": "Yamaha R15 V4 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+          "alt": "Yamaha R15 V4 Showroom View"
+        }
+      ],
     "pros": [
       "Blistering acceleration (0-60kmph in 2.9s)",
       "Quick shifter for clutchless shifts",
@@ -1320,11 +1384,27 @@
     "build_quality": "Premium limited edition",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15white-front.webp", "alt": "R15 V4 Intensity White Front View"},
-      {"url": "https://cdn.example.com/r15white-side.webp", "alt": "R15 V4 Intensity White Side View"},
-      {"url": "https://cdn.example.com/r15white-rear.webp", "alt": "R15 V4 Intensity White Rear View"},
-      {"url": "https://cdn.example.com/r15white-back.webp", "alt": "R15 V4 Intensity White Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+          "alt": "Yamaha R15 V4 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+          "alt": "Yamaha R15 V4 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+          "alt": "Yamaha R15 V4 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+          "alt": "Yamaha R15 V4 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+          "alt": "Yamaha R15 V4 Showroom View"
+        }
+      ],
     "pros": [
       "Exclusive white/gold color scheme",
       "Same quick acceleration (0-60kmph in 2.9s)",
@@ -1394,11 +1474,27 @@
     "build_quality": "Race-inspired premium",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15v4blue-front.webp", "alt": "R15 V4 Racing Blue Front View"},
-      {"url": "https://cdn.example.com/r15v4blue-side.webp", "alt": "R15 V4 Racing Blue Side View"},
-      {"url": "https://cdn.example.com/r15v4blue-rear.webp", "alt": "R15 V4 Racing Blue Rear View"},
-      {"url": "https://cdn.example.com/r15v4blue-back.webp", "alt": "R15 V4 Racing Blue Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+          "alt": "Yamaha R15 V4 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+          "alt": "Yamaha R15 V4 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+          "alt": "Yamaha R15 V4 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+          "alt": "Yamaha R15 V4 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+          "alt": "Yamaha R15 V4 Showroom View"
+        }
+      ],
     "pros": [
       "Iconic Yamaha racing colors",
       "Quick acceleration (0-60kmph in 2.9s)",
@@ -1468,11 +1564,27 @@
     "build_quality": "Track-focused premium",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15m-front.webp", "alt": "Yamaha R15M Front View"},
-      {"url": "https://cdn.example.com/r15m-side.webp", "alt": "Yamaha R15M Side View"},
-      {"url": "https://cdn.example.com/r15m-rear.webp", "alt": "Yamaha R15M Rear View"},
-      {"url": "https://cdn.example.com/r15m-back.webp", "alt": "Yamaha R15M Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+          "alt": "Yamaha R15 V4 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+          "alt": "Yamaha R15 V4 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+          "alt": "Yamaha R15 V4 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+          "alt": "Yamaha R15 V4 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+          "alt": "Yamaha R15 V4 Showroom View"
+        }
+      ],
     "pros": [
       "Slightly quicker (0-60kmph in 2.8s)",
       "Exclusive M badging and colors",
@@ -1542,11 +1654,27 @@
     "build_quality": "Premium track-focused",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/r15mtft-front.webp", "alt": "Yamaha R15M TFT Front View"},
-      {"url": "https://cdn.example.com/r15mtft-side.webp", "alt": "Yamaha R15M TFT Side View"},
-      {"url": "https://cdn.example.com/r15mtft-rear.webp", "alt": "Yamaha R15M TFT Rear View"},
-      {"url": "https://cdn.example.com/r15mtft-back.webp", "alt": "Yamaha R15M TFT Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+          "alt": "Yamaha R15 V4 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+          "alt": "Yamaha R15 V4 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+          "alt": "Yamaha R15 V4 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+          "alt": "Yamaha R15 V4 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+          "alt": "Yamaha R15 V4 Showroom View"
+        }
+      ],
     "pros": [
       "Advanced full-color TFT display",
       "Quick acceleration (0-60kmph in 2.8s)",
@@ -1615,12 +1743,28 @@
     "overall_width": "685 mm",
     "build_quality": "Sporty urban scooter",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {"url": "https://cdn.example.com/rayzr-front.webp", "alt": "Yamaha Ray ZR Rally Front View"},
-      {"url": "https://cdn.example.com/rayzr-side.webp", "alt": "Yamaha Ray ZR Rally Side View"},
-      {"url": "https://cdn.example.com/rayzr-rear.webp", "alt": "Yamaha Ray ZR Rally Rear View"},
-      {"url": "https://cdn.example.com/rayzr-back.webp", "alt": "Yamaha Ray ZR Rally Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139282/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-back-view.webp",
+          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139283/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-front-view.webp",
+          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139284/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-left-view.webp",
+          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139285/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-right-view.webp",
+          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139285/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-showroom-view.webp",
+          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Showroom View"
+        }
+      ],
     "pros": [
       "Sporty rally-inspired graphics",
       "Good acceleration for 125cc (0-60kmph in 5.8s)",
@@ -1690,11 +1834,27 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-      {"url": "https://cdn.example.com/saluto-front.webp", "alt": "Yamaha Saluto 125 Front View"},
-      {"url": "https://cdn.example.com/saluto-side.webp", "alt": "Yamaha Saluto 125 Side View"},
-      {"url": "https://cdn.example.com/saluto-rear.webp", "alt": "Yamaha Saluto 125 Rear View"},
-      {"url": "https://cdn.example.com/saluto-back.webp", "alt": "Yamaha Saluto 125 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139286/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-left-view.webp",
+          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139287/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-right-view.webp",
+          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139288/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-front-view.webp",
+          "alt": "Yamaha Saluto 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-rear-view.webp",
+          "alt": "Yamaha Saluto 125 Rear View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-showroom-view.webp",
+          "alt": "Yamaha Saluto 125 Showroom View"
+        }
+      ],
     "pros": [
       "Excellent fuel efficiency (58-62kmpl)",
       "Affordable pricing",
@@ -1764,11 +1924,27 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-      {"url": "https://cdn.example.com/salutoubs-front.webp", "alt": "Yamaha Saluto 125 UBS Front View"},
-      {"url": "https://cdn.example.com/salutoubs-side.webp", "alt": "Yamaha Saluto 125 UBS Side View"},
-      {"url": "https://cdn.example.com/salutoubs-rear.webp", "alt": "Yamaha Saluto 125 UBS Rear View"},
-      {"url": "https://cdn.example.com/salutoubs-back.webp", "alt": "Yamaha Saluto 125 UBS Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139286/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-left-view.webp",
+          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139287/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-right-view.webp",
+          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139288/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-front-view.webp",
+          "alt": "Yamaha Saluto 125 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-rear-view.webp",
+          "alt": "Yamaha Saluto 125 Rear View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-showroom-view.webp",
+          "alt": "Yamaha Saluto 125 Showroom View"
+        }
+      ],
     "pros": [
       "Most affordable Yamaha 125cc",
       "UBS improves braking safety",
@@ -1837,12 +2013,28 @@
     "overall_width": "730 mm",
     "build_quality": "Premium supersport",
     "parts_availability": "Limited in Bangladesh",
-    "image_urls": [
-      {"url": "https://cdn.example.com/r3-front.webp", "alt": "Yamaha R3 Front View"},
-      {"url": "https://cdn.example.com/r3-side.webp", "alt": "Yamaha R3 Side View"},
-      {"url": "https://cdn.example.com/r3-rear.webp", "alt": "Yamaha R3 Rear View"},
-      {"url": "https://cdn.example.com/r3-back.webp", "alt": "Yamaha R3 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139278/bikes/Yamaha/Yamaha%20R3/yamaha-r3-back-view.webp",
+          "alt": "Yamaha R3 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139279/bikes/Yamaha/Yamaha%20R3/yamaha-r3-front-view.webp",
+          "alt": "Yamaha R3 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139280/bikes/Yamaha/Yamaha%20R3/yamaha-r3-left-view.webp",
+          "alt": "Yamaha R3 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139281/bikes/Yamaha/Yamaha%20R3/yamaha-r3-right-view.webp",
+          "alt": "Yamaha R3 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139281/bikes/Yamaha/Yamaha%20R3/yamaha-r3-showroom-view.webp",
+          "alt": "Yamaha R3 Showroom View"
+        }
+      ],
     "pros": [
       "Superb acceleration (0-60kmph in 2.5s)",
       "Genuine supersport performance",
@@ -1912,7 +2104,24 @@
     "overall_width": "735 mm",
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
-    ,
+    "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-back-view.webp",
+          "alt": "Suzuki Hayate EP Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-left-view.webp",
+          "alt": "Suzuki Hayate EP Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926347/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-right-view.webp",
+          "alt": "Suzuki Hayate EP Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926348/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-front-view.webp",
+          "alt": "Suzuki Hayate EP Suzuki Hayate Front View"
+        }
+      ],
     "pros": [
       "Most affordable Suzuki bike",
       "Excellent fuel efficiency (60-63kmpl)",
@@ -1982,11 +2191,15 @@
     "build_quality": "Sporty commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
-      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
-      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
-      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926340/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black-side-view60d70ac23d87b.webp",
+          "alt": "Suzuki GSX 125 Black Side View60D70Ac23D87B"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926341/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black60d70ac256724.webp",
+          "alt": "Suzuki GSX 125 Black60D70Ac256724"
+        }
+      ],
     "pros": [
       "GSX-R inspired styling",
       "Better acceleration than commuters (0-60kmph in 6.8s)",
@@ -2147,24 +2360,24 @@
     "parts_availability": "Widely available",
     "image_urls": [
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Back View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Front View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Left View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Right View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
         }
       ],
     "pros": [
@@ -2235,12 +2448,28 @@
     "overall_width": "685 mm",
     "build_quality": "Premium scooter",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
-      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
-      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
-      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-back-view.webp",
+          "alt": "Suzuki Access 125 Fi Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926317/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-front-view.webp",
+          "alt": "Suzuki Access 125 Fi Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926318/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-left-view.webp",
+          "alt": "Suzuki Access 125 Fi Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926319/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-right-view.webp",
+          "alt": "Suzuki Access 125 Fi Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926320/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-showroom-view.webp",
+          "alt": "Suzuki Access 125 Fi Showroom View"
+        }
+      ],
     "pros": [
       "Smooth fuel-injected performance",
       "Good acceleration for scooter (0-60kmph in 6.2s)",
@@ -2311,24 +2540,24 @@
     "parts_availability": "Widely available",
    "image_urls": [
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Back View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Front View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Left View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Right View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
         }
       ],
     "pros": [
@@ -2401,24 +2630,24 @@
     "parts_availability": "Widely available",
    "image_urls": [
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Back View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Front View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Left View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Right View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
         }
       ],
     "pros": [
@@ -2491,24 +2720,24 @@
     "parts_availability": "Widely available",
    "image_urls": [
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Back View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Front View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Left View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Right View"
         },
         {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
+          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
         }
       ],
     "pros": [
@@ -2579,7 +2808,7 @@
     "overall_width": "805 mm",
     "build_quality": "Muscular cruiser",
     "parts_availability": "Good in urban areas",
-"image_urls": [
+    "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926349/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-iintruder-fi-abs-showeoom-view.webp",
           "alt": "Suzuki Intruder Fi ABS Suzuki Iintruder Fi Abs Showeoom View"
@@ -2669,12 +2898,29 @@
     "overall_width": "785 mm",
     "build_quality": "Premium sports",
     "parts_availability": "Widely available",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gixxersf-front.webp", "alt": "Suzuki Gixxer SF Front View"},
-      {"url": "https://cdn.example.com/gixxersf-side.webp", "alt": "Suzuki Gixxer SF Side View"},
-      {"url": "https://cdn.example.com/gixxersf-rear.webp", "alt": "Suzuki Gixxer SF Rear View"},
-      {"url": "https://cdn.example.com/gixxersf-back.webp", "alt": "Suzuki Gixxer SF Back View"}
-    ],
+   "Suzuki Gixxer Fi Disc": {
+      "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+        }
+      ],
     "pros": [
       "Sportier acceleration (0-60kmph in 4.3s)",
       "Dual-channel ABS safety",
@@ -2743,12 +2989,29 @@
     "overall_width": "785 mm",
     "build_quality": "Premium sports",
     "parts_availability": "Good in urban areas",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
-      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
-      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
-      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
-    ],
+    "Suzuki Gixxer Fi Disc": {
+      "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+        }
+      ],
     "pros": [
       "Exclusive matte finish colors",
       "Quick acceleration (0-60kmph in 4.2s)",
@@ -2908,11 +3171,27 @@
     "build_quality": "Premium sports",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-      {"url": "https://cdn.example.com/gixxersf250-front.webp", "alt": "Suzuki Gixxer SF 250 Front View"},
-      {"url": "https://cdn.example.com/gixxersf250-side.webp", "alt": "Suzuki Gixxer SF 250 Side View"},
-      {"url": "https://cdn.example.com/gixxersf250-rear.webp", "alt": "Suzuki Gixxer SF 250 Rear View"},
-      {"url": "https://cdn.example.com/gixxersf250-back.webp", "alt": "Suzuki Gixxer SF 250 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
+          "alt": "Suzuki Gixxer Fi Disc Showroom View"
+        }
+      ],
     "pros": [
       "Excellent acceleration (0-60kmph in 3.7s)",
       "Full fairing for better aerodynamics",

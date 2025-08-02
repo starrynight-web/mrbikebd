@@ -760,12 +760,20 @@
     "overall_width": "750 mm",
     "build_quality": "Utilitarian with focus on durability",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
-      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
-      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
-      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139254/bikes/TVS/TVS%20max%20125/tvs-max-125-left-view.webp",
+          "alt": "TVS max 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139255/bikes/TVS/TVS%20max%20125/tvs-max-125-right-view.webp",
+          "alt": "TVS max 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139256/bikes/TVS/TVS%20max%20125/tvs-max-125-showroom-view.webp",
+          "alt": "TVS max 125 Showroom View"
+        }
+      ],
     "pros": [
       "Exceptional fuel efficiency",
       "Low maintenance costs",
@@ -847,15 +855,19 @@
     "build_quality": "Basic but durable",
     "parts_availability": "Excellent",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-max125st-front.webp",
-        "alt": "TVS Max 125 ST Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-max125st-side.webp",
-        "alt": "TVS Max 125 ST Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139254/bikes/TVS/TVS%20max%20125/tvs-max-125-left-view.webp",
+          "alt": "TVS max 125 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139255/bikes/TVS/TVS%20max%20125/tvs-max-125-right-view.webp",
+          "alt": "TVS max 125 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139256/bikes/TVS/TVS%20max%20125/tvs-max-125-showroom-view.webp",
+          "alt": "TVS max 125 Showroom View"
+        }
+      ],
     "pros": [
       "Most affordable 125cc commuter",
       "Even better mileage than standard Max 125",
@@ -936,16 +948,16 @@
     "overall_width": "680 mm",
     "build_quality": "Basic but reliable",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-metro-front.webp",
-        "alt": "TVS Metro ELS Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-metro-side.webp",
-        "alt": "TVS Metro ELS Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139256/bikes/TVS/TVS%20metro/tvs-metro-left-view.webp",
+          "alt": "TVS metro Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139257/bikes/TVS/TVS%20metro/tvs-metro-right-view.webp",
+          "alt": "TVS metro Right View"
+        }
+      ],
     "pros": [
       "Most affordable TVS scooter",
       "Excellent fuel efficiency",
@@ -1027,16 +1039,16 @@
     "overall_width": "675 mm",
     "build_quality": "Basic but functional",
     "parts_availability": "Excellent",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-metro-kls-front.webp",
-        "alt": "TVS Metro KLS Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-metro-kls-side.webp",
-        "alt": "TVS Metro KLS Side View"
-      }
-    ],
+     "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139256/bikes/TVS/TVS%20metro/tvs-metro-left-view.webp",
+          "alt": "TVS metro Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139257/bikes/TVS/TVS%20metro/tvs-metro-right-view.webp",
+          "alt": "TVS metro Right View"
+        }
+      ],
     "pros": [
       "Most affordable TVS two-wheeler",
       "Excellent fuel efficiency",
@@ -1424,15 +1436,19 @@
     "build_quality": "Rugged with off-road styling",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-rockz-front.webp",
-        "alt": "TVS Rockz Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-rockz-side.webp",
-        "alt": "TVS Rockz Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139258/bikes/TVS/TVS%20rockz/tvs-rockz-left-view.webp",
+          "alt": "TVS rockz Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139259/bikes/TVS/TVS%20rockz/tvs-rockz-right-view.webp",
+          "alt": "TVS rockz Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139259/bikes/TVS/TVS%20rockz/tvs-rockz-showroom-view.webp",
+          "alt": "TVS rockz Showroom View"
+        }
+      ],
     "pros": [
       "Rugged styling with crash guards",
       "Long travel suspension for bad roads",
@@ -1514,15 +1530,19 @@
     "build_quality": "Robust streetfighter design",
     "parts_availability": "Good",
     "image_urls": [
-      {
-        "url": "https://cdn.example.com/tvs-stryker-front.webp",
-        "alt": "TVS Stryker Front View"
-      },
-      {
-        "url": "https://cdn.example.com/tvs-stryker-side.webp",
-        "alt": "TVS Stryker Side View"
-      }
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139260/bikes/TVS/TVS%20Stryker/tvs-stryker-left-view.webp",
+          "alt": "TVS Stryker Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139261/bikes/TVS/TVS%20Stryker/tvs-stryker-right-view.webp",
+          "alt": "TVS Stryker Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139262/bikes/TVS/TVS%20Stryker/tvs-stryker-showroom-view.webp",
+          "alt": "TVS Stryker Showroom View"
+        }
+      ],
     "pros": [
       "Aggressive streetfighter styling",
       "Comfortable upright riding position",
@@ -1694,11 +1714,19 @@
     "build_quality": "Heavy-duty moped",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/tvs-xl-100-front.webp", "alt": "TVS XL 100 Front View"},
-      {"url": "https://cdn.example.com/tvs-xl-100-side.webp", "alt": "TVS XL 100 Side View"},
-      {"url": "https://cdn.example.com/tvs-xl-100-rear.webp", "alt": "TVS XL 100 Rear View"},
-      {"url": "https://cdn.example.com/tvs-xl-100-back.webp", "alt": "TVS XL 100 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139263/bikes/TVS/TVS%20XL%20100/tvs-xl-100-left-view.webp",
+          "alt": "TVS XL 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-right-view.webp",
+          "alt": "TVS XL 100 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-showroom-view.webp",
+          "alt": "TVS XL 100 Showroom View"
+        }
+      ],
     "pros": [
       "Extremely affordable",
       "Unbeatable mileage",
@@ -1768,11 +1796,19 @@
     "build_quality": "Improved comfort moped",
     "parts_availability": "Excellent nationwide",
     "image_urls": [
-      {"url": "https://cdn.example.com/tvs-xl-comfort-front.webp", "alt": "TVS XL 100 Comfort Front View"},
-      {"url": "https://cdn.example.com/tvs-xl-comfort-side.webp", "alt": "TVS XL 100 Comfort Side View"},
-      {"url": "https://cdn.example.com/tvs-xl-comfort-rear.webp", "alt": "TVS XL 100 Comfort Rear View"},
-      {"url": "https://cdn.example.com/tvs-xl-comfort-back.webp", "alt": "TVS XL 100 Comfort Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139263/bikes/TVS/TVS%20XL%20100/tvs-xl-100-left-view.webp",
+          "alt": "TVS XL 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-right-view.webp",
+          "alt": "TVS XL 100 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-showroom-view.webp",
+          "alt": "TVS XL 100 Showroom View"
+        }
+      ],
     "pros": [
       "More comfortable seat",
       "Better suspension",
@@ -1841,12 +1877,20 @@
     "overall_width": "700 mm",
     "build_quality": "Basic moped",
     "parts_availability": "Excellent nationwide",
-    "image_urls": [
-      {"url": "https://cdn.example.com/tvs-xl-es-front.webp", "alt": "TVS XL 100 ES Front View"},
-      {"url": "https://cdn.example.com/tvs-xl-es-side.webp", "alt": "TVS XL 100 ES Side View"},
-      {"url": "https://cdn.example.com/tvs-xl-es-rear.webp", "alt": "TVS XL 100 ES Rear View"},
-      {"url": "https://cdn.example.com/tvs-xl-es-back.webp", "alt": "TVS XL 100 ES Back View"}
-    ],
+   "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-right-view.webp",
+          "alt": "TVS XL 100 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139263/bikes/TVS/TVS%20XL%20100/tvs-xl-100-left-view.webp",
+          "alt": "TVS XL 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139264/bikes/TVS/TVS%20XL%20100/tvs-xl-100-showroom-view.webp",
+          "alt": "TVS XL 100 Showroom View"
+        }
+      ],
     "pros": [
       "Lowest price in TVS lineup",
       "Best-in-class mileage",
@@ -1916,11 +1960,27 @@
     "build_quality": "Premium supersport",
     "parts_availability": "Good in major cities",
     "image_urls": [
-      {"url": "https://cdn.example.com/tvs-rtr310-front.webp", "alt": "TVS RTR 310 Front View"},
-      {"url": "https://cdn.example.com/tvs-rtr310-side.webp", "alt": "TVS RTR 310 Side View"},
-      {"url": "https://cdn.example.com/tvs-rtr310-rear.webp", "alt": "TVS RTR 310 Rear View"},
-      {"url": "https://cdn.example.com/tvs-rtr310-back.webp", "alt": "TVS RTR 310 Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139250/bikes/TVS/TVS%20Apache%20RTR%20310/tvs-apache-rtr-310-back-view.webp",
+          "alt": "TVS Apache RTR 310 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139251/bikes/TVS/TVS%20Apache%20RTR%20310/tvs-apache-rtr-310-front-view.webp",
+          "alt": "TVS Apache RTR 310 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139252/bikes/TVS/TVS%20Apache%20RTR%20310/tvs-apache-rtr-310-left-view.webp",
+          "alt": "TVS Apache RTR 310 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139252/bikes/TVS/TVS%20Apache%20RTR%20310/tvs-apache-rtr-310-right-view.webp",
+          "alt": "TVS Apache RTR 310 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139253/bikes/TVS/TVS%20Apache%20RTR%20310/tvs-apache-rtr-310-showroom-view.webp",
+          "alt": "TVS Apache RTR 310 Showroom View"
+        }
+      ],
     "pros": [
       "Track-focused performance",
       "Premium suspension and brakes",
@@ -1990,11 +2050,27 @@
     "build_quality": "Race-spec",
     "parts_availability": "Limited (race parts)",
     "image_urls": [
-      {"url": "https://cdn.example.com/tvs-300rr-front.webp", "alt": "TVS 300 RR Front View"},
-      {"url": "https://cdn.example.com/tvs-300rr-side.webp", "alt": "TVS 300 RR Side View"},
-      {"url": "https://cdn.example.com/tvs-300rr-rear.webp", "alt": "TVS 300 RR Rear View"},
-      {"url": "https://cdn.example.com/tvs-300rr-back.webp", "alt": "TVS 300 RR Back View"}
-    ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139246/bikes/TVS/TVS%20Apache%20RR%20310/tvs-apache-rr-310-back-view.webp",
+          "alt": "TVS Apache RR 310 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139247/bikes/TVS/TVS%20Apache%20RR%20310/tvs-apache-rr-310-front-view.webp",
+          "alt": "TVS Apache RR 310 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139248/bikes/TVS/TVS%20Apache%20RR%20310/tvs-apache-rr-310-left-view.webp",
+          "alt": "TVS Apache RR 310 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139248/bikes/TVS/TVS%20Apache%20RR%20310/tvs-apache-rr-310-right-view.webp",
+          "alt": "TVS Apache RR 310 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139249/bikes/TVS/TVS%20Apache%20RR%20310/tvs-apache-rr-310-showroom-view.webp",
+          "alt": "TVS Apache RR 310 Showroom View"
+        }
+      ],
     "pros": [
       "Race-spec performance",
       "Lighter weight than RTR 310",
@@ -2065,15 +2141,23 @@
   "build_quality": "Value-oriented and light-weight",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-ad80s-front.webp",
-      "alt": "Runner AD80S Alloy Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-ad80s-side.webp",
-      "alt": "Runner AD80S Alloy Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139196/bikes/Runner/Runner%20AD%2080%20S%20Alloy/runner-ad-80s-alloy-back-view.webp",
+          "alt": "Runner AD 80 S Alloy Runner Ad 80S Alloy Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139197/bikes/Runner/Runner%20AD%2080%20S%20Alloy/runner-ad-80s-alloy-front-view.webp",
+          "alt": "Runner AD 80 S Alloy Runner Ad 80S Alloy Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139198/bikes/Runner/Runner%20AD%2080%20S%20Alloy/runner-ad-80s-alloy-left-view.webp",
+          "alt": "Runner AD 80 S Alloy Runner Ad 80S Alloy Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139199/bikes/Runner/Runner%20AD%2080%20S%20Alloy/runner-ad-80s-alloy-right-view.webp",
+          "alt": "Runner AD 80 S Alloy Runner Ad 80S Alloy Right View"
+        }
+      ],
   "pros": [
     "Great mileage",
     "Lightweight and maneuverable",
@@ -2155,15 +2239,19 @@
   "build_quality": "Basic commuter motorcycle",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-bike-rt-front.webp",
-      "alt": "Runner Bike RT Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-bike-rt-side.webp",
-      "alt": "Runner Bike RT Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139203/bikes/Runner/Runner%20Bike%20RT%2080/runner-bike-rt-80-left-view.webp",
+          "alt": "Runner Bike RT 80 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139204/bikes/Runner/Runner%20Bike%20RT%2080/runner-bike-rt-80-right-view.webp",
+          "alt": "Runner Bike RT 80 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139205/bikes/Runner/Runner%20Bike%20RT%2080/runner-bike-rt-80-showroom-view.webp",
+          "alt": "Runner Bike RT 80 Showroom View"
+        }
+      ],
   "pros": [
     "Extremely budget-friendly",
     "High mileage",
@@ -2244,16 +2332,20 @@
   "overall_width": "730 mm",
   "build_quality": "Aggressive and sporty",
   "parts_availability": "Good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-bolt165r-front.webp",
-      "alt": "Runner Bolt 165R Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-bolt165r-side.webp",
-      "alt": "Runner Bolt 165R Side View"
-    }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139205/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-left-view.webp",
+          "alt": "Runner Bolt 165 R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139206/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-right-view.webp",
+          "alt": "Runner Bolt 165 R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139207/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-showroom-view-black-orange.webp",
+          "alt": "Runner Bolt 165 R Showroom View Black Orange"
+        }
+      ],
   "pros": [
     "Aggressive styling",
     "Dual disc brakes",
@@ -2335,15 +2427,19 @@
   "build_quality": "Sporty with visual upgrades",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-bolt165r-dual-front.webp",
-      "alt": "Runner Bolt 165R Dual Tone Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-bolt165r-dual-side.webp",
-      "alt": "Runner Bolt 165R Dual Tone Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139205/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-left-view.webp",
+          "alt": "Runner Bolt 165 R Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139206/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-right-view.webp",
+          "alt": "Runner Bolt 165 R Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139207/bikes/Runner/Runner%20Bolt%20165%20R/runner-bolt-165-r-showroom-view-black-orange.webp",
+          "alt": "Runner Bolt 165 R Showroom View Black Orange"
+        }
+      ],
   "pros": [
     "Sporty dual-tone design",
     "Same performance as regular Bolt 165R",
@@ -2425,15 +2521,27 @@
   "build_quality": "Attractive budget commuter",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-bullet-front.webp",
-      "alt": "Runner Bullet Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-bullet-side.webp",
-      "alt": "Runner Bullet Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139208/bikes/Runner/Runner%20Bullet%20100/runner-bullet-100-back-view.webp",
+          "alt": "Runner Bullet 100 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139209/bikes/Runner/Runner%20Bullet%20100/runner-bullet-100-front-view.webp",
+          "alt": "Runner Bullet 100 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139211/bikes/Runner/Runner%20Bullet%20100/runner-bullet-100-left-view.webp",
+          "alt": "Runner Bullet 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139211/bikes/Runner/Runner%20Bullet%20100/runner-bullet-100-right-view.webp",
+          "alt": "Runner Bullet 100 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139213/bikes/Runner/Runner%20Bullet%20100/runner-bullet-100-showroom-view-black.webp",
+          "alt": "Runner Bullet 100 Showroom View Black"
+        }
+      ],
   "pros": [
     "Stylish commuter design",
     "Alloy wheels included",
@@ -2515,15 +2623,23 @@
   "build_quality": "Improved build for budget commuting",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-bullet-100-v2-front.webp",
-      "alt": "Runner Bullet 100 v2 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-bullet-100-v2-side.webp",
-      "alt": "Runner Bullet 100 v2 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139214/bikes/Runner/Runner%20Bullet%20100%20V2/runner-bullet-100-v2-back-view.webp",
+          "alt": "Runner Bullet 100 V2 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139215/bikes/Runner/Runner%20Bullet%20100%20V2/runner-bullet-100-v2-front-view.webp",
+          "alt": "Runner Bullet 100 V2 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139216/bikes/Runner/Runner%20Bullet%20100%20V2/runner-bullet-100-v2-left-view.webp",
+          "alt": "Runner Bullet 100 V2 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139217/bikes/Runner/Runner%20Bullet%20100%20V2/runner-bullet-100-v2-right-view.webp",
+          "alt": "Runner Bullet 100 V2 Right View"
+        }
+      ],
   "pros": [
     "Stylish commuter appearance",
     "Improved fit and finish",
@@ -2605,15 +2721,23 @@
   "build_quality": "Good for budget urban commuting",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-cheeta-front.webp",
-      "alt": "Runner Cheeta Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-cheeta-side.webp",
-      "alt": "Runner Cheeta Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139218/bikes/Runner/Runner%20Cheeta%20100/runner-cheeta-100-back-view.webp",
+          "alt": "Runner Cheeta 100 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139219/bikes/Runner/Runner%20Cheeta%20100/runner-cheeta-100-front-view.webp",
+          "alt": "Runner Cheeta 100 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139219/bikes/Runner/Runner%20Cheeta%20100/runner-cheeta-100-left-view.webp",
+          "alt": "Runner Cheeta 100 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139220/bikes/Runner/Runner%20Cheeta%20100/runner-cheeta-100-right-view.webp",
+          "alt": "Runner Cheeta 100 Right View"
+        }
+      ],
   "pros": [
     "Lightweight and easy to handle",
     "Excellent fuel efficiency",
@@ -2695,15 +2819,23 @@
   "build_quality": "Basic yet reliable for daily use",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-deluxe-front.webp",
-      "alt": "Runner Deluxe Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-deluxe-side.webp",
-      "alt": "Runner Deluxe Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139199/bikes/Runner/Runner%20AD%2080S%20Deluxe/runner-ad-80s-deluxe-back-view.webp",
+          "alt": "Runner AD 80S Deluxe Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139200/bikes/Runner/Runner%20AD%2080S%20Deluxe/runner-ad-80s-deluxe-left-view.webp",
+          "alt": "Runner AD 80S Deluxe Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139201/bikes/Runner/Runner%20AD%2080S%20Deluxe/runner-ad-80s-deluxe-right-view.webp",
+          "alt": "Runner AD 80S Deluxe Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139202/bikes/Runner/Runner%20AD%2080S%20Deluxe/runner-ad80s-deluxe-front-view.webp",
+          "alt": "Runner AD 80S Deluxe Runner Ad80S Deluxe Front View"
+        }
+      ],
   "pros": [
     "Very affordable price",
     "Excellent fuel economy",
@@ -2786,15 +2918,27 @@
   "build_quality": "Balanced commuter with decent durability",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-f100-6a-front.webp",
-      "alt": "Runner F100 6A Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-f100-6a-side.webp",
-      "alt": "Runner F100 6A Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139221/bikes/Runner/Runner%20F100%206A/runner-f100-6a-back-view.webp",
+          "alt": "Runner F100 6A Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139222/bikes/Runner/Runner%20F100%206A/runner-f100-6a-front-view.webp",
+          "alt": "Runner F100 6A Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139223/bikes/Runner/Runner%20F100%206A/runner-f100-6a-left-view.webp",
+          "alt": "Runner F100 6A Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139223/bikes/Runner/Runner%20F100%206A/runner-f100-6a-right-view.webp",
+          "alt": "Runner F100 6A Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139224/bikes/Runner/Runner%20F100%206A/runner-f100-6a-showroom-view-red.webp",
+          "alt": "Runner F100 6A Showroom View Red"
+        }
+      ],
   "pros": [
     "Smooth engine performance",
     "Good mileage and fuel economy",
@@ -2876,15 +3020,23 @@
   "build_quality": "Well-built for affordable city commuting",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-kite-plus-front.webp",
-      "alt": "Runner Kite+ Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-kite-plus-side.webp",
-      "alt": "Runner Kite+ Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139225/bikes/Runner/Runner%20Kite%2B%20110/runner-kite%2B-110-front-view.webp",
+          "alt": "Runner Kite+ 110 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139226/bikes/Runner/Runner%20Kite%2B%20110/runner-kite%2B-110-left-view.webp",
+          "alt": "Runner Kite+ 110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139226/bikes/Runner/Runner%20Kite%2B%20110/runner-kite%2B-110-right-view.webp",
+          "alt": "Runner Kite+ 110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139227/bikes/Runner/Runner%20Kite%2B%20110/runnner-kite%2B-110-back-view.webp",
+          "alt": "Runner Kite+ 110 Runnner Kite+ 110 Back View"
+        }
+      ],
   "pros": [
     "Stylish and slim commuter design",
     "Decent power in 110cc segment",
@@ -2966,15 +3118,23 @@
   "build_quality": "Sporty design with enhanced urban performance",
   "parts_availability": "Good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-knight-rider-v2-front.webp",
-      "alt": "Runner Knight Rider v2 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-knight-rider-v2-side.webp",
-      "alt": "Runner Knight Rider v2 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139231/bikes/Runner/Runner%20Knight%20Rider%20V2/runner-knight-rider-v2-back-view.webp",
+          "alt": "Runner Knight Rider V2 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139231/bikes/Runner/Runner%20Knight%20Rider%20V2/runner-knight-rider-v2-front-view.webp",
+          "alt": "Runner Knight Rider V2 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139232/bikes/Runner/Runner%20Knight%20Rider%20V2/runner-knight-rider-v2-left-view.webp",
+          "alt": "Runner Knight Rider V2 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139233/bikes/Runner/Runner%20Knight%20Rider%20V2/runner-knight-rider-v2-right-view.webp",
+          "alt": "Runner Knight Rider V2 Right View"
+        }
+      ],
   "pros": [
     "Sporty and stylish looks",
     "Front disc brake",
@@ -3056,15 +3216,23 @@
   "build_quality": "Good sporty commuter in budget segment",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-knightrider-front.webp",
-      "alt": "Runner KnightRider Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-knightrider-side.webp",
-      "alt": "Runner KnightRider Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139228/bikes/Runner/Runner%20Knight%20Rider%20150/runner-knight-rider-150-back-view.webp",
+          "alt": "Runner Knight Rider 150 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139228/bikes/Runner/Runner%20Knight%20Rider%20150/runner-knight-rider-150-front-view.webp",
+          "alt": "Runner Knight Rider 150 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139229/bikes/Runner/Runner%20Knight%20Rider%20150/runner-knight-rider-150-left-view.webp",
+          "alt": "Runner Knight Rider 150 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139230/bikes/Runner/Runner%20Knight%20Rider%20150/runner-knight-rider-150-right-view.webp",
+          "alt": "Runner Knight Rider 150 Right View"
+        }
+      ],
   "pros": [
     "Sporty design for a budget bike",
     "Fuel-efficient for 150cc",
@@ -3146,15 +3314,23 @@
   "build_quality": "Well-built city commuter with modern styling",
   "parts_availability": "Excellent",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-royal-plus-v2-front.webp",
-      "alt": "Runner Royal+ V2 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-royal-plus-v2-side.webp",
-      "alt": "Runner Royal+ V2 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139234/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-back-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139234/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-left-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139235/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-right-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139236/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110%3Dfront-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110=Front View"
+        }
+      ],
   "pros": [
     "Disc brake at front",
     "Modern commuter styling",
@@ -3236,15 +3412,27 @@
   "build_quality": "Light and nimble with practical design for city use",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-skooty-110-front.webp",
-      "alt": "Runner Skooty 110 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-skooty-110-side.webp",
-      "alt": "Runner Skooty 110 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139236/bikes/Runner/Runner%20Skooty%20110/runner-skooty-110-back-view.webp",
+          "alt": "Runner Skooty 110 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139237/bikes/Runner/Runner%20Skooty%20110/runner-skooty-110-front-view.webp",
+          "alt": "Runner Skooty 110 Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139238/bikes/Runner/Runner%20Skooty%20110/runner-skooty-110-left-view.webp",
+          "alt": "Runner Skooty 110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139239/bikes/Runner/Runner%20Skooty%20110/runner-skooty-110-right-view.webp",
+          "alt": "Runner Skooty 110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139239/bikes/Runner/Runner%20Skooty%20110/runner-skooty-110-showroom-view-red.webp",
+          "alt": "Runner Skooty 110 Showroom View Red"
+        }
+      ],
   "pros": [
     "User-friendly automatic transmission",
     "Compact and lightweight for city use",
@@ -3326,16 +3514,24 @@
   "build_quality": "Well-built for everyday commuting with practical ergonomics",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-royal-plus-front.webp",
-      "alt": "Runner Royal+ Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-royal-plus-side.webp",
-      "alt": "Runner Royal+ Side View"
-    }
-  ],
-  "pros": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139234/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-back-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139234/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-left-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139235/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110-right-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110 Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139236/bikes/Runner/Runner%20Royal%2B%20110/runner-royal-%2B-110%3Dfront-view.webp",
+          "alt": "Runner Royal+ 110 Runner Royal + 110=Front View"
+        }
+      ],
+    "pros": [
     "Reliable engine for daily use",
     "Good mileage for city rides",
     "Affordable commuter bike",
@@ -3416,15 +3612,27 @@
   "build_quality": "Robust and reliable build suitable for city and highway use",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-turbo-125-front.webp",
-      "alt": "Runner Turbo 125 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-turbo-125-side.webp",
-      "alt": "Runner Turbo 125 Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139240/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-back-view.webp",
+          "alt": "Runner Turbo 125CC Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139241/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-front-view.webp",
+          "alt": "Runner Turbo 125CC Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139242/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-left-view.webp",
+          "alt": "Runner Turbo 125CC Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139243/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-right-view.webp",
+          "alt": "Runner Turbo 125CC Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139244/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-showroom-view-black.webp",
+          "alt": "Runner Turbo 125CC Showroom View Black"
+        }
+      ],
   "pros": [
     "Powerful 125cc engine for its class",
     "Front disc brake for better safety",
@@ -3506,15 +3714,27 @@
   "build_quality": "Durable build with matte paint finish for a modern look",
   "parts_availability": "Very good",
   "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-turbo-125-matte-front.webp",
-      "alt": "Runner Turbo 125 Matte Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-turbo-125-matte-side.webp",
-      "alt": "Runner Turbo 125 Matte Side View"
-    }
-  ],
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139240/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-back-view.webp",
+          "alt": "Runner Turbo 125CC Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139241/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-front-view.webp",
+          "alt": "Runner Turbo 125CC Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139242/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-left-view.webp",
+          "alt": "Runner Turbo 125CC Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139243/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-right-view.webp",
+          "alt": "Runner Turbo 125CC Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139244/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-showroom-view-black.webp",
+          "alt": "Runner Turbo 125CC Showroom View Black"
+        }
+      ],
   "pros": [
     "Modern matte finish paint",
     "Powerful 125cc engine",
@@ -3595,16 +3815,28 @@
   "overall_width": "765 mm",
   "build_quality": "Improved build quality with refined design and updated features",
   "parts_availability": "Very good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-turbo-v2-front.webp",
-      "alt": "Runner Turbo v2 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-turbo-v2-side.webp",
-      "alt": "Runner Turbo v2 Side View"
-    }
-  ],
+ "image_urls": [
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139240/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-back-view.webp",
+          "alt": "Runner Turbo 125CC Back View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139241/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-front-view.webp",
+          "alt": "Runner Turbo 125CC Front View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139242/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-left-view.webp",
+          "alt": "Runner Turbo 125CC Left View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139243/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-right-view.webp",
+          "alt": "Runner Turbo 125CC Right View"
+        },
+        {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139244/bikes/Runner/Runner%20Turbo%20125CC/runner-turbo-125cc-showroom-view-black.webp",
+          "alt": "Runner Turbo 125CC Showroom View Black"
+        }
+      ],
   "pros": [
     "Refined and updated styling",
     "Powerful 125cc engine",
