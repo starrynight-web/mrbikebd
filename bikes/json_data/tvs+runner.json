@@ -760,7 +760,12 @@
     "overall_width": "750 mm",
     "build_quality": "Utilitarian with focus on durability",
     "parts_availability": "Excellent",
-    ,
+    "image_urls": [
+      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
+      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
+      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
+      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
+    ],
     "pros": [
       "Exceptional fuel efficiency",
       "Low maintenance costs",
@@ -1619,7 +1624,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926380/bikes/TVS/tvs-wego/tvs-wego-showroom-view.webp",
           "alt": "tvs-wego Showroom View"
         }
-      ]
+      ],
     "pros": [
       "Lightweight and easy to handle",
       "Comfortable seat for city rides",
@@ -2011,96 +2016,7 @@
       {"question": "Weight capacity?", "answer": "170kg (rider only; not designed for pillion)."}
     ]
   },
-  {
-  "name": "LML Freedom",
-  "slug": "lml-freedom",
-  "brand": "LML",
-  "category": "Commuter",
-  "cc": 110,
-  "price": "Tk. 90,000",
-  "short_description": "LML Freedom is a budget-friendly 110cc commuter motorcycle offering decent performance and fuel economy for daily rides.",
-  "Zero_Sixty": "8.5 sec",
-  "Zero_Hundred": "N/A",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "65 kmpl",
-  "mileage_reported": "60-65 kmpl",
-  "top_speed_claimed": "90 km/h",
-  "top_speed_reported": "85 km/h",
-  "braking": "Front Drum, Rear Drum",
-  "gear": "4-speed manual",
-  "weight": "119 kg",
-  "max_power": "8.5 PS @ 7500 rpm",
-  "max_torque": "8 Nm @ 5500 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Air Cooled",
-  "front_brake": "130 mm Drum",
-  "rear_brake": "130 mm Drum",
-  "caliper": {
-    "front": "N/A (Drum)",
-    "rear": "N/A (Drum)"
-  },
-  "tyre_type": "Tube",
-  "front_tyre_size": "2.75-18",
-  "rear_tyre_size": "3.00-18",
-  "wheel_type": "Spoke",
-  "fuel_tank_capacity": "12 L",
-  "headlight_type": "Halogen",
-  "tail_light_type": "Bulb",
-  "projector_headlamp": false,
-  "drls": false,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": false,
-  "display": "Analog",
-  "seat_height": "780 mm",
-  "ground_clearance": "160 mm",
-  "overall_length": "2020 mm",
-  "overall_width": "720 mm",
-  "build_quality": "Durable budget commuter",
-  "parts_availability": "Moderate",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/lml-freedom-front.webp",
-      "alt": "LML Freedom Front View"
-    },
-    {
-      "url": "https://cdn.example.com/lml-freedom-side.webp",
-      "alt": "LML Freedom Side View"
-    }
-  ],
-  "pros": [
-    "Affordable price tag",
-    "Excellent fuel efficiency",
-    "Reliable commuter engine",
-    "Low maintenance cost",
-    "Comfortable upright riding posture"
-  ],
-  "cons": [
-    "Outdated design",
-    "Lacks modern features",
-    "No disc brake option",
-    "No digital meter",
-    "Basic suspension setup"
-  ],
-  "faqs": [
-    {
-      "question": "Is the LML Freedom good for daily office rides?",
-      "answer": "Yes, it’s fuel-efficient and designed for daily commuting."
-    },
-    {
-      "question": "Does it come with alloy wheels?",
-      "answer": "No, it features traditional spoke wheels."
-    },
-    {
-      "question": "Is it still in production?",
-      "answer": "LML has limited availability; check with local dealers for stock."
-    },
-    {
-      "question": "What is the mileage in city traffic?",
-      "answer": "Around 60 kmpl depending on traffic and riding habits."
-    }
-  ]
- },
+  
  {
   "name": "Runner AD80S Alloy",
   "slug": "runner-ad80s-alloy",
@@ -2192,7 +2108,7 @@
   ]
  },
  {
-  "name": "Runner Bike RT",
+  "name": "Runner Bike RT 80",
   "slug": "runner-bike-rt",
   "brand": "Runner",
   "category": "Commuter",
@@ -2462,8 +2378,8 @@
   ]
  },
  {
-  "name": "Runner Bullet",
-  "slug": "runner-bullet",
+  "name": "Runner Bullet 100",
+  "slug": "runner-bullet-100",
   "brand": "Runner",
   "category": "Commuter",
   "cc": 100.54,
@@ -2642,8 +2558,8 @@
   ]
  },
  {
-  "name": "Runner Cheeta",
-  "slug": "runner-cheeta",
+  "name": "Runner Cheeta 100",
+  "slug": "runner-cheeta-100",
   "brand": "Runner",
   "category": "Commuter",
   "cc": 97.67,
@@ -2732,8 +2648,8 @@
   ]
  },
  {
-  "name": "Runner Deluxe",
-  "slug": "runner-deluxe",
+  "name": "Runner AD 80S Deluxe",
+  "slug": "runner-ad-80s-deluxe",
   "brand": "Runner",
   "category": "Commuter",
   "cc": 85,
@@ -2821,96 +2737,7 @@
     }
   ]
  },
- {
-  "name": "Runner Deluxe V2",
-  "slug": "runner-deluxe-v2",
-  "brand": "Runner",
-  "category": "Commuter",
-  "cc": 85,
-  "price": "Tk. 81,500",
-  "short_description": "Runner Deluxe V2 is a refined update of the original Deluxe, offering better styling, reliable performance, and excellent mileage for budget-conscious commuters.",
-  "Zero_Sixty": "11.0 sec",
-  "Zero_Hundred": "N/A",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "70 kmpl",
-  "mileage_reported": "65-70 kmpl",
-  "top_speed_claimed": "80 km/h",
-  "top_speed_reported": "75-80 km/h",
-  "braking": "Front Drum, Rear Drum",
-  "gear": "4-speed manual",
-  "weight": "91 kg",
-  "max_power": "5.5 PS @ 7000 rpm",
-  "max_torque": "6.5 Nm @ 4500 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Air Cooled",
-  "front_brake": "110 mm Drum",
-  "rear_brake": "110 mm Drum",
-  "caliper": {
-    "front": "N/A (Drum)",
-    "rear": "N/A (Drum)"
-  },
-  "tyre_type": "Tube",
-  "front_tyre_size": "2.50-17",
-  "rear_tyre_size": "2.75-17",
-  "wheel_type": "Spoke",
-  "fuel_tank_capacity": "7.5 L",
-  "headlight_type": "Halogen",
-  "tail_light_type": "Bulb",
-  "projector_headlamp": false,
-  "drls": false,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": false,
-  "display": "Analog",
-  "seat_height": "785 mm",
-  "ground_clearance": "145 mm",
-  "overall_length": "1885 mm",
-  "overall_width": "700 mm",
-  "build_quality": "Improved build over previous generation for daily use",
-  "parts_availability": "Good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/runner-deluxe-v2-front.webp",
-      "alt": "Runner Deluxe V2 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/runner-deluxe-v2-side.webp",
-      "alt": "Runner Deluxe V2 Side View"
-    }
-  ],
-  "pros": [
-    "Refined looks over previous version",
-    "Excellent mileage",
-    "Affordable commuter option",
-    "Low maintenance cost",
-    "Lightweight and easy handling"
-  ],
-  "cons": [
-    "No alloy wheels",
-    "No disc brake",
-    "Analog meter only",
-    "No electric start in base variant",
-    "Tubed tyres"
-  ],
-  "faqs": [
-    {
-      "question": "How is Deluxe V2 different from Deluxe? ",
-      "answer": "V2 has updated looks and improved build quality."
-    },
-    {
-      "question": "Is electric start available?",
-      "answer": "Electric start is available in higher variants."
-    },
-    {
-      "question": "What is the mileage in the city?",
-      "answer": "Reported mileage is around 65–70 kmpl."
-    },
-    {
-      "question": "Does it come with alloy wheels?",
-      "answer": "No, it comes with spoke wheels."
-    }
-  ]
- },
+ 
  {
   "name": "Runner F100 6A",
   "slug": "runner-f100-6a",
@@ -3002,13 +2829,13 @@
   ]
  },
  {
-  "name": "Runner Kite+",
-  "slug": "runner-kite-plus",
+  "name": "Runner Kite+ 100",
+  "slug": "runner-kite-plus-100",
   "brand": "Runner",
   "category": "Commuter",
   "cc": 110,
   "price": "Tk. 85,000",
-  "short_description": "Runner Kite+ is a smart and economical 110cc commuter motorcycle built for daily use, offering great fuel economy and sleek design for city riders.",
+  "short_description": "Runner Kite+ 100 is a smart and economical 110cc commuter motorcycle built for daily use, offering great fuel economy and sleek design for city riders.",
   "Zero_Sixty": "9.8 sec",
   "Zero_Hundred": "N/A",
   "engine_cooling": "Air Cooled",
@@ -3182,13 +3009,13 @@
   ]
  },
  {
-  "name": "Runner KnightRider",
-  "slug": "runner-knightrider",
+  "name": "Runner KnightRider 150",
+  "slug": "runner-knightrider-150",
   "brand": "Runner",
   "category": "Standard",
   "cc": 150,
   "price": "Tk. 135,000",
-  "short_description": "Runner KnightRider is a stylish and budget-friendly 150cc motorcycle offering urban performance, attractive design, and reliability for daily commuting.",
+  "short_description": "Runner KnightRider 150 is a stylish and budget-friendly 150cc motorcycle offering urban performance, attractive design, and reliability for daily commuting.",
   "Zero_Sixty": "8.0 sec",
   "Zero_Hundred": "N/A",
   "engine_cooling": "Air Cooled",
@@ -3810,277 +3637,8 @@
       "answer": "It has a 10-liter fuel tank capacity."
     }
   ]
- },
- {
-  "name": "UM Runner Renegade Commando",
-  "slug": "um-runner-renegade-commando",
-  "brand": "UM",
-  "category": "Cruiser",
-  "cc": 149,
-  "price": "Tk. 246,000",
-  "short_description": "UM Runner Renegade Commando is a stylish 149cc cruiser motorcycle designed for comfortable city and highway riding with classic cruiser aesthetics.",
-  "Zero_Sixty": "7.5 sec",
-  "Zero_Hundred": "N/A",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "45 kmpl",
-  "mileage_reported": "40-45 kmpl",
-  "top_speed_claimed": "110 km/h",
-  "top_speed_reported": "105-110 km/h",
-  "braking": "Front Disc, Rear Disc",
-  "gear": "5-speed manual",
-  "weight": "140 kg",
-  "max_power": "12.5 PS @ 8500 rpm",
-  "max_torque": "11.5 Nm @ 6500 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Air Cooled",
-  "front_brake": "Disc",
-  "rear_brake": "Disc",
-  "caliper": {
-    "front": "Single-piston",
-    "rear": "Single-piston"
-  },
-  "tyre_type": "Tubeless",
-  "front_tyre_size": "90/90-19",
-  "rear_tyre_size": "120/80-18",
-  "wheel_type": "Alloy",
-  "fuel_tank_capacity": "12 L",
-  "headlight_type": "LED",
-  "tail_light_type": "LED",
-  "projector_headlamp": false,
-  "drls": true,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": false,
-  "display": "Digital",
-  "seat_height": "740 mm",
-  "ground_clearance": "165 mm",
-  "overall_length": "2100 mm",
-  "overall_width": "820 mm",
-  "build_quality": "Solid cruiser build with comfortable ergonomics and premium finish",
-  "parts_availability": "Good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/um-runner-renegade-commando-front.webp",
-      "alt": "UM Runner Renegade Commando Front View"
-    },
-    {
-      "url": "https://cdn.example.com/um-runner-renegade-commando-side.webp",
-      "alt": "UM Runner Renegade Commando Side View"
-    }
-  ],
-  "pros": [
-    "Classic cruiser design",
-    "Tubeless tyres front and rear",
-    "Disc brakes on both wheels",
-    "Comfortable riding posture",
-    "Decent fuel efficiency for cruiser segment"
-  ],
-  "cons": [
-    "Higher weight compared to commuter bikes",
-    "Limited advanced electronics",
-    "No quickshifter or traction control",
-    "Digital display only, no analog cluster",
-    "Parts availability moderate"
-  ],
-  "faqs": [
-    {
-      "question": "Is UM Runner Renegade Commando good for long rides?",
-      "answer": "Yes, its cruiser design and comfortable seating make it suitable for moderate long rides."
-    },
-    {
-      "question": "Does it have tubeless tyres?",
-      "answer": "Yes, both front and rear tyres are tubeless."
-    },
-    {
-      "question": "What braking system does it have?",
-      "answer": "It comes with disc brakes on both front and rear wheels."
-    },
-    {
-      "question": "Is the fuel tank capacity enough for city and highway rides?",
-      "answer": "Yes, with 12 liters capacity, it offers good range for daily commuting and weekend trips."
-    }
-  ]
- },
- {
-  "name": "UM Runner Renegade Sport",
-  "slug": "um-runner-renegade-sport",
-  "brand": "UM",
-  "category": "Sport",
-  "cc": 149,
-  "price": "Tk. 255,000",
-  "short_description": "UM Runner Renegade Sport is a sporty 149cc motorcycle delivering agile performance and aggressive styling for riders seeking excitement and style.",
-  "Zero_Sixty": "7.0 sec",
-  "Zero_Hundred": "N/A",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "44 kmpl",
-  "mileage_reported": "40-44 kmpl",
-  "top_speed_claimed": "115 km/h",
-  "top_speed_reported": "110-115 km/h",
-  "braking": "Front Disc, Rear Disc",
-  "gear": "5-speed manual",
-  "weight": "138 kg",
-  "max_power": "13 PS @ 8500 rpm",
-  "max_torque": "11.7 Nm @ 6500 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Air Cooled",
-  "front_brake": "Disc",
-  "rear_brake": "Disc",
-  "caliper": {
-    "front": "Single-piston",
-    "rear": "Single-piston"
-  },
-  "tyre_type": "Tubeless",
-  "front_tyre_size": "90/90-19",
-  "rear_tyre_size": "120/80-18",
-  "wheel_type": "Alloy",
-  "fuel_tank_capacity": "12 L",
-  "headlight_type": "LED",
-  "tail_light_type": "LED",
-  "projector_headlamp": false,
-  "drls": true,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": false,
-  "display": "Digital",
-  "seat_height": "740 mm",
-  "ground_clearance": "165 mm",
-  "overall_length": "2100 mm",
-  "overall_width": "820 mm",
-  "build_quality": "Sporty build with aggressive styling and good ergonomics",
-  "parts_availability": "Good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/um-runner-renegade-sport-front.webp",
-      "alt": "UM Runner Renegade Sport Front View"
-    },
-    {
-      "url": "https://cdn.example.com/um-runner-renegade-sport-side.webp",
-      "alt": "UM Runner Renegade Sport Side View"
-    }
-  ],
-  "pros": [
-    "Sporty design and styling",
-    "Disc brakes on both wheels",
-    "Tubeless tyres front and rear",
-    "Good power and acceleration",
-    "Comfortable riding posture"
-  ],
-  "cons": [
-    "No advanced electronic aids",
-    "Relatively heavy for a sport bike",
-    "No quickshifter or traction control",
-    "Basic digital instrument cluster",
-    "Moderate parts availability"
-  ],
-  "faqs": [
-    {
-      "question": "Is UM Runner Renegade Sport suitable for daily city rides?",
-      "answer": "Yes, it offers good performance and comfortable ergonomics for urban commuting."
-    },
-    {
-      "question": "Does it come with tubeless tyres?",
-      "answer": "Yes, both front and rear tyres are tubeless."
-    },
-    {
-      "question": "What braking system does it use?",
-      "answer": "It has disc brakes on both front and rear wheels."
-    },
-    {
-      "question": "Is the fuel tank capacity sufficient for longer rides?",
-      "answer": "Yes, the 12-liter tank provides a good range for city and highway use."
-    }
-  ]
- },
- {
-  "name": "UM Runner Xtreet R 150",
-  "slug": "um-runner-xtreet-r-150",
-  "brand": "UM",
-  "category": "Commuter",
-  "cc": 149,
-  "price": "Tk. 130,000",
-  "short_description": "UM Runner Xtreet R 150 is a budget-friendly 149cc commuter motorcycle offering reliable performance and practical features for daily riding.",
-  "Zero_Sixty": "8.8 sec",
-  "Zero_Hundred": "N/A",
-  "engine_cooling": "Air Cooled",
-  "mileage_claimed": "48 kmpl",
-  "mileage_reported": "45-48 kmpl",
-  "top_speed_claimed": "105 km/h",
-  "top_speed_reported": "100-105 km/h",
-  "braking": "Front Disc, Rear Drum",
-  "gear": "5-speed manual",
-  "weight": "130 kg",
-  "max_power": "11.5 PS @ 8500 rpm",
-  "max_torque": "11 Nm @ 6500 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Air Cooled",
-  "front_brake": "Disc",
-  "rear_brake": "Drum",
-  "caliper": {
-    "front": "Single-piston",
-    "rear": "N/A (Drum)"
-  },
-  "tyre_type": "Tube",
-  "front_tyre_size": "90/90-17",
-  "rear_tyre_size": "110/90-17",
-  "wheel_type": "Alloy",
-  "fuel_tank_capacity": "12 L",
-  "headlight_type": "Halogen",
-  "tail_light_type": "Bulb",
-  "projector_headlamp": false,
-  "drls": false,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": false,
-  "display": "Analog-Digital",
-  "seat_height": "780 mm",
-  "ground_clearance": "165 mm",
-  "overall_length": "2050 mm",
-  "overall_width": "740 mm",
-  "build_quality": "Solid build for everyday commuting with decent ergonomics",
-  "parts_availability": "Good",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/um-runner-xtreet-r-150-front.webp",
-      "alt": "UM Runner Xtreet R 150 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/um-runner-xtreet-r-150-side.webp",
-      "alt": "UM Runner Xtreet R 150 Side View"
-    }
-  ],
-  "pros": [
-    "Affordable price for 150cc segment",
-    "Front disc brake for improved safety",
-    "Good fuel efficiency",
-    "Comfortable riding posture",
-    "Attractive design and alloy wheels"
-  ],
-  "cons": [
-    "Rear drum brake instead of disc",
-    "Basic halogen lighting",
-    "No tubeless tyres",
-    "No advanced electronics",
-    "Standard analog-digital display"
-  ],
-  "faqs": [
-    {
-      "question": "Is UM Runner Xtreet R 150 good for daily commuting?",
-      "answer": "Yes, it offers reliable performance and comfort for daily city rides."
-    },
-    {
-      "question": "Does it have tubeless tyres?",
-      "answer": "No, it uses tube-type tyres on both wheels."
-    },
-    {
-      "question": "What kind of brakes does it have?",
-      "answer": "It has a front disc brake and rear drum brake."
-    },
-    {
-      "question": "Is electric start available?",
-      "answer": "Yes, it has both electric and kick start options."
-    }
-  ]
  }
+ 
 ]
 
 

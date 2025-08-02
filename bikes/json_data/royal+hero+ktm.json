@@ -269,66 +269,97 @@
     }
    ]
   },
-  {
-    "name": "Royal Enfield Meteor 350",
-    "slug": "royal-enfield-meteor-350",
-    "brand": "Royal Enfield",
-    "category": "Cruiser",
-    "cc": 349,
-    "price": "Tk. 375,000",
-    "description": "The Royal Enfield Meteor 350 represents the modern evolution of the 350cc lineup, combining classic cruiser styling with contemporary features. Its air-cooled engine is tuned for relaxed cruising, while features like the Tripper navigation pod, LED lighting, and adjustable suspension offer modern convenience. The comfortable riding position, spacious seat, and improved vibration control make it ideal for both city commuting and highway touring. With its distinctive styling and improved refinement, the Meteor bridges Royal Enfield's heritage with modern expectations.",
-    "engine_type": "Single cylinder, 4-stroke, air-cooled",
-    "max_power": "20.2 bhp @ 6100 rpm",
-    "max_torque": "27 Nm @ 4000 rpm",
-    "transmission": "5-speed constant mesh",
-    "braking_system": "Front 300mm disc, Rear 270mm disc (with dual-channel ABS)",
-    "suspension": "Front telescopic forks, Rear adjustable twin shock absorbers",
-    "tire_size": "Front 100/90-19, Rear 140/70-17",
-    "dimensions": "2160mm x 850mm x 1110mm (LxWxH)",
-    "seat_height": "765 mm",
-    "ground_clearance": "170 mm",
-    "fuel_capacity": "15 liters",
-    "weight": "191 kg",
-    "features": [
-      "Tripper navigation system",
-      "Full LED lighting",
-      "Digital-analog instrument cluster",
-      "Adjustable rear suspension",
-      "USB charging port"
-    ],
-    "pros": [
-      "Most refined RE 350 engine",
-      "Excellent touring comfort",
-      "Modern features",
-      "Good fuel range",
-      "Smooth power delivery"
-    ],
-    "cons": [
-      "Heavy weight",
-      "Limited ground clearance",
-      "Premium pricing",
-      "Basic front suspension",
-      "Not as agile as lighter bikes"
-    ],
-    "faqs": [
-      {
-        "question": "What's special about the Tripper navigation?",
-        "answer": "It's a Bluetooth-connected pod that provides turn-by-turn navigation via your smartphone."
-      },
-      {
-        "question": "Is the Meteor good for two-up riding?",
-        "answer": "Yes, its comfortable seat and relaxed ergonomics work well for passenger comfort."
-      },
-      {
-        "question": "What's the service interval?",
-        "answer": "First service at 500km, then every 5000km or 6 months."
-      },
-      {
-        "question": "How does it compare to Classic 350?",
-        "answer": "The Meteor offers more modern features, better refinement, and touring comfort compared to the more traditional Classic."
-      }
-    ]
+ {
+  "name": "Royal Enfield Meteor 350",
+  "slug": "royal-enfield-meteor-350",
+  "brand": "Royal Enfield",
+  "category": "Cruiser",
+  "cc": 349,
+  "price": "Tk. 4,25,000",
+  "short_description": "Royal Enfield Meteor 350 is a stylish 349cc cruiser designed for long-distance comfort, featuring a modern Tripper navigation system and smooth ride dynamics.",
+  "Zero_Sixty": "6.8 sec",
+  "Zero_Hundred": "14.3 sec",
+  "engine_cooling": "Air-Oil Cooled",
+  "mileage_claimed": "41 kmpl",
+  "mileage_reported": "35-38 kmpl",
+  "top_speed_claimed": "120 km/h",
+  "top_speed_reported": "113 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "5-speed manual",
+  "weight": "191 kg",
+  "max_power": "20.4 PS @ 6100 rpm",
+  "max_torque": "27 Nm @ 4000 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air-Oil Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "270 mm Disc",
+  "caliper": {
+    "front": "Twin-piston",
+    "rear": "Single-piston"
   },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "100/90-19",
+  "rear_tyre_size": "140/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "15 L",
+  "headlight_type": "Halogen",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": true,
+  "display": "Semi-Digital Console with Tripper Navigation",
+  "seat_height": "765 mm",
+  "ground_clearance": "170 mm",
+  "overall_length": "2140 mm",
+  "overall_width": "845 mm",
+  "build_quality": "Modern premium cruiser",
+  "parts_availability": "Very Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/royal-enfield-meteor350-front.webp",
+      "alt": "Royal Enfield Meteor 350 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/royal-enfield-meteor350-side.webp",
+      "alt": "Royal Enfield Meteor 350 Side View"
+    }
+  ],
+  "pros": [
+    "Smooth and refined engine",
+    "Tripper navigation system",
+    "Excellent ride comfort",
+    "Premium cruiser styling",
+    "Tubeless tyres with alloy wheels"
+  ],
+  "cons": [
+    "Slight vibrations at high RPM",
+    "Halogen headlamp instead of LED",
+    "Moderate acceleration",
+    "No slipper clutch",
+    "Limited cornering clearance"
+  ],
+  "faqs": [
+    {
+      "question": "Is the Meteor 350 suitable for long tours?",
+      "answer": "Yes, it's built for long-distance cruising with a comfortable seat and stable ride."
+    },
+    {
+      "question": "Does it have navigation support?",
+      "answer": "Yes, it features Royal Enfield's Tripper navigation system powered by Google Maps."
+    },
+    {
+      "question": "What is the seat height of Meteor 350?",
+      "answer": "It has a low seat height of 765 mm, suitable for most riders."
+    },
+    {
+      "question": "Is Bluetooth available in the Meteor 350?",
+      "answer": "Yes, Bluetooth is available for navigation and smartphone connectivity."
+    }
+  ]
+}
+,
 
   {
      "name": "Hero Glamour",
@@ -1668,95 +1699,7 @@
     }
   ]
 },
-{
-  "name": "Hero Karizma XMR 210",
-  "slug": "hero-karizma-xmr-210",
-  "brand": "Hero",
-  "category": "Sports",
-  "cc": 210,
-  "price": "Tk. 4,99,990",
-  "short_description": "The Hero Karizma XMR 210 is a powerful 210cc sports bike combining aggressive styling, advanced features, and strong performance for enthusiasts.",
-  "Zero_Sixty": "3.8 sec",
-  "Zero_Hundred": "10.5 sec",
-  "engine_cooling": "Liquid Cooled",
-  "mileage_claimed": "40 kmpl",
-  "mileage_reported": "36-42 kmpl",
-  "top_speed_claimed": "135 km/h",
-  "top_speed_reported": "125-130 km/h",
-  "braking": "Front & Rear Disc with ABS",
-  "gear": "6-speed manual",
-  "weight": "145 kg",
-  "max_power": "20.7 PS @ 9000 rpm",
-  "max_torque": "18 Nm @ 7000 rpm",
-  "clutch": "Wet multi-plate",
-  "cooling_system": "Liquid Cooled",
-  "front_brake": "276 mm Disc",
-  "rear_brake": "220 mm Disc",
-  "caliper": {
-    "front": "4-piston",
-    "rear": "Single-piston"
-  },
-  "tyre_type": "Tubeless",
-  "front_tyre_size": "90/90-17",
-  "rear_tyre_size": "120/80-17",
-  "wheel_type": "Alloy",
-  "fuel_tank_capacity": "11 L",
-  "headlight_type": "LED Projector",
-  "tail_light_type": "LED",
-  "projector_headlamp": true,
-  "drls": true,
-  "quickshifter": false,
-  "traction_control": false,
-  "bluetooth_connectivity": true,
-  "display": "Fully Digital LCD",
-  "seat_height": "800 mm",
-  "ground_clearance": "170 mm",
-  "overall_length": "2020 mm",
-  "overall_width": "780 mm",
-  "build_quality": "Robust sports build with aerodynamic design",
-  "parts_availability": "Available but limited in some areas",
-  "image_urls": [
-    {
-      "url": "https://cdn.example.com/hero-karizma-xmr-210-front.webp",
-      "alt": "Hero Karizma XMR 210 Front View"
-    },
-    {
-      "url": "https://cdn.example.com/hero-karizma-xmr-210-side.webp",
-      "alt": "Hero Karizma XMR 210 Side Look"
-    }
-  ],
-  "pros": [
-    "Powerful 210cc liquid cooled engine",
-    "Aggressive sport styling",
-    "Full LED lighting with projector headlamp",
-    "Disc brakes with ABS on both ends",
-    "Digital display with Bluetooth connectivity"
-  ],
-  "cons": [
-    "Relatively higher price",
-    "Slightly heavier than competitors",
-    "Limited parts availability in some areas",
-    "No quickshifter or traction control"
-  ],
-  "faqs": [
-    {
-      "question": "Does the Karizma XMR 210 come with ABS?",
-      "answer": "Yes, it has front and rear disc brakes with ABS."
-    },
-    {
-      "question": "Is the headlight projector type?",
-      "answer": "Yes, it features a LED projector headlamp."
-    },
-    {
-      "question": "Does it have Bluetooth connectivity?",
-      "answer": "Yes, the digital display supports Bluetooth pairing."
-    },
-    {
-      "question": "Is this bike suitable for sport riding?",
-      "answer": "Absolutely, it is designed for sporty performance and aggressive riding."
-    }
-  ]
-},
+
 {
   "name": "Hero Maestro Edge",
   "slug": "hero-maestro-edge",
@@ -3453,6 +3396,96 @@
       }
     ]
   },
+{
+  "name": "Hero Hunk 150R Xtec",
+  "slug": "hero-hunk-150r-xtec",
+  "brand": "Hero",
+  "category": "Naked",
+  "cc": 149.2,
+  "price": "Tk. 1,97,000",
+  "short_description": "Hero Hunk 150R Xtec is a sporty 149cc commuter with a bold design, LED lighting, digital console, and dual disc brakes for better urban performance.",
+  "Zero_Sixty": "5.1 sec",
+  "Zero_Hundred": "13.2 sec",
+  "engine_cooling": "Air Cooled",
+  "mileage_claimed": "50 kmpl",
+  "mileage_reported": "42-48 kmpl",
+  "top_speed_claimed": "115 km/h",
+  "top_speed_reported": "110 km/h",
+  "braking": "Front Disc, Rear Disc (optional)",
+  "gear": "5-speed manual",
+  "weight": "148 kg",
+  "max_power": "14.2 PS @ 8500 rpm",
+  "max_torque": "12.6 Nm @ 6500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Air Cooled",
+  "front_brake": "276 mm Disc",
+  "rear_brake": "220 mm Disc",
+  "caliper": {
+    "front": "Twin-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "100/80-17",
+  "rear_tyre_size": "130/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12.4 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": true,
+  "display": "Fully Digital LCD Console with Bluetooth",
+  "seat_height": "790 mm",
+  "ground_clearance": "163 mm",
+  "overall_length": "2062 mm",
+  "overall_width": "778 mm",
+  "build_quality": "Urban aggressive",
+  "parts_availability": "Good",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/hero-hunk-150r-xtec-front.webp",
+      "alt": "Hero Hunk 150R Xtec Front View"
+    },
+    {
+      "url": "https://cdn.example.com/hero-hunk-150r-xtec-side.webp",
+      "alt": "Hero Hunk 150R Xtec Side View"
+    }
+  ],
+  "pros": [
+    "Stylish and aggressive design",
+    "Dual disc brakes for better safety",
+    "Bluetooth-enabled digital console",
+    "LED headlamp and DRLs",
+    "Reliable mileage in city traffic"
+  ],
+  "cons": [
+    "Slight engine vibration at high rpm",
+    "No slipper clutch",
+    "Average highway performance",
+    "Not ideal for tall riders",
+    "Build quality could be improved"
+  ],
+  "faqs": [
+    {
+      "question": "Does the Hunk 150R Xtec have ABS?",
+      "answer": "It features Combined Braking System (CBS), but not ABS."
+    },
+    {
+      "question": "Is Bluetooth available?",
+      "answer": "Yes, the Xtec variant has Bluetooth for call and SMS alerts."
+    },
+    {
+      "question": "Is the bike good for beginners?",
+      "answer": "Yes, it's lightweight and easy to handle for city commuting."
+    },
+    {
+      "question": "Can it be used for daily office rides?",
+      "answer": "Absolutely, it offers good mileage and comfort for regular use."
+    }
+  ]
+},
 
   {
     "name": "KTM 125 Duke",
@@ -3539,91 +3572,7 @@
       }
     ]
   },
-  {
-    "name": "KTM 125 Duke Special",
-    "slug": "ktm-125-duke-special",
-    "brand": "KTM",
-    "category": "Naked Bike",
-    "cc": 125,
-    "price": "Tk. 605,000",
-    "short_description": "The KTM 125 Duke Special Edition offers exclusive graphics, premium components, and enhanced features over the standard Duke, making it the most premium 125cc offering.",
-    "Zero_Sixty": "7.5 sec",
-    "Zero_Hundred": "Not Specified",
-    "engine_cooling": "Liquid Cooled",
-    "mileage_claimed": "40 kmpl",
-    "mileage_reported": "35-38 kmpl",
-    "top_speed_claimed": "120 km/h",
-    "top_speed_reported": "115 km/h",
-    "braking": "Front Disc / Rear Disc (ABS)",
-    "gear": "6-speed manual",
-    "weight": "137 kg",
-    "max_power": "14.5 PS @ 9250 rpm",
-    "max_torque": "12 Nm @ 8000 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Liquid Cooled",
-    "front_brake": "300 mm Disc",
-    "rear_brake": "230 mm Disc",
-    "caliper": {
-      "front": "4-piston radial",
-      "rear": "Single-piston"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "110/70-17",
-    "rear_tyre_size": "150/60-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "13.4 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": true,
-    "traction_control": false,
-    "bluetooth_connectivity": true,
-    "display": "Full-color TFT",
-    "seat_height": "830 mm",
-    "ground_clearance": "185 mm",
-    "overall_length": "2000 mm",
-    "overall_width": "800 mm",
-    "build_quality": "Premium with special finishes",
-    "parts_availability": "Limited due to special edition",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/ktm-125-duke-special-front.webp",
-        "alt": "KTM 125 Duke Special Front View"
-      },
-      {
-        "url": "https://cdn.example.com/ktm-125-duke-special-side.webp",
-        "alt": "KTM 125 Duke Special Side View"
-      }
-    ],
-    "pros": [
-      "Exclusive special edition graphics",
-      "Quick shifter included",
-      "Premium components",
-      "Better resale value",
-      "All features of standard Duke plus extras"
-    ],
-    "cons": [
-      "Very expensive for 125cc",
-      "Limited availability",
-      "Higher maintenance costs",
-      "Not significantly more powerful than standard"
-    ],
-    "faqs": [
-      {
-        "question": "What's special about the Duke Special Edition?",
-        "answer": "It adds quick shifter, special graphics, and premium finishes over the standard model."
-      },
-      {
-        "question": "Is the engine different from standard Duke?",
-        "answer": "No, same 125cc engine but with additional features."
-      },
-      {
-        "question": "Is it worth the extra price?",
-        "answer": "Only if you value the exclusive looks and quick shifter feature."
-      }
-    ]
-  },
+  
   {
     "name": "KTM RC 125",
     "slug": "ktm-rc-125",
@@ -3708,5 +3657,96 @@
         "answer": "Yes, dual-channel ABS comes standard."
       }
     ]
-  }
+  },
+  {
+  "name": "KTM 250 Duke",
+  "slug": "ktm-250-duke",
+  "brand": "KTM",
+  "category": "Naked Sport",
+  "cc": 248.8,
+  "price": "Tk. 6,20,000",
+  "short_description": "KTM 250 Duke is a performance-oriented 250cc naked streetfighter, blending aggressive design, premium components, and sharp handling for spirited riding.",
+  "Zero_Sixty": "3.4 sec",
+  "Zero_Hundred": "8.9 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "35 kmpl",
+  "mileage_reported": "28–32 kmpl",
+  "top_speed_claimed": "140 km/h",
+  "top_speed_reported": "135 km/h",
+  "braking": "Front Disc, Rear Disc with Dual-Channel ABS",
+  "gear": "6-speed manual",
+  "weight": "162 kg",
+  "max_power": "30 PS @ 9000 rpm",
+  "max_torque": "24 Nm @ 7500 rpm",
+  "clutch": "Slipper clutch",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "320 mm Disc",
+  "rear_brake": "230 mm Disc",
+  "caliper": {
+    "front": "Radial 4-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "150/60-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "13.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Fully Digital LCD Console",
+  "seat_height": "822 mm",
+  "ground_clearance": "151 mm",
+  "overall_length": "2072 mm",
+  "overall_width": "831 mm",
+  "build_quality": "Aggressive and premium",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/ktm-250-duke-front.webp",
+      "alt": "KTM 250 Duke Front View"
+    },
+    {
+      "url": "https://cdn.example.com/ktm-250-duke-side.webp",
+      "alt": "KTM 250 Duke Side View"
+    }
+  ],
+  "pros": [
+    "Powerful engine with quick acceleration",
+    "Premium suspension and chassis",
+    "Aggressive and sharp streetfighter design",
+    "Slipper clutch for smooth downshifts",
+    "Dual-channel ABS for safety"
+  ],
+  "cons": [
+    "Slightly high maintenance cost",
+    "Stiff suspension for city roads",
+    "Lacks Bluetooth/TFT display like 390 Duke",
+    "High seat height for shorter riders",
+    "Limited fuel efficiency"
+  ],
+  "faqs": [
+    {
+      "question": "Is the KTM 250 Duke suitable for beginners?",
+      "answer": "It’s better suited for intermediate riders due to its power and aggressive nature."
+    },
+    {
+      "question": "Does it have ABS?",
+      "answer": "Yes, the 250 Duke features dual-channel ABS as standard."
+    },
+    {
+      "question": "Is the slipper clutch standard?",
+      "answer": "Yes, it comes with a slipper clutch for smoother downshifting."
+    },
+    {
+      "question": "What is the mileage in real-world usage?",
+      "answer": "You can expect around 28–32 kmpl depending on riding style."
+    }
+  ]
+}
+
 ]

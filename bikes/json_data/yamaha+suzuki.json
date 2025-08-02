@@ -2236,7 +2236,12 @@
     "overall_width": "685 mm",
     "build_quality": "Premium scooter",
     "parts_availability": "Widely available",
-    ,
+    "image_urls": [
+      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
+      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
+      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
+      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
+    ],
     "pros": [
       "Smooth fuel-injected performance",
       "Good acceleration for scooter (0-60kmph in 6.2s)",
@@ -2739,7 +2744,12 @@
     "overall_width": "785 mm",
     "build_quality": "Premium sports",
     "parts_availability": "Good in urban areas",
-    ,
+    "image_urls": [
+      {"url": "https://cdn.example.com/gsx125-front.webp", "alt": "Suzuki GSX 125 Front View"},
+      {"url": "https://cdn.example.com/gsx125-side.webp", "alt": "Suzuki GSX 125 Side View"},
+      {"url": "https://cdn.example.com/gsx125-rear.webp", "alt": "Suzuki GSX 125 Rear View"},
+      {"url": "https://cdn.example.com/gsx125-back.webp", "alt": "Suzuki GSX 125 Back View"}
+    ],
     "pros": [
       "Exclusive matte finish colors",
       "Quick acceleration (0-60kmph in 4.2s)",

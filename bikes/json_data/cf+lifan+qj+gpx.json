@@ -169,7 +169,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986245/bikes/cfmoto/250-nk/cfmoto-250nk-showroom-view.webp",
           "alt": "250-nk Cfmoto 250Nk Showroom View"
         }
-      ]
+      ],
     "pros": [
       "Lightweight and agile handling",
       "Powerful 250cc liquid-cooled engine",
@@ -204,12 +204,194 @@
     ]
   },
   {
+  "name": "CFMoto 125 NK",
+  "slug": "cfmoto-125-nk",
+  "brand": "CFMoto",
+  "category": "Naked",
+  "cc": 124.7,
+  "price": "Tk. 2,95,000",
+  "short_description": "CFMoto 125 NK is a stylish and well-built entry-level naked street bike that offers sharp handling, modern design, and premium features for new riders.",
+  "Zero_Sixty": "5.6 sec",
+  "Zero_Hundred": "15.2 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "40 kmpl",
+  "mileage_reported": "34–38 kmpl",
+  "top_speed_claimed": "110 km/h",
+  "top_speed_reported": "105 km/h",
+  "braking": "Front Disc, Rear Disc",
+  "gear": "6-speed manual",
+  "weight": "142 kg",
+  "max_power": "12.5 PS @ 9500 rpm",
+  "max_torque": "10.3 Nm @ 7500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "220 mm Disc",
+  "caliper": {
+    "front": "Twin-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "130/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Fully Digital LCD Console",
+  "seat_height": "795 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1990 mm",
+  "overall_width": "780 mm",
+  "build_quality": "Modern and aggressive",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/cfmoto-125-nk-front.webp",
+      "alt": "CFMoto 125 NK Front View"
+    },
+    {
+      "url": "https://cdn.example.com/cfmoto-125-nk-side.webp",
+      "alt": "CFMoto 125 NK Side View"
+    }
+  ],
+  "pros": [
+    "Premium design and street presence",
+    "Smooth liquid-cooled engine",
+    "6-speed gearbox in 125cc category",
+    "LED lighting and digital display",
+    "Great beginner bike with stable handling"
+  ],
+  "cons": [
+    "Parts availability is limited",
+    "Not the most fuel efficient in class",
+    "No ABS offered",
+    "Limited brand service network",
+    "Low torque at lower RPMs"
+  ],
+  "faqs": [
+    {
+      "question": "Is the CFMoto 125 NK good for beginners?",
+      "answer": "Yes, it’s lightweight, easy to handle, and perfect for new riders."
+    },
+    {
+      "question": "Does the 125 NK have ABS?",
+      "answer": "No, it does not come with ABS, but it has disc brakes at both ends."
+    },
+    {
+      "question": "What is the real-world mileage?",
+      "answer": "You can expect 34–38 kmpl depending on your riding style."
+    },
+    {
+      "question": "Can I use it for daily commuting?",
+      "answer": "Absolutely. Its upright posture and smooth engine make it great for daily use."
+    }
+  ]
+},
+{
+  "name": "CFMoto 300 NK",
+  "slug": "cfmoto-300-nk",
+  "brand": "CFMoto",
+  "category": "Naked Sport",
+  "cc": 292.4,
+  "price": "Tk. 4,45,000",
+  "short_description": "CFMoto 300 NK is a sharp and aggressive 300cc naked streetfighter that offers excellent value with premium features, liquid-cooled engine, and modern styling.",
+  "Zero_Sixty": "3.2 sec",
+  "Zero_Hundred": "8.4 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "33 kmpl",
+  "mileage_reported": "28–32 kmpl",
+  "top_speed_claimed": "139 km/h",
+  "top_speed_reported": "134 km/h",
+  "braking": "Front Disc, Rear Disc with Dual-Channel ABS",
+  "gear": "6-speed manual",
+  "weight": "151 kg",
+  "max_power": "27.4 PS @ 8750 rpm",
+  "max_torque": "25 Nm @ 7000 rpm",
+  "clutch": "Slipper Clutch",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "245 mm Disc",
+  "caliper": {
+    "front": "Twin-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "110/70-17",
+  "rear_tyre_size": "140/60-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Full-color TFT Display",
+  "seat_height": "795 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "1990 mm",
+  "overall_width": "780 mm",
+  "build_quality": "Aggressive streetfighter with modern finishes",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/cfmoto-300-nk-front.webp",
+      "alt": "CFMoto 300 NK Front View"
+    },
+    {
+      "url": "https://cdn.example.com/cfmoto-300-nk-side.webp",
+      "alt": "CFMoto 300 NK Side View"
+    }
+  ],
+  "pros": [
+    "Modern design with aggressive styling",
+    "Slipper clutch and dual-channel ABS",
+    "Full-color TFT display",
+    "Great value for a 300cc bike",
+    "Lightweight and agile handling"
+  ],
+  "cons": [
+    "Limited service network",
+    "Less brand recognition",
+    "Hard seat for long rides",
+    "Not suitable for touring",
+    "Low resale value"
+  ],
+  "faqs": [
+    {
+      "question": "Does the CFMoto 300 NK come with ABS?",
+      "answer": "Yes, it features dual-channel ABS as standard for safety."
+    },
+    {
+      "question": "Is the 300 NK comfortable for daily commuting?",
+      "answer": "It’s good for short to medium commutes, but the seat is a bit stiff for long rides."
+    },
+    {
+      "question": "What type of display does it have?",
+      "answer": "It comes with a full-color TFT display with ride stats and indicators."
+    },
+    {
+      "question": "Is it a good bike for beginners?",
+      "answer": "It’s suitable for confident beginners due to its power and handling, though new riders should be cautious."
+    }
+  ]
+},
+
+
+  {
     "name": "CFMoto 250SR",
     "slug": "cfmoto-250sr",
     "brand": "CFMoto",
     "category": "Sport",
     "cc": 249,
-    "price": "Tk. 399,000",
+    "price": "Tk. 388,000",
     "short_description": "CFMoto 250SR - A full-faired 249cc sports bike with aggressive styling, track-inspired ergonomics, and spirited performance.",
     "Zero_Sixty": "5.2 sec",
     "Zero_Hundred": "12.5 sec",
@@ -489,96 +671,7 @@
       }
     ]
   },
-  {
-    "name": "CFMoto 230 Dual",
-    "slug": "cfmoto-230-dual",
-    "brand": "CFMoto",
-    "category": "Dual-Sport",
-    "cc": 229,
-    "price": "Tk. 320,000",
-    "short_description": "CFMoto 230 Dual - A 229cc dual-sport motorcycle with rugged styling, long-travel suspension, and versatile performance for both on-road and light off-road use.",
-    "Zero_Sixty": "8.2 sec",
-    "Zero_Hundred": "N/A",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "40 kmpl",
-    "mileage_reported": "35-38 kmpl",
-    "top_speed_claimed": "115 km/h",
-    "top_speed_reported": "110 km/h",
-    "braking": "Front Disc, Rear Disc",
-    "gear": "5-speed manual",
-    "weight": "145 kg",
-    "max_power": "19.5 PS @ 7500 rpm",
-    "max_torque": "18 Nm @ 6000 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "240 mm Disc",
-    "rear_brake": "220 mm Disc",
-    "caliper": {
-      "front": "Single-piston",
-      "rear": "Single-piston"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "90/90-21",
-    "rear_tyre_size": "120/80-18",
-    "wheel_type": "Spoke",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital LCD",
-    "seat_height": "850 mm",
-    "ground_clearance": "250 mm",
-    "overall_length": "2150 mm",
-    "overall_width": "850 mm",
-    "build_quality": "Rugged dual-sport",
-    "parts_availability": "Good",
-    "image_urls": [
-      {
-        "url": "https://cdn.example.com/cfmoto-230dual-front.webp",
-        "alt": "CFMoto 230 Dual Front View"
-      },
-      {
-        "url": "https://cdn.example.com/cfmoto-230dual-side.webp",
-        "alt": "CFMoto 230 Dual Side View"
-      }
-    ],
-    "pros": [
-      "Excellent ground clearance",
-      "Comfortable upright riding position",
-      "Good off-road capability",
-      "Lightweight for a dual-sport",
-      "Large fuel tank for adventure"
-    ],
-    "cons": [
-      "Tall seat height may challenge shorter riders",
-      "Basic instrumentation",
-      "No ABS option",
-      "Vibrations at high speed",
-      "Limited power for highway"
-    ],
-    "faqs": [
-      {
-        "question": "Is it suitable for off-road?",
-        "answer": "Yes, with its long-travel suspension, high ground clearance, and knobby tires, it's capable of light to moderate off-roading."
-      },
-      {
-        "question": "Does it have ABS?",
-        "answer": "No, it comes without ABS for better off-road control."
-      },
-      {
-        "question": "What's the service interval?",
-        "answer": "Recommended service every 3,000 km or 3 months, especially after off-road use."
-      },
-      {
-        "question": "Is it suitable for tall riders?",
-        "answer": "Yes, the 850mm seat height and upright ergonomics accommodate tall riders well."
-      }
-    ]
-  },
+  
   {
   "name": "KPV 150 RACE",
   "slug": "kpv-150-race",
@@ -683,161 +776,13 @@
   },
 
   {
-    "name": "Lifan 150T-13",
-    "slug": "lifan-150t-13",
-    "brand": "Lifan",
-    "category": "Commuter",
-    "cc": 149.5,
-    "price": "Tk. 175,000",
-    "short_description": "Lifan 150T-13 - A basic 150cc commuter bike with simple design, reliable performance and low maintenance costs.",
-    "Zero_Sixty": "7.8 sec",
-    "Zero_Hundred": "22.5 sec",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "50 kmpl",
-    "mileage_reported": "45-48 kmpl",
-    "top_speed_claimed": "100 km/h",
-    "top_speed_reported": "95 km/h",
-    "braking": "Front Drum, Rear Drum",
-    "gear": "5-speed manual",
-    "weight": "128 kg",
-    "max_power": "12.5 PS @ 8000 rpm",
-    "max_torque": "12.5 Nm @ 6000 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "130 mm Drum",
-    "rear_brake": "110 mm Drum",
-    "caliper": {
-      "front": "None",
-      "rear": "None"
-    },
-    "tyre_type": "Tube",
-    "front_tyre_size": "2.75-18",
-    "rear_tyre_size": "3.00-18",
-    "wheel_type": "Spoke",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "Bulb",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog",
-    "seat_height": "780 mm",
-    "ground_clearance": "170 mm",
-    "overall_length": "2040 mm",
-    "overall_width": "750 mm",
-    "build_quality": "Basic commuter",
-    "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-150t13-front.webp", "alt": "Lifan 150T-13 Front View"},
-      {"url": "https://cdn.example.com/lifan-150t13-side.webp", "alt": "Lifan 150T-13 Side View"},
-      {"url": "https://cdn.example.com/lifan-150t13-rear.webp", "alt": "Lifan 150T-13 Rear View"},
-      {"url": "https://cdn.example.com/lifan-150t13-back.webp", "alt": "Lifan 150T-13 Back View"}
-    ],
-    "pros": [
-      "Affordable pricing",
-      "Simple and reliable",
-      "Good mileage",
-      "Low maintenance costs",
-      "Lightweight"
-    ],
-    "cons": [
-      "Basic drum brakes",
-      "No ABS",
-      "Outdated design",
-      "Tube-type tires",
-      "Limited features"
-    ],
-    "faqs": [
-      {"question": "ABS available?", "answer": "No, only standard drum brakes."},
-      {"question": "Top speed?", "answer": "95kmph (claimed 100kmph)."},
-      {"question": "Service cost?", "answer": "~Tk. 700 per service."},
-      {"question": "Weight capacity?", "answer": "150kg (rider + pillion)."}
-    ]
-  },
-  {
-    "name": "Lifan Blink 125",
-    "slug": "lifan-blink-125",
-    "brand": "Lifan",
-    "category": "Commuter",
-    "cc": 124.6,
-    "price": "Tk. 135,000",
-    "short_description": "Lifan Blink 125 - A stylish 125cc commuter bike with modern design elements, comfortable ergonomics and decent performance.",
-    "Zero_Sixty": "8.5 sec",
-    "Zero_Hundred": "24.0 sec",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "55 kmpl",
-    "mileage_reported": "50-53 kmpl",
-    "top_speed_claimed": "95 km/h",
-    "top_speed_reported": "90 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "5-speed manual",
-    "weight": "125 kg",
-    "max_power": "10.5 PS @ 7500 rpm",
-    "max_torque": "10.5 Nm @ 5500 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "240 mm Disc",
-    "rear_brake": "130 mm Drum",
-    "caliper": {
-      "front": "Single-piston",
-      "rear": "None"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100-17",
-    "rear_tyre_size": "100/90-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog",
-    "seat_height": "780 mm",
-    "ground_clearance": "170 mm",
-    "overall_length": "2020 mm",
-    "overall_width": "760 mm",
-    "build_quality": "Modern commuter",
-    "parts_availability": "Limited service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-blink125-front.webp", "alt": "Lifan Blink 125 Front View"},
-      {"url": "https://cdn.example.com/lifan-blink125-side.webp", "alt": "Lifan Blink 125 Side View"},
-      {"url": "https://cdn.example.com/lifan-blink125-rear.webp", "alt": "Lifan Blink 125 Rear View"},
-      {"url": "https://cdn.example.com/lifan-blink125-back.webp", "alt": "Lifan Blink 125 Back View"}
-    ],
-    "pros": [
-      "Modern styling",
-      "Front disc brake",
-      "Tubeless tires",
-      "Good mileage",
-      "Comfortable ergonomics"
-    ],
-    "cons": [
-      "No ABS",
-      "Basic features",
-      "Average performance",
-      "Small pillion seat",
-      "Limited service network"
-    ],
-    "faqs": [
-      {"question": "ABS available?", "answer": "No, only standard disc/drum brakes."},
-      {"question": "Top speed?", "answer": "90kmph (claimed 95kmph)."},
-      {"question": "Service cost?", "answer": "~Tk. 800 per service."},
-      {"question": "Weight capacity?", "answer": "140kg (rider + pillion)."}
-    ]
-  },
-  {
-    "name": "Lifan K19",
-    "slug": "lifan-k19",
+    "name": "Lifan K19 165",
+    "slug": "lifan-k19-165",
     "brand": "Lifan",
     "category": "Cruiser",
     "cc": 165,
     "price": "Tk. 290,000",
-    "short_description": "Lifan K19 - A stylish 165cc cruiser with classic bobber-inspired design, comfortable riding position and relaxed performance.",
+    "short_description": "Lifan K19 165 - A stylish 165cc cruiser with classic bobber-inspired design, comfortable riding position and relaxed performance.",
     "Zero_Sixty": "7.5 sec",
     "Zero_Hundred": "21.5 sec",
     "engine_cooling": "Air Cooled",
@@ -1358,186 +1303,8 @@
       {"question": "Fuel efficiency?", "answer": "36-39 kmpl in real-world conditions"}
     ]
   },
-  {
-    "name": "Lifan KPR 200 4V",
-    "slug": "lifan-kpr-200-4v",
-    "brand": "Lifan",
-    "category": "Sports Bike",
-    "cc": 200,
-    "price": "Tk. 265,000",
-    "short_description": "Lifan KPR 200 4V - A powerful 200cc 4-valve sports bike with aggressive styling, premium features, and thrilling performance for enthusiast riders.",
-    "Zero_Sixty": "5.8 sec",
-    "Zero_Hundred": "18.0 sec",
-    "engine_cooling": "Oil Cooled",
-    "mileage_claimed": "38 kmpl",
-    "mileage_reported": "32-35 kmpl",
-    "top_speed_claimed": "125 km/h",
-    "top_speed_reported": "120 km/h",
-    "braking": "Front Disc, Rear Disc",
-    "gear": "6-speed manual",
-    "weight": "150 kg",
-    "max_power": "20.5 PS @ 9500 rpm",
-    "max_torque": "16.5 Nm @ 7500 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Oil Cooled",
-    "front_brake": "300 mm Disc",
-    "rear_brake": "220 mm Disc",
-    "caliper": {
-      "front": "Dual-piston",
-      "rear": "Single-piston"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "110/70-17",
-    "rear_tyre_size": "150/60-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "14 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital",
-    "seat_height": "795 mm",
-    "ground_clearance": "175 mm",
-    "overall_length": "2090 mm",
-    "overall_width": "790 mm",
-    "build_quality": "Premium sports bike",
-    "parts_availability": "Limited service network",
-    "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
-        }
-      ],
-    "pros": [
-      "4-valve high-performance engine",
-      "Oil cooling system",
-      "6-speed gearbox",
-      "Premium LED lighting",
-      "Sporty and aggressive design"
-    ],
-    "cons": [
-      "No ABS",
-      "Firm ride quality",
-      "Premium pricing",
-      "Vibrations at high RPM",
-      "Limited service network"
-    ],
-    "faqs": [
-      {"question": "What does 4V mean?", "answer": "4-valve technology for better airflow and performance"},
-      {"question": "Top speed?", "answer": "120kmph (claimed 125kmph)"},
-      {"question": "Service cost?", "answer": "~Tk. 2,000 per service"},
-      {"question": "Is this suitable for touring?", "answer": "Yes, with its 6-speed gearbox and comfortable ergonomics"}
-    ]
-  },
-  {
-    "name": "Lifan KPR150 CBS",
-    "slug": "lifan-kpr150-cbs",
-    "brand": "Lifan",
-    "category": "Sports Bike",
-    "cc": 150,
-    "price": "Tk. 190,000",
-    "short_description": "Lifan KPR150 CBS - A 150cc sports commuter with Combined Braking System for safer stopping, sporty aesthetics, and comfortable ergonomics for daily riding.",
-    "Zero_Sixty": "7.0 sec",
-    "Zero_Hundred": "21.5 sec",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "44 kmpl",
-    "mileage_reported": "38-42 kmpl",
-    "top_speed_claimed": "110 km/h",
-    "top_speed_reported": "105 km/h",
-    "braking": "Front Disc, Rear Drum (CBS)",
-    "gear": "5-speed manual",
-    "weight": "144 kg",
-    "max_power": "14.8 PS @ 8500 rpm",
-    "max_torque": "12.8 Nm @ 6500 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "276 mm Disc",
-    "rear_brake": "130 mm Drum",
-    "caliper": {
-      "front": "Single-piston",
-      "rear": "N/A"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "100/80-17",
-    "rear_tyre_size": "130/70-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "14 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital",
-    "seat_height": "780 mm",
-    "ground_clearance": "160 mm",
-    "overall_length": "2060 mm",
-    "overall_width": "750 mm",
-    "build_quality": "Entry-level sports bike with safety features",
-    "parts_availability": "Limited service network",
-    "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986286/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-back-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986287/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-front-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986288/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-left-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986289/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-right-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986290/bikes/Lifan/Lifan%20KPR%20165R%20carburetor/lifan-kpr-carburetor-showroom-view.webp",
-          "alt": "Lifan KPR 165R carburetor Lifan Kpr Carburetor Showroom View"
-        }
-      ],
-    "pros": [
-      "CBS for safer braking",
-      "Sporty design",
-      "Comfortable ergonomics",
-      "Good fuel efficiency",
-      "Affordable price"
-    ],
-    "cons": [
-      "No ABS",
-      "Basic halogen headlight",
-      "5-speed gearbox",
-      "Vibrations at high RPM",
-      "Small pillion seat"
-    ],
-    "faqs": [
-      {"question": "What is CBS?", "answer": "Combined Braking System that links front and rear brakes for better stopping power"},
-      {"question": "Top speed?", "answer": "105kmph (claimed 110kmph)"},
-      {"question": "Service interval?", "answer": "Every 3000km or 3 months"},
-      {"question": "Weight capacity?", "answer": "140kg (rider + pillion)"}
-    ]
-  },
+  
+  
   {
     "name": "Lifan KPT 150",
     "slug": "lifan-kpt-150",
@@ -1585,7 +1352,7 @@
     "overall_width": "800 mm",
     "build_quality": "Adventure-style build",
     "parts_availability": "Limited service network",
-    ,"image_urls": [
+    "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986291/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-left-view.webp",
           "alt": "Lifan KPT 150 Fi ABS Left View"
@@ -1594,7 +1361,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986292/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-right-view.webp",
           "alt": "Lifan KPT 150 Fi ABS Right View"
         }
-      ]
+      ],
     "pros": [
       "Adventure touring ergonomics",
       "Long-travel suspension",
@@ -1672,7 +1439,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986292/bikes/Lifan/Lifan%20KPT%20150%20Fi%20ABS/lifan-kpt-150-fi-abs-right-view.webp",
           "alt": "Lifan KPT 150 Fi ABS Right View"
         }
-      ]
+      ],
     "pros": [
       "4-valve engine for better performance",
       "6-speed gearbox",
@@ -1964,165 +1731,7 @@
       {"question": "Service cost?", "answer": "~Tk. 2,500 per service"}
     ]
   },
-  {
-    "name": "Lifan Razor 100",
-    "slug": "lifan-razor-100",
-    "brand": "Lifan",
-    "category": "Commuter",
-    "cc": 100,
-    "price": "Tk. 115,000",
-    "short_description": "Lifan Razor 100 - An affordable 100cc commuter bike with rugged styling, fuel-efficient engine, and low maintenance costs for daily city riding.",
-    "Zero_Sixty": "10.5 sec",
-    "Zero_Hundred": "32.0 sec",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "60 kmpl",
-    "mileage_reported": "50-55 kmpl",
-    "top_speed_claimed": "90 km/h",
-    "top_speed_reported": "85 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "4-speed manual",
-    "weight": "110 kg",
-    "max_power": "7.5 PS @ 7500 rpm",
-    "max_torque": "7.8 Nm @ 5500 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "220 mm Disc",
-    "rear_brake": "130 mm Drum",
-    "caliper": {
-      "front": "Single-piston",
-      "rear": "N/A"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "80/100-17",
-    "rear_tyre_size": "90/90-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "12 L",
-    "headlight_type": "Halogen",
-    "tail_light_type": "LED",
-    "projector_headlamp": false,
-    "drls": false,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Analog",
-    "seat_height": "760 mm",
-    "ground_clearance": "170 mm",
-    "overall_length": "1950 mm",
-    "overall_width": "720 mm",
-    "build_quality": "Basic commuter bike",
-    "parts_availability": "Good service network",
-    "image_urls": [
-      {"url": "https://cdn.example.com/lifan-razor100-front.webp", "alt": "Lifan Razor 100 Front View"},
-      {"url": "https://cdn.example.com/lifan-razor100-side.webp", "alt": "Lifan Razor 100 Side View"},
-      {"url": "https://cdn.example.com/lifan-razor100-rear.webp", "alt": "Lifan Razor 100 Rear View"}
-    ],
-    "pros": [
-      "Excellent fuel efficiency",
-      "Affordable price",
-      "Low maintenance costs",
-      "Lightweight and maneuverable",
-      "Decent ground clearance"
-    ],
-    "cons": [
-      "Basic features",
-      "Limited power",
-      "No ABS",
-      "Small wheels",
-      "Basic suspension"
-    ],
-    "faqs": [
-      {"question": "Mileage?", "answer": "50-55kmpl in real world conditions"},
-      {"question": "Top speed?", "answer": "85kmph (claimed 90kmph)"},
-      {"question": "Service cost?", "answer": "~Tk. 800 per service"},
-      {"question": "Weight capacity?", "answer": "120kg (rider + pillion)"}
-    ]
-  },
-  {
-    "name": "Lifan Xpect 150",
-    "slug": "lifan-xpect-150",
-    "brand": "Lifan",
-    "category": "Adventure Tourer",
-    "cc": 150,
-    "price": "Tk. 275,000",
-    "short_description": "Lifan Xpect 150 - A versatile 150cc adventure-styled motorcycle with long-travel suspension, upright ergonomics, and touring capabilities for Bangladeshi roads.",
-    "Zero_Sixty": "8.0 sec",
-    "Zero_Hundred": "24.0 sec",
-    "engine_cooling": "Air Cooled",
-    "mileage_claimed": "42 kmpl",
-    "mileage_reported": "36-40 kmpl",
-    "top_speed_claimed": "105 km/h",
-    "top_speed_reported": "100 km/h",
-    "braking": "Front Disc, Rear Drum",
-    "gear": "5-speed manual",
-    "weight": "150 kg",
-    "max_power": "13.5 PS @ 8000 rpm",
-    "max_torque": "11.5 Nm @ 6000 rpm",
-    "clutch": "Wet multi-plate",
-    "cooling_system": "Air Cooled",
-    "front_brake": "276 mm Disc",
-    "rear_brake": "130 mm Drum",
-    "caliper": {
-      "front": "Single-piston",
-      "rear": "N/A"
-    },
-    "tyre_type": "Tubeless",
-    "front_tyre_size": "100/80-17",
-    "rear_tyre_size": "130/70-17",
-    "wheel_type": "Alloy",
-    "fuel_tank_capacity": "14 L",
-    "headlight_type": "LED",
-    "tail_light_type": "LED",
-    "projector_headlamp": true,
-    "drls": true,
-    "quickshifter": false,
-    "traction_control": false,
-    "bluetooth_connectivity": false,
-    "display": "Digital",
-    "seat_height": "800 mm",
-    "ground_clearance": "180 mm",
-    "overall_length": "2100 mm",
-    "overall_width": "780 mm",
-    "build_quality": "Adventure-styled commuter",
-    "parts_availability": "Limited service network",
-    "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986312/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-left-view-orange.webp",
-          "alt": "Lifan Xpect 150 Left View Orange"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986313/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-left-view-red.webp",
-          "alt": "Lifan Xpect 150 Left View Red"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986317/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-right-view-orange.webp",
-          "alt": "Lifan Xpect 150 Right View Orange"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986318/bikes/Lifan/Lifan%20Xpect%20150/lifan-xpect-150-right-view-red.webp",
-          "alt": "Lifan Xpect 150 Right View Red"
-        }
-      ],
-    "pros": [
-      "Adventure styling",
-      "Comfortable upright position",
-      "Good ground clearance",
-      "LED lighting",
-      "Balanced performance"
-    ],
-    "cons": [
-      "No ABS",
-      "Basic instrument cluster",
-      "Limited power for highway",
-      "5-speed gearbox",
-      "Small fuel tank"
-    ],
-    "faqs": [
-      {"question": "Is this suitable for off-road?", "answer": "Light off-road only, primarily for bad roads"},
-      {"question": "Top speed?", "answer": "100kmph (claimed 105kmph)"},
-      {"question": "Service interval?", "answer": "Every 3000km or 3 months"},
-      {"question": "Weight capacity?", "answer": "150kg (rider + pillion)"}
-    ]
-  },
+ 
   
   {
     "name": "QJ Motor X Rider SRV 160",
@@ -2210,6 +1819,97 @@
       {"question": "Weight capacity?", "answer": "150kg (rider + pillion)."}
     ]
   },
+  {
+  "name": "QJ Motor SRK 180",
+  "slug": "qj-motor-srk-180",
+  "brand": "QJ Motor",
+  "category": "Naked Sport",
+  "cc": 175.3,
+  "price": "Tk. 2,55,000",
+  "short_description": "QJ Motor SRK 180 is a sporty and stylish 175cc naked street bike, featuring bold design, aggressive stance, and advanced features at an affordable price point.",
+  "Zero_Sixty": "4.9 sec",
+  "Zero_Hundred": "12.8 sec",
+  "engine_cooling": "Liquid Cooled",
+  "mileage_claimed": "42 kmpl",
+  "mileage_reported": "36–40 kmpl",
+  "top_speed_claimed": "125 km/h",
+  "top_speed_reported": "120 km/h",
+  "braking": "Front Disc, Rear Disc with CBS",
+  "gear": "6-speed manual",
+  "weight": "156 kg",
+  "max_power": "17.7 PS @ 9000 rpm",
+  "max_torque": "15 Nm @ 7500 rpm",
+  "clutch": "Wet multi-plate",
+  "cooling_system": "Liquid Cooled",
+  "front_brake": "300 mm Disc",
+  "rear_brake": "230 mm Disc",
+  "caliper": {
+    "front": "Twin-piston",
+    "rear": "Single-piston"
+  },
+  "tyre_type": "Tubeless",
+  "front_tyre_size": "100/80-17",
+  "rear_tyre_size": "130/70-17",
+  "wheel_type": "Alloy",
+  "fuel_tank_capacity": "12.5 L",
+  "headlight_type": "LED",
+  "tail_light_type": "LED",
+  "projector_headlamp": false,
+  "drls": true,
+  "quickshifter": false,
+  "traction_control": false,
+  "bluetooth_connectivity": false,
+  "display": "Fully Digital LCD Console",
+  "seat_height": "780 mm",
+  "ground_clearance": "150 mm",
+  "overall_length": "2030 mm",
+  "overall_width": "800 mm",
+  "build_quality": "Premium Chinese engineering",
+  "parts_availability": "Moderate",
+  "image_urls": [
+    {
+      "url": "https://cdn.example.com/qj-srk-180-front.webp",
+      "alt": "QJ Motor SRK 180 Front View"
+    },
+    {
+      "url": "https://cdn.example.com/qj-srk-180-side.webp",
+      "alt": "QJ Motor SRK 180 Side View"
+    }
+  ],
+  "pros": [
+    "Bold and muscular design",
+    "Smooth liquid-cooled engine",
+    "6-speed gearbox for better performance",
+    "All-LED lighting setup",
+    "Stable handling and braking"
+  ],
+  "cons": [
+    "Relatively new brand in Bangladesh",
+    "Limited service centers",
+    "Heavy for a 180cc bike",
+    "No ABS, only CBS",
+    "Low resale value due to brand awareness"
+  ],
+  "faqs": [
+    {
+      "question": "Is QJ SRK 180 a Chinese brand?",
+      "answer": "Yes, QJ Motor is a Chinese motorcycle manufacturer known for quality builds and is also the parent of Benelli."
+    },
+    {
+      "question": "Does it come with ABS?",
+      "answer": "No, the SRK 180 has a Combined Braking System (CBS), not ABS."
+    },
+    {
+      "question": "What is the real mileage of SRK 180?",
+      "answer": "Real-world mileage ranges from 36 to 40 kmpl depending on riding habits."
+    },
+    {
+      "question": "Is it suitable for beginners?",
+      "answer": "Yes, it’s a good option for new riders looking for a stylish and stable 180cc bike."
+    }
+  ]
+},
+
 
   {
     "name": "GPX Demon GR165R",
