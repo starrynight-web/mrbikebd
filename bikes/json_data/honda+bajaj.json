@@ -210,7 +210,6 @@
     "overall_width": "685 mm",
     "build_quality": "Premium sportbike",
     "parts_availability": "Good in major cities",
-    ,
     "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926263/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-back-view.webp",
@@ -232,7 +231,8 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-showroom-view.webp",
           "alt": "honda cbr 150 r Honda Cbr 150R Showroom View"
         }
-      ]"pros": [
+      ],
+      "pros": [
       "Sporty fully-faired design",
       "Liquid-cooled engine",
       "Dual-channel ABS",
@@ -2018,7 +2018,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
           "alt": "Bajaj Pulsar 150 SD Showroom View"
         }
-      ]
+      ],
     "pros": [
       "Single-channel ABS safety",
       "Iconic Pulsar design",
@@ -2558,13 +2558,14 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
           "alt": "Bajaj Pulsar NS 125 Showroom View"
         }
-      ] "pros": [
+      ],
+      "pros": [
       "Sporty NS design",
       "Good performance for 125cc",
       "LED tail light",
       "Comfortable ergonomics",
       "Tubeless tires"
-    ],
+     ],
     "cons": [
       "No ABS",
       "Basic halogen headlight",
@@ -2647,7 +2648,8 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
           "alt": "Bajaj Pulsar NS 125 Showroom View"
         }
-      ] "pros": [
+      ],
+       "pros": [
       "Fuel-injected engine",
       "Single-channel ABS",
       "Sporty NS design",
