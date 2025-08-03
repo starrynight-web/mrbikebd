@@ -247,7 +247,8 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926266/bikes/honda/honda%20cbr%20150%20r/honda-cbr-150r-showroom-view.webp",
           "alt": "honda cbr 150 r Honda Cbr 150R Showroom View"
         }
-      ]"pros": [
+      ],
+      "pros": [
       "Sporty fully-faired design",
       "Liquid-cooled engine",
       "Dual-channel ABS",
@@ -1384,24 +1385,7 @@
   },
   "zero_sixty": "5.7 sec",
   "zero_hundred": "14.0 sec",
- "image_urls": [
-    {
-      "url": "https://i.ibb.co/Jp3wbxG/honda-cb150r-exmotion-front.jpg",
-      "alt": "Honda CB150R Exmotion Front View"
-    },
-    {
-      "url": "https://i.ibb.co/2MhKsmx/honda-cb150r-exmotion-side.jpg",
-      "alt": "Honda CB150R Exmotion Side Profile"
-    },
-    {
-      "url": "https://i.ibb.co/ZxWbFLz/honda-cb150r-exmotion-back.jpg",
-      "alt": "Honda CB150R Exmotion Rear View"
-    },
-    {
-      "url": "https://i.ibb.co/x8QKJgb/honda-cb150r-exmotion-display.jpg",
-      "alt": "Honda CB150R Exmotion Instrument Cluster"
-    }
-  ], 
+ 
   "pros": [
     "Premium Neo Café design",
     "Excellent handling and agility",
@@ -2132,7 +2116,7 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926192/bikes/BAJAJ/Bajaj%20Pulsar%20150%20SD/bajaj-pulsar-150-sd-showroom-view.webp",
           "alt": "Bajaj Pulsar 150 SD Showroom View"
         }
-      ]
+      ],
     "pros": [
       "Single-channel ABS safety",
       "Iconic Pulsar design",
@@ -2672,13 +2656,14 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
           "alt": "Bajaj Pulsar NS 125 Showroom View"
         }
-      ] "pros": [
+      ],
+      "pros": [
       "Sporty NS design",
       "Good performance for 125cc",
       "LED tail light",
       "Comfortable ergonomics",
       "Tubeless tires"
-    ],
+     ],
     "cons": [
       "No ABS",
       "Basic halogen headlight",
@@ -2688,9 +2673,9 @@
     ],
     "faqs": [
       {"question": "Difference from NS160?", "answer": "Smaller 125cc engine, less power and more affordable."},
-      {"question": "Top speed?", "answer": "95kmph (claimed 100kmph)."},
-      {"question": "Service cost?", "answer": "~Tk. 900 per service."},
-      {"question": "Weight capacity?", "answer": "140kg (rider + pillion)."}
+      {"question": "What is its Top speed?", "answer": "95kmph (claimed 100kmph)."},
+      {"question": "What may its Service cost?", "answer": "~Tk. 900 per service."},
+      {"question": "What is its Weight capacity?", "answer": "140kg (rider + pillion)."}
     ]
   },
   {
@@ -2761,7 +2746,8 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926207/bikes/BAJAJ/Bajaj%20Pulsar%20NS%20125/bajaj-pulsar-ns-125-showroom-view.webp",
           "alt": "Bajaj Pulsar NS 125 Showroom View"
         }
-      ] "pros": [
+      ],
+       "pros": [
       "Fuel-injected engine",
       "Single-channel ABS",
       "Sporty NS design",
