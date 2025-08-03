@@ -69,6 +69,7 @@
         }
       ]
     },
+  {
     "pros":[
       "Sporty performance with quick acceleration (0-60kmph in 3.4s)",
       "Advanced features like traction control and Bluetooth",
@@ -228,7 +229,7 @@
     "overall_width": "770 mm",
     "build_quality": "Robust with muscular design",
     "parts_availability": "Widely available",
-    },
+  
   "image_urls": [
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926394/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-back-view.webp",
