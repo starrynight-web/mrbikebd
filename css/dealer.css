@@ -1,6 +1,6 @@
 :root {
-      --primary: #2563eb;
-      --primary-dark: #1d4ed8;
+      --primary: #1d4ed8;
+      --primary-dark: #2f8adf;
       --secondary: #10b981;
       --accent: #f59e0b;
       --light: #f8fafc;
@@ -24,9 +24,9 @@
     }
     
     body {
-      font-family: 'Poppins', sans-serif;
-      background-color: var(--light);
-      color: var(--dark);
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fb;
+      color: #333;
       line-height: 1.6;
       min-height: 100vh;
       display: flex;
@@ -43,7 +43,7 @@
     
     header {
       background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-      color: white;
+      color: #f8fafc;
       padding: 2.5rem 0;
       text-align: center;
       position: relative;
@@ -104,7 +104,7 @@
       font-size: 1.25rem;
       font-weight: 600;
       margin-bottom: 1.5rem;
-      color: var(--primary);
+      color: #275683;
       display: flex;
       align-items: center;
       gap: 0.75rem;
@@ -125,7 +125,9 @@
       min-width: 250px;
       position: relative;
     }
-    
+    .select-container select:focus {
+    overflow-y: auto;
+    }
     .select-container::after {
       content: '\f078';
       font-family: 'Font Awesome 6 Free';
