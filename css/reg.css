@@ -3,8 +3,8 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #ffffff;
-      color: #222;
+      background: #f7f9fb;
+      color: #333;
     }
     .container {
       max-width: 960px;
@@ -15,8 +15,14 @@
     .container ul {
       padding-left: 32px;
     }
-    h1, h2, h3 {
-      color: #152d46;
+    h1 {
+    background: transparent;
+    color: #275683;
+    padding: 2rem 1rem;
+    text-align: center; 
+   }
+   h2, h3 {
+      color: #2f8adf;
     }
     table {
       width: 100%;
