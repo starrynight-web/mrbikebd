@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #275683;
+  --secondary-color: #2f8adf;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
