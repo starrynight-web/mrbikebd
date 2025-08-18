@@ -1,6 +1,6 @@
   const models = [
-    { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/Dealer/dealer-bg.jpg', link: 'bike.html?model=r15-v4', category: 'Sports Bike' },
-    { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'bike.html?model=fzs-v3', category: 'Sports Bike' },
+    { name: 'R15 V4', brand: 'Yamaha', price: '৳525,000', img: 'images/Dealer/dealer-bg.jpg', link: 'https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986349/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-back-view.webp', category: 'Sports Bike' },
+    { name: 'FZS V3 ABS', brand: 'Yamaha', price: '৳275,000', img: 'images/fzs-v3.jpg', link: 'https://res.cloudinary.com/dbjpqcth5/image/upload/v1753986350/bikes/royal-enfield/hunter/royal-enfield-hunter-350-royal-blue-front-view.webp', category: 'Sports Bike' },
     { name: 'CBR 150R', brand: 'Honda', price: '৳480,000', img: 'images/cbr150r.jpg', link: 'bike.html?model=cbr150r', category: 'Sports Bike' },
     { name: 'Gixxer SF', brand: 'Suzuki', price: '৳319,950', img: 'images/gixxer-sf.jpg', link: 'bike.html?model=gixxer-sf', category: 'Sports Bike' },
     { name: 'Apache RTR 160', brand: 'TVS', price: '৳197,999', img: 'images/apache-160.jpg', link: 'bike.html?model=apache-160', category: 'Sports Bike' },
