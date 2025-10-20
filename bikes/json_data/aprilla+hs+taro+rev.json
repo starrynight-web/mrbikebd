@@ -4,7 +4,7 @@
     "slug": "aprilia-cafe-150",
     "brand": "Aprilia",
     "category": "Cafe Racer",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk. 170,000",
     "short_description": "Aprilia Cafe 150 - A 149cc retro-styled cafe racer with modern engineering, offering classic aesthetics with contemporary performance for urban riding.",
     "Zero_Sixty": "8.5 sec",
@@ -94,7 +94,7 @@
     "slug": "aprilia-fx-150",
     "brand": "Aprilia",
     "category": "Naked",
-    "cc": 149.2,
+    "cc": 150,
     "price": "Tk. 135,000",
     "short_description": "Aprilia FX 150 - A 149.2cc naked street motorcycle with aggressive styling, lightweight chassis, and peppy performance for urban commuting.",
     "Zero_Sixty": "8.2 sec",
@@ -191,7 +191,7 @@
     "name": "Aprilia GPR 150",
     "slug": "aprilia-gpr-150",
     "brand": "Aprilia",
-    "category": "Sport",
+    "category": "Sports",
     "cc": 149,
     "price": "Tk. 300,000",
     "short_description": "Aprilia GPR 150 - A 149cc full-faired sportbike with track-inspired design, aggressive ergonomics, and race-bred performance for enthusiasts.",
@@ -760,6 +760,10 @@
     "build_quality": "Premium Mid-Cruiser",
     "parts_availability": "Limited in Bangladesh",
     "image_urls": [
+      {
+          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-showroom-view.webp",
+          "alt": "hyosung-GV300S Hyosung Gv300S Showroom View"
+        }
         {
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926312/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-back-view.webp",
           "alt": "hyosung-GV300S Hyosung Gv300S Back View"
@@ -776,10 +780,6 @@
           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926315/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-right-view.webp",
           "alt": "hyosung-GV300S Hyosung Gv300S Right View"
         },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/Hyosung/hyosung-GV300S/hyosung-GV300S-showroom-view.webp",
-          "alt": "hyosung-GV300S Hyosung Gv300S Showroom View"
-        }
       ],
     "pros": [
       "Liquid cooled V-Twin engine",
