@@ -2,9 +2,11 @@
   {
     "name": "Yamaha AEROX 155",
     "slug": "yamaha-aerox-155",
+    "meta_title": "Yamaha Aerox 155 – 155cc Liquid-Cooled Scooter with Traction Control",
+    "meta_description": "Explore Yamaha Aerox 155: 0-60 in 3.4s, Bluetooth, traction control & LED lights. Best-in-class maxi-scooter for urban riders.",
     "brand": "Yamaha",
     "category": "Scooter",
-    "cc": 155,
+    "cc": 150,
     "price": "Tk. 525000",
     "short_description": "Yamaha Aerox 155 - The ultimate 155cc maxi-scooter with liquid-cooled engine, VVA technology, and Bluetooth connectivity. Experience sporty urban rides with best-in-class features including traction control and LED lighting.",
     "Zero_Sixty": "3.4 sec",
@@ -46,31 +48,31 @@
     "overall_width": "700 mm",
     "build_quality": "Sporty and practical",
     "parts_availability": "Good in urban areas",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926386/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-back%20view.webp",
-          "alt": "YAMAHA-AEROX-155 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926387/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-front-view.webp",
-          "alt": "YAMAHA-AEROX-155 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926388/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-left%20view.webp",
-          "alt": "YAMAHA-AEROX-155 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926388/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-right-view.webp",
-          "alt": "YAMAHA-AEROX-155 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926389/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-showroom-view.webp",
-          "alt": "YAMAHA-AEROX-155 Showroom View"
-        }
-      ]
-    },
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926386/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-back%20view.webp",
+        "alt": "YAMAHA-AEROX-155 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926387/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-front-view.webp",
+        "alt": "YAMAHA-AEROX-155 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926388/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-left%20view.webp",
+        "alt": "YAMAHA-AEROX-155 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926388/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-right-view.webp",
+        "alt": "YAMAHA-AEROX-155 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926389/bikes/YAMAHA/YAMAHA-AEROX-155/yamaha-aerox-155-showroom-view.webp",
+        "alt": "YAMAHA-AEROX-155 Showroom View"
+      }
+    ]
+  },
   {
-    "pros":[
+    "pros": [
       "Sporty performance with quick acceleration (0-60kmph in 3.4s)",
       "Advanced features like traction control and Bluetooth",
       "Liquid-cooled engine for better heat management",
@@ -85,18 +87,32 @@
       "Firm seat for long rides"
     ],
     "faqs": [
-      {"question": "How fast does Aerox 155 accelerate?", "answer": "Aerox 155 does 0-60 kmph in 3.4 seconds and 0-100 kmph in 7.4 seconds."},
-      {"question": "Is Aerox 155 good for tall riders?", "answer": "Yes, its 790mm seat height accommodates most riders comfortably."},
-      {"question": "What makes Aerox different from other scooters?", "answer": "It offers premium features like traction control and liquid cooling uncommon in scooters."},
-      {"question": "Can two adults ride comfortably?", "answer": "Yes, but the seat is slightly narrow for wider passengers."}
+      {
+        "question": "How fast does Aerox 155 accelerate?",
+        "answer": "Aerox 155 does 0-60 kmph in 3.4 seconds and 0-100 kmph in 7.4 seconds."
+      },
+      {
+        "question": "Is Aerox 155 good for tall riders?",
+        "answer": "Yes, its 790mm seat height accommodates most riders comfortably."
+      },
+      {
+        "question": "What makes Aerox different from other scooters?",
+        "answer": "It offers premium features like traction control and liquid cooling uncommon in scooters."
+      },
+      {
+        "question": "Can two adults ride comfortably?",
+        "answer": "Yes, but the seat is slightly narrow for wider passengers."
+      }
     ]
   },
   {
     "name": "Yamaha Fazer Fi V2",
     "slug": "yamaha-fazer-fi-v2",
+    "meta_title": "Yamaha Fazer Fi V2 – 149cc Fuel-Injected Street Bike",
+    "meta_description": "Yamaha Fazer Fi V2 offers 45–48 kmpl mileage, LED DRLs & smooth 5-speed ride. Ideal for daily commuters in Bangladesh.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk. 270,000",
     "short_description": "Yamaha Fazer Fi V2 - The stylish 149cc street bike with fuel injection, delivering 50kmpl mileage. Perfect balance of performance and efficiency for daily commuters.",
     "Zero_Sixty": "4.8 sec",
@@ -139,28 +155,27 @@
     "build_quality": "Good with sporty design",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926390/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-back-view.webp",
-          "alt": "YAMAHA-FAZER-FI-V2 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926391/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-front-view.webp",
-          "alt": "YAMAHA-FAZER-FI-V2 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926391/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-left-view.webp",
-          "alt": "YAMAHA-FAZER-FI-V2 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926393/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-right-view.webp",
-          "alt": "YAMAHA-FAZER-FI-V2 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926393/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-showroom-view.webp",
-          "alt": "YAMAHA-FAZER-FI-V2 Showroom View"
-        }
-      ]
-    ,
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926390/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-back-view.webp",
+        "alt": "YAMAHA-FAZER-FI-V2 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926391/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-front-view.webp",
+        "alt": "YAMAHA-FAZER-FI-V2 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926391/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-left-view.webp",
+        "alt": "YAMAHA-FAZER-FI-V2 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926393/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-right-view.webp",
+        "alt": "YAMAHA-FAZER-FI-V2 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926393/bikes/YAMAHA/YAMAHA-FAZER-FI-V2/yamaha-fazer-fi-v2-showroom-view.webp",
+        "alt": "YAMAHA-FAZER-FI-V2 Showroom View"
+      }
+    ],
     "pros": [
       "Excellent fuel efficiency (45-48kmpl real-world)",
       "Quick acceleration (0-60kmph in 4.8s)",
@@ -176,18 +191,32 @@
       "Limited power for highway overtakes"
     ],
     "faqs": [
-      {"question": "What is Fazer Fi V2's acceleration time?", "answer": "It accelerates 0-60 kmph in 4.8 seconds and 0-100 kmph in 12.2 seconds."},
-      {"question": "Is it suitable for highway rides?", "answer": "Yes, but best for city commuting with occasional highway use up to 100kmph."},
-      {"question": "Does it have tubeless tires?", "answer": "Yes, both front and rear tires are tubeless."},
-      {"question": "What's the service interval?", "answer": "Recommended service every 3000km or 3 months."}
+      {
+        "question": "What is Fazer Fi V2's acceleration time?",
+        "answer": "It accelerates 0-60 kmph in 4.8 seconds and 0-100 kmph in 12.2 seconds."
+      },
+      {
+        "question": "Is it suitable for highway rides?",
+        "answer": "Yes, but best for city commuting with occasional highway use up to 100kmph."
+      },
+      {
+        "question": "Does it have tubeless tires?",
+        "answer": "Yes, both front and rear tires are tubeless."
+      },
+      {
+        "question": "What's the service interval?",
+        "answer": "Recommended service every 3000km or 3 months."
+      }
     ]
   },
   {
     "name": "Yamaha FZ 25",
     "slug": "yamaha-fz-25",
+    "meta_title": "Yamaha FZ 25 – 249cc Dual-ABS Street Motorcycle",
+    "meta_description": "Powerful Yamaha FZ 25 with 20.6 PS, dual-channel ABS & 35–38 kmpl. Perfect for city and highway rides.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 249,
+    "cc": 250,
     "price": "Tk. 399,000",
     "short_description": "Yamaha FZ 25 - The powerful 249cc street motorcycle with muscular styling and dual-channel ABS. Perfect for riders seeking performance and safety in city and highway conditions.",
     "Zero_Sixty": "3.8 sec",
@@ -229,29 +258,28 @@
     "overall_width": "770 mm",
     "build_quality": "Robust with muscular design",
     "parts_availability": "Widely available",
-  
-  "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926394/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-back-view.webp",
-          "alt": "YAMAHA-FZ-25 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926395/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-front-view.webp",
-          "alt": "YAMAHA-FZ-25 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926396/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-left-view.webp",
-          "alt": "YAMAHA-FZ-25 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926397/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-right-view.webp",
-          "alt": "YAMAHA-FZ-25 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-showroom-view.webp",
-          "alt": "YAMAHA-FZ-25 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926394/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-back-view.webp",
+        "alt": "YAMAHA-FZ-25 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926395/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-front-view.webp",
+        "alt": "YAMAHA-FZ-25 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926396/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-left-view.webp",
+        "alt": "YAMAHA-FZ-25 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926397/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-right-view.webp",
+        "alt": "YAMAHA-FZ-25 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZ-25/yamaha-fz-25-showroom-view.webp",
+        "alt": "YAMAHA-FZ-25 Showroom View"
+      }
+    ],
     "pros": [
       "Strong acceleration (0-60kmph in 3.8s)",
       "Dual-channel ABS for safety",
@@ -267,18 +295,32 @@
       "No fuel gauge (only low fuel warning)"
     ],
     "faqs": [
-      {"question": "How quick is FZ 25's acceleration?", "answer": "It does 0-60 kmph in 3.8 seconds and 0-100 kmph in 9.6 seconds."},
-      {"question": "Does it have ABS?", "answer": "Yes, dual-channel ABS comes as standard."},
-      {"question": "What's the highway cruising speed?", "answer": "Comfortable at 90-100 kmph with some vibrations at higher speeds."},
-      {"question": "Is it suitable for tall riders?", "answer": "Yes, the 795mm seat height accommodates most riders comfortably."}
+      {
+        "question": "How quick is FZ 25's acceleration?",
+        "answer": "It does 0-60 kmph in 3.8 seconds and 0-100 kmph in 9.6 seconds."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, dual-channel ABS comes as standard."
+      },
+      {
+        "question": "What's the highway cruising speed?",
+        "answer": "Comfortable at 90-100 kmph with some vibrations at higher speeds."
+      },
+      {
+        "question": "Is it suitable for tall riders?",
+        "answer": "Yes, the 795mm seat height accommodates most riders comfortably."
+      }
     ]
   },
   {
     "name": "Yamaha FZ X",
     "slug": "yamaha-fz-x",
+    "meta_title": "Yamaha FZ X – Neo-Retro 149cc Street Bike with Bluetooth",
+    "meta_description": "Yamaha FZ X blends scrambler style with Y-Connect Bluetooth, 42–45 kmpl & 810mm seat height for tall riders.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk. 3,02,500",
     "short_description": "Yamaha FZ X - The neo-retro street bike with 149cc Blue Core engine, combining classic scrambler styling with modern features like LED lighting and smartphone connectivity.",
     "Zero_Sixty": "4.6 sec",
@@ -321,27 +363,27 @@
     "build_quality": "Premium with retro-modern finish",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926380/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-back-view.webp",
-          "alt": "YAMAH-FZ-X Yamaha Fz X Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926381/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-front-view.webp",
-          "alt": "YAMAH-FZ-X Yamaha Fz X Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926382/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-left-view.webp",
-          "alt": "YAMAH-FZ-X Yamaha Fz X Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926384/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-right-view.webp",
-          "alt": "YAMAH-FZ-X Yamaha Fz X Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926385/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-showroom-view.webp",
-          "alt": "YAMAH-FZ-X Yamaha Fz X Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926380/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-back-view.webp",
+        "alt": "YAMAH-FZ-X Yamaha Fz X Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926381/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-front-view.webp",
+        "alt": "YAMAH-FZ-X Yamaha Fz X Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926382/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-left-view.webp",
+        "alt": "YAMAH-FZ-X Yamaha Fz X Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926384/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-right-view.webp",
+        "alt": "YAMAH-FZ-X Yamaha Fz X Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926385/bikes/YAMAHA/YAMAH-FZ-X/yamaha-fz-x-showroom-view.webp",
+        "alt": "YAMAH-FZ-X Yamaha Fz X Showroom View"
+      }
+    ],
     "pros": [
       "Unique neo-retro scrambler styling",
       "Quick acceleration (0-60kmph in 4.6s)",
@@ -357,18 +399,32 @@
       "Limited off-road capability despite looks"
     ],
     "faqs": [
-      {"question": "How fast does FZ X accelerate?", "answer": "FZ X does 0-60 kmph in 4.6 seconds and 0-100 kmph in 11.8 seconds."},
-      {"question": "Is FZ X good for tall riders?", "answer": "Yes, its 810mm seat height suits taller riders comfortably."},
-      {"question": "Does it have ABS?", "answer": "Only the Deluxe variant comes with single-channel ABS."},
-      {"question": "What's special about FZ X design?", "answer": "It combines retro scrambler styling with modern features like LED lights and LCD display."}
+      {
+        "question": "How fast does FZ X accelerate?",
+        "answer": "FZ X does 0-60 kmph in 4.6 seconds and 0-100 kmph in 11.8 seconds."
+      },
+      {
+        "question": "Is FZ X good for tall riders?",
+        "answer": "Yes, its 810mm seat height suits taller riders comfortably."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Only the Deluxe variant comes with single-channel ABS."
+      },
+      {
+        "question": "What's special about FZ X design?",
+        "answer": "It combines retro scrambler styling with modern features like LED lights and LCD display."
+      }
     ]
   },
   {
     "name": "Yamaha FZS FI V4",
     "slug": "yamaha-fzs-fi-v4",
+    "meta_title": "Yamaha FZS FI V4 – Dual-ABS 149cc with Y-Connect",
+    "meta_description": "FZS FI V4: Dual-channel ABS, Bluetooth Y-Connect & 0-60 in 4.5s. Sporty, safe & connected urban street bike.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk. 2,99,500",
     "short_description": "Yamaha FZS FI V4 - The sporty 149cc street bike with fuel injection, dual-channel ABS, and Y-Connect Bluetooth. Perfect balance of performance, safety, and connectivity for urban riders.",
     "Zero_Sixty": "4.5 sec",
@@ -410,28 +466,28 @@
     "overall_width": "780 mm",
     "build_quality": "Sporty with premium finishes",
     "parts_availability": "Widely available",
-"image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926402/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-back-view.webp",
-          "alt": "YAMAHA-FZS-V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926403/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-front-view.webp",
-          "alt": "YAMAHA-FZS-V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926404/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-left-view.webp",
-          "alt": "YAMAHA-FZS-V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926405/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-right-view.webp",
-          "alt": "YAMAHA-FZS-V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926406/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-showroom-view.webp",
-          "alt": "YAMAHA-FZS-V4 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926402/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-back-view.webp",
+        "alt": "YAMAHA-FZS-V4 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926403/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-front-view.webp",
+        "alt": "YAMAHA-FZS-V4 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926404/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-left-view.webp",
+        "alt": "YAMAHA-FZS-V4 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926405/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-right-view.webp",
+        "alt": "YAMAHA-FZS-V4 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926406/bikes/YAMAHA/YAMAHA-FZS-V4/yamaha-fzs-v4-showroom-view.webp",
+        "alt": "YAMAHA-FZS-V4 Showroom View"
+      }
+    ],
     "pros": [
       "Dual-channel ABS for safety",
       "Quick acceleration (0-60kmph in 4.5s)",
@@ -447,18 +503,32 @@
       "Higher price than previous versions"
     ],
     "faqs": [
-      {"question": "What's FZS V4's acceleration performance?", "answer": "It does 0-60 kmph in 4.5 seconds and 0-100 kmph in 11.5 seconds."},
-      {"question": "Does it have dual-channel ABS?", "answer": "Yes, the V4 comes with dual-channel ABS as standard."},
-      {"question": "What features does Y-Connect provide?", "answer": "Includes call/SMS alerts, phone battery status, and maintenance alerts."},
-      {"question": "Is it suitable for highway rides?", "answer": "Yes, but best for city commuting with occasional highway use up to 100-110kmph."}
+      {
+        "question": "What's FZS V4's acceleration performance?",
+        "answer": "It does 0-60 kmph in 4.5 seconds and 0-100 kmph in 11.5 seconds."
+      },
+      {
+        "question": "Does it have dual-channel ABS?",
+        "answer": "Yes, the V4 comes with dual-channel ABS as standard."
+      },
+      {
+        "question": "What features does Y-Connect provide?",
+        "answer": "Includes call/SMS alerts, phone battery status, and maintenance alerts."
+      },
+      {
+        "question": "Is it suitable for highway rides?",
+        "answer": "Yes, but best for city commuting with occasional highway use up to 100-110kmph."
+      }
     ]
   },
   {
     "name": "Yamaha FZS V2",
     "slug": "yamaha-fzs-v2",
+    "meta_title": "Yamaha FZS V2 – Budget 149cc FI Street Bike",
+    "meta_description": "Affordable Yamaha FZS V2 with fuel injection, LED lights & 45–47 kmpl. Great value for city commuting.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk.237,500",
     "short_description": "Yamaha FZS V2 - The value-packed 149cc street bike with muscular styling, fuel injection, and comfortable ergonomics. Ideal for budget-conscious riders seeking Yamaha reliability.",
     "Zero_Sixty": "4.9 sec",
@@ -500,12 +570,12 @@
     "overall_width": "780 mm",
     "build_quality": "Good with sporty design",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139265/bikes/Yamaha/Yamaha%20FZS%20v2/yamaha-fzs-v2-showroom-view.webp",
-          "alt": "Yamaha FZS v2 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139265/bikes/Yamaha/Yamaha%20FZS%20v2/yamaha-fzs-v2-showroom-view.webp",
+        "alt": "Yamaha FZS v2 Showroom View"
+      }
+    ],
     "pros": [
       "Most affordable FZS variant",
       "Decent acceleration (0-60kmph in 4.9s)",
@@ -521,18 +591,32 @@
       "Small 10L fuel tank"
     ],
     "faqs": [
-      {"question": "How quick is FZS V2's acceleration?", "answer": "It does 0-60 kmph in 4.9 seconds and 0-100 kmph in 12.5 seconds."},
-      {"question": "Is this model fuel injected?", "answer": "Yes, all FZS models come with fuel injection."},
-      {"question": "What's the main difference from V4?", "answer": "V2 lacks Bluetooth and has drum brake instead of disc at rear."},
-      {"question": "Is it good for daily commuting?", "answer": "Excellent for city use with comfortable ergonomics and good mileage."}
+      {
+        "question": "How quick is FZS V2's acceleration?",
+        "answer": "It does 0-60 kmph in 4.9 seconds and 0-100 kmph in 12.5 seconds."
+      },
+      {
+        "question": "Is this model fuel injected?",
+        "answer": "Yes, all FZS models come with fuel injection."
+      },
+      {
+        "question": "What's the main difference from V4?",
+        "answer": "V2 lacks Bluetooth and has drum brake instead of disc at rear."
+      },
+      {
+        "question": "Is it good for daily commuting?",
+        "answer": "Excellent for city use with comfortable ergonomics and good mileage."
+      }
     ]
   },
   {
     "name": "Yamaha FZS V3 ABS",
     "slug": "yamaha-fzs-v3-abs",
+    "meta_title": "Yamaha FZS V3 ABS – Safe 149cc with Front ABS",
+    "meta_description": "FZS V3 ABS offers single-channel ABS, 45–48 kmpl & LED lighting. Balanced safety and efficiency for daily rides.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk. 2,58,500",
     "short_description": "Yamaha FZS V3 ABS - The safety-focused 149cc street bike with single-channel ABS, muscular styling, and fuel-efficient Blue Core engine. Perfect for riders prioritizing braking performance.",
     "Zero_Sixty": "4.7 sec",
@@ -574,28 +658,28 @@
     "overall_width": "780 mm",
     "build_quality": "Sporty with ABS protection",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
+        "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
+        "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
+      }
+    ],
     "pros": [
       "Single-channel ABS for safety",
       "Balanced acceleration (0-60kmph in 4.7s)",
@@ -611,18 +695,32 @@
       "Vibrations at high RPM"
     ],
     "faqs": [
-      {"question": "How quick is FZS V3 ABS's acceleration?", "answer": "It does 0-60 kmph in 4.7 seconds and 0-100 kmph in 12.0 seconds."},
-      {"question": "Is the ABS single or dual-channel?", "answer": "This variant has single-channel ABS only on the front wheel."},
-      {"question": "What's different from FZS V4?", "answer": "V3 lacks Bluetooth connectivity and has a simpler instrument cluster."},
-      {"question": "Is it good for wet weather riding?", "answer": "Yes, the ABS provides better braking control in wet conditions."}
+      {
+        "question": "How quick is FZS V3 ABS's acceleration?",
+        "answer": "It does 0-60 kmph in 4.7 seconds and 0-100 kmph in 12.0 seconds."
+      },
+      {
+        "question": "Is the ABS single or dual-channel?",
+        "answer": "This variant has single-channel ABS only on the front wheel."
+      },
+      {
+        "question": "What's different from FZS V4?",
+        "answer": "V3 lacks Bluetooth connectivity and has a simpler instrument cluster."
+      },
+      {
+        "question": "Is it good for wet weather riding?",
+        "answer": "Yes, the ABS provides better braking control in wet conditions."
+      }
     ]
   },
   {
     "name": "Yamaha FZS V3 ABS (BS6)",
     "slug": "yamaha-fzs-v3-abs-bs6",
+    "meta_title": "Yamaha FZS V3 ABS BS6 – Eco-Friendly 149cc Commuter",
+    "meta_description": "BS6-compliant FZS V3 with OBD2, 46–49 kmpl & front ABS. Cleaner emissions without sacrificing Yamaha reliability.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 149,
+    "cc": 150,
     "price": "Tk.2,72,000",
     "short_description": "Yamaha FZS V3 ABS BS6 - The eco-friendly 149cc street bike with BS6 compliance, single-channel ABS, and improved fuel efficiency. Meets latest emission norms without compromising performance.",
     "Zero_Sixty": "4.8 sec",
@@ -665,27 +763,27 @@
     "build_quality": "BS6 compliant with ABS",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
+        "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
+        "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
+        "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
+      }
+    ],
     "pros": [
       "BS6 compliant with cleaner emissions",
       "Slightly better mileage than BS4",
@@ -701,15 +799,29 @@
       "Rear drum brake unchanged"
     ],
     "faqs": [
-      {"question": "What's different in BS6 version?", "answer": "Has updated emission system, slightly less power but better mileage than BS4."},
-      {"question": "Acceleration comparison to BS4?", "answer": "Marginally slower: 0-60 kmph in 4.8s vs 4.7s for BS4."},
-      {"question": "Is maintenance cost higher?", "answer": "Slightly higher due to BS6 components but more fuel efficient."},
-      {"question": "Does it have OBD2?", "answer": "Yes, BS6 compliance requires OBD2 diagnostics system."}
+      {
+        "question": "What's different in BS6 version?",
+        "answer": "Has updated emission system, slightly less power but better mileage than BS4."
+      },
+      {
+        "question": "Acceleration comparison to BS4?",
+        "answer": "Marginally slower: 0-60 kmph in 4.8s vs 4.7s for BS4."
+      },
+      {
+        "question": "Is maintenance cost higher?",
+        "answer": "Slightly higher due to BS6 components but more fuel efficient."
+      },
+      {
+        "question": "Does it have OBD2?",
+        "answer": "Yes, BS6 compliance requires OBD2 diagnostics system."
+      }
     ]
   },
   {
     "name": "Yamaha FZS V3 Deluxe",
     "slug": "yamaha-fzs-v3-deluxe",
+    "meta_title": "Yamaha FZS V3 Deluxe – Premium Dual-Tone 149cc",
+    "meta_description": "FZS V3 Deluxe features exclusive dual-tone paint, ABS & sporty ergonomics. Style meets substance in Yamaha’s street lineup.",
     "brand": "Yamaha",
     "category": "Street",
     "cc": 149,
@@ -755,27 +867,15 @@
     "build_quality": "Premium dual-tone finishes",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761222212/yamaha-fzs-v3-deluxe-showroom-view_e96xea.png",
+        "alt": "Yamaha FZS V3 Deluxe on showroom display with dual-tone matte finish"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761222209/yamaha-fzs-v3-deluxe-showroom-black-view_nwdavh.png",
+        "alt": "Yamaha FZS V3 Deluxe on showroom display with dual-tone matte finish"
+      }
+    ],
     "pros": [
       "Premium dual-tone color options",
       "Good acceleration (0-60kmph in 4.7s)",
@@ -791,15 +891,29 @@
       "Premium pricing for aesthetics"
     ],
     "faqs": [
-      {"question": "What makes Deluxe special?", "answer": "Gets premium paint schemes and graphics over standard V3."},
-      {"question": "Performance same as regular V3?", "answer": "Yes, identical 0-60kmph in 4.7s and 0-100kmph in 12.0s."},
-      {"question": "Does it have special badging?", "answer": "Yes, features 'Deluxe' branding on fuel tank."},
-      {"question": "Are parts more expensive?", "answer": "Only body panels cost more; mechanical parts same as standard."}
+      {
+        "question": "What makes Deluxe special?",
+        "answer": "Gets premium paint schemes and graphics over standard V3."
+      },
+      {
+        "question": "Performance same as regular V3?",
+        "answer": "Yes, identical 0-60kmph in 4.7s and 0-100kmph in 12.0s."
+      },
+      {
+        "question": "Does it have special badging?",
+        "answer": "Yes, features 'Deluxe' branding on fuel tank."
+      },
+      {
+        "question": "Are parts more expensive?",
+        "answer": "Only body panels cost more; mechanical parts same as standard."
+      }
     ]
   },
   {
     "name": "Yamaha FZS V3 Vintage Edition",
     "slug": "yamaha-fzs-v3-vintage",
+    "meta_title": "Yamaha FZS V3 Vintage – Retro 149cc Limited Edition",
+    "meta_description": "Limited-edition FZS V3 Vintage with classic colors, ABS & modern 149cc engine. Nostalgia meets reliability.",
     "brand": "Yamaha",
     "category": "Street",
     "cc": 149,
@@ -845,27 +959,11 @@
     "build_quality": "Retro styling with modern tech",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926398/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-back-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926399/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-front-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926400/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3-bs6-showroom-view.webp",
-          "alt": "YAMAHA-FZS-V3 Bs6 Showroom View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-left-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926401/bikes/YAMAHA/YAMAHA-FZS-V3/yamaha-fzs-v3bs6-right-view.webp",
-          "alt": "YAMAHA-FZS-V3 Yamaha Fzs V3Bs6 Right View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761222439/yamaha-fzs-v3-vintage-showroom-view_hwjioy.png",
+        "alt": "Yamaha FZS V3 Vintage Edition on showroom display with retro-inspired styling"
+      }
+    ],
     "pros": [
       "Unique vintage color schemes",
       "Decent acceleration (0-60kmph in 4.8s)",
@@ -881,18 +979,32 @@
       "Small fuel tank"
     ],
     "faqs": [
-      {"question": "Is this a limited edition?", "answer": "Yes, produced in limited numbers with special colors."},
-      {"question": "Performance same as regular V3?", "answer": "Identical performance: 0-60kmph in 4.8s, 0-100kmph in 12.1s."},
-      {"question": "Does it have vintage badging?", "answer": "Yes, features special 'Vintage Edition' logos."},
-      {"question": "Are maintenance costs higher?", "answer": "No, same as standard FZS V3 except for special body panels."}
+      {
+        "question": "Is this a limited edition?",
+        "answer": "Yes, produced in limited numbers with special colors."
+      },
+      {
+        "question": "Performance same as regular V3?",
+        "answer": "Identical performance: 0-60kmph in 4.8s, 0-100kmph in 12.1s."
+      },
+      {
+        "question": "Does it have vintage badging?",
+        "answer": "Yes, features special 'Vintage Edition' logos."
+      },
+      {
+        "question": "Are maintenance costs higher?",
+        "answer": "No, same as standard FZS V3 except for special body panels."
+      }
     ]
   },
   {
     "name": "Yamaha MT 15",
     "slug": "yamaha-mt-15",
+    "meta_title": "Yamaha MT-15 – Liquid-Cooled 155cc Streetfighter",
+    "meta_description": "MT-15: R15-derived 155cc engine, 0-60 in 3.2s & aggressive naked styling. Urban dominance with Deltabox frame.",
     "brand": "Yamaha",
     "category": "Street",
-    "cc": 155,
+    "cc": 150,
     "price": "Tk. 4,60,000",
     "short_description": "Yamaha MT-15 - The aggressive streetfighter with 155cc liquid-cooled engine from R15 lineage. Features Deltabox frame, VVA technology, and naked bike styling for urban dominance.",
     "Zero_Sixty": "3.2 sec",
@@ -935,27 +1047,27 @@
     "build_quality": "Premium with Deltabox frame",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926407/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-back-view.webp",
-          "alt": "YAMAHA-MT-15 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926408/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-front-view.webp",
-          "alt": "YAMAHA-MT-15 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926409/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-left-view.webp",
-          "alt": "YAMAHA-MT-15 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926410/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-right-view.webp",
-          "alt": "YAMAHA-MT-15 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926411/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-showroom-view.webp",
-          "alt": "YAMAHA-MT-15 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926407/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-back-view.webp",
+        "alt": "YAMAHA-MT-15 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926408/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-front-view.webp",
+        "alt": "YAMAHA-MT-15 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926409/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-left-view.webp",
+        "alt": "YAMAHA-MT-15 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926410/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-right-view.webp",
+        "alt": "YAMAHA-MT-15 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926411/bikes/YAMAHA/YAMAHA-MT-15/yamaha-mt-15-showroom-view.webp",
+        "alt": "YAMAHA-MT-15 Showroom View"
+      }
+    ],
     "pros": [
       "Superb acceleration (0-60kmph in 3.2s)",
       "R15-derived liquid-cooled engine",
@@ -971,15 +1083,29 @@
       "Vibrations at high RPM"
     ],
     "faqs": [
-      {"question": "How quick is MT-15's acceleration?", "answer": "One of fastest in class: 0-60kmph in 3.2s and 0-100kmph in 7.1s."},
-      {"question": "Is it same engine as R15?", "answer": "Similar 155cc liquid-cooled engine but tuned for more low-end torque."},
-      {"question": "Does it have ABS?", "answer": "Only top variant comes with single-channel ABS."},
-      {"question": "Is it good for highway?", "answer": "Yes, 6th gear helps but small tank limits touring range."}
+      {
+        "question": "How quick is MT-15's acceleration?",
+        "answer": "One of fastest in class: 0-60kmph in 3.2s and 0-100kmph in 7.1s."
+      },
+      {
+        "question": "Is it same engine as R15?",
+        "answer": "Similar 155cc liquid-cooled engine but tuned for more low-end torque."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Only top variant comes with single-channel ABS."
+      },
+      {
+        "question": "Is it good for highway?",
+        "answer": "Yes, 6th gear helps but small tank limits touring range."
+      }
     ]
   },
   {
     "name": "Yamaha MT-15 Version 2.0",
     "slug": "yamaha-mt-15-v2",
+    "meta_title": "Yamaha MT-15 V2 – USD Forks & Dual-ABS Streetfighter",
+    "meta_description": "MT-15 V2 upgrades with USD forks, dual-channel ABS & 0-60 in 3.1s. Premium handling for the ultimate street ride.",
     "brand": "Yamaha",
     "category": "Street",
     "cc": 150,
@@ -1024,28 +1150,28 @@
     "overall_width": "800 mm",
     "build_quality": "Premium with USD forks",
     "parts_availability": "Good in urban areas",
-          "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139266/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-back-view.webp",
-          "alt": "Yamaha Mt v2 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-front-view.webp",
-          "alt": "Yamaha Mt v2 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-left-side-view.webp",
-          "alt": "Yamaha Mt v2 Left Side View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139268/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-right-view.webp",
-          "alt": "Yamaha Mt v2 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139269/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-showroom-view.webp",
-          "alt": "Yamaha Mt v2 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139266/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-back-view.webp",
+        "alt": "Yamaha Mt v2 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-front-view.webp",
+        "alt": "Yamaha Mt v2 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139267/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-left-side-view.webp",
+        "alt": "Yamaha Mt v2 Left Side View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139268/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-right-view.webp",
+        "alt": "Yamaha Mt v2 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139269/bikes/Yamaha/Yamaha%20Mt%20v2/yamaha-mt-v2-showroom-view.webp",
+        "alt": "Yamaha Mt v2 Showroom View"
+      }
+    ],
     "pros": [
       "Improved acceleration (0-60kmph in 3.1s)",
       "Dual-channel ABS for safety",
@@ -1061,15 +1187,29 @@
       "No Bluetooth connectivity"
     ],
     "faqs": [
-      {"question": "What's new in Version 2.0?", "answer": "Adds USD forks, dual-channel ABS, and updated styling."},
-      {"question": "How much faster than previous?", "answer": "Marginally quicker: 0-60kmph in 3.1s vs 3.2s."},
-      {"question": "Does it have traction control?", "answer": "No, but dual-channel ABS improves safety."},
-      {"question": "Is the suspension better?", "answer": "Yes, USD forks offer improved handling and feedback."}
+      {
+        "question": "What's new in Version 2.0?",
+        "answer": "Adds USD forks, dual-channel ABS, and updated styling."
+      },
+      {
+        "question": "How much faster than previous?",
+        "answer": "Marginally quicker: 0-60kmph in 3.1s vs 3.2s."
+      },
+      {
+        "question": "Does it have traction control?",
+        "answer": "No, but dual-channel ABS improves safety."
+      },
+      {
+        "question": "Is the suspension better?",
+        "answer": "Yes, USD forks offer improved handling and feedback."
+      }
     ]
   },
   {
     "name": "Yamaha R15 V3 Dark Knight",
     "slug": "yamaha-r15-v3-dark-knight",
+    "meta_title": "Yamaha R15 V3 Dark Knight – Stealth 155cc Sports Bike",
+    "meta_description": "R15 V3 Dark Knight: 0-60 in 3.0s, VVA, single-ABS & aggressive black finish. Track-ready supersport for enthusiasts.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155,
@@ -1115,27 +1255,11 @@
     "build_quality": "Track-focused with fairing",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139270/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-back-view.webp",
-          "alt": "Yamaha R15 V3 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139271/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-front-view.webp",
-          "alt": "Yamaha R15 V3 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-left-view.webp",
-          "alt": "Yamaha R15 V3 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-right-view.webp",
-          "alt": "Yamaha R15 V3 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139273/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-showroom-view.webp",
-          "alt": "Yamaha R15 V3 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761223071/yamaha-r15-v3-darkknight-showroom-view_csjuzz.jpg",
+        "alt": "Yamaha R15 V3 Dark Knight on showroom display with stealth black finish"
+      }
+    ],
     "pros": [
       "Excellent acceleration (0-60kmph in 3.0s)",
       "Sporty fully-faired design",
@@ -1151,15 +1275,29 @@
       "Expensive for 155cc segment"
     ],
     "faqs": [
-      {"question": "How quick is R15 V3's acceleration?", "answer": "Very quick: 0-60kmph in 3.0s and 0-100kmph in 6.7s."},
-      {"question": "What's special about Dark Knight?", "answer": "Exclusive black color scheme with red accents."},
-      {"question": "Does it have ABS?", "answer": "Yes, comes with single-channel ABS."},
-      {"question": "Is it good for track days?", "answer": "Excellent for track with sporty ergonomics and quick-revving engine."}
+      {
+        "question": "How quick is R15 V3's acceleration?",
+        "answer": "Very quick: 0-60kmph in 3.0s and 0-100kmph in 6.7s."
+      },
+      {
+        "question": "What's special about Dark Knight?",
+        "answer": "Exclusive black color scheme with red accents."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, comes with single-channel ABS."
+      },
+      {
+        "question": "Is it good for track days?",
+        "answer": "Excellent for track with sporty ergonomics and quick-revving engine."
+      }
     ]
   },
   {
     "name": "Yamaha R15 V3 Racing Blue",
     "slug": "yamaha-r15-v3-racing-blue",
+    "meta_title": "Yamaha R15 V3 Racing Blue – Iconic 155cc Supersport",
+    "meta_description": "R15 V3 in Yamaha’s legendary Racing Blue. 18.6 PS, VVA & 0-100 in 6.7s. Pure track DNA for the streets.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155,
@@ -1205,27 +1343,27 @@
     "build_quality": "Race-inspired with fairing",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139270/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-back-view.webp",
-          "alt": "Yamaha R15 V3 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139271/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-front-view.webp",
-          "alt": "Yamaha R15 V3 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-left-view.webp",
-          "alt": "Yamaha R15 V3 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-right-view.webp",
-          "alt": "Yamaha R15 V3 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139273/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-showroom-view.webp",
-          "alt": "Yamaha R15 V3 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139270/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-back-view.webp",
+        "alt": "Yamaha R15 V3 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139271/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-front-view.webp",
+        "alt": "Yamaha R15 V3 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-left-view.webp",
+        "alt": "Yamaha R15 V3 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139272/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-right-view.webp",
+        "alt": "Yamaha R15 V3 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139273/bikes/Yamaha/Yamaha%20R15%20V3/yamaha-r15-v3-showroom-view.webp",
+        "alt": "Yamaha R15 V3 Showroom View"
+      }
+    ],
     "pros": [
       "Quick acceleration (0-60kmph in 3.0s)",
       "Iconic Yamaha racing colors",
@@ -1241,15 +1379,29 @@
       "Firm suspension for bad roads"
     ],
     "faqs": [
-      {"question": "Performance same as Dark Knight?", "answer": "Identical performance: 0-60kmph in 3.0s, 0-100kmph in 6.7s."},
-      {"question": "What's special about Racing Blue?", "answer": "Features Yamaha's iconic blue-white race livery."},
-      {"question": "Does it have ABS?", "answer": "Yes, comes with single-channel ABS."},
-      {"question": "Is it good for beginners?", "answer": "Not ideal - aggressive ergonomics suit experienced riders."}
+      {
+        "question": "Performance same as Dark Knight?",
+        "answer": "Identical performance: 0-60kmph in 3.0s, 0-100kmph in 6.7s."
+      },
+      {
+        "question": "What's special about Racing Blue?",
+        "answer": "Features Yamaha's iconic blue-white race livery."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, comes with single-channel ABS."
+      },
+      {
+        "question": "Is it good for beginners?",
+        "answer": "Not ideal - aggressive ergonomics suit experienced riders."
+      }
     ]
   },
   {
     "name": "Yamaha R15 V4",
     "slug": "yamaha-r15-v4",
+    "meta_title": "Yamaha R15 V4 – Quick Shifter & Dual-ABS 155cc",
+    "meta_description": "R15 V4: Quick shifter, dual-channel ABS, Y-Connect & 0-60 in 2.9s. The most advanced 155cc supersport yet.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155.1,
@@ -1295,27 +1447,15 @@
     "build_quality": "Premium supersport",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
-          "alt": "Yamaha R15 V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
-          "alt": "Yamaha R15 V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
-          "alt": "Yamaha R15 V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
-          "alt": "Yamaha R15 V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
-          "alt": "Yamaha R15 V4 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761223770/yamaha-r15-v4-right-side-red-view_duwsfk.png",
+        "alt": "Right profile showing aerodynamic fairing and quick shifter badge"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761223736/yamaha-r15-v4-right-side-black-view_k0jloa.png",
+        "alt": "Right profile showing aerodynamic fairing and quick shifter badge"
+      }
+    ],
     "pros": [
       "Blistering acceleration (0-60kmph in 2.9s)",
       "Quick shifter for clutchless shifts",
@@ -1331,15 +1471,29 @@
       "Premium pricing"
     ],
     "faqs": [
-      {"question": "Does R15 V4 have a quick shifter?", "answer": "Yes, comes with standard quick shifter for clutchless gear changes."},
-      {"question": "How much faster than V3?", "answer": "0-60kmph in 2.9s vs 3.0s (V3) due to improved gear ratios."},
-      {"question": "Does it have Bluetooth?", "answer": "Yes, Y-Connect app shows calls, mileage stats and maintenance alerts."},
-      {"question": "Is it good for tall riders?", "answer": "Challenging - 815mm seat height suits average height riders best."}
+      {
+        "question": "Does R15 V4 have a quick shifter?",
+        "answer": "Yes, comes with standard quick shifter for clutchless gear changes."
+      },
+      {
+        "question": "How much faster than V3?",
+        "answer": "0-60kmph in 2.9s vs 3.0s (V3) due to improved gear ratios."
+      },
+      {
+        "question": "Does it have Bluetooth?",
+        "answer": "Yes, Y-Connect app shows calls, mileage stats and maintenance alerts."
+      },
+      {
+        "question": "Is it good for tall riders?",
+        "answer": "Challenging - 815mm seat height suits average height riders best."
+      }
     ]
   },
   {
     "name": "Yamaha R15 V4 Intensity White",
     "slug": "yamaha-r15-v4-intensity-white",
+    "meta_title": "Yamaha R15 V4 Intensity White – Limited White Edition",
+    "meta_description": "Limited R15 V4 in Intensity White with golden wheels, quick shifter & dual-ABS. A collector’s dream supersport.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155,
@@ -1385,27 +1539,27 @@
     "build_quality": "Premium limited edition",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
-          "alt": "Yamaha R15 V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
-          "alt": "Yamaha R15 V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
-          "alt": "Yamaha R15 V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
-          "alt": "Yamaha R15 V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
-          "alt": "Yamaha R15 V4 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+        "alt": "Yamaha R15 V4 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+        "alt": "Yamaha R15 V4 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+        "alt": "Yamaha R15 V4 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+        "alt": "Yamaha R15 V4 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+        "alt": "Yamaha R15 V4 Showroom View"
+      }
+    ],
     "pros": [
       "Exclusive white/gold color scheme",
       "Same quick acceleration (0-60kmph in 2.9s)",
@@ -1421,15 +1575,29 @@
       "Limited availability"
     ],
     "faqs": [
-      {"question": "Is this a limited edition?", "answer": "Yes, produced in limited numbers with special badging."},
-      {"question": "Performance same as regular V4?", "answer": "Identical: 0-60kmph in 2.9s, 0-100kmph in 6.5s."},
-      {"question": "Are wheels different?", "answer": "Yes, features exclusive golden colored alloy wheels."},
-      {"question": "Does it cost more to maintain?", "answer": "Only body panels cost more; mechanicals same as standard."}
+      {
+        "question": "Is this a limited edition?",
+        "answer": "Yes, produced in limited numbers with special badging."
+      },
+      {
+        "question": "Performance same as regular V4?",
+        "answer": "Identical: 0-60kmph in 2.9s, 0-100kmph in 6.5s."
+      },
+      {
+        "question": "Are wheels different?",
+        "answer": "Yes, features exclusive golden colored alloy wheels."
+      },
+      {
+        "question": "Does it cost more to maintain?",
+        "answer": "Only body panels cost more; mechanicals same as standard."
+      }
     ]
   },
   {
     "name": "Yamaha R15 V4 Racing Blue",
     "slug": "yamaha-r15-v4-racing-blue",
+    "meta_title": "Yamaha R15 V4 Racing Blue – Heritage 155cc Supersport",
+    "meta_description": "R15 V4 Racing Blue: Quick shifter, dual-ABS & Yamaha’s iconic livery. Performance meets legacy in one package.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155.1,
@@ -1475,27 +1643,11 @@
     "build_quality": "Race-inspired premium",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
-          "alt": "Yamaha R15 V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
-          "alt": "Yamaha R15 V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
-          "alt": "Yamaha R15 V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
-          "alt": "Yamaha R15 V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
-          "alt": "Yamaha R15 V4 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761223703/yamaha-r15-v4-right-side-view_mblfwh.png",
+        "alt": "Yamaha R15 V4 Back View"
+      }
+    ],
     "pros": [
       "Iconic Yamaha racing colors",
       "Quick acceleration (0-60kmph in 2.9s)",
@@ -1511,15 +1663,29 @@
       "Premium pricing"
     ],
     "faqs": [
-      {"question": "Difference from standard V4?", "answer": "Only cosmetic - same performance (0-60kmph in 2.9s)."},
-      {"question": "Is this limited edition?", "answer": "No, but production may be limited by demand."},
-      {"question": "Does it have special badging?", "answer": "Yes, features Racing Blue logos on fairing."},
-      {"question": "Are wheels different?", "answer": "No, same alloy wheels as standard in silver."}
+      {
+        "question": "Difference from standard V4?",
+        "answer": "Only cosmetic - same performance (0-60kmph in 2.9s)."
+      },
+      {
+        "question": "Is this limited edition?",
+        "answer": "No, but production may be limited by demand."
+      },
+      {
+        "question": "Does it have special badging?",
+        "answer": "Yes, features Racing Blue logos on fairing."
+      },
+      {
+        "question": "Are wheels different?",
+        "answer": "No, same alloy wheels as standard in silver."
+      }
     ]
   },
   {
     "name": "Yamaha R15M",
     "slug": "yamaha-r15m",
+    "meta_title": "Yamaha R15M – Premium 155cc Track Machine",
+    "meta_description": "R15M: Exclusive badging, 0-60 in 2.8s, quick shifter & dual-ABS. The ultimate expression of R15 performance.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155,
@@ -1565,27 +1731,27 @@
     "build_quality": "Track-focused premium",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
-          "alt": "Yamaha R15 V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
-          "alt": "Yamaha R15 V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
-          "alt": "Yamaha R15 V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
-          "alt": "Yamaha R15 V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
-          "alt": "Yamaha R15 V4 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+        "alt": "Yamaha R15 V4 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+        "alt": "Yamaha R15 V4 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+        "alt": "Yamaha R15 V4 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+        "alt": "Yamaha R15 V4 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+        "alt": "Yamaha R15 V4 Showroom View"
+      }
+    ],
     "pros": [
       "Slightly quicker (0-60kmph in 2.8s)",
       "Exclusive M badging and colors",
@@ -1601,15 +1767,29 @@
       "Aggressive ergonomics"
     ],
     "faqs": [
-      {"question": "What makes R15M special?", "answer": "Premium badging, metallic paints, and slightly tuned engine (0-60kmph in 2.8s)."},
-      {"question": "Does it have performance upgrades?", "answer": "Marginally better acceleration due to ECU tuning."},
-      {"question": "Is it worth extra over V4?", "answer": "Only for enthusiasts wanting exclusive looks and slight performance edge."},
-      {"question": "Does it have special parts?", "answer": "Cosmetic differences only; mechanicals same as V4."}
+      {
+        "question": "What makes R15M special?",
+        "answer": "Premium badging, metallic paints, and slightly tuned engine (0-60kmph in 2.8s)."
+      },
+      {
+        "question": "Does it have performance upgrades?",
+        "answer": "Marginally better acceleration due to ECU tuning."
+      },
+      {
+        "question": "Is it worth extra over V4?",
+        "answer": "Only for enthusiasts wanting exclusive looks and slight performance edge."
+      },
+      {
+        "question": "Does it have special parts?",
+        "answer": "Cosmetic differences only; mechanicals same as V4."
+      }
     ]
   },
   {
     "name": "Yamaha R15M TFT Color Meter",
     "slug": "yamaha-r15m-tft",
+    "meta_title": "Yamaha R15M TFT – Full-Color Display 155cc",
+    "meta_description": "R15M TFT: Full-color instrument cluster, quick shifter & 2.8s 0-60 time. Top-tier tech in Yamaha’s supersport.",
     "brand": "Yamaha",
     "category": "Sports",
     "cc": 155,
@@ -1655,27 +1835,27 @@
     "build_quality": "Premium track-focused",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
-          "alt": "Yamaha R15 V4 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
-          "alt": "Yamaha R15 V4 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
-          "alt": "Yamaha R15 V4 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
-          "alt": "Yamaha R15 V4 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
-          "alt": "Yamaha R15 V4 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139274/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-back-view.webp",
+        "alt": "Yamaha R15 V4 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-front-view.webp",
+        "alt": "Yamaha R15 V4 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139275/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-left-view.webp",
+        "alt": "Yamaha R15 V4 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139276/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-right-view.webp",
+        "alt": "Yamaha R15 V4 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139277/bikes/Yamaha/Yamaha%20R15%20V4/yamaha-r15-v4-showroom-view.webp",
+        "alt": "Yamaha R15 V4 Showroom View"
+      }
+    ],
     "pros": [
       "Advanced full-color TFT display",
       "Quick acceleration (0-60kmph in 2.8s)",
@@ -1691,15 +1871,29 @@
       "Aggressive riding position"
     ],
     "faqs": [
-      {"question": "What's special about the TFT display?", "answer": "Features multiple themes, gear position indicator, and better visibility in sunlight."},
-      {"question": "Performance same as standard R15M?", "answer": "Identical performance: 0-60kmph in 2.8s, 0-100kmph in 6.3s."},
-      {"question": "Does it have riding modes?", "answer": "No, but display shows fuel efficiency and performance metrics."},
-      {"question": "Is it worth the premium?", "answer": "Only for enthusiasts wanting the best instrumentation in 155cc class."}
+      {
+        "question": "What's special about the TFT display?",
+        "answer": "Features multiple themes, gear position indicator, and better visibility in sunlight."
+      },
+      {
+        "question": "Performance same as standard R15M?",
+        "answer": "Identical performance: 0-60kmph in 2.8s, 0-100kmph in 6.3s."
+      },
+      {
+        "question": "Does it have riding modes?",
+        "answer": "No, but display shows fuel efficiency and performance metrics."
+      },
+      {
+        "question": "Is it worth the premium?",
+        "answer": "Only for enthusiasts wanting the best instrumentation in 155cc class."
+      }
     ]
   },
   {
     "name": "Yamaha Ray ZR Street Rally Fi",
     "slug": "yamaha-ray-zr-rally",
+    "meta_title": "Yamaha Ray ZR Street Rally – Sporty 125cc Scooter",
+    "meta_description": "Ray ZR Rally: Rally-inspired graphics, 50–53 kmpl & lightweight design. Stand out in the city with Yamaha style.",
     "brand": "Yamaha",
     "category": "Scooter",
     "cc": 125,
@@ -1744,28 +1938,12 @@
     "overall_width": "685 mm",
     "build_quality": "Sporty urban scooter",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139282/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-back-view.webp",
-          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139283/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-front-view.webp",
-          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139284/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-left-view.webp",
-          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139285/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-right-view.webp",
-          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139285/bikes/Yamaha/Yamaha%20Ray%20%20ZR%20125/yamaha-ray-zr-125-showroom-view.webp",
-          "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761224570/yamaha-rayzr-streetrally-fi-showroom-view_ipxwqd.png",
+        "alt": "Yamaha Ray  ZR 125 Yamaha Ray Zr 125 Back View"
+      }
+    ],
     "pros": [
       "Sporty rally-inspired graphics",
       "Good acceleration for 125cc (0-60kmph in 5.8s)",
@@ -1781,15 +1959,29 @@
       "Firm ride quality"
     ],
     "faqs": [
-      {"question": "What's special about Street Rally?", "answer": "Gets unique rally-inspired graphics and sporty decals."},
-      {"question": "Does it have ABS?", "answer": "No, comes with front disc and rear drum brakes without ABS."},
-      {"question": "Is it fuel injected?", "answer": "Yes, features Yamaha's fuel injection system."},
-      {"question": "Suitable for tall riders?", "answer": "Best for average height riders due to 775mm seat height."}
+      {
+        "question": "What's special about Street Rally?",
+        "answer": "Gets unique rally-inspired graphics and sporty decals."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, comes with front disc and rear drum brakes without ABS."
+      },
+      {
+        "question": "Is it fuel injected?",
+        "answer": "Yes, features Yamaha's fuel injection system."
+      },
+      {
+        "question": "Suitable for tall riders?",
+        "answer": "Best for average height riders due to 775mm seat height."
+      }
     ]
   },
   {
     "name": "Yamaha Saluto 125",
     "slug": "yamaha-saluto-125",
+    "meta_title": "Yamaha Saluto 125 – Affordable 125cc Commuter Bike",
+    "meta_description": "Saluto 125 delivers 58–62 kmpl, low cost & reliable performance. Simple, efficient transport for everyday riders.",
     "brand": "Yamaha",
     "category": "Commuter",
     "cc": 125,
@@ -1835,27 +2027,11 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139286/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-left-view.webp",
-          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139287/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-right-view.webp",
-          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139288/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-front-view.webp",
-          "alt": "Yamaha Saluto 125 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-rear-view.webp",
-          "alt": "Yamaha Saluto 125 Rear View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-showroom-view.webp",
-          "alt": "Yamaha Saluto 125 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761224875/yamaha-saluto-125-showroom-view_s6rtls.png",
+        "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
+      }
+    ],
     "pros": [
       "Excellent fuel efficiency (58-62kmpl)",
       "Affordable pricing",
@@ -1871,15 +2047,29 @@
       "Outdated styling"
     ],
     "faqs": [
-      {"question": "Is Saluto 125 fuel injected?", "answer": "No, uses carburetor system for cost efficiency."},
-      {"question": "Does it have ABS?", "answer": "No, comes with basic drum brakes front and rear."},
-      {"question": "Suitable for highway?", "answer": "Best for city use; can do highways but limited to 85kmph comfortably."},
-      {"question": "Maintenance costs?", "answer": "Very affordable with cheap spare parts availability."}
+      {
+        "question": "Is Saluto 125 fuel injected?",
+        "answer": "No, uses carburetor system for cost efficiency."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, comes with basic drum brakes front and rear."
+      },
+      {
+        "question": "Suitable for highway?",
+        "answer": "Best for city use; can do highways but limited to 85kmph comfortably."
+      },
+      {
+        "question": "Maintenance costs?",
+        "answer": "Very affordable with cheap spare parts availability."
+      }
     ]
   },
   {
     "name": "Yamaha Saluto 125 (UBS)",
     "slug": "yamaha-saluto-125-ubs",
+    "meta_title": "Yamaha Saluto 125 UBS – Budget Bike with Linked Brakes",
+    "meta_description": "Most affordable Yamaha with UBS braking, 58–62 kmpl & rugged commuter design. Safety meets value.",
     "brand": "Yamaha",
     "category": "Commuter",
     "cc": 125,
@@ -1925,27 +2115,15 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139286/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-left-view.webp",
-          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139287/bikes/Yamaha/Yamaha%20Saluto%20125/yahama-saluto-125-right-view.webp",
-          "alt": "Yamaha Saluto 125 Yahama Saluto 125 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139288/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-front-view.webp",
-          "alt": "Yamaha Saluto 125 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-rear-view.webp",
-          "alt": "Yamaha Saluto 125 Rear View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139289/bikes/Yamaha/Yamaha%20Saluto%20125/yamaha-saluto-125-showroom-view.webp",
-          "alt": "Yamaha Saluto 125 Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761225344/yamaha-saluto-125-showroom-view_rouqpg.png",
+        "alt": "Yamaha Saluto 125 Yahama Saluto 125 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761225341/yamaha-saluto-125-showroom-ubs-view_ytvgka.png",
+        "alt": "Yamaha Saluto 125 Yahama Saluto 125 Right View"
+      }
+    ],
     "pros": [
       "Most affordable Yamaha 125cc",
       "UBS improves braking safety",
@@ -1961,15 +2139,29 @@
       "Tube-type tires"
     ],
     "faqs": [
-      {"question": "What is UBS system?", "answer": "Unified Braking System links front and rear brakes for better stopping power."},
-      {"question": "Difference from standard Saluto?", "answer": "Mainly the braking system; performance identical (0-60kmph in 7.3s)."},
-      {"question": "Does it have ABS?", "answer": "No, UBS is different from ABS but improves braking balance."},
-      {"question": "Best for which riders?", "answer": "Budget-conscious buyers needing basic reliable transportation."}
+      {
+        "question": "What is UBS system?",
+        "answer": "Unified Braking System links front and rear brakes for better stopping power."
+      },
+      {
+        "question": "Difference from standard Saluto?",
+        "answer": "Mainly the braking system; performance identical (0-60kmph in 7.3s)."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, UBS is different from ABS but improves braking balance."
+      },
+      {
+        "question": "Best for which riders?",
+        "answer": "Budget-conscious buyers needing basic reliable transportation."
+      }
     ]
   },
   {
     "name": "Yamaha R3 (Approximate)",
     "slug": "yamaha-r3-approx",
+    "meta_title": "Yamaha R3 – 321cc Twin-Cylinder Supersport (Unofficial)",
+    "meta_description": "Yamaha R3: 41.4 PS parallel-twin, 0-60 in 2.5s & full fairing. Entry-level supersport for serious riders.",
     "brand": "Yamaha",
     "category": "Super Sport",
     "cc": 321,
@@ -2014,28 +2206,12 @@
     "overall_width": "730 mm",
     "build_quality": "Premium supersport",
     "parts_availability": "Limited in Bangladesh",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139278/bikes/Yamaha/Yamaha%20R3/yamaha-r3-back-view.webp",
-          "alt": "Yamaha R3 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139279/bikes/Yamaha/Yamaha%20R3/yamaha-r3-front-view.webp",
-          "alt": "Yamaha R3 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139280/bikes/Yamaha/Yamaha%20R3/yamaha-r3-left-view.webp",
-          "alt": "Yamaha R3 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139281/bikes/Yamaha/Yamaha%20R3/yamaha-r3-right-view.webp",
-          "alt": "Yamaha R3 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1754139281/bikes/Yamaha/Yamaha%20R3/yamaha-r3-showroom-view.webp",
-          "alt": "Yamaha R3 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761225596/yamaha-r3-2025-showroom-view_lakusj.png",
+        "alt": "Yamaha R3 2025 on showroom display with sharp R-series bodywork"
+      }
+    ],
     "pros": [
       "Superb acceleration (0-60kmph in 2.5s)",
       "Genuine supersport performance",
@@ -2051,16 +2227,29 @@
       "Approximate pricing may vary"
     ],
     "faqs": [
-      {"question": "Is R3 officially available?", "answer": "Currently unofficial in Bangladesh with approximate pricing."},
-      {"question": "How quick is acceleration?", "answer": "0-60kmph in 2.5 seconds and 0-100kmph in 5.8 seconds."},
-      {"question": "Does it have ABS?", "answer": "International versions come with ABS; check locally."},
-      {"question": "Suitable for beginners?", "answer": "Yes, as first supersport but requires respect for power."}
+      {
+        "question": "Is R3 officially available?",
+        "answer": "Currently unofficial in Bangladesh with approximate pricing."
+      },
+      {
+        "question": "How quick is acceleration?",
+        "answer": "0-60kmph in 2.5 seconds and 0-100kmph in 5.8 seconds."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "International versions come with ABS; check locally."
+      },
+      {
+        "question": "Suitable for beginners?",
+        "answer": "Yes, as first supersport but requires respect for power."
+      }
     ]
   },
-
   {
     "name": "Suzuki Hayate EP",
     "slug": "suzuki-hayate-ep",
+    "meta_title": "Suzuki Hayate EP – 113cc Budget Commuter Bike",
+    "meta_description": "Hayate EP: 60–63 kmpl, ultra-affordable & reliable. Perfect starter bike for city commuting in Bangladesh.",
     "brand": "Suzuki",
     "category": "Commuter",
     "cc": 113,
@@ -2106,23 +2295,23 @@
     "build_quality": "Basic commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-back-view.webp",
-          "alt": "Suzuki Hayate EP Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-left-view.webp",
-          "alt": "Suzuki Hayate EP Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926347/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-right-view.webp",
-          "alt": "Suzuki Hayate EP Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926348/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-front-view.webp",
-          "alt": "Suzuki Hayate EP Suzuki Hayate Front View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-back-view.webp",
+        "alt": "Suzuki Hayate EP Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926346/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-left-view.webp",
+        "alt": "Suzuki Hayate EP Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926347/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-ep-right-view.webp",
+        "alt": "Suzuki Hayate EP Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926348/bikes/SUZUKI/Suzuki%20Hayate%20EP/suzuki-hayate-front-view.webp",
+        "alt": "Suzuki Hayate EP Suzuki Hayate Front View"
+      }
+    ],
     "pros": [
       "Most affordable Suzuki bike",
       "Excellent fuel efficiency (60-63kmpl)",
@@ -2138,15 +2327,29 @@
       "Tube-type tires"
     ],
     "faqs": [
-      {"question": "What does EP stand for?", "answer": "Eco Performance - optimized for fuel efficiency."},
-      {"question": "Does it have electric start?", "answer": "Yes, comes with both kick and electric start."},
-      {"question": "Suitable for highway?", "answer": "Best for city use; can do highways up to 80kmph."},
-      {"question": "Maintenance costs?", "answer": "Very affordable with cheap spare parts availability."}
+      {
+        "question": "What does EP stand for?",
+        "answer": "Eco Performance - optimized for fuel efficiency."
+      },
+      {
+        "question": "Does it have electric start?",
+        "answer": "Yes, comes with both kick and electric start."
+      },
+      {
+        "question": "Suitable for highway?",
+        "answer": "Best for city use; can do highways up to 80kmph."
+      },
+      {
+        "question": "Maintenance costs?",
+        "answer": "Very affordable with cheap spare parts availability."
+      }
     ]
   },
   {
     "name": "Suzuki GSX 125",
     "slug": "suzuki-gsx-125",
+    "meta_title": "Suzuki GSX 125 – Sporty 125cc Full-Faired Bike",
+    "meta_description": "GSX 125 mimics GSX-R looks with digital console & 50–53 kmpl. Sporty style for young urban riders.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 125,
@@ -2192,15 +2395,15 @@
     "build_quality": "Sporty commuter",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926340/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black-side-view60d70ac23d87b.webp",
-          "alt": "Suzuki GSX 125 Black Side View60D70Ac23D87B"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926341/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black60d70ac256724.webp",
-          "alt": "Suzuki GSX 125 Black60D70Ac256724"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926340/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black-side-view60d70ac23d87b.webp",
+        "alt": "Suzuki GSX 125 Black Side View60D70Ac23D87B"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926341/bikes/SUZUKI/Suzuki%20GSX%20125/suzuki-gsx-125-black60d70ac256724.webp",
+        "alt": "Suzuki GSX 125 Black60D70Ac256724"
+      }
+    ],
     "pros": [
       "GSX-R inspired styling",
       "Better acceleration than commuters (0-60kmph in 6.8s)",
@@ -2216,15 +2419,29 @@
       "Limited power for highway"
     ],
     "faqs": [
-      {"question": "Is this a proper sports bike?", "answer": "No, has sporty looks but 125cc commuter engine."},
-      {"question": "Does it have ABS?", "answer": "No, comes with front disc and rear drum without ABS."},
-      {"question": "Suitable for tall riders?", "answer": "785mm seat height suits most riders comfortably."},
-      {"question": "Main difference from Gixxer?", "answer": "GSX has full fairing while Gixxer is naked."}
+      {
+        "question": "Is this a proper sports bike?",
+        "answer": "No, has sporty looks but 125cc commuter engine."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, comes with front disc and rear drum without ABS."
+      },
+      {
+        "question": "Suitable for tall riders?",
+        "answer": "785mm seat height suits most riders comfortably."
+      },
+      {
+        "question": "Main difference from Gixxer?",
+        "answer": "GSX has full fairing while Gixxer is naked."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer Monotone",
     "slug": "suzuki-gixxer-monotone",
+    "meta_title": "Suzuki Gixxer Monotone – Oil-Cooled 155cc Street Bike",
+    "meta_description": "Gixxer Monotone: Oil-cooled 155cc, dual disc brakes & 40–43 kmpl. Clean single-tone style with street performance.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 150,
@@ -2269,28 +2486,28 @@
     "overall_width": "805 mm",
     "build_quality": "Sporty street",
     "parts_availability": "Widely available",
-     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926329/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-back-view.webp",
-          "alt": "Suzuki Gixxer Monotone Suzuki Gixxer Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926330/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-front-view.webp",
-          "alt": "Suzuki Gixxer Monotone Suzuki Gixxer Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926331/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-left-view.webp",
-          "alt": "Suzuki Gixxer Monotone Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926332/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-right-view.webp",
-          "alt": "Suzuki Gixxer Monotone Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926333/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-showroom-view.webp",
-          "alt": "Suzuki Gixxer Monotone Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926329/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-back-view.webp",
+        "alt": "Suzuki Gixxer Monotone Suzuki Gixxer Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926330/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-front-view.webp",
+        "alt": "Suzuki Gixxer Monotone Suzuki Gixxer Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926331/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-left-view.webp",
+        "alt": "Suzuki Gixxer Monotone Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926332/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-right-view.webp",
+        "alt": "Suzuki Gixxer Monotone Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926333/bikes/SUZUKI/Suzuki%20Gixxer%20Monotone/suzuki-gixxer-monotone-showroom-view.webp",
+        "alt": "Suzuki Gixxer Monotone Showroom View"
+      }
+    ],
     "pros": [
       "Good acceleration (0-60kmph in 4.5s)",
       "Oil-cooled engine for better performance",
@@ -2306,15 +2523,29 @@
       "No Bluetooth connectivity"
     ],
     "faqs": [
-      {"question": "What's special about Monotone?", "answer": "Features single-tone color scheme for cleaner look."},
-      {"question": "Does it have ABS?", "answer": "Only higher variants come with ABS."},
-      {"question": "Oil-cooled vs liquid-cooled?", "answer": "Oil cooling is simpler but less efficient than liquid."},
-      {"question": "Suitable for highway?", "answer": "Yes, comfortable up to 100-110kmph."}
+      {
+        "question": "What's special about Monotone?",
+        "answer": "Features single-tone color scheme for cleaner look."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Only higher variants come with ABS."
+      },
+      {
+        "question": "Oil-cooled vs liquid-cooled?",
+        "answer": "Oil cooling is simpler but less efficient than liquid."
+      },
+      {
+        "question": "Suitable for highway?",
+        "answer": "Yes, comfortable up to 100-110kmph."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer Classic Matte",
     "slug": "suzuki-gixxer-classic-matte",
+    "meta_title": "Suzuki Gixxer Classic Matte – Retro 155cc Street Bike",
+    "meta_description": "Gixxer Classic Matte: Unique finish, oil-cooled engine & LED lights. Retro aesthetics meet modern street performance.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 154.9,
@@ -2360,27 +2591,27 @@
     "build_quality": "Retro-modern street",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
+        "alt": "Suzuki Gixxer SF Fi ABS Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
+        "alt": "Suzuki Gixxer SF Fi ABS Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
+        "alt": "Suzuki Gixxer SF Fi ABS Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
+        "alt": "Suzuki Gixxer SF Fi ABS Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
+        "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
+      }
+    ],
     "pros": [
       "Unique matte finish colors",
       "Good performance (0-60kmph in 4.6s)",
@@ -2396,15 +2627,29 @@
       "No major mechanical upgrades"
     ],
     "faqs": [
-      {"question": "Difference from Monotone?", "answer": "Mainly cosmetic - matte colors vs gloss."},
-      {"question": "Performance same as standard?", "answer": "Identical: 0-60kmph in 4.6s, 0-100kmph in 12.0s."},
-      {"question": "Special maintenance for matte?", "answer": "Yes, requires specific matte paint cleaners."},
-      {"question": "Does it have classic badging?", "answer": "Yes, features 'Classic' branding on tank."}
+      {
+        "question": "Difference from Monotone?",
+        "answer": "Mainly cosmetic - matte colors vs gloss."
+      },
+      {
+        "question": "Performance same as standard?",
+        "answer": "Identical: 0-60kmph in 4.6s, 0-100kmph in 12.0s."
+      },
+      {
+        "question": "Special maintenance for matte?",
+        "answer": "Yes, requires specific matte paint cleaners."
+      },
+      {
+        "question": "Does it have classic badging?",
+        "answer": "Yes, features 'Classic' branding on tank."
+      }
     ]
   },
   {
     "name": "Suzuki Access 125 Fi",
     "slug": "suzuki-access-125-fi",
+    "meta_title": "Suzuki Access 125 Fi – Premium 125cc Fuel-Injected Scooter",
+    "meta_description": "Access 125 Fi: Fuel injection, LED lights & 50–53 kmpl. Comfortable, refined urban mobility from Suzuki.",
     "brand": "Suzuki",
     "category": "Scooter",
     "cc": 124,
@@ -2449,28 +2694,28 @@
     "overall_width": "685 mm",
     "build_quality": "Premium scooter",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-back-view.webp",
-          "alt": "Suzuki Access 125 Fi Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926317/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-front-view.webp",
-          "alt": "Suzuki Access 125 Fi Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926318/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-left-view.webp",
-          "alt": "Suzuki Access 125 Fi Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926319/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-right-view.webp",
-          "alt": "Suzuki Access 125 Fi Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926320/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-showroom-view.webp",
-          "alt": "Suzuki Access 125 Fi Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926316/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-back-view.webp",
+        "alt": "Suzuki Access 125 Fi Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926317/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-front-view.webp",
+        "alt": "Suzuki Access 125 Fi Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926318/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-left-view.webp",
+        "alt": "Suzuki Access 125 Fi Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926319/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-right-view.webp",
+        "alt": "Suzuki Access 125 Fi Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926320/bikes/SUZUKI/Suzuki%20Access%20125%20Fi/suzuki-access-125-fi-showroom-view.webp",
+        "alt": "Suzuki Access 125 Fi Showroom View"
+      }
+    ],
     "pros": [
       "Smooth fuel-injected performance",
       "Good acceleration for scooter (0-60kmph in 6.2s)",
@@ -2486,15 +2731,29 @@
       "Premium pricing"
     ],
     "faqs": [
-      {"question": "Does it have ABS?", "answer": "No, comes with front disc and rear drum without ABS."},
-      {"question": "Fuel injection benefits?", "answer": "Better cold starts, fuel efficiency and throttle response."},
-      {"question": "Suitable for tall riders?", "answer": "765mm seat height accommodates most riders."},
-      {"question": "Maintenance costs?", "answer": "Higher than carbureted scooters but more reliable."}
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, comes with front disc and rear drum without ABS."
+      },
+      {
+        "question": "Fuel injection benefits?",
+        "answer": "Better cold starts, fuel efficiency and throttle response."
+      },
+      {
+        "question": "Suitable for tall riders?",
+        "answer": "765mm seat height accommodates most riders."
+      },
+      {
+        "question": "Maintenance costs?",
+        "answer": "Higher than carbureted scooters but more reliable."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer Carburetor",
     "slug": "suzuki-gixxer-carb",
+    "meta_title": "Suzuki Gixxer Carburetor – Affordable 155cc Street Bike",
+    "meta_description": "Budget-friendly Gixxer with carbureted 155cc engine, oil cooling & sporty looks. Low cost, high value.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 155,
@@ -2539,28 +2798,12 @@
     "overall_width": "805 mm",
     "build_quality": "Sporty street",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761226232/suzuki-gixxer-carburetor-showroom-view_bjsqxy.png",
+        "alt": "Suzuki Gixxer SF Fi ABS Back View"
+      }
+    ],
     "pros": [
       "Affordable 155cc performance",
       "Good acceleration (0-60kmph in 4.7s)",
@@ -2576,15 +2819,29 @@
       "Vibrations at high RPM"
     ],
     "faqs": [
-      {"question": "Difference between carb and FI?", "answer": "Carburetor version is cheaper but less efficient than fuel injection."},
-      {"question": "Does it have ABS?", "answer": "No, this variant comes without ABS."},
-      {"question": "Cold start issues?", "answer": "Carburetor may need choke in cold weather unlike FI."},
-      {"question": "Suitable for highway?", "answer": "Yes, comfortable up to 100-110kmph."}
+      {
+        "question": "Difference between carb and FI?",
+        "answer": "Carburetor version is cheaper but less efficient than fuel injection."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, this variant comes without ABS."
+      },
+      {
+        "question": "Cold start issues?",
+        "answer": "Carburetor may need choke in cold weather unlike FI."
+      },
+      {
+        "question": "Suitable for highway?",
+        "answer": "Yes, comfortable up to 100-110kmph."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer Fi Disc",
     "slug": "suzuki-gixxer-fi-disc",
+    "meta_title": "Suzuki Gixxer Fi Disc – Fuel-Injected 155cc Dual Disc",
+    "meta_description": "Gixxer Fi Disc: Smoother FI engine, dual disc brakes & LED lighting. Better efficiency & braking than carb version.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 155,
@@ -2629,28 +2886,16 @@
     "overall_width": "805 mm",
     "build_quality": "Sporty street",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761226686/suzuki-gixxer-fi-disc-showroom-view_i5s5kt.jpg",
+        "alt": "Suzuki Gixxer SF Fi ABS Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761226686/suzuki-gixxer-fi-disc-showroom-view_i5s5kt.jpg",
+        "alt": "Suzuki Gixxer SF Fi ABS Front View"
+      }
+    ],
     "pros": [
       "Smoother fuel-injected performance",
       "Better acceleration (0-60kmph in 4.5s)",
@@ -2666,15 +2911,29 @@
       "No Bluetooth features"
     ],
     "faqs": [
-      {"question": "Benefits over carburetor?", "answer": "Better throttle response, efficiency and requires less maintenance."},
-      {"question": "Does it have ABS?", "answer": "No, this variant has dual discs but no ABS."},
-      {"question": "Cold start performance?", "answer": "FI provides better cold starts than carburetor."},
-      {"question": "Worth extra over carb?", "answer": "Yes, for better performance and lower maintenance."}
+      {
+        "question": "Benefits over carburetor?",
+        "answer": "Better throttle response, efficiency and requires less maintenance."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "No, this variant has dual discs but no ABS."
+      },
+      {
+        "question": "Cold start performance?",
+        "answer": "FI provides better cold starts than carburetor."
+      },
+      {
+        "question": "Worth extra over carb?",
+        "answer": "Yes, for better performance and lower maintenance."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer Fi ABS",
     "slug": "suzuki-gixxer-fi-abs",
+    "meta_title": "Suzuki Gixxer Fi ABS – 155cc with Front ABS",
+    "meta_description": "Gixxer Fi ABS adds single-channel ABS to fuel-injected 155cc. Safer braking without compromising performance.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 155,
@@ -2719,28 +2978,16 @@
     "overall_width": "805 mm",
     "build_quality": "Premium street",
     "parts_availability": "Widely available",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761227936/suzuki-gixxer-fi-abs-showroom-view_hwawtx.png",
+        "alt": "Suzuki Gixxer SF Fi ABS Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761227936/suzuki-gixxer-fi-abs-showroom-view_hwawtx.png",
+        "alt": "Suzuki Gixxer SF Fi ABS Front View"
+      }
+    ],
     "pros": [
       "Single-channel ABS safety",
       "Good acceleration (0-60kmph in 4.5s)",
@@ -2756,15 +3003,29 @@
       "Same engine as lower variants"
     ],
     "faqs": [
-      {"question": "Is ABS single or dual-channel?", "answer": "Single-channel ABS only on front wheel."},
-      {"question": "Performance same as non-ABS?", "answer": "Identical performance: 0-60kmph in 4.5s."},
-      {"question": "Worth extra over non-ABS?", "answer": "Yes, for safety especially in wet conditions."},
-      {"question": "Does it have traction control?", "answer": "No, only comes with ABS."}
+      {
+        "question": "Is ABS single or dual-channel?",
+        "answer": "Single-channel ABS only on front wheel."
+      },
+      {
+        "question": "Performance same as non-ABS?",
+        "answer": "Identical performance: 0-60kmph in 4.5s."
+      },
+      {
+        "question": "Worth extra over non-ABS?",
+        "answer": "Yes, for safety especially in wet conditions."
+      },
+      {
+        "question": "Does it have traction control?",
+        "answer": "No, only comes with ABS."
+      }
     ]
   },
   {
     "name": "Suzuki Intruder Fi ABS",
     "slug": "suzuki-intruder-fi-abs",
+    "meta_title": "Suzuki Intruder Fi ABS – 155cc Power Cruiser",
+    "meta_description": "Intruder: Low 740mm seat, cruiser stance, ABS & LED projector. Bold style for relaxed, confident riding.",
     "brand": "Suzuki",
     "category": "Cruiser",
     "cc": 154.9,
@@ -2810,27 +3071,27 @@
     "build_quality": "Muscular cruiser",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926349/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-iintruder-fi-abs-showeoom-view.webp",
-          "alt": "Suzuki Intruder Fi ABS Suzuki Iintruder Fi Abs Showeoom View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926350/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-back-view.webp",
-          "alt": "Suzuki Intruder Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926351/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-front-view.webp",
-          "alt": "Suzuki Intruder Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926352/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-left-view.webp",
-          "alt": "Suzuki Intruder Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926353/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-right-view.webp",
-          "alt": "Suzuki Intruder Fi ABS Right View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926349/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-iintruder-fi-abs-showeoom-view.webp",
+        "alt": "Suzuki Intruder Fi ABS Suzuki Iintruder Fi Abs Showeoom View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926350/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-back-view.webp",
+        "alt": "Suzuki Intruder Fi ABS Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926351/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-front-view.webp",
+        "alt": "Suzuki Intruder Fi ABS Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926352/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-left-view.webp",
+        "alt": "Suzuki Intruder Fi ABS Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926353/bikes/SUZUKI/Suzuki%20Intruder%20Fi%20ABS/suzuki-intruder-fi-abs-right-view.webp",
+        "alt": "Suzuki Intruder Fi ABS Right View"
+      }
+    ],
     "pros": [
       "Distinctive cruiser styling",
       "Comfortable low seat (740mm)",
@@ -2846,15 +3107,29 @@
       "Limited ground clearance"
     ],
     "faqs": [
-      {"question": "Is this a proper cruiser?", "answer": "Yes, with forward-set footpegs and low seat height."},
-      {"question": "Performance vs Gixxer?", "answer": "Slower (0-60kmph in 5.2s) due to weight and gearing."},
-      {"question": "Does it have ABS?", "answer": "Yes, single-channel ABS on front wheel."},
-      {"question": "Suitable for tall riders?", "answer": "Best for average height due to footpeg position."}
+      {
+        "question": "Is this a proper cruiser?",
+        "answer": "Yes, with forward-set footpegs and low seat height."
+      },
+      {
+        "question": "Performance vs Gixxer?",
+        "answer": "Slower (0-60kmph in 5.2s) due to weight and gearing."
+      },
+      {
+        "question": "Does it have ABS?",
+        "answer": "Yes, single-channel ABS on front wheel."
+      },
+      {
+        "question": "Suitable for tall riders?",
+        "answer": "Best for average height due to footpeg position."
+      }
     ]
   },
   {
     "name": "New Suzuki Gixxer SF Fi ABS",
     "slug": "suzuki-gixxer-sf-fi-abs",
+    "meta_title": "Suzuki Gixxer SF Fi ABS – Fully-Faired 155cc Sports",
+    "meta_description": "Gixxer SF Fi ABS: Full fairing, dual-channel ABS & 0-60 in 4.3s. Sporty looks with enhanced safety.",
     "brand": "Suzuki",
     "category": "Sports",
     "cc": 155,
@@ -2900,27 +3175,11 @@
     "build_quality": "Premium sports",
     "parts_availability": "Widely available",
     "image_urls": [
-        {
-           "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926335/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-back-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926336/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-front-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926337/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-left-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926338/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-right-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926339/bikes/SUZUKI/Suzuki%20Gixxer%20SF%20Fi%20ABS/suzuki-gixxer-sf-fi-abs-showroom-view.webp",
-          "alt": "Suzuki Gixxer SF Fi ABS Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228323/suzuki-gixxer-sf-fi-abs-showroom-view_kzwd1i.png",
+        "alt": "New Suzuki Gixxer SF Fi ABS on showroom display with full fairing and sporty stance"
+      }
+    ],
     "pros": [
       "Sportier acceleration (0-60kmph in 4.3s)",
       "Dual-channel ABS safety",
@@ -2936,15 +3195,29 @@
       "Cramped ergonomics for some"
     ],
     "faqs": [
-      {"question": "Difference from naked Gixxer?", "answer": "Adds full fairing, dual-channel ABS and sportier ergonomics."},
-      {"question": "How much faster than naked?", "answer": "Marginally quicker: 0-60kmph in 4.3s vs 4.5s."},
-      {"question": "Does it have riding modes?", "answer": "No, but dual-channel ABS improves safety."},
-      {"question": "Suitable for track days?", "answer": "Yes, with sporty ergonomics and fairing."}
+      {
+        "question": "Difference from naked Gixxer?",
+        "answer": "Adds full fairing, dual-channel ABS and sportier ergonomics."
+      },
+      {
+        "question": "How much faster than naked?",
+        "answer": "Marginally quicker: 0-60kmph in 4.3s vs 4.5s."
+      },
+      {
+        "question": "Does it have riding modes?",
+        "answer": "No, but dual-channel ABS improves safety."
+      },
+      {
+        "question": "Suitable for track days?",
+        "answer": "Yes, with sporty ergonomics and fairing."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer SF Matt Plus",
     "slug": "suzuki-gixxer-sf-matt-plus",
+    "meta_title": "Suzuki Gixxer SF Matt Plus – Premium Matte 155cc",
+    "meta_description": "Exclusive matte-finish Gixxer SF with dual-channel ABS & 0-60 in 4.2s. Stand out with premium sports styling.",
     "brand": "Suzuki",
     "category": "Sports",
     "cc": 155,
@@ -2990,27 +3263,11 @@
     "build_quality": "Premium sports",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228540/suzuki-gixxer-sf-mattplus-showroom-view_sa1rhm.jpg",
+        "alt": "Suzuki Gixxer SF Matt Plus on showroom display with matte finish and full fairing"
+      }
+    ],
     "pros": [
       "Exclusive matte finish colors",
       "Quick acceleration (0-60kmph in 4.2s)",
@@ -3026,15 +3283,29 @@
       "Firm ride quality"
     ],
     "faqs": [
-      {"question": "What makes Matt Plus special?", "answer": "Premium matte paint scheme and dual-tone colors."},
-      {"question": "Performance same as standard SF?", "answer": "Nearly identical: 0-60kmph in 4.2s vs 4.3s."},
-      {"question": "Does it have traction control?", "answer": "No, but dual-channel ABS provides safety."},
-      {"question": "Is it worth the premium?", "answer": "Only for buyers wanting exclusive matte colors."}
+      {
+        "question": "What makes Matt Plus special?",
+        "answer": "Premium matte paint scheme and dual-tone colors."
+      },
+      {
+        "question": "Performance same as standard SF?",
+        "answer": "Nearly identical: 0-60kmph in 4.2s vs 4.3s."
+      },
+      {
+        "question": "Does it have traction control?",
+        "answer": "No, but dual-channel ABS provides safety."
+      },
+      {
+        "question": "Is it worth the premium?",
+        "answer": "Only for buyers wanting exclusive matte colors."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer 250",
     "slug": "suzuki-gixxer-250",
+    "meta_title": "Suzuki Gixxer 250 – 248cc Oil-Cooled Naked Bike",
+    "meta_description": "Gixxer 250: 26.5 PS, dual-channel ABS & 0-60 in 3.8s. Strong street performance in a premium naked package.",
     "brand": "Suzuki",
     "category": "Street",
     "cc": 248,
@@ -3079,28 +3350,28 @@
     "overall_width": "805 mm",
     "build_quality": "Premium street",
     "parts_availability": "Good in urban areas",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926320/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-back-view.webp",
-          "alt": "Suzuki Gixxer 250 Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926321/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-front-view.webp",
-          "alt": "Suzuki Gixxer 250 Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926322/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-left-view.webp",
-          "alt": "Suzuki Gixxer 250 Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926323/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-right-view.webp",
-          "alt": "Suzuki Gixxer 250 Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926324/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-showroom-view.webp",
-          "alt": "Suzuki Gixxer 250 Showroom View"
-        }
-      ],
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926320/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-back-view.webp",
+        "alt": "Suzuki Gixxer 250 Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926321/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-front-view.webp",
+        "alt": "Suzuki Gixxer 250 Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926322/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-left-view.webp",
+        "alt": "Suzuki Gixxer 250 Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926323/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-right-view.webp",
+        "alt": "Suzuki Gixxer 250 Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926324/bikes/SUZUKI/Suzuki%20Gixxer%20250/suzuki-gixxer-250-showroom-view.webp",
+        "alt": "Suzuki Gixxer 250 Showroom View"
+      }
+    ],
     "pros": [
       "Strong acceleration (0-60kmph in 3.8s)",
       "250cc oil-cooled power",
@@ -3116,18 +3387,32 @@
       "No traction control"
     ],
     "faqs": [
-      {"question": "How much faster than 155cc?", "answer": "Significantly quicker: 0-60kmph in 3.8s vs 4.3s."},
-      {"question": "Does it have dual-channel ABS?", "answer": "Yes, comes with dual-channel ABS as standard."},
-      {"question": "Suitable for highway touring?", "answer": "Yes, but small tank limits range."},
-      {"question": "Maintenance costs?", "answer": "Higher than 150cc but reasonable for 250cc."}
+      {
+        "question": "How much faster than 155cc?",
+        "answer": "Significantly quicker: 0-60kmph in 3.8s vs 4.3s."
+      },
+      {
+        "question": "Does it have dual-channel ABS?",
+        "answer": "Yes, comes with dual-channel ABS as standard."
+      },
+      {
+        "question": "Suitable for highway touring?",
+        "answer": "Yes, but small tank limits range."
+      },
+      {
+        "question": "Maintenance costs?",
+        "answer": "Higher than 150cc but reasonable for 250cc."
+      }
     ]
   },
   {
     "name": "Suzuki Gixxer SF 250",
     "slug": "suzuki-gixxer-sf-250",
+    "meta_title": "Suzuki Gixxer SF 250 – Fully-Faired 250cc Sports Bike",
+    "meta_description": "Gixxer SF 250: Full fairing, 26.5 PS & 0-60 in 3.7s. Track-inspired design with dual-channel ABS.",
     "brand": "Suzuki",
     "category": "Sports",
-    "cc": 249,
+    "cc": 250,
     "price": "Tk. 449,950",
     "short_description": "Suzuki Gixxer SF 250 - The fully-faired 250cc sports bike with aggressive aerodynamics and track-inspired design. Features dual-channel ABS, LED lighting, and 26.5 PS oil-cooled engine.",
     "Zero_Sixty": "3.7 sec",
@@ -3170,27 +3455,27 @@
     "build_quality": "Premium sports",
     "parts_availability": "Good in urban areas",
     "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926325/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi%20disc-right-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926326/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-back-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926327/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-front-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-left-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926328/bikes/SUZUKI/Suzuki%20Gixxer%20Fi%20Disc/suzuki-gixxer-fi-disc-showroom-view.webp",
-          "alt": "Suzuki Gixxer Fi Disc Showroom View"
-        }
-      ],
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228830/suzuki-gixxer-sf-250-left-side-view_mwyyjc.png",
+        "alt": "Suzuki Gixxer Fi Disc Suzuki Gixxer Fi Disc Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228856/suzuki-gixxer-sf-250-front-side-view_ynbqch.png",
+        "alt": "Suzuki Gixxer Fi Disc Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228835/suzuki-gixxer-sf-250-backside-view_ryahrl.png",
+        "alt": "Suzuki Gixxer Fi Disc Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228850/suzuki-gixxer-sf-250-engie-view_mvrh2s.png",
+        "alt": "Suzuki Gixxer Fi Disc Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/duna87jkw/image/upload/v1761228862/suzuki-gixxer-sf-250-right-side-view_egtimt.png",
+        "alt": "Suzuki Gixxer Fi Disc Showroom View"
+      }
+    ],
     "pros": [
       "Excellent acceleration (0-60kmph in 3.7s)",
       "Full fairing for better aerodynamics",
@@ -3206,15 +3491,29 @@
       "Aggressive ergonomics"
     ],
     "faqs": [
-      {"question": "Difference from naked 250?", "answer": "Adds fairing, slightly quicker (0-60kmph in 3.7s vs 3.8s)."},
-      {"question": "Does it have quick shifter?", "answer": "No, but gearbox is smooth for clutchless shifts."},
-      {"question": "Suitable for track days?", "answer": "Yes, with sporty ergonomics and fairing."},
-      {"question": "Worth extra over naked?", "answer": "Yes, for sportier looks and slightly better performance."}
+      {
+        "question": "Difference from naked 250?",
+        "answer": "Adds fairing, slightly quicker (0-60kmph in 3.7s vs 3.8s)."
+      },
+      {
+        "question": "Does it have quick shifter?",
+        "answer": "No, but gearbox is smooth for clutchless shifts."
+      },
+      {
+        "question": "Suitable for track days?",
+        "answer": "Yes, with sporty ergonomics and fairing."
+      },
+      {
+        "question": "Worth extra over naked?",
+        "answer": "Yes, for sportier looks and slightly better performance."
+      }
     ]
   },
   {
     "name": "Suzuki GSX R Dual ABS",
     "slug": "suzuki-gsx-r-dual-abs",
+    "meta_title": "Suzuki GSX R Dual ABS – Liquid-Cooled 150cc Supersport",
+    "meta_description": "GSX R Dual ABS: Liquid-cooled 19.2 PS, dual-channel ABS & 0-60 in 3.5s. GSX-R DNA in a 150cc package.",
     "brand": "Suzuki",
     "category": "Sports",
     "cc": 149,
@@ -3259,28 +3558,28 @@
     "overall_width": "700 mm",
     "build_quality": "Premium supersport",
     "parts_availability": "Good in urban areas",
-   "image_urls": [
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926342/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-back-view.webp",
-          "alt": "Suzuki GSX R Dual ABS Back View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926342/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-front-view.webp",
-          "alt": "Suzuki GSX R Dual ABS Front View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926343/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-left-view.webp",
-          "alt": "Suzuki GSX R Dual ABS Left View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926344/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-right-view.webp",
-          "alt": "Suzuki GSX R Dual ABS Right View"
-        },
-        {
-          "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926345/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-showroom-view.webp",
-          "alt": "Suzuki GSX R Dual ABS Showroom View"
-        }
-      ] ,
+    "image_urls": [
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926342/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-back-view.webp",
+        "alt": "Suzuki GSX R Dual ABS Back View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926342/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-front-view.webp",
+        "alt": "Suzuki GSX R Dual ABS Front View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926343/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-left-view.webp",
+        "alt": "Suzuki GSX R Dual ABS Left View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926344/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-right-view.webp",
+        "alt": "Suzuki GSX R Dual ABS Right View"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbjpqcth5/image/upload/v1753926345/bikes/SUZUKI/Suzuki%20GSX%20R%20Dual%20ABS/suzuki-gsx-r-dual-abs-showroom-view.webp",
+        "alt": "Suzuki GSX R Dual ABS Showroom View"
+      }
+    ],
     "pros": [
       "Superb acceleration (0-60kmph in 3.5s)",
       "GSX-R series DNA and styling",
@@ -3296,11 +3595,22 @@
       "No traction control"
     ],
     "faqs": [
-      {"question": "How does it compare to R15?", "answer": "More premium with dual-channel ABS and quicker acceleration (0-60kmph in 3.5s vs 3.0s)."},
-      {"question": "Is it worth the price?", "answer": "Only for buyers wanting GSX-R badge and premium features."},
-      {"question": "Does it have quick shifter?", "answer": "No, but gearbox is precise for clutchless shifts."},
-      {"question": "Suitable for beginners?", "answer": "Not ideal - aggressive ergonomics suit experienced riders."}
+      {
+        "question": "How does it compare to R15?",
+        "answer": "More premium with dual-channel ABS and quicker acceleration (0-60kmph in 3.5s vs 3.0s)."
+      },
+      {
+        "question": "Is it worth the price?",
+        "answer": "Only for buyers wanting GSX-R badge and premium features."
+      },
+      {
+        "question": "Does it have quick shifter?",
+        "answer": "No, but gearbox is precise for clutchless shifts."
+      },
+      {
+        "question": "Suitable for beginners?",
+        "answer": "Not ideal - aggressive ergonomics suit experienced riders."
+      }
     ]
   }
 ]
-   
