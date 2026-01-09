@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | BikeBD</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Import styles from existing files */
+        /* Custom animation for fade in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        /* Section card styling */
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Content styling */
+        .content-section {
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .content-section p {
+            margin-bottom: 16px;
+        }
+        
+        .content-section p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .highlight-text {
+            background-color: #eff6ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .warning-text {
+            background-color: #fef2f2;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #ef4444;
+        }
+        
+        /* Policy sections */
+        .policy-section {
+            margin-bottom: 32px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .policy-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 12px;
+        }
+        
+        /* Info cards */
+        .info-card {
+            border-left: 4px solid #3b82f6;
+            background-color: #f8fafc;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        
+        .info-card.warning {
+            border-left-color: #ef4444;
+            background-color: #fef2f2;
+        }
+        
+        .info-card.success {
+            border-left-color: #10b981;
+            background-color: #f0fdf4;
+        }
+        
+        /* Data sources list */
+        .source-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .source-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .source-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .source-icon {
+            color: #3b82f6;
+            margin-right: 12px;
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        /* Update history */
+        .update-history {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .update-row {
+            display: flex;
+            padding: 16px;
+            border-bottom: 1px solid #f3f4f6;
+            align-items: center;
+        }
+        
+        .update-row:last-child {
+            border-bottom: none;
+        }
+        
+        .update-date {
+            font-weight: 600;
+            color: #374151;
+            min-width: 120px;
+        }
+        
+        .update-description {
+            color: #4b5563;
+            flex: 1;
+        }
+        
+        .update-badge {
+            background-color: #dbeafe;
+            color: #1e40af;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        /* Key points */
+        .key-point {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            padding: 12px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+            border: 1px solid #f3f4f6;
+        }
+        
+        .key-point:hover {
+            background-color: #f3f4f6;
+        }
+        
+        .point-icon {
+            color: #10b981;
+            margin-right: 12px;
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        /* Contact info block */
+        .contact-block {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            border: 1px solid #bae6fd;
+        }
+        
+        /* Scroll spy navigation */
+        .policy-nav {
+            position: sticky;
+            top: 100px;
+        }
+        
+        .nav-item {
+            display: block;
+            padding: 12px 16px;
+            color: #4b5563;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-bottom: 4px;
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+        }
+        
+        .nav-item:hover {
+            background-color: #f3f4f6;
+            color: #374151;
+        }
+        
+        .nav-item.active {
+            background-color: #eff6ff;
+            color: #1e40af;
+            border-left-color: #3b82f6;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-900 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Privacy Policy</h1>
+                <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                    How we collect, use, and protect information on BikeBD
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#effective-date" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+                        <i class="fas fa-calendar-alt mr-2"></i>Effective Date
+                    </a>
+                    <a href="#contact" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+                        <i class="fas fa-envelope mr-2"></i>Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Navigation Sidebar -->
+                <div class="lg:col-span-1">
+                    <div class="policy-nav section-card">
+                        <h3 class="text-lg font-bold text-gray-800 mb-4">On This Page</h3>
+                        <nav>
+                            <a href="#introduction" class="nav-item active">Introduction</a>
+                            <a href="#who-we-are" class="nav-item">1. Who We Are</a>
+                            <a href="#future-features" class="nav-item">2. Future Features</a>
+                            <a href="#information-we-show" class="nav-item">3. Information We Show</a>
+                            <a href="#showroom-listings" class="nav-item">4. Showroom Listings</a>
+                            <a href="#personal-data" class="nav-item">5. Personal Data</a>
+                            <a href="#contact-information" class="nav-item">6. Contact Information</a>
+                            <a href="#closing" class="nav-item">Closing Statement</a>
+                        </nav>
+                        
+                        <div class="mt-8 pt-6 border-t border-gray-200">
+                            <h4 class="font-bold text-gray-800 mb-3">Quick Facts</h4>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-user-shield text-green-500 mr-2"></i>
+                                    <span>No Personal Data Collected</span>
+                                </div>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-cookie text-green-500 mr-2"></i>
+                                    <span>No Tracking Cookies</span>
+                                </div>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-edit text-blue-500 mr-2"></i>
+                                    <span>Information Can Be Updated</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Policy Content -->
+                <div class="lg:col-span-3">
+                    <div class="section-card">
+                        <!-- Effective Date -->
+                        <div class="text-center mb-10" id="effective-date">
+                            <div class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                                <i class="fas fa-calendar-check mr-2"></i>Effective Date
+                            </div>
+                            <h2 class="text-3xl font-bold text-gray-800">June 5, 2025</h2>
+                            <p class="text-gray-600 mt-2">Last updated: June 5, 2025</p>
+                        </div>
+                        
+                        <!-- Introduction -->
+                        <div class="policy-section" id="introduction">
+                            <div class="content-section">
+                                <p>
+                                    BikeBD is a motorcycle information website operating under our parent company, UNLEFT. 
+                                    This privacy policy outlines how we collect, use, and protect information related to our website visitors and services.
+                                </p>
+                                
+                                <div class="info-card">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-info-circle text-blue-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">About This Policy</h4>
+                                            <p class="text-gray-600">
+                                                This policy applies to all information collected through our website and services. 
+                                                We are committed to being transparent about our data practices.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 1. Who We Are -->
+                        <div class="policy-section" id="who-we-are">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">1</span>
+                                <h2 class="text-2xl font-bold text-gray-800">Who We Are</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    BikeBD is dedicated to providing comprehensive, accurate, and up-to-date information about motorcycles available in Bangladesh. 
+                                    Our mission is to help motorcycle enthusiasts, buyers, and riders make informed decisions.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- 2. Future Features -->
+                        <div class="policy-section" id="future-features">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">2</span>
+                                <h2 class="text-2xl font-bold text-gray-800">Future Features</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    We plan to allow users to post and sell used bikes directly on our website in the near future. 
+                                    When this feature launches, we will update this privacy policy to include information about data collection 
+                                    and usage specific to the used bike marketplace.
+                                </p>
+                                
+                                <div class="highlight-text">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-bullhorn text-blue-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">Coming Soon: Used Bike Marketplace</h4>
+                                            <p class="text-gray-700">
+                                                We're developing a platform where users can safely buy and sell used motorcycles. 
+                                                This feature will have its own terms and privacy guidelines to protect both buyers and sellers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 3. What Information We Show -->
+                        <div class="policy-section" id="information-we-show">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">3</span>
+                                <h2 class="text-2xl font-bold text-gray-800">What Information We Show</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    Our website displays motorcycle information collected from various public sources. 
+                                    We strive to provide accurate and current information, but we cannot guarantee 100% accuracy at all times.
+                                </p>
+                                
+                                <h3 class="text-xl font-bold text-gray-800 mt-6 mb-4">Information Sources Include:</h3>
+                                
+                                <ul class="source-list">
+                                    <li>
+                                        <i class="fas fa-search source-icon"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Google Search Results</h4>
+                                            <p class="text-gray-600">Publicly available information from across the web</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-youtube source-icon"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">YouTube Reviews and Channels</h4>
+                                            <p class="text-gray-600">Expert analysis and user experiences</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-globe source-icon"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Official Brand Websites</h4>
+                                            <p class="text-gray-600">Manufacturer specifications and announcements</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-robot source-icon"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">ChatGPT Summaries</h4>
+                                            <p class="text-gray-600">AI-assisted research and public knowledge organization</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                                <div class="warning-text">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-exclamation-triangle text-red-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">Accuracy Disclaimer</h4>
+                                            <p class="text-gray-700">
+                                                Accuracy is prioritized but not guaranteed to be 100% error-free. 
+                                                Motorcycle specifications, prices, and availability change frequently. 
+                                                We recommend verifying critical information with official dealers before making purchasing decisions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 4. Showroom Listings -->
+                        <div class="policy-section" id="showroom-listings">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">4</span>
+                                <h2 class="text-2xl font-bold text-gray-800">Showroom Listings</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    We list both official and unofficial showrooms based on online research. 
+                                    Our goal is to help users find motorcycle dealers and service centers across Bangladesh.
+                                </p>
+                                
+                                <div class="key-point">
+                                    <i class="fas fa-store point-icon"></i>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800">Showroom Information Updates</h4>
+                                        <p class="text-gray-600">
+                                            Showroom owners may contact us to update or correct listings. 
+                                            We verify information before updating our database.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="key-point">
+                                    <i class="fas fa-check-circle point-icon"></i>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800">Verification Process</h4>
+                                        <p class="text-gray-600">
+                                            We attempt to verify showroom information through multiple sources, 
+                                            but we cannot guarantee the accuracy of all listings.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 5. Personal Data -->
+                        <div class="policy-section" id="personal-data">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">5</span>
+                                <h2 class="text-2xl font-bold text-gray-800">Personal Data</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    BikeBD does not collect personal data from website visitors. 
+                                    We believe in privacy by design and have implemented our services accordingly.
+                                </p>
+                                
+                                <div class="info-card success">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-shield-alt text-green-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">Our Privacy Commitment</h4>
+                                            <p class="text-gray-700">
+                                                <strong>No personal data collection</strong> - We don't ask for or store your personal information.<br>
+                                                <strong>No cookies or tracking tools</strong> - We don't use cookies, analytics, or tracking technologies.<br>
+                                                <strong>No user accounts required</strong> - All content is freely accessible without registration.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="highlight-text">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-lock text-blue-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">Future Data Collection</h4>
+                                            <p class="text-gray-700">
+                                                If we introduce features that require data collection (like the used bike marketplace), 
+                                                we will update this policy and implement appropriate privacy protections. 
+                                                Any data collection will be transparent, minimal, and for specific purposes only.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 6. Contact Information -->
+                        <div class="policy-section" id="contact-information">
+                            <div class="flex items-center mb-4">
+                                <span class="section-number">6</span>
+                                <h2 class="text-2xl font-bold text-gray-800">Contact Information</h2>
+                            </div>
+                            <div class="content-section">
+                                <p>
+                                    For privacy-related inquiries, corrections, or concerns, please contact us:
+                                </p>
+                                
+                                <div class="contact-block mt-6">
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div>
+                                            <div class="flex items-center justify-center mb-3">
+                                                <div class="bg-white text-blue-600 rounded-full p-3 mr-3">
+                                                    <i class="fas fa-envelope text-xl"></i>
+                                                </div>
+                                                <div class="text-left">
+                                                    <div class="font-bold text-gray-800">Email</div>
+                                                    <div class="text-blue-700 font-medium">privacy@bikebd.com</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex items-center justify-center mb-3">
+                                                <div class="bg-white text-blue-600 rounded-full p-3 mr-3">
+                                                    <i class="fas fa-phone text-xl"></i>
+                                                </div>
+                                                <div class="text-left">
+                                                    <div class="font-bold text-gray-800">Phone</div>
+                                                    <div class="text-blue-700 font-medium">018xxxxxxxx</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-6">
+                                    <h4 class="font-bold text-gray-800 mb-3">Types of Inquiries We Handle:</h4>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="bg-gray-50 p-4 rounded-lg">
+                                            <div class="flex items-center mb-2">
+                                                <i class="fas fa-edit text-blue-600 mr-2"></i>
+                                                <h5 class="font-medium text-gray-800">Information Corrections</h5>
+                                            </div>
+                                            <p class="text-gray-600 text-sm">Report inaccurate bike specifications or prices</p>
+                                        </div>
+                                        <div class="bg-gray-50 p-4 rounded-lg">
+                                            <div class="flex items-center mb-2">
+                                                <i class="fas fa-store text-blue-600 mr-2"></i>
+                                                <h5 class="font-medium text-gray-800">Showroom Updates</h5>
+                                            </div>
+                                            <p class="text-gray-600 text-sm">Update or correct dealer/showroom information</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Closing Statement -->
+                        <div class="policy-section" id="closing">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-6">Closing Statement</h2>
+                            <div class="content-section">
+                                <p>
+                                    We are committed to protecting your privacy and improving your experience on BikeBD. 
+                                    As our platform evolves, we will continue to prioritize user privacy and transparency.
+                                </p>
+                                
+                                <div class="info-card">
+                                    <div class="flex items-start">
+                                        <i class="fas fa-handshake text-blue-600 text-xl mr-3 mt-1"></i>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800 mb-2">Our Promise to Users</h4>
+                                            <p class="text-gray-700">
+                                                We will never sell your data (because we don't collect it).<br>
+                                                We will be transparent about any future data collection.<br>
+                                                We will respect your privacy in all aspects of our service.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-8 pt-6 border-t border-gray-200">
+                                    <h4 class="font-bold text-gray-800 mb-4">Policy Updates</h4>
+                                    <div class="update-history">
+                                        <div class="update-row">
+                                            <div class="update-date">June 5, 2025</div>
+                                            <div class="update-description">Initial privacy policy published</div>
+                                            <span class="update-badge">Current</span>
+                                        </div>
+                                        <div class="update-row">
+                                            <div class="update-date">Future Updates</div>
+                                            <div class="update-description">Will be listed here as policy evolves</div>
+                                            <span class="update-badge">Coming</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-gray-600 text-sm mt-4">
+                                        We will notify users of significant policy changes through website announcements.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Have Privacy Questions?</h2>
+                <p class="text-xl text-blue-100 mb-8">
+                    We're committed to transparency and welcome any questions about our privacy practices
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="contact.html" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+                        Contact Privacy Team
+                    </a>
+                    <a href="terms.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+                        View Terms & Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="nav-foot.js"></script>
+
+    <!-- JavaScript for interactive elements -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scroll spy for policy navigation
+            const sections = document.querySelectorAll('.policy-section');
+            const navItems = document.querySelectorAll('.nav-item');
+            
+            function updateActiveNav() {
+                let currentSectionId = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 150;
+                    const sectionBottom = sectionTop + section.offsetHeight;
+                    
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+                        currentSectionId = section.id;
+                    }
+                });
+                
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href') === `#${currentSectionId}`) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+            
+            // Initial update
+            updateActiveNav();
+            
+            // Update on scroll
+            window.addEventListener('scroll', updateActiveNav);
+            
+            // Smooth scroll for navigation items
+            navItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update active nav item
+                        navItems.forEach(navItem => navItem.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            });
+            
+            // Highlight key points on hover
+            const keyPoints = document.querySelectorAll('.key-point');
+            keyPoints.forEach(point => {
+                point.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateX(5px)';
+                    this.style.transition = 'transform 0.2s ease';
+                });
+                
+                point.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateX(0)';
+                });
+            });
+            
+            // Contact email click handler
+            const emailElements = document.querySelectorAll('[href^="mailto:"]');
+            emailElements.forEach(email => {
+                email.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const emailAddress = this.textContent || this.href.replace('mailto:', '');
+                    alert(`To contact our privacy team, please email: ${emailAddress}`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

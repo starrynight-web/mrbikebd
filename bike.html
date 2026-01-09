@@ -1,0 +1,2426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BikeBD | Honda CB150R - Detailed Information</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* Custom styles from the provided files */
+      /* Bike image carousel styling */
+      .bike-carousel-container {
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .bike-carousel-slide {
+        display: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      .bike-carousel-slide.active {
+        display: block;
+      }
+
+      .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        border: 1px solid #e5e7eb;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 10;
+      }
+
+      .carousel-arrow:hover {
+        background-color: white;
+        transform: translateY(-50%) scale(1.1);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+      }
+
+      .carousel-arrow.prev {
+        left: 20px;
+      }
+
+      .carousel-arrow.next {
+        right: 20px;
+      }
+
+      /* Variant list styling */
+      .variant-list-container {
+        height: 330px;
+        overflow-y: auto;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 8px;
+      }
+
+      .variant-list-container::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .variant-list-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+      }
+
+      .variant-list-container::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+      }
+
+      .variant-list-container::-webkit-scrollbar-thumb:hover {
+        background: #a1a1a1;
+      }
+
+      .variant-option {
+        padding: 12px 16px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border-bottom: 1px solid #f3f4f6;
+        border-radius: 6px;
+        margin-bottom: 4px;
+      }
+
+      .variant-option:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+      }
+
+      .variant-option:hover {
+        background-color: #f9fafb;
+      }
+
+      .variant-option.active {
+        background-color: #eff6ff;
+        color: #1e40af;
+        font-weight: 600;
+        border: 1px solid #3b82f6;
+      }
+
+      .variant-name {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 4px;
+      }
+
+      .variant-price {
+        font-size: 14px;
+        font-weight: 600;
+        color: #3b82f6;
+      }
+
+      /* EMI section styling */
+      .emi-calculator-link {
+        transition: all 0.3s ease;
+      }
+
+      .emi-calculator-link:hover {
+        color: #1e40af;
+        transform: translateX(5px);
+      }
+
+      /* Rating stars styling */
+      .rating-star {
+        color: #d1d5db;
+      }
+
+      .rating-star.filled {
+        color: #fbbf24;
+      }
+
+      /* Custom animation for fade in */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in {
+        animation: fadeIn 0.5s ease-out;
+      }
+
+      /* Price styling */
+      .price-tag {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #1e40af;
+      }
+
+      .emi-amount {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #059669;
+      }
+
+      /* Quick specs styling */
+      .quick-specs-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+
+      .spec-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .spec-label {
+        font-size: 13px;
+        color: #6b7280;
+        margin-bottom: 4px;
+      }
+
+      .spec-value {
+        font-size: 15px;
+        font-weight: 500;
+        color: #111827;
+      }
+
+      /* Company claimed and user claimed value colors */
+      .spec-value.company-claimed {
+        color: #3b82f6;
+        font-weight: 600;
+      }
+
+      .spec-value.user-claimed {
+        color: #10b981;
+        font-weight: 600;
+      }
+
+      /* Ensure proper spacing between sections */
+      .content-section-spacing {
+        margin-bottom: 24px;
+      }
+
+      /* Variant comparison table styling */
+      .variant-comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .variant-comparison-table th {
+        background-color: #f8fafc;
+        padding: 12px 16px;
+        text-align: left;
+        font-weight: 600;
+        color: #374151;
+        border-bottom: 2px solid #e5e7eb;
+      }
+
+      .variant-comparison-table td {
+        padding: 12px 16px;
+        border-bottom: 1px solid #e5e7eb;
+        color: #4b5563;
+      }
+
+      .variant-comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .variant-comparison-table tr:hover td {
+        background-color: #f9fafb;
+      }
+
+      /* Similar bikes section styling */
+      .similar-bikes-container {
+        max-height: 280px;
+        overflow-y: auto;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+      }
+
+      .similar-bikes-container::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .similar-bikes-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+      }
+
+      .similar-bikes-container::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+      }
+
+      .similar-bikes-container::-webkit-scrollbar-thumb:hover {
+        background: #a1a1a1;
+      }
+
+      /* Horizontal similar bikes container */
+      .similar-bikes-container-horizontal {
+        overflow-x: auto;
+        padding-bottom: 8px;
+      }
+
+      .similar-bikes-container-horizontal::-webkit-scrollbar {
+        height: 6px;
+      }
+
+      .similar-bikes-container-horizontal::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+      }
+
+      .similar-bikes-container-horizontal::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+      }
+
+      .similar-bikes-container-horizontal::-webkit-scrollbar-thumb:hover {
+        background: #a1a1a1;
+      }
+
+      .similar-bike-card {
+        display: flex;
+        padding: 16px;
+        border-bottom: 1px solid #f3f4f6;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        background-color: white;
+      }
+
+      .similar-bikes-container-horizontal .similar-bike-card {
+        border-bottom: 1px solid #e5e7eb;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .similar-bikes-container-horizontal .similar-bike-card:last-child {
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .similar-bikes-container-horizontal .similar-bike-image {
+        width: 100%;
+        height: 120px;
+        margin-right: 0;
+        margin-bottom: 12px;
+      }
+
+      .similar-bike-card:last-child {
+        border-bottom: none;
+      }
+
+      .similar-bike-card:hover {
+        background-color: #f9fafb;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .similar-bike-image {
+        width: 80px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-right: 16px;
+        flex-shrink: 0;
+      }
+
+      .similar-bike-info {
+        flex: 1;
+      }
+
+      .similar-bike-name {
+        font-weight: 600;
+        color: #111827;
+        margin-bottom: 4px;
+        font-size: 15px;
+      }
+
+      .similar-bike-price {
+        font-weight: 600;
+        color: #3b82f6;
+        font-size: 14px;
+      }
+
+      .similar-bike-spec {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 4px;
+      }
+
+      /* Section card styling */
+      .section-card {
+        background-color: white;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        padding: 24px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Pros and Cons styling */
+      .pros-cons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      @media (max-width: 768px) {
+        .pros-cons-container {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .pros-list,
+      .cons-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .pro-item,
+      .con-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .pro-icon {
+        color: #10b981;
+        background-color: #d1fae5;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 12px;
+      }
+
+      .con-icon {
+        color: #ef4444;
+        background-color: #fee2e2;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 12px;
+      }
+
+      .pro-text,
+      .con-text {
+        font-size: 15px;
+        color: #374151;
+      }
+
+      /* Bike summary styling */
+      .bike-summary-content {
+        line-height: 1.6;
+        color: #4b5563;
+      }
+
+      .bike-summary-content p {
+        margin-bottom: 16px;
+      }
+
+      .bike-summary-content p:last-child {
+        margin-bottom: 0;
+      }
+
+      .highlight-text {
+        background-color: #eff6ff;
+        padding: 16px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+
+      /* Specifications table styling */
+      .spec-table-container {
+        overflow-x: auto;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+      }
+
+      .spec-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .spec-table th {
+        background-color: #f8fafc;
+        padding: 16px;
+        text-align: left;
+        font-weight: 600;
+        color: #374151;
+        border-bottom: 2px solid #e5e7eb;
+        white-space: nowrap;
+      }
+
+      .spec-table td {
+        padding: 16px;
+        border-bottom: 1px solid #f3f4f6;
+        color: #4b5563;
+      }
+
+      .spec-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .spec-table tr:hover td {
+        background-color: #f9fafb;
+      }
+
+      .spec-category {
+        background-color: #f0f9ff;
+        font-weight: 600;
+        color: #0369a1;
+      }
+
+      /* Specifications dropdown styling */
+      .variant-dropdown-container {
+        max-width: 400px;
+        margin-bottom: 24px;
+      }
+
+      .variant-dropdown {
+        width: 100%;
+        padding: 12px 16px;
+        border: 2px solid #e5e7eb;
+        border-radius: 8px;
+        font-size: 16px;
+        color: #374151;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23374151' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 16px;
+        padding-right: 40px;
+      }
+
+      .variant-dropdown:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+      }
+
+      .variant-dropdown:hover {
+        border-color: #9ca3af;
+      }
+
+      /* Specifications section tabs */
+      .spec-tabs {
+        display: flex;
+        border-bottom: 1px solid #e5e7eb;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+      }
+
+      .spec-tab {
+        padding: 12px 20px;
+        font-weight: 500;
+        color: #6b7280;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+      }
+
+      .spec-tab:hover {
+        color: #374151;
+      }
+
+      .spec-tab.active {
+        color: #3b82f6;
+        border-bottom-color: #3b82f6;
+      }
+
+      .spec-tab-content {
+        display: none;
+      }
+
+      .spec-tab-content.active {
+        display: block;
+      }
+
+      /* Feature highlight styling */
+      .feature-highlight {
+        display: inline-flex;
+        align-items: center;
+        background-color: #10b98115;
+        color: #047857;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        margin-left: 8px;
+      }
+
+      .feature-available {
+        background-color: #10b98115;
+        color: #047857;
+      }
+
+      .feature-unavailable {
+        background-color: #fef2f2;
+        color: #991b1b;
+      }
+    </style>
+  </head>
+  <body class="font-sans bg-gray-50">
+    <div id="navbar-placeholder"></div>
+
+    <!-- Bike Information Section -->
+    <section class="py-8 bg-white fade-in">
+      <div class="container mx-auto px-4">
+        <!-- Bike Name and Ratings -->
+        <div class="mb-8">
+          <div class="flex flex-col md:flex-row md:items-start justify-between">
+            <div class="mb-4 md:mb-0">
+              <h1
+                class="text-3xl md:text-4xl font-bold text-gray-800 mb-2"
+                id="bike-name"
+              >
+                Honda CB150R Standard
+              </h1>
+              <div class="flex items-center">
+                <div class="flex mr-2">
+                  <span class="rating-star filled">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="rating-star filled">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="rating-star filled">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="rating-star filled">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="rating-star">
+                    <i class="fas fa-star-half-alt"></i>
+                  </span>
+                </div>
+                <span class="text-gray-700 font-medium">4.5/5.0</span>
+                <span class="text-gray-500 ml-2">(128 Reviews)</span>
+              </div>
+            </div>
+
+            <div class="flex space-x-4">
+              <button
+                class="flex items-center justify-center px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition"
+              >
+                <i class="far fa-heart mr-2"></i>
+                Save
+              </button>
+              <button
+                class="flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                <i class="fas fa-balance-scale-left mr-2"></i>
+                Compare
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Content: Image Carousel and Price Information -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Left Column: Bike Image Carousel -->
+          <div>
+            <div class="bike-carousel-container">
+              <!-- Bike Images -->
+              <img
+                src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Honda CB150R - Front View"
+                class="bike-carousel-slide active"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Honda CB150R - Side View"
+                class="bike-carousel-slide"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Honda CB150R - Rear View"
+                class="bike-carousel-slide"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Honda CB150R - Engine"
+                class="bike-carousel-slide"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Honda CB150R - Dashboard"
+                class="bike-carousel-slide"
+              />
+
+              <!-- Carousel Arrows -->
+              <button class="carousel-arrow prev">
+                <i class="fas fa-chevron-left text-gray-800 text-xl"></i>
+              </button>
+              <button class="carousel-arrow next">
+                <i class="fas fa-chevron-right text-gray-800 text-xl"></i>
+              </button>
+
+              <!-- Image counter -->
+              <div
+                class="absolute bottom-4 right-4 bg-black bg-opacity-70 text-white px-3 py-1 rounded-full text-sm"
+              >
+                <span id="current-image">1</span> /
+                <span id="total-images">5</span>
+              </div>
+            </div>
+
+            <!-- Thumbnail Navigation -->
+            <div class="flex space-x-2 mt-4 overflow-x-auto py-2">
+              <div
+                class="thumbnail-item flex-shrink-0 w-20 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-blue-500 active-thumbnail"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Thumbnail 1"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div
+                class="thumbnail-item flex-shrink-0 w-20 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-blue-500"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Thumbnail 2"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div
+                class="thumbnail-item flex-shrink-0 w-20 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-blue-500"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Thumbnail 3"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div
+                class="thumbnail-item flex-shrink-0 w-20 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-blue-500"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Thumbnail 4"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div
+                class="thumbnail-item flex-shrink-0 w-20 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-blue-500"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Thumbnail 5"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Price, Variant List, Quick Specifications and Price Information -->
+          <div class="space-y-6">
+            <!-- Variant List and Quick Specifications Side by Side -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <!-- Variant List -->
+              <div class="content-section-spacing">
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">
+                  Select Variant
+                </h3>
+                <div class="variant-list-container" id="variant-list-container">
+                  <!-- Variants will be dynamically loaded from bikes.json -->
+                </div>
+              </div>
+
+              <!-- Quick Specifications -->
+              <div class="content-section-spacing">
+                <div class="flex justify-between items-center mb-3">
+                  <h3 class="text-lg font-semibold text-gray-800">
+                    Quick Specifications
+                  </h3>
+                  <select
+                    id="spec-type-selector"
+                    class="px-3 py-1.5 text-sm border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                  >
+                    <option value="company">Company Claimed</option>
+                    <option value="user">User Claimed</option>
+                  </select>
+                </div>
+                <div
+                  class="bg-gray-50 p-5 rounded-lg border border-gray-200 h-full"
+                >
+                  <div class="quick-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Engine Capacity</span>
+                      <span class="spec-value" id="quick-engine-capacity"
+                        >149.16 cc</span
+                      >
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Mileage</span>
+                      <span
+                        class="spec-value company-claimed"
+                        id="quick-mileage"
+                        >40 kmpl</span
+                      >
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Top Speed</span>
+                      <span
+                        class="spec-value company-claimed"
+                        id="quick-topspeed"
+                        >130 km/h</span
+                      >
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Transmission</span>
+                      <span class="spec-value" id="quick-transmission"
+                        >6 Speed</span
+                      >
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Max Power</span>
+                      <span class="spec-value" id="quick-power">16.4 HP</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Max Torque</span>
+                      <span class="spec-value" id="quick-torque">13.7 Nm</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Fuel Tank</span>
+                      <span class="spec-value" id="quick-fuel-tank">12 L</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Kerb Weight</span>
+                      <span class="spec-value" id="quick-weight">136 kg</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Price Information and Similar Used Bikes Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+          <!-- Price Information -->
+          <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4">
+              Price Information
+            </h3>
+
+            <div class="mb-6">
+              <div class="price-tag mb-2" id="bike-price">৳ 4,50,000</div>
+              <div class="text-gray-600 text-sm">
+                Ex-showroom price in Dhaka
+              </div>
+            </div>
+
+            <!-- EMI Information -->
+            <div>
+              <div class="flex items-baseline mb-2">
+                <span class="emi-amount mr-2" id="emi-amount">৳ 12,500</span>
+                <span class="text-gray-600">EMI per month</span>
+              </div>
+              <div class="text-gray-600 text-sm mb-4">
+                Estimated EMI for 36 months at 9% interest rate
+              </div>
+
+              <a
+                href="#"
+                class="emi-calculator-link flex items-center text-blue-600 font-medium"
+              >
+                <i class="fas fa-calculator mr-2"></i>
+                Go to EMI Calculator
+                <i class="fas fa-arrow-right ml-2"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Similar Used Bikes Section -->
+          <div class="section-card">
+            <div class="flex justify-between items-center mb-4">
+              <h2 class="text-xl font-bold text-gray-800">
+                Similar Used Bikes
+              </h2>
+              <a
+                href="#"
+                class="text-blue-600 text-sm font-medium hover:text-blue-800"
+                >View All</a
+              >
+            </div>
+
+            <div
+              id="used-bikes-list"
+              class="similar-bikes-container-horizontal flex gap-4 overflow-x-auto pb-2"
+            >
+              <!-- Used Bike 1 -->
+              <div class="similar-bike-card flex-shrink-0 w-64">
+                <img
+                  src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Used Honda CB150R 2022"
+                  class="similar-bike-image"
+                />
+                <div class="similar-bike-info">
+                  <div class="similar-bike-name">Honda CB150R (2022)</div>
+                  <div class="similar-bike-price">৳ 3,80,000</div>
+                  <div class="similar-bike-spec">
+                    Used • 12,000 km • Excellent
+                  </div>
+                </div>
+              </div>
+
+              <!-- Used Bike 2 -->
+              <div class="similar-bike-card flex-shrink-0 w-64">
+                <img
+                  src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Used Yamaha R15 V3"
+                  class="similar-bike-image"
+                />
+                <div class="similar-bike-info">
+                  <div class="similar-bike-name">Yamaha R15 V3 (2021)</div>
+                  <div class="similar-bike-price">৳ 4,20,000</div>
+                  <div class="similar-bike-spec">Used • 8,500 km • Good</div>
+                </div>
+              </div>
+
+              <!-- Used Bike 3 -->
+              <div class="similar-bike-card flex-shrink-0 w-64">
+                <img
+                  src="https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Used Suzuki Gixxer SF"
+                  class="similar-bike-image"
+                />
+                <div class="similar-bike-info">
+                  <div class="similar-bike-name">Suzuki Gixxer SF (2020)</div>
+                  <div class="similar-bike-price">৳ 1,70,000</div>
+                  <div class="similar-bike-spec">Used • 15,000 km • Good</div>
+                </div>
+              </div>
+
+              <!-- Used Bike 4 -->
+              <div class="similar-bike-card flex-shrink-0 w-64">
+                <img
+                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                  alt="Used Bajaj Pulsar NS200"
+                  class="similar-bike-image"
+                />
+                <div class="similar-bike-info">
+                  <div class="similar-bike-name">Bajaj Pulsar NS200 (2021)</div>
+                  <div class="similar-bike-price">৳ 1,85,000</div>
+                  <div class="similar-bike-spec">
+                    Used • 10,500 km • Excellent
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Variant Comparison and Similar Bikes Section -->
+    <section class="py-8 bg-gray-50 fade-in">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <!-- Left Column: Variant Comparison Table -->
+          <div class="lg:col-span-2">
+            <div class="section-card">
+              <h2 class="text-2xl font-bold text-gray-800 mb-6">
+                Variant Comparison
+              </h2>
+              <p class="text-gray-600 mb-6">
+                Compare the key differences between Honda CB150R variants to
+                choose the right one for you.
+              </p>
+
+              <div class="overflow-x-auto">
+                <table class="variant-comparison-table">
+                  <thead>
+                    <tr>
+                      <th>Feature</th>
+                      <th>Honda CB150R Standard</th>
+                      <th>Honda CB150R Deluxe</th>
+                      <th>Honda CB150R with ABS</th>
+                      <th>Honda CB150R Special Edition</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Price</strong></td>
+                      <td class="text-blue-600 font-semibold">৳ 4,50,000</td>
+                      <td class="text-blue-600 font-semibold">৳ 4,80,000</td>
+                      <td class="text-blue-600 font-semibold">৳ 5,20,000</td>
+                      <td class="text-blue-600 font-semibold">৳ 5,50,000</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Braking System</strong></td>
+                      <td>Dual Channel Disc</td>
+                      <td>Dual Channel Disc</td>
+                      <td class="text-green-600 font-semibold">
+                        Dual Channel ABS
+                      </td>
+                      <td class="text-green-600 font-semibold">
+                        Dual Channel ABS
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Brake Type (Front)</strong></td>
+                      <td>Single Disc (276mm)</td>
+                      <td>Single Disc (276mm)</td>
+                      <td>Single Disc (276mm)</td>
+                      <td>Single Disc (276mm)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Brake Type (Rear)</strong></td>
+                      <td>Single Disc (220mm)</td>
+                      <td>Single Disc (220mm)</td>
+                      <td>Single Disc (220mm)</td>
+                      <td>Single Disc (220mm)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Tire Type</strong></td>
+                      <td>110/70-17 (Front)<br />150/60-17 (Rear)</td>
+                      <td>110/70-17 (Front)<br />150/60-17 (Rear)</td>
+                      <td>110/70-17 (Front)<br />150/60-17 (Rear)</td>
+                      <td>120/70-17 (Front)<br />160/60-17 (Rear)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Mileage (Company Claimed)</strong></td>
+                      <td id="comp-mileage-std">40 kmpl</td>
+                      <td id="comp-mileage-deluxe">42 kmpl</td>
+                      <td id="comp-mileage-abs">42 kmpl</td>
+                      <td id="comp-mileage-special">43 kmpl</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Mileage (User Claimed)</strong></td>
+                      <td id="user-mileage-std">35-38 kmpl</td>
+                      <td id="user-mileage-deluxe">36-40 kmpl</td>
+                      <td id="user-mileage-abs">36-40 kmpl</td>
+                      <td id="user-mileage-special">37-41 kmpl</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Top Speed (Company Claimed)</strong></td>
+                      <td id="comp-topspeed-std">130 km/h</td>
+                      <td id="comp-topspeed-deluxe">132 km/h</td>
+                      <td id="comp-topspeed-abs">132 km/h</td>
+                      <td id="comp-topspeed-special">135 km/h</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Top Speed (User Claimed)</strong></td>
+                      <td id="user-topspeed-std">125-128 km/h</td>
+                      <td id="user-topspeed-deluxe">127-130 km/h</td>
+                      <td id="user-topspeed-abs">127-130 km/h</td>
+                      <td id="user-topspeed-special">130-133 km/h</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Similar Bikes -->
+          <div class="space-y-8">
+            <!-- Similar Bikes Section -->
+            <div class="section-card">
+              <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-bold text-gray-800">Similar Bikes</h2>
+                <a
+                  href="#"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
+                  >View All</a
+                >
+              </div>
+
+              <div id="similar-bikes-list" class="similar-bikes-container">
+                <!-- Bike 1 -->
+                <div class="similar-bike-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1558981000-f294a6ed32b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Yamaha R15 V4"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">Yamaha R15 V4</div>
+                    <div class="similar-bike-price">৳ 5,25,000</div>
+                    <div class="similar-bike-spec">
+                      155cc • 18.4 HP • 14.2 Nm
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bike 2 -->
+                <div class="similar-bike-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Suzuki Gixxer SF"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">Suzuki Gixxer SF</div>
+                    <div class="similar-bike-price">৳ 2,15,000</div>
+                    <div class="similar-bike-spec">
+                      155cc • 13.4 HP • 13.8 Nm
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bike 3 -->
+                <div class="similar-bike-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Bajaj Pulsar NS200"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">Bajaj Pulsar NS200</div>
+                    <div class="similar-bike-price">৳ 2,30,000</div>
+                    <div class="similar-bike-spec">
+                      199.5cc • 24.5 HP • 18.5 Nm
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bike 4 -->
+                <div class="similar-bike-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1566896509656-2f6b21a35177?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="TVS Apache RTR 200"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">TVS Apache RTR 200</div>
+                    <div class="similar-bike-price">৳ 2,10,000</div>
+                    <div class="similar-bike-spec">
+                      197.75cc • 20.5 HP • 16.8 Nm
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bike 5 -->
+                <div class="similar-bike-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Kawasaki Ninja 300"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">Kawasaki Ninja 300</div>
+                    <div class="similar-bike-price">৳ 6,80,000</div>
+                    <div class="similar-bike-spec">296cc • 39 HP • 26.1 Nm</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Specifications Section with Variant Selector -->
+    <section class="py-8 bg-white fade-in">
+      <div class="container mx-auto px-4">
+        <div class="section-card">
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">
+            Full Specifications
+          </h2>
+
+          <!-- Variant Selector Dropdown -->
+          <div class="variant-dropdown-container">
+            <label
+              for="spec-variant-selector"
+              class="block text-gray-700 font-medium mb-2"
+              >Select Variant to View Specifications</label
+            >
+            <select id="spec-variant-selector" class="variant-dropdown">
+              <!-- Options will be dynamically loaded from bikes.json -->
+            </select>
+          </div>
+
+          <!-- Specification Tabs -->
+          <div class="spec-tabs">
+            <div class="spec-tab active" data-tab="engine">
+              Engine & Performance
+            </div>
+            <div class="spec-tab" data-tab="transmission">
+              Transmission & Brakes
+            </div>
+            <div class="spec-tab" data-tab="dimensions">
+              Dimensions & Weight
+            </div>
+            <div class="spec-tab" data-tab="features">
+              Features & Electricals
+            </div>
+          </div>
+
+          <!-- Engine & Performance Tab -->
+          <div id="engine-tab" class="spec-tab-content active">
+            <div class="spec-table-container">
+              <table class="spec-table">
+                <tbody>
+                  <tr>
+                    <td class="spec-category" colspan="2">
+                      Engine Specifications
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Engine Type</td>
+                    <td>Single Cylinder, 4-Stroke, Liquid-Cooled, DOHC</td>
+                  </tr>
+                  <tr>
+                    <td>Displacement</td>
+                    <td>149.16 cc</td>
+                  </tr>
+                  <tr>
+                    <td>Max Power</td>
+                    <td>16.4 HP @ 9,000 RPM</td>
+                  </tr>
+                  <tr>
+                    <td>Max Torque</td>
+                    <td>13.7 Nm @ 7,000 RPM</td>
+                  </tr>
+                  <tr>
+                    <td>Bore x Stroke</td>
+                    <td>57.3 mm x 57.8 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Compression Ratio</td>
+                    <td>11.3:1</td>
+                  </tr>
+                  <tr>
+                    <td>Fuel System</td>
+                    <td>PGM-FI (Programmed Fuel Injection)</td>
+                  </tr>
+                  <tr>
+                    <td>Starting</td>
+                    <td>Electric Start</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">Performance</td>
+                  </tr>
+                  <tr>
+                    <td>Top Speed</td>
+                    <td>130 km/h (Approx.)</td>
+                  </tr>
+                  <tr>
+                    <td>0-60 km/h Acceleration</td>
+                    <td>4.2 seconds</td>
+                  </tr>
+                  <tr>
+                    <td>Fuel Efficiency</td>
+                    <td>
+                      <span id="fuel-efficiency">40 kmpl</span>
+                      <span
+                        class="feature-highlight feature-available"
+                        id="efficiency-badge"
+                        >City: 35-40 kmpl | Highway: 45-50 kmpl</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fuel Type</td>
+                    <td>Petrol (Octane 91 or higher)</td>
+                  </tr>
+                  <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>12 Liters</td>
+                  </tr>
+                  <tr>
+                    <td>Reserve Fuel Capacity</td>
+                    <td>2 Liters</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Transmission & Brakes Tab -->
+          <div id="transmission-tab" class="spec-tab-content">
+            <div class="spec-table-container">
+              <table class="spec-table">
+                <tbody>
+                  <tr>
+                    <td class="spec-category" colspan="2">Transmission</td>
+                  </tr>
+                  <tr>
+                    <td>Clutch Type</td>
+                    <td>Wet Multi-plate</td>
+                  </tr>
+                  <tr>
+                    <td>Gearbox</td>
+                    <td>6-Speed Constant Mesh</td>
+                  </tr>
+                  <tr>
+                    <td>Gear Shift Pattern</td>
+                    <td>1-N-2-3-4-5-6</td>
+                  </tr>
+                  <tr>
+                    <td>Final Drive</td>
+                    <td>Chain Drive</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">Brakes</td>
+                  </tr>
+                  <tr>
+                    <td>Front Brake</td>
+                    <td>
+                      Single Disc (276mm)
+                      <span class="feature-highlight" id="abs-front-status"
+                        >with ABS (Higher Variants)</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Rear Brake</td>
+                    <td>
+                      Single Disc (220mm)
+                      <span class="feature-highlight" id="abs-rear-status"
+                        >with ABS (Higher Variants)</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Braking System</td>
+                    <td id="braking-system">Dual Channel Disc Brakes</td>
+                  </tr>
+                  <tr>
+                    <td>ABS</td>
+                    <td id="abs-status">
+                      Not Available
+                      <span class="feature-highlight feature-unavailable"
+                        >(Available in higher variants)</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">Suspension</td>
+                  </tr>
+                  <tr>
+                    <td>Front Suspension</td>
+                    <td>Inverted Telescopic Fork (41mm)</td>
+                  </tr>
+                  <tr>
+                    <td>Rear Suspension</td>
+                    <td>Monoshock with 5-step Adjustable Preload</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Dimensions & Weight Tab -->
+          <div id="dimensions-tab" class="spec-tab-content">
+            <div class="spec-table-container">
+              <table class="spec-table">
+                <tbody>
+                  <tr>
+                    <td class="spec-category" colspan="2">Dimensions</td>
+                  </tr>
+                  <tr>
+                    <td>Overall Length</td>
+                    <td>2,020 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Overall Width</td>
+                    <td>805 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Overall Height</td>
+                    <td>1,070 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Wheelbase</td>
+                    <td>1,295 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Ground Clearance</td>
+                    <td>150 mm</td>
+                  </tr>
+                  <tr>
+                    <td>Seat Height</td>
+                    <td>795 mm</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">Weight</td>
+                  </tr>
+                  <tr>
+                    <td>Kerb Weight</td>
+                    <td>136 kg</td>
+                  </tr>
+                  <tr>
+                    <td>Gross Vehicle Weight</td>
+                    <td>296 kg</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">Wheels & Tires</td>
+                  </tr>
+                  <tr>
+                    <td>Front Tire</td>
+                    <td id="front-tire">110/70-17 Tubeless</td>
+                  </tr>
+                  <tr>
+                    <td>Rear Tire</td>
+                    <td id="rear-tire">150/60-17 Tubeless</td>
+                  </tr>
+                  <tr>
+                    <td>Tire Type</td>
+                    <td>Tubeless, Radial</td>
+                  </tr>
+                  <tr>
+                    <td>Wheel Type</td>
+                    <td>5-Spoke Alloy Wheels</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Features & Electricals Tab -->
+          <div id="features-tab" class="spec-tab-content">
+            <div class="spec-table-container">
+              <table class="spec-table">
+                <tbody>
+                  <tr>
+                    <td class="spec-category" colspan="2">
+                      Electrical Features
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Battery</td>
+                    <td>12V 5Ah Maintenance Free</td>
+                  </tr>
+                  <tr>
+                    <td>Headlight</td>
+                    <td id="headlight-type">
+                      Halogen
+                      <span class="feature-highlight" id="led-status"
+                        >(LED in higher variants)</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Tail Light</td>
+                    <td>LED</td>
+                  </tr>
+                  <tr>
+                    <td>Turn Indicators</td>
+                    <td>LED</td>
+                  </tr>
+                  <tr>
+                    <td>Instrument Console</td>
+                    <td>Digital with Gear Position Indicator</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-category" colspan="2">
+                      Additional Features
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Speedometer</td>
+                    <td>Digital</td>
+                  </tr>
+                  <tr>
+                    <td>Odometer</td>
+                    <td>Digital</td>
+                  </tr>
+                  <tr>
+                    <td>Tachometer</td>
+                    <td>Digital</td>
+                  </tr>
+                  <tr>
+                    <td>Tripmeter</td>
+                    <td>Dual Trip</td>
+                  </tr>
+                  <tr>
+                    <td>Low Fuel Indicator</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Low Oil Indicator</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Clock</td>
+                    <td>Digital</td>
+                  </tr>
+                  <tr>
+                    <td>Service Due Indicator</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Engine Kill Switch</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Pass Light</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Mobile Charging Port</td>
+                    <td id="usb-port">
+                      Not Available
+                      <span class="feature-highlight feature-unavailable"
+                        >(Available in Deluxe & higher variants)</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pros and Cons Section -->
+    <section class="py-8 bg-white fade-in">
+      <div class="container mx-auto px-4">
+        <div class="section-card">
+          <h2
+            class="text-2xl font-bold text-gray-800 mb-6"
+            id="pros-cons-title"
+          >
+            Pros and Cons of Honda CB150R Standard
+          </h2>
+
+          <div class="pros-cons-container">
+            <!-- Pros Column -->
+            <div>
+              <h3
+                class="text-xl font-semibold text-green-600 mb-4 flex items-center"
+              >
+                <i class="fas fa-check-circle mr-2"></i>
+                Advantages
+              </h3>
+              <div class="pros-list" id="pros-list">
+                <div class="pro-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Excellent Build Quality:</strong> Honda's renowned
+                    reliability and premium finish
+                  </div>
+                </div>
+                <div class="pro-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Powerful Performance:</strong>
+                    <span id="pro-power-text"
+                      >149cc engine delivers 16.4 HP with smooth
+                      acceleration</span
+                    >
+                  </div>
+                </div>
+                <div class="pro-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Premium Styling:</strong>
+                    <span id="pro-styling-text"
+                      >Neo-sports cafe design with attractive LED lighting</span
+                    >
+                  </div>
+                </div>
+                <div class="pro-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Good Fuel Efficiency:</strong>
+                    <span id="pro-mileage-text"
+                      >40+ kmpl mileage for daily commuting</span
+                    >
+                  </div>
+                </div>
+                <div class="pro-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Comfortable Riding Position:</strong> Upright stance
+                    suitable for city and highway
+                  </div>
+                </div>
+                <div class="pro-item" id="pro-abs-item">
+                  <div class="pro-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="pro-text">
+                    <strong>Available with ABS:</strong>
+                    <span id="pro-abs-text"
+                      >Higher variants offer dual-channel ABS for safety</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cons Column -->
+            <div>
+              <h3
+                class="text-xl font-semibold text-red-600 mb-4 flex items-center"
+              >
+                <i class="fas fa-times-circle mr-2"></i>
+                Disadvantages
+              </h3>
+              <div class="cons-list" id="cons-list">
+                <div class="con-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Premium Pricing:</strong>
+                    <span id="con-pricing-text"
+                      >Higher cost compared to competitors in same segment</span
+                    >
+                  </div>
+                </div>
+                <div class="con-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Limited Pillion Comfort:</strong> Rear seat is small
+                    and not ideal for long rides
+                  </div>
+                </div>
+                <div class="con-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Small Fuel Tank:</strong>
+                    <span id="con-fuel-tank-text"
+                      >12-liter capacity requires frequent refueling on long
+                      trips</span
+                    >
+                  </div>
+                </div>
+                <div class="con-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Vibrations at High RPM:</strong> Noticeable
+                    vibrations near redline
+                  </div>
+                </div>
+                <div class="con-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Average Ground Clearance:</strong> Can scrape on
+                    large speed breakers
+                  </div>
+                </div>
+                <div class="con-item" id="con-features-item">
+                  <div class="con-icon">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <div class="con-text">
+                    <strong>Standard Variant Lacks Features:</strong>
+                    <span id="con-features-text"
+                      >Base model misses out on ABS and LED lighting</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bike Summary Section -->
+    <section class="py-8 bg-gray-50 fade-in">
+      <div class="container mx-auto px-4">
+        <div class="section-card">
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">
+            Honda CB150R Summary
+          </h2>
+
+          <div class="bike-summary-content">
+            <p>
+              The Honda CB150R is a premium 150cc motorcycle that combines
+              sporty performance with everyday practicality. Positioned as a
+              neo-sports café racer, it brings Honda's legendary reliability to
+              the sporty commuter segment.
+            </p>
+
+            <div class="highlight-text">
+              <strong>Key Highlights:</strong> The CB150R stands out with its
+              liquid-cooled 149cc engine, delivering 16.4 HP of power and 13.7
+              Nm of torque through a smooth 6-speed transmission. Its
+              distinctive design features sharp lines, LED lighting, and a
+              muscular stance that appeals to young riders.
+            </div>
+
+            <p>
+              <strong>Performance & Handling:</strong> The bike offers a
+              balanced riding experience with responsive throttle, precise
+              handling, and stable cornering. The suspension setup (inverted
+              forks at front and monoshock at rear) provides good comfort for
+              daily commuting while maintaining sporty characteristics.
+            </p>
+
+            <p>
+              <strong>Target Audience:</strong> Perfect for urban riders who
+              want a stylish daily commuter with occasional weekend touring
+              capabilities. It appeals to those who value Honda's reliability
+              but want more excitement than traditional commuter bikes.
+            </p>
+
+            <p>
+              <strong>Verdict:</strong> The Honda CB150R justifies its premium
+              price with excellent build quality, attractive styling, and
+              dependable performance. While the base variant offers good value,
+              the ABS versions provide important safety features for
+              Bangladesh's road conditions. It's an ideal choice for riders
+              wanting a sporty-looking bike without compromising on Honda's
+              renowned reliability.
+            </p>
+          </div>
+
+          <div class="mt-8 pt-8 border-t border-gray-200">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600 mb-2">4.5/5</div>
+                <div class="text-gray-700 font-medium">Overall Rating</div>
+                <div class="text-gray-500 text-sm">Based on 128 reviews</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-600 mb-2">9.2/10</div>
+                <div class="text-gray-700 font-medium">Value for Money</div>
+                <div class="text-gray-500 text-sm">
+                  Premium features at competitive price
+                </div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-purple-600 mb-2">
+                  8.8/10
+                </div>
+                <div class="text-gray-700 font-medium">
+                  Bangladesh Suitability
+                </div>
+                <div class="text-gray-500 text-sm">
+                  Well-suited for local road conditions
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="nav-foot.js"></script>
+
+    <!-- JavaScript for interactive elements -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Bike Image Carousel Functionality
+        const slides = document.querySelectorAll(".bike-carousel-slide");
+        const prevButton = document.querySelector(".carousel-arrow.prev");
+        const nextButton = document.querySelector(".carousel-arrow.next");
+        const thumbnails = document.querySelectorAll(".thumbnail-item");
+        const currentImageSpan = document.getElementById("current-image");
+        const totalImagesSpan = document.getElementById("total-images");
+
+        let currentSlideIndex = 0;
+        totalImagesSpan.textContent = slides.length;
+
+        // Function to update the carousel
+        function updateCarousel() {
+          // Hide all slides
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+          });
+
+          // Show current slide
+          slides[currentSlideIndex].classList.add("active");
+
+          // Update image counter
+          currentImageSpan.textContent = currentSlideIndex + 1;
+
+          // Update thumbnail active state
+          thumbnails.forEach((thumb, index) => {
+            if (index === currentSlideIndex) {
+              thumb.classList.add("active-thumbnail");
+              thumb.classList.remove("border-transparent");
+              thumb.classList.add("border-blue-500");
+            } else {
+              thumb.classList.remove("active-thumbnail");
+              thumb.classList.remove("border-blue-500");
+              thumb.classList.add("border-transparent");
+            }
+          });
+        }
+
+        // Next slide function
+        function nextSlide() {
+          currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+          updateCarousel();
+        }
+
+        // Previous slide function
+        function prevSlide() {
+          currentSlideIndex =
+            (currentSlideIndex - 1 + slides.length) % slides.length;
+          updateCarousel();
+        }
+
+        // Initialize carousel
+        updateCarousel();
+
+        // Event listeners for arrows
+        prevButton.addEventListener("click", prevSlide);
+        nextButton.addEventListener("click", nextSlide);
+
+        // Event listeners for thumbnails
+        thumbnails.forEach((thumb, index) => {
+          thumb.addEventListener("click", () => {
+            currentSlideIndex = index;
+            updateCarousel();
+          });
+        });
+
+        // Variant Selection Functionality
+        const variantOptions = document.querySelectorAll(".variant-option");
+        const bikePriceElement = document.getElementById("bike-price");
+        const emiAmountElement = document.getElementById("emi-amount");
+
+        // EMI calculation function (simple calculation)
+        function calculateEMI(price, months = 36, interestRate = 9) {
+          const monthlyInterest = interestRate / 12 / 100;
+          const emi =
+            (price * monthlyInterest * Math.pow(1 + monthlyInterest, months)) /
+            (Math.pow(1 + monthlyInterest, months) - 1);
+          return Math.round(emi);
+        }
+
+        // Format price with commas
+        function formatPrice(price) {
+          return "৳ " + price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        // Function to update all page data based on variant
+        function updateAllVariantData(variant) {
+          const data = variantData[variant];
+          if (!data) return;
+
+          // Update bike name
+          const bikeNameElement = document.getElementById("bike-name");
+          if (bikeNameElement) bikeNameElement.textContent = data.fullName;
+
+          // Update pros/cons title
+          const prosConsTitle = document.getElementById("pros-cons-title");
+          if (prosConsTitle)
+            prosConsTitle.textContent = `Pros and Cons of ${data.fullName}`;
+
+          // Update price
+          bikePriceElement.textContent = formatPrice(data.price);
+
+          // Update EMI
+          const emi = calculateEMI(data.price);
+          emiAmountElement.textContent = formatPrice(emi);
+
+          // Update all carousel images
+          if (data.images && slides.length > 0) {
+            data.images.forEach((imgUrl, index) => {
+              if (slides[index]) {
+                slides[index].src = imgUrl;
+              }
+              if (thumbnails[index]) {
+                thumbnails[index].querySelector("img").src = imgUrl.replace(
+                  "1000",
+                  "200"
+                );
+              }
+            });
+          }
+
+          // Reset carousel to first image
+          currentSlideIndex = 0;
+          updateCarousel();
+
+          // Update quick specifications
+          updateQuickSpecs(data);
+
+          // Update pros and cons
+          updateProsAndCons(data);
+
+          // Update specifications dropdown to match selected variant
+          const specVariantSelector = document.getElementById(
+            "spec-variant-selector"
+          );
+          if (specVariantSelector) specVariantSelector.value = variant;
+
+          // Update specifications based on variant
+          updateSpecifications(variant);
+        }
+
+        // Function to update quick specifications
+        function updateQuickSpecs(data) {
+          const specTypeSelector =
+            document.getElementById("spec-type-selector");
+          const specType = specTypeSelector
+            ? specTypeSelector.value
+            : "company";
+
+          document.getElementById("quick-engine-capacity").textContent =
+            data.quickSpecs.engineCapacity;
+          document.getElementById("quick-transmission").textContent =
+            data.quickSpecs.transmission;
+          document.getElementById("quick-power").textContent =
+            data.quickSpecs.maxPower;
+          document.getElementById("quick-torque").textContent =
+            data.quickSpecs.maxTorque;
+          document.getElementById("quick-fuel-tank").textContent =
+            data.quickSpecs.fuelTank;
+          document.getElementById("quick-weight").textContent =
+            data.quickSpecs.kerbWeight;
+
+          // Get mileage and top speed elements
+          const mileageElement = document.getElementById("quick-mileage");
+          const topspeedElement = document.getElementById("quick-topspeed");
+
+          // Update mileage based on type
+          mileageElement.textContent =
+            specType === "company"
+              ? data.quickSpecs.mileageCompany
+              : data.quickSpecs.mileageUser;
+
+          // Update mileage color class
+          mileageElement.classList.remove("company-claimed", "user-claimed");
+          mileageElement.classList.add(
+            specType === "company" ? "company-claimed" : "user-claimed"
+          );
+
+          // Update top speed based on type
+          topspeedElement.textContent =
+            specType === "company"
+              ? data.quickSpecs.topspeedCompany
+              : data.quickSpecs.topspeedUser;
+
+          // Update top speed color class
+          topspeedElement.classList.remove("company-claimed", "user-claimed");
+          topspeedElement.classList.add(
+            specType === "company" ? "company-claimed" : "user-claimed"
+          );
+        }
+
+        // Function to update pros and cons
+        function updateProsAndCons(data) {
+          // Update pros
+          document.getElementById("pro-power-text").textContent =
+            data.pros.power;
+          document.getElementById("pro-styling-text").textContent =
+            data.pros.styling;
+          document.getElementById("pro-mileage-text").textContent =
+            data.pros.mileage;
+          document.getElementById("pro-abs-text").textContent = data.pros.abs;
+
+          // Update cons
+          document.getElementById("con-pricing-text").textContent =
+            data.cons.pricing;
+          document.getElementById("con-fuel-tank-text").textContent =
+            data.cons.fuelTank;
+          document.getElementById("con-features-text").textContent =
+            data.cons.features;
+
+          // Show/hide ABS pro item based on variant
+          const proAbsItem = document.getElementById("pro-abs-item");
+          if (data.abs) {
+            if (proAbsItem) proAbsItem.style.display = "flex";
+          } else {
+            if (proAbsItem) proAbsItem.style.display = "flex"; // Keep it but update text
+          }
+        }
+
+        // Update price and image when variant is selected
+        variantOptions.forEach((option) => {
+          option.addEventListener("click", function () {
+            // Remove active class from all options
+            variantOptions.forEach((opt) => {
+              opt.classList.remove("active");
+            });
+
+            // Add active class to clicked option
+            this.classList.add("active");
+
+            // Get variant
+            const variant = this.getAttribute("data-variant");
+
+            // Update all page data
+            updateAllVariantData(variant);
+
+            console.log(`Variant changed to: ${variant}`);
+          });
+        });
+
+        // Handle spec type selector changes (single dropdown for both mileage and top speed)
+        const specTypeSelector = document.getElementById("spec-type-selector");
+        if (specTypeSelector) {
+          specTypeSelector.addEventListener("change", function () {
+            const activeVariant = document.querySelector(
+              ".variant-option.active"
+            );
+            if (activeVariant) {
+              const variant = activeVariant.getAttribute("data-variant");
+              const data = variantData[variant];
+              if (data) {
+                const mileageElement = document.getElementById("quick-mileage");
+                const topspeedElement =
+                  document.getElementById("quick-topspeed");
+
+                // Update both mileage and top speed based on selected type
+                mileageElement.textContent =
+                  this.value === "company"
+                    ? data.quickSpecs.mileageCompany
+                    : data.quickSpecs.mileageUser;
+
+                // Update mileage color class
+                mileageElement.classList.remove(
+                  "company-claimed",
+                  "user-claimed"
+                );
+                mileageElement.classList.add(
+                  this.value === "company" ? "company-claimed" : "user-claimed"
+                );
+
+                topspeedElement.textContent =
+                  this.value === "company"
+                    ? data.quickSpecs.topspeedCompany
+                    : data.quickSpecs.topspeedUser;
+
+                // Update top speed color class
+                topspeedElement.classList.remove(
+                  "company-claimed",
+                  "user-claimed"
+                );
+                topspeedElement.classList.add(
+                  this.value === "company" ? "company-claimed" : "user-claimed"
+                );
+              }
+            }
+          });
+        }
+
+        // EMI Calculator Link
+        const emiCalculatorLink = document.querySelector(
+          ".emi-calculator-link"
+        );
+        emiCalculatorLink.addEventListener("click", function (e) {
+          e.preventDefault();
+          alert(
+            "EMI Calculator will be implemented in the next part of the development."
+          );
+        });
+
+        // Similar bikes card click functionality
+        const similarBikeCards =
+          document.querySelectorAll(".similar-bike-card");
+        similarBikeCards.forEach((card) => {
+          card.addEventListener("click", function () {
+            const bikeName =
+              this.querySelector(".similar-bike-name").textContent;
+            const bikePrice = this.querySelector(
+              ".similar-bike-price"
+            ).textContent;
+            alert(`You clicked on ${bikeName} - ${bikePrice}`);
+          });
+        });
+
+        // Desktop search input functionality
+        const desktopSearchInput = document.querySelector(
+          ".hidden.md\\:flex input"
+        );
+        if (desktopSearchInput) {
+          desktopSearchInput.addEventListener("keyup", function (e) {
+            if (e.key === "Enter") {
+              const searchTerm = this.value.trim();
+              if (searchTerm) {
+                alert(`Searching for: ${searchTerm}`);
+              }
+            }
+          });
+        }
+
+        // Specifications functionality
+        const specTabs = document.querySelectorAll(".spec-tab");
+        const specTabContents = document.querySelectorAll(".spec-tab-content");
+        const specVariantSelector = document.getElementById(
+          "spec-variant-selector"
+        );
+
+        let variantData = {};
+        let defaultVariantImage = "";
+        let bikesById = {};
+
+        async function loadBikeJson() {
+          const res = await fetch("bikes.json");
+          const data = await res.json();
+
+          defaultVariantImage =
+            (data.images && data.images.default) ||
+            "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80";
+
+          // Build bike lookup
+          bikesById = {};
+          (data.bikes || []).forEach((b) => {
+            bikesById[b.id] = {
+              ...b,
+              image: b.image === "default" ? defaultVariantImage : b.image,
+            };
+          });
+
+          const bike = bikesById["honda-cb150r"];
+
+          if (bike && bike.variants) {
+            // Resolve default image placeholders and normalize names
+            variantData = Object.fromEntries(
+              Object.entries(bike.variants).map(([key, variant]) => [
+                key,
+                {
+                  ...variant,
+                  fullName: variant.fullName || variant.label || bike.name,
+                  images: (variant.images || []).map((img) =>
+                    img === "default" ? defaultVariantImage : img
+                  ),
+                },
+              ])
+            );
+          }
+
+          // Render similar new bikes
+          const similarContainer =
+            document.getElementById("similar-bikes-list");
+          if (similarContainer && bike && Array.isArray(bike.similar)) {
+            similarContainer.innerHTML = "";
+            bike.similar.forEach((id) => {
+              const similarBike = bikesById[id];
+              if (!similarBike) return;
+              similarContainer.innerHTML += `
+                <div class="similar-bike-card">
+                  <img
+                    src="${similarBike.image}"
+                    alt="${similarBike.name}"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">${similarBike.name}</div>
+                    <div class="similar-bike-price">${formatPrice(
+                      similarBike.price
+                    )}</div>
+                    <div class="similar-bike-spec">${
+                      similarBike.specsSummary || ""
+                    }</div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
+          // Render similar used bikes
+          const usedContainer = document.getElementById("used-bikes-list");
+          if (usedContainer && bike && Array.isArray(bike.used)) {
+            usedContainer.innerHTML = "";
+            bike.used.forEach((ub) => {
+              usedContainer.innerHTML += `
+                <div class="similar-bike-card flex-shrink-0 w-64">
+                  <img
+                    src="${
+                      ub.image === "default" ? defaultVariantImage : ub.image
+                    }"
+                    alt="${ub.name}"
+                    class="similar-bike-image"
+                  />
+                  <div class="similar-bike-info">
+                    <div class="similar-bike-name">${ub.name}</div>
+                    <div class="similar-bike-price">${formatPrice(
+                      ub.price
+                    )}</div>
+                    <div class="similar-bike-spec">${ub.condition}</div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
+          // Render variant list and selector dynamically
+          renderVariantList();
+          renderVariantSelector();
+        }
+
+        // Function to render variant list from JSON data
+        function renderVariantList() {
+          const container = document.getElementById('variant-list-container');
+          if (!container || !variantData || Object.keys(variantData).length === 0) return;
+
+          let isFirst = true;
+          container.innerHTML = Object.entries(variantData).map(([key, variant]) => {
+            const activeClass = isFirst ? 'active' : '';
+            isFirst = false;
+
+            return `
+              <div class="variant-option ${activeClass}" data-variant="${key}">
+                <div class="variant-name">${variant.label || variant.fullName}</div>
+                <div class="variant-price">${formatPrice(variant.price)}</div>
+              </div>
+            `;
+          }).join('');
+
+          // Re-attach event listeners after rendering
+          attachVariantListeners();
+        }
+
+        // Function to render variant selector options from JSON data
+        function renderVariantSelector() {
+          const selector = document.getElementById('spec-variant-selector');
+          if (!selector || !variantData || Object.keys(variantData).length === 0) return;
+
+          let isFirst = true;
+          selector.innerHTML = Object.entries(variantData).map(([key, variant]) => {
+            const selected = isFirst ? 'selected' : '';
+            isFirst = false;
+            return `<option value="${key}" ${selected}>${variant.label || variant.fullName}</option>`;
+          }).join('');
+        }
+
+        // Function to attach variant click listeners
+        function attachVariantListeners() {
+          const variantOptions = document.querySelectorAll('.variant-option');
+          variantOptions.forEach((option) => {
+            option.addEventListener('click', function () {
+              // Remove active class from all options
+              variantOptions.forEach((opt) => opt.classList.remove('active'));
+
+              // Add active class to clicked option
+              this.classList.add('active');
+
+              // Get variant
+              const variant = this.getAttribute('data-variant');
+
+              // Update all page data
+              updateAllVariantData(variant);
+
+              console.log(`Variant changed to: ${variant}`);
+            });
+          });
+        }
+
+        // Keep old variantSpecs for backward compatibility with existing code
+        const variantSpecs = variantData;
+
+        // Function to update specifications based on selected variant
+        function updateSpecifications(variant) {
+          const spec = variantData[variant];
+          if (!spec) return;
+
+          // Update fuel efficiency
+          const fuelEfficiencyElement =
+            document.getElementById("fuel-efficiency");
+          if (fuelEfficiencyElement) {
+            fuelEfficiencyElement.textContent = spec.fuelEfficiency;
+          }
+
+          // Update efficiency badge
+          const efficiencyBadge = document.getElementById("efficiency-badge");
+          if (efficiencyBadge) {
+            const city = spec.fuelEfficiency.split("-")[0];
+            const highway = parseInt(city) + 5;
+            efficiencyBadge.textContent = `City: ${city}-${
+              parseInt(city) + 5
+            } kmpl | Highway: ${highway}-${highway + 5} kmpl`;
+          }
+
+          // Update ABS status
+          const absStatusElement = document.getElementById("abs-status");
+          const absFrontStatus = document.getElementById("abs-front-status");
+          const absRearStatus = document.getElementById("abs-rear-status");
+          const brakingSystemElement =
+            document.getElementById("braking-system");
+
+          if (spec.abs) {
+            if (absStatusElement)
+              absStatusElement.innerHTML =
+                'Yes <span class="feature-highlight feature-available">Dual Channel</span>';
+            if (absFrontStatus)
+              absFrontStatus.textContent = "with Dual Channel ABS";
+            if (absRearStatus)
+              absRearStatus.textContent = "with Dual Channel ABS";
+            if (brakingSystemElement)
+              brakingSystemElement.textContent = "Dual Channel ABS";
+          } else {
+            if (absStatusElement)
+              absStatusElement.innerHTML =
+                'Not Available <span class="feature-highlight feature-unavailable">(Available in higher variants)</span>';
+            if (absFrontStatus)
+              absFrontStatus.textContent = "with ABS (Higher Variants)";
+            if (absRearStatus)
+              absRearStatus.textContent = "with ABS (Higher Variants)";
+            if (brakingSystemElement)
+              brakingSystemElement.textContent = "Dual Channel Disc Brakes";
+          }
+
+          // Update tires
+          const frontTireElement = document.getElementById("front-tire");
+          const rearTireElement = document.getElementById("rear-tire");
+          if (frontTireElement) frontTireElement.textContent = spec.frontTire;
+          if (rearTireElement) rearTireElement.textContent = spec.rearTire;
+
+          // Update headlight type
+          const headlightTypeElement =
+            document.getElementById("headlight-type");
+          const ledStatusElement = document.getElementById("led-status");
+          if (spec.ledHeadlight) {
+            if (headlightTypeElement)
+              headlightTypeElement.textContent = spec.headlightType;
+            if (ledStatusElement)
+              ledStatusElement.textContent = "(LED in all variants)";
+          } else {
+            if (headlightTypeElement)
+              headlightTypeElement.innerHTML =
+                'Halogen <span class="feature-highlight" id="led-status">(LED in higher variants)</span>';
+          }
+
+          // Update USB port availability
+          const usbPortElement = document.getElementById("usb-port");
+          if (spec.usbPort) {
+            if (usbPortElement)
+              usbPortElement.innerHTML =
+                'Yes <span class="feature-highlight feature-available">USB Type-C</span>';
+          } else {
+            if (usbPortElement)
+              usbPortElement.innerHTML =
+                'Not Available <span class="feature-highlight feature-unavailable">(Available in Deluxe & higher variants)</span>';
+          }
+        }
+
+        // Function to update variant comparison table
+        function updateVariantComparisonTable() {
+          // Update mileage (company claimed)
+          document.getElementById("comp-mileage-std").textContent =
+            variantData.std.quickSpecs.mileageCompany;
+          document.getElementById("comp-mileage-deluxe").textContent =
+            variantData.deluxe.quickSpecs.mileageCompany;
+          document.getElementById("comp-mileage-abs").textContent =
+            variantData.abs.quickSpecs.mileageCompany;
+          document.getElementById("comp-mileage-special").textContent =
+            variantData.special.quickSpecs.mileageCompany;
+
+          // Update mileage (user claimed)
+          document.getElementById("user-mileage-std").textContent =
+            variantData.std.quickSpecs.mileageUser;
+          document.getElementById("user-mileage-deluxe").textContent =
+            variantData.deluxe.quickSpecs.mileageUser;
+          document.getElementById("user-mileage-abs").textContent =
+            variantData.abs.quickSpecs.mileageUser;
+          document.getElementById("user-mileage-special").textContent =
+            variantData.special.quickSpecs.mileageUser;
+
+          // Update top speed (company claimed)
+          document.getElementById("comp-topspeed-std").textContent =
+            variantData.std.quickSpecs.topspeedCompany;
+          document.getElementById("comp-topspeed-deluxe").textContent =
+            variantData.deluxe.quickSpecs.topspeedCompany;
+          document.getElementById("comp-topspeed-abs").textContent =
+            variantData.abs.quickSpecs.topspeedCompany;
+          document.getElementById("comp-topspeed-special").textContent =
+            variantData.special.quickSpecs.topspeedCompany;
+
+          // Update top speed (user claimed)
+          document.getElementById("user-topspeed-std").textContent =
+            variantData.std.quickSpecs.topspeedUser;
+          document.getElementById("user-topspeed-deluxe").textContent =
+            variantData.deluxe.quickSpecs.topspeedUser;
+          document.getElementById("user-topspeed-abs").textContent =
+            variantData.abs.quickSpecs.topspeedUser;
+          document.getElementById("user-topspeed-special").textContent =
+            variantData.special.quickSpecs.topspeedUser;
+        }
+
+        async function initBikePage() {
+          await loadBikeJson();
+          updateAllVariantData("std");
+          updateSpecifications("std");
+          updateVariantComparisonTable();
+        }
+
+        // Event listener for specifications variant selector
+        specVariantSelector.addEventListener("change", function () {
+          const selectedVariant = this.value;
+
+          // Update all page data
+          updateAllVariantData(selectedVariant);
+
+          // Also update the variant selection in the main variant list
+          const variantOptions = document.querySelectorAll('.variant-option');
+          variantOptions.forEach((option) => {
+            if (option.getAttribute("data-variant") === selectedVariant) {
+              option.classList.add("active");
+              variantOptions.forEach((opt) => {
+                if (opt !== option) opt.classList.remove("active");
+              });
+            }
+          });
+        });
+
+        // Tab switching functionality for specifications
+        specTabs.forEach((tab) => {
+          tab.addEventListener("click", function () {
+            const tabId = this.getAttribute("data-tab");
+
+            // Remove active class from all tabs
+            specTabs.forEach((t) => t.classList.remove("active"));
+            specTabContents.forEach((content) =>
+              content.classList.remove("active")
+            );
+
+            // Add active class to clicked tab
+            this.classList.add("active");
+
+            // Show corresponding content
+            document.getElementById(`${tabId}-tab`).classList.add("active");
+          });
+        });
+
+        initBikePage();
+      });
+    </script>
+  </body>
+</html>

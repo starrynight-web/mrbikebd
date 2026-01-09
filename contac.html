@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact BikeBD</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Import styles from existing files */
+        /* Custom animation for fade in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        /* Section card styling */
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Content styling */
+        .content-section {
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .content-section p {
+            margin-bottom: 16px;
+        }
+        
+        .content-section p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .highlight-text {
+            background-color: #eff6ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        /* Contact cards */
+        .contact-card {
+            transition: all 0.3s ease;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+            height: 100%;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+        
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .contact-icon.email {
+            background-color: #dbeafe;
+            color: #1e40af;
+        }
+        
+        .contact-icon.phone {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+        
+        .contact-icon.facebook {
+            background-color: #ede9fe;
+            color: #5b21b6;
+        }
+        
+        /* Form styling */
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            font-weight: 500;
+            color: #374151;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        
+        .form-textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            min-height: 120px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+        
+        .form-textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        
+        /* FAQ styling */
+        .faq-item {
+            margin-bottom: 16px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 16px;
+            background-color: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.2s ease;
+        }
+        
+        .faq-question:hover {
+            background-color: #f3f4f6;
+        }
+        
+        .faq-answer {
+            padding: 16px;
+            background-color: white;
+            color: #4b5563;
+            display: none;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        .faq-arrow {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-arrow {
+            transform: rotate(180deg);
+        }
+        
+        /* Map container */
+        .map-container {
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+            height: 300px;
+            background-color: #f3f4f6;
+            position: relative;
+        }
+        
+        .map-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #6b7280;
+        }
+        
+        /* Response time indicator */
+        .response-indicator {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background-color: #f0f9ff;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+            margin-top: 16px;
+        }
+        
+        /* Team member cards */
+        .team-card {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+        
+        .team-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0 auto 16px;
+        }
+        
+        /* Business hours */
+        .hours-table {
+            width: 100%;
+        }
+        
+        .hours-table tr {
+            border-bottom: 1px solid #f3f4f6;
+        }
+        
+        .hours-table tr:last-child {
+            border-bottom: none;
+        }
+        
+        .hours-table td {
+            padding: 10px 0;
+            color: #4b5563;
+        }
+        
+        .hours-table td:first-child {
+            font-weight: 500;
+            color: #374151;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-900 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Contact BikeBD</h1>
+                <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                    Questions, suggestions, or issues? Get in touch with the BikeBD team—we're here to help!
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#contact-form" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+                        <i class="fas fa-envelope mr-2"></i>Send Message
+                    </a>
+                    <a href="#faq" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+                        <i class="fas fa-question-circle mr-2"></i>View FAQ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="section-card">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">We'd Love to Hear From You!</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Have a bike-related question, info to share, found an issue, or want to help improve our website? 
+                        Drop us a message below or contact us through any of our channels.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Contact Form -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+                        
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Your Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="email">Your Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="Enter your email address" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="subject">Subject</label>
+                                <select id="subject" class="form-input" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="suggestion">Website Suggestion</option>
+                                    <option value="correction">Information Correction</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="technical">Technical Issue</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="message">Your Message</label>
+                                <textarea id="message" class="form-textarea" placeholder="Please provide details about your inquiry..." required></textarea>
+                            </div>
+                            
+                            <div class="response-indicator">
+                                <i class="fas fa-clock text-blue-600 mr-3 text-lg"></i>
+                                <div>
+                                    <div class="font-medium text-gray-800">Response Time</div>
+                                    <div class="text-sm text-gray-600">We typically respond within 24-48 hours</div>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg transition duration-300 mt-6">
+                                <i class="fas fa-paper-plane mr-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Other Ways to Contact Us</h3>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                            <div class="contact-card bg-white p-6">
+                                <div class="contact-icon email">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Email Us</h4>
+                                <p class="text-gray-600 mb-4">For general inquiries and suggestions</p>
+                                <a href="mailto:info@bikebd.com" class="text-blue-600 hover:text-blue-800 font-medium">
+                                    info@bikebd.com
+                                </a>
+                            </div>
+                            
+                            <div class="contact-card bg-white p-6">
+                                <div class="contact-icon phone">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Call Us</h4>
+                                <p class="text-gray-600 mb-4">For urgent matters and business inquiries</p>
+                                <div class="text-blue-600 font-medium">
+                                    +880 1XXX-XXXXXX
+                                </div>
+                            </div>
+                            
+                            <div class="contact-card bg-white p-6">
+                                <div class="contact-icon facebook">
+                                    <i class="fab fa-facebook-messenger"></i>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Facebook Messenger</h4>
+                                <p class="text-gray-600 mb-4">For quick questions and updates</p>
+                                <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">
+                                    @BikeBD
+                                </a>
+                            </div>
+                            
+                            <div class="contact-card bg-white p-6">
+                                <div class="contact-icon facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Join Our Facebook Group</h4>
+                                <p class="text-gray-600 mb-4">Connect with our community</p>
+                                <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">
+                                    BikeBD Community
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Business Hours -->
+                        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-bold text-gray-800 mb-4">Business Hours</h4>
+                            <table class="hours-table">
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>10:00 AM - 4:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                                <tr>
+                                    <td>Public Holidays</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-12 bg-gray-50 fade-in">
+        <div class="container mx-auto px-4">
+            <div class="section-card">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Find quick answers to common questions about BikeBD
+                    </p>
+                </div>
+                
+                <div class="max-w-3xl mx-auto">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do I report incorrect information on the website?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>If you find any incorrect information (prices, specifications, dealer details, etc.), please use the contact form above and select "Information Correction" as the subject. Include the specific page URL and the correct information so we can update it promptly.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How can I suggest a new bike to be added to the website?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We're always looking to expand our database! Send us a message with the bike details (brand, model, specifications, and official website link if available) and we'll add it to our research queue. You can also mention if it's a newly launched model in Bangladesh.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>I'm a dealer. How can I get my showroom listed?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Dealers can request listing by contacting us via email at dealers@bikebd.com. Please include your showroom name, address, contact information, brands you carry, and any website/social media links. We verify all dealer information before listing.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How often is the information on BikeBD updated?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We update our database regularly, with price information being checked monthly and specifications updated as soon as new information is available from official sources. However, prices and specifications can change rapidly, so we recommend verifying critical information with official dealers.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Can I contribute articles or reviews to BikeBD?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We welcome contributions from motorcycle enthusiasts and experts. Please send your article/review idea to content@bikebd.com with a brief outline and your background/experience. We review all submissions and will get back to you if it aligns with our content strategy.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Is BikeBD affiliated with any motorcycle brands?</span>
+                            <i class="fas fa-chevron-down faq-arrow"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>BikeBD is an independent platform and not directly affiliated with any motorcycle manufacturer. We aim to provide unbiased information to help consumers make informed decisions. Some brands may advertise on our platform, but this doesn't affect our editorial content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-12 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="section-card">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        The dedicated people behind BikeBD who work to bring you accurate motorcycle information
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="team-card">
+                        <div class="team-avatar">TS</div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Tanvir Sarker</h4>
+                        <div class="text-blue-600 font-medium mb-2">Founder & CEO</div>
+                        <p class="text-gray-600 text-sm">Motorcycle enthusiast with 10+ years in the industry</p>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-avatar">AM</div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Ayesha Mahmud</h4>
+                        <div class="text-blue-600 font-medium mb-2">Content Manager</div>
+                        <p class="text-gray-600 text-sm">Ensures all information is accurate and up-to-date</p>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-avatar">RF</div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Rafiq Fahim</h4>
+                        <div class="text-blue-600 font-medium mb-2">Technical Lead</div>
+                        <p class="text-gray-600 text-sm">Keeps the platform running smoothly and efficiently</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="py-12 bg-gray-50 fade-in">
+        <div class="container mx-auto px-4">
+            <div class="section-card">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Location</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Based in Dhaka, serving motorcycle enthusiasts across Bangladesh
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt text-4xl mb-4 text-gray-400"></i>
+                            <p class="font-medium mb-2">Dhaka, Bangladesh</p>
+                            <p class="text-sm text-gray-500">Map integration coming soon</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Visit Our Office</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-blue-600 mr-3 mt-1">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Address</h4>
+                                    <p class="text-gray-600">Road #12, Block #C<br>Bashundhara R/A<br>Dhaka 1229, Bangladesh</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-blue-600 mr-3 mt-1">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Visiting Hours</h4>
+                                    <p class="text-gray-600">Monday - Friday: 10:00 AM - 4:00 PM<br>By appointment only</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-blue-600 mr-3 mt-1">
+                                    <i class="fas fa-info-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Note</h4>
+                                    <p class="text-gray-600">We're a digital-first company. Most inquiries are handled online or via phone/email. Please contact us before visiting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Stay Connected with BikeBD</h2>
+                <p class="text-xl text-blue-100 mb-8">
+                    Join thousands of motorcycle enthusiasts who trust BikeBD for accurate information and community support
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="#contact-form" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+                        Send Us a Message
+                    </a>
+                    <a href="index.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+                        Back to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="nav-foot.js"></script>
+
+    <!-- JavaScript for interactive elements -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Contact form submission
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+                    
+                    if (name && email && subject && message) {
+                        const subjectText = document.querySelector(`#subject option[value="${subject}"]`).textContent;
+                        
+                        alert(`Thank you ${name}! Your message has been received.\n\nSubject: ${subjectText}\n\nWe will respond to you at ${email} within 24-48 hours.`);
+                        
+                        // Reset form
+                        contactForm.reset();
+                    } else {
+                        alert('Please fill in all required fields.');
+                    }
+                });
+            }
+            
+            // FAQ functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.closest('.faq-item');
+                    faqItem.classList.toggle('active');
+                });
+            });
+            
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    
+                    // Don't prevent default for empty href
+                    if (href === '#') return;
+                    
+                    e.preventDefault();
+                    
+                    const targetElement = document.querySelector(href);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Subject select styling
+            const subjectSelect = document.getElementById('subject');
+            if (subjectSelect) {
+                subjectSelect.addEventListener('change', function() {
+                    if (this.value) {
+                        this.classList.remove('text-gray-400');
+                        this.classList.add('text-gray-800');
+                    } else {
+                        this.classList.add('text-gray-400');
+                        this.classList.remove('text-gray-800');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

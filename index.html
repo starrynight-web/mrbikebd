@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeBD | Your Ultimate Bike Destination in Bangladesh</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Hero background with overlay */
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            min-height: 90vh;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(30, 60, 114, 0.2), rgba(42, 82, 152, 0.85));
+        }
+        
+        /* Content container at bottom */
+        .hero-content-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 5rem;
+        }
+        
+        /* Custom animation for the hero section */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeInUp {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        /* Styling for the faded clickable logo */
+        .faded-logo {
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+        
+        .faded-logo:hover {
+            opacity: 0.8;
+        }
+        
+        /* Search bar styling */
+        .search-bar-hero {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .search-bar-hero:focus-within {
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        /* Filter options section styling */
+        .filter-options-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            transition: all 0.4s ease;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            margin-top: 1rem;
+        }
+        
+        .filter-options-section.active {
+            max-height: 500px;
+            opacity: 1;
+            padding: 1.5rem;
+        }
+        
+        /* Bike card styles */
+        .bike-card {
+            transition: all 0.3s ease;
+            min-width: 250px;
+        }
+        
+        .bike-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Update card styles */
+        .update-card {
+            transition: all 0.3s ease;
+            min-width: 300px;
+        }
+        
+        .update-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Featured bikes carousel */
+        .carousel-container {
+            scroll-behavior: smooth;
+            scrollbar-width: none; /* Firefox */
+        }
+        
+        .carousel-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Edge */
+        }
+        
+        /* Arrow navigation - FIXED POSITIONING */
+        .carousel-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            opacity: 0.8;
+            background-color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+        
+        .carousel-arrow:hover {
+            opacity: 1;
+        }
+        
+        .carousel-arrow.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .carousel-arrow.left-arrow {
+            left: 10px;
+        }
+        
+        .carousel-arrow.right-arrow {
+            right: 10px;
+        }
+        
+        /* Category link styling */
+        .category-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .category-link.active {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        
+        .category-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #2563eb;
+            border-radius: 2px;
+        }
+        
+        .category-link:hover:not(.active) {
+            color: #4b5563;
+        }
+        
+        /* Fade in animation for bike cards */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        /* Browse category link styling */
+        .category-link-browse {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .category-link-browse.active {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        
+        .category-link-browse.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #2563eb;
+            border-radius: 2px;
+        }
+        
+        .category-link-browse:hover:not(.active) {
+            color: #4b5563;
+        }
+        
+        /* Update category link styling */
+        .category-link-update {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .category-link-update.active {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        
+        .category-link-update.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #2563eb;
+            border-radius: 2px;
+        }
+        
+        .category-link-update:hover:not(.active) {
+            color: #4b5563;
+        }
+        
+        /* Compare card styling with wider images */
+        .compare-card {
+            min-width: 340px; /* Slightly wider to accommodate larger images */
+            transition: all 0.3s ease;
+        }
+        
+        .compare-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Video play button */
+        .video-play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background-color: rgba(37, 99, 235, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+        }
+        
+        .video-play-button:hover {
+            background-color: rgba(37, 99, 235, 1);
+            transform: translate(-50%, -50%) scale(1.1);
+            opacity: 1;
+        }
+        
+        /* Badge styles */
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-news {
+            background-color: #3b82f6;
+            color: white;
+        }
+        
+        .badge-review {
+            background-color: #10b981;
+            color: white;
+        }
+        
+        .badge-video {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        
+        /* Newsletter input focus */
+        .newsletter-input:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-top:hover {
+            background-color: #3b82f6;
+            color: white;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-bg relative">
+        <div class="hero-overlay"></div>
+        
+        <!-- Content positioned at bottom -->
+        <div class="hero-content-bottom">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-3xl animate-fadeInUp">
+                    <!-- Further reduced text sizes -->
+                    <h1 class="text-2xl md:text-4xl font-bold mb-3 text-white">
+                        Your Ultimate Bike Destination in Bangladesh
+                    </h1>
+                    <p class="text-base md:text-lg mb-8 text-gray-100 leading-relaxed">
+                        Discover the latest bikes, compare prices, find dealers, and stay updated with the newest trends in the Bangladeshi motorcycle market.
+                    </p>
+                    
+                    <!-- Search bar (unchanged pill shape) -->
+                    <div class="search-bar-hero bg-white rounded-full p-2 max-w-2xl">
+                        <div class="flex items-center">
+                            <div class="flex-grow pl-6 pr-2">
+                                <input 
+                                    type="text" 
+                                    placeholder="Search for bikes, brands, dealers, or locations..." 
+                                    class="w-full bg-transparent outline-none text-gray-800 text-base py-2"
+                                    id="hero-search"
+                                >
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5 py-2.5 font-medium transition duration-300 flex items-center text-sm" id="search-button">
+                                    <i class="fas fa-search mr-2"></i>
+                                    Search
+                                </button>
+                                <button class="bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full px-3 py-2.5 font-medium transition duration-300 flex items-center text-sm" id="filter-toggle">
+                                    <i class="fas fa-sliders-h"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Separate filter options section -->
+                    <div id="filter-options" class="filter-options-section">
+                        <div class="mb-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Filter Options</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Bike Type</label>
+                                    <select class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                                        <option>All Types</option>
+                                        <option>Sports Bike</option>
+                                        <option>Commuter</option>
+                                        <option>Adventure</option>
+                                        <option>Cruiser</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Price Range</label>
+                                    <select class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                                        <option>Any Price</option>
+                                        <option>Under ৳1,00,000</option>
+                                        <option>৳1,00,000 - ৳2,00,000</option>
+                                        <option>৳2,00,000 - ৳5,00,000</option>
+                                        <option>Above ৳5,00,000</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Location</label>
+                                    <select class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                                        <option>All Bangladesh</option>
+                                        <option>Dhaka</option>
+                                        <option>Chittagong</option>
+                                        <option>Khulna</option>
+                                        <option>Rajshahi</option>
+                                        <option>Sylhet</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Additional filters -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Brand</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                                    <option>All Brands</option>
+                                    <option>Honda</option>
+                                    <option>Yamaha</option>
+                                    <option>Suzuki</option>
+                                    <option>Bajaj</option>
+                                    <option>TVS</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Engine Capacity</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                                    <option>Any Capacity</option>
+                                    <option>100-125cc</option>
+                                    <option>125-150cc</option>
+                                    <option>150-200cc</option>
+                                    <option>200-300cc</option>
+                                    <option>300cc+</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Filter action buttons -->
+                        <div class="flex justify-end space-x-3 pt-3 border-t border-gray-200">
+                            <button id="clear-filters" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition duration-300">
+                                Clear All
+                            </button>
+                            <button id="apply-filters" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition duration-300">
+                                Apply Filters
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Bikes Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-0">Featured Bikes</h2>
+                
+                <!-- Category links in a row -->
+                <div class="flex space-x-6">
+                    <a href="#" class="category-link active text-gray-700 text-lg" data-category="trending">
+                        Trending
+                    </a>
+                    <a href="#" class="category-link text-gray-500 text-lg hover:text-gray-700" data-category="popular">
+                        Popular
+                    </a>
+                    <a href="#" class="category-link text-gray-500 text-lg hover:text-gray-700" data-category="electric">
+                        Electric
+                    </a>
+                    <a href="#" class="category-link text-gray-500 text-lg hover:text-gray-700" data-category="upcoming">
+                        Upcoming
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Single carousel container for active category -->
+            <div id="featured-bikes-container" class="relative">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 id="active-category-title" class="text-xl font-semibold text-gray-700">Trending Bikes</h3>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View All</a>
+                </div>
+                
+                <div class="relative">
+                    <button id="left-arrow" class="carousel-arrow left-arrow disabled">
+                        <i class="fas fa-chevron-left text-gray-700"></i>
+                    </button>
+                    
+                    <!-- Carousel for active category -->
+                    <div id="carousel-container" class="carousel-container overflow-x-auto flex space-x-6 pb-4 fade-in">
+                        <!-- Bike cards will be dynamically inserted here based on active category -->
+                    </div>
+                    
+                    <button id="right-arrow" class="carousel-arrow right-arrow">
+                        <i class="fas fa-chevron-right text-gray-700"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse Bikes By Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-0">Browse Bikes By</h2>
+                
+                <!-- Category links -->
+                <div class="flex space-x-6">
+                    <a href="#" class="category-link-browse active text-gray-700 text-lg" data-category="brand">
+                        Brand
+                    </a>
+                    <a href="#" class="category-link-browse text-gray-500 text-lg hover:text-gray-700" data-category="budget">
+                        Budget
+                    </a>
+                    <a href="#" class="category-link-browse text-gray-500 text-lg hover:text-gray-700" data-category="displacement">
+                        Displacement
+                    </a>
+                    <a href="#" class="category-link-browse text-gray-500 text-lg hover:text-gray-700" data-category="bodyStyle">
+                        Body Style
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Grid container -->
+            <div id="browse-grid-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 border border-gray-200 rounded-lg overflow-hidden fade-in">
+                <!-- Grid items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Updates Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-0">Latest Updates</h2>
+                
+                <!-- Category links in a row -->
+                <div class="flex space-x-6">
+                    <a href="#" class="category-link-update active text-gray-700 text-lg" data-category="news">
+                        News
+                    </a>
+                    <a href="#" class="category-link-update text-gray-500 text-lg hover:text-gray-700" data-category="reviews">
+                        Expert Reviews
+                    </a>
+                    <a href="#" class="category-link-update text-gray-500 text-lg hover:text-gray-700" data-category="videos">
+                        Videos
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Single carousel container for active category -->
+            <div id="updates-container" class="relative">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 id="active-update-category-title" class="text-xl font-semibold text-gray-700">Latest News</h3>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">All News</a>
+                </div>
+                
+                <div class="relative">
+                    <button id="updates-left-arrow" class="carousel-arrow left-arrow disabled">
+                        <i class="fas fa-chevron-left text-gray-700"></i>
+                    </button>
+                    
+                    <!-- Carousel for active category -->
+                    <div id="updates-carousel" class="carousel-container overflow-x-auto flex space-x-6 pb-4 fade-in">
+                        <!-- Update cards will be dynamically inserted here based on active category -->
+                    </div>
+                    
+                    <button id="updates-right-arrow" class="carousel-arrow right-arrow">
+                        <i class="fas fa-chevron-right text-gray-700"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compare Bikes Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Compare Bikes</h2>
+                <p class="text-gray-600">Side-by-side comparison of popular motorcycle models</p>
+            </div>
+            
+            <!-- Compare bikes carousel -->
+            <div class="relative">
+                <button id="compare-left-arrow" class="carousel-arrow left-arrow disabled">
+                    <i class="fas fa-chevron-left text-gray-700"></i>
+                </button>
+                
+                <!-- Compare cards container -->
+                <div id="compare-carousel" class="carousel-container overflow-x-auto flex space-x-6 pb-4">
+                    <!-- Compare cards will be dynamically inserted here -->
+                </div>
+                
+                <button id="compare-right-arrow" class="carousel-arrow right-arrow">
+                    <i class="fas fa-chevron-right text-gray-700"></i>
+                </button>
+            </div>
+            
+            <!-- Link below carousel -->
+            <div class="mt-8 text-center">
+                <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-lg">
+                    <i class="fas fa-balance-scale mr-2"></i>
+                    Compare bikes of your choice
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="nav-foot.js"></script>
+
+    <!-- JavaScript for interactive elements -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get DOM elements
+            const heroSearch = document.getElementById('hero-search');
+            const filterToggle = document.getElementById('filter-toggle');
+            const filterOptions = document.getElementById('filter-options');
+            const searchButton = document.getElementById('search-button');
+            const clearFiltersButton = document.getElementById('clear-filters');
+            const applyFiltersButton = document.getElementById('apply-filters');
+            
+            // Toggle filter options in hero search (now a separate section)
+            filterToggle.addEventListener('click', function() {
+                filterOptions.classList.toggle('active');
+            });
+            
+            // Search button functionality
+            searchButton.addEventListener('click', function() {
+                const searchTerm = heroSearch.value.trim();
+                if (searchTerm) {
+                    alert(`Searching for: ${searchTerm}`);
+                } else {
+                    heroSearch.focus();
+                }
+            });
+            
+            // Clear filters button
+            clearFiltersButton.addEventListener('click', function() {
+                const selects = filterOptions.querySelectorAll('select');
+                selects.forEach(select => {
+                    select.selectedIndex = 0;
+                });
+            });
+            
+            // Apply filters button
+            applyFiltersButton.addEventListener('click', function() {
+                // Collect filter values
+                const bikeType = filterOptions.querySelector('select:nth-child(1)').value;
+                const priceRange = filterOptions.querySelector('select:nth-child(2)').value;
+                const location = filterOptions.querySelector('select:nth-child(3)').value;
+                const brand = filterOptions.querySelector('select:nth-child(4)').value;
+                const engineCapacity = filterOptions.querySelector('select:nth-child(5)').value;
+                
+                // Show alert with filter values
+                alert(`Filters applied:\nBike Type: ${bikeType}\nPrice Range: ${priceRange}\nLocation: ${location}\nBrand: ${brand}\nEngine Capacity: ${engineCapacity}`);
+                
+                // Close filter options
+                filterOptions.classList.remove('active');
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                // Close filter options if clicking outside
+                if (!filterToggle.contains(event.target) && 
+                    !filterOptions.contains(event.target) && 
+                    !heroSearch.contains(event.target) &&
+                    !searchButton.contains(event.target)) {
+                    filterOptions.classList.remove('active');
+                }
+            });
+            
+
+            
+            // Hero search functionality
+            heroSearch.addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    const searchTerm = this.value.trim();
+                    if (searchTerm) {
+                        alert(`Searching for: ${searchTerm}`);
+                    }
+                }
+            });
+            
+            // Focus the hero search on page load
+            heroSearch.focus();
+            
+
+            
+            // Function to update arrow states for any carousel
+            function updateArrowStates(carouselElement, leftArrow, rightArrow) {
+                const scrollLeft = carouselElement.scrollLeft;
+                const scrollWidth = carouselElement.scrollWidth;
+                const clientWidth = carouselElement.clientWidth;
+                
+                // Enable/disable left arrow
+                if (scrollLeft <= 10) {
+                    leftArrow.classList.add('disabled');
+                } else {
+                    leftArrow.classList.remove('disabled');
+                }
+                
+                // Enable/disable right arrow
+                if (scrollLeft + clientWidth >= scrollWidth - 10) {
+                    rightArrow.classList.add('disabled');
+                } else {
+                    rightArrow.classList.remove('disabled');
+                }
+            }
+            
+            // Function to initialize carousel arrows
+            function initializeCarouselArrows(carouselElement, leftArrow, rightArrow) {
+                // Initial arrow state
+                updateArrowStates(carouselElement, leftArrow, rightArrow);
+                
+                // Update arrow states on scroll
+                carouselElement.addEventListener('scroll', function() {
+                    updateArrowStates(carouselElement, leftArrow, rightArrow);
+                });
+                
+                // Update arrow states on window resize
+                window.addEventListener('resize', function() {
+                    updateArrowStates(carouselElement, leftArrow, rightArrow);
+                });
+            }
+            
+            // Bike data loaded from bikes.json
+            let bikeData = {};
+            let categoriesMap = {};
+            let comparePairs = [];
+            let imagesMap = {};
+            let bikesById = {};
+
+            // Load bikes.json and hydrate data structures
+            async function loadBikeData() {
+                const res = await fetch('bikes.json');
+                const data = await res.json();
+                imagesMap = data.images || {};
+
+                // Build bike lookup
+                (data.bikes || []).forEach(b => {
+                    bikesById[b.id] = {
+                        ...b,
+                        image: b.image === 'default' ? imagesMap.default : b.image
+                    };
+                });
+
+                categoriesMap = data.categories || {};
+                comparePairs = data.comparePairs || [];
+                browseGridData = data.browseCounts || {};
+
+                // Build category -> bike objects
+                Object.keys(categoriesMap).forEach(cat => {
+                    bikeData[cat] = (categoriesMap[cat] || [])
+                        .map(id => bikesById[id])
+                        .filter(Boolean);
+                });
+            }
+
+            // Resolve bike by id
+            function getBikeById(id) {
+                return bikesById[id];
+            }
+
+            function formatPrice(value) {
+                if (value === null || value === undefined) return "Coming Soon";
+                if (typeof value === "string") return value;
+                return "৳ " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+            
+            // Category titles
+            const categoryTitles = {
+                trending: "Trending Bikes",
+                popular: "Popular Bikes",
+                electric: "Electric Bikes",
+                upcoming: "Upcoming Bikes"
+            };
+            
+            // DOM elements for featured bikes section
+            const categoryLinks = document.querySelectorAll('.category-link');
+            const carouselContainer = document.getElementById('carousel-container');
+            const activeCategoryTitle = document.getElementById('active-category-title');
+            const leftArrow = document.getElementById('left-arrow');
+            const rightArrow = document.getElementById('right-arrow');
+            
+            // Current active category
+            let activeCategory = 'trending';
+            
+            // Function to generate bike card HTML
+            function generateBikeCard(bike) {
+                let ratingHtml = '';
+                if (bike.rating) {
+                    ratingHtml = `
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400 text-sm">
+                                ${'★'.repeat(Math.floor(bike.rating))}${'☆'.repeat(5-Math.floor(bike.rating))}
+                            </div>
+                            <span class="ml-1 text-xs text-gray-600">${bike.rating}</span>
+                        </div>
+                    `;
+                } else {
+                    ratingHtml = '<div class="text-xs text-blue-600 font-medium">Coming Soon</div>';
+                }
+                
+                return `
+                    <div class="bike-card bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="h-36 overflow-hidden">
+                            <img src="${bike.image}" alt="${bike.name}" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h4 class="font-semibold text-gray-800 text-sm mb-1 truncate">${bike.name}</h4>
+                            ${ratingHtml}
+                            <div class="mt-2">
+                                <span class="font-bold text-blue-700 text-sm">${formatPrice(bike.price)}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Function to display bikes for a specific category
+            function displayBikesForCategory(category) {
+                // Update active category
+                activeCategory = category;
+                
+                // Update UI
+                activeCategoryTitle.textContent = categoryTitles[category];
+                
+                // Add fade-in animation
+                carouselContainer.classList.remove('fade-in');
+                void carouselContainer.offsetWidth; // Trigger reflow
+                carouselContainer.classList.add('fade-in');
+                
+                // Clear and populate carousel
+                carouselContainer.innerHTML = '';
+                bikeData[category].forEach(bike => {
+                    carouselContainer.innerHTML += generateBikeCard(bike);
+                });
+                
+                // Update active link
+                categoryLinks.forEach(link => {
+                    const linkCategory = link.getAttribute('data-category');
+                    if (linkCategory === category) {
+                        link.classList.remove('text-gray-500', 'hover:text-gray-700');
+                        link.classList.add('active', 'text-gray-700');
+                    } else {
+                        link.classList.remove('active', 'text-gray-700');
+                        link.classList.add('text-gray-500', 'hover:text-gray-700');
+                    }
+                });
+                
+                // Update arrow states after loading new content
+                setTimeout(() => updateArrowStates(carouselContainer, leftArrow, rightArrow), 100);
+            }
+            
+            async function initBikes() {
+                await loadBikeData();
+                displayBikesForCategory('trending');
+                setTimeout(() => initializeCarouselArrows(carouselContainer, leftArrow, rightArrow), 500);
+                categoryLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const category = this.getAttribute('data-category');
+                        if (category !== activeCategory) {
+                            displayBikesForCategory(category);
+                        }
+                    });
+                });
+            }
+            
+            // Featured Bikes carousel arrow functionality
+            leftArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    carouselContainer.scrollBy({ left: -300, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(carouselContainer, leftArrow, rightArrow), 300);
+                }
+            });
+            
+            rightArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    carouselContainer.scrollBy({ left: 300, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(carouselContainer, leftArrow, rightArrow), 300);
+                }
+            });
+
+            // =============== BROWSE BIKES BY SECTION ===============
+            
+            // Browse data loaded from bikes.json
+            let browseGridData = {};
+            
+            // DOM elements for browse section
+            const browseCategoryLinks = document.querySelectorAll('.category-link-browse');
+            const browseGridContainer = document.getElementById('browse-grid-container');
+            
+            // Current active browse category
+            let activeBrowseCategory = 'brand';
+            
+            // Function to generate minimal grid item HTML
+            function generateGridItem(item, category) {
+                if (category === 'brand') {
+                    return `
+                        <div class="p-6 text-center border-r border-b border-gray-200 hover:bg-gray-50 cursor-pointer">
+                            <div class="text-2xl font-bold text-gray-800 mb-2">${item.name}</div>
+                            <div class="text-gray-500 text-sm">${item.count} models</div>
+                        </div>
+                    `;
+                } else if (category === 'budget') {
+                    return `
+                        <div class="p-6 text-center border-r border-b border-gray-200 hover:bg-gray-50 cursor-pointer">
+                            <div class="text-xl font-bold text-gray-800 mb-2">${item.range}</div>
+                            <div class="text-gray-500 text-sm">${item.count} bikes</div>
+                        </div>
+                    `;
+                } else if (category === 'displacement') {
+                    return `
+                        <div class="p-6 text-center border-r border-b border-gray-200 hover:bg-gray-50 cursor-pointer">
+                            <div class="text-xl font-bold text-gray-800 mb-2">${item.range}</div>
+                            <div class="text-gray-500 text-sm">${item.count} models</div>
+                        </div>
+                    `;
+                } else if (category === 'bodyStyle') {
+                    return `
+                        <div class="p-6 text-center border-r border-b border-gray-200 hover:bg-gray-50 cursor-pointer">
+                            <div class="text-xl font-bold text-gray-800 mb-2">${item.style}</div>
+                            <div class="text-gray-500 text-sm">${item.count} bikes</div>
+                        </div>
+                    `;
+                }
+            }
+            
+            // Function to display grid for a specific category
+            function displayGridForCategory(category) {
+                // Update active category
+                activeBrowseCategory = category;
+                
+                // Add fade-in animation
+                browseGridContainer.classList.remove('fade-in');
+                void browseGridContainer.offsetWidth;
+                browseGridContainer.classList.add('fade-in');
+                
+                // Clear and populate grid
+                browseGridContainer.innerHTML = '';
+                
+                // Determine which grid items to show
+                const items = browseGridData[category];
+                
+                items.forEach(item => {
+                    browseGridContainer.innerHTML += generateGridItem(item, category);
+                });
+                
+                // Update active link
+                browseCategoryLinks.forEach(link => {
+                    const linkCategory = link.getAttribute('data-category');
+                    if (linkCategory === category) {
+                        link.classList.remove('text-gray-500', 'hover:text-gray-700');
+                        link.classList.add('active', 'text-gray-700');
+                    } else {
+                        link.classList.remove('active', 'text-gray-700');
+                        link.classList.add('text-gray-500', 'hover:text-gray-700');
+                    }
+                });
+            }
+            
+            function initBrowse() {
+                if (Object.keys(browseGridData).length === 0) return;
+                displayGridForCategory('brand');
+                browseCategoryLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const category = this.getAttribute('data-category');
+                        if (category !== activeBrowseCategory) {
+                            displayGridForCategory(category);
+                        }
+                    });
+                });
+            }
+
+            // =============== LATEST UPDATES SECTION ===============
+            
+            // Data for Latest Updates section
+            const updatesData = {
+                news: [
+                    { 
+                        title: "Honda Launches New 2024 CBR150R in Bangladesh", 
+                        excerpt: "The updated model features new color options and improved fuel efficiency with a more powerful engine...",
+                        image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 15, 2024",
+                        readTime: "3 min read",
+                        type: "news"
+                    },
+                    { 
+                        title: "Electric Bike Sales Surge by 150% in 2023", 
+                        excerpt: "Bangladesh witnesses a massive increase in electric motorcycle adoption with government incentives...",
+                        image: "https://images.unsplash.com/photo-1598522325072-2d2efd5960e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 12, 2024",
+                        readTime: "4 min read",
+                        type: "news"
+                    },
+                    { 
+                        title: "New Import Policy for Motorcycles Announced", 
+                        excerpt: "Government reduces import duty on bikes under 250cc to boost local market competition...",
+                        image: "https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 10, 2024",
+                        readTime: "5 min read",
+                        type: "news"
+                    },
+                    { 
+                        title: "Yamaha Opens New Service Center in Dhaka", 
+                        excerpt: "The state-of-the-art facility offers advanced diagnostic tools and trained technicians...",
+                        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 8, 2024",
+                        readTime: "2 min read",
+                        type: "news"
+                    },
+                    { 
+                        title: "Bangladesh Motorcycle Market Expected to Grow 20%", 
+                        excerpt: "Industry reports predict significant growth in the next fiscal year due to economic recovery...",
+                        image: "https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 5, 2024",
+                        readTime: "4 min read",
+                        type: "news"
+                    },
+                    { 
+                        title: "New Safety Regulations for Bike Riders Coming Soon", 
+                        excerpt: "Transport authority plans to implement mandatory safety gear and training requirements...",
+                        image: "https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 3, 2024",
+                        readTime: "3 min read",
+                        type: "news"
+                    }
+                ],
+                reviews: [
+                    { 
+                        title: "Expert Review: Suzuki Gixxer SF 2024", 
+                        excerpt: "We test the latest iteration of Suzuki's popular sports bike. Performance, comfort, and value analyzed...",
+                        image: "https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 14, 2024",
+                        readTime: "6 min read",
+                        type: "review",
+                        rating: 4.2
+                    },
+                    { 
+                        title: "Royal Enfield Classic 350: Long Term Review", 
+                        excerpt: "After 10,000 km, we share our experience with this iconic cruiser. Maintenance costs and reliability report...",
+                        image: "https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 11, 2024",
+                        readTime: "8 min read",
+                        type: "review",
+                        rating: 4.5
+                    },
+                    { 
+                        title: "TVS Apache RTR 200 vs Bajaj Pulsar NS200", 
+                        excerpt: "Head-to-head comparison of two popular 200cc bikes. Which one offers better value for money?...",
+                        image: "https://images.unsplash.com/photo-1566896509656-2f6b21a35177?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 9, 2024",
+                        readTime: "7 min read",
+                        type: "review",
+                        rating: 4.0
+                    },
+                    { 
+                        title: "Kawasaki Ninja 300: Track Day Experience", 
+                        excerpt: "We push this entry-level sports bike to its limits on the race track. Performance under pressure tested...",
+                        image: "https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 7, 2024",
+                        readTime: "5 min read",
+                        type: "review",
+                        rating: 4.7
+                    },
+                    { 
+                        title: "Hero Splendor Plus: The Perfect Commuter?", 
+                        excerpt: "Detailed analysis of Bangladesh's best-selling motorcycle. Fuel efficiency and maintenance costs revealed...",
+                        image: "https://images.unsplash.com/photo-1519315901365-2c6e0a0f4c3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 4, 2024",
+                        readTime: "4 min read",
+                        type: "review",
+                        rating: 4.3
+                    },
+                    { 
+                        title: "Electric Bikes Comparison: TVS iQube vs Ola S1", 
+                        excerpt: "Which electric scooter offers better range, features, and value in the Bangladeshi market?...",
+                        image: "https://images.unsplash.com/photo-1598522325072-2d2efd5960e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 2, 2024",
+                        readTime: "6 min read",
+                        type: "review",
+                        rating: 4.1
+                    }
+                ],
+                videos: [
+                    { 
+                        title: "Yamaha R15 V4: Complete Walkaround & Ride", 
+                        excerpt: "Detailed video showing every angle of this sport bike followed by actual riding footage...",
+                        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 13, 2024",
+                        duration: "8:45",
+                        type: "video"
+                    },
+                    { 
+                        title: "Bangladesh Motorcycle Expo 2024 Highlights", 
+                        excerpt: "All the new bikes and exciting launches from this year's biggest motorcycle exhibition...",
+                        image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 10, 2024",
+                        duration: "12:30",
+                        type: "video"
+                    },
+                    { 
+                        title: "How to Maintain Your Bike: Complete Guide", 
+                        excerpt: "Step-by-step tutorial covering essential maintenance tasks for motorcycle owners...",
+                        image: "https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 8, 2024",
+                        duration: "15:20",
+                        type: "video"
+                    },
+                    { 
+                        title: "Adventure Riding in Bangladesh's Hill Tracts", 
+                        excerpt: "Epic journey through challenging terrain on adventure bikes. Scenic routes and riding tips...",
+                        image: "https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 6, 2024",
+                        duration: "22:15",
+                        type: "video"
+                    },
+                    { 
+                        title: "Electric Bike Charging Infrastructure Guide", 
+                        excerpt: "Where to charge, how long it takes, and cost analysis for electric motorcycle owners...",
+                        image: "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 4, 2024",
+                        duration: "10:10",
+                        type: "video"
+                    },
+                    { 
+                        title: "Custom Bike Build: Transforming a Classic 350", 
+                        excerpt: "Watch as a mechanic transforms a stock Royal Enfield into a stunning custom cruiser...",
+                        image: "https://images.unsplash.com/photo-1519315901365-2c6e0a0f4c3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        date: "Mar 1, 2024",
+                        duration: "18:45",
+                        type: "video"
+                    }
+                ]
+            };
+            
+            // Update category titles
+            const updateCategoryTitles = {
+                news: "Latest News",
+                reviews: "Expert Reviews",
+                videos: "Latest Videos"
+            };
+            
+            // DOM elements for updates section
+            const updateCategoryLinks = document.querySelectorAll('.category-link-update');
+            const updatesCarousel = document.getElementById('updates-carousel');
+            const activeUpdateCategoryTitle = document.getElementById('active-update-category-title');
+            const updatesLeftArrow = document.getElementById('updates-left-arrow');
+            const updatesRightArrow = document.getElementById('updates-right-arrow');
+            
+            // Current active update category
+            let activeUpdateCategory = 'news';
+            
+            // Function to generate update card HTML
+            function generateUpdateCard(update) {
+                let badgeClass = '';
+                let badgeText = '';
+                
+                if (update.type === 'news') {
+                    badgeClass = 'badge-news';
+                    badgeText = 'News';
+                } else if (update.type === 'review') {
+                    badgeClass = 'badge-review';
+                    badgeText = 'Review';
+                } else if (update.type === 'video') {
+                    badgeClass = 'badge-video';
+                    badgeText = 'Video';
+                }
+                
+                let ratingHtml = '';
+                if (update.rating) {
+                    ratingHtml = `
+                        <div class="flex items-center mt-2">
+                            <div class="flex text-yellow-400 text-sm">
+                                ${'★'.repeat(Math.floor(update.rating))}${'☆'.repeat(5-Math.floor(update.rating))}
+                            </div>
+                            <span class="ml-1 text-xs text-gray-600">${update.rating}</span>
+                        </div>
+                    `;
+                }
+                
+                let durationHtml = '';
+                if (update.duration) {
+                    durationHtml = `
+                        <div class="flex items-center text-gray-500 text-xs">
+                            <i class="fas fa-clock mr-1"></i>
+                            ${update.duration}
+                        </div>
+                    `;
+                }
+                
+                let videoPlayButton = '';
+                if (update.type === 'video') {
+                    videoPlayButton = `
+                        <div class="video-play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    `;
+                }
+                
+                return `
+                    <div class="update-card bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="${update.image}" alt="${update.title}" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                            ${videoPlayButton}
+                            <div class="absolute top-3 left-3">
+                                <span class="badge ${badgeClass}">${badgeText}</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-800 text-sm mb-2 line-clamp-2 h-10">${update.title}</h4>
+                            <p class="text-gray-600 text-xs mb-3 line-clamp-2 h-10">${update.excerpt}</p>
+                            ${ratingHtml}
+                            <div class="flex justify-between items-center mt-3 pt-3 border-t border-gray-100">
+                                <div class="text-gray-500 text-xs">
+                                    <i class="far fa-calendar mr-1"></i>
+                                    ${update.date}
+                                </div>
+                                <div class="text-gray-500 text-xs">
+                                    ${update.readTime ? `<i class="far fa-clock mr-1"></i>${update.readTime}` : ''}
+                                    ${durationHtml}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Function to display updates for a specific category
+            function displayUpdatesForCategory(category) {
+                // Update active category
+                activeUpdateCategory = category;
+                
+                // Update UI
+                activeUpdateCategoryTitle.textContent = updateCategoryTitles[category];
+                
+                // Add fade-in animation
+                updatesCarousel.classList.remove('fade-in');
+                void updatesCarousel.offsetWidth;
+                updatesCarousel.classList.add('fade-in');
+                
+                // Clear and populate carousel
+                updatesCarousel.innerHTML = '';
+                updatesData[category].forEach(update => {
+                    updatesCarousel.innerHTML += generateUpdateCard(update);
+                });
+                
+                // Update active link
+                updateCategoryLinks.forEach(link => {
+                    const linkCategory = link.getAttribute('data-category');
+                    if (linkCategory === category) {
+                        link.classList.remove('text-gray-500', 'hover:text-gray-700');
+                        link.classList.add('active', 'text-gray-700');
+                    } else {
+                        link.classList.remove('active', 'text-gray-700');
+                        link.classList.add('text-gray-500', 'hover:text-gray-700');
+                    }
+                });
+                
+                // Update arrow states after loading new content
+                setTimeout(() => updateArrowStates(updatesCarousel, updatesLeftArrow, updatesRightArrow), 100);
+            }
+            
+            // Initialize with news
+            displayUpdatesForCategory('news');
+            
+            // Initialize arrows for updates
+            setTimeout(() => initializeCarouselArrows(updatesCarousel, updatesLeftArrow, updatesRightArrow), 500);
+            
+            // Update category link switching functionality
+            updateCategoryLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const category = this.getAttribute('data-category');
+                    if (category !== activeUpdateCategory) {
+                        displayUpdatesForCategory(category);
+                    }
+                });
+            });
+            
+            // Updates carousel arrow functionality
+            updatesLeftArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    updatesCarousel.scrollBy({ left: -320, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(updatesCarousel, updatesLeftArrow, updatesRightArrow), 300);
+                }
+            });
+            
+            updatesRightArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    updatesCarousel.scrollBy({ left: 320, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(updatesCarousel, updatesLeftArrow, updatesRightArrow), 300);
+                }
+            });
+
+            // =============== COMPARE BIKES SECTION ===============
+            
+            // Compare data from bikes.json
+            let compareData = [];
+            
+            // DOM elements for compare section
+            const compareCarousel = document.getElementById('compare-carousel');
+            const compareLeftArrow = document.getElementById('compare-left-arrow');
+            const compareRightArrow = document.getElementById('compare-right-arrow');
+            
+            // Function to generate compare card HTML with VS positioned in the middle of images
+            function generateCompareCard(comparison) {
+                return `
+                    <div class="compare-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="p-5">
+                            <!-- Bikes side by side with VS in the middle of images -->
+                            <div class="flex justify-between items-center mb-4 relative">
+                                <!-- Bike 1 -->
+                                <div class="w-2/5">
+                                    <div class="h-40 overflow-hidden rounded-lg"> <!-- Taller container for images -->
+                                        <img src="${comparison.bike1.image}" alt="${comparison.bike1.name}" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                                
+                                <!-- VS separator - positioned absolutely in the middle -->
+                                <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                                    <div class="bg-gray-800 text-white font-bold text-xs rounded-full w-10 h-10 flex items-center justify-center shadow-lg">
+                                        VS
+                                    </div>
+                                </div>
+                                
+                                <!-- Bike 2 -->
+                                <div class="w-2/5">
+                                    <div class="h-40 overflow-hidden rounded-lg"> <!-- Taller container for images -->
+                                        <img src="${comparison.bike2.image}" alt="${comparison.bike2.name}" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Bike names and prices -->
+                            <div class="flex justify-between items-start mt-4">
+                                <div class="w-2/5">
+                                    <h5 class="font-bold text-gray-800 text-sm truncate mb-1">${comparison.bike1.name}</h5>
+                                    <p class="text-blue-600 font-bold text-sm">${comparison.bike1.price}</p>
+                                </div>
+                                <div class="w-2/5 text-right">
+                                    <h5 class="font-bold text-gray-800 text-sm truncate mb-1">${comparison.bike2.name}</h5>
+                                    <p class="text-blue-600 font-bold text-sm">${comparison.bike2.price}</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Compare button -->
+                            <button class="w-full mt-6 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-2.5 rounded-lg transition duration-300 text-sm">
+                                Compare Now
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            function buildCompareData() {
+                return comparePairs
+                    .map(pair => {
+                        const bike1 = getBikeById(pair[0]);
+                        const bike2 = getBikeById(pair[1]);
+                        if (!bike1 || !bike2) return null;
+                        return {
+                            bike1: {
+                                name: bike1.name,
+                                price: formatPrice(bike1.price),
+                                image: bike1.image
+                            },
+                            bike2: {
+                                name: bike2.name,
+                                price: formatPrice(bike2.price),
+                                image: bike2.image
+                            }
+                        };
+                    })
+                    .filter(Boolean);
+            }
+
+            // Initialize compare carousel
+            function initializeCompareCarousel() {
+                compareCarousel.innerHTML = '';
+                compareData = buildCompareData();
+                compareData.forEach(comparison => {
+                    compareCarousel.innerHTML += generateCompareCard(comparison);
+                });
+                
+                // Initial arrow state
+                updateArrowStates(compareCarousel, compareLeftArrow, compareRightArrow);
+            }
+            
+            // Compare carousel arrow functionality
+            compareLeftArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    compareCarousel.scrollBy({ left: -350, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(compareCarousel, compareLeftArrow, compareRightArrow), 300);
+                }
+            });
+            
+            compareRightArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    compareCarousel.scrollBy({ left: 350, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(compareCarousel, compareLeftArrow, compareRightArrow), 300);
+                }
+            });
+            
+            function initCompare() {
+                initializeCompareCarousel();
+                initializeCarouselArrows(compareCarousel, compareLeftArrow, compareRightArrow);
+            }
+
+            // Kick off all data-driven initialization
+            initBikes().then(() => {
+                initBrowse();
+                initCompare();
+            });
+        });
+    </script>
+</body>
+</html>
