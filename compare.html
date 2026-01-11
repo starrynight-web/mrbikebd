@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compare Bikes - Mr Bike</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* All the CSS styles from the previous version remain the same */
+    /* Custom animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    /* Section card styling */
+    .section-card {
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    /* Bike card styling */
+    .bike-card {
+      transition: all 0.3s ease;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid #e5e7eb;
+      height: 100%;
+    }
+    
+    .bike-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border-color: #3b82f6;
+    }
+    
+    .bike-card.popular {
+      border-color: #3b82f6;
+      position: relative;
+    }
+    
+    .popular-badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+      padding: 4px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    /* Feature highlight styling */
+    .feature-highlight {
+      display: inline-flex;
+      align-items: center;
+      background-color: #10b98115;
+      color: #047857;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    
+    /* Stats cards */
+    .stat-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #e5e7eb;
+      transition: all 0.3s ease;
+    }
+    
+    .stat-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
+    
+    /* Comparison table styling */
+    .spec-table-container {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .spec-table th {
+      background-color: #f8fafc;
+      padding: 16px;
+      text-align: center;
+      font-weight: 600;
+      color: #374151;
+      border-bottom: 2px solid #e5e7eb;
+      white-space: nowrap;
+    }
+    
+    .spec-table td {
+      padding: 16px;
+      border-bottom: 1px solid #f3f4f6;
+      color: #4b5563;
+      text-align: center;
+    }
+    
+    .spec-table .spec-name {
+      text-align: left;
+      font-weight: 600;
+      background-color: #f9fafb;
+    }
+    
+    .spec-table tr:last-child td {
+      border-bottom: none;
+    }
+    
+    .spec-table tr:hover td {
+      background-color: #f9fafb;
+    }
+    
+    .spec-highlight {
+      background-color: #fef3c7 !important;
+    }
+    
+    /* Tab styling */
+    .spec-tab {
+      padding: 12px 24px;
+      border-radius: 8px 8px 0 0;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-bottom: 3px solid transparent;
+    }
+    
+    .spec-tab.active {
+      background-color: #eff6ff;
+      color: #1d4ed8;
+      border-bottom-color: #1d4ed8;
+    }
+    
+    .spec-tab:hover:not(.active) {
+      background-color: #f9fafb;
+      color: #374151;
+    }
+    
+    /* Carousel styling */
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      opacity: 0.8;
+      background-color: white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid #e5e7eb;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .carousel-arrow:hover {
+      opacity: 1;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    .carousel-arrow.disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+    
+    .carousel-arrow.left-arrow {
+      left: 10px;
+    }
+    
+    .carousel-arrow.right-arrow {
+      right: 10px;
+    }
+    
+    /* Winner badge */
+    .winner-badge {
+      background: linear-gradient(135deg, #10b981, #047857);
+      color: white;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 12px;
+      display: inline-block;
+      margin-left: 8px;
+    }
+    
+    /* Dropdown styling */
+    .variant-dropdown {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 16px;
+      color: #374151;
+      background-color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23374151' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      background-size: 16px;
+      padding-right: 40px;
+    }
+    
+    .variant-dropdown:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+    
+    .variant-dropdown:hover {
+      border-color: #9ca3af;
+    }
+    
+    /* Bike image container */
+    .bike-image-container {
+      height: 180px;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    
+    .bike-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .bike-image-container:hover img {
+      transform: scale(1.05);
+    }
+    
+    /* Price tag */
+    .price-tag {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1e40af;
+    }
+    
+    /* Content section styling */
+    .content-section {
+      line-height: 1.6;
+      color: #4b5563;
+    }
+    
+    .content-section p {
+      margin-bottom: 16px;
+    }
+    
+    .content-section p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .highlight-text {
+      background-color: #eff6ff;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    
+    /* Process timeline */
+    .process-timeline {
+      position: relative;
+      padding-left: 30px;
+    }
+    
+    .process-timeline:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+    }
+    
+    .process-step {
+      position: relative;
+      padding-bottom: 30px;
+    }
+    
+    .process-step:before {
+      content: '';
+      position: absolute;
+      left: -36px;
+      top: 0;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #3b82f6;
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px #3b82f6;
+    }
+    
+    .process-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      font-weight: bold;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    
+    /* Responsive bike cards container */
+    .bike-cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .bike-card-wrapper {
+      flex: 1;
+      min-width: 300px;
+      max-width: 400px;
+    }
+    
+    /* Responsive table cell widths */
+    .spec-table th:nth-child(1),
+    .spec-table td:nth-child(1) {
+      width: 30%;
+      text-align: left;
+    }
+    
+    .spec-table th:nth-child(2),
+    .spec-table td:nth-child(2),
+    .spec-table th:nth-child(3),
+    .spec-table td:nth-child(3),
+    .spec-table th:nth-child(4),
+    .spec-table td:nth-child(4) {
+      width: 23.33%;
+    }
+    
+    /* Table header with highlight button */
+    .table-header-with-action {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-50">
+  <div id="navbar-placeholder"></div>
+
+  <!-- Hero Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Compare Motorcycles</h1>
+        <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+          Make informed decisions with our detailed side-by-side comparison of motorcycle models, specifications, and pricing.
+        </p>
+        <div class="flex justify-center space-x-4">
+          <a href="#comparison-results" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+            <i class="fas fa-chart-bar mr-2"></i>Start Comparing
+          </a>
+          <a href="#popular-comparisons" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+            <i class="fas fa-star mr-2"></i>Popular Comparisons
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Compare on BikeBD?</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Our comprehensive comparison tools help you find the perfect bike for your needs and budget
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Stat 1 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">${data?.bikes?.length || '20'}+</div>
+          <div class="text-gray-700 font-medium mb-1">Bike Models</div>
+          <div class="text-gray-500 text-sm">Available for comparison</div>
+        </div>
+        
+        <!-- Stat 2 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+          <div class="text-gray-700 font-medium mb-1">Specifications</div>
+          <div class="text-gray-500 text-sm">Compared per bike</div>
+        </div>
+        
+        <!-- Stat 3 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">100K+</div>
+          <div class="text-gray-700 font-medium mb-1">Monthly Comparisons</div>
+          <div class="text-gray-500 text-sm">By our users</div>
+        </div>
+        
+        <!-- Stat 4 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">95%</div>
+          <div class="text-gray-700 font-medium mb-1">User Satisfaction</div>
+          <div class="text-gray-500 text-sm">With our comparison tools</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Controls Section -->
+  <section id="comparison-results" class="py-8 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Compare Bikes Side-by-Side</h2>
+          <p class="text-gray-600 max-w-3xl mx-auto">
+            Select up to three bikes to compare their specifications, features, pricing, and more
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          <!-- Bike 1 Selection -->
+          <div>
+            <label class="block text-gray-700 font-medium mb-2">Bike 1</label>
+            <select id="bike1-select" class="variant-dropdown">
+              <option value="">Select a bike</option>
+              <!-- Options will be populated dynamically -->
+            </select>
+          </div>
+          
+          <!-- Bike 2 Selection -->
+          <div>
+            <label class="block text-gray-700 font-medium mb-2">Bike 2</label>
+            <select id="bike2-select" class="variant-dropdown">
+              <option value="">Select a bike</option>
+              <!-- Options will be populated dynamically -->
+            </select>
+          </div>
+          
+          <!-- Bike 3 Selection -->
+          <div>
+            <label class="block text-gray-700 font-medium mb-2">Bike 3 (Optional)</label>
+            <select id="bike3-select" class="variant-dropdown">
+              <option value="">Select a bike (optional)</option>
+              <!-- Options will be populated dynamically -->
+            </select>
+          </div>
+        </div>
+        
+        <div class="flex flex-wrap gap-4 justify-center">
+          <button id="add-bike-btn" class="flex items-center px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition duration-300">
+            <i class="fas fa-plus mr-2"></i>
+            Add Bike 3
+          </button>
+          <button id="clear-comparison-btn" class="flex items-center px-5 py-2.5 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg font-medium transition duration-300">
+            <i class="fas fa-trash-alt mr-2"></i>
+            Clear All
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Results Section -->
+  <section class="py-8 bg-white fade-in" id="results-section" style="display: none;">
+    <div class="container mx-auto px-4">
+      <!-- Bike Header Cards -->
+      <div class="bike-cards-container mb-8" id="bike-cards-container">
+        <!-- Bike cards will be centered here with dynamic width -->
+      </div>
+
+      <!-- Specifications Comparison Table -->
+      <div class="section-card mb-8">
+        <div class="table-header-with-action">
+          <h2 class="text-2xl font-bold text-gray-800">Specifications Comparison</h2>
+          <button id="highlight-diff-btn" class="flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition duration-300">
+            <i class="fas fa-highlighter mr-2"></i>
+            Highlight Differences
+          </button>
+        </div>
+        
+        <!-- Specification Category Tabs -->
+        <div class="flex border-b border-gray-200 mb-6 overflow-x-auto">
+          <button class="spec-tab active" data-tab="key-specs">
+            Key Specifications
+          </button>
+          <button class="spec-tab" data-tab="engine">
+            Engine & Performance
+          </button>
+          <button class="spec-tab" data-tab="features">
+            Features & Safety
+          </button>
+          <button class="spec-tab" data-tab="dimensions">
+            Dimensions & Weight
+          </button>
+        </div>
+        
+        <!-- Key Specifications Tab -->
+        <div id="key-specs-tab" class="spec-tab-content">
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr id="key-specs-header">
+                  <!-- Table headers will be populated dynamically -->
+                </tr>
+              </thead>
+              <tbody id="key-specs-body">
+                <!-- Specifications will be populated here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <!-- Engine & Performance Tab -->
+        <div id="engine-tab" class="spec-tab-content" style="display: none;">
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr id="engine-specs-header">
+                  <!-- Table headers will be populated dynamically -->
+                </tr>
+              </thead>
+              <tbody id="engine-specs-body">
+                <!-- Engine specs will be populated here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <!-- Features & Safety Tab -->
+        <div id="features-tab" class="spec-tab-content" style="display: none;">
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr id="features-header">
+                  <!-- Table headers will be populated dynamically -->
+                </tr>
+              </thead>
+              <tbody id="features-body">
+                <!-- Features will be populated here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <!-- Dimensions & Weight Tab -->
+        <div id="dimensions-tab" class="spec-tab-content" style="display: none;">
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr id="dimensions-header">
+                  <!-- Table headers will be populated dynamically -->
+                </tr>
+              </thead>
+              <tbody id="dimensions-body">
+                <!-- Dimensions will be populated here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pros and Cons Comparison -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- Pros Comparison -->
+        <div class="section-card">
+          <h3 class="text-xl font-semibold text-green-600 mb-4 flex items-center">
+            <i class="fas fa-check-circle mr-2"></i>
+            Advantages Comparison
+          </h3>
+          <div class="space-y-4" id="pros-comparison">
+            <!-- Pros will be populated here -->
+          </div>
+        </div>
+        
+        <!-- Cons Comparison -->
+        <div class="section-card">
+          <h3 class="text-xl font-semibold text-red-600 mb-4 flex items-center">
+            <i class="fas fa-times-circle mr-2"></i>
+            Disadvantages Comparison
+          </h3>
+          <div class="space-y-4" id="cons-comparison">
+            <!-- Cons will be populated here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary and Recommendation -->
+      <div class="section-card">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Comparison Summary</h2>
+        <div class="text-gray-600 mb-6">
+          <p id="comparison-summary">Based on your selection, here's a summary of how these bikes compare...</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8" id="score-container">
+          <!-- Scores will be populated dynamically -->
+        </div>
+        
+        <div class="pt-6 border-t border-gray-200">
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">Our Recommendation</h3>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <p id="recommendation-text" class="text-gray-700">
+              Based on the comparison, <strong>Bike 2</strong> offers the best value with better performance and features. However, <strong>Bike 1</strong> might be more suitable if budget is a primary concern.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">How to Compare Bikes</h2>
+        
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="flex items-center mb-2">
+              <span class="process-number">1</span>
+              <h3 class="text-xl font-bold text-gray-800">Select Bikes</h3>
+            </div>
+            <p class="text-gray-600 ml-10">
+              Choose up to three bikes you want to compare from our extensive database
+            </p>
+          </div>
+          
+          <div class="process-step">
+            <div class="flex items-center mb-2">
+              <span class="process-number">2</span>
+              <h3 class="text-xl font-bold text-gray-800">Review Specifications</h3>
+            </div>
+            <p class="text-gray-600 ml-10">
+              Compare detailed specifications across multiple categories
+            </p>
+          </div>
+          
+          <div class="process-step">
+            <div class="flex items-center mb-2">
+              <span class="process-number">3</span>
+              <h3 class="text-xl font-bold text-gray-800">Analyze Differences</h3>
+            </div>
+            <p class="text-gray-600 ml-10">
+              Use our highlight feature to easily identify key differences
+            </p>
+          </div>
+          
+          <div class="process-step">
+            <div class="flex items-center mb-2">
+              <span class="process-number">4</span>
+              <h3 class="text-xl font-bold text-gray-800">Make Decision</h3>
+            </div>
+            <p class="text-gray-600 ml-10">
+              Review pros/cons and recommendations to make your final choice
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Comparisons Section -->
+  <section id="popular-comparisons" class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Popular Comparisons</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Check out these frequently compared bikes to help with your decision
+        </p>
+      </div>
+      
+      <div class="relative">
+        <button id="popular-left-arrow" class="carousel-arrow left-arrow disabled">
+          <i class="fas fa-chevron-left text-gray-700"></i>
+        </button>
+        
+        <div id="popular-comparisons-carousel" class="overflow-x-auto flex space-x-6 pb-4">
+          <!-- Popular comparison cards will be populated here -->
+        </div>
+        
+        <button id="popular-right-arrow" class="carousel-arrow right-arrow">
+          <i class="fas fa-chevron-right text-gray-700"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Ready to Find Your Perfect Bike?</h2>
+        <p class="text-xl text-blue-100 mb-8">
+          Use our comparison tools to make an informed decision and find the bike that's right for you
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <a href="#comparison-results" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+            Start Comparing Now
+          </a>
+          <a href="index.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+            Browse All Bikes
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="nav-foot.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Load bike data from bikes.json
+      let bikeData = {};
+      let bikesById = {};
+      let imagesMap = {};
+      let highlightEnabled = false;
+
+      async function loadBikeData() {
+        try {
+          const res = await fetch('bikes.json');
+          bikeData = await res.json();
+          imagesMap = bikeData.images || {};
+          
+          // Build bike lookup
+          bikeData.bikes.forEach(bike => {
+            bikesById[bike.id] = {
+              ...bike,
+              image: bike.image === 'default' ? imagesMap.default : bike.image
+            };
+          });
+          
+          // Update the stats with actual data
+          updateStats();
+          
+          // Populate dropdowns
+          populateBikeDropdowns();
+          
+          // Load popular comparisons from comparePairs
+          loadPopularComparisons();
+        } catch (error) {
+          console.error('Error loading bike data:', error);
+          // Use fallback data
+          loadFallbackData();
+        }
+      }
+
+      function updateStats() {
+        // Update the first stat with actual bike count
+        const stat1 = document.querySelector('.stat-card:nth-child(1) .text-4xl');
+        if (stat1 && bikeData.bikes) {
+          stat1.textContent = bikeData.bikes.length + '+';
+        }
+      }
+
+      function loadFallbackData() {
+        // Fallback data if bikes.json fails to load
+        bikesById = {
+          'honda-cb150r': {
+            id: 'honda-cb150r',
+            name: 'Honda CB150R',
+            brand: 'Honda',
+            price: 450000,
+            rating: 4.5,
+            image: imagesMap.default || 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+            specsSummary: '149cc • 16.4 HP • 13.7 Nm',
+            categories: ['trending', 'popular']
+          },
+          'yamaha-r15-v4': {
+            id: 'yamaha-r15-v4',
+            name: 'Yamaha R15 V4',
+            brand: 'Yamaha',
+            price: 525000,
+            rating: 4.7,
+            image: imagesMap.default || 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+            specsSummary: '155cc • 18.4 HP • 14.2 Nm',
+            categories: ['trending', 'popular']
+          },
+          'suzuki-gixxer-sf': {
+            id: 'suzuki-gixxer-sf',
+            name: 'Suzuki Gixxer SF',
+            brand: 'Suzuki',
+            price: 215000,
+            rating: 4.3,
+            image: imagesMap.default || 'https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+            specsSummary: '155cc • 13.4 HP • 13.8 Nm',
+            categories: ['trending']
+          }
+        };
+        
+        populateBikeDropdowns();
+        loadPopularComparisons();
+      }
+
+      function populateBikeDropdowns() {
+        const select1 = document.getElementById('bike1-select');
+        const select2 = document.getElementById('bike2-select');
+        const select3 = document.getElementById('bike3-select');
+        
+        // Clear existing options (except first placeholder)
+        while (select1.options.length > 1) select1.remove(1);
+        while (select2.options.length > 1) select2.remove(1);
+        while (select3.options.length > 1) select3.remove(1);
+        
+        // Sort bikes by name for better UX
+        const sortedBikes = Object.values(bikesById).sort((a, b) => a.name.localeCompare(b.name));
+        
+        // Add bike options
+        sortedBikes.forEach(bike => {
+          const option1 = new Option(bike.name, bike.id);
+          const option2 = new Option(bike.name, bike.id);
+          const option3 = new Option(bike.name, bike.id);
+          
+          select1.add(option1);
+          select2.add(option2);
+          select3.add(option3);
+        });
+        
+        // Set default selections from comparePairs if available
+        if (bikeData.comparePairs && bikeData.comparePairs.length > 0) {
+          const firstPair = bikeData.comparePairs[0];
+          select1.value = firstPair[0];
+          select2.value = firstPair[1];
+        } else {
+          // Fallback defaults
+          select1.value = 'honda-cb150r';
+          select2.value = 'yamaha-r15-v4';
+        }
+        
+        // Trigger comparison update
+        updateComparison();
+      }
+
+      function formatPrice(value) {
+        if (value === null || value === undefined) return "Coming Soon";
+        if (typeof value === "string") return value;
+        return "৳ " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      function updateComparison() {
+        const bike1Id = document.getElementById('bike1-select').value;
+        const bike2Id = document.getElementById('bike2-select').value;
+        const bike3Id = document.getElementById('bike3-select').value;
+        
+        const bike1 = bikesById[bike1Id];
+        const bike2 = bikesById[bike2Id];
+        const bike3 = bike3Id ? bikesById[bike3Id] : null;
+        
+        if (!bike1 || !bike2) {
+          alert('Please select at least two bikes to compare');
+          return;
+        }
+        
+        // Show comparison results section
+        document.getElementById('results-section').style.display = 'block';
+        
+        // Update bike cards with dynamic centering
+        updateBikeCards(bike1, bike2, bike3);
+        
+        // Update specification tables
+        updateSpecificationTables(bike1, bike2, bike3);
+        
+        // Update pros and cons
+        updateProsAndCons(bike1, bike2, bike3);
+        
+        // Update scores
+        updateScores(bike1, bike2, bike3);
+        
+        // Update recommendation
+        updateRecommendation(bike1, bike2, bike3);
+        
+        // Reset highlight button if it was active
+        if (highlightEnabled) {
+          toggleHighlightDifferences();
+        }
+        
+        // Scroll to results
+        document.getElementById('results-section').scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function updateBikeCards(bike1, bike2, bike3) {
+        const container = document.getElementById('bike-cards-container');
+        container.innerHTML = '';
+        
+        const bikes = [bike1, bike2];
+        if (bike3) bikes.push(bike3);
+        
+        const colors = ['blue', 'green', 'purple'];
+        const badges = ['Bike 1', 'Bike 2', 'Bike 3'];
+        
+        bikes.forEach((bike, index) => {
+          // Determine if this is the top choice (highest rating)
+          const isTopChoice = index === 1; // Default to bike 2, but could be logic based
+          
+          const cardWrapper = document.createElement('div');
+          cardWrapper.className = 'bike-card-wrapper';
+          
+          // Extract specs from specsSummary if available
+          const specsParts = bike.specsSummary ? bike.specsSummary.split('•') : ['N/A', 'N/A', 'N/A'];
+          
+          cardWrapper.innerHTML = `
+            <div class="bike-card bg-white p-6 ${isTopChoice ? 'popular' : ''}">
+              ${isTopChoice ? '<div class="popular-badge">Top Choice</div>' : ''}
+              <div class="text-center mb-4">
+                <span class="inline-block bg-${colors[index]}-100 text-${colors[index]}-600 px-3 py-1 rounded-full text-sm font-medium">${badges[index]}</span>
+              </div>
+              <div class="bike-image-container">
+                <img src="${bike.image}" alt="${bike.name}">
+              </div>
+              <h4 class="font-bold text-gray-800 text-lg mb-2">${bike.name}</h4>
+              <div class="price-tag mb-3">${formatPrice(bike.price)}</div>
+              <div class="flex justify-between text-sm text-gray-600 mb-4">
+                <div class="text-center">
+                  <div class="font-bold text-blue-600 mb-1">${specsParts[0]?.trim() || 'N/A'}</div>
+                  <div class="text-gray-500">Engine</div>
+                </div>
+                <div class="text-center">
+                  <div class="font-bold text-blue-600 mb-1">${specsParts[1]?.trim() || 'N/A'}</div>
+                  <div class="text-gray-500">Power</div>
+                </div>
+                <div class="text-center">
+                  <div class="font-bold text-blue-600 mb-1">${specsParts[2]?.trim() || 'N/A'}</div>
+                  <div class="text-gray-500">Torque</div>
+                </div>
+              </div>
+              <button class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 rounded-lg transition duration-300" onclick="window.location.href='bike.html?id=${bike.id}'">
+                View Details
+              </button>
+            </div>
+          `;
+          
+          container.appendChild(cardWrapper);
+        });
+      }
+
+      function updateTableHeaders(bike1, bike2, bike3) {
+        const tables = ['key-specs', 'engine', 'features', 'dimensions'];
+        
+        tables.forEach(tableId => {
+          const headerRow = document.getElementById(`${tableId}-header`);
+          if (!headerRow) return;
+          
+          headerRow.innerHTML = '';
+          
+          // Specification column
+          const specHeader = document.createElement('th');
+          specHeader.textContent = tableId === 'key-specs' ? 'Specification' : 
+                                   tableId === 'engine' ? 'Engine Specification' :
+                                   tableId === 'features' ? 'Feature' : 'Dimension';
+          specHeader.className = 'spec-name';
+          headerRow.appendChild(specHeader);
+          
+          // Bike 1 column
+          const bike1Header = document.createElement('th');
+          bike1Header.textContent = bike1.name.substring(0, 15) + (bike1.name.length > 15 ? '...' : '');
+          bike1Header.title = bike1.name;
+          headerRow.appendChild(bike1Header);
+          
+          // Bike 2 column
+          const bike2Header = document.createElement('th');
+          bike2Header.textContent = bike2.name.substring(0, 15) + (bike2.name.length > 15 ? '...' : '');
+          bike2Header.title = bike2.name;
+          headerRow.appendChild(bike2Header);
+          
+          // Bike 3 column (if exists)
+          if (bike3) {
+            const bike3Header = document.createElement('th');
+            bike3Header.textContent = bike3.name.substring(0, 15) + (bike3.name.length > 15 ? '...' : '');
+            bike3Header.title = bike3.name;
+            headerRow.appendChild(bike3Header);
+          }
+        });
+      }
+
+      function updateSpecificationTables(bike1, bike2, bike3) {
+        // Update table headers with bike names
+        updateTableHeaders(bike1, bike2, bike3);
+        
+        // Extract specs from bike data
+        // For now, we'll use sample data - in a real app, you'd extract from bike.variants.std.quickSpecs
+        const specs = {
+          'key-specs': [
+            { name: 'Price', bike1: formatPrice(bike1.price), bike2: formatPrice(bike2.price), bike3: bike3 ? formatPrice(bike3.price) : '' },
+            { name: 'Brand', bike1: bike1.brand, bike2: bike2.brand, bike3: bike3 ? bike3.brand : '' },
+            { name: 'Rating', bike1: bike1.rating ? `${bike1.rating}/5` : 'N/A', bike2: bike2.rating ? `${bike2.rating}/5` : 'N/A', bike3: bike3 && bike3.rating ? `${bike3.rating}/5` : '' },
+            { name: 'Engine Summary', bike1: bike1.specsSummary || 'N/A', bike2: bike2.specsSummary || 'N/A', bike3: bike3 ? (bike3.specsSummary || 'N/A') : '' }
+          ],
+          'engine': [
+            { name: 'Engine Type', bike1: 'Single Cylinder, 4-Stroke', bike2: 'Single Cylinder, 4-Stroke', bike3: bike3 ? 'Single Cylinder, 4-Stroke' : '' },
+            { name: 'Cooling System', bike1: 'Liquid-Cooled', bike2: 'Liquid-Cooled', bike3: bike3 ? 'Air-Cooled' : '' },
+            { name: 'Fuel System', bike1: 'PGM-FI', bike2: 'Fuel Injection', bike3: bike3 ? 'Fuel Injection' : '' },
+            { name: 'Starting', bike1: 'Electric Start', bike2: 'Electric Start', bike3: bike3 ? 'Electric & Kick Start' : '' }
+          ],
+          'features': [
+            { name: 'ABS', bike1: 'Available', bike2: 'Standard', bike3: bike3 ? 'Available' : '' },
+            { name: 'Headlight', bike1: 'Halogen', bike2: 'LED', bike3: bike3 ? 'Halogen' : '' },
+            { name: 'Instrument Console', bike1: 'Digital', bike2: 'Full Digital', bike3: bike3 ? 'Analog-Digital' : '' },
+            { name: 'Mobile Charging', bike1: 'Not Available', bike2: 'USB Port', bike3: bike3 ? 'Not Available' : '' }
+          ],
+          'dimensions': [
+            { name: 'Kerb Weight', bike1: '136 kg', bike2: '142 kg', bike3: bike3 ? '141 kg' : '' },
+            { name: 'Fuel Capacity', bike1: '12 L', bike2: '11 L', bike3: bike3 ? '12 L' : '' },
+            { name: 'Seat Height', bike1: '795 mm', bike2: '815 mm', bike3: bike3 ? '790 mm' : '' },
+            { name: 'Ground Clearance', bike1: '150 mm', bike2: '170 mm', bike3: bike3 ? '165 mm' : '' }
+          ]
+        };
+
+        // Populate each table
+        Object.keys(specs).forEach(tableId => {
+          const tbody = document.getElementById(`${tableId}-body`);
+          if (!tbody) return;
+          
+          tbody.innerHTML = '';
+          
+          specs[tableId].forEach(spec => {
+            const row = document.createElement('tr');
+            
+            // Specification name
+            const nameCell = document.createElement('td');
+            nameCell.textContent = spec.name;
+            nameCell.className = 'spec-name';
+            row.appendChild(nameCell);
+            
+            // Bike 1 value
+            const bike1Cell = document.createElement('td');
+            bike1Cell.textContent = spec.bike1;
+            row.appendChild(bike1Cell);
+            
+            // Bike 2 value
+            const bike2Cell = document.createElement('td');
+            bike2Cell.textContent = spec.bike2;
+            row.appendChild(bike2Cell);
+            
+            // Bike 3 value (if exists)
+            if (bike3) {
+              const bike3Cell = document.createElement('td');
+              bike3Cell.textContent = spec.bike3;
+              row.appendChild(bike3Cell);
+            }
+            
+            tbody.appendChild(row);
+          });
+        });
+      }
+
+      function updateProsAndCons(bike1, bike2, bike3) {
+        // Update pros comparison - using sample data
+        const prosContainer = document.getElementById('pros-comparison');
+        if (prosContainer) {
+          prosContainer.innerHTML = `
+            <div class="flex items-start">
+              <div class="w-1/3 font-medium text-gray-700">${bike1.name}</div>
+              <div class="w-2/3">
+                <div class="flex items-start mb-2">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Excellent build quality from ${bike1.brand}</div>
+                </div>
+                <div class="flex items-start mb-2">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Good value for money at ${formatPrice(bike1.price)}</div>
+                </div>
+                <div class="flex items-start">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Reliable performance for daily use</div>
+                </div>
+              </div>
+            </div>
+            <div class="border-t border-gray-200 pt-4"></div>
+            <div class="flex items-start">
+              <div class="w-1/3 font-medium text-gray-700">${bike2.name}</div>
+              <div class="w-2/3">
+                <div class="flex items-start mb-2">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Higher performance with ${bike2.specsSummary || 'better specs'}</div>
+                </div>
+                <div class="flex items-start mb-2">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Better features and technology</div>
+                </div>
+                <div class="flex items-start">
+                  <div class="text-green-500 mr-2">✓</div>
+                  <div>Sportier design and handling</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+        
+        // Update cons comparison
+        const consContainer = document.getElementById('cons-comparison');
+        if (consContainer) {
+          consContainer.innerHTML = `
+            <div class="flex items-start">
+              <div class="w-1/3 font-medium text-gray-700">${bike1.name}</div>
+              <div class="w-2/3">
+                <div class="flex items-start mb-2">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>May lack some premium features</div>
+                </div>
+                <div class="flex items-start mb-2">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>Lower performance compared to competitors</div>
+                </div>
+                <div class="flex items-start">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>Base model may miss advanced safety features</div>
+                </div>
+              </div>
+            </div>
+            <div class="border-t border-gray-200 pt-4"></div>
+            <div class="flex items-start">
+              <div class="w-1/3 font-medium text-gray-700">${bike2.name}</div>
+              <div class="w-2/3">
+                <div class="flex items-start mb-2">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>Higher price at ${formatPrice(bike2.price)}</div>
+                </div>
+                <div class="flex items-start mb-2">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>May have higher maintenance costs</div>
+                </div>
+                <div class="flex items-start">
+                  <div class="text-red-500 mr-2">✗</div>
+                  <div>Firmer ride for city commuting</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      }
+
+      function updateScores(bike1, bike2, bike3) {
+        const scoreContainer = document.getElementById('score-container');
+        if (!scoreContainer) return;
+        
+        scoreContainer.innerHTML = '';
+        
+        const bikes = [
+          { bike: bike1, index: 1, color: 'blue' },
+          { bike: bike2, index: 2, color: 'green' }
+        ];
+        
+        if (bike3) {
+          bikes.push({ bike: bike3, index: 3, color: 'purple' });
+        }
+        
+        bikes.forEach(bikeData => {
+          // Calculate score based on rating and price
+          let score = 8.0; // Default
+          if (bikeData.bike.rating) {
+            score = bikeData.bike.rating * 2; // Convert 5-star to 10-point scale
+          }
+          
+          // Adjust score based on price (lower price gets slightly higher score)
+          if (bikeData.bike.price) {
+            const avgPrice = 350000; // Average bike price
+            const priceRatio = bikeData.bike.price / avgPrice;
+            if (priceRatio < 0.8) score += 0.3; // Cheap
+            else if (priceRatio > 1.2) score -= 0.2; // Expensive
+          }
+          
+          // Round to 1 decimal place
+          score = Math.min(10, Math.max(0, score)).toFixed(1);
+          
+          const scoreDiv = document.createElement('div');
+          scoreDiv.className = 'text-center p-4 bg-gray-50 rounded-lg';
+          scoreDiv.innerHTML = `
+            <div class="text-3xl font-bold text-${bikeData.color}-600 mb-2">${score}/10</div>
+            <div class="font-medium text-gray-700">${bikeData.bike.name}</div>
+            <div class="text-gray-500 text-sm mt-1">Overall Rating</div>
+          `;
+          scoreContainer.appendChild(scoreDiv);
+        });
+      }
+
+      function updateRecommendation(bike1, bike2, bike3) {
+        const summaryText = document.getElementById('comparison-summary');
+        const recommendationText = document.getElementById('recommendation-text');
+        
+        if (!summaryText || !recommendationText) return;
+        
+        // Determine best bike based on rating and price
+        const bikes = [bike1, bike2];
+        if (bike3) bikes.push(bike3);
+        
+        let bestBike = bike1;
+        let bestValue = bike1;
+        
+        // Find best rated
+        bikes.forEach(bike => {
+          if (bike.rating && bike.rating > (bestBike.rating || 0)) {
+            bestBike = bike;
+          }
+        });
+        
+        // Find best value (rating per price)
+        bikes.forEach(bike => {
+          if (bike.rating && bike.price) {
+            const valueScore = bike.rating / (bike.price / 100000);
+            const bestValueScore = bestValue.rating / (bestValue.price / 100000);
+            if (valueScore > bestValueScore) {
+              bestValue = bike;
+            }
+          }
+        });
+        
+        summaryText.textContent = `Comparing ${bikes.length} bikes: ${bikes.map(b => b.name).join(', ')}.`;
+        
+        if (bestBike.id === bestValue.id) {
+          recommendationText.innerHTML = `
+            Based on our analysis, <strong>${bestBike.name}</strong> offers the best combination of performance, 
+            features, and value at ${formatPrice(bestBike.price)}. It has a ${bestBike.rating}/5 rating and provides 
+            excellent specifications for its price range.
+          `;
+        } else {
+          recommendationText.innerHTML = `
+            For maximum performance and features, <strong>${bestBike.name}</strong> is the top choice. 
+            However, if budget is a primary concern, <strong>${bestValue.name}</strong> offers better value 
+            at ${formatPrice(bestValue.price)} while still providing good performance.
+          `;
+        }
+      }
+
+      function loadPopularComparisons() {
+        const carousel = document.getElementById('popular-comparisons-carousel');
+        if (!carousel) return;
+        
+        // Use comparePairs from JSON or fallback
+        const popularComparisons = bikeData.comparePairs || [
+          ['honda-cb150r', 'yamaha-r15-v4'],
+          ['bajaj-pulsar-ns200', 'tvs-apache-rtr-200'],
+          ['royal-enfield-classic-350', 'bajaj-dominar-400'],
+          ['suzuki-gixxer-sf', 'yamaha-fzs-v3']
+        ];
+        
+        // Get titles from categories or use default
+        const titles = [
+          'Sports 150cc Battle',
+          '200cc Street Fighters', 
+          'Cruiser Comparison',
+          'Style vs Practicality'
+        ];
+        
+        popularComparisons.forEach((comparison, index) => {
+          const bike1 = bikesById[comparison[0]];
+          const bike2 = bikesById[comparison[1]];
+          
+          if (!bike1 || !bike2) return;
+          
+          const card = document.createElement('div');
+          card.className = 'bike-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex-shrink-0 w-80';
+          card.innerHTML = `
+            <div class="p-5">
+              <h4 class="font-bold text-gray-800 mb-3">${titles[index] || 'Popular Comparison'}</h4>
+              <div class="flex justify-between items-center mb-4">
+                <div class="text-center">
+                  <img src="${bike1.image}" alt="${bike1.name}" class="w-24 h-20 object-cover rounded-lg mb-2">
+                  <div class="font-medium text-sm">${bike1.name}</div>
+                </div>
+                <div class="bg-gray-800 text-white font-bold text-xs rounded-full w-8 h-8 flex items-center justify-center">
+                  VS
+                </div>
+                <div class="text-center">
+                  <img src="${bike2.image}" alt="${bike2.name}" class="w-24 h-20 object-cover rounded-lg mb-2">
+                  <div class="font-medium text-sm">${bike2.name}</div>
+                </div>
+              </div>
+              <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 rounded-lg transition duration-300 text-sm compare-popular-btn" data-bike1="${comparison[0]}" data-bike2="${comparison[1]}">
+                Compare These Bikes
+              </button>
+            </div>
+          `;
+          
+          carousel.appendChild(card);
+        });
+        
+        // Initialize carousel arrows
+        initializeCarouselArrows(carousel, 
+          document.getElementById('popular-left-arrow'), 
+          document.getElementById('popular-right-arrow')
+        );
+      }
+
+      // Initialize carousel arrows function
+      function initializeCarouselArrows(carouselElement, leftArrow, rightArrow) {
+        if (!carouselElement || !leftArrow || !rightArrow) return;
+        
+        function updateArrowStates() {
+          const scrollLeft = carouselElement.scrollLeft;
+          const scrollWidth = carouselElement.scrollWidth;
+          const clientWidth = carouselElement.clientWidth;
+          
+          // Enable/disable left arrow
+          if (scrollLeft <= 10) {
+            leftArrow.classList.add('disabled');
+          } else {
+            leftArrow.classList.remove('disabled');
+          }
+          
+          // Enable/disable right arrow
+          if (scrollLeft + clientWidth >= scrollWidth - 10) {
+            rightArrow.classList.add('disabled');
+          } else {
+            rightArrow.classList.remove('disabled');
+          }
+        }
+        
+        // Initial arrow state
+        updateArrowStates();
+        
+        // Update arrow states on scroll
+        carouselElement.addEventListener('scroll', updateArrowStates);
+        
+        // Update arrow states on window resize
+        window.addEventListener('resize', updateArrowStates);
+        
+        // Arrow click functionality
+        leftArrow.addEventListener('click', function() {
+          if (!this.classList.contains('disabled')) {
+            carouselElement.scrollBy({ left: -320, behavior: 'smooth' });
+            setTimeout(updateArrowStates, 300);
+          }
+        });
+        
+        rightArrow.addEventListener('click', function() {
+          if (!this.classList.contains('disabled')) {
+            carouselElement.scrollBy({ left: 320, behavior: 'smooth' });
+            setTimeout(updateArrowStates, 300);
+          }
+        });
+      }
+
+      function toggleHighlightDifferences() {
+        highlightEnabled = !highlightEnabled;
+        
+        // Toggle highlight class on differences
+        document.querySelectorAll('.spec-table tbody tr').forEach(row => {
+          const cells = row.querySelectorAll('td');
+          if (cells.length >= 3) {
+            const specNameCell = cells[0];
+            const valueCells = Array.from(cells).slice(1);
+            const values = valueCells.map(cell => cell.textContent.trim());
+            
+            // Check if all values are the same (excluding empty cells for optional bike 3)
+            const nonEmptyValues = values.filter(val => val !== '' && val !== 'N/A');
+            const allEqual = nonEmptyValues.length > 0 && 
+                           nonEmptyValues.every(val => val === nonEmptyValues[0]);
+            
+            if (!allEqual && highlightEnabled) {
+              row.classList.add('spec-highlight');
+            } else {
+              row.classList.remove('spec-highlight');
+            }
+          }
+        });
+        
+        // Toggle button text
+        const btn = document.getElementById('highlight-diff-btn');
+        if (highlightEnabled) {
+          btn.innerHTML = '<i class="fas fa-highlighter mr-2"></i>Remove Highlights';
+          btn.classList.remove('bg-green-600', 'hover:bg-green-700');
+          btn.classList.add('bg-yellow-600', 'hover:bg-yellow-700');
+        } else {
+          btn.innerHTML = '<i class="fas fa-highlighter mr-2"></i>Highlight Differences';
+          btn.classList.remove('bg-yellow-600', 'hover:bg-yellow-700');
+          btn.classList.add('bg-green-600', 'hover:bg-green-700');
+        }
+      }
+
+      // Event Listeners
+      document.getElementById('add-bike-btn').addEventListener('click', function() {
+        const bike3Select = document.getElementById('bike3-select');
+        if (bike3Select.value) {
+          updateComparison();
+        } else {
+          alert('Please select a bike for the third comparison');
+        }
+      });
+
+      document.getElementById('highlight-diff-btn').addEventListener('click', toggleHighlightDifferences);
+
+      document.getElementById('clear-comparison-btn').addEventListener('click', function() {
+        // Reset dropdowns
+        document.getElementById('bike1-select').value = '';
+        document.getElementById('bike2-select').value = '';
+        document.getElementById('bike3-select').value = '';
+        
+        // Hide comparison results
+        document.getElementById('results-section').style.display = 'none';
+        
+        // Reset highlight button
+        highlightEnabled = false;
+        const btn = document.getElementById('highlight-diff-btn');
+        btn.innerHTML = '<i class="fas fa-highlighter mr-2"></i>Highlight Differences';
+        btn.classList.remove('bg-yellow-600', 'hover:bg-yellow-700');
+        btn.classList.add('bg-green-600', 'hover:bg-green-700');
+      });
+
+      // Dropdown change listeners
+      document.getElementById('bike1-select').addEventListener('change', updateComparison);
+      document.getElementById('bike2-select').addEventListener('change', updateComparison);
+      document.getElementById('bike3-select').addEventListener('change', updateComparison);
+
+      // Tab switching functionality
+      document.querySelectorAll('.spec-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+          const tabId = this.getAttribute('data-tab');
+          
+          // Remove active class from all tabs
+          document.querySelectorAll('.spec-tab').forEach(t => {
+            t.classList.remove('active');
+          });
+          
+          // Add active class to clicked tab
+          this.classList.add('active');
+          
+          // Hide all tab contents
+          document.querySelectorAll('.spec-tab-content').forEach(content => {
+            content.style.display = 'none';
+          });
+          
+          // Show selected tab content
+          document.getElementById(`${tabId}-tab`).style.display = 'block';
+        });
+      });
+
+      // Popular comparison button click handler
+      document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('compare-popular-btn')) {
+          const bike1Id = e.target.getAttribute('data-bike1');
+          const bike2Id = e.target.getAttribute('data-bike2');
+          
+          document.getElementById('bike1-select').value = bike1Id;
+          document.getElementById('bike2-select').value = bike2Id;
+          document.getElementById('bike3-select').value = '';
+          
+          updateComparison();
+        }
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Load bike data
+      loadBikeData();
+    });
+  </script>
+</body>
+</html>

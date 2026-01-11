@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Expense Calculator - Mr Bike</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Custom styles from bike.html and index.html */
+    .section-card {
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .calculator-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 16px;
+      color: #374151;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+    
+    .calculator-input:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+    
+    .calculator-input:hover {
+      border-color: #9ca3af;
+    }
+    
+    .calculator-button {
+      width: 100%;
+      padding: 14px;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .calculator-button:hover {
+      background-color: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    }
+    
+    .calculator-button:active {
+      transform: translateY(0);
+    }
+    
+    .result-box {
+      background-color: #f0f9ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+      color: #1e40af;
+      font-weight: 600;
+    }
+    
+    .highlight-text {
+      background-color: #eff6ff;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    
+    /* Fade in animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    /* Label styling */
+    .input-label {
+      display: block;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    
+    /* Input group spacing */
+    .input-group {
+      margin-bottom: 20px;
+    }
+    
+    /* Currency symbol styling */
+    .currency-symbol {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #6b7280;
+      font-weight: 600;
+    }
+    
+    .input-with-icon {
+      position: relative;
+    }
+    
+    .input-with-icon input {
+      padding-left: 36px;
+    }
+    
+    /* Info icon styling */
+    .info-icon {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background-color: #dbeafe;
+      color: #3b82f6;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 18px;
+      font-size: 12px;
+      margin-left: 6px;
+      cursor: help;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .section-card, .card {
+        padding: 16px;
+      }
+      
+      .grid-cols-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-50">
+  <div id="navbar-placeholder"></div>
+
+  <!-- Hero Section -->
+  <section class="py-8 bg-gradient-to-r from-blue-600 to-blue-800 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Bike Expense Calculator
+        </h1>
+        <p class="text-lg text-blue-100 mb-6">
+          Plan your budget with our comprehensive expense calculators. Estimate EMIs, fuel costs, and total ownership expenses.
+        </p>
+        <div class="inline-flex items-center space-x-2 bg-blue-500 bg-opacity-30 rounded-full px-4 py-2">
+          <i class="fas fa-calculator text-white"></i>
+          <span class="text-white text-sm">Accurate calculations for informed decisions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Calculator Section -->
+  <section class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <!-- Introduction -->
+        <div class="section-card mb-8">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">
+            <i class="fas fa-chart-line text-blue-600 mr-3"></i>
+            Plan Your Bike Ownership Costs
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Use our calculators to estimate monthly payments and running costs. Whether you're planning to buy a new bike or want to understand your current expenses, these tools will help you make informed financial decisions.
+          </p>
+          
+          <div class="highlight-text">
+            <strong>Note:</strong> These calculations are estimates. Actual costs may vary based on your specific circumstances, lender terms, and market conditions. Always consult with financial advisors for precise figures.
+          </div>
+        </div>
+
+        <!-- Calculator Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <!-- EMI Calculator -->
+          <div class="card">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                <i class="fas fa-money-bill-wave text-blue-600 text-xl"></i>
+              </div>
+              <div>
+                <h2 class="text-xl font-bold text-gray-800">EMI Calculator</h2>
+                <p class="text-gray-500 text-sm">Calculate your monthly loan payments</p>
+              </div>
+            </div>
+            
+            <div class="space-y-4">
+              <!-- Bike Price -->
+              <div class="input-group">
+                <label class="input-label">
+                  Bike Price (BDT)
+                  <span class="info-icon" title="Ex-showroom price of the bike">i</span>
+                </label>
+                <div class="input-with-icon">
+                  <span class="currency-symbol">৳</span>
+                  <input type="number" id="bikePrice" class="calculator-input" placeholder="500,000" min="0" step="1000">
+                </div>
+              </div>
+              
+              <!-- Down Payment -->
+              <div class="input-group">
+                <label class="input-label">
+                  Down Payment (BDT)
+                  <span class="info-icon" title="Initial payment amount (typically 10-30%)">i</span>
+                </label>
+                <div class="input-with-icon">
+                  <span class="currency-symbol">৳</span>
+                  <input type="number" id="downPayment" class="calculator-input" placeholder="100,000" min="0" step="1000">
+                </div>
+                <div class="flex items-center justify-between mt-2">
+                  <span class="text-xs text-gray-500">Recommended: 20-30% of bike price</span>
+                  <button type="button" onclick="setDownPaymentPercent(20)" class="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded hover:bg-blue-100">20%</button>
+                  <button type="button" onclick="setDownPaymentPercent(25)" class="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded hover:bg-blue-100">25%</button>
+                  <button type="button" onclick="setDownPaymentPercent(30)" class="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded hover:bg-blue-100">30%</button>
+                </div>
+              </div>
+              
+              <!-- Loan Details Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Interest Rate -->
+                <div class="input-group">
+                  <label class="input-label">
+                    Interest Rate (%)
+                    <span class="info-icon" title="Annual interest rate offered by lender">i</span>
+                  </label>
+                  <div class="relative">
+                    <input type="number" id="interestRate" class="calculator-input" placeholder="9" min="0" max="20" step="0.1">
+                    <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">%</span>
+                  </div>
+                </div>
+                
+                <!-- Loan Term -->
+                <div class="input-group">
+                  <label class="input-label">
+                    Loan Term (Months)
+                    <span class="info-icon" title="Duration of the loan in months">i</span>
+                  </label>
+                  <div class="relative">
+                    <input type="number" id="loanTerm" class="calculator-input" placeholder="36" min="12" max="60" step="6">
+                    <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">months</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Calculate Button -->
+              <button onclick="calculateEMI()" class="calculator-button mt-6">
+                <i class="fas fa-calculator mr-2"></i>
+                Calculate EMI
+              </button>
+              
+              <!-- Results -->
+              <div id="emiResult" class="result-box hidden">
+                <!-- Results will be populated here -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Fuel Cost Calculator -->
+          <div class="card">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                <i class="fas fa-gas-pump text-green-600 text-xl"></i>
+              </div>
+              <div>
+                <h2 class="text-xl font-bold text-gray-800">Fuel Cost Estimator</h2>
+                <p class="text-gray-500 text-sm">Estimate your fuel expenses</p>
+              </div>
+            </div>
+            
+            <p class="text-gray-600 mb-6 text-sm">
+              Use this tool to estimate how much you'll spend on fuel for your daily commute or trips. Enter your distance, bike's mileage, and current fuel price.
+            </p>
+            
+            <div class="space-y-4">
+              <!-- Distance -->
+              <div class="input-group">
+                <label class="input-label">
+                  Distance (km)
+                  <span class="info-icon" title="Daily or trip distance in kilometers">i</span>
+                </label>
+                <div class="relative">
+                  <input type="number" id="distance" class="calculator-input" placeholder="50" min="0" step="1">
+                  <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">km</span>
+                </div>
+              </div>
+              
+              <!-- Mileage -->
+              <div class="input-group">
+                <label class="input-label">
+                  Fuel Efficiency (km/l)
+                  <span class="info-icon" title="Your bike's mileage (kilometers per liter)">i</span>
+                </label>
+                <div class="relative">
+                  <input type="number" id="mileage" class="calculator-input" placeholder="40" min="0" step="0.1">
+                  <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">km/l</span>
+                </div>
+              </div>
+              
+              <!-- Fuel Price -->
+              <div class="input-group">
+                <label class="input-label">
+                  Fuel Price (BDT/l)
+                  <span class="info-icon" title="Current price per liter of fuel">i</span>
+                </label>
+                <div class="input-with-icon">
+                  <span class="currency-symbol">৳</span>
+                  <input type="number" id="fuelPrice" class="calculator-input" placeholder="125" min="0" step="0.5">
+                </div>
+                <div class="flex items-center justify-between mt-2">
+                  <span class="text-xs text-gray-500">Current rates: Octane 95 ≈ ৳125/l</span>
+                </div>
+              </div>
+              
+              <!-- Frequency selector -->
+              <div class="input-group">
+                <label class="input-label">Calculate For</label>
+                <div class="grid grid-cols-3 gap-2">
+                  <button type="button" onclick="setFrequency('single')" class="bg-gray-100 hover:bg-gray-200 text-gray-800 py-2 rounded-lg transition duration-300" id="single-trip">Single Trip</button>
+                  <button type="button" onclick="setFrequency('daily')" class="bg-blue-50 hover:bg-blue-100 text-blue-700 py-2 rounded-lg transition duration-300" id="daily-trip">Daily</button>
+                  <button type="button" onclick="setFrequency('monthly')" class="bg-gray-100 hover:bg-gray-200 text-gray-800 py-2 rounded-lg transition duration-300" id="monthly-trip">Monthly</button>
+                </div>
+              </div>
+              
+              <!-- Calculate Button -->
+              <button onclick="calculateFuelCost()" class="calculator-button mt-6 bg-green-600 hover:bg-green-700">
+                <i class="fas fa-fire mr-2"></i>
+                Estimate Fuel Cost
+              </button>
+              
+              <!-- Results -->
+              <div id="fuelResult" class="result-box hidden">
+                <!-- Results will be populated here -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Info Section -->
+        <div class="section-card">
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">
+            <i class="fas fa-lightbulb text-yellow-500 mr-3"></i>
+            Tips for Smart Bike Ownership
+          </h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-blue-50 p-5 rounded-lg">
+              <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-3">
+                <i class="fas fa-percentage text-blue-600"></i>
+              </div>
+              <h3 class="font-bold text-gray-800 mb-2">Down Payment Matters</h3>
+              <p class="text-gray-600 text-sm">
+                A higher down payment reduces your loan amount and monthly EMI. Aim for at least 25% of the bike price.
+              </p>
+            </div>
+            
+            <div class="bg-green-50 p-5 rounded-lg">
+              <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-3">
+                <i class="fas fa-chart-line text-green-600"></i>
+              </div>
+              <h3 class="font-bold text-gray-800 mb-2">Fuel Efficiency Tips</h3>
+              <p class="text-gray-600 text-sm">
+                Regular maintenance, proper tire pressure, and smooth riding can improve mileage by 10-15%.
+              </p>
+            </div>
+            
+            <div class="bg-purple-50 p-5 rounded-lg">
+              <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
+                <i class="fas fa-file-invoice-dollar text-purple-600"></i>
+              </div>
+              <h3 class="font-bold text-gray-800 mb-2">Additional Costs</h3>
+              <p class="text-gray-600 text-sm">
+                Remember to factor in insurance, registration, maintenance, and accessories in your budget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="nav-foot.js"></script>
+
+  <!-- JavaScript for Calculator -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Set default frequency
+      setFrequency('daily');
+      
+      // Initialize some default values
+      document.getElementById('bikePrice').value = 450000;
+      document.getElementById('downPayment').value = 112500;
+      document.getElementById('interestRate').value = 9;
+      document.getElementById('loanTerm').value = 36;
+      document.getElementById('distance').value = 50;
+      document.getElementById('mileage').value = 40;
+      document.getElementById('fuelPrice').value = 125;
+    });
+    
+    // Set down payment percentage
+    function setDownPaymentPercent(percent) {
+      const bikePrice = parseFloat(document.getElementById('bikePrice').value) || 0;
+      if (bikePrice > 0) {
+        const downPayment = (bikePrice * percent) / 100;
+        document.getElementById('downPayment').value = Math.round(downPayment);
+      }
+    }
+    
+    // Set frequency for fuel calculation
+    let currentFrequency = 'daily';
+    function setFrequency(frequency) {
+      currentFrequency = frequency;
+      
+      // Update button styles
+      document.getElementById('single-trip').className = frequency === 'single' 
+        ? 'bg-blue-100 hover:bg-blue-200 text-blue-800 py-2 rounded-lg transition duration-300' 
+        : 'bg-gray-100 hover:bg-gray-200 text-gray-800 py-2 rounded-lg transition duration-300';
+      
+      document.getElementById('daily-trip').className = frequency === 'daily' 
+        ? 'bg-blue-100 hover:bg-blue-200 text-blue-800 py-2 rounded-lg transition duration-300' 
+        : 'bg-gray-100 hover:bg-gray-200 text-gray-800 py-2 rounded-lg transition duration-300';
+      
+      document.getElementById('monthly-trip').className = frequency === 'monthly' 
+        ? 'bg-blue-100 hover:bg-blue-200 text-blue-800 py-2 rounded-lg transition duration-300' 
+        : 'bg-gray-100 hover:bg-gray-200 text-gray-800 py-2 rounded-lg transition duration-300';
+    }
+    
+    // Format number with commas
+    function formatNumber(num) {
+      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    
+    // Calculate EMI
+    function calculateEMI() {
+      const bikePrice = parseFloat(document.getElementById('bikePrice').value) || 0;
+      const downPayment = parseFloat(document.getElementById('downPayment').value) || 0;
+      const interestRate = parseFloat(document.getElementById('interestRate').value) || 0;
+      const loanTerm = parseFloat(document.getElementById('loanTerm').value) || 0;
+      
+      // Validation
+      if (bikePrice <= 0) {
+        alert('Please enter a valid bike price');
+        document.getElementById('bikePrice').focus();
+        return;
+      }
+      
+      if (downPayment >= bikePrice) {
+        alert('Down payment cannot be greater than or equal to bike price');
+        document.getElementById('downPayment').focus();
+        return;
+      }
+      
+      if (interestRate <= 0 || interestRate > 30) {
+        alert('Please enter a valid interest rate (0-30%)');
+        document.getElementById('interestRate').focus();
+        return;
+      }
+      
+      if (loanTerm < 12 || loanTerm > 60) {
+        alert('Please enter a valid loan term (12-60 months)');
+        document.getElementById('loanTerm').focus();
+        return;
+      }
+      
+      // Calculate loan amount
+      const loanAmount = bikePrice - downPayment;
+      
+      // Convert annual interest rate to monthly and decimal
+      const monthlyInterestRate = (interestRate / 100) / 12;
+      
+      // Calculate EMI using formula: EMI = [P x R x (1+R)^N]/[(1+R)^N-1]
+      const emi = loanAmount * monthlyInterestRate * Math.pow(1 + monthlyInterestRate, loanTerm) / 
+                  (Math.pow(1 + monthlyInterestRate, loanTerm) - 1);
+      
+      // Calculate total payment and total interest
+      const totalPayment = emi * loanTerm;
+      const totalInterest = totalPayment - loanAmount;
+      
+      // Display results
+      const resultDiv = document.getElementById('emiResult');
+      resultDiv.className = 'result-box';
+      resultDiv.innerHTML = `
+        <div class="grid grid-cols-2 gap-4">
+          <div class="text-center">
+            <div class="text-2xl font-bold text-blue-700 mb-1">৳${formatNumber(Math.round(emi))}</div>
+            <div class="text-sm text-gray-600">Monthly EMI</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-green-700 mb-1">৳${formatNumber(Math.round(totalPayment))}</div>
+            <div class="text-sm text-gray-600">Total Payment</div>
+          </div>
+        </div>
+        
+        <div class="mt-4 pt-4 border-t border-blue-200">
+          <div class="flex justify-between mb-2">
+            <span class="text-gray-700">Loan Amount:</span>
+            <span class="font-semibold">৳${formatNumber(Math.round(loanAmount))}</span>
+          </div>
+          <div class="flex justify-between mb-2">
+            <span class="text-gray-700">Down Payment:</span>
+            <span class="font-semibold">৳${formatNumber(Math.round(downPayment))} (${Math.round((downPayment/bikePrice)*100)}%)</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-700">Total Interest:</span>
+            <span class="font-semibold">৳${formatNumber(Math.round(totalInterest))}</span>
+          </div>
+        </div>
+        
+        <div class="mt-4 text-sm text-gray-600">
+          <i class="fas fa-info-circle mr-1"></i>
+          Based on ${loanTerm} months at ${interestRate}% annual interest rate
+        </div>
+      `;
+      
+      // Scroll to results
+      resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    
+    // Calculate Fuel Cost
+    function calculateFuelCost() {
+      const distance = parseFloat(document.getElementById('distance').value) || 0;
+      const mileage = parseFloat(document.getElementById('mileage').value) || 0;
+      const fuelPrice = parseFloat(document.getElementById('fuelPrice').value) || 0;
+      
+      // Validation
+      if (distance <= 0) {
+        alert('Please enter a valid distance');
+        document.getElementById('distance').focus();
+        return;
+      }
+      
+      if (mileage <= 0) {
+        alert('Please enter a valid mileage');
+        document.getElementById('mileage').focus();
+        return;
+      }
+      
+      if (fuelPrice <= 0) {
+        alert('Please enter a valid fuel price');
+        document.getElementById('fuelPrice').focus();
+        return;
+      }
+      
+      // Calculate fuel required
+      const fuelRequired = distance / mileage;
+      const cost = fuelRequired * fuelPrice;
+      
+      // Adjust for frequency
+      let frequencyText = '';
+      let adjustedDistance = distance;
+      let adjustedCost = cost;
+      
+      switch(currentFrequency) {
+        case 'daily':
+          frequencyText = 'Daily';
+          // For monthly (assuming 30 days)
+          const monthlyCost = cost * 30;
+          const yearlyCost = cost * 365;
+          adjustedCost = monthlyCost;
+          break;
+        case 'monthly':
+          frequencyText = 'Monthly';
+          // Assuming 30 days for monthly calculation
+          const dailyDistance = distance / 30;
+          const dailyCost = (dailyDistance / mileage) * fuelPrice;
+          adjustedDistance = dailyDistance;
+          adjustedCost = dailyCost;
+          break;
+        default: // single
+          frequencyText = 'Single Trip';
+      }
+      
+      // Display results
+      const resultDiv = document.getElementById('fuelResult');
+      resultDiv.className = 'result-box';
+      
+      let resultHTML = `
+        <div class="text-center mb-4">
+          <div class="text-2xl font-bold text-green-700 mb-1">৳${formatNumber(cost.toFixed(2))}</div>
+          <div class="text-sm text-gray-600">${frequencyText} Fuel Cost</div>
+        </div>
+        
+        <div class="space-y-2">
+          <div class="flex justify-between">
+            <span class="text-gray-700">Fuel Required:</span>
+            <span class="font-semibold">${fuelRequired.toFixed(2)} liters</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-700">Distance:</span>
+            <span class="font-semibold">${formatNumber(distance)} km</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-700">Mileage:</span>
+            <span class="font-semibold">${mileage} km/l</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-700">Fuel Price:</span>
+            <span class="font-semibold">৳${fuelPrice}/liter</span>
+          </div>
+        </div>
+      `;
+      
+      // Add additional calculations for daily/monthly
+      if (currentFrequency === 'daily') {
+        const monthlyCost = cost * 30;
+        const yearlyCost = cost * 365;
+        resultHTML += `
+          <div class="mt-4 pt-4 border-t border-green-200">
+            <div class="flex justify-between mb-2">
+              <span class="text-gray-700">Monthly Cost (30 days):</span>
+              <span class="font-semibold text-green-700">৳${formatNumber(monthlyCost.toFixed(2))}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-700">Yearly Cost (365 days):</span>
+              <span class="font-semibold text-green-700">৳${formatNumber(yearlyCost.toFixed(2))}</span>
+            </div>
+          </div>
+        `;
+      } else if (currentFrequency === 'monthly') {
+        const dailyCost = adjustedCost;
+        const yearlyCost = cost * 12;
+        resultHTML += `
+          <div class="mt-4 pt-4 border-t border-green-200">
+            <div class="flex justify-between mb-2">
+              <span class="text-gray-700">Daily Average Cost:</span>
+              <span class="font-semibold text-green-700">৳${formatNumber(dailyCost.toFixed(2))}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-700">Yearly Cost (12 months):</span>
+              <span class="font-semibold text-green-700">৳${formatNumber(yearlyCost.toFixed(2))}</span>
+            </div>
+          </div>
+        `;
+      }
+      
+      resultDiv.innerHTML = resultHTML;
+      
+      // Scroll to results
+      resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    
+    // Enter key support for inputs
+    document.querySelectorAll('.calculator-input').forEach(input => {
+      input.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          if (this.id === 'bikePrice' || this.id === 'downPayment' || this.id === 'interestRate' || this.id === 'loanTerm') {
+            calculateEMI();
+          } else if (this.id === 'distance' || this.id === 'mileage' || this.id === 'fuelPrice') {
+            calculateFuelCost();
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

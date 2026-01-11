@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & License Guide - BikeBD</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Exact same styles from advertise.html */
+        /* Custom animation for fade in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        /* Section card styling */
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Content styling */
+        .content-section {
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .content-section p {
+            margin-bottom: 16px;
+        }
+        
+        .content-section p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .highlight-text {
+            background-color: #eff6ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        /* Feature highlight styling */
+        .feature-highlight {
+            display: inline-flex;
+            align-items: center;
+            background-color: #10b98115;
+            color: #047857;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-left: 8px;
+        }
+        
+        .feature-available {
+            background-color: #10b98115;
+            color: #047857;
+        }
+        
+        .feature-unavailable {
+            background-color: #fef2f2;
+            color: #991b1b;
+        }
+        
+        /* Stats cards */
+        .stat-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        /* Benefits list */
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            padding: 8px;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .benefit-item:hover {
+            background-color: #f9fafb;
+        }
+        
+        .benefit-icon {
+            color: #10b981;
+            margin-right: 12px;
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        /* Timeline for process */
+        .process-timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .process-timeline:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+        }
+        
+        .process-step {
+            position: relative;
+            padding-bottom: 30px;
+        }
+        
+        .process-step:before {
+            content: '';
+            position: absolute;
+            left: -36px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #3b82f6;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #3b82f6;
+        }
+        
+        .process-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+        
+        /* Contact form styling */
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        
+        /* Table styling from advertise.html pattern */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .data-table th {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .data-table tr {
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .data-table tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+        
+        .data-table tr:hover {
+            background-color: #f3f4f6;
+        }
+        
+        .data-table td {
+            padding: 14px 16px;
+            color: #4b5563;
+        }
+        
+        /* FAQ styling matching advertise.html pattern */
+        .faq-item {
+            background-color: #f9fafb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        /* Calculator styling matching package cards */
+        .calculator-card {
+            transition: all 0.3s ease;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 2px solid #e5e7eb;
+            background: white;
+            padding: 24px;
+        }
+        
+        .calculator-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+        
+        /* Quick links sidebar */
+        .quick-links-card {
+            background-color: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Info boxes */
+        .info-box {
+            background-color: #eff6ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .tip-box {
+            background-color: #fef3c7;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section - Same pattern as advertise.html -->
+    <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Motorcycle Registration & License Guide</h1>
+                <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                    Complete 2025 guide to registration fees, license procedures, and documentation in Bangladesh
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#calculator" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+                        <i class="fas fa-calculator mr-2"></i>Fee Calculator
+                    </a>
+                    <a href="#process" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+                        <i class="fas fa-list-ol mr-2"></i>View Process
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section - Same pattern as advertise.html -->
+    <section class="py-12 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why This Guide Matters?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Avoid common mistakes and save time with our comprehensive guide to motorcycle registration and licensing
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Stat 1 -->
+                <div class="stat-card">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">85%</div>
+                    <div class="text-gray-700 font-medium mb-1">Time Saved</div>
+                    <div class="text-gray-500 text-sm">With proper guidance</div>
+                </div>
+                
+                <!-- Stat 2 -->
+                <div class="stat-card">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">৳ 5,000+</div>
+                    <div class="text-gray-700 font-medium mb-1">Potential Savings</div>
+                    <div class="text-gray-500 text-sm">Avoiding common mistakes</div>
+                </div>
+                
+                <!-- Stat 3 -->
+                <div class="stat-card">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">24/7</div>
+                    <div class="text-gray-700 font-medium mb-1">Updated Information</div>
+                    <div class="text-gray-500 text-sm">Latest 2025 rates</div>
+                </div>
+                
+                <!-- Stat 4 -->
+                <div class="stat-card">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">10+</div>
+                    <div class="text-gray-700 font-medium mb-1">Years Experience</div>
+                    <div class="text-gray-500 text-sm">In automotive guidance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Layout -->
+    <section class="py-12 bg-gray-50 fade-in">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Left Sidebar - Quick Links -->
+                <div class="lg:col-span-1">
+                    <div class="quick-links-card sticky top-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Quick Navigation</h3>
+                        <div class="space-y-3">
+                            <a href="#license-fees" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-money-bill-wave mr-3 w-5 text-center"></i>
+                                <span>License Fees</span>
+                            </a>
+                            <a href="#license-process" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-list-ol mr-3 w-5 text-center"></i>
+                                <span>License Process</span>
+                            </a>
+                            <a href="#registration-fees" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-file-invoice-dollar mr-3 w-5 text-center"></i>
+                                <span>Registration Fees</span>
+                            </a>
+                            <a href="#registration-process" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-cogs mr-3 w-5 text-center"></i>
+                                <span>Registration Process</span>
+                            </a>
+                            <a href="#calculator" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-calculator mr-3 w-5 text-center"></i>
+                                <span>Fee Calculator</span>
+                            </a>
+                            <a href="#documents" class="flex items-center text-blue-600 hover:text-blue-800 py-2 border-b border-gray-100 transition duration-200">
+                                <i class="fas fa-file-alt mr-3 w-5 text-center"></i>
+                                <span>Required Documents</span>
+                            </a>
+                            <a href="#faq" class="flex items-center text-blue-600 hover:text-blue-800 py-2 transition duration-200">
+                                <i class="fas fa-question-circle mr-3 w-5 text-center"></i>
+                                <span>FAQs</span>
+                            </a>
+                        </div>
+                        
+                        <div class="mt-8 pt-6 border-t border-gray-200">
+                            <h4 class="font-bold text-gray-800 mb-3">Need Official Info?</h4>
+                            <p class="text-sm text-gray-600 mb-4">Always verify with BRTA for latest updates</p>
+                            <a href="https://www.brta.gov.bd" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit BRTA Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="lg:col-span-2 space-y-8">
+                    <!-- License Fees Section -->
+                    <section id="license-fees" class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Driving License Fees in Bangladesh (2025)</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Updated fees including 15% VAT for all license types
+                            </p>
+                        </div>
+                        
+                        <div class="overflow-x-auto">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>License Type</th>
+                                        <th>Base Fee (BDT)</th>
+                                        <th>VAT 15%</th>
+                                        <th>Total (BDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>1</td><td>শিক্ষানবিশ এক শ্রেণী</td><td>300</td><td>45</td><td>345</td></tr>
+                                    <tr><td>2</td><td>শিক্ষানবিশ দুই শ্রেণী</td><td>450</td><td>68</td><td>518</td></tr>
+                                    <tr><td>3</td><td>শিক্ষানবিশ নবায়ন (৩ মাস)</td><td>75</td><td>12</td><td>87</td></tr>
+                                    <tr><td>4</td><td>শিক্ষানবিশ নবায়ন (৬ মাস)</td><td>150</td><td>23</td><td>173</td></tr>
+                                    <tr><td>5</td><td>অপেশাদার (ইস্যু)</td><td>2210</td><td>332</td><td>2542</td></tr>
+                                    <tr><td>6</td><td>পেশাদার (ইস্যু)</td><td>1460</td><td>219</td><td>1679</td></tr>
+                                    <tr><td>7</td><td>অপেশাদার (নবায়ন)</td><td>2110</td><td>317</td><td>2427</td></tr>
+                                    <tr><td>8</td><td>পেশাদার (নবায়ন)</td><td>1360</td><td>204</td><td>1564</td></tr>
+                                    <tr><td>9</td><td>পেশাদার নবায়ন পরীক্ষা</td><td>150</td><td>23</td><td>173</td></tr>
+                                    <tr><td>10</td><td>নবায়ন জরিমানা (প্রতি বছর)</td><td>200</td><td>30</td><td>230</td></tr>
+                                    <tr><td>11</td><td>ড্রাইভিং লাইসেন্স প্রতিলিপি</td><td>760</td><td>114</td><td>874</td></tr>
+                                    <tr><td>12</td><td>ড্রাইভিং লাইসেন্স সংশোধনী</td><td>810</td><td>122</td><td>932</td></tr>
+                                    <tr><td>13</td><td>শুধু অন্তর্ভুক্তি</td><td>200</td><td>0</td><td>200</td></tr>
+                                    <tr><td>14</td><td>অন্তর্ভুক্তি ও প্রতিলিপি সহ</td><td>960</td><td>144</td><td>1104</td></tr>
+                                    <tr><td>15</td><td>ড্রাইভিং লাইসেন্স সত্যায়িত</td><td>120</td><td>-12</td><td>108</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="info-box mt-6">
+                            <p class="flex items-start text-blue-800">
+                                <i class="fas fa-info-circle mr-2 mt-1"></i>
+                                <span><strong>Note:</strong> All fees are subject to change. Please verify with BRTA for the latest official fees before proceeding with any application.</span>
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- License Application Process -->
+                    <section id="license-process" class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Driving License Application Process</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Step-by-step guide to getting your driving license in Bangladesh
+                            </p>
+                        </div>
+                        
+                        <div class="process-timeline">
+                            <div class="process-step">
+                                <div class="flex items-center mb-2">
+                                    <span class="process-number">1</span>
+                                    <h3 class="text-xl font-bold text-gray-800">Fee Deposit</h3>
+                                </div>
+                                <p class="text-gray-600 ml-10">
+                                    Visit a bank with your assessment slip and provide your mobile number.
+                                </p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="flex items-center mb-2">
+                                    <span class="process-number">2</span>
+                                    <h3 class="text-xl font-bold text-gray-800">Submit Documents</h3>
+                                </div>
+                                <p class="text-gray-600 ml-10">
+                                    Submit the money receipt and old blue-book photocopy to BRTA.
+                                </p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="flex items-center mb-2">
+                                    <span class="process-number">3</span>
+                                    <h3 class="text-xl font-bold text-gray-800">Biometric Submission</h3>
+                                </div>
+                                <p class="text-gray-600 ml-10">
+                                    Receive an SMS for biometric submission and submit biometrics on the mentioned date.
+                                </p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="flex items-center mb-2">
+                                    <span class="process-number">4</span>
+                                    <h3 class="text-xl font-bold text-gray-800">Receive Collection SMS</h3>
+                                </div>
+                                <p class="text-gray-600 ml-10">
+                                    Receive SMS for collecting RFID number plate and Smart Card.
+                                </p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="flex items-center mb-2">
+                                    <span class="process-number">5</span>
+                                    <h3 class="text-xl font-bold text-gray-800">Collect Card & Plate</h3>
+                                </div>
+                                <p class="text-gray-600 ml-10">
+                                    Bring required documents & bike to collect card & plate. Process usually takes about a month.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="tip-box mt-6">
+                            <p class="flex items-start text-amber-800">
+                                <i class="fas fa-lightbulb mr-2 mt-1"></i>
+                                <span><strong>Tip:</strong> For updates on your application, SMS: NP A 11 or call BRTA helpline at 6969.</span>
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- Registration Fees & Calculator -->
+                    <section id="registration-fees" class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Motorcycle Registration Fees</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Updated registration fees based on engine capacity and duration
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                            <div class="overflow-x-auto">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Engine CC</th>
+                                            <th>Period</th>
+                                            <th>Registration Fee</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Up to 100cc</td><td>2 Years</td><td>10,664 BDT</td></tr>
+                                        <tr><td>Over 100cc</td><td>2 Years</td><td>19,664 BDT</td></tr>
+                                        <tr><td>Up to 100cc</td><td>10 Years</td><td>11,764 BDT</td></tr>
+                                        <tr><td>Over 100cc</td><td>10 Years</td><td>20,964 BDT</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="overflow-x-auto">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Item</th>
+                                            <th>Fee (BDT)</th>
+                                            <th>VAT 15%</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Smart Card</td><td>2200</td><td>330</td><td>2,530</td></tr>
+                                        <tr><td>RFID Plate</td><td>540</td><td>81</td><td>621</td></tr>
+                                        <tr><td class="font-bold">Total Additional</td><td>-</td><td>-</td><td class="font-bold">3,151 BDT</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- Calculator Section -->
+                        <div id="calculator" class="calculator-card fade-in">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Registration Fee Calculator</h3>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label class="block text-gray-700 font-medium mb-2" for="cc">Select Engine Capacity (CC)</label>
+                                    <select id="cc" class="form-input">
+                                        <option value="100">Up to 100cc</option>
+                                        <option value="101">Over 100cc</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 font-medium mb-2" for="duration">Select Registration Duration</label>
+                                    <select id="duration" class="form-input">
+                                        <option value="2">2 Years</option>
+                                        <option value="10">10 Years</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <button onclick="calculateFee()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg transition duration-300 mb-6">
+                                <i class="fas fa-calculator mr-2"></i>Calculate Registration Fee
+                            </button>
+                            
+                            <div id="result" class="p-4 bg-gray-50 border border-gray-200 rounded-lg">
+                                <p class="text-gray-500 text-center">Select options and click calculate to see the fee</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Benefits Section (Like advertise.html) -->
+                    <section class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Key Benefits of Proper Registration</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Why proper registration and licensing matters for every motorcycle owner
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-4">Legal Protection</h3>
+                                <div class="space-y-4">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-shield-alt"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Avoid Legal Issues</h4>
+                                            <p class="text-gray-600 text-sm">Drive without fear of police penalties or fines</p>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-file-contract"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Ownership Proof</h4>
+                                            <p class="text-gray-600 text-sm">Legal proof of vehicle ownership</p>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-handshake"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Easy Transfer</h4>
+                                            <p class="text-gray-600 text-sm">Simplified process for selling or transferring</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-4">Practical Advantages</h3>
+                                <div class="space-y-4">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-road"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">National Travel</h4>
+                                            <p class="text-gray-600 text-sm">Travel anywhere in Bangladesh without restrictions</p>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-car-crash"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Insurance Claims</h4>
+                                            <p class="text-gray-600 text-sm">Eligible for insurance claims in case of accidents</p>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Higher Resale Value</h4>
+                                            <p class="text-gray-600 text-sm">Properly registered bikes have better resale value</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Required Documents -->
+                    <section id="documents" class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Required Documents</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Essential documents for license application and bike registration
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-4">For Driving License</h3>
+                                <ul class="space-y-3">
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Birth Certificate / National ID Card
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Passport-sized photographs (4 copies)
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Medical Certificate from registered doctor
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Educational Certificate copy
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Tax Token (for renewal applications)
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-4">For Bike Registration</h3>
+                                <ul class="space-y-3">
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Original Purchase Invoice from dealer
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Insurance Certificate (Third Party)
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Owner's National ID copy
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Tax Payment Receipt
+                                    </li>
+                                    <li class="flex items-center text-gray-600">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        Previous Blue Book (for transfer cases)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQ Section -->
+                    <section id="faq" class="section-card fade-in">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                            <p class="text-gray-600 max-w-2xl mx-auto">
+                                Common questions about motorcycle registration and licensing in Bangladesh
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="faq-item">
+                                <p class="font-bold text-gray-800 mb-2">Q: Can I register a second-hand bike?</p>
+                                <p class="text-gray-600"><strong>A:</strong> Yes, with ownership transfer form & original blue-book along with proper documentation from both parties.</p>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <p class="font-bold text-gray-800 mb-2">Q: Can I apply for license online?</p>
+                                <p class="text-gray-600"><strong>A:</strong> Yes, via BRTA portal. However, you'll still need to visit BRTA office for biometric verification and final submission.</p>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <p class="font-bold text-gray-800 mb-2">Q: Is insurance mandatory for registration?</p>
+                                <p class="text-gray-600"><strong>A:</strong> Yes, third-party insurance is required by law for all motor vehicles in Bangladesh before registration.</p>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <p class="font-bold text-gray-800 mb-2">Q: What if I don't register my bike?</p>
+                                <p class="text-gray-600"><strong>A:</strong> It's illegal. You may face fines up to ৳5,000, and your bike could be impounded by law enforcement.</p>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <p class="font-bold text-gray-800 mb-2">Q: How long does the registration process take?</p>
+                                <p class="text-gray-600"><strong>A:</strong> Usually 7–15 working days, depending on BRTA workload and completeness of your documents.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section - Same pattern as advertise.html -->
+    <section class="py-12 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="section-card">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Need More Help?</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Explore our other tools and resources for motorcycle owners in Bangladesh
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-calculator text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Expense Calculator</h3>
+                        <p class="text-gray-600 mb-1">Calculate total ownership cost</p>
+                        <a href="calculator.html" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Try Calculator →</a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-balance-scale text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Compare Bikes</h3>
+                        <p class="text-gray-600 mb-1">Side-by-side comparison</p>
+                        <a href="compare.html" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Compare Now →</a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-store text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Find Showrooms</h3>
+                        <p class="text-gray-600 mb-1">Authorized dealers near you</p>
+                        <a href="dealer.html" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Find Dealers →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section - Same pattern as advertise.html -->
+    <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Ready for Your Next Ride?</h2>
+                <p class="text-xl text-blue-100 mb-8">
+                    Browse our comprehensive motorcycle database with latest prices, reviews, and specifications
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="brand.html" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+                        Browse All Bikes
+                    </a>
+                    <a href="index.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+                        Back to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="nav-foot.js"></script>
+    <!-- JavaScript - Same pattern as advertise.html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+        
+        // Fee calculator function
+        function calculateFee() {
+            const cc = document.getElementById('cc').value;
+            const duration = document.getElementById('duration').value;
+            let fee = 0;
+            
+            if (cc === '100' && duration === '2') {
+                fee = 10664;
+            } else if (cc === '101' && duration === '2') {
+                fee = 19664;
+            } else if (cc === '100' && duration === '10') {
+                fee = 11764;
+            } else if (cc === '101' && duration === '10') {
+                fee = 20964;
+            }
+            
+            const resultDiv = document.getElementById('result');
+            const additionalFees = 3151; // Smart card + RFID
+            
+            resultDiv.innerHTML = `
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">৳ ${fee.toLocaleString()}</div>
+                    <div class="text-gray-700 font-medium mb-1">Registration Fee</div>
+                    <div class="text-gray-500 text-sm">For ${cc === '100' ? 'Up to 100cc' : 'Over 100cc'} bike for ${duration} years</div>
+                    
+                    <div class="mt-4 pt-4 border-t border-gray-300">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-gray-600">Registration Fee:</span>
+                            <span class="font-medium">৳ ${fee.toLocaleString()}</span>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-gray-600">Smart Card + RFID:</span>
+                            <span class="font-medium">৳ ${additionalFees.toLocaleString()}</span>
+                        </div>
+                        <div class="flex justify-between items-center mt-3 pt-3 border-t border-gray-300">
+                            <span class="text-lg font-bold text-gray-800">Total Estimated Cost:</span>
+                            <span class="text-xl font-bold text-green-600">৳ ${(fee + additionalFees).toLocaleString()}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Add subtle animation
+            resultDiv.style.transform = 'scale(1.02)';
+            setTimeout(() => {
+                resultDiv.style.transform = 'scale(1)';
+            }, 300);
+        }
+    </script>
+</body>
+</html>

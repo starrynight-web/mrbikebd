@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mr Bike - ALL Available Brands Of Bangladesh</title>
+  <!-- Tailwind CSS via CDN (same as advertise.html) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom styles to match advertise.html -->
+  <style>
+    /* Import styles from advertise.html */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    .section-card {
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    .content-section {
+      line-height: 1.6;
+      color: #4b5563;
+    }
+    
+    .content-section p {
+      margin-bottom: 16px;
+    }
+    
+    .content-section p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .highlight-text {
+      background-color: #eff6ff;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    
+    /* Brand card styling */
+    .brand-card {
+      transition: all 0.3s ease;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 2px solid #e5e7eb;
+      height: 100%;
+      cursor: pointer;
+    }
+    
+    .brand-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border-color: #3b82f6;
+    }
+    
+    .brand-logo-container {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    
+    .brand-logo-img {
+      max-width: 60px;
+      max-height: 60px;
+      object-fit: contain;
+    }
+    
+    /* Filter styling */
+    .filter-btn {
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .filter-btn.active {
+      background-color: #3b82f6;
+      color: white;
+    }
+    
+    .filter-btn:not(.active) {
+      background-color: #f9fafb;
+      color: #6b7280;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .filter-btn:not(.active):hover {
+      background-color: #f3f4f6;
+    }
+    
+    /* Brand stats */
+    .stat-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #e5e7eb;
+      transition: all 0.3s ease;
+    }
+    
+    .stat-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 640px) {
+      .brand-logo-container {
+        width: 60px;
+        height: 60px;
+      }
+      
+      .brand-logo-img {
+        max-width: 45px;
+        max-height: 45px;
+      }
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-50">
+  
+  <div id="navbar-placeholder"></div>
+
+  <!-- Hero Section (similar to advertise.html) -->
+  <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Available Brands in Bangladesh</h1>
+        <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+          Explore bikes from all top manufacturers in the Bangladeshi market
+        </p>
+        <div class="flex justify-center space-x-4">
+          <a href="#brands" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+            <i class="fas fa-motorcycle mr-2"></i>Explore Brands
+          </a>
+          <a href="#stats" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+            <i class="fas fa-chart-bar mr-2"></i>View Statistics
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section (similar to advertise.html) -->
+  <section id="stats" class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Brands Overview</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Comprehensive coverage of all motorcycle brands available in the Bangladeshi market
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Stat 1 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">18</div>
+          <div class="text-gray-700 font-medium mb-1">Total Brands</div>
+          <div class="text-gray-500 text-sm">From around the world</div>
+        </div>
+        
+        <!-- Stat 2 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">225+</div>
+          <div class="text-gray-700 font-medium mb-1">Available Models</div>
+          <div class="text-gray-500 text-sm">Across all brands</div>
+        </div>
+        
+        <!-- Stat 3 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">100%</div>
+          <div class="text-gray-700 font-medium mb-1">Market Coverage</div>
+          <div class="text-gray-500 text-sm">All major brands included</div>
+        </div>
+        
+        <!-- Stat 4 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">15+</div>
+          <div class="text-gray-700 font-medium mb-1">Countries Represented</div>
+          <div class="text-gray-500 text-sm">Global motorcycle brands</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content - Brands Section -->
+  <section id="brands" class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Browse All Brands</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Click on any brand to view all available models, specifications, prices, and dealer information
+          </p>
+        </div>
+        
+        <!-- Filter options -->
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+          <button class="filter-btn active" data-filter="all">All Brands</button>
+          <button class="filter-btn" data-filter="japanese">Japanese</button>
+          <button class="filter-btn" data-filter="indian">Indian</button>
+          <button class="filter-btn" data-filter="european">European</button>
+          <button class="filter-btn" data-filter="chinese">Chinese</button>
+          <button class="filter-btn" data-filter="local">Local</button>
+        </div>
+        
+        <!-- Brand Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          <!-- Royal Enfield -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Royal Enfield')" data-category="indian">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/RE.png" alt="Royal Enfield Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Royal Enfield</h3>
+            <p class="text-gray-600 mb-1">12 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Indian Brand</span>
+          </div>
+          
+          <!-- Honda -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Honda')" data-category="japanese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/Honda.png" alt="Honda Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Honda</h3>
+            <p class="text-gray-600 mb-1">25 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Japanese</span>
+          </div>
+          
+          <!-- Bajaj -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Bajaj')" data-category="indian">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/bajaj.png" alt="Bajaj Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Bajaj</h3>
+            <p class="text-gray-600 mb-1">18 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Indian Brand</span>
+          </div>
+          
+          <!-- TVS -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('TVS')" data-category="indian">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/tvs.png" alt="TVS Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">TVS</h3>
+            <p class="text-gray-600 mb-1">15 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Indian Brand</span>
+          </div>
+          
+          <!-- Yamaha -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Yamaha')" data-category="japanese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/yamaha.png" alt="Yamaha Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Yamaha</h3>
+            <p class="text-gray-600 mb-1">20 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Japanese</span>
+          </div>
+          
+          <!-- Hero -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Hero')" data-category="indian">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/hero.png" alt="Hero Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Hero</h3>
+            <p class="text-gray-600 mb-1">22 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Indian Brand</span>
+          </div>
+          
+          <!-- KTM -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('KTM')" data-category="european">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/KTM.png" alt="KTM Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">KTM</h3>
+            <p class="text-gray-600 mb-1">8 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">European</span>
+          </div>
+          
+          <!-- Suzuki -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Suzuki')" data-category="japanese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/suzuki.png" alt="Suzuki Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Suzuki</h3>
+            <p class="text-gray-600 mb-1">16 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Japanese</span>
+          </div>
+          
+          <!-- GPX Demon -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('GPX Demon')" data-category="chinese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/gpx.png" alt="GPX Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">GPX Demon</h3>
+            <p class="text-gray-600 mb-1">6 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Chinese</span>
+          </div>
+          
+          <!-- CFMoto -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('CFMoto')" data-category="chinese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/cfmoto.png" alt="CFMoto Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">CFMoto</h3>
+            <p class="text-gray-600 mb-1">10 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Chinese</span>
+          </div>
+          
+          <!-- Lifan -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Lifan')" data-category="chinese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/lifan.png" alt="Lifan Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Lifan</h3>
+            <p class="text-gray-600 mb-1">14 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Chinese</span>
+          </div>
+          
+          <!-- Runner -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Runner')" data-category="local">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/runner.png" alt="Runner Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Runner</h3>
+            <p class="text-gray-600 mb-1">12 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Local Brand</span>
+          </div>
+          
+          <!-- Hyosung -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Hyosung')" data-category="chinese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/hyosung.png" alt="Hyosung Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Hyosung</h3>
+            <p class="text-gray-600 mb-1">10 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Chinese</span>
+          </div>
+          
+          <!-- Revoo -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Revoo')" data-category="local">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/revoo.png" alt="Revoo Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Revoo</h3>
+            <p class="text-gray-600 mb-1">14 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Local Brand</span>
+          </div>
+          
+          <!-- QJ MOTORS -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('QJ MOTORS')" data-category="chinese">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/qj.png" alt="QJ Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">QJ MOTORS</h3>
+            <p class="text-gray-600 mb-1">12 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Chinese</span>
+          </div>
+          
+          <!-- Aprilia -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Aprilia')" data-category="european">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/aprilia.png" alt="Aprilia Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Aprilia</h3>
+            <p class="text-gray-600 mb-1">12 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">European</span>
+          </div>
+          
+          <!-- Akij Motors -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Akij Motors')" data-category="local">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/akij.png" alt="Akij Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Akij Motors</h3>
+            <p class="text-gray-600 mb-1">6 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Local Brand</span>
+          </div>
+          
+          <!-- Taro -->
+          <div class="brand-card fade-in text-center p-6" onclick="redirectToBrand('Taro')" data-category="local">
+            <div class="brand-logo-container mb-4">
+              <img src="images/Brands/taro.png" alt="Taro Logo" class="brand-logo-img" loading="lazy" />
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Taro</h3>
+            <p class="text-gray-600 mb-1">12 Models Available</p>
+            <span class="inline-block px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Local Brand</span>
+          </div>
+        </div>
+        
+        <!-- Note -->
+        <div class="mt-10 p-4 bg-blue-50 rounded-lg">
+          <p class="text-blue-800 text-center">
+            <i class="fas fa-info-circle mr-2"></i>
+            Click on any brand card to view detailed information, available models, specifications, and pricing
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Information Section -->
+  <section class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">About Our Brand Directory</h3>
+            <div class="space-y-4">
+              <p class="text-gray-600">
+                Our comprehensive brand directory includes all motorcycle manufacturers available in Bangladesh. From global giants to local favorites, we provide detailed information to help you make informed decisions.
+              </p>
+              <p class="text-gray-600">
+                Each brand page includes model listings, specifications, current prices, dealer locations, and user reviews. We regularly update our database to ensure you have access to the latest information.
+              </p>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-bold text-gray-800 mb-2">Key Features:</h4>
+                <ul class="list-disc pl-5 text-gray-600 space-y-1">
+                  <li>Complete model specifications</li>
+                  <li>Updated pricing information</li>
+                  <li>Dealer and showroom locations</li>
+                  <li>User reviews and ratings</li>
+                  <li>Comparison tools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Popular Brand Categories</h3>
+            <div class="space-y-4">
+              <div class="flex items-center p-3 border border-gray-200 rounded-lg">
+                <div class="bg-green-100 p-3 rounded-lg mr-4">
+                  <i class="fas fa-flag text-green-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Japanese Brands</h4>
+                  <p class="text-gray-600 text-sm">Honda, Yamaha, Suzuki - Known for reliability and performance</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center p-3 border border-gray-200 rounded-lg">
+                <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                  <i class="fas fa-flag text-blue-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Indian Brands</h4>
+                  <p class="text-gray-600 text-sm">Hero, Bajaj, TVS - Popular for value and fuel efficiency</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center p-3 border border-gray-200 rounded-lg">
+                <div class="bg-yellow-100 p-3 rounded-lg mr-4">
+                  <i class="fas fa-flag text-yellow-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Chinese Brands</h4>
+                  <p class="text-gray-600 text-sm">CFMoto, Lifan, QJ - Affordable options with modern features</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center p-3 border border-gray-200 rounded-lg">
+                <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                  <i class="fas fa-home text-purple-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Local Brands</h4>
+                  <p class="text-gray-600 text-sm">Runner, Revoo, Akij - Tailored for Bangladeshi roads and conditions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section (similar to advertise.html) -->
+  <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Find Your Perfect Bike</h2>
+        <p class="text-xl text-blue-100 mb-8">
+          Explore detailed specifications, compare models, and find the best deals
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <a href="brand.html" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+            Browse All Models
+          </a>
+          <a href="compare.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+            Compare Bikes
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="nav-foot.js"></script>
+
+  <!-- JavaScript -->
+  <script>
+    // Function to redirect to brand page (preserved from original)
+    function redirectToBrand(brand) {
+      window.location.href = 'brand.html?brand=' + encodeURIComponent(brand);
+    }
+    
+    // Function to toggle sidebar (preserved from original)
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      if (sidebar.classList.contains('-translate-x-full')) {
+        sidebar.classList.remove('-translate-x-full');
+      } else {
+        sidebar.classList.add('-translate-x-full');
+      }
+    }
+    
+    // Filter functionality for brand categories
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const brandCards = document.querySelectorAll('.brand-card');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const filterValue = this.getAttribute('data-filter');
+          
+          // Filter brand cards
+          brandCards.forEach(card => {
+            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+      
+      // Smooth scroll for anchor links (similar to advertise.html)
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+      
+      // Close sidebar when clicking outside
+      document.addEventListener('click', function(event) {
+        const sidebar = document.getElementById('sidebar');
+        const hamburger = document.querySelector('.hamburger');
+        
+        if (!sidebar.contains(event.target) && !hamburger.contains(event.target) && !sidebar.classList.contains('-translate-x-full')) {
+          sidebar.classList.add('-translate-x-full');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

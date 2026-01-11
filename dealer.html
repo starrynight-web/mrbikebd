@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premium Bike Dealer Locator</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .section-card {
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    .form-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+    
+    .form-input:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+    
+    .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      padding: 8px;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+    
+    .benefit-item:hover {
+      background-color: #f9fafb;
+    }
+    
+    .benefit-icon {
+      color: #10b981;
+      margin-right: 12px;
+      font-size: 18px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    
+    .stat-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #e5e7eb;
+      transition: all 0.3s ease;
+    }
+    
+    .stat-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
+    
+    .dealer-card {
+      background: white;
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      padding: 20px;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+    
+    .dealer-card:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      transform: translateY(-5px);
+      border-color: #3b82f6;
+    }
+    
+    .map-container {
+      height: 400px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      position: relative;
+    }
+    
+    .map-placeholder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background-color: #f8fafc;
+      color: #64748b;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    .map-placeholder i {
+      font-size: 64px;
+      margin-bottom: 20px;
+      color: #94a3b8;
+    }
+    
+    .loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+    
+    .spinner {
+      border: 4px solid rgba(59, 130, 246, 0.2);
+      border-left-color: #3b82f6;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+    
+    .featured-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <div id="navbar-placeholder"></div>
+
+  <!-- Hero Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Premium Bike Dealer Locator</h1>
+        <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+          Find authorized dealers for the world's top motorcycle brands in your area
+        </p>
+        <div class="flex justify-center space-x-4">
+          <a href="#search" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+            <i class="fas fa-search-location mr-2"></i>Find Dealers
+          </a>
+          <a href="#brands" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300 border border-blue-600">
+            <i class="fas fa-motorcycle mr-2"></i>View All Brands
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Use Our Dealer Locator?</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Connect with trusted, authorized dealers for genuine products and professional service
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Stat 1 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">500+</div>
+          <div class="text-gray-700 font-medium mb-1">Authorized Dealers</div>
+          <div class="text-gray-500 text-sm">Across Bangladesh</div>
+        </div>
+        
+        <!-- Stat 2 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">20+</div>
+          <div class="text-gray-700 font-medium mb-1">Top Brands</div>
+          <div class="text-gray-500 text-sm">From around the world</div>
+        </div>
+        
+        <!-- Stat 3 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">24/7</div>
+          <div class="text-gray-700 font-medium mb-1">Availability</div>
+          <div class="text-gray-500 text-sm">Updated dealer information</div>
+        </div>
+        
+        <!-- Stat 4 -->
+        <div class="stat-card">
+          <div class="text-4xl font-bold text-blue-600 mb-2">100%</div>
+          <div class="text-gray-700 font-medium mb-1">Verified Information</div>
+          <div class="text-gray-500 text-sm">Authentic dealer details</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Panel -->
+  <section id="search" class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-100 text-blue-600 rounded-full mb-4">
+            <i class="fas fa-search-location text-2xl"></i>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-800 mb-2">Find Your Nearest Dealer</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Select a brand and city to locate authorized dealers in your area
+          </p>
+        </div>
+        
+        <div class="max-w-3xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2" for="brandSelect">Select Brand</label>
+              <select id="brandSelect" class="form-input">
+                <option value="">Select Brand</option>
+                <option value="Yamaha">Yamaha</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Honda">Honda</option>
+                <option value="Royal Enfield">Royal Enfield</option>
+                <option value="TVS">TVS</option>
+                <option value="Hero">Hero</option>
+                <option value="Cfmoto">Cfmoto</option>
+                <option value="Bajaj">Bajaj</option>
+                <option value="KTM">KTM</option>
+                <option value="Hyosung">Hyosung</option>
+                <option value="Aprilia">Aprilia</option>
+                <option value="QJ Motors">QJ Motors</option>
+              </select>
+            </div>
+            
+            <div>
+              <label class="block text-gray-700 font-medium mb-2" for="citySelect">Select City</label>
+              <select id="citySelect" class="form-input">
+                <option value="">Select City</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Dinajpur">Dinajpur</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Rangpur">Rangpur</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <button id="searchDealers" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-lg transition duration-300">
+              <i class="fas fa-search mr-2"></i>Find Dealers
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="section-card">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Dealer Locations</h2>
+        
+        <div class="map-container mb-8">
+          <div class="loader hidden" id="loader">
+            <div class="text-center">
+              <div class="spinner"></div>
+              <p class="text-gray-700 font-medium mt-4">Loading dealer locations...</p>
+            </div>
+          </div>
+          
+          <div class="map-placeholder" id="mapPlaceholder">
+            <i class="fas fa-map-marked-alt"></i>
+            <p class="text-xl font-medium mb-2">Select a brand and city</p>
+            <p class="text-gray-600 max-w-md">Please choose a motorcycle brand and your city to view authorized dealers in your area</p>
+          </div>
+          
+          <iframe id="mapFrame" class="w-full h-full border-0" style="display: none;"></iframe>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Benefits of Authorized Dealers</h3>
+            <div class="space-y-4">
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Genuine Products</h4>
+                  <p class="text-gray-600 text-sm">Authentic bikes, parts, and accessories</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <i class="fas fa-wrench"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Expert Service</h4>
+                  <p class="text-gray-600 text-sm">Trained technicians and proper tools</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <i class="fas fa-file-contract"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">Valid Warranty</h4>
+                  <p class="text-gray-600 text-sm">Manufacturer-backed warranty coverage</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="lg:col-span-2">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Featured Dealers</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="featuredDealers">
+              <!-- Featured dealers will be populated here by JavaScript -->
+              <div class="text-center py-10 text-gray-500">
+                <i class="fas fa-store text-4xl mb-4"></i>
+                <p>Select a brand and city to view featured dealers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Brands Section -->
+  <section id="brands" class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Available Brands</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Browse authorized dealers for these top motorcycle brands in Bangladesh
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <!-- Brand 1 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Yamaha">
+          <div class="brand-logo mx-auto mb-4 bg-red-500">Y</div>
+          <h3 class="font-bold text-gray-800 mb-1">Yamaha</h3>
+          <p class="text-gray-600 text-sm">15+ Dealers</p>
+        </div>
+        
+        <!-- Brand 2 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Honda">
+          <div class="brand-logo mx-auto mb-4 bg-gray-800">H</div>
+          <h3 class="font-bold text-gray-800 mb-1">Honda</h3>
+          <p class="text-gray-600 text-sm">20+ Dealers</p>
+        </div>
+        
+        <!-- Brand 3 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Suzuki">
+          <div class="brand-logo mx-auto mb-4 bg-blue-500">S</div>
+          <h3 class="font-bold text-gray-800 mb-1">Suzuki</h3>
+          <p class="text-gray-600 text-sm">12+ Dealers</p>
+        </div>
+        
+        <!-- Brand 4 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Royal Enfield">
+          <div class="brand-logo mx-auto mb-4 bg-black">RE</div>
+          <h3 class="font-bold text-gray-800 mb-1">Royal Enfield</h3>
+          <p class="text-gray-600 text-sm">8+ Dealers</p>
+        </div>
+        
+        <!-- Brand 5 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="KTM">
+          <div class="brand-logo mx-auto mb-4 bg-orange-500">KTM</div>
+          <h3 class="font-bold text-gray-800 mb-1">KTM</h3>
+          <p class="text-gray-600 text-sm">6+ Dealers</p>
+        </div>
+        
+        <!-- Brand 6 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Bajaj">
+          <div class="brand-logo mx-auto mb-4 bg-blue-600">B</div>
+          <h3 class="font-bold text-gray-800 mb-1">Bajaj</h3>
+          <p class="text-gray-600 text-sm">18+ Dealers</p>
+        </div>
+        
+        <!-- Brand 7 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="TVS">
+          <div class="brand-logo mx-auto mb-4 bg-red-600">TVS</div>
+          <h3 class="font-bold text-gray-800 mb-1">TVS</h3>
+          <p class="text-gray-600 text-sm">10+ Dealers</p>
+        </div>
+        
+        <!-- Brand 8 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Hero">
+          <div class="brand-logo mx-auto mb-4 bg-green-600">H</div>
+          <h3 class="font-bold text-gray-800 mb-1">Hero</h3>
+          <p class="text-gray-600 text-sm">22+ Dealers</p>
+        </div>
+        
+        <!-- Brand 9 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Cfmoto">
+          <div class="brand-logo mx-auto mb-4 bg-purple-500">CF</div>
+          <h3 class="font-bold text-gray-800 mb-1">Cfmoto</h3>
+          <p class="text-gray-600 text-sm">5+ Dealers</p>
+        </div>
+        
+        <!-- Brand 10 -->
+        <div class="dealer-card text-center cursor-pointer" data-brand="Aprilia">
+          <div class="brand-logo mx-auto mb-4 bg-red-700">A</div>
+          <h3 class="font-bold text-gray-800 mb-1">Aprilia</h3>
+          <p class="text-gray-600 text-sm">3+ Dealers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Find Your Perfect Bike Today</h2>
+        <p class="text-xl text-blue-100 mb-8">
+          Visit an authorized dealer near you for test rides, expert advice, and special offers
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <a href="#search" class="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-lg font-bold text-lg transition duration-300">
+            <i class="fas fa-search-location mr-2"></i>Search Dealers
+          </a>
+          <a href="brand.html" class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold text-lg transition duration-300 border border-blue-500">
+            <i class="fas fa-motorcycle mr-2"></i>Browse Bikes
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div id="footer-placeholder"></div>
+  <script src="nav-foot.js"></script>
+
+  <!-- JavaScript -->
+  <script>
+    // Toggle sidebar
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('-translate-x-full');
+    }
+
+    // Sample dealer data
+    const dealerData = {
+      Yamaha: {
+        Dhaka: [
+          { name: "Yamaha Motors Dhaka", address: "123 Motijheel, Dhaka", phone: "01812-345678", featured: true },
+          { name: "Yamaha Showroom Gulshan", address: "45 Gulshan Avenue, Dhaka", phone: "01812-345679", featured: false },
+          { name: "Yamaha Service Center Dhanmondi", address: "78 Road 8, Dhanmondi, Dhaka", phone: "01812-345680", featured: true }
+        ],
+        Chittagong: [
+          { name: "Yamaha Chittagong Central", address: "12 Agrabad, Chittagong", phone: "01812-345681", featured: true },
+          { name: "Yamaha Motors CDA", address: "34 CDA Avenue, Chittagong", phone: "01812-345682", featured: false }
+        ]
+      },
+      Honda: {
+        Dhaka: [
+          { name: "Honda Dream Dhaka", address: "89 Mirpur Road, Dhaka", phone: "01812-345683", featured: true },
+          { name: "Honda Showroom Uttara", address: "Sector 7, Uttara, Dhaka", phone: "01812-345684", featured: true }
+        ],
+        Sylhet: [
+          { name: "Honda Sylhet Motors", address: "Zindabazar, Sylhet", phone: "01812-345685", featured: true }
+        ]
+      },
+      Suzuki: {
+        Dhaka: [
+          { name: "Suzuki Premium Dhaka", address: "56 Tejgaon, Dhaka", phone: "01812-345686", featured: true }
+        ],
+        Rajshahi: [
+          { name: "Suzuki Rajshahi", address: "Shaheb Bazar, Rajshahi", phone: "01812-345687", featured: true }
+        ]
+      }
+    };
+
+    // Search dealers functionality
+    document.getElementById('searchDealers').addEventListener('click', function() {
+      const brand = document.getElementById('brandSelect').value;
+      const city = document.getElementById('citySelect').value;
+      
+      if (!brand || !city) {
+        alert("Please select both a brand and a city.");
+        return;
+      }
+      
+      // Show loader
+      document.getElementById('loader').classList.remove('hidden');
+      document.getElementById('mapPlaceholder').style.display = 'none';
+      document.getElementById('mapFrame').style.display = 'none';
+      
+      // Simulate loading
+      setTimeout(function() {
+        // Hide loader
+        document.getElementById('loader').classList.add('hidden');
+        
+        // Show map (simulated)
+        document.getElementById('mapFrame').style.display = 'block';
+        document.getElementById('mapFrame').src = `https://www.google.com/maps/embed/v1/search?q=${brand}+dealer+${city}+Bangladesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8`;
+        
+        // Update featured dealers
+        updateFeaturedDealers(brand, city);
+      }, 1500);
+    });
+
+    // Update featured dealers
+    function updateFeaturedDealers(brand, city) {
+      const featuredDealersContainer = document.getElementById('featuredDealers');
+      const dealers = dealerData[brand] && dealerData[brand][city];
+      
+      if (dealers && dealers.length > 0) {
+        let html = '';
+        dealers.forEach(dealer => {
+          html += `
+            <div class="dealer-card relative">
+              ${dealer.featured ? '<div class="featured-badge">Featured</div>' : ''}
+              <h3 class="font-bold text-gray-800 mb-2">${dealer.name}</h3>
+              <div class="flex items-start mb-3">
+                <i class="fas fa-map-marker-alt text-gray-400 mt-1 mr-3"></i>
+                <p class="text-gray-600 text-sm">${dealer.address}</p>
+              </div>
+              <div class="flex items-center mb-4">
+                <i class="fas fa-phone text-gray-400 mr-3"></i>
+                <p class="text-gray-600 text-sm">${dealer.phone}</p>
+              </div>
+              <div class="flex space-x-3">
+                <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg text-sm font-medium">Call Now</button>
+                <button class="flex-1 border border-blue-600 text-blue-600 hover:bg-blue-50 py-2 rounded-lg text-sm font-medium">Get Directions</button>
+              </div>
+            </div>
+          `;
+        });
+        featuredDealersContainer.innerHTML = html;
+      } else {
+        featuredDealersContainer.innerHTML = `
+          <div class="md:col-span-2 text-center py-10 text-gray-500">
+            <i class="fas fa-store text-4xl mb-4"></i>
+            <p class="font-medium mb-2">No dealers found for ${brand} in ${city}</p>
+            <p class="text-sm">Try selecting a different brand or city</p>
+          </div>
+        `;
+      }
+    }
+
+    // Brand card click handler
+    document.querySelectorAll('.dealer-card[data-brand]').forEach(card => {
+      card.addEventListener('click', function() {
+        const brand = this.getAttribute('data-brand');
+        document.getElementById('brandSelect').value = brand;
+        document.getElementById('citySelect').focus();
+        
+        // Scroll to search section
+        document.getElementById('search').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Close sidebar when clicking outside
+    document.addEventListener('click', function(event) {
+      const sidebar = document.getElementById('sidebar');
+      const hamburger = document.querySelector('.hamburger');
+      
+      if (!sidebar.contains(event.target) && !hamburger.contains(event.target) && !sidebar.classList.contains('-translate-x-full')) {
+        sidebar.classList.add('-translate-x-full');
+      }
+    });
+  </script>
+</body>
+</html>
