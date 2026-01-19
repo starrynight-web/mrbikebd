@@ -528,16 +528,6 @@
       window.location.href = 'brand.html?brand=' + encodeURIComponent(brand);
     }
     
-    // Function to toggle sidebar (preserved from original)
-    function toggleSidebar() {
-      const sidebar = document.getElementById('sidebar');
-      if (sidebar.classList.contains('-translate-x-full')) {
-        sidebar.classList.remove('-translate-x-full');
-      } else {
-        sidebar.classList.add('-translate-x-full');
-      }
-    }
-    
     // Filter functionality for brand categories
     document.addEventListener('DOMContentLoaded', function() {
       const filterButtons = document.querySelectorAll('.filter-btn');
@@ -579,16 +569,6 @@
             });
           }
         });
-      });
-      
-      // Close sidebar when clicking outside
-      document.addEventListener('click', function(event) {
-        const sidebar = document.getElementById('sidebar');
-        const hamburger = document.querySelector('.hamburger');
-        
-        if (!sidebar.contains(event.target) && !hamburger.contains(event.target) && !sidebar.classList.contains('-translate-x-full')) {
-          sidebar.classList.add('-translate-x-full');
-        }
       });
     });
   </script>

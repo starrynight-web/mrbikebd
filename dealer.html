@@ -490,12 +490,6 @@
 
   <!-- JavaScript -->
   <script>
-    // Toggle sidebar
-    function toggleSidebar() {
-      const sidebar = document.getElementById('sidebar');
-      sidebar.classList.toggle('-translate-x-full');
-    }
-
     // Sample dealer data
     const dealerData = {
       Yamaha: {
@@ -608,15 +602,6 @@
       });
     });
 
-    // Close sidebar when clicking outside
-    document.addEventListener('click', function(event) {
-      const sidebar = document.getElementById('sidebar');
-      const hamburger = document.querySelector('.hamburger');
-      
-      if (!sidebar.contains(event.target) && !hamburger.contains(event.target) && !sidebar.classList.contains('-translate-x-full')) {
-        sidebar.classList.add('-translate-x-full');
-      }
-    });
   </script>
 </body>
 </html>
