@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Used Bike Ads | MrBikeRy</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#FF8040',
+                        'primary-dark': '#E67339',
+                        'primary-light': '#FFA366'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles */
+        .filter-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+        
+        .filter-scroll::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        
+        .filter-scroll::-webkit-scrollbar-thumb {
+            background: #d1d5db;
+            border-radius: 10px;
+        }
+        
+        .filter-scroll::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af;
+        }
+        
+        .filter-chip {
+            transition: all 0.2s ease;
+        }
+        
+        .filter-chip:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .filter-chip.active {
+            background-color: #FF8040;
+            color: white;
+            border-color: #FF8040;
+        }
+        
+        .listing-card {
+            transition: all 0.3s ease;
+        }
+        
+        .listing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .skeleton {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+        
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal-content {
+            background-color: white;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease;
+        }
+        
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+        
+        .pagination-btn {
+            transition: all 0.2s ease;
+        }
+        
+        .pagination-btn:hover:not(.disabled) {
+            background-color: #f3f4f6;
+        }
+        
+        .pagination-btn.active {
+            background-color: #FF8040;
+            color: white;
+        }
+        
+        .pagination-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .filter-option {
+            transition: all 0.2s ease;
+        }
+        
+        .filter-option:hover {
+            background-color: #f9fafb;
+        }
+        
+        .filter-option.selected {
+            background-color: #FFEDE0;
+            color: #FF8040;
+            font-weight: 600;
+        }
+        
+        .urgent-badge {
+            background-color: #EF4444;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+        
+        .verified-badge {
+            background-color: #10B981;
+            color: white;
+        }
+        
+        .featured-badge {
+            background-color: #FF8040;
+            color: white;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation will be injected here -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-6">
+        <!-- Page Header with Search -->
+        <div class="mb-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+                <!-- Dynamic Title -->
+                <div>
+                    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2" id="page-title">
+                        All Used Bike Ads in Bangladesh
+                    </h1>
+                    <p class="text-gray-600" id="page-subtitle">
+                        Browse <span id="total-count" class="font-bold">2,580</span> used bikes for sale across Bangladesh
+                    </p>
+                </div>
+                
+                <!-- Search Bar -->
+                <div class="w-full md:w-auto">
+                    <div class="relative">
+                        <div class="flex items-center bg-white rounded-full shadow-sm border border-gray-300 px-4 py-3 w-full md:w-96">
+                            <i class="fas fa-search text-gray-500 mr-3"></i>
+                            <input 
+                                type="text" 
+                                placeholder="Search by brand, model, location, keyword..." 
+                                class="bg-transparent outline-none flex-grow text-gray-800 placeholder-gray-500"
+                                id="page-search-input"
+                            >
+                            <button class="text-gray-400 hover:text-gray-600 ml-2" id="clear-search">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <button 
+                            id="search-btn" 
+                            class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary hover:bg-primary-dark text-white rounded-full w-10 h-10 flex items-center justify-center transition duration-300"
+                        >
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Active Filters Display -->
+            <div class="flex flex-wrap gap-2 mb-4" id="active-filters">
+                <!-- Active filters will be shown here -->
+            </div>
+        </div>
+        
+        <!-- Filter Section -->
+        <div class="mb-8 bg-white rounded-xl shadow-sm p-4">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-lg font-bold text-gray-800">Refine Results</h2>
+                <button class="text-primary hover:text-primary-dark font-medium text-sm" id="clear-all-filters">
+                    <i class="fas fa-redo-alt mr-1"></i> Clear All
+                </button>
+            </div>
+            
+            <!-- Horizontal Filter Strip -->
+            <div class="filter-scroll overflow-x-auto pb-2">
+                <div class="flex space-x-3 min-w-max">
+                    <!-- Refine Button (Opens Modal) -->
+                    <button 
+                        class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                        id="refine-all-btn"
+                    >
+                        <i class="fas fa-sliders-h mr-2"></i>
+                        Refine All
+                    </button>
+                    
+                    <!-- Location Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="location-filter-btn"
+                        >
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Location
+                            <span class="ml-1 text-xs text-gray-500" id="location-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="location-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Location</h4>
+                                <div class="mb-3">
+                                    <input 
+                                        type="text" 
+                                        placeholder="Search location..." 
+                                        class="w-full bg-gray-100 border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary"
+                                        id="location-search"
+                                    >
+                                </div>
+                                <div class="max-h-60 overflow-y-auto">
+                                    <div class="space-y-1">
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="all">
+                                            All Bangladesh
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="dhaka">
+                                            Dhaka Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="chittagong">
+                                            Chittagong Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="khulna">
+                                            Khulna Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="rajshahi">
+                                            Rajshahi Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="sylhet">
+                                            Sylhet Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="barisal">
+                                            Barisal Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="rangpur">
+                                            Rangpur Division
+                                        </div>
+                                        <div class="filter-option px-3 py-2 rounded cursor-pointer" data-location="mymensingh">
+                                            Mymensingh Division
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Condition Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="condition-filter-btn"
+                        >
+                            <i class="fas fa-check-circle mr-2"></i>
+                            Condition
+                            <span class="ml-1 text-xs text-gray-500" id="condition-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="condition-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Condition</h4>
+                                <div class="space-y-1">
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-condition="all">
+                                        All Conditions
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-condition="used">
+                                        Used
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-condition="new">
+                                        Brand New
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-condition="reconditioned">
+                                        Reconditioned
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bike Type Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="type-filter-btn"
+                        >
+                            <i class="fas fa-motorcycle mr-2"></i>
+                            Bike Type
+                            <span class="ml-1 text-xs text-gray-500" id="type-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="type-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Bike Type</h4>
+                                <div class="space-y-1">
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-type="all">
+                                        All Types
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-type="motorcycle">
+                                        Motorcycle
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-type="scooter">
+                                        Scooter
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-type="e-bike">
+                                        E-Bike
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Brand Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="brand-filter-btn"
+                        >
+                            <i class="fas fa-tag mr-2"></i>
+                            Brand
+                            <span class="ml-1 text-xs text-gray-500" id="brand-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="brand-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Brand</h4>
+                                <div class="mb-3">
+                                    <input 
+                                        type="text" 
+                                        placeholder="Search brand..." 
+                                        class="w-full bg-gray-100 border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary"
+                                        id="brand-search"
+                                    >
+                                </div>
+                                <div class="max-h-60 overflow-y-auto">
+                                    <div class="space-y-1" id="brand-options">
+                                        <!-- Brand options will be loaded dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Year Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="year-filter-btn"
+                        >
+                            <i class="fas fa-calendar-alt mr-2"></i>
+                            Year
+                            <span class="ml-1 text-xs text-gray-500" id="year-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="year-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Year Range</h4>
+                                <div class="grid grid-cols-2 gap-3 mb-4">
+                                    <div>
+                                        <label class="block text-sm text-gray-600 mb-1">From</label>
+                                        <select class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary" id="year-from">
+                                            <option value="">Any</option>
+                                            <!-- Years will be populated dynamically -->
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm text-gray-600 mb-1">To</label>
+                                        <select class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary" id="year-to">
+                                            <option value="">Any</option>
+                                            <!-- Years will be populated dynamically -->
+                                        </select>
+                                    </div>
+                                </div>
+                                <button class="w-full bg-primary hover:bg-primary-dark text-white rounded-lg py-2 text-sm font-medium transition duration-300" id="apply-year-filter">
+                                    Apply Year Filter
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Kilometer Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="km-filter-btn"
+                        >
+                            <i class="fas fa-tachometer-alt mr-2"></i>
+                            Kilometers
+                            <span class="ml-1 text-xs text-gray-500" id="km-count">All</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="km-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Select Kilometer Range</h4>
+                                <div class="space-y-3">
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="all">
+                                        All Kilometers
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="0-10000">
+                                        Under 10,000 km
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="10000-30000">
+                                        10,000 - 30,000 km
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="30000-50000">
+                                        30,000 - 50,000 km
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="50000-80000">
+                                        50,000 - 80,000 km
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-km="80000+">
+                                        80,000+ km
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sort Filter -->
+                    <div class="relative">
+                        <button 
+                            class="filter-chip flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 font-medium text-gray-700 hover:border-primary hover:text-primary"
+                            id="sort-filter-btn"
+                        >
+                            <i class="fas fa-sort-amount-down mr-2"></i>
+                            Sort By
+                            <span class="ml-1 text-xs text-gray-500" id="sort-count">Newest</span>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-lg z-50 border border-gray-200 hidden" id="sort-dropdown">
+                            <div class="p-4">
+                                <h4 class="font-bold text-gray-800 mb-3">Sort By</h4>
+                                <div class="space-y-1">
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="newest">
+                                        Newest to Oldest
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="oldest">
+                                        Oldest to Newest
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="price-low">
+                                        Price: Low to High
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="price-high">
+                                        Price: High to Low
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="name-asc">
+                                        Name: A-Z
+                                    </div>
+                                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-sort="name-desc">
+                                        Name: Z-A
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Listings Section -->
+        <div class="mb-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="listings-container">
+                <!-- Listings will be loaded here -->
+            </div>
+            
+            <!-- Skeleton Loader (Hidden by default) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 hidden" id="skeleton-loader">
+                <!-- Skeleton cards will be generated dynamically -->
+            </div>
+            
+            <!-- No Results Message -->
+            <div class="text-center py-12 hidden" id="no-results">
+                <div class="text-gray-400 text-5xl mb-4">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-700 mb-2">No matching ads found</h3>
+                <p class="text-gray-600 mb-6">Try adjusting your search or filters to find what you're looking for.</p>
+                <button class="bg-primary hover:bg-primary-dark text-white font-medium px-6 py-3 rounded-lg transition duration-300" id="reset-search-btn">
+                    Reset Search & Filters
+                </button>
+            </div>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="flex justify-center mb-12">
+            <div class="flex items-center space-x-2" id="pagination">
+                <!-- Pagination buttons will be generated dynamically -->
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer will be injected here -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- Refine All Modal -->
+    <div class="modal-overlay" id="refine-modal">
+        <div class="modal-content">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Refine Your Search</h2>
+                    <button class="text-gray-500 hover:text-gray-700 text-2xl" id="close-refine-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <!-- Location Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Location</h3>
+                        <div class="space-y-2 max-h-60 overflow-y-auto pr-2">
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="all" id="modal-location-all">
+                                <span>All Bangladesh</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="dhaka">
+                                <span>Dhaka Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="chittagong">
+                                <span>Chittagong Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="khulna">
+                                <span>Khulna Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="rajshahi">
+                                <span>Rajshahi Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="sylhet">
+                                <span>Sylhet Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="barisal">
+                                <span>Barisal Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="rangpur">
+                                <span>Rangpur Division</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="mr-2 rounded text-primary focus:ring-primary" value="mymensingh">
+                                <span>Mymensingh Division</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Condition Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Condition</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-condition" class="mr-2 text-primary focus:ring-primary" value="all" id="modal-condition-all" checked>
+                                <span>All Conditions</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-condition" class="mr-2 text-primary focus:ring-primary" value="used">
+                                <span>Used</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-condition" class="mr-2 text-primary focus:ring-primary" value="new">
+                                <span>Brand New</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-condition" class="mr-2 text-primary focus:ring-primary" value="reconditioned">
+                                <span>Reconditioned</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Bike Type Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Bike Type</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-type" class="mr-2 text-primary focus:ring-primary" value="all" id="modal-type-all" checked>
+                                <span>All Types</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-type" class="mr-2 text-primary focus:ring-primary" value="motorcycle">
+                                <span>Motorcycle</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-type" class="mr-2 text-primary focus:ring-primary" value="scooter">
+                                <span>Scooter</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-type" class="mr-2 text-primary focus:ring-primary" value="e-bike">
+                                <span>E-Bike</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Year Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Year of Manufacture</h3>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-1">From</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary" id="modal-year-from">
+                                    <option value="">Any</option>
+                                    <!-- Years will be populated dynamically -->
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-1">To</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary" id="modal-year-to">
+                                    <option value="">Any</option>
+                                    <!-- Years will be populated dynamically -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Brand Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Brand</h3>
+                        <div class="mb-3">
+                            <input 
+                                type="text" 
+                                placeholder="Search brand..." 
+                                class="w-full bg-gray-100 border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-primary"
+                                id="modal-brand-search"
+                            >
+                        </div>
+                        <div class="max-h-40 overflow-y-auto pr-2" id="modal-brand-options">
+                            <!-- Brand options will be loaded dynamically -->
+                        </div>
+                    </div>
+                    
+                    <!-- Kilometer Section -->
+                    <div>
+                        <h3 class="font-bold text-gray-800 mb-3">Kilometers Run</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="all" id="modal-km-all" checked>
+                                <span>All Kilometers</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="0-10000">
+                                <span>Under 10,000 km</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="10000-30000">
+                                <span>10,000 - 30,000 km</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="30000-50000">
+                                <span>30,000 - 50,000 km</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="50000-80000">
+                                <span>50,000 - 80,000 km</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="modal-km" class="mr-2 text-primary focus:ring-primary" value="80000+">
+                                <span>80,000+ km</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-end space-x-4 pt-6 border-t border-gray-200">
+                    <button class="px-6 py-2 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition duration-300" id="cancel-refine-modal">
+                        Cancel
+                    </button>
+                    <button class="px-6 py-2 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition duration-300" id="apply-refine-modal">
+                        Apply Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Sample data for listings
+        const listingsData = {
+            total: 2580,
+            perPage: 20,
+            currentPage: 1,
+            listings: []
+        };
+        
+        // Sample brands data
+        const brands = [
+            "Honda", "Yamaha", "Suzuki", "Bajaj", "TVS", "Hero", 
+            "Royal Enfield", "KTM", "Kawasaki", "BMW", "Ducati", 
+            "Harley Davidson", "Aprilia", "Triumph", "MV Agusta"
+        ];
+        
+        // Current active filters
+        const activeFilters = {
+            search: "",
+            location: "all",
+            condition: "all",
+            type: "all",
+            brand: "all",
+            yearFrom: "",
+            yearTo: "",
+            km: "all",
+            sort: "newest"
+        };
+        
+        // DOM elements
+        const pageTitle = document.getElementById('page-title');
+        const pageSubtitle = document.getElementById('page-subtitle');
+        const totalCount = document.getElementById('total-count');
+        const pageSearchInput = document.getElementById('page-search-input');
+        const clearSearchBtn = document.getElementById('clear-search');
+        const searchBtn = document.getElementById('search-btn');
+        const activeFiltersContainer = document.getElementById('active-filters');
+        const clearAllFiltersBtn = document.getElementById('clear-all-filters');
+        const listingsContainer = document.getElementById('listings-container');
+        const skeletonLoader = document.getElementById('skeleton-loader');
+        const noResults = document.getElementById('no-results');
+        const resetSearchBtn = document.getElementById('reset-search-btn');
+        const pagination = document.getElementById('pagination');
+        
+        // Filter buttons and dropdowns
+        const refineAllBtn = document.getElementById('refine-all-btn');
+        const refineModal = document.getElementById('refine-modal');
+        const closeRefineModal = document.getElementById('close-refine-modal');
+        const cancelRefineModal = document.getElementById('cancel-refine-modal');
+        const applyRefineModal = document.getElementById('apply-refine-modal');
+        
+        // Individual filter buttons
+        const locationFilterBtn = document.getElementById('location-filter-btn');
+        const locationDropdown = document.getElementById('location-dropdown');
+        const conditionFilterBtn = document.getElementById('condition-filter-btn');
+        const conditionDropdown = document.getElementById('condition-dropdown');
+        const typeFilterBtn = document.getElementById('type-filter-btn');
+        const typeDropdown = document.getElementById('type-dropdown');
+        const brandFilterBtn = document.getElementById('brand-filter-btn');
+        const brandDropdown = document.getElementById('brand-dropdown');
+        const yearFilterBtn = document.getElementById('year-filter-btn');
+        const yearDropdown = document.getElementById('year-dropdown');
+        const kmFilterBtn = document.getElementById('km-filter-btn');
+        const kmDropdown = document.getElementById('km-dropdown');
+        const sortFilterBtn = document.getElementById('sort-filter-btn');
+        const sortDropdown = document.getElementById('sort-dropdown');
+        
+        // Modal filter elements
+        const modalLocationAll = document.getElementById('modal-location-all');
+        const modalConditionAll = document.getElementById('modal-condition-all');
+        const modalTypeAll = document.getElementById('modal-type-all');
+        const modalKmAll = document.getElementById('modal-km-all');
+        const modalYearFrom = document.getElementById('modal-year-from');
+        const modalYearTo = document.getElementById('modal-year-to');
+        const modalBrandSearch = document.getElementById('modal-brand-search');
+        const modalBrandOptions = document.getElementById('modal-brand-options');
+        
+        // Function to generate random listings
+        function generateListings(count) {
+            const locations = ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet", "Barisal", "Rangpur", "Mymensingh"];
+            const conditions = ["Used", "Brand New", "Reconditioned"];
+            const bikeTypes = ["Motorcycle", "Scooter", "E-Bike"];
+            const years = Array.from({length: 15}, (_, i) => 2010 + i);
+            
+            const listings = [];
+            
+            for (let i = 1; i <= count; i++) {
+                const brand = brands[Math.floor(Math.random() * brands.length)];
+                const model = `${brand} ${["CB150R", "FZS V3", "Gixxer SF", "Pulsar NS200", "Apache RTR 200", "Classic 350", "Dominar 400", "Splendor Plus"][Math.floor(Math.random() * 8)]}`;
+                const year = years[Math.floor(Math.random() * years.length)];
+                const km = Math.floor(Math.random() * 80000) + 1000;
+                const price = Math.floor(Math.random() * 500000) + 50000;
+                const location = locations[Math.floor(Math.random() * locations.length)];
+                const condition = conditions[Math.floor(Math.random() * conditions.length)];
+                const type = bikeTypes[Math.floor(Math.random() * bikeTypes.length)];
+                const postedDaysAgo = Math.floor(Math.random() * 30) + 1;
+                
+                const hasUrgent = Math.random() > 0.7;
+                const hasVerified = Math.random() > 0.5;
+                const hasFeatured = Math.random() > 0.8;
+                
+                listings.push({
+                    id: i,
+                    title: `${brand} ${model.split(' ')[1]} ${year}`,
+                    brand: brand,
+                    model: model,
+                    year: year,
+                    price: price.toLocaleString(),
+                    location: location,
+                    condition: condition,
+                    type: type,
+                    km: km.toLocaleString(),
+                    posted: `${postedDaysAgo} day${postedDaysAgo > 1 ? 's' : ''} ago`,
+                    image: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                    urgent: hasUrgent,
+                    verified: hasVerified,
+                    featured: hasFeatured
+                });
+            }
+            
+            return listings;
+        }
+        
+        // Function to update page title based on active filters
+        function updatePageTitle() {
+            let title = "All ";
+            
+            if (activeFilters.condition !== "all" && activeFilters.condition !== "used") {
+                title += activeFilters.condition === "new" ? "Brand New " : "Reconditioned ";
+            } else if (activeFilters.condition === "used") {
+                title += "Used ";
+            }
+            
+            if (activeFilters.type !== "all") {
+                title += activeFilters.type === "e-bike" ? "E-Bike" : activeFilters.type;
+                title += " ";
+            } else {
+                title += "Bike ";
+            }
+            
+            title += "Ads";
+            
+            if (activeFilters.location !== "all") {
+                const locationNames = {
+                    dhaka: "in Dhaka",
+                    chittagong: "in Chittagong",
+                    khulna: "in Khulna",
+                    rajshahi: "in Rajshahi",
+                    sylhet: "in Sylhet",
+                    barisal: "in Barisal",
+                    rangpur: "in Rangpur",
+                    mymensingh: "in Mymensingh"
+                };
+                title += ` ${locationNames[activeFilters.location] || ""}`;
+            } else {
+                title += " in Bangladesh";
+            }
+            
+            if (activeFilters.brand !== "all") {
+                title += ` - ${activeFilters.brand}`;
+            }
+            
+            pageTitle.textContent = title;
+            
+            // Update subtitle
+            const filteredCount = Math.floor(listingsData.total * (Math.random() * 0.3 + 0.7));
+            totalCount.textContent = filteredCount.toLocaleString();
+            pageSubtitle.innerHTML = `Browse <span id="total-count" class="font-bold">${filteredCount.toLocaleString()}</span> ${activeFilters.condition === "used" ? "used" : ""} bikes for sale ${activeFilters.location !== "all" ? `in ${activeFilters.location.charAt(0).toUpperCase() + activeFilters.location.slice(1)}` : "across Bangladesh"}`;
+        }
+        
+        // Function to generate listing card HTML
+        function generateListingCard(listing) {
+            let badges = '';
+            if (listing.urgent) {
+                badges += '<span class="urgent-badge text-xs font-bold px-2 py-1 rounded mr-1">URGENT</span>';
+            }
+            if (listing.featured) {
+                badges += '<span class="featured-badge text-xs font-bold px-2 py-1 rounded mr-1">FEATURED</span>';
+            }
+            if (listing.verified) {
+                badges += '<span class="verified-badge text-xs font-bold px-2 py-1 rounded">VERIFIED</span>';
+            }
+            
+            return `
+                <div class="listing-card bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden h-full flex flex-col">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="${listing.image}" alt="${listing.title}" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                        <div class="absolute top-3 left-3 flex flex-wrap gap-1">
+                            ${badges}
+                        </div>
+                        <div class="absolute top-3 right-3">
+                            <button class="w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center text-gray-700 transition duration-300">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-4 flex-grow flex flex-col">
+                        <h4 class="font-bold text-gray-800 text-sm mb-2 line-clamp-2">${listing.title}</h4>
+                        <div class="mb-3">
+                            <span class="font-bold text-primary text-lg">৳ ${listing.price}</span>
+                        </div>
+                        <div class="space-y-2 text-sm text-gray-600 mb-4 flex-grow">
+                            <div class="flex items-center">
+                                <i class="fas fa-map-marker-alt mr-2 text-primary w-4"></i>
+                                <span>${listing.location}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-calendar-alt mr-2 text-primary w-4"></i>
+                                <span>${listing.year} • ${listing.condition}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-tachometer-alt mr-2 text-primary w-4"></i>
+                                <span>${listing.km} km</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center pt-3 border-t border-gray-100">
+                            <span class="text-gray-500 text-xs">${listing.posted}</span>
+                            <button class="bg-primary hover:bg-primary-dark text-white text-xs font-medium px-3 py-1.5 rounded transition duration-300">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Function to generate skeleton loader
+        function generateSkeletonLoader() {
+            let skeletonHTML = '';
+            for (let i = 0; i < 8; i++) {
+                skeletonHTML += `
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="h-48 bg-gray-200 skeleton"></div>
+                        <div class="p-4">
+                            <div class="h-4 bg-gray-200 rounded skeleton mb-3"></div>
+                            <div class="h-6 bg-gray-200 rounded w-3/4 skeleton mb-4"></div>
+                            <div class="space-y-2 mb-4">
+                                <div class="h-3 bg-gray-200 rounded skeleton"></div>
+                                <div class="h-3 bg-gray-200 rounded skeleton"></div>
+                                <div class="h-3 bg-gray-200 rounded skeleton"></div>
+                            </div>
+                            <div class="flex justify-between items-center pt-3 border-t border-gray-100">
+                                <div class="h-3 bg-gray-200 rounded w-1/3 skeleton"></div>
+                                <div class="h-8 bg-gray-200 rounded w-1/4 skeleton"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            skeletonLoader.innerHTML = skeletonHTML;
+        }
+        
+        // Function to update active filters display
+        function updateActiveFiltersDisplay() {
+            activeFiltersContainer.innerHTML = '';
+            
+            // Search filter
+            if (activeFilters.search) {
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Search: "${activeFilters.search}"
+                        <button class="ml-2 text-blue-500 hover:text-blue-700" data-filter="search">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Location filter
+            if (activeFilters.location !== "all") {
+                const locationNames = {
+                    dhaka: "Dhaka Division",
+                    chittagong: "Chittagong Division",
+                    khulna: "Khulna Division",
+                    rajshahi: "Rajshahi Division",
+                    sylhet: "Sylhet Division",
+                    barisal: "Barisal Division",
+                    rangpur: "Rangpur Division",
+                    mymensingh: "Mymensingh Division"
+                };
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-orange-50 text-orange-700 border border-orange-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Location: ${locationNames[activeFilters.location]}
+                        <button class="ml-2 text-orange-500 hover:text-orange-700" data-filter="location">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Condition filter
+            if (activeFilters.condition !== "all") {
+                const conditionNames = {
+                    used: "Used",
+                    new: "Brand New",
+                    reconditioned: "Reconditioned"
+                };
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Condition: ${conditionNames[activeFilters.condition]}
+                        <button class="ml-2 text-green-500 hover:text-green-700" data-filter="condition">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Type filter
+            if (activeFilters.type !== "all") {
+                const typeNames = {
+                    motorcycle: "Motorcycle",
+                    scooter: "Scooter",
+                    "e-bike": "E-Bike"
+                };
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-purple-50 text-purple-700 border border-purple-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Type: ${typeNames[activeFilters.type]}
+                        <button class="ml-2 text-purple-500 hover:text-purple-700" data-filter="type">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Brand filter
+            if (activeFilters.brand !== "all") {
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-red-50 text-red-700 border border-red-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Brand: ${activeFilters.brand}
+                        <button class="ml-2 text-red-500 hover:text-red-700" data-filter="brand">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Year filter
+            if (activeFilters.yearFrom || activeFilters.yearTo) {
+                const yearText = activeFilters.yearFrom && activeFilters.yearTo 
+                    ? `${activeFilters.yearFrom}-${activeFilters.yearTo}`
+                    : activeFilters.yearFrom 
+                        ? `From ${activeFilters.yearFrom}`
+                        : `Up to ${activeFilters.yearTo}`;
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-indigo-50 text-indigo-700 border border-indigo-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Year: ${yearText}
+                        <button class="ml-2 text-indigo-500 hover:text-indigo-700" data-filter="year">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Kilometer filter
+            if (activeFilters.km !== "all") {
+                const kmNames = {
+                    "0-10000": "Under 10,000 km",
+                    "10000-30000": "10,000-30,000 km",
+                    "30000-50000": "30,000-50,000 km",
+                    "50000-80000": "50,000-80,000 km",
+                    "80000+": "80,000+ km"
+                };
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Kilometers: ${kmNames[activeFilters.km]}
+                        <button class="ml-2 text-teal-500 hover:text-teal-700" data-filter="km">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+            
+            // Sort filter (if not default)
+            if (activeFilters.sort !== "newest") {
+                const sortNames = {
+                    oldest: "Oldest First",
+                    "price-low": "Price: Low to High",
+                    "price-high": "Price: High to Low",
+                    "name-asc": "Name: A-Z",
+                    "name-desc": "Name: Z-A"
+                };
+                
+                activeFiltersContainer.innerHTML += `
+                    <div class="bg-gray-100 text-gray-700 border border-gray-300 rounded-full px-3 py-1.5 text-sm flex items-center">
+                        Sort: ${sortNames[activeFilters.sort]}
+                        <button class="ml-2 text-gray-500 hover:text-gray-700" data-filter="sort">
+                            <i class="fas fa-times text-xs"></i>
+                        </button>
+                    </div>
+                `;
+            }
+        }
+        
+        // Function to update filter button counts
+        function updateFilterButtonCounts() {
+            // Update location count
+            document.getElementById('location-count').textContent = activeFilters.location === 'all' ? 'All' : '1';
+            
+            // Update condition count
+            document.getElementById('condition-count').textContent = activeFilters.condition === 'all' ? 'All' : '1';
+            
+            // Update type count
+            document.getElementById('type-count').textContent = activeFilters.type === 'all' ? 'All' : '1';
+            
+            // Update brand count
+            document.getElementById('brand-count').textContent = activeFilters.brand === 'all' ? 'All' : '1';
+            
+            // Update year count
+            if (activeFilters.yearFrom || activeFilters.yearTo) {
+                document.getElementById('year-count').textContent = '1';
+            } else {
+                document.getElementById('year-count').textContent = 'All';
+            }
+            
+            // Update km count
+            document.getElementById('km-count').textContent = activeFilters.km === 'all' ? 'All' : '1';
+            
+            // Update sort count
+            const sortNames = {
+                newest: "Newest",
+                oldest: "Oldest",
+                "price-low": "Price: Low",
+                "price-high": "Price: High",
+                "name-asc": "A-Z",
+                "name-desc": "Z-A"
+            };
+            document.getElementById('sort-count').textContent = sortNames[activeFilters.sort];
+        }
+        
+        // Function to populate brand options
+        function populateBrandOptions() {
+            let brandOptionsHTML = '<div class="filter-option px-3 py-2 rounded cursor-pointer" data-brand="all">All Brands</div>';
+            
+            brands.forEach(brand => {
+                brandOptionsHTML += `
+                    <div class="filter-option px-3 py-2 rounded cursor-pointer" data-brand="${brand}">
+                        ${brand}
+                    </div>
+                `;
+            });
+            
+            document.getElementById('brand-options').innerHTML = brandOptionsHTML;
+            modalBrandOptions.innerHTML = brandOptionsHTML;
+        }
+        
+        // Function to populate year options
+        function populateYearOptions() {
+            const currentYear = new Date().getFullYear();
+            let yearOptionsFrom = '<option value="">Any</option>';
+            let yearOptionsTo = '<option value="">Any</option>';
+            
+            for (let year = currentYear; year >= 2000; year--) {
+                yearOptionsFrom += `<option value="${year}">${year}</option>`;
+                yearOptionsTo += `<option value="${year}">${year}</option>`;
+            }
+            
+            document.getElementById('year-from').innerHTML = yearOptionsFrom;
+            document.getElementById('year-to').innerHTML = yearOptionsTo;
+            modalYearFrom.innerHTML = yearOptionsFrom;
+            modalYearTo.innerHTML = yearOptionsTo;
+            
+            // Set current values if they exist
+            if (activeFilters.yearFrom) {
+                document.getElementById('year-from').value = activeFilters.yearFrom;
+                modalYearFrom.value = activeFilters.yearFrom;
+            }
+            
+            if (activeFilters.yearTo) {
+                document.getElementById('year-to').value = activeFilters.yearTo;
+                modalYearTo.value = activeFilters.yearTo;
+            }
+        }
+        
+        // Function to load listings
+        function loadListings(page = 1) {
+            listingsData.currentPage = page;
+            
+            // Show skeleton loader
+            listingsContainer.classList.add('hidden');
+            skeletonLoader.classList.remove('hidden');
+            noResults.classList.add('hidden');
+            
+            // Generate listings for current page
+            const startIndex = (page - 1) * listingsData.perPage;
+            const endIndex = startIndex + listingsData.perPage;
+            
+            // Simulate API delay
+            setTimeout(() => {
+                // Hide skeleton loader
+                skeletonLoader.classList.add('hidden');
+                
+                // Generate filtered listings
+                let filteredListings = generateListings(listingsData.perPage);
+                
+                // Apply search filter
+                if (activeFilters.search) {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.title.toLowerCase().includes(activeFilters.search.toLowerCase()) ||
+                        listing.brand.toLowerCase().includes(activeFilters.search.toLowerCase()) ||
+                        listing.location.toLowerCase().includes(activeFilters.search.toLowerCase())
+                    );
+                }
+                
+                // Apply other filters
+                if (activeFilters.location !== 'all') {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.location.toLowerCase().includes(activeFilters.location.toLowerCase())
+                    );
+                }
+                
+                if (activeFilters.condition !== 'all') {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.condition.toLowerCase().includes(activeFilters.condition.toLowerCase())
+                    );
+                }
+                
+                if (activeFilters.type !== 'all') {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.type.toLowerCase() === activeFilters.type.toLowerCase()
+                    );
+                }
+                
+                if (activeFilters.brand !== 'all') {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.brand === activeFilters.brand
+                    );
+                }
+                
+                if (activeFilters.yearFrom) {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.year >= parseInt(activeFilters.yearFrom)
+                    );
+                }
+                
+                if (activeFilters.yearTo) {
+                    filteredListings = filteredListings.filter(listing => 
+                        listing.year <= parseInt(activeFilters.yearTo)
+                    );
+                }
+                
+                if (activeFilters.km !== 'all') {
+                    const kmRanges = {
+                        "0-10000": [0, 10000],
+                        "10000-30000": [10000, 30000],
+                        "30000-50000": [30000, 50000],
+                        "50000-80000": [50000, 80000],
+                        "80000+": [80000, 999999]
+                    };
+                    
+                    const [minKm, maxKm] = kmRanges[activeFilters.km];
+                    filteredListings = filteredListings.filter(listing => {
+                        const kmNum = parseInt(listing.km.replace(/,/g, ''));
+                        return kmNum >= minKm && kmNum <= maxKm;
+                    });
+                }
+                
+                // Apply sorting
+                switch (activeFilters.sort) {
+                    case 'oldest':
+                        filteredListings.sort((a, b) => a.year - b.year);
+                        break;
+                    case 'price-low':
+                        filteredListings.sort((a, b) => parseInt(a.price.replace(/,/g, '')) - parseInt(b.price.replace(/,/g, '')));
+                        break;
+                    case 'price-high':
+                        filteredListings.sort((a, b) => parseInt(b.price.replace(/,/g, '')) - parseInt(a.price.replace(/,/g, '')));
+                        break;
+                    case 'name-asc':
+                        filteredListings.sort((a, b) => a.title.localeCompare(b.title));
+                        break;
+                    case 'name-desc':
+                        filteredListings.sort((a, b) => b.title.localeCompare(a.title));
+                        break;
+                    default: // newest
+                        filteredListings.sort((a, b) => b.year - a.year);
+                }
+                
+                // Check if we have results
+                if (filteredListings.length === 0) {
+                    noResults.classList.remove('hidden');
+                    listingsContainer.classList.add('hidden');
+                } else {
+                    // Display listings
+                    listingsContainer.innerHTML = '';
+                    filteredListings.forEach(listing => {
+                        listingsContainer.innerHTML += generateListingCard(listing);
+                    });
+                    listingsContainer.classList.remove('hidden');
+                }
+                
+                // Update pagination
+                updatePagination();
+            }, 500);
+        }
+        
+        // Function to update pagination
+        function updatePagination() {
+            const totalPages = Math.ceil(listingsData.total / listingsData.perPage);
+            const currentPage = listingsData.currentPage;
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <button class="pagination-btn w-10 h-10 flex items-center justify-center rounded-lg border border-gray-300 ${currentPage === 1 ? 'disabled' : ''}" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}">
+                    <i class="fas fa-chevron-left text-sm"></i>
+                </button>
+            `;
+            
+            // Page numbers
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+            
+            if (endPage - startPage + 1 < maxVisiblePages) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+            
+            for (let i = startPage; i <= endPage; i++) {
+                paginationHTML += `
+                    <button class="pagination-btn w-10 h-10 flex items-center justify-center rounded-lg border ${i === currentPage ? 'active border-primary' : 'border-gray-300'}" data-page="${i}">
+                        ${i}
+                    </button>
+                `;
+            }
+            
+            // Next button
+            paginationHTML += `
+                <button class="pagination-btn w-10 h-10 flex items-center justify-center rounded-lg border border-gray-300 ${currentPage === totalPages ? 'disabled' : ''}" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">
+                    <i class="fas fa-chevron-right text-sm"></i>
+                </button>
+            `;
+            
+            pagination.innerHTML = paginationHTML;
+        }
+        
+        // Function to apply filters
+        function applyFilters() {
+            updatePageTitle();
+            updateActiveFiltersDisplay();
+            updateFilterButtonCounts();
+            loadListings(1);
+        }
+        
+        // Function to reset all filters
+        function resetAllFilters() {
+            activeFilters.search = "";
+            activeFilters.location = "all";
+            activeFilters.condition = "all";
+            activeFilters.type = "all";
+            activeFilters.brand = "all";
+            activeFilters.yearFrom = "";
+            activeFilters.yearTo = "";
+            activeFilters.km = "all";
+            activeFilters.sort = "newest";
+            
+            pageSearchInput.value = "";
+            
+            // Reset modal checkboxes
+            modalLocationAll.checked = true;
+            modalConditionAll.checked = true;
+            modalTypeAll.checked = true;
+            modalKmAll.checked = true;
+            modalYearFrom.value = "";
+            modalYearTo.value = "";
+            
+            applyFilters();
+        }
+        
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Generate initial listings
+            listingsData.listings = generateListings(listingsData.total);
+            
+            // Generate skeleton loader
+            generateSkeletonLoader();
+            
+            // Populate brand and year options
+            populateBrandOptions();
+            populateYearOptions();
+            
+            // Load initial listings
+            applyFilters();
+            
+            // Event listeners for search
+            pageSearchInput.addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    activeFilters.search = this.value.trim();
+                    applyFilters();
+                }
+            });
+            
+            searchBtn.addEventListener('click', function() {
+                activeFilters.search = pageSearchInput.value.trim();
+                applyFilters();
+            });
+            
+            clearSearchBtn.addEventListener('click', function() {
+                pageSearchInput.value = "";
+                activeFilters.search = "";
+                applyFilters();
+            });
+            
+            // Event listener for clear all filters
+            clearAllFiltersBtn.addEventListener('click', resetAllFilters);
+            
+            // Event listener for reset search button
+            resetSearchBtn.addEventListener('click', resetAllFilters);
+            
+            // Event listener for active filters (remove individual filter)
+            activeFiltersContainer.addEventListener('click', function(e) {
+                if (e.target.closest('button[data-filter]')) {
+                    const filterType = e.target.closest('button[data-filter]').getAttribute('data-filter');
+                    
+                    switch (filterType) {
+                        case 'search':
+                            activeFilters.search = "";
+                            pageSearchInput.value = "";
+                            break;
+                        case 'location':
+                            activeFilters.location = "all";
+                            break;
+                        case 'condition':
+                            activeFilters.condition = "all";
+                            break;
+                        case 'type':
+                            activeFilters.type = "all";
+                            break;
+                        case 'brand':
+                            activeFilters.brand = "all";
+                            break;
+                        case 'year':
+                            activeFilters.yearFrom = "";
+                            activeFilters.yearTo = "";
+                            break;
+                        case 'km':
+                            activeFilters.km = "all";
+                            break;
+                        case 'sort':
+                            activeFilters.sort = "newest";
+                            break;
+                    }
+                    
+                    applyFilters();
+                }
+            });
+            
+            // Event listeners for individual filter dropdowns
+            // Location filter
+            locationFilterBtn.addEventListener('click', function() {
+                locationDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                conditionDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Condition filter
+            conditionFilterBtn.addEventListener('click', function() {
+                conditionDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Type filter
+            typeFilterBtn.addEventListener('click', function() {
+                typeDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                conditionDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Brand filter
+            brandFilterBtn.addEventListener('click', function() {
+                brandDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                conditionDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Year filter
+            yearFilterBtn.addEventListener('click', function() {
+                yearDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                conditionDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Kilometer filter
+            kmFilterBtn.addEventListener('click', function() {
+                kmDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                conditionDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                sortDropdown.classList.add('hidden');
+            });
+            
+            // Sort filter
+            sortFilterBtn.addEventListener('click', function() {
+                sortDropdown.classList.toggle('hidden');
+                
+                // Hide other dropdowns
+                locationDropdown.classList.add('hidden');
+                conditionDropdown.classList.add('hidden');
+                typeDropdown.classList.add('hidden');
+                brandDropdown.classList.add('hidden');
+                yearDropdown.classList.add('hidden');
+                kmDropdown.classList.add('hidden');
+            });
+            
+            // Close dropdowns when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!locationFilterBtn.contains(e.target) && !locationDropdown.contains(e.target)) {
+                    locationDropdown.classList.add('hidden');
+                }
+                
+                if (!conditionFilterBtn.contains(e.target) && !conditionDropdown.contains(e.target)) {
+                    conditionDropdown.classList.add('hidden');
+                }
+                
+                if (!typeFilterBtn.contains(e.target) && !typeDropdown.contains(e.target)) {
+                    typeDropdown.classList.add('hidden');
+                }
+                
+                if (!brandFilterBtn.contains(e.target) && !brandDropdown.contains(e.target)) {
+                    brandDropdown.classList.add('hidden');
+                }
+                
+                if (!yearFilterBtn.contains(e.target) && !yearDropdown.contains(e.target)) {
+                    yearDropdown.classList.add('hidden');
+                }
+                
+                if (!kmFilterBtn.contains(e.target) && !kmDropdown.contains(e.target)) {
+                    kmDropdown.classList.add('hidden');
+                }
+                
+                if (!sortFilterBtn.contains(e.target) && !sortDropdown.contains(e.target)) {
+                    sortDropdown.classList.add('hidden');
+                }
+            });
+            
+            // Event listeners for filter options
+            // Location options
+            document.querySelectorAll('[data-location]').forEach(option => {
+                option.addEventListener('click', function() {
+                    activeFilters.location = this.getAttribute('data-location');
+                    locationDropdown.classList.add('hidden');
+                    applyFilters();
+                });
+            });
+            
+            // Condition options
+            document.querySelectorAll('[data-condition]').forEach(option => {
+                option.addEventListener('click', function() {
+                    activeFilters.condition = this.getAttribute('data-condition');
+                    conditionDropdown.classList.add('hidden');
+                    applyFilters();
+                });
+            });
+            
+            // Type options
+            document.querySelectorAll('[data-type]').forEach(option => {
+                option.addEventListener('click', function() {
+                    activeFilters.type = this.getAttribute('data-type');
+                    typeDropdown.classList.add('hidden');
+                    applyFilters();
+                });
+            });
+            
+            // Brand options
+            document.addEventListener('click', function(e) {
+                if (e.target.closest('[data-brand]')) {
+                    const brandOption = e.target.closest('[data-brand]');
+                    activeFilters.brand = brandOption.getAttribute('data-brand');
+                    brandDropdown.classList.add('hidden');
+                    applyFilters();
+                }
+            });
+            
+            // Apply year filter
+            document.getElementById('apply-year-filter').addEventListener('click', function() {
+                activeFilters.yearFrom = document.getElementById('year-from').value;
+                activeFilters.yearTo = document.getElementById('year-to').value;
+                yearDropdown.classList.add('hidden');
+                applyFilters();
+            });
+            
+            // Kilometer options
+            document.querySelectorAll('[data-km]').forEach(option => {
+                option.addEventListener('click', function() {
+                    activeFilters.km = this.getAttribute('data-km');
+                    kmDropdown.classList.add('hidden');
+                    applyFilters();
+                });
+            });
+            
+            // Sort options
+            document.querySelectorAll('[data-sort]').forEach(option => {
+                option.addEventListener('click', function() {
+                    activeFilters.sort = this.getAttribute('data-sort');
+                    sortDropdown.classList.add('hidden');
+                    applyFilters();
+                });
+            });
+            
+            // Brand search functionality
+            document.getElementById('brand-search').addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const brandOptions = document.querySelectorAll('#brand-options .filter-option');
+                
+                brandOptions.forEach(option => {
+                    const brandText = option.textContent.toLowerCase();
+                    if (brandText.includes(searchTerm) || searchTerm === '') {
+                        option.style.display = 'block';
+                    } else {
+                        option.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Modal brand search functionality
+            modalBrandSearch.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const brandOptions = document.querySelectorAll('#modal-brand-options .filter-option');
+                
+                brandOptions.forEach(option => {
+                    const brandText = option.textContent.toLowerCase();
+                    if (brandText.includes(searchTerm) || searchTerm === '') {
+                        option.style.display = 'block';
+                    } else {
+                        option.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Event listeners for modal
+            refineAllBtn.addEventListener('click', function() {
+                // Set modal values based on current filters
+                // Location checkboxes
+                document.querySelectorAll('#refine-modal input[type="checkbox"][value]').forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                
+                if (activeFilters.location === "all") {
+                    modalLocationAll.checked = true;
+                } else {
+                    const locationCheckbox = document.querySelector(`#refine-modal input[value="${activeFilters.location}"]`);
+                    if (locationCheckbox) locationCheckbox.checked = true;
+                }
+                
+                // Condition radio
+                document.querySelector(`#refine-modal input[value="${activeFilters.condition}"]`).checked = true;
+                
+                // Type radio
+                document.querySelector(`#refine-modal input[value="${activeFilters.type}"]`).checked = true;
+                
+                // Brand checkboxes
+                document.querySelectorAll('#modal-brand-options input[type="checkbox"]').forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                
+                if (activeFilters.brand === "all") {
+                    document.querySelector('#modal-brand-options input[value="all"]').checked = true;
+                } else {
+                    const brandCheckbox = document.querySelector(`#modal-brand-options input[value="${activeFilters.brand}"]`);
+                    if (brandCheckbox) brandCheckbox.checked = true;
+                }
+                
+                // Year selects
+                modalYearFrom.value = activeFilters.yearFrom;
+                modalYearTo.value = activeFilters.yearTo;
+                
+                // Kilometer radio
+                document.querySelector(`#refine-modal input[value="${activeFilters.km}"]`).checked = true;
+                
+                refineModal.classList.add('active');
+            });
+            
+            closeRefineModal.addEventListener('click', function() {
+                refineModal.classList.remove('active');
+            });
+            
+            cancelRefineModal.addEventListener('click', function() {
+                refineModal.classList.remove('active');
+            });
+            
+            applyRefineModal.addEventListener('click', function() {
+                // Get values from modal
+                // Location
+                const locationCheckboxes = document.querySelectorAll('#refine-modal input[type="checkbox"][value]:checked');
+                if (locationCheckboxes.length === 0 || modalLocationAll.checked) {
+                    activeFilters.location = "all";
+                } else {
+                    // For simplicity, just take the first selected location
+                    activeFilters.location = locationCheckboxes[0].value;
+                }
+                
+                // Condition
+                const conditionRadio = document.querySelector('#refine-modal input[name="modal-condition"]:checked');
+                activeFilters.condition = conditionRadio.value;
+                
+                // Type
+                const typeRadio = document.querySelector('#refine-modal input[name="modal-type"]:checked');
+                activeFilters.type = typeRadio.value;
+                
+                // Brand
+                const brandCheckboxes = document.querySelectorAll('#modal-brand-options input[type="checkbox"]:checked');
+                if (brandCheckboxes.length === 0 || document.querySelector('#modal-brand-options input[value="all"]').checked) {
+                    activeFilters.brand = "all";
+                } else {
+                    // For simplicity, just take the first selected brand
+                    activeFilters.brand = brandCheckboxes[0].value;
+                }
+                
+                // Year
+                activeFilters.yearFrom = modalYearFrom.value;
+                activeFilters.yearTo = modalYearTo.value;
+                
+                // Kilometer
+                const kmRadio = document.querySelector('#refine-modal input[name="modal-km"]:checked');
+                activeFilters.km = kmRadio.value;
+                
+                refineModal.classList.remove('active');
+                applyFilters();
+            });
+            
+            // Close modal when clicking outside
+            refineModal.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('active');
+                }
+            });
+            
+            // Event listener for pagination
+            pagination.addEventListener('click', function(e) {
+                if (e.target.closest('.pagination-btn')) {
+                    const pageBtn = e.target.closest('.pagination-btn');
+                    if (!pageBtn.classList.contains('disabled')) {
+                        const page = parseInt(pageBtn.getAttribute('data-page'));
+                        loadListings(page);
+                        
+                        // Scroll to top of listings
+                        window.scrollTo({
+                            top: listingsContainer.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Shared Navbar and Footer Script -->
+    <script src="nav-foot.js"></script>
+</body>
+</html>

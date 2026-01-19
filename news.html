@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Latest Bike News - Mr Bike</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Custom animations and styles */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    /* News card styling */
+    .news-card {
+      transition: all 0.3s ease;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .news-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border-color: #3b82f6;
+    }
+    
+    /* Badge styles */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .badge-news {
+      background-color: #3b82f6;
+      color: white;
+    }
+    
+    .badge-review {
+      background-color: #10b981;
+      color: white;
+    }
+    
+    .badge-launch {
+      background-color: #8b5cf6;
+      color: white;
+    }
+    
+    .badge-update {
+      background-color: #f59e0b;
+      color: white;
+    }
+    
+    /* Category filter styling */
+    .category-filter {
+      position: relative;
+      transition: all 0.3s ease;
+      padding-bottom: 4px;
+    }
+    
+    .category-filter.active {
+      color: #2563eb;
+      font-weight: 600;
+    }
+    
+    .category-filter.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background-color: #2563eb;
+      border-radius: 2px;
+    }
+    
+    .category-filter:hover:not(.active) {
+      color: #4b5563;
+    }
+    
+    /* Search bar styling */
+    .search-bar-hero {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .search-bar-hero:focus-within {
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      transform: translateY(-2px);
+    }
+    
+    /* Read time indicator */
+    .read-time {
+      display: inline-flex;
+      align-items: center;
+      background-color: #f3f4f6;
+      color: #6b7280;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+    
+    /* Image hover effect */
+    .news-image {
+      transition: transform 0.5s ease;
+    }
+    
+    .news-card:hover .news-image {
+      transform: scale(1.05);
+    }
+    
+    /* Newsletter subscription */
+    .newsletter-input {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0;
+    }
+    
+    .newsletter-btn {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-50">
+  <div id="navbar-placeholder"></div>
+
+  <!-- Hero Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Latest Bike News</h1>
+        <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+          Stay updated with the newest launches, reviews, price changes, and industry updates from the Bangladeshi motorcycle market.
+        </p>
+        
+        <!-- Search bar -->
+        <div class="search-bar-hero bg-white rounded-full p-2 max-w-2xl mx-auto mb-8">
+          <div class="flex items-center">
+            <div class="flex-grow pl-6 pr-2">
+              <input 
+                type="text" 
+                placeholder="Search news, reviews, or bike models..." 
+                class="w-full bg-transparent outline-none text-gray-800 text-base py-2"
+                id="news-search"
+              >
+            </div>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5 py-2.5 font-medium transition duration-300 flex items-center text-sm" id="news-search-button">
+              <i class="fas fa-search mr-2"></i>
+              Search
+            </button>
+          </div>
+        </div>
+        
+        <!-- Category filters -->
+        <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+          <a href="#" class="category-filter active text-white text-lg" data-category="all">
+            All News
+          </a>
+          <a href="#" class="category-filter text-blue-200 hover:text-white text-lg" data-category="launches">
+            New Launches
+          </a>
+          <a href="#" class="category-filter text-blue-200 hover:text-white text-lg" data-category="reviews">
+            Expert Reviews
+          </a>
+          <a href="#" class="category-filter text-blue-200 hover:text-white text-lg" data-category="updates">
+            Price Updates
+          </a>
+          <a href="#" class="category-filter text-blue-200 hover:text-white text-lg" data-category="industry">
+            Industry News
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="py-12 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <!-- News Grid -->
+        <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <!-- News cards will be dynamically populated -->
+        </div>
+        
+        <!-- Pagination -->
+        <div class="flex justify-center items-center space-x-2">
+          <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed" id="prev-page">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="flex space-x-1">
+            <button class="px-3 py-1 bg-blue-600 text-white rounded-lg">1</button>
+            <button class="px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition duration-300">2</button>
+            <button class="px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition duration-300">3</button>
+            <span class="px-2 py-1">...</span>
+            <button class="px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition duration-300">8</button>
+          </div>
+          <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition duration-300" id="next-page">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="py-12 bg-gradient-to-r from-blue-50 to-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="bg-white rounded-xl p-8 shadow-sm">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Stay Updated</h2>
+          <p class="text-gray-600 mb-6">
+            Subscribe to our newsletter and get the latest bike news, reviews, and price updates delivered directly to your inbox.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <input 
+              type="email" 
+              placeholder="Enter your email address" 
+              class="flex-grow px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 newsletter-input"
+            >
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition duration-300 newsletter-btn">
+              Subscribe
+            </button>
+          </div>
+          <p class="text-gray-500 text-sm mt-4">
+            We respect your privacy. Unsubscribe at any time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Updates Section -->
+  <section class="py-12 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-8">Recent Updates</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Most Viewed -->
+          <div class="bg-white rounded-xl p-6 shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+              <i class="fas fa-fire text-orange-500 mr-2"></i>
+              Most Viewed
+            </h3>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Yamaha MT-15 2025 Launch Details</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Electric Bike Price Drop in Bangladesh</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Honda CB Hornet 160R Returning Soon</a></li>
+            </ul>
+          </div>
+          
+          <!-- Latest Reviews -->
+          <div class="bg-white rounded-xl p-6 shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+              <i class="fas fa-star text-yellow-500 mr-2"></i>
+              Latest Reviews
+            </h3>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Suzuki Gixxer SF 2025 First Ride</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">TVS Apache RTR 200 4V Long Term</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Bajaj Pulsar N250 Review</a></li>
+            </ul>
+          </div>
+          
+          <!-- Price Changes -->
+          <div class="bg-white rounded-xl p-6 shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+              <i class="fas fa-tag text-green-500 mr-2"></i>
+              Price Changes
+            </h3>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Royal Enfield Price Revision</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">KTM Duke Series Price Update</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Hero Xtreme 160R New Pricing</a></li>
+            </ul>
+          </div>
+          
+          <!-- Upcoming Launches -->
+          <div class="bg-white rounded-xl p-6 shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+              <i class="fas fa-rocket text-purple-500 mr-2"></i>
+              Upcoming Launches
+            </h3>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Aprilia RS 457 Coming Soon</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">Kawasaki Ninja 500 Expected</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-blue-600 text-sm">BMW G 310 R 2025 Model</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="nav-foot.js"></script>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // News data
+      const newsData = [
+        {
+          id: 1,
+          title: "Yamaha MT-15 2025 Edition Unveiled",
+          excerpt: "Yamaha has launched the updated MT-15 with a refined engine, dual-channel ABS, and aggressive new graphics. The streetfighter now offers even more bang for the buck in the 150cc segment.",
+          image: "https://images.unsplash.com/photo-1566896509656-2f6b21a35177?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 30, 2025",
+          author: "MrBikeBD",
+          category: "launches",
+          readTime: "3 min read",
+          badge: "badge-launch"
+        },
+        {
+          id: 2,
+          title: "Suzuki Gixxer SF 2025: First Look & Review",
+          excerpt: "The 2025 Suzuki Gixxer SF brings sportier styling, updated digital console, and better aerodynamics. With a powerful 155cc engine, it's geared toward performance lovers.",
+          image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 28, 2025",
+          author: "Staff Reporter",
+          category: "reviews",
+          readTime: "5 min read",
+          badge: "badge-review"
+        },
+        {
+          id: 3,
+          title: "Honda CB Hornet 160R Returning to Bangladesh Market",
+          excerpt: "Honda is bringing back the Hornet 160R to the Bangladesh market with new design, LED lighting, and a BS6-compliant engine. Expected launch in early June.",
+          image: "https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 25, 2025",
+          author: "Admin",
+          category: "launches",
+          readTime: "4 min read",
+          badge: "badge-launch"
+        },
+        {
+          id: 4,
+          title: "Electric Bike Prices Drop by 15% in Bangladesh",
+          excerpt: "Due to new government policies and reduced import duties, electric motorcycle prices have seen a significant drop, making them more accessible to the masses.",
+          image: "https://images.unsplash.com/photo-1598522325072-2d2efd5960e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 22, 2025",
+          author: "Industry Analyst",
+          category: "updates",
+          readTime: "3 min read",
+          badge: "badge-update"
+        },
+        {
+          id: 5,
+          title: "Bangladesh Motorcycle Industry Growth Report 2024",
+          excerpt: "The motorcycle market in Bangladesh grew by 22% in 2024, with electric vehicles leading the charge. Detailed analysis of market trends and future predictions.",
+          image: "https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 20, 2025",
+          author: "Research Team",
+          category: "industry",
+          readTime: "6 min read",
+          badge: "badge-news"
+        },
+        {
+          id: 6,
+          title: "TVS Apache RTR 200 4V Long Term Ownership Review",
+          excerpt: "After 10,000 km and 12 months of ownership, we share our complete experience with the TVS Apache RTR 200 4V, including maintenance costs and performance.",
+          image: "https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          date: "May 18, 2025",
+          author: "Expert Reviewer",
+          category: "reviews",
+          readTime: "8 min read",
+          badge: "badge-review"
+        }
+      ];
+
+      // DOM Elements
+      const newsGrid = document.getElementById('news-grid');
+      const newsSearch = document.getElementById('news-search');
+      const newsSearchButton = document.getElementById('news-search-button');
+      const categoryFilters = document.querySelectorAll('.category-filter');
+      const prevPageBtn = document.getElementById('prev-page');
+      const nextPageBtn = document.getElementById('next-page');
+
+      // Current state
+      let currentCategory = 'all';
+      let currentPage = 1;
+      const itemsPerPage = 6;
+
+      // Generate news card HTML
+      function generateNewsCard(article) {
+        return `
+          <div class="news-card bg-white h-full" data-category="${article.category}">
+            <div class="relative overflow-hidden h-48">
+              <img 
+                src="${article.image}" 
+                alt="${article.title}" 
+                class="w-full h-full object-cover news-image"
+              >
+              <div class="absolute top-3 left-3">
+                <span class="${article.badge}">${article.category.charAt(0).toUpperCase() + article.category.slice(1)}</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-start mb-3">
+                <span class="text-blue-600 text-sm font-medium">${article.date}</span>
+                <span class="read-time">
+                  <i class="fas fa-clock mr-1"></i>
+                  ${article.readTime}
+                </span>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3 line-clamp-2">${article.title}</h3>
+              <p class="text-gray-600 mb-4 line-clamp-3">${article.excerpt}</p>
+              <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                <span class="text-gray-500 text-sm">
+                  <i class="fas fa-user mr-1"></i>
+                  ${article.author}
+                </span>
+                <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                  Read More <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      // Filter and display news
+      function displayNews(filter = 'all') {
+        currentCategory = filter;
+        
+        // Filter news
+        const filteredNews = filter === 'all' 
+          ? newsData 
+          : newsData.filter(article => article.category === filter);
+        
+        // Clear grid
+        newsGrid.innerHTML = '';
+        
+        // Add news cards
+        filteredNews.forEach(article => {
+          newsGrid.innerHTML += generateNewsCard(article);
+        });
+        
+        // Update active filter
+        categoryFilters.forEach(filterEl => {
+          const filterCategory = filterEl.getAttribute('data-category');
+          if (filterCategory === filter) {
+            filterEl.classList.remove('text-blue-200', 'hover:text-white');
+            filterEl.classList.add('active', 'text-white');
+          } else {
+            filterEl.classList.remove('active', 'text-white');
+            filterEl.classList.add('text-blue-200', 'hover:text-white');
+          }
+        });
+        
+        // Add click events to news cards
+        document.querySelectorAll('.news-card').forEach(card => {
+          card.addEventListener('click', function() {
+            const title = this.querySelector('h3').textContent;
+            alert(`Opening article: "${title}"`);
+          });
+        });
+      }
+
+      // Search functionality
+      function searchNews(query) {
+        const filtered = newsData.filter(article => 
+          article.title.toLowerCase().includes(query.toLowerCase()) ||
+          article.excerpt.toLowerCase().includes(query.toLowerCase()) ||
+          article.author.toLowerCase().includes(query.toLowerCase())
+        );
+        
+        newsGrid.innerHTML = '';
+        filtered.forEach(article => {
+          newsGrid.innerHTML += generateNewsCard(article);
+        });
+      }
+
+      // Event Listeners
+      categoryFilters.forEach(filter => {
+        filter.addEventListener('click', function(e) {
+          e.preventDefault();
+          const category = this.getAttribute('data-category');
+          displayNews(category);
+        });
+      });
+
+      newsSearchButton.addEventListener('click', function() {
+        const query = newsSearch.value.trim();
+        if (query) {
+          searchNews(query);
+        }
+      });
+
+      newsSearch.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+          const query = this.value.trim();
+          if (query) {
+            searchNews(query);
+          }
+        }
+      });
+
+      prevPageBtn.addEventListener('click', function() {
+        if (currentPage > 1) {
+          currentPage--;
+          alert(`Loading page ${currentPage}`);
+          // In a real app, you would fetch page data here
+        }
+      });
+
+      nextPageBtn.addEventListener('click', function() {
+        currentPage++;
+        alert(`Loading page ${currentPage}`);
+        // In a real app, you would fetch page data here
+      });
+
+      // Initialize
+      displayNews('all');
+    });
+  </script>
+</body>
+</html>

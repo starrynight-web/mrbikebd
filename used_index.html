@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrBikeRy | Used Bike Marketplace in Bangladesh</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#FF8040',
+                        'primary-dark': '#E67339',
+                        'primary-light': '#FFA366'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles */
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                            url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            min-height: 80vh;
+        }
+        
+        .category-card {
+            transition: all 0.3s ease;
+            min-width: 250px;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 128, 64, 0.2);
+        }
+        
+        .bike-ad-card {
+            transition: all 0.3s ease;
+            min-width: 280px;
+        }
+        
+        .bike-ad-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .featured-ad-card {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .featured-ad-card:hover {
+            border-color: #FF8040;
+            transform: translateY(-5px);
+        }
+        
+        .carousel-container {
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+        }
+        
+        .carousel-container::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .carousel-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            opacity: 0.8;
+            background-color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+        
+        .carousel-arrow:hover {
+            opacity: 1;
+        }
+        
+        .carousel-arrow.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .carousel-arrow.left-arrow {
+            left: 10px;
+        }
+        
+        .carousel-arrow.right-arrow {
+            right: 10px;
+        }
+        
+        .category-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .category-link.active {
+            color: #FF8040;
+            font-weight: 600;
+        }
+        
+        .category-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #FF8040;
+            border-radius: 2px;
+        }
+        
+        .subcategory-link {
+            position: relative;
+            transition: all 0.3s ease;
+            padding: 6px 12px;
+            border-radius: 20px;
+        }
+        
+        .subcategory-link.active {
+            background-color: #FF8040;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .subcategory-link:hover:not(.active) {
+            background-color: #f3f4f6;
+        }
+        
+        .place-ad-section {
+            background: linear-gradient(135deg, #FF8040 0%, #FFA366 100%);
+        }
+        
+        .stats-card {
+            transition: all 0.3s ease;
+        }
+        
+        .stats-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 128, 64, 0.3);
+        }
+        
+        .urgent-badge {
+            background-color: #EF4444;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        .verified-badge {
+            background-color: #10B981;
+            color: white;
+        }
+        
+        .featured-badge {
+            background-color: #FF8040;
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation will be injected here -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-bg relative flex items-center">
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">
+                    Find Your Perfect Used Bike in Bangladesh
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-gray-200 leading-relaxed">
+                    Buy and sell pre-owned motorcycles with confidence. Thousands of verified bikes from trusted sellers across Bangladesh.
+                </p>
+                
+                <!-- Search bar -->
+                <div class="bg-white rounded-lg p-2 max-w-2xl shadow-xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-grow p-2">
+                            <input 
+                                type="text" 
+                                placeholder="Search by brand, model, location, or keyword..." 
+                                class="w-full bg-transparent outline-none text-gray-800 text-base py-2 pl-4"
+                                id="hero-search"
+                            >
+                        </div>
+                        <div class="flex p-2">
+                            <button class="bg-primary hover:bg-primary-dark text-white rounded-lg px-6 py-3 font-medium transition duration-300 flex items-center text-sm md:text-base">
+                                <i class="fas fa-search mr-2"></i>
+                                Search Bikes
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick filters -->
+                    <div class="px-4 py-3 border-t border-gray-100">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-gray-600 text-sm mr-2">Quick filters:</span>
+                            <a href="#" class="text-primary hover:text-primary-dark text-sm font-medium bg-orange-50 px-3 py-1 rounded-full">Under ৳50,000</a>
+                            <a href="#" class="text-primary hover:text-primary-dark text-sm font-medium bg-orange-50 px-3 py-1 rounded-full">Honda</a>
+                            <a href="#" class="text-primary hover:text-primary-dark text-sm font-medium bg-orange-50 px-3 py-1 rounded-full">Yamaha</a>
+                            <a href="#" class="text-primary hover:text-primary-dark text-sm font-medium bg-orange-50 px-3 py-1 rounded-full">Dhaka</a>
+                            <a href="#" class="text-primary hover:text-primary-dark text-sm font-medium bg-orange-50 px-3 py-1 rounded-full">Last 7 Days</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stats -->
+                <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                        <div class="text-2xl md:text-3xl font-bold text-white">2,500+</div>
+                        <div class="text-gray-200 text-sm">Bikes for Sale</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                        <div class="text-2xl md:text-3xl font-bold text-white">120+</div>
+                        <div class="text-gray-200 text-sm">Cities Covered</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                        <div class="text-2xl md:text-3xl font-bold text-white">15,000+</div>
+                        <div class="text-gray-200 text-sm">Happy Customers</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                        <div class="text-2xl md:text-3xl font-bold text-white">98%</div>
+                        <div class="text-gray-200 text-sm">Verified Sellers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Browse By Category</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Find used bikes by your preferred category</p>
+            </div>
+            
+            <!-- Category Tabs -->
+            <div class="flex justify-center mb-8">
+                <div class="inline-flex rounded-lg border border-gray-200 p-1">
+                    <button class="category-link active px-6 py-2 text-gray-700 font-medium" data-category="brand">
+                        Brand
+                    </button>
+                    <button class="category-link px-6 py-2 text-gray-500 font-medium" data-category="price">
+                        Price
+                    </button>
+                    <button class="category-link px-6 py-2 text-gray-500 font-medium" data-category="cc">
+                        Engine (CC)
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Category Cards -->
+            <div id="category-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <!-- Brand categories will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Bike Ads -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Featured Bike Ads</h2>
+                    <p class="text-gray-600">Best deals from verified sellers</p>
+                </div>
+                
+                <!-- Subcategory tabs -->
+                <div class="flex space-x-2 mt-4 md:mt-0">
+                    <a href="#" class="subcategory-link active" data-subcategory="recent">
+                        Recent
+                    </a>
+                    <a href="#" class="subcategory-link" data-subcategory="lowest">
+                        Lowest Price
+                    </a>
+                    <a href="#" class="subcategory-link" data-subcategory="highest">
+                        Highest Price
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Featured Ads Carousel -->
+            <div class="relative">
+                <button id="ads-left-arrow" class="carousel-arrow left-arrow disabled">
+                    <i class="fas fa-chevron-left text-gray-700"></i>
+                </button>
+                
+                <div id="ads-carousel" class="carousel-container overflow-x-auto flex space-x-6 pb-4">
+                    <!-- Featured ads will be dynamically inserted here -->
+                </div>
+                
+                <button id="ads-right-arrow" class="carousel-arrow right-arrow">
+                    <i class="fas fa-chevron-right text-gray-700"></i>
+                </button>
+            </div>
+            
+            <!-- View all link -->
+            <div class="mt-8 text-center">
+                <a href="#" class="inline-flex items-center text-primary hover:text-primary-dark font-medium text-lg">
+                    View All Ads
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Place Your Ad Section -->
+    <section class="place-ad-section py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Sell Your Bike in 3 Easy Steps</h2>
+                <p class="text-white/90 text-lg mb-10">Reach thousands of potential buyers across Bangladesh</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-4">1</div>
+                        <h3 class="text-xl font-bold text-white mb-3">Create Your Ad</h3>
+                        <p class="text-white/80">Upload photos, add details, and set your price</p>
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-4">2</div>
+                        <h3 class="text-xl font-bold text-white mb-3">Get Verified</h3>
+                        <p class="text-white/80">Get seller verification badge for more trust</p>
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-4">3</div>
+                        <h3 class="text-xl font-bold text-white mb-3">Start Selling</h3>
+                        <p class="text-white/80">Receive offers and negotiate with buyers</p>
+                    </div>
+                </div>
+                
+                <button class="bg-white text-primary hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
+                    <i class="fas fa-plus-circle mr-2"></i>
+                    Place Your Ad Now
+                </button>
+                
+                <p class="text-white/80 mt-6 text-sm">
+                    <i class="fas fa-shield-alt mr-1"></i>
+                    Free listing • No commission • Seller protection
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Summary -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose MrBikeRy?</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Bangladesh's most trusted used bike marketplace</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="stats-card bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary text-xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Verified Listings</h3>
+                    <p class="text-gray-600">Every ad goes through our verification process to ensure authenticity</p>
+                </div>
+                
+                <div class="stats-card bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary text-xl mb-4">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Price Transparency</h3>
+                    <p class="text-gray-600">See fair market prices and avoid overpaying for used bikes</p>
+                </div>
+                
+                <div class="stats-card bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary text-xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Direct Chat</h3>
+                    <p class="text-gray-600">Chat directly with sellers to ask questions and negotiate prices</p>
+                </div>
+                
+                <div class="stats-card bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary text-xl mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Nationwide Reach</h3>
+                    <p class="text-gray-600">Find bikes from all over Bangladesh with location-based search</p>
+                </div>
+            </div>
+            
+            <!-- Additional stats -->
+            <div class="mt-16 bg-gray-50 rounded-2xl p-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-2">5 Years</div>
+                        <div class="text-gray-600">Market Experience</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-2">50,000+</div>
+                        <div class="text-gray-600">Successful Sales</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-2">500+</div>
+                        <div class="text-gray-600">Trusted Dealers</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-2">24/7</div>
+                        <div class="text-gray-600">Customer Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be injected here -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Custom JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Category data
+            const categoryData = {
+                brand: [
+                    { name: 'Honda', count: '850+', icon: 'fas fa-motorcycle', color: 'bg-red-50 text-red-600' },
+                    { name: 'Yamaha', count: '620+', icon: 'fas fa-motorcycle', color: 'bg-blue-50 text-blue-600' },
+                    { name: 'Suzuki', count: '430+', icon: 'fas fa-motorcycle', color: 'bg-yellow-50 text-yellow-600' },
+                    { name: 'Bajaj', count: '380+', icon: 'fas fa-motorcycle', color: 'bg-green-50 text-green-600' },
+                    { name: 'TVS', count: '290+', icon: 'fas fa-motorcycle', color: 'bg-purple-50 text-purple-600' },
+                    { name: 'Hero', count: '220+', icon: 'fas fa-motorcycle', color: 'bg-pink-50 text-pink-600' }
+                ],
+                price: [
+                    { name: 'Under ৳50k', count: '450+', icon: 'fas fa-tag', color: 'bg-green-50 text-green-600' },
+                    { name: '৳50k - ৳1L', count: '850+', icon: 'fas fa-tag', color: 'bg-blue-50 text-blue-600' },
+                    { name: '৳1L - ৳2L', count: '620+', icon: 'fas fa-tag', color: 'bg-yellow-50 text-yellow-600' },
+                    { name: '৳2L - ৳3L', count: '380+', icon: 'fas fa-tag', color: 'bg-orange-50 text-orange-600' },
+                    { name: '৳3L - ৳5L', count: '190+', icon: 'fas fa-tag', color: 'bg-red-50 text-red-600' },
+                    { name: 'Above ৳5L', count: '80+', icon: 'fas fa-tag', color: 'bg-purple-50 text-purple-600' }
+                ],
+                cc: [
+                    { name: 'Up to 100cc', count: '650+', icon: 'fas fa-tachometer-alt', color: 'bg-green-50 text-green-600' },
+                    { name: '101-125cc', count: '820+', icon: 'fas fa-tachometer-alt', color: 'bg-blue-50 text-blue-600' },
+                    { name: '126-150cc', count: '580+', icon: 'fas fa-tachometer-alt', color: 'bg-yellow-50 text-yellow-600' },
+                    { name: '151-200cc', count: '320+', icon: 'fas fa-tachometer-alt', color: 'bg-orange-50 text-orange-600' },
+                    { name: '201-250cc', count: '180+', icon: 'fas fa-tachometer-alt', color: 'bg-red-50 text-red-600' },
+                    { name: '250cc+', count: '90+', icon: 'fas fa-tachometer-alt', color: 'bg-purple-50 text-purple-600' }
+                ]
+            };
+            
+            // Featured ads data
+            const adsData = {
+                recent: [
+                    { 
+                        id: 1, 
+                        title: 'Honda CB Hornet 160R 2019', 
+                        price: '৳ 1,85,000', 
+                        location: 'Mirpur, Dhaka', 
+                        date: '2 hours ago',
+                        image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: true,
+                        verified: true,
+                        urgent: false
+                    },
+                    { 
+                        id: 2, 
+                        title: 'Yamaha FZS FI V3 2021', 
+                        price: '৳ 2,20,000', 
+                        location: 'Gulshan, Dhaka', 
+                        date: '5 hours ago',
+                        image: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: false,
+                        verified: true,
+                        urgent: true
+                    },
+                    { 
+                        id: 3, 
+                        title: 'Suzuki Gixxer SF 2020', 
+                        price: '৳ 1,95,000', 
+                        location: 'Chittagong', 
+                        date: '1 day ago',
+                        image: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: true,
+                        verified: true,
+                        urgent: false
+                    },
+                    { 
+                        id: 4, 
+                        title: 'Bajaj Pulsar NS200 2018', 
+                        price: '৳ 1,65,000', 
+                        location: 'Khulna', 
+                        date: '2 days ago',
+                        image: 'https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: false,
+                        verified: true,
+                        urgent: false
+                    },
+                    { 
+                        id: 5, 
+                        title: 'TVS Apache RTR 160 2022', 
+                        price: '৳ 2,10,000', 
+                        location: 'Sylhet', 
+                        date: '3 days ago',
+                        image: 'https://images.unsplash.com/photo-1519315901365-2c6e0a0f4c3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: true,
+                        verified: false,
+                        urgent: true
+                    },
+                    { 
+                        id: 6, 
+                        title: 'Hero Splendor Plus 2020', 
+                        price: '৳ 75,000', 
+                        location: 'Rajshahi', 
+                        date: '3 days ago',
+                        image: 'https://images.unsplash.com/photo-1566896509656-2f6b21a35177?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: false,
+                        verified: true,
+                        urgent: false
+                    }
+                ],
+                lowest: [
+                    { 
+                        id: 7, 
+                        title: 'Hero HF Deluxe 2017', 
+                        price: '৳ 45,000', 
+                        location: 'Narayanganj', 
+                        date: '1 week ago',
+                        image: 'https://images.unsplash.com/photo-1572363473494-4d42e6c8c89e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: false,
+                        verified: true,
+                        urgent: false
+                    },
+                    { 
+                        id: 8, 
+                        title: 'TVS Star City 2018', 
+                        price: '৳ 55,000', 
+                        location: 'Comilla', 
+                        date: '4 days ago',
+                        image: 'https://images.unsplash.com/photo-1598522325072-2d2efd5960e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: false,
+                        verified: true,
+                        urgent: false
+                    }
+                ],
+                highest: [
+                    { 
+                        id: 9, 
+                        title: 'Kawasaki Ninja 300 2020', 
+                        price: '৳ 5,50,000', 
+                        location: 'Uttara, Dhaka', 
+                        date: '2 days ago',
+                        image: 'https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: true,
+                        verified: true,
+                        urgent: false
+                    },
+                    { 
+                        id: 10, 
+                        title: 'Royal Enfield Classic 350 2021', 
+                        price: '৳ 4,80,000', 
+                        location: 'Banani, Dhaka', 
+                        date: '1 week ago',
+                        image: 'https://images.unsplash.com/photo-1565084888279-aca607ecce0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+                        featured: true,
+                        verified: true,
+                        urgent: true
+                    }
+                ]
+            };
+            
+            // DOM elements
+            const categoryLinks = document.querySelectorAll('.category-link');
+            const categoryContainer = document.getElementById('category-container');
+            const subcategoryLinks = document.querySelectorAll('.subcategory-link');
+            const adsCarousel = document.getElementById('ads-carousel');
+            const adsLeftArrow = document.getElementById('ads-left-arrow');
+            const adsRightArrow = document.getElementById('ads-right-arrow');
+            
+            // Current active category and subcategory
+            let activeCategory = 'brand';
+            let activeSubcategory = 'recent';
+            
+            // Function to generate category card HTML
+            function generateCategoryCard(item) {
+                return `
+                    <div class="category-card bg-white border border-gray-100 rounded-xl p-4 text-center cursor-pointer hover:border-primary">
+                        <div class="w-12 h-12 ${item.color} rounded-full flex items-center justify-center text-xl mx-auto mb-3">
+                            <i class="${item.icon}"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-800 mb-1">${item.name}</h3>
+                        <p class="text-gray-500 text-sm">${item.count} bikes</p>
+                    </div>
+                `;
+            }
+            
+            // Function to generate ad card HTML
+            function generateAdCard(ad) {
+                let badges = '';
+                if (ad.urgent) {
+                    badges += '<span class="urgent-badge text-xs font-bold px-2 py-1 rounded mr-1">URGENT</span>';
+                }
+                if (ad.featured) {
+                    badges += '<span class="featured-badge text-xs font-bold px-2 py-1 rounded mr-1">FEATURED</span>';
+                }
+                if (ad.verified) {
+                    badges += '<span class="verified-badge text-xs font-bold px-2 py-1 rounded">VERIFIED</span>';
+                }
+                
+                return `
+                    <div class="bike-ad-card featured-ad-card bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="${ad.image}" alt="${ad.title}" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                            <div class="absolute top-3 left-3 flex flex-wrap gap-1">
+                                ${badges}
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-800 text-sm mb-2 line-clamp-2 h-10">${ad.title}</h4>
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="font-bold text-primary text-lg">${ad.price}</span>
+                                <span class="text-gray-500 text-xs">${ad.date}</span>
+                            </div>
+                            <div class="flex items-center text-gray-600 text-sm">
+                                <i class="fas fa-map-marker-alt mr-1 text-primary"></i>
+                                ${ad.location}
+                            </div>
+                            <div class="flex space-x-2 mt-4">
+                                <button class="flex-1 bg-primary hover:bg-primary-dark text-white text-sm font-medium py-2 rounded transition duration-300">
+                                    <i class="fas fa-eye mr-1"></i> View Details
+                                </button>
+                                <button class="w-10 h-10 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded flex items-center justify-center transition duration-300">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Function to display categories
+            function displayCategories(category) {
+                activeCategory = category;
+                
+                // Update active link
+                categoryLinks.forEach(link => {
+                    const linkCategory = link.getAttribute('data-category');
+                    if (linkCategory === category) {
+                        link.classList.remove('text-gray-500');
+                        link.classList.add('active', 'text-gray-700');
+                    } else {
+                        link.classList.remove('active', 'text-gray-700');
+                        link.classList.add('text-gray-500');
+                    }
+                });
+                
+                // Clear and populate container
+                categoryContainer.innerHTML = '';
+                categoryData[category].forEach(item => {
+                    categoryContainer.innerHTML += generateCategoryCard(item);
+                });
+            }
+            
+            // Function to display ads
+            function displayAds(subcategory) {
+                activeSubcategory = subcategory;
+                
+                // Update active link
+                subcategoryLinks.forEach(link => {
+                    const linkSubcategory = link.getAttribute('data-subcategory');
+                    if (linkSubcategory === subcategory) {
+                        link.classList.remove('text-gray-700');
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                        link.classList.add('text-gray-700');
+                    }
+                });
+                
+                // Clear and populate carousel
+                adsCarousel.innerHTML = '';
+                
+                // Combine recent ads with subcategory-specific ads
+                let adsToShow = [...adsData.recent];
+                
+                if (subcategory === 'lowest') {
+                    adsToShow = [...adsData.lowest, ...adsData.recent.slice(0, 4)];
+                } else if (subcategory === 'highest') {
+                    adsToShow = [...adsData.highest, ...adsData.recent.slice(0, 4)];
+                }
+                
+                adsToShow.forEach(ad => {
+                    adsCarousel.innerHTML += generateAdCard(ad);
+                });
+                
+                // Update arrow states
+                updateArrowStates(adsCarousel, adsLeftArrow, adsRightArrow);
+            }
+            
+            // Function to update arrow states
+            function updateArrowStates(carouselElement, leftArrow, rightArrow) {
+                const scrollLeft = carouselElement.scrollLeft;
+                const scrollWidth = carouselElement.scrollWidth;
+                const clientWidth = carouselElement.clientWidth;
+                
+                if (scrollLeft <= 10) {
+                    leftArrow.classList.add('disabled');
+                } else {
+                    leftArrow.classList.remove('disabled');
+                }
+                
+                if (scrollLeft + clientWidth >= scrollWidth - 10) {
+                    rightArrow.classList.add('disabled');
+                } else {
+                    rightArrow.classList.remove('disabled');
+                }
+            }
+            
+            // Initialize carousel arrows
+            function initializeCarouselArrows(carouselElement, leftArrow, rightArrow) {
+                updateArrowStates(carouselElement, leftArrow, rightArrow);
+                
+                carouselElement.addEventListener('scroll', function() {
+                    updateArrowStates(carouselElement, leftArrow, rightArrow);
+                });
+                
+                window.addEventListener('resize', function() {
+                    updateArrowStates(carouselElement, leftArrow, rightArrow);
+                });
+            }
+            
+            // Event listeners for category tabs
+            categoryLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const category = this.getAttribute('data-category');
+                    if (category !== activeCategory) {
+                        displayCategories(category);
+                    }
+                });
+            });
+            
+            // Event listeners for subcategory tabs
+            subcategoryLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const subcategory = this.getAttribute('data-subcategory');
+                    if (subcategory !== activeSubcategory) {
+                        displayAds(subcategory);
+                    }
+                });
+            });
+            
+            // Carousel arrow functionality
+            adsLeftArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    adsCarousel.scrollBy({ left: -320, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(adsCarousel, adsLeftArrow, adsRightArrow), 300);
+                }
+            });
+            
+            adsRightArrow.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    adsCarousel.scrollBy({ left: 320, behavior: 'smooth' });
+                    setTimeout(() => updateArrowStates(adsCarousel, adsLeftArrow, adsRightArrow), 300);
+                }
+            });
+            
+            // Initialize
+            displayCategories('brand');
+            displayAds('recent');
+            
+            // Initialize carousel arrows after content is loaded
+            setTimeout(() => {
+                initializeCarouselArrows(adsCarousel, adsLeftArrow, adsRightArrow);
+            }, 500);
+            
+            // Hero search functionality
+            const heroSearch = document.getElementById('hero-search');
+            heroSearch.addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    const searchTerm = this.value.trim();
+                    if (searchTerm) {
+                        alert(`Searching for: ${searchTerm}`);
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Shared Navbar and Footer Script -->
+    <script src="nav-foot.js"></script>
+</body>
+</html>
