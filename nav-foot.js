@@ -211,21 +211,21 @@
         // Common links for both modes
         const commonLinks = `
             <hr class="my-2 border-gray-200">
-            <a href="compare.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-balance-scale mr-3 w-5 text-center"></i>Compare Bikes</a>
-            <a href="calculator.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-calculator mr-3 w-5 text-center"></i>EMI Calculator</a>
-            <a href="reg.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-id-card mr-3 w-5 text-center"></i>Reg. Guide</a>
-            <a href="dealer.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-store mr-3 w-5 text-center"></i>Find Dealers</a>
-            <a href="bike.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-motorcycle mr-3 w-5 text-center"></i>Bike Detail</a>
+            <a href="bike_compare.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-balance-scale mr-3 w-5 text-center"></i>Compare Bikes</a>
+            <a href="ex_calculator.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-calculator mr-3 w-5 text-center"></i>EMI Calculator</a>
+            <a href="bike_reg.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-id-card mr-3 w-5 text-center"></i>Reg. Guide</a>
+            <a href="bike_dealer.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-store mr-3 w-5 text-center"></i>Find Dealers</a>
+            <a href="bike_view.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-motorcycle mr-3 w-5 text-center"></i>Bike Detail</a>
             
             <hr class="my-2 border-gray-200">
             <a href="about.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-info-circle mr-3 w-5 text-center"></i>About Us</a>
-            <a href="company.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-building mr-3 w-5 text-center"></i>Our Company</a>
-            <a href="contact.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-envelope mr-3 w-5 text-center"></i>Contact Us</a>
+            <a href="bike_brands.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-building mr-3 w-5 text-center"></i>Our Company</a>
+            <a href="bike_contact.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-envelope mr-3 w-5 text-center"></i>Contact Us</a>
             <a href="advertise.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-ad mr-3 w-5 text-center"></i>Advertise</a>
             
             <hr class="my-2 border-gray-200">
-            <a href="privacy.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-user-shield mr-3 w-5 text-center"></i>Privacy Policy</a>
-            <a href="terms.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-file-contract mr-3 w-5 text-center"></i>Terms of Service</a>
+            <a href="bike_privacy.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-user-shield mr-3 w-5 text-center"></i>Privacy Policy</a>
+            <a href="bike_terms.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-file-contract mr-3 w-5 text-center"></i>Terms of Service</a>
         `;
 
         if (isUsedPage) {
@@ -241,8 +241,8 @@
             mobileMenuItems = `
                 <a href="index.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-home mr-3 w-5 text-center"></i>Home</a>
                 <a href="used_index.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-exchange-alt mr-3 w-5 text-center"></i>Used Bikes</a>
-                <a href="#" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-tags mr-3 w-5 text-center"></i>Brands</a>
-                <a href="#" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-newspaper mr-3 w-5 text-center"></i>News</a>
+                <a href="bike_brands.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-tags mr-3 w-5 text-center"></i>Brands</a>
+                <a href="bike_news.html" class="text-gray-800 ${C.mobileLinkHover} font-medium py-2 flex items-center"><i class="fas fa-newspaper mr-3 w-5 text-center"></i>News</a>
                 ${commonLinks}
             `;
         }
@@ -369,24 +369,24 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Home</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Featured Bikes</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Compare Bikes</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Latest News</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Expert Reviews</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Bike Videos</a></li>
+                        <li><a href="index.html" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Home</a></li>
+                        <li><a href="index.html#featured" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Featured Bikes</a></li>
+                        <li><a href="bike_compare.html" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Compare Bikes</a></li>
+                        <li><a href="bike_news.html" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Latest News</a></li>
+                        <li><a href="bike_news.html" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Expert Reviews</a></li>
+                        <li><a href="bike_news.html" class="footer-link text-gray-400 flex items-center"><i class="fas fa-chevron-right text-xs mr-2 ${C.footerIconColor}"></i>Bike Videos</a></li>
                     </ul>
                 </div>
                 <!-- Column 3: Popular Brands -->
                 <div>
                     <h4 class="text-lg font-semibold mb-6">Popular Brands</h4>
                     <ul class="space-y-3">
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Honda</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Yamaha</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Suzuki</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Bajaj</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>TVS</a></li>
-                        <li><a href="#" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Royal Enfield</a></li>
+                        <li><a href="bike_catalogue.html?brand=Honda" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Honda</a></li>
+                        <li><a href="bike_catalogue.html?brand=Yamaha" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Yamaha</a></li>
+                        <li><a href="bike_catalogue.html?brand=Suzuki" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Suzuki</a></li>
+                        <li><a href="bike_catalogue.html?brand=Bajaj" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Bajaj</a></li>
+                        <li><a href="bike_catalogue.html?brand=TVS" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>TVS</a></li>
+                        <li><a href="bike_catalogue.html?brand=Royal%20Enfield" class="footer-link text-gray-400 flex items-center"><i class="fas fa-motorcycle text-xs mr-2 ${C.footerIconColor}"></i>Royal Enfield</a></li>
                     </ul>
                 </div>
             `;
@@ -493,10 +493,10 @@
                     </div>
                     
                     <div class="flex flex-wrap justify-center space-x-6">
-                        <a href="#" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Privacy Policy</a>
-                        <a href="#" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Terms of Service</a>
+                        <a href="bike_privacy.html" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Privacy Policy</a>
+                        <a href="bike_terms.html" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Terms of Service</a>
                         ${isUsedPage ? `<a href="#" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Safety Tips</a>` : ''}
-                        <a href="#" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Cookie Policy</a>
+                        <a href="bike_privacy.html" class="text-gray-500 hover:text-gray-300 text-sm transition duration-300">Cookie Policy</a>
                     </div>
                 </div>
                 
